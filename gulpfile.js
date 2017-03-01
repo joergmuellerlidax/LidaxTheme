@@ -3,7 +3,7 @@ const JS_DIST   = './resources/js/dist/';
 const JS_LANG   = './resources/js/lang/';
 const SCSS_SRC  = './resources/scss/';
 const SCSS_DIST = './resources/css/';
-const OUTPUT_PREFIX = 'main';
+const OUTPUT_PREFIX = 'ceres';
 
 // import gulp
 var fs = require('fs');
@@ -45,11 +45,11 @@ gulp.task('build', ['build:bundle', 'build:sass-min']);
 
 gulp.task('build:bundle', ['build:app', 'build:vendor', 'build:lang'], function() {
     return gulp.src( [
-        JS_LANG + '*.js',
-        JS_DIST + OUTPUT_PREFIX + '-vendor.js',
-        JS_SRC + 'app.config.js',
-        JS_DIST + OUTPUT_PREFIX + '-app.js'
-    ] )
+            JS_LANG + '*.js',
+            JS_DIST + OUTPUT_PREFIX + '-vendor.js',
+            JS_SRC + 'app.config.js',
+            JS_DIST + OUTPUT_PREFIX + '-app.js'
+            ] )
         .pipe( sourcemaps.init({ loadMaps: true }) )
         .pipe( concat( OUTPUT_PREFIX + '.js' ) )
         .pipe( gulp.dest( JS_DIST ) )
@@ -170,7 +170,7 @@ function buildSass( outputFile, outputStyle )
     };
 
     return gulp
-        .src( SCSS_SRC + 'main.scss' )
+        .src( SCSS_SRC + 'Ceres.scss' )
         .pipe( sourcemaps.init() )
         .pipe( sass( config.scssOptions ).on( 'error', sass.logError ) )
         .pipe( rename( outputFile ) )
