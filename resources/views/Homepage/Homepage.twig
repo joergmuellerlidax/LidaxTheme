@@ -1,5 +1,4 @@
 {% extends 'Ceres::Homepage.Homepage' %}
-{% set homepageHeadlineDE  = config("Kiom.homepage.homepageHeadlineDE") %}
 
 {% block ThemeHomepage %}
 
@@ -10,29 +9,17 @@
         <div class="col-xs-12 text-xs-center">
             <i class="fa fa-gg-circle fa-5x" aria-hidden="true"></i>
             <h1>
-                {% if services.sessionStorage.getLang() == "de" %}
-                    {{ homepageHeadlineDE }}
-                {% elseif services.sessionStorage.getLang() == "en" %}
-                    {{ homepageHeadlineEN }}
-                {% endif %}
+            KIOM
             </h1>
             <h3>
-                {% if services.sessionStorage.getLang() == "de" %}
-                    {{ homepageSublineDE }}
-                {% elseif services.sessionStorage.getLang() == "en" %}
-                    {{ homepageSublineEN }}
-                {% endif %}
+                Subheading
             </h3>
         </div>
     </div>
     <div class="row page-content categoriegrid">
         <div class="col-xs-12 p-y-2">
             <h1 class="m-b-2">
-                {% if services.sessionStorage.getLang() == "de" %}
-                    {{ homepageSectionHeadingDE }}
-                {% elseif services.sessionStorage.getLang() == "en" %}
-                    {{ homepageSectionHeadingEN }}
-                {% endif %}
+                Section Heading
             </h1>
 <ul class="product-list row grid">
     <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
