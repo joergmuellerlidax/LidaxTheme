@@ -1,0 +1,27 @@
+{
+    "version"           : "1.0.0",
+    "name"              : "Kiom",
+    "description"       : "Kiom Theme",
+    "author"            : "Frontend Studios GmbH",
+    "license"           : "AGPL-3.0",
+    "pluginIcon"        : "icon_plugin_xs.png",
+    "price"             : 0.00,
+    "shortDescription"  : {"de": "Kiom Kunden Theme","en": "Kiom Customer Theme"},
+    "authorIcon"        : "icon_author_xs.png",
+    "categories"        : ["3518"],
+    "email"             : "dev@frontend-studios.de",
+    "phone"             : "+49 561 9885097-0",
+    "keywords"          : ["plentymarkets", "plugins", "layout", "theme", "ceres", "Kiom", "frontend studios"],
+    "type"              : "theme",
+    "require"           : ["Ceres", "IO"],
+    "namespace"         : "Kiom",
+    "serviceProvider"   : "Kiom\\Providers\\KiomServiceProvider",
+    "dataProviders"     :
+    [
+      {
+        "key":"Kiom\\Containers\\Kiom",
+        "name":"Kiom",
+        "description":"Kiom Theme"
+      }
+    ]
+}
