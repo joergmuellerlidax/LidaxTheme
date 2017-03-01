@@ -2,10 +2,15 @@
 
 namespace Kiom\Providers;
 
+
+use IO\Extensions\Functions\Partial;
+use IO\Helper\CategoryKey;
+use IO\Helper\CategoryMap;
 use IO\Helper\TemplateContainer;
-use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
+use Plenty\Plugin\Events\Dispatcher;
+use Plenty\Plugin\ConfigRepository;
 
 class KiomServiceProvider extends ServiceProvider
 {
