@@ -1,4 +1,22 @@
+.selected-filters {
+    display: inline-block;
+    float: right;
+    margin-right: 3rem;
+    .selected-filter {
+        font-size: .8rem;
+        padding: .5em;
+        margin: .5em;
+        cursor: pointer;
+        background:$gray-lighter2;
+        &:hover {
+            background: $gray-lighter;
+            color: $brand-danger;
+        }
+    }
+}
 .filter-toggle {
+    display: inline-block;
+    float: right;
     &[aria-expanded="true"]{
         i::before {
             content: "\f00d";
