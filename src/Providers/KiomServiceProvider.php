@@ -24,7 +24,7 @@ class KiomServiceProvider extends ServiceProvider
          
     }
 
-    public function boot (Twig $twig, Dispatcher $eventDispatcher)
+    public function boot(Twig $twig, Dispatcher $eventDispatcher, ConfigRepository $config)
     {
 
         // provide template to use for homepage
@@ -40,10 +40,8 @@ class KiomServiceProvider extends ServiceProvider
         });
 
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
-            // $partial->set('head', 'Kiom::PageDesign.Partials.Head');
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
             $partial->set('footer', 'Kiom::PageDesign.Partials.Footer');
-            // $partial->set('page-design', 'Kiom::PageDesign.PageDesign');
         }, self::EVENT_LISTENER_PRIORITY);
     }
 }
