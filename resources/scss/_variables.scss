@@ -7,12 +7,12 @@
 // --------------------------------------------------
 
 // Flags settings
-$flag-icon-css-path: '../images/flags' !default;
-$flag-icon-rect-path: '/4x3' !default;
-$flag-icon-square-path: '/1x1' !default;
+// $flag-icon-css-path: '../images/flags' !default;
+// $flag-icon-rect-path: '/4x3' !default;
+// $flag-icon-square-path: '/1x1' !default;
 
 //font awesome
-$fa-font-path: "../documents/fonts" !default;
+// $fa-font-path: "../documents/fonts" !default;
 
 // Spacing
 //
@@ -71,16 +71,16 @@ $grid-gutter-width: 30px !default;
 //## Gray and brand colors for use across Bootstrap.
 
 
-$gray-darker:           #282d2f !default;
-$gray-dark:             #4D4F4D !default;
-$gray:                  #7a7f7f !default;
-$gray-light:            #b2b1a7 !default;
-$gray-lighter:          #dcdbd8 !default;
-$gray-lighter2:         #f4f4f4 !default;
+$gray-darker:           #222 !default;
+$gray-dark:             #555 !default;
+$gray:                  #a3a3a3 !default;
+$gray-light:            #b6b6b6 !default;
+$gray-lighter:          #ccc !default;
+$gray-lighter2:         #efefef !default;
 $gray-lightest:         #f7f7f9 !default;
 
-$brand-primary:         #008ebd !default;
-$brand-secondary:       #d4021d !default;
+$brand-primary:         #fbc000 !default;
+$brand-secondary:       #fce28b !default;
 
 $brand-success:         #7ED321 !default;
 $brand-info:            #5bc0de !default;
@@ -118,10 +118,10 @@ $availability_5:        $brand-danger !default;
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               white !default;
+$body-bg:               $gray-lightest !default;
 //$body-color:            $gray-dark !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            $gray-darker !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -454,7 +454,7 @@ $zindex-modal-bg:          $zIndex-7 !default;
 $zindex-modal:             $zIndex-8 !default;
 
 // Navbar
-$navbar-background-color:           $gray-lightest !default;
+$navbar-background-color:           $black !default;
 $navbar-border-radius:              0 !default;
 $navbar-padding-x:                  $spacer !default;
 $navbar-padding-y:                  ($spacer / 2) !default;

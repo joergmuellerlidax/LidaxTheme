@@ -1,83 +1,59 @@
-.categories-list{}
-
-.page-infos{
-	display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-
-    .product-count{
-    	flex: 1;
-    }
-}
-
-
-.item-confirm-special-case-close {
-  float: right;
-}
-
-.item-confirm-special-case-blue {
-  float: left;
-  width: initial;
-  position: absolute;
-}
-
-.modal-content-special-case {
-  width: 93%;
-}
-
-.product-list{
-	list-style-type: none;
-	padding: 0;
-	margin-bottom: 0;
-
-	display: flex;
-	flex-flow: row wrap;
-
-//	li{
-//        @include make-col-ready(12);
-//        @include make-col(12);
-//	}
-}
-
-.lazy{
-    display:none;
-}
-
-@include media-breakpoint-up(sm){
-    .product-list{
-        li{
-            display: flex;
-        }
-    }
-
-    .product-list.grid{
-
-    	li{
-            box-shadow: none;
-            //@include make-col(6);
-            display: flex;
-    	}
-
-    }
-}
-
-@include media-breakpoint-up(md){
-    .product-list.grid{
-
-        li{
-            //@include make-col(4);
-            display: flex;
+.filter-toggle {
+    &[aria-expanded="true"]{
+        i::before {
+            content: "\f00d";
+            transition: all .3s ease;
         }
     }
 }
+#filterCollapse {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .page-content {
+        background: $gray-lighter2;
+        padding: 2em !important;
 
-@include media-breakpoint-up(lg){
-      .product-list.grid{
-
-            li{
-                //@include make-col(3);
-                display: flex;
+        .card {
+            background-color: transparent;
+            border:0;
+            padding-right: 2em;
+            h3 {
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                border-bottom: 1px solid $gray-light;
+                padding-bottom: .5rem;
+                font-weight: bold;
+                color: $gray-dark;
             }
-      }
-
+            .form-check {
+                .form-check-input:checked + label {
+                    background: $brand-primary;
+                    padding-left:.5em;
+                }
+                .form-check-label {
+                    padding-left: 0;
+                    display:block;
+                    transition:all .3s ease;
+                    &:hover{
+                        background: $brand-secondary;
+                        transition:all .3s ease;
+                        padding-left:.5em;
+                    }
+                }
+                .filter-badge {
+                    position: absolute;
+                    display: inline-block;
+                    font-size: .7rem;
+                    background: #fce28b;
+                    padding: .3rem .5rem .2rem;
+                    color: #555;
+                    top:0;
+                    right:0;
+                    text-align: center;
+                    width: 4em;
+                }
+            }
+        }
+    }
 }
