@@ -24,12 +24,17 @@
     {#paginatedResult: {{ paginatedResult | json_encode() }}#}
 
     <!-- FILTER FES -->
-
-    <div class="text-xs-right">
-    	<button type="button" class="btn btn-link" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
-    		<i class="fa fa-sliders" aria-hidden="true"></i> Filter
-    	</button>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+			    <div class="text-xs-right">
+			    	<button type="button" class="btn btn-link" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+			    		<i class="fa fa-sliders" aria-hidden="true"></i> Filter
+			    	</button>
+			    </div>
+			</div>
+		</div>
+	</div>
 
     <div class="collapse" id="filterCollapse">
 		<div class="container-max page-content">
@@ -242,7 +247,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 text-xs-right">
-					<button type="button" class="btn btn-link" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+					<button type="button" class="btn btn-primary" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
 			    		<i class="fa fa-check" aria-hidden="true"></i> Anwenden
 			    	</button>
 				</div>
