@@ -24,13 +24,13 @@
     {#paginatedResult: {{ paginatedResult | json_encode() }}#}
 
     <!-- FILTER FES -->
-	<div class="container">
+	<div class="container-max">
 		<div class="row">
 			<div class="col-xs-12">
 			    <div class="text-xs-right">
-			    	<button type="button" class="btn btn-link" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+			    	<a class="filter-toggle" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
 			    		<i class="fa fa-sliders" aria-hidden="true"></i> Filter
-			    	</button>
+			    	</a>
 			    </div>
 			</div>
 		</div>
