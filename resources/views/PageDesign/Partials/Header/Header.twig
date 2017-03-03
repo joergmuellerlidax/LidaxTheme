@@ -11,7 +11,9 @@
     <div class="container-max">
         <div class="row">
             {{ LayoutContainer.show("Ceres::Header.LeftSide") }}
-
+             <a class="navbar-brand pull-lg-left hidden-md-down" href="/">
+                 <img src="/layout/plugins/production/kiom/images/logo.png" class="img-fluid">
+             </a>
             <ul id="controlsList" class="controls-list list-inline">
 
                 <li class="list-inline-item control-user">
@@ -19,21 +21,12 @@
                             :user-data="{{ services.customer.getContact() | json_encode() }}"></user-login-handler>
                 </li>
 
-                <li class="list-inline-item dropdown control-languages">
-                    <a class="" data-toggle="collapse" href="#countrySettings" aria-expanded="false"
-                       aria-controls="countrySettings"
-                       data-parent="#controlsList">
-                        <i class="flag-icon flag-icon-{{ lang }}"></i>
-                    </a>
-                </li>
-
-                <li class="list-inline-item control-search">
+                <li class="list-inline-item control-search hidden-lg-up">
                     <a class="" data-toggle="collapse" href="#searchBox"
-                       aria-expanded="{% if services.template.isSearch() %}true{% else %}false{% endif %}"
+                       aria-expanded="false"
                        aria-controls="searchBox"
                        data-parent="#controlsList">
                         <i class="fa fa-search"></i>
-                        <span class="hidden-xs-down">{{ trans("Ceres::Template.generalSearchNoDot") }}</span>
                     </a>
                 </li>
 
