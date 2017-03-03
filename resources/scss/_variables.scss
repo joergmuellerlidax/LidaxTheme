@@ -95,9 +95,9 @@ $custom-colors: (
 ) !default;
 
 $top-bar-bg:            $gray-dark;
-$top-bar-color:         #fff;
-$top-bar-basket-btn:    $brand-primary;
-$top-bar-basket-color:  #fff;
+$top-bar-color:         $brand-primary;
+$top-bar-basket-btn:    $top-bar-bg;
+$top-bar-basket-color:  $brand-primary;
 
 $footer-bg:             $gray-lightest;
 $footer-color:          $gray-dark;
@@ -746,9 +746,9 @@ $breadcrumb-padding-y:          .5rem !default;
 $breadcrumb-padding-x:          1rem !default;
 $breadcrumb-item-padding:       .5rem !default;
 
-$breadcrumb-bg:                 darken($gray-lighter2, 2%) !default;
-$breadcrumb-divider-color:      $gray-light !default;
-$breadcrumb-active-color:       $gray-light !default;
+$breadcrumb-bg:                 rgba($brand-primary, .75) !default;
+$breadcrumb-divider-color:      $gray-dark !default;
+$breadcrumb-active-color:       $gray-dark !default;
 $breadcrumb-divider:            "/" !default;
 
 

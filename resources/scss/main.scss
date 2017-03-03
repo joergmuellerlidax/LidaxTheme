@@ -13,10 +13,10 @@
 // ==========================================================================
 
 // global
-// @import "ceres/mixins/general-mixins";
+@import "ceres/mixins/general-mixins";
 // @import "ceres/mixins/proportional-boxes";
 // @import "ceres/common/typography";
-// @import "ceres/common/common";
+@import "ceres/common/common";
 // @import "ceres/common/structure";
 
 // // custom shariff theme for the social icons in the header
@@ -44,10 +44,10 @@
 
 // // Page Design / Global components
 @import "ceres/views/PageDesign/header";
-// @import "ceres/views/PageDesign/search-box";
-// @import "ceres/views/PageDesign/language-select";
+@import "ceres/views/PageDesign/search-box";
+@import "ceres/views/PageDesign/language-select";
 // @import "ceres/views/PageDesign/navigation";
-// @import "ceres/views/PageDesign/breadcrumb";
+@import "ceres/views/PageDesign/breadcrumb";
 // @import "ceres/views/PageDesign/footer";
 
 // // Templates

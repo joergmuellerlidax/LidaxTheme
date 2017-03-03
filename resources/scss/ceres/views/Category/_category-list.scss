@@ -1,5 +1,51 @@
+.sidebar-categories {
+    background:$white;
+    .category-title {
+        background: $brand-primary;
+        padding: 1.2rem;
+        text-transform: uppercase;
+    }
+    ul {
+        @include reset-list();
+        li {
+            a {
+                display: block;
+                color: $gray-light;
+                padding: 1rem;
+                &:hover {
+                    color: $gray-dark;
+                    background: $gray-lightest;
+                }
+            }
+            ul {
+                li {
+                    a {
+                        padding-left:2rem;
+                    }
+                }
+            }
+            &.active {
+                &>a {
+                    background: $brand-secondary;
+                }
+            }
+        }
+    }
+}
+
 .list-controls {
     position:relative;
+    background:$brand-secondary;
+    padding: .8rem 0 0;
+    .dropdown-toggle,
+    .filter-toggle {
+        color: $gray-dark;
+        text-transform: uppercase;
+    }
+    .list-sort,
+    .list-itemsperpage {
+        float: left;
+    }
     .selected-filters {
         display: inline-block;
         float: right;
@@ -9,14 +55,13 @@
         padding: .5em;
         .selected-filter {
             font-size: .8rem;
-            padding: .5em;
+            padding: .25em .5em .5em;
             margin: 0 5px 5px 0;
             float: left;
             cursor: pointer;
-            background:$gray-lighter2;
+
             display: inline-block;
             &:hover {
-                background: $gray-lighter;
                 color: $brand-danger;
             }
         }
@@ -25,10 +70,11 @@
         display: inline-block;
         float: right;
         padding: .5em;
+        i {transition:all .2s ease;}
         &[aria-expanded="true"]{
-            i::before {
-                content: "\f00d";
-                transition: all .1s ease;
+            i {
+                transform: rotate(-90deg);
+                transition:all .2s ease;
             }
         }
     }
