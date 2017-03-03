@@ -34,7 +34,16 @@
 							<ul>
 								<li><a href="">Pendelleuchten</a></li>
 								<li><a href="">Deckenleuchten</a></li>
-								<li><a href="">Stehleuchten</a></li>
+								<li>
+									<a href="">Stehleuchten</a>
+									<ul>
+										<li><a href="">Wandleuchten</a></li>
+										<li><a href="">Einbauleuchten</a></li>
+										<li><a href="">Unterbauleuchten</a></li>
+										<li><a href="">Aufbauleuchten</a></li>
+										<li><a href="">Klemmleuchten</a></li>
+									</ul>
+								</li>
 								<li><a href="">Tischleuchten</a></li>
 								<li><a href="">LED Tischleuchten</a></li>
 							</ul>
@@ -334,7 +343,7 @@
 
 		                <ul class="product-list row grid">
 		                    {% for item in paginatedResult.documents %}
-		                        <li class="col-xs-12 col-sm-6 col-md-4 ">
+		                        <li class="col-xs-12 col-sm-6 col-md-4">
 		                            {% include "Ceres::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
 		                        </li>
 		                    {% endfor %}
