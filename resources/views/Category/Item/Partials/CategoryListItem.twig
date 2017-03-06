@@ -9,8 +9,7 @@
     <div class="thumb-inner">
         <div class="thumb-background"></div>
 
-        <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false"
-                       item-url="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}"></add-to-basket>
+        
 
         <div class="thumb-image">
             <div class="square-container">
@@ -60,7 +59,7 @@
 
         <!-- ITEM DETAILS -->
         <div class="thumb-content">
-            <a href="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}" class="thumb-title small">
+            <a href="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}" class="thumb-title">
                 {{ item.data.texts[0].name1 }}
             </a>
             <div class="thumb-meta">
@@ -83,6 +82,10 @@
                 </div>
 
                 {{ LayoutContainer.show("Ceres::CategoryItem.AfterPrices", item.data) }}
+            </div>
+            <div class="AddToBasket">
+                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false" item-url="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}"></add-to-basket>
+                
             </div>
         </div>
         <!-- ./ITEM DETAILS  -->

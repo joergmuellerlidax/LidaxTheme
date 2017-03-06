@@ -43,5 +43,14 @@ class KiomServiceProvider extends ServiceProvider
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
             $partial->set('footer', 'Kiom::PageDesign.Partials.Footer');
         }, self::EVENT_LISTENER_PRIORITY);
+        
+        $dispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
+            if($componentContainer->getOriginComponentTemplate() == 'Ceres::Basket.Components.AddToBasket') {
+                    $componentContainer->setNewComponentTemplate('Kiom::Basket.Components.AddToBasket');
+            } 
+        });
     }
+
+
+
 }
