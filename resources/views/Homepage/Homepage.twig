@@ -3,527 +3,147 @@
 {% block ThemeHomepage %}
 
 <div class="home container-max">
+    
+    <div class="cmp cmp-hero">
 
+        <div class="hero-main">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <a class="hero-category" href="">
+                            <img src="https://unsplash.it/800/450?image=1064" alt="First slide" class="img-fluid">
+                            <div class="hero-category-inner">
+                                <h3>Markenname</h3>
+                                <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> Produktname</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a class="hero-category" href="">
+                            <img src="https://unsplash.it/800/450?image=1044" alt="Second slide" class="img-fluid">
+                            <div class="hero-category-inner">
+                                <h3>Markenname</h3>
+                                <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> Produktname</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-    <div class="row teaser">
-        <div class="col-xs-12 text-xs-center">
-            <i class="fa fa-gg-circle fa-5x" aria-hidden="true"></i>
-            <h1>
-            KIOM
-            </h1>
-            <h3>
-                Subheading
-            </h3>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                </ol>
+
+            </div>
+        </div>
+
+        <div class="hero-xtras">
+            <a class="hero-category" href="">
+                <img src="https://unsplash.it/400/300?image=1014" alt="First slide">
+                <div class="hero-category-inner">
+                    <h2 class="hero-category-headline">
+                        <i class="fa fa-angle-double-right" aria-hidden="true"></i> Innenleuchten
+                    </h2>
+
+                </div>
+            </a>
+            <a class="hero-category" href="">
+                <img src="https://unsplash.it/400/300?image=1024" alt="First slide">
+
+                <div class="hero-category-inner">
+                    <h2 class="hero-category-headline">
+                        <i class="fa fa-angle-double-right" aria-hidden="true"></i> Außenleuchten
+                    </h2>
+
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- SALE -->
+
+    <div class="row prop-row m-y-2">
+        <div class="col-xs-12">
+            <div class="prop-xs-2-1 prop-sm-4-1 prop-md-6-1">
+                <div class="prop-inner">
+                    <a class="featured-sale" href="">
+                        <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                        <div class="featured-category-inner">
+                            <h4 class="featured-category-headline">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i> Sale
+                            </h4>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- END SALE -->
+
+    <div class="m-b-2">
+        <h4 class="section-header">Topseller</h4>
+        <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
+        <!-- crosssell start -->
+        <div class="row">
+            <div class="col-xs-12">
+                topseller
+            </div>
         </div>
     </div>
-    <div class="row page-content categoriegrid">
-        <div class="col-xs-12 p-y-2">
-            <h1 class="m-b-2">
-                Section Heading
-            </h1>
-<ul class="product-list row grid">
-    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        
-        <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-            <div class="thumb-inner">
-                <div class="thumb-background"></div>
-                <span>
-                    <div class="thumb-controls">
-                        <span>
-                            <button class="btn btn-primary thumb-btn-buy">
-                            {{ trans("Ceres::Template.addToBasket") }}
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            </button>
-                        </span>
-                    </div>
-                    <div class="thumb-basket-frame">
-                        <div class="thumb-basket-inner fa-cart-plus">
+
+    <!-- CATEGORIES -->
+    
+    <div class="row prop-row m-b-2">
+        <div class="col-xs-12 col-md-8">
+            <div class="prop-xs-2-1">
+                <div class="prop-inner">
+                    <a class="featured-category" href="">
+                        <img src="https://unsplash.it/800/400?image=1004" alt="First slide">
+                        <div class="featured-category-inner">
+                            <h4 class="featured-category-headline">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i> Brunnen
+                            </h4>
+
                         </div>
-                    </div>
-                </span>
-                
-                <div class="thumb-image">
-                    <div class="square-container">
-                        <div class="square-inner main-image">
-                            <div>
-                                <div>
-                                    <a href="/barhocker-white-sanfrancisco/109/1007">
-                                        <img class="img-fluid lazy" data-original="/item/images/109/3000x3000/109-Barhocker-White-SanFrancisco.jpg" src="/item/images/109/3000x3000/109-Barhocker-White-SanFrancisco.jpg" style="display: inline;">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- STORE SPECIALS -->
-                <!-- ./STORE SPECIALS -->
-                <!-- ITEM DETAILS -->
-                <div class="thumb-content">
-                    <a href="/barhocker-white-sanfrancisco/109/1007" class="thumb-title small">
-                        Barhocker White SanFrancisco
-                        
                     </a>
-                    <div class="thumb-meta">
-                        
-                        <div class="prices">
-                            <del class="crossprice">
-                            100,00&nbsp;€
-                            </del>
-                            
-                            <div class="price">
-                                79,00&nbsp;€
-                            </div>
-                        </div>
-                        
-                    </div>
                 </div>
-                <!-- ./ITEM DETAILS  -->
             </div>
-        </article>
-        </li>
-        <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            
-            <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                <div class="thumb-inner">
-                    <div class="thumb-background"></div>
-                    <span>
-                        <div class="thumb-controls">
-                            <span>
-                                <button class="btn btn-primary thumb-btn-buy">
-                                {{ trans("Ceres::Template.addToBasket") }}
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                </button>
-                            </span>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="prop-xs-1-1">
+                <div class="prop-inner">
+                    <a class="featured-category" href="">
+                        <img src="https://unsplash.it/800/400?image=1024" alt="First slide">
+                        <div class="featured-category-inner">
+                            <h4 class="featured-category-headline">
+                               <i class="fa fa-angle-double-right" aria-hidden="true"></i> Bogenleuchten
+                            </h4>
+
                         </div>
-                        <div class="thumb-basket-frame">
-                            <div class="thumb-basket-inner fa-cart-plus">
-                            </div>
-                        </div>
-                    </span>
-                    
-                    <div class="thumb-image">
-                        <div class="square-container">
-                            <div class="square-inner main-image">
-                                <div>
-                                    <div>
-                                        <a href="/barhockerl-fury-gepolstert/107/1005">
-                                            <img class="img-fluid lazy" data-original="/item/images/107/3000x3000/107-Barhocker-Fury-gepolstert.jpg" src="/item/images/107/3000x3000/107-Barhocker-Fury-gepolstert.jpg" style="display: inline;">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- STORE SPECIALS -->
-                    <div class="special-tags">
-                        
-                        
-                        
-                        
-                        <span class="tag bg-danger">
-                            -39%
-                        </span>
-                    </div>
-                    <!-- ./STORE SPECIALS -->
-                    <!-- ITEM DETAILS -->
-                    <div class="thumb-content">
-                        <a href="/barhockerl-fury-gepolstert/107/1005" class="thumb-title small">
-                            Barhockerl Fury gepolstert
-                            
-                        </a>
-                        <div class="thumb-meta">
-                            
-                            <div class="prices">
-                                <del class="crossprice">
-                                110,00&nbsp;€
-                                </del>
-                                
-                                <div class="price">
-                                    79,00&nbsp;€
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <!-- ./ITEM DETAILS  -->
+                    </a>
                 </div>
-            </article>                    </li>
-            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                
-                <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                    <div class="thumb-inner">
-                        <div class="thumb-background"></div>
-                        <span>
-                            <div class="thumb-controls">
-                                <span>
-                                    <button class="btn btn-primary thumb-btn-buy">
-                                    {{ trans("Ceres::Template.addToBasket") }}
-                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                    </button>
-                                </span>
-                            </div>
-                            <div class="thumb-basket-frame">
-                                <div class="thumb-basket-inner fa-cart-plus">
-                                </div>
-                            </div>
-                        </span>
-                        
-                        <div class="thumb-image">
-                            <div class="square-container">
-                                <div class="square-inner main-image">
-                                    <div>
-                                        <div>
-                                            <a href="/barsessel-black-mamba/108/1006">
-                                                <img class="img-fluid lazy" data-original="/item/images/108/3000x3000/108-Barsessel-Black-Mamba.jpg" src="/item/images/108/3000x3000/108-Barsessel-Black-Mamba.jpg" style="display: inline;">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- STORE SPECIALS -->
-                        <!-- ./STORE SPECIALS -->
-                        <!-- ITEM DETAILS -->
-                        <div class="thumb-content">
-                            <a href="/barsessel-black-mamba/108/1006" class="thumb-title small">
-                                Barsessel Black Mamba
-                                
-                            </a>
-                            <div class="thumb-meta">
-                                
-                                <div class="prices">
-                                    <del class="crossprice">
-                                    120,00&nbsp;€
-                                    </del>
-                                    
-                                    <div class="price">
-                                        99,00&nbsp;€
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <!-- ./ITEM DETAILS  -->
-                    </div>
-                </article>                    </li>
-                <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    
-                    <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                        <div class="thumb-inner">
-                            <div class="thumb-background"></div>
-                            <span>
-                                <div class="thumb-controls">
-                                    <span>
-                                        <button class="btn btn-primary thumb-btn-buy">
-                                        {{ trans("Ceres::Template.addToBasket") }}
-                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                        </button>
-                                    </span>
-                                </div>
-                                <div class="thumb-basket-frame">
-                                    <div class="thumb-basket-inner fa-cart-plus">
-                                    </div>
-                                </div>
-                            </span>
-                            
-                            <div class="thumb-image">
-                                <div class="square-container">
-                                    <div class="square-inner main-image">
-                                        <div>
-                                            <div>
-                                                <a href="/cocktailsessel-venedig/111/1009">
-                                                    <img class="img-fluid lazy" data-original="/item/images/111/3000x3000/111-Cocktailsessel-Venedig.jpg" src="/item/images/111/3000x3000/111-Cocktailsessel-Venedig.jpg" style="display: inline;">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- STORE SPECIALS -->
-                            <!-- ./STORE SPECIALS -->
-                            <!-- ITEM DETAILS -->
-                            <div class="thumb-content">
-                                <a href="/cocktailsessel-venedig/111/1009" class="thumb-title small">
-                                    Cocktailsessel Venedig
-                                    
-                                </a>
-                                <div class="thumb-meta">
-                                    
-                                    <div class="prices">
-                                        <del class="crossprice">
-                                        150,00&nbsp;€
-                                        </del>
-                                        
-                                        <div class="price">
-                                            119,00&nbsp;€
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <!-- ./ITEM DETAILS  -->
-                        </div>
-                    </article>                    </li>
-                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        
-                        <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                            <div class="thumb-inner">
-                                <div class="thumb-background"></div>
-                                <span>
-                                    <div class="thumb-controls">
-                                        <span>
-                                            <button class="btn btn-primary thumb-btn-buy">
-                                            {{ trans("Ceres::Template.addToBasket") }}
-                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                            </button>
-                                        </span>
-                                    </div>
-                                    <div class="thumb-basket-frame">
-                                        <div class="thumb-basket-inner fa-cart-plus">
-                                        </div>
-                                    </div>
-                                </span>
-                                
-                                <div class="thumb-image">
-                                    <div class="square-container">
-                                        <div class="square-inner main-image">
-                                            <div>
-                                                <div>
-                                                    <a href="/design-sessel-black-white/114/1012">
-                                                        <img class="img-fluid lazy" data-original="/item/images/114/3000x3000/114-Design-Sessel-BlackundWhite.jpg" src="/item/images/114/3000x3000/114-Design-Sessel-BlackundWhite.jpg" style="display: inline;">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- STORE SPECIALS -->
-                                <!-- ./STORE SPECIALS -->
-                                <!-- ITEM DETAILS -->
-                                <div class="thumb-content">
-                                    <a href="/design-sessel-black-white/114/1012" class="thumb-title small">
-                                        Design Sessel Black&amp;White
-                                        
-                                    </a>
-                                    <div class="thumb-meta">
-                                        
-                                        <div class="prices">
-                                            <del class="crossprice">
-                                            290,00&nbsp;€
-                                            </del>
-                                            
-                                            <div class="price">
-                                                149,00&nbsp;€
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                <!-- ./ITEM DETAILS  -->
-                            </div>
-                        </article>                    </li>
-                        <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            
-                            <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                                <div class="thumb-inner">
-                                    <div class="thumb-background"></div>
-                                    <span>
-                                        <div class="thumb-controls">
-                                            <span>
-                                                <button class="btn btn-primary thumb-btn-buy">
-                                                {{ trans("Ceres::Template.addToBasket") }}
-                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                </button>
-                                            </span>
-                                        </div>
-                                        <div class="thumb-basket-frame">
-                                            <div class="thumb-basket-inner fa-cart-plus">
-                                            </div>
-                                        </div>
-                                    </span>
-                                    
-                                    <div class="thumb-image">
-                                        <div class="square-container">
-                                            <div class="square-inner main-image">
-                                                <div>
-                                                    <div>
-                                                        <a href="/esszimmerstuhl-juicyorange/115/1013">
-                                                            <img class="img-fluid lazy" data-original="/item/images/115/3000x3000/115-Esszimmerstuhl-JuicyOrange.jpg" src="/item/images/115/3000x3000/115-Esszimmerstuhl-JuicyOrange.jpg" style="display: inline;">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- STORE SPECIALS -->
-                                    <div class="special-tags">
-                                        
-                                        
-                                        
-                                        
-                                        <span class="tag bg-danger">
-                                            -19%
-                                        </span>
-                                    </div>
-                                    <!-- ./STORE SPECIALS -->
-                                    <!-- ITEM DETAILS -->
-                                    <div class="thumb-content">
-                                        <a href="/esszimmerstuhl-juicyorange/115/1013" class="thumb-title small">
-                                            Esszimmerstuhl JuicyOrange
-                                            
-                                        </a>
-                                        <div class="thumb-meta">
-                                            
-                                            <div class="prices">
-                                                <del class="crossprice">
-                                                70,00&nbsp;€
-                                                </del>
-                                                
-                                                <div class="price">
-                                                    59,00&nbsp;€
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <!-- ./ITEM DETAILS  -->
-                                </div>
-                            </article>                    </li>
-                            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                                
-                                <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                                    <div class="thumb-inner">
-                                        <div class="thumb-background"></div>
-                                        <span>
-                                            <div class="thumb-controls">
-                                                <span>
-                                                    <button class="btn btn-primary thumb-btn-buy">
-                                                    {{ trans("Ceres::Template.addToBasket") }}
-                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                    </button>
-                                                </span>
-                                            </div>
-                                            <div class="thumb-basket-frame">
-                                                <div class="thumb-basket-inner fa-cart-plus">
-                                                </div>
-                                            </div>
-                                        </span>
-                                        
-                                        <div class="thumb-image">
-                                            <div class="square-container">
-                                                <div class="square-inner main-image">
-                                                    <div>
-                                                        <div>
-                                                            <a href="/sessel-king-george/124/1022">
-                                        <img class="img-fluid lazy" data-original="/item/images/109/3000x3000/109-Barhocker-White-SanFrancisco.jpg" src="/item/images/109/3000x3000/109-Barhocker-White-SanFrancisco.jpg" style="display: inline;">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- STORE SPECIALS -->
-                                        <div class="special-tags">
-                                            
-                                            
-                                            
-                                            <span class="tag bg-success">
-                                                Top
-                                            </span>
-                                        </div>
-                                        <!-- ./STORE SPECIALS -->
-                                        <!-- ITEM DETAILS -->
-                                        <div class="thumb-content">
-                                            <a href="/sessel-king-george/124/1022" class="thumb-title small">
-                                                Holzringe
-                                                
-                                            </a>
-                                            <div class="thumb-meta">
-                                                
-                                                <div class="prices">
-                                                    <del class="crossprice">
-                                                    245,00&nbsp;€
-                                                    </del>
-                                                    
-                                                    <div class="price">
-                                                        222,00&nbsp;€
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                        <!-- ./ITEM DETAILS  -->
-                                    </div>
-                                </article>                    </li>
-                                <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                                    
-                                    <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
-                                        <div class="thumb-inner">
-                                            <div class="thumb-background"></div>
-                                            <span>
-                                                <div class="thumb-controls">
-                                                    <span>
-                                                        <button class="btn btn-primary thumb-btn-buy">
-                                                        {{ trans("Ceres::Template.addToBasket") }}
-                                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                        </button>
-                                                    </span>
-                                                </div>
-                                                <div class="thumb-basket-frame">
-                                                    <div class="thumb-basket-inner fa-cart-plus">
-                                                    </div>
-                                                </div>
-                                            </span>
-                                            
-                                            <div class="thumb-image">
-                                                <div class="square-container">
-                                                    <div class="square-inner main-image">
-                                                        <div>
-                                                            <div>
-                                                                <a href="/sessel-floating-water/123/1021">
-                                                        <img class="img-fluid lazy" data-original="/item/images/114/3000x3000/114-Design-Sessel-BlackundWhite.jpg" src="/item/images/114/3000x3000/114-Design-Sessel-BlackundWhite.jpg" style="display: inline;">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- STORE SPECIALS -->
-                                            <!-- ./STORE SPECIALS -->
-                                            <!-- ITEM DETAILS -->
-                                            <div class="thumb-content">
-                                                <a href="/sessel-floating-water/123/1021" class="thumb-title small">
-                                                    LKW
-                                                    
-                                                </a>
-                                                <div class="thumb-meta">
-                                                    
-                                                    <div class="prices">
-                                                        <del class="crossprice">
-                                                        320,00&nbsp;€
-                                                        </del>
-                                                        
-                                                        <div class="price">
-                                                            299,00&nbsp;€
-                                                        </div>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                            <!-- ./ITEM DETAILS  -->
-                                        </div>
-                                    </article>                    </li>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                </ul>
+            </div>
+        </div>
+    
+        
+
+      
+    </div>
+
+    <!-- END CATEGORIES -->
+
+    <div class="m-b-2">
+        <h4 class="section-header">Neuheiten</h4>
+        <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
+        <!-- crosssell start -->
+        <div class="row">    
+            <div class="col-xs-12">
+              Neuheiten
+            </div>
         </div>
     </div>
 </div>
