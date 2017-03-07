@@ -2943,6 +2943,8 @@ Vue.component("category-image-carousel", {
     props: [
         "imageUrls",
         "itemUrl",
+        "showDots",
+        "showNav",
         "template"
     ],
 
@@ -2956,12 +2958,16 @@ Vue.component("category-image-carousel", {
         if (this.imageUrls && this.imageUrls.length > 0)
         {
             $(".owl-carousel").owlCarousel({
-                dots     : true,
+                dots     : (this.showDots === "true"),
                 items    : 1,
-                loop     : false,
+                loop     : true,
                 lazyLoad : true,
                 margin   : 10,
-                nav      : false
+                nav      : (this.showNav === "true"),
+                navText  : [
+                    "<i class='fa fa-chevron-left' aria-hidden='true'></i>",
+                    "<i class='fa fa-chevron-right' aria-hidden='true'></i>"
+                ]
             });
         }
     }
@@ -6626,6 +6632,9 @@ var init = (function($, window, document)
                 }
             }
         });
+
+        // init bootstrap tooltips
+        $("[data-toggle=\"tooltip\"]").tooltip();
 
         // Replace all SVG images with inline SVG, class: svg
         $("img[src$=\".svg\"]").each(function()
