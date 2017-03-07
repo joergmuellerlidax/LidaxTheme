@@ -1,5 +1,5 @@
-{% extends getPartial('page-design') %}
 
+{% extends getPartial('page-design') %}
 
 {% set itemSort             = request.get("itemSorting") | default( config('Ceres.sort.defaultSorting') ) | split('_') %}
 {% set orderBy              = itemSort[0] %}
@@ -9,17 +9,26 @@
 'variationShowType' : config("Ceres.item.variation_show_type"),
 'itemsPerPage'      : request.get("items_per_page") | default( config('Ceres.pagination.defaultItemsPerPage') ),
 'orderBy'           : itemSort[0],
-'orderByKey'        : itemSort[1] | default('ASC')
+'orderByKey'        : itemSort[1] | default('ASC'),
+'facetParams'       : request.get("facets")
 } %}
 
 {% set page                 = request.get("page") | default(1) %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'itemsPerPage':categoryParams.itemsPerPage }) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'itemsPerPage':categoryParams.itemsPerPage, 'facets': facetParams}) %}
 
-{% set itemList             = paginatedResult.getResult() %}
+{% set itemList             = paginatedResult.documents %}
 {% set paginationType       = config("Ceres.pagination.position") %}
 
 {% block PageBody %}
+
+	{{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
+    {{ component( "Ceres::ItemList.Components.ItemList") }}
+    {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
+
+    <resource name="facetParams" :data="[]"></resource>
+    <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
+    <resource name="itemList" :data="{}"></resource>
 
     {#paginatedResult: {{ paginatedResult | json_encode() }}#}
 
@@ -341,15 +350,18 @@
 		        </div>
 		        <div class="row">
 		            <div class="col-xs-12">
-
-		                <ul class="product-list row grid">
-		                    {% for item in paginatedResult.documents %}
-		                        <li class="col-xs-12 col-sm-6 col-lg-4">
-		                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+		            	<ul id="twig-rendered-item-list" class="product-list row grid" v-facet-param-watcher>
+		                    {% for item in itemList %}
+		                        <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		                            {% include "Ceres::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
 		                        </li>
 		                    {% endfor %}
 		                </ul>
 
+						<div id="vue-rendered-item-list" style="display:none">
+		                    <item-list template="#vue-item-list"></item-list>
+		                </div>
+		                
 		            </div>
 		        </div>
 	        </div>
