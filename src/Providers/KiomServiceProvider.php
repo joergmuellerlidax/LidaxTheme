@@ -11,6 +11,7 @@ use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ConfigRepository;
+use IO\Helper\ComponentContainer;
 
 class KiomServiceProvider extends ServiceProvider
 {
