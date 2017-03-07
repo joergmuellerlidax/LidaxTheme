@@ -1,5 +1,6 @@
 .sidebar-categories {
     background:$white;
+    font-family: $font-family-heading;
     .category-title {
         background: $brand-primary;
         padding: 1.2rem 2rem;
@@ -40,6 +41,7 @@
 .list-controls {
     position:relative;
     background:$brand-secondary;
+    font-family: $font-family-heading;
     padding: .8rem 0 0;
     .dropdown-toggle,
     .filter-toggle {
@@ -86,6 +88,7 @@
         position: absolute;
         z-index: 1050;
         width: 100%;
+        font-family:$font-family-sans-serif;
         .page-content {
             background: $white;
             padding: 2em !important;

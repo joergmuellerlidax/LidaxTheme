@@ -5,6 +5,7 @@
 	
 	z-index: $zIndex-6;
 	color: $top-bar-color;
+	font-family:$font-family-heading;
 	background-color: $top-bar-bg;
 	box-shadow: 0 0 7px 0 rgba(0,0,0,.5);
 	a{
@@ -19,6 +20,7 @@
 		background:$gray-darker !important;
 		color: $white !important;
 	}
+	.control-search a[aria-expanded="true"] i:before,
 	.navbar .nav-item.hidden-md-down a[aria-expanded="true"] i:before {
 		content: "\f00d";
 	}
