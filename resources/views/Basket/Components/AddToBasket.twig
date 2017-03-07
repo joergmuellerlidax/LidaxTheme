@@ -17,16 +17,24 @@
     </div>
 
     <div v-else>
-
         <div class="AddToBasket-inner">
-            <button type="button" class="btn btn-buy" @click="addToBasket()">
-                <i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i> Jetzt ansehen
+            <div class="eek-sign" data-toggle="modal" data-target="#availability-modal">
+                <span>A++</span>
+            </div>
+            <button type="button" class="btn btn-block btn-buy" @click="addToBasket()">
+                Jetzt ansehen
             </button>
-            {# maybe use the button for wishlist #}
-            {#<button type="button" class="btn btn-primary" @click="directToItem()">#}
-                {#<i class="fa fa-arrow-right" aria-hidden="true"></i>#}
-            {#</button>#}
+            <div class="availability-preview" data-toggle="tooltip"
+data-placement="top" title="Lieferbar in 1-2 Werktagen">
+                <i class="fa fa-truck" aria-hidden="true"></i>
+            </div>
         </div>
+        
+        {# maybe use the button for wishlist #}
+        {#<button type="button" class="btn btn-primary" @click="directToItem()">#}
+            {#<i class="fa fa-arrow-right" aria-hidden="true"></i>#}
+        {#</button>#}
+        
     </div>
 
 </script>
