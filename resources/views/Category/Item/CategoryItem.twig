@@ -353,7 +353,7 @@
 		            	<ul id="twig-rendered-item-list" class="product-list row grid" v-facet-param-watcher>
 		                    {% for item in itemList %}
 		                        <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-		                            {% include "Ceres::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+		                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
 		                        </li>
 		                    {% endfor %}
 		                </ul>
@@ -361,7 +361,7 @@
 						<div id="vue-rendered-item-list" style="display:none">
 		                    <item-list template="#vue-item-list"></item-list>
 		                </div>
-		                
+
 		            </div>
 		        </div>
 	        </div>
