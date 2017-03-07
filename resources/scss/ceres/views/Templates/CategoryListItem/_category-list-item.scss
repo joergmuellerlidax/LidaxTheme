@@ -1,25 +1,13 @@
 .cmp-product-thumb{
-    padding: .8rem;
+    padding: 0;
     width: 100%;
     overflow: hidden;
-    border: 1px solid #fff;
-    background-color: #fff;
+    border: 0;
+    background-color: transparent;
     margin-bottom: $grid-gutter-width/2;
 
     .thumb-background{
-        position: absolute;
-        top: -1px;
-        right: -1px;
-        bottom: -2px;
-        left: -1px;
-        background-color: #fff;
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-        border: 1px solid transparent;
-
-        transform-origin: top right;
-        transform: scaleX(1) scaleY(1);
-
-        transition: all 200ms ease-in-out;
+        display: none;
     }
 
     .thumb-inner{
@@ -30,8 +18,8 @@
 
     .thumb-image{
         position: relative;
-        width: 120px;
-        display: inline-block;
+        width: 100%;
+        display: block;
         vertical-align: top;
         cursor: pointer;
     }
@@ -64,13 +52,13 @@
 
     .thumb-content{
         position: relative;
-        display: inline-block;
+        display: block;
         vertical-align: top;
-        width: calc( 100% - 120px );
+        width: 100%;
         height: auto;
-        padding: 0 .8rem;
-        margin-left: -.3em;
-        background-color: #fff;
+        padding: 0;
+        margin-left: 0;
+        background-color: transparent;
 
         transition: all 200ms ease-in-out;
     }
@@ -79,28 +67,33 @@
         display: block;
         position: relative;
         text-align:left;
-        font-weight: 700;
-        color: $gray;
-        line-height: 1.1em;
+        font-weight: normal;
+        color: $gray-darker;
+        line-height: 1.4em;
+        font-size: .9rem;
+        margin-top: 1rem;
     }
 
     .thumb-meta{
         margin-top: .5rem;
-        text-align:left;
-
+        text-align:right;
+        @include clearfix();
     }
 
     .crossprice{
         font-size: .81em;
-        font-weight: 700;
-        color: $gray-light;
+        font-weight: normal;
+        color: $brand-danger;
+        float: right;
     }
 
     .price {
-        color: $gray;
+        color: $gray-darker;
         line-height: 1.1;
-        font-weight: 700;
-        font-size: 1.2rem;
+        font-weight: normal;
+        font-size: 1.5rem;
+        float: right;
+        margin-left: .3rem;
     }
 
     .thumb-buy{
@@ -122,7 +115,7 @@
         margin-bottom: $grid-gutter-width;
 
         .thumb-background{
-            display: block;
+            display: none;
         }
 
         .thumb-scroll-cmd {
@@ -136,7 +129,7 @@
         }
 
         .thumb-content{
-            padding: .8rem;
+            padding: 0;
             width: 100%;
             margin: 0;
         }

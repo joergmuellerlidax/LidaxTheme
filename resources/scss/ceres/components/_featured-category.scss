@@ -9,21 +9,28 @@
 
 	.featured-category-inner{
 		position: absolute;
-		width: 100%;
+		width: auto;
 		bottom: 0;
 		left: 0;
 		z-index: 100;
-		background-color: rgba(white, .8);
 
 	    @include clearfix();
+	    padding: .5rem 1rem;
+    	background: transparent;
 	}
 
 	.featured-category-headline{
-		font-weight: 700;
+		font-weight: normal;
 		display: block;
-		font-size: 1rem;
-		padding: .7rem;
-		margin-bottom: 0;
+		padding: 1rem;
+	    box-shadow: none;
+	    align-self: flex-start;
+	    font-size: 1.25rem;
+	    background: rgba($brand-primary,.8);
+	    margin: 1rem;
+	    width: auto;
+	    text-align: left;
+	    color: $gray-darker;
 	}
 
 	.featured-category-cta{

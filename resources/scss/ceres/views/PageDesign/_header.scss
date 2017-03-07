@@ -19,6 +19,9 @@
 		background:$gray-darker !important;
 		color: $white !important;
 	}
+	.navbar .nav-item.hidden-md-down a[aria-expanded="true"] i:before {
+		content: "\f00d";
+	}
 
 	.controls-list{
 		margin-bottom: 0;
