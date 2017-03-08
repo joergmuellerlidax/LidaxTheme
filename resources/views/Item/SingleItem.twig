@@ -66,7 +66,7 @@
 
 
 
-                <div class="row m-t-3">
+                <div class="row">
                     <div class="col-md-7 single-leftside">
                         <div class="row hidden-md-up">
                             <div class="col-xs-12">
@@ -157,7 +157,7 @@
                         </div>
 
 
-                        <h2>Ähnliche Artikel</h2>
+                        <h3>Ähnliche Artikel</h3>
                         <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
                             {% for item in itemList %}
                                 <li class="col-xs-6">
@@ -305,15 +305,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- ./ITEM DESCRIPTION -->
                 </div>
-                <!-- ./ITEM DESCRIPTION -->
+                
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Zubehör</h2>
+                        <h3>Zubehör</h3>
                         <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
@@ -359,10 +360,10 @@
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Kunden kauften auch</h2>
+                        <h3>Kunden kauften auch</h3>
                         <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
@@ -392,10 +393,10 @@
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Zuletzt angesehen</h2>
+                        <h3>Zuletzt angesehen</h3>
                         <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
