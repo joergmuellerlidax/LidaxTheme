@@ -40,6 +40,12 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
+        // provide template to use for single items
+        $eventDispatcher->listen('IO.tpl.item', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::Item.SingleItem");
+            return false;
+        });
+
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
             $partial->set('footer', 'Kiom::PageDesign.Partials.Footer');
