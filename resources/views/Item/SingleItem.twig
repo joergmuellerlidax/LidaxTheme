@@ -6,11 +6,24 @@
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
 {% set crossSellingList = services.item.getItemCrossSellingList( item.documents[0].data.item.id  ) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
+
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4, 'facets': facetParams}) %}
+
+{% set itemList             = paginatedResult.documents %}
+{% set paginationType       = config("Ceres.pagination.position") %}
 
 {% block PageBody %}
 
+
+    <resource name="facetParams" :data="[]"></resource>
+    <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
+    <resource name="itemList" :data="{}"></resource>
+
+    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
+    {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::Item.Components.VariationSelect" ) }}
-    {{ component( "Ceres::Item.Components.VariationImageList" ) }}
+    {{ component( "Ceres::Item.Components.ItemImageCarousel" ) }}
     {{ component( "Ceres::Basket.Components.AddToBasket" ) }}
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
@@ -33,7 +46,8 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                        <variation-image-list template="#vue-variation-image-list"></variation-image-list>
+                        <item-image-carousel image-url-accessor="url"
+                                             template="#vue-item-image-carousel"></item-image-carousel>
                     </div>
                 </div>
             </div>
@@ -54,93 +68,66 @@
                         {{ item.documents[0].data.texts | itemName(configItemName) }}
                     </span>
                 </h1>
-
+    
                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
-                    <p class="single-description">{{ item.documents[0].data.texts[0].shortDescription }}</p>
+                    <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}</p>
                 {% endif %}
-
-                <hr>
-
+                
                 <div class="m-b-3">
-                    <span class="articlenumber small text-muted">
+                    <span class="articlenumber">
                         <b>{{ trans("Ceres::Template.itemNumber") }}</b>
                         <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                     </span>
                 </div>
 
-                {% if variations is not null %}
-                <div class="row m-b-1">
-                    <variation-select template="#vue-variation-select" :attributes="{{ services.item.getAttributeNameMap( item.documents[0].data.item.id ) | json_encode() }}" :variations="{{ variations | json_encode() }}" preselect="{{ item.documents[0].data.variation.id }}"></variation-select>
+                <div class="m-y-1">
+                    {{ LayoutContainer.show("Ceres::SingleItem.BeforePrice", item.documents[0].data) }}
+                    {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
+                        <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
+                            <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
+                                {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
+                                {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
+                            </del>
+                        </div>
+                    {% endif %}
+
+                    <span class="price h1">
+                        <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
+                        <sup>*</sup>
+                    </span>
+                    <span class="vat small text-muted">
+                        {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
+                        <a href="#" title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
+                    </span>
+
+                    {% for availability in services.availability.getAvailabilities() %}
+                    <span class="availability tag availability_{{ availability.id }}" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
+                        {{ availability.languages[0].name }}
+                    </span>
+                    {% endfor %}
+
+                    <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true"
+                                   resource="currentVariation" :show-quantity="true"></add-to-basket>
+
                 </div>
+
+                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
+                    <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}</p>
                 {% endif %}
 
-                {{ LayoutContainer.show("Ceres::SingleItem.BeforePrice", item.documents[0].data) }}
-                {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
-                    <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
-                        <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
-                            {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
-                            {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
-                        </del>
-                    </div>
-                {% endif %}
+                
+                <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                    {% for item in itemList %}
+                        <li class="col-xs-6">
+                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+                        </li>
+                    {% endfor %}
+                </ul>
 
-                <span class="price h1">
-                    {#<span v-resource-bind:currentVariation="variationRetailPrice.price" :filters="['currency']">{{ item.data.salesPrices[0].price | formatMonetary(item.variationRetailPrice.currency) }}</span> TODO GET CORRECT CURRENCY#}
-                    <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
-                    <sup>*</sup>
-                </span>
 
-                {% for variationId, basePrice in basePriceList %}
-                    <div class="base-price text-muted m-y-1" v-resource-if:currentVariation="documents[0].data.variation.id == {{ variationId }}">
-                        {{ trans("Ceres::Template.itemUnitPrice") }}
-                        {#<span class="base-price-value">{{ basePrice.price | formatMonetary(item.variationRetailPrice.currency) }}</span> / TODO GET CORRECT CURRENCY#}
-                        <span class="base-price-value">{{ item.documents[0].data.calculatedPrices.default.unitPrice | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span> /
-                        <span class="base-price-amount">
-                        {% if basePrice.lot > 1 %}
-                            {{ basePrice.lot }}
-                        {% endif %}
-                        {{ services.unit.getUnitById( basePrice.unit, services.sessionStorage.getLang() ).name }}
-                        </span>
-                    </div>
-                {% endfor %}
-                {{ LayoutContainer.show("Ceres::SingleItem.AfterPrice", item.documents[0].data) }}
+                
 
-                {% for availability in services.availability.getAvailabilities() %}
-                <span class="availability tag availability_{{ availability.id }}" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
-                    {{ availability.languages[0].name }}
-                </span>
-                {% endfor %}
-
-                <div class="row m-y-1">
-
-                    {{ LayoutContainer.show("Ceres::SingleItem.BeforeAddToBasket", item.documents[0].data) }}
-
-                    <add-to-basket template="#vue-add-to-basket" :item="{{ item.documents[0].data | json_encode() }}" :show-quantity="true"></add-to-basket>
-
-                    {{ LayoutContainer.show("Ceres::SingleItem.AfterAddToBasket", item.documents[0].data) }}
-                </div>
-
-                <div class="row">
-                    <!--
-                    <div class="col-xs-6 offset-xs-6 m-t-1">
-                        <a class="pull-xs-right text-muted small" href="#">
-                            {{ trans("Ceres::Template.itemWishList") }}
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </div> -->
-                </div>
-            <!-- ./ITEM DETAIL -->
-
-                {{ LayoutContainer.show("Ceres::SingleItem.AdditionalContentAfterAddToBasket", item.documents[0].data) }}
-
-                <hr>
-
-                <span class="vat small text-muted">
-                    {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
-                    <a href="#" title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
-                </span>
-
-            </div>
+            </div><!-- ./ITEM DETAIL -->
 
             <!-- ITEM DESCRIPTION -->
             <div class="col-md-7 m-y-3">
@@ -281,7 +268,6 @@
 
         <!-- CROSSSELLING -->
         {% if crossSellingList | length > 0 %}
-            <hr>
 
             <div class="row m-y-3">
                 <div class="col-xs-12">
@@ -298,6 +284,7 @@
                 </div>
             </div>
         {% endif %}
+        <!-- ./CROSSSELLING -->
 
     </div>
 
