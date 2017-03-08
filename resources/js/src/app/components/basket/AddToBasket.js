@@ -5,7 +5,6 @@ Vue.component("add-to-basket", {
     props: [
         "item",
         "showQuantity",
-        "itemUrl",
         "template"
     ],
 
