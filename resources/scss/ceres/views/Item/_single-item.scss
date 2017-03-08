@@ -65,69 +65,26 @@
     }
 }
 
+.owl-thumbs {display:none;}
 
-.owl-carousel-single {
-    .owl-controls {
-        position: absolute;
-        top: 50%;
-        z-index:950;
-        width: 100%;
-        .owl-buttons {
-            &>div {
-                background: rgba(255,255,255,0.75);
-                padding: 1rem;
-                position: absolute;
-                transform: translateY(-50%);
-                &.owl-next {
-                    right:0;
-                }
-                &:hover {
-                    background: rgba(255,255,255,1);
-                }
-            }
+.owl-carousel {
+    .carousel-control {
+        background-image: none !important;
+        opacity: 1;
+        display: block;
+        &:hover {
+            opacity: 1 !important;
+            i {color:$brand-primary;}
         }
     }
-
-    .owl_item{
-        margin: 5px;
-        a {
-            width: 100%;
-        }
+    .owl-single-item-control {
+        color: $gray-dark;
+        text-shadow: none;
+        font-size: 3rem;
     }
-}
-
-.owl-carousel-preview {
-    .owl-item {
-        .owl_item{
-            padding: 5px;
-            margin:5px 0;
-            cursor: pointer;
-            &.synced {
-                background:$brand-primary;
-            }
-        }
-
+    .owl-dots {
+        display: block;
     }
-    .owl-controls {
-            position: absolute;
-            top: 50%;
-            z-index: 9999;
-            width: 100%;
-            .owl-buttons {
-                &>div {
-                    background: rgba(255,255,255,0.75);
-                    padding: .5rem;
-                    position: absolute;
-                    transform: translateY(-50%);
-                    &.owl-next {
-                        right:0;
-                    }
-                    &:hover {
-                        background: rgba(255,255,255,1);
-                    }
-                }
-            }
-        }
 }
 
 .availability_1,
@@ -193,6 +150,21 @@
 }
 
 @include media-breakpoint-up(md) {
+
+    .owl-thumbs {
+        display: inline-block;
+        .owl-thumb {
+            max-height: 8em;
+            background:$white;
+            border:1px solid rgba($brand-primary, .5);
+            margin:.5rem .5rem 0 0;
+            &.active,
+            &:hover {
+                border:1px solid $brand-primary;
+                cursor: pointer;
+            }
+        }
+    }
     .single {
         .nav-tabs {
             .nav-item {
