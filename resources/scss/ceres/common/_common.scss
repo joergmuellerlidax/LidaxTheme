@@ -9,6 +9,10 @@ a:active {
     cursor: pointer !important;
 }
 
+.input-group {
+    .form-control {padding: .6rem .75rem .55rem;}
+}
+
 .modal-footer {
     text-align: left;
 }
