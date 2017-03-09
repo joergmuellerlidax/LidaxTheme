@@ -109,44 +109,57 @@
                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}</p>
                                 {% endif %}
-                                
-                                <div class="m-b-3">
-                                    <span class="articlenumber">
-                                        <b>{{ trans("Ceres::Template.itemNumber") }}</b>
-                                        <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
-                                    </span>
-                                </div>
 
-                                <div class="m-y-1">
-                                    {{ LayoutContainer.show("Ceres::SingleItem.BeforePrice", item.documents[0].data) }}
-                                    {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
-                                        <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
-                                            <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
-                                                {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
-                                                {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
-                                            </del>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <span class="articlenumber hidden-sm-down">
+                                            <b>{{ trans("Ceres::Template.itemNumber") }}</b>
+                                            <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
+                                        </span>
+
+                                        <div class="eek-sign" data-toggle="modal" data-target="#availability-modal">
+                                            <span>A++</span>
                                         </div>
-                                    {% endif %}
+                                        
+                                        <span class="articlenumber hidden-md-up">
+                                            <b>{{ trans("Ceres::Template.itemNumber") }}</b>
+                                            <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
+                                        </span>
 
-                                    <span class="price h1">
-                                        <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
-                                        <sup>*</sup>
-                                    </span>
-                                    <span class="vat small text-muted">
-                                        {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
-                                        <a href="#" title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
-                                    </span>
+                                        
+                                    </div>
+                                    <div class="col-xs-6">
+     
+                                        {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
+                                            <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
+                                                <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
+                                                    {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
+                                                    {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
+                                                </del>
+                                            </div>
+                                        {% endif %}
 
-                                    {% for availability in services.availability.getAvailabilities() %}
-                                    <span class="availability tag availability_{{ availability.id }}" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
+                                        <span class="price h1">
+                                            <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
+                                            <sup>*</sup>
+                                        </span>
+                                        <span class="vat small text-muted">
+                                            {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
+                                            <a href="#" title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
+                                        </span>
+
+                                    </div>
+                                </div>
+                                
+                                {% for availability in services.availability.getAvailabilities() %}
+                                    <span class="availability tag availability_{{ availability.id }} text-xs-left text-md-right" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
                                         {{ availability.languages[0].name }}
                                     </span>
-                                    {% endfor %}
-                                    <div class="row">
-                                        <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true"
-                                                       resource="currentVariation" :show-quantity="true"></add-to-basket>
-                                    </div>
+                                {% endfor %}
 
+                                <div class="row">
+                                    <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true"
+                                                   resource="currentVariation" :show-quantity="true"></add-to-basket>
                                 </div>
 
                                  {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
