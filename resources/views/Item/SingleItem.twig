@@ -63,11 +63,10 @@
                 </div>
             </div>
             <div class="col-md-9">
-            
 
 
-                <div class=" container-flex">
-                    <div class="single-leftside inner inner-1">
+                <div class="row">
+                    <div class="col-md-7 single-leftside">
                         <div class="row hidden-md-up">
                             <div class="col-xs-12">
                                 <h1 class="h3 title">
@@ -90,7 +89,7 @@
                     </div>
 
                     <!-- ITEM DETAIL -->
-                    <div class="single-rightside m-t-1 inner inner-2">
+                    <div class="col-md-5 single-rightside m-t-1">
                         <div class="row">
                             <div class="col-xs-12">
                                 <h6 class="producertag">
@@ -172,7 +171,7 @@
                     </div><!-- ./ITEM DETAIL -->
 
                     <!-- ITEM DESCRIPTION -->
-                    <div class="m-y-3 inner inner-3">
+                    <div class="col-md-7 m-y-3">
 
                         <ul class="nav nav-tabs" role="tablist">
                             {% if not item.documents[0].data.texts[0].description == '' and('item.description' in itemData or 'all' in itemData) %}
@@ -304,106 +303,105 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3>Zubehör</h3>
-                                <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                                    {% for item in itemList %}
-                                        <li class="col-xs-6 col-lg-3">
-                                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div><!-- ./Zubehör -->
-
-                        <div class="row prop-row m-y-2 sale-new">
-                            <div class="col-xs-6">
-                                <div class="prop-xs-6-4 prop-md-3-1">
-                                    <div class="prop-inner">
-                                        <a class="featured-sale-new" href="">
-
-                                            <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
-                                            <div class="featured-category-inner">
-                                                <h4 class="featured-category-headline">
-                                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> New
-                                                </h4>
-
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-6">
-                                <div class="prop-xs-6-4 prop-md-3-1">
-                                    <div class="prop-inner">
-                                        <a class="featured-sale-new" href="">
-
-                                            <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
-                                            <div class="featured-category-inner">
-                                                <h4 class="featured-category-headline">
-                                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> Sale
-                                                </h4>
-
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- ./new-slae -->
-                        
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3>Kunden kauften auch</h3>
-                                <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                                    {% for item in itemList %}
-                                        <li class="col-xs-6 col-lg-3">
-                                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div><!-- ./Kunden kauften auch -->
-
-
-                        <div class="row prop-row m-y-2 sale-new">
-                            <div class="col-xs-12">
-                                <div class="prop-xs-2-1 prop-md-4-1">
-                                    <div class="prop-inner">
-                                        <a class="featured-sale-new" href="">
-
-                                            <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
-                                            <div class="featured-category-inner">
-                                                <h4 class="featured-category-headline">
-                                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> Zuletzt angesehene Kategorie
-                                                </h4>
-
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- ./Zuletzt gesehene Kategorie -->
-                        
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3>Zuletzt angesehen</h3>
-                                <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                                    {% for item in itemList %}
-                                        <li class="col-xs-6 col-lg-3">
-                                            {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div><!-- ./Zuletzt angesehen -->
                     </div>
                     <!-- ./ITEM DESCRIPTION -->
                 </div>
                 
 
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Zubehör</h3>
+                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                            {% for item in itemList %}
+                                <li class="col-xs-6 col-lg-3">
+                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div><!-- ./Zubehör -->
+
+                <div class="row prop-row m-y-2 sale-new">
+                    <div class="col-xs-6">
+                        <div class="prop-xs-6-4 prop-md-3-1">
+                            <div class="prop-inner">
+                                <a class="featured-sale-new" href="">
+
+                                    <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                                    <div class="featured-category-inner">
+                                        <h4 class="featured-category-headline">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> New
+                                        </h4>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <div class="prop-xs-6-4 prop-md-3-1">
+                            <div class="prop-inner">
+                                <a class="featured-sale-new" href="">
+
+                                    <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                                    <div class="featured-category-inner">
+                                        <h4 class="featured-category-headline">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> Sale
+                                        </h4>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./new-slae -->
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Kunden kauften auch</h3>
+                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                            {% for item in itemList %}
+                                <li class="col-xs-6 col-lg-3">
+                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div><!-- ./Kunden kauften auch -->
+
+
+                <div class="row prop-row m-y-2 sale-new">
+                    <div class="col-xs-12">
+                        <div class="prop-xs-2-1 prop-md-4-1">
+                            <div class="prop-inner">
+                                <a class="featured-sale-new" href="">
+
+                                    <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                                    <div class="featured-category-inner">
+                                        <h4 class="featured-category-headline">
+                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> Zuletzt angesehene Kategorie
+                                        </h4>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./Zuletzt gesehene Kategorie -->
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Zuletzt angesehen</h3>
+                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                            {% for item in itemList %}
+                                <li class="col-xs-6 col-lg-3">
+                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div><!-- ./Zuletzt angesehen -->
 
             </div>
         </div>
