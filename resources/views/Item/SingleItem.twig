@@ -92,7 +92,7 @@
                     <div class="col-md-5 single-rightside m-t-1">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h6 class="producertag">
+                                <h6 class="producertag hidden-sm-down">
                                     <a href="#" class="producer text-muted">{{ item.documents[0].data.item.manufacturer.name }}</a>
                                 </h6>
 
@@ -113,7 +113,7 @@
                                 <div class="row">
                                     <div class="col-xs-6">
                                         <span class="articlenumber hidden-sm-down">
-                                            <b>{{ trans("Ceres::Template.itemNumber") }}</b>
+                                            <b>Art.-Nr.:</b>
                                             <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                                         </span>
 
@@ -122,17 +122,19 @@
                                         </div>
                                         
                                         <span class="articlenumber hidden-md-up">
-                                            <b>{{ trans("Ceres::Template.itemNumber") }}</b>
+                                            <b>Art.-Nr.:</b>
                                             <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                                         </span>
 
                                         
                                     </div>
                                     <div class="col-xs-6">
-     
+                                        <h6 class="producertag hidden-md-up">
+                                            <a href="#" class="producer text-muted">{{ item.documents[0].data.item.manufacturer.name }}</a>
+                                        </h6>
                                         {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
                                             <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
-                                                <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
+                                                <del class="small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
                                                     {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
                                                     {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
                                                 </del>
