@@ -157,10 +157,9 @@
                                     </span>
                                 {% endfor %}
 
-                                <div class="row">
-                                    <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true"
-                                                   resource="currentVariation" :show-quantity="true"></add-to-basket>
-                                </div>
+                                
+                                <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true" resource="currentVariation" :show-quantity="true"></add-to-basket>
+                               
 
                                  {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}</p>
