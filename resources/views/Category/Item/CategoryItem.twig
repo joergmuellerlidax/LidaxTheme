@@ -36,15 +36,15 @@
             </div>
         </div>
 
-        <div class="list-controls m-b-3 col-xs-12">
+        <div class="list-controls m-b-3">
             <div class="list-controls-inner">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="list-sort">
                             <div class="dropdown">
-                                <button class="btn btn-link dropdown-toggle" type="button" id="list-sort-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="text-primary dropdown-toggle" id="list-sort-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Sortieren
-                                </button>
+                                </a>
                                 <div class="dropdown-menu" aria-labelledby="list-sort-toggle">
                                     <a class="dropdown-item" href="#">Name</a>
                                     <a class="dropdown-item" href="#">Beliebtheit</a>
@@ -55,9 +55,9 @@
                         </div>
                         <div class="list-itemsperpage">
                             <div class="dropdown">
-                                <button class="btn btn-link dropdown-toggle" type="button" id="list-itemsperpage-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="text-primary dropdown-toggle" id="list-itemsperpage-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 20
-                                </button>
+                                </a>
                                 <div class="dropdown-menu" aria-labelledby="list-itemsperpage-toggle">
                                     <a class="dropdown-item" href="#">20</a>
                                     <a class="dropdown-item" href="#">40</a>
@@ -66,12 +66,14 @@
                             </div>
                         </div>
 
-                        <div class="text-xs-right">
+                        <a class="filter-toggle" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+                            <i class="fa fa-sliders" aria-hidden="true"></i> Filter
+                        </a>
 
-                            <a class="filter-toggle" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
-                                <i class="fa fa-sliders" aria-hidden="true"></i> Filter
-                            </a>
-                        </div>
+                        
+                        
+
+                        
                     </div>
                 </div>
 
@@ -295,7 +297,28 @@
                     </div>
                 </div>
             </div>
-            <div class="selected-filters">
+            <div class="list-pagination hidden-md-down">
+                <nav aria-label="list-pagination">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Zurück</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Nächste</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="selected-filters clearfix">
                 <span class="selected-filter">
                     <i class="fa fa-times" aria-hidden="true"></i> Draht
                 </span>
