@@ -423,7 +423,7 @@
 			.dropdown-menu {
 				min-height: 20em;
 				.menu-cat-img {
-					display: block;
+					display: block !important;
 				    max-width: 20%;
 				    position: absolute;
 				    top: 1em;
