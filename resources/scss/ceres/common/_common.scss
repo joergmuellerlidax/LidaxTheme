@@ -8,8 +8,19 @@ a:active {
     text-decoration: none;
     cursor: pointer !important;
 }
+a:focus {outline:none;}
 
-.input-group {
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.footer .input-group {
     .form-control {padding: .6rem .75rem .55rem;}
 }
 
@@ -31,6 +42,7 @@ a:active {
         display: flex;
         flex-wrap: wrap;
     }
+
     .row.is-flex > [class*='col-'] {
         display: flex;
         flex-direction: column;

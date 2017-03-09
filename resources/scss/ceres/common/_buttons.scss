@@ -1,6 +1,39 @@
 button:focus {
 	outline:none !important;
 }
+.eek-sign {
+	position:relative;
+	max-width: 5rem;
+	span {
+		background: $green;
+		color: $white;
+	    padding: .25rem 1rem .25rem .75rem;
+	    font-size: 1.5rem;
+		display: block;
+		min-width: 4.5rem;
+	}
+	&:after {
+		display: block;
+	    position: absolute;
+	    left: 100%;
+	    top: 0;
+	    height: 100%;
+	    background: transparent;
+	    content: "";
+	    border-style: solid;
+	    border-width: 1.25rem 0 1.25rem 1.25rem;
+	    border-color: transparent transparent transparent $green;
+	}
+	&:hover {
+		cursor: pointer;
+		span {
+			background:darken($green, 10%);
+		}
+		&:after {
+		    border-color: transparent transparent transparent darken($green, 10%);
+		}
+	}
+}
 
 .AddToBasket {
 	margin-top:.5rem;
@@ -8,35 +41,7 @@ button:focus {
 		position: relative;
 		.eek-sign {
 			position:absolute;
-			span {
-				background: $green;
-				color: $white;
-			    padding: .25rem 1rem .25rem .75rem;
-			    font-size: 1.5rem;
-				display: block;
-				min-width: 4.5rem;
-			}
-			&:after {
-				display: block;
-			    position: absolute;
-			    left: 100%;
-			    top: 0;
-			    height: 100%;
-			    background: transparent;
-			    content: "";
-			    border-style: solid;
-			    border-width: 1.25rem 0 1.25rem 1.25rem;
-			    border-color: transparent transparent transparent $green;
-			}
-			&:hover {
-				cursor: pointer;
-				span {
-					background:darken($green, 10%);
-				}
-				&:after {
-				    border-color: transparent transparent transparent darken($green, 10%);
-				}
-			}
+			max-width: 100%;
 		}
 		.btn-buy {
 			display: block;
