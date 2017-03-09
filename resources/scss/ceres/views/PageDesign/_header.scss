@@ -175,6 +175,7 @@
 								color: white;
 							}
 						}
+						.menu-cat-img {display:none;}
 					}
 				}
 			}
@@ -419,6 +420,16 @@
 		}
 		.navbar {
 			background:$gray-dark;
+			.dropdown-menu {
+				min-height: 20em;
+				.menu-cat-img {
+					display: block;
+				    max-width: 20%;
+				    position: absolute;
+				    top: 1em;
+				    right: 1em;
+				}
+			}
 		}
 	}
 	.brand-wrapper{

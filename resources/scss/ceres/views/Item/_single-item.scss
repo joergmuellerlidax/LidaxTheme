@@ -118,10 +118,6 @@
     }
 }
 .availability-wrapper {
-    max-width: 50%;
-    display: block;
-    position:relative;
-    top:-36px;
     .availability {
         display: block;
         white-space: normal;
@@ -218,9 +214,6 @@
         .producertag {
             text-align: left;
         }
-        .availability-wrapper {
-            top:-23px;
-        }
         .nav-tabs {
             .nav-item {
                 .nav-link {
@@ -243,7 +236,9 @@
     }
 }
 @include media-breakpoint-up(lg) {
-    .basket-btn span {
-        display: inline;
+    .single {
+        .basket-btn span {
+            display: inline;
+        }
     }
 }
