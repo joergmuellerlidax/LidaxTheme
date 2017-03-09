@@ -118,7 +118,7 @@
                                         </div>
                                         
                                         <span class="articlenumber">
-                                            <b>Art.-Nr.:</b>
+                                            <b>Art.-Nr.: </b>
                                             <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                                         </span>
 
@@ -149,14 +149,15 @@
                                     </div>
                                 </div>
                                 
+                                <div class="availability-wrapper">
                                 {% for availability in services.availability.getAvailabilities() %}
-                                    <div class="availability-wrapper">
-                                        <span class="availability tag availability_{{ availability.id }} text-xs-left text-md-right" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
-                                            {{ availability.languages[0].name }}
-                                        </span>
-                                    </div>
+                                    
+                                    <span class="availability tag availability_{{ availability.id }} text-xs-left" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
+                                        {{ availability.languages[0].name }}
+                                    </span>
+                                   
                                 {% endfor %}
-
+                                 </div>
                                 
                                 <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true" resource="currentVariation" :show-quantity="true"></add-to-basket>
                                

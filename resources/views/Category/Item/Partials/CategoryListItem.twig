@@ -80,7 +80,7 @@
 
                     <a href="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}">
                         <div class="price">
-                            {{ item.data.calculatedPrices.default.price | formatMonetary(item.data.calculatedPrices.default.currency) }}
+                            {{ item.data.calculatedPrices.default.price | formatMonetary(item.data.calculatedPrices.default.currency) }}<sup>*</sup>
                         </div>
                     </a>
                     {% if item.data.calculatedPrices.rrp.price != '0' %}
