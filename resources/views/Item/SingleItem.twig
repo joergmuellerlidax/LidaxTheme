@@ -112,16 +112,12 @@
 
                                 <div class="row">
                                     <div class="col-xs-6">
-                                        <span class="articlenumber hidden-sm-down">
-                                            <b>Art.-Nr.:</b>
-                                            <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
-                                        </span>
 
                                         <div class="eek-sign" data-toggle="modal" data-target="#availability-modal">
                                             <span>A++</span>
                                         </div>
                                         
-                                        <span class="articlenumber hidden-md-up">
+                                        <span class="articlenumber">
                                             <b>Art.-Nr.:</b>
                                             <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                                         </span>
@@ -154,9 +150,11 @@
                                 </div>
                                 
                                 {% for availability in services.availability.getAvailabilities() %}
-                                    <span class="availability tag availability_{{ availability.id }} text-xs-left text-md-right" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
-                                        {{ availability.languages[0].name }}
-                                    </span>
+                                    <div class="availability-wrapper">
+                                        <span class="availability tag availability_{{ availability.id }} text-xs-left text-md-right" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
+                                            {{ availability.languages[0].name }}
+                                        </span>
+                                    </div>
                                 {% endfor %}
 
                                 
