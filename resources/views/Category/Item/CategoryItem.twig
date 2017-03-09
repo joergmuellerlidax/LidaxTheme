@@ -37,7 +37,9 @@
 			<div class="col-lg-3 hidden-md-down">
 				<div class="sidebar-categories">
 					<div class="category-title">Kategorien</div>
-					{{ services.category.get(services.category.getCurrentcategory().id) | json_encode }}
+					
+					{{ services.category.get(services.category.getCurrentcategory(Level1).id) | json_encode }}
+					
 					<ul>
 						<li>
 							<a href="">Innenleuchten</a>
