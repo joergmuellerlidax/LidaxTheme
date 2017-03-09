@@ -122,7 +122,7 @@
                                             <b>Art.-Nr.: </b>
                                             <span v-resource-bind:currentVariation="documents.0.data.variation.number">{{ item.documents[0].data.variation.number }}</span>
                                         </span>
-                                        
+
                                         <div class="availability-wrapper">
                                         {% for availability in services.availability.getAvailabilities() %}
                                             
@@ -210,18 +210,7 @@
                 </div>
                 
 
-                <!-- <div class="row">
-                    <div class="col-xs-12">
-                        <h3>Zubehör</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                            {% for item in itemList %}
-                                <li class="col-xs-6 col-lg-3">
-                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div> --><!-- ./Zubehör -->
+                
 
                 <div class="row prop-row m-y-2 sale-new">
                     <div class="col-xs-6">
@@ -259,18 +248,7 @@
                     </div>
                 </div><!-- ./new-slae -->
                 
-                <!-- <div class="row">
-                    <div class="col-xs-12">
-                        <h3>Kunden kauften auch</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                            {% for item in itemList %}
-                                <li class="col-xs-6 col-lg-3">
-                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div> --><!-- ./Kunden kauften auch -->
+                
 
 
                 <div class="row prop-row m-y-2 sale-new">
@@ -292,39 +270,12 @@
                     </div>
                 </div><!-- ./Zuletzt gesehene Kategorie -->
                 
-                <!-- <div class="row">
-                    <div class="col-xs-12">
-                        <h3>Zuletzt angesehen</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
-                            {% for item in itemList %}
-                                <li class="col-xs-6 col-lg-3">
-                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div> --><!-- ./Zuletzt angesehen -->
+                
 
             </div>
         </div>
         <!-- CROSSSELLING -->
-        <!-- {% if crossSellingList | length > 0 %}
-
-            <div class="row m-y-3">
-                <div class="col-xs-12">
-                    <h3 class="m-b-1">{{ (crossSellingList|first).relationship }}</h3>
-                </div>
-                <div class="col-xs-12">
-                    <ul class="crosssellers list-unstyled row">
-                        {% for crossSellingItem in crossSellingList %}
-                            <li class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                                {% include "Ceres::Category.Item.Partials.CategoryListItem" with { 'item': services.item.getItem(crossSellingItem.crossItemId) } %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        {% endif %} -->
+        
         <!-- ./CROSSSELLING -->
 
     </div>
