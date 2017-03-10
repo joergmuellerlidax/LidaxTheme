@@ -19,7 +19,7 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <div class="eek-sign" data-toggle="modal" >
+                <div class="eek-sign" data-toggle="modal" data-target="#availability-modal-${_uid}">
                     <span>A++</span>
                 </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
@@ -35,7 +35,7 @@
                 {#<i class="fa fa-arrow-right" aria-hidden="true"></i>#}
             {#</button>#}
 
-            <div class="modal fade" id="availability-modal" tabindex="-1" role="dialog" aria-labelledby="availability-modalLabel" aria-hidden="true">
+            <div class="modal fade" id="#availability-modal-${_uid}" tabindex="-1" role="dialog" aria-labelledby="availability-modalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
