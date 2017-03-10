@@ -27,9 +27,9 @@
   .filter-toggle {
 
     &[aria-expanded="true"]{
-      i::before {
-        content: "\f00d";
-        transition: all .1s ease;
+      i {
+        transform: rotate(-90deg);
+        transition: all .2s ease;
       }
     }
   }
