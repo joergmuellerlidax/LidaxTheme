@@ -39,7 +39,7 @@
 			<div class="col-lg-3 hidden-md-down">
 				<div class="sidebar-categories">
 					<div class="category-title">Kategorien</div>
-                        {% set subCategories = services.category.getChildren(services.category.getCurrentCategory().id) %}
+                        {% set subCategories = services.category.getHierarchy(services.category.getCurrentCategory().id) %}
                         <ul>
                             {% for subCategory in subCategories %}
                             <li>
