@@ -1,4 +1,4 @@
-{% extends getPartial('page-design') %}
+{% extends 'Ceres::Homepage.Homepage' %}
 
 {% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
