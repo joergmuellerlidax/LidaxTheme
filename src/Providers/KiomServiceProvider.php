@@ -46,6 +46,11 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
+        // provide template to use for basket
+        $eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::Basket.Basket");
+            return false;
+        });
 
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
