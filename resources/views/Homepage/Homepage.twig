@@ -1,6 +1,8 @@
 {% extends 'Ceres::Homepage.Homepage' %}
 
 {% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
+{% set c16 = services.category.get(16, lang) %}
+{% set c19 = services.category.get(19, lang) %}
 
 {% block ThemeHomepage %}
 
@@ -11,20 +13,20 @@
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <a class="hero-category" href="">
-                                <img src="http://placehold.it/700x400" alt="First slide" class="img-fluid">
+                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
+                                <img src="/documents/{{ c16.details[0].imagePath }}" alt="First slide" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h3>Markenname</h3>
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> Produktname</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
                                 </div>
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="hero-category" href="">
-                                <img src="http://placehold.it/700x400" alt="First slide" class="img-fluid">
+                            <a class="hero-category" href="{{ services.category.getURL(c19, lang) }}">
+                                <img src="/documents/{{ c19.details[0].imagePath }}" alt="First slide" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h3>Markenname</h3>
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> Produktname</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c19.details[0].name }}</h1>
                                 </div>
                             </a>
                         </div>

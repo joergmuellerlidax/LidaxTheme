@@ -12,6 +12,8 @@
 'orderByKey'        : itemSort[1] | default('ASC'),
 'facetParams'       : request.get("facets")
 } %}
+{% set subCategories = services.category.getChildren(services.category.getCurrentCategory().id) %}
+{% set c16 = services.category.get(16, lang) %}
 
 {% set page                 = request.get("page") | default(1) %}
 
@@ -30,44 +32,24 @@
     <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
     <resource name="itemList" :data="{}"></resource>
 
-    {#paginatedResult: {{ paginatedResult | json_encode() }}#}
+    <div class="teaser-img">
+        <img src="/documents/{{ c16.details[0].imagePath }}" alt="First slide" class="img-fluid">
+    </div>
 
     <div class="categoriegrid page-content container-max">
 		<div class="row is-flex">
 			<div class="col-lg-3 hidden-md-down">
 				<div class="sidebar-categories">
 					<div class="category-title">Kategorien</div>
-					
-					{{ services.category.get(services.category.getCurrentcategory(Level1).id) | json_encode }}
-					
-					<ul>
-						<li>
-							<a href="">Innenleuchten</a>
-							<ul>
-								<li><a href="">Pendelleuchten</a></li>
-								<li><a href="">Deckenleuchten</a></li>
-								<li>
-									<a href="">Stehleuchten</a>
-									<ul>
-										<li><a href="">Wandleuchten</a></li>
-										<li><a href="">Einbauleuchten</a></li>
-										<li><a href="">Unterbauleuchten</a></li>
-										<li><a href="">Aufbauleuchten</a></li>
-										<li><a href="">Klemmleuchten</a></li>
-									</ul>
-								</li>
-								<li><a href="">Tischleuchten</a></li>
-								<li><a href="">LED Tischleuchten</a></li>
-							</ul>
-						</li>
-						<li><a href="">Wandleuchten</a></li>
-						<li><a href="">Einbauleuchten</a></li>
-						<li><a href="">Unterbauleuchten</a></li>
-						<li><a href="">Aufbauleuchten</a></li>
-						<li><a href="">Bodenleuchten</a></li>
-						<li><a href="">Klemmleuchten</a></li>
-						<li><a href="">Lupenleuchten</a></li>
-					</ul>
+                        <ul>
+                            {% for subCategory in subCategories %}
+                            <li>
+                                <a href="{{ services.category.getURL(subCategory, lang) }}">
+                                    {{ subCategory.details[0].name }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
 				</div>
 			</div>
 		
