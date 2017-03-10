@@ -56,6 +56,12 @@ class KiomServiceProvider extends ServiceProvider
                     $componentContainer->setNewComponentTemplate('Kiom::Basket.Components.AddToBasket');
             } 
         }, self::EVENT_LISTENER_PRIORITY);
+
+        $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
+            if($componentContainer->getOriginComponentTemplate() == 'Ceres::Customer.Components.UserLoginHandler') {
+                    $componentContainer->setNewComponentTemplate('Kiom::Customer.Components.UserLoginHandler');
+            } 
+        }, self::EVENT_LISTENER_PRIORITY);
     }
 
 
