@@ -9,14 +9,6 @@
     display: block;
     padding:.5em;
   }
-  .list-pagination {
-    display: inline-block;
-    padding:.5em;
-  }
-  .list-pagination-text {
-    display: inline-block;
-    padding: .5em;
-  }
   .selected-filters {
     display: inline-block;
     float: right;
@@ -118,9 +110,6 @@
     .list-sort,
     .list-itemsperpage {
       display: inline-block;
-    }
-    .list-pagination-text {
-      padding: .5em 0;
     }
     .filter-toggle {
       top: 50%;
