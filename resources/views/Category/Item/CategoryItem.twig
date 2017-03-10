@@ -41,29 +41,21 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="list-sort">
-                            <div class="dropdown">
-                                <a class="text-primary dropdown-toggle" id="list-sort-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Sortieren
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="list-sort-toggle">
-                                    <a class="dropdown-item" href="#">Name</a>
-                                    <a class="dropdown-item" href="#">Beliebtheit</a>
-                                    <a class="dropdown-item" href="#">Preis aufsteigend</a>
-                                    <a class="dropdown-item" href="#">Preis absteigend</a>
-                                </div>
-                            </div>
+                            <select class="custom-select">
+                                <option value="" disabled selected>Sortieren</option>
+                                <option value="1">Name</option>
+                                <option value="2">Beliebtheit</option>
+                                <option value="3">Preis aufsteigend</option>
+                                <option value="4">Preis absteigend</option>
+                            </select>
                         </div>
                         <div class="list-itemsperpage">
-                            <div class="dropdown">
-                                <a class="text-primary dropdown-toggle" id="list-itemsperpage-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                20
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="list-itemsperpage-toggle">
-                                    <a class="dropdown-item" href="#">20</a>
-                                    <a class="dropdown-item" href="#">40</a>
-                                    <a class="dropdown-item" href="#">60</a>
-                                </div>
-                            </div>
+                            <select class="custom-select">
+                                <option selected>20</option>
+                                <option value="1">40</option>
+                                <option value="2">60</option>
+                                <option value="3">Alle</option>
+                            </select>
                         </div>
 
                         <a class="filter-toggle" data-toggle="collapse" href="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">

@@ -10,13 +10,7 @@
     padding: .5em;
   }
   .list-pagination {
-    display: inline-block;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 7px;
-    ul.pagination {margin:0;}
+    display: none;
   }
   .selected-filters {
     display: inline-block;
@@ -115,12 +109,27 @@
     }
   }
   @include media-breakpoint-up(md){
+    .list-pagination {
+      display: inline-block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      transform: translateX(0);
+      margin-top: 7px;
+      ul.pagination {margin:0;}
+    }
     #filterCollapse {
       .page-content {
         .card {
           padding-right: 2em;
         }
       }
+    }
+  }
+  @include media-breakpoint-up(xl){
+    .list-pagination {
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }
