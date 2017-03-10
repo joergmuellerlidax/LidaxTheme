@@ -6,11 +6,16 @@
   }
   .list-sort,
   .list-itemsperpage {
-    display: inline-block;
-    padding: .5em;
+    display: block;
+    padding:.5em;
   }
   .list-pagination {
-    display: none;
+    display: inline-block;
+    padding:.5em;
+  }
+  .list-pagination-text {
+    display: inline-block;
+    padding: .5em;
   }
   .selected-filters {
     display: inline-block;
@@ -28,8 +33,9 @@
     }
   }
   .filter-toggle {
-    display: inline-block;
-    float: right;
+    position: absolute;
+    right: .5rem;
+    bottom:0;
     &[aria-expanded="true"]{
       i::before {
         content: "\f00d";
@@ -108,28 +114,28 @@
       }
     }
   }
-  @include media-breakpoint-up(md){
-    .list-pagination {
+  @include media-breakpoint-up(sm){
+    .list-sort,
+    .list-itemsperpage {
       display: inline-block;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      transform: translateX(0);
-      margin-top: 7px;
-      ul.pagination {margin:0;}
     }
+    .list-pagination-text {
+      padding: .5em 0;
+    }
+    .filter-toggle {
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: auto;
+    }
+  }
+  @include media-breakpoint-up(md){
+    
     #filterCollapse {
       .page-content {
         .card {
           padding-right: 2em;
         }
       }
-    }
-  }
-  @include media-breakpoint-up(xl){
-    .list-pagination {
-      left: 50%;
-      transform: translateX(-50%);
     }
   }
 }
