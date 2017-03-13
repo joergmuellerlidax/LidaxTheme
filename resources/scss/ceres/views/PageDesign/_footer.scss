@@ -103,6 +103,12 @@
 				background: -ms-linear-gradient(top,  rgba(247,247,249, 0), rgba(247,247,249, 1));
 				background: linear-gradient(top,  rgba(247,247,249, 0), rgba(247,247,249, 1));
 		    }
+		    &[aria-expanded="true"] {
+		    	margin-top: 0;
+		    	&:before {
+					background:none;
+				}
+			}
 		}
 		a[aria-expanded="false"] span:before {
 			content:"Mehr";
