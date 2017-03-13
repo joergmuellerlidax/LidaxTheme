@@ -22,7 +22,7 @@
                 <div class="eek-sign" data-toggle="modal" data-target="#availability-modal-${_uid}">
                     <span>A++</span>
                 </div>
-                <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
+                <button type="button" class="btn btn-block btn-buy" @click="addToBasket()">
                     Jetzt ansehen
                 </button>
                 <div class="availability-preview" v-tooltip data-toggle="tooltip" data-placement="top" title="Lieferbar in 1-2 Werktagen">
@@ -35,7 +35,7 @@
                 {#<i class="fa fa-arrow-right" aria-hidden="true"></i>#}
             {#</button>#}
 
-            <div class="modal fade" id="availability-modal-${_uid}" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${_uid}" aria-hidden="true">
+            <div class="modal fade availability-modal" id="availability-modal-${_uid}" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${_uid}" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
