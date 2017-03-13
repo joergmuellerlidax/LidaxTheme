@@ -2,13 +2,14 @@
 
 {% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
 {% set c16 = services.category.get(16, "de") %}
-
+{% set c = services.category.get(16, "de") | json_encode() %}
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% block ThemeHomepage %}
 
 <div class="home container-max">
+{{c}}
     <div class="row">
         <div class="cmp cmp-hero">
             <div class="hero-main">
@@ -16,10 +17,10 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <a class="hero-category" href="{{ services.category.getURL(c16, "de") }}">
-                                <img src="/documents/{{ c16.details[0].imagePath }}" alt="First slide" class="img-fluid">
+                                <img src="/documents/{{ c16.details[0].image2Path }}" alt="First slide" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h3>Markenname</h3>
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> name</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
                                 </div>
                             </a>
                         </div>

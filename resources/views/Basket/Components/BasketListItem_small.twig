@@ -32,8 +32,10 @@
             ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup>
         </div>
         
+        {% set l = basketItem.variation.data.images.all[0] | length %}
+        {% l = l - 1 %}
         <div class="eek-sign clearfix" data-toggle="modal" data-target="#availability-modal-${ basketItem.id }">
-            <a :href="basketItem.variation.data.images.all[0].urlMiddle | json" data-lightbox="single-big-image-gallery"><span>A++</span></a>
+            <a :href="{{basketItem.variation.data.images.all[l].urlMiddle}}" data-lightbox="single-big-image-gallery"><span>A++</span></a>
         </div>
 
         <button type="button" class="item-remove btn btn-labeled btn-link btn-sm" @click="deleteItem" :disabled="waiting" :class="{ 'btn-link' : !deleteConfirmed, 'btn-danger' : deleteConfirmed }">
