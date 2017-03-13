@@ -19,36 +19,16 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <div class="eek-sign" data-toggle="modal" data-target="#availability-modal-${_uid}">
-                    <span>A++</span>
+                <div class="eek-sign">
+                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="single-big-image-gallery"><span>A++</span></a>
                 </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
                 </button>
-                <div class="availability-preview" v-tooltip data-toggle="tooltip" data-placement="top" title="Lieferbar in 1-2 Werktagen">
-                    <i class="fa fa-truck" aria-hidden="true"></i>
+                <div class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
+                :title="!item.variation.releasedAt ? item.variation.availability.names[0].name : item.variation.releasedAt">
+                <i class="fa fa-truck" aria-hidden="true"></i>
                 </div>
-            </div>
-            
-            {# maybe use the button for wishlist #}
-            {#<button type="button" class="btn btn-primary" @click="directToItem()">#}
-                {#<i class="fa fa-arrow-right" aria-hidden="true"></i>#}
-            {#</button>#}
-
-            <div class="modal fade availability-modal" id="availability-modal-${_uid}" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${_uid}" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="availability-modal-label-${_uid}">Energieeffizienzklasse: A++</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <img class="img-fluid" :src="item.images.all[item.images.all.length - 1].url | json">
-                  </div>
-                </div>
-              </div>
             </div>
             
         </div>
