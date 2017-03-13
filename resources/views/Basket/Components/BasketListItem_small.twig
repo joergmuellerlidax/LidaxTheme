@@ -59,7 +59,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="img-fluid" :src="item.images.all[0].urlMiddle | json">
+            <img class="img-fluid" :src="basketItem.variation.data.images | itemImages 'urlPreview' | arrayLast">
           </div>
         </div>
       </div>
