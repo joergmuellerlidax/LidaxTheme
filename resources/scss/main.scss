@@ -40,7 +40,7 @@
 // // Forms
 // @import "ceres/forms/input-groups";
 // @import "ceres/forms/inputs";
-// @import "ceres/forms/select";
+@import "ceres/forms/select";
 
 // // Page Design / Global components
 @import "ceres/views/PageDesign/header";
@@ -74,3 +74,4 @@
 @import "ceres/views/Item/single-item";
 // @import "ceres/views/ItemList/loading-animation";
 @import "ceres/views/Category/category-list";
+@import "ceres/views/Category/category-list-controls";

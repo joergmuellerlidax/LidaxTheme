@@ -63,6 +63,7 @@
 				position:relative;
 				.dropdown-menu {
 					z-index: 2000;
+					width:150px;
 					a {
 						padding:1rem .8rem;
 						border:0;
@@ -132,6 +133,7 @@
 					min-width: auto;
 					border-right:0;
 					text-align: center;
+					font-size: 1.2rem;
 				}
 				.nav-link.dropdown-toggle::after {
 					display: inline-block;
@@ -283,6 +285,9 @@
 			.list-inline-item {
 				#login-change {
 					a {
+						i.hidden-sm-up {
+							display: inline-block !important;
+						}
 						span {
 							display: none;
 						}
@@ -444,7 +449,7 @@
 	.navbar-nav{
 		&>.nav-item{
 			&>.nav-link{
-				padding: $nav-link-padding;
+				padding: 1.15rem 1rem;
 			}
 		}
 	}

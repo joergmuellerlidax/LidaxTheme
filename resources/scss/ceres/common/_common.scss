@@ -10,6 +10,12 @@ a:active {
 }
 a:focus {outline:none;}
 
+#add-item-to-basket-overlay{
+    .modal-body {
+        p.small {display:none;}
+    }
+}
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;

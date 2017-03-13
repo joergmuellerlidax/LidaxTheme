@@ -1,6 +1,14 @@
 button:focus {
 	outline:none !important;
 }
+
+.btn-link:focus, .btn-link:hover {
+    color: $brand-primary;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+
 .eek-sign {
 	position:relative;
 	max-width: 5rem;
@@ -34,6 +42,8 @@ button:focus {
 		}
 	}
 }
+
+
 
 .AddToBasket {
 	margin-top:.5rem;
