@@ -67,7 +67,7 @@
             </div>
         {% endif %}
         <!-- ./STORE SPECIALS -->
-
+        <p>{{ item | json_encode() }}</p>
         <!-- ITEM DETAILS -->
         <div class="thumb-content">
             <a href="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}" class="thumb-title">
