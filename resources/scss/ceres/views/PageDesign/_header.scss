@@ -14,11 +14,57 @@
 		color: $top-bar-color;
 	}
 	
+	
+	
+	
+	.navbar .nav-item.hidden-md-down a i,
+	.control-search a i {position: relative;z-index:99;}
+	
+	.navbar .nav-item.hidden-md-down a,
+	.navbar .nav-item.hidden-md-down a[aria-expanded="false"] {
+		background:transparent !important;
+		color: $gray-darker !important;
+		position: relative;
+		&:before {
+			content: "";
+			width: 2em;
+			height: 2em;
+			background: $brand-secondary;
+			border-radius:100%;
+			display: block;
+			position: absolute;
+			left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+		}
+	}
+	
 	.navbar .nav-item.hidden-md-down:hover a,
-	.navbar .nav-item.hidden-md-down a[aria-expanded="true"],
-	.control-search a[aria-expanded="true"] {
-		background:$gray-darker !important;
-		color: $white !important;
+	.navbar .nav-item.hidden-md-down a[aria-expanded="true"] {
+		background:transparent !important;
+		&:before {
+			background: $brand-primary;
+		}
+	}
+
+
+	.control-search a,
+	.control-search a[aria-expanded="false"] {
+		background:transparent !important;
+		color: $white!important;
+		position: relative;
+		&:before {
+			content: "";
+			width: 3em;
+			height: 3em;
+			background: $brand-primary;
+			border-radius:100%;
+			display: block;
+			position: absolute;
+			left: 50%;
+		    top: 47%;
+		    transform: translate(-50%, -50%);
+		}
 	}
 	.control-search a[aria-expanded="true"] i:before,
 	.navbar .nav-item.hidden-md-down a[aria-expanded="true"] i:before {
