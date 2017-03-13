@@ -19,8 +19,8 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <div class="eek-sign">
-                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="single-big-image-gallery"><span>A++</span></a>
+                <div class="eek-sign" v-for="prop in item.properties" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
+                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="single-big-image-gallery"><span>${ prop.property.names[0].name }</span></a>
                 </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
