@@ -1,7 +1,7 @@
 {% extends 'Ceres::Homepage.Homepage' %}
 
 {% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
-{% set c16 = services.category.get(16, lang) %}
+{% set c16 = services.category.get(16, "de") %}
 
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
@@ -15,7 +15,7 @@
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
+                            <a class="hero-category" href="{{ services.category.getURL(c16, "de") }}">
                                 <img src="/documents/{{ c16.details[0].imagePath }}" alt="First slide" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h3>Markenname</h3>
