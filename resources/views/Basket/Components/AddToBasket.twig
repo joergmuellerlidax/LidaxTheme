@@ -22,9 +22,9 @@
                 <div class="eek-sign" data-toggle="modal" data-target="#availability-modal-${_uid}">
                     <span>A++</span>
                 </div>
-                <button type="button" class="btn btn-block btn-buy" @click="addToBasket()">
+                <a type="button" class="btn btn-block btn-buy" href="{{ item.data.item.id | buildItemURL(item.data.variation.id, true) }}">
                     Jetzt ansehen
-                </button>
+                </a>
                 <div class="availability-preview" v-tooltip data-toggle="tooltip" data-placement="top" title="Lieferbar in 1-2 Werktagen">
                     <i class="fa fa-truck" aria-hidden="true"></i>
                 </div>
