@@ -1,9 +1,17 @@
 [
-  "salesPrices.type",
+  "images.all.urlMiddle",
+  "images.all.urlPreview",
+  "images.variation.urlMiddle",
+  "images.variation.urlPreview",
+  "item.storeSpecial",
   "salesPrices.price",
-  "item.storeSpecial.id",
-  "item.storeSpecial.names.name",
+  "salesPrices.type",
   "texts.name*",
-  "images.all.url*",
-  "images.variation.url*"
+  "item.id",
+  "texts*",
+  "variation.id",
+  "variation.availability.averageDays",
+  "variation.availability.names.name",
+  "variation.itemId",
+  "variation.releasedAt"
 ]

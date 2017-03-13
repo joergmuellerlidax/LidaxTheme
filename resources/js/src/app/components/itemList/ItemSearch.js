@@ -1,5 +1,6 @@
 var ResourceService = require("services/ResourceService");
 var ItemListService = require("services/ItemListService");
+var UrlService = require("services/UrlService");
 
 Vue.component("item-search", {
 
@@ -24,6 +25,15 @@ Vue.component("item-search", {
     {
         ResourceService.bind("itemSearch", this);
         this.initAutocomplete();
+
+        var urlParams = UrlService.getUrlParams(document.location.search);
+
+        this.itemSearch.searchString = urlParams.query;
+
+        if (this.itemSearch.searchString)
+        {
+            ItemListService.updateSearchString(this.itemSearch.searchString);
+        }
     },
 
     methods:
@@ -36,7 +46,7 @@ Vue.component("item-search", {
             }
             else
             {
-                window.open("/search?searchString=" + this.itemSearch.searchString, "_self", false);
+                window.open("/search?query=" + this.itemSearch.searchString, "_self", false);
             }
         },
 

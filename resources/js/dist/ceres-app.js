@@ -701,6 +701,7 @@ Vue.component("add-to-basket", {
 
     props: [
         "item",
+        "itemUrl",
         "showQuantity",
         "template"
     ],
@@ -3169,6 +3170,7 @@ var ItemListService = require("services/ItemListService");
 Vue.component("item-list", {
 
     props: [
+        "categoryId",
         "template"
     ],
 
@@ -3184,61 +3186,20 @@ Vue.component("item-list", {
     created: function()
     {
         this.$options.template = this.template;
+
+        ItemListService.setCategoryId(this.categoryId);
     },
 
     ready: function()
     {
         ResourceService.bind("itemList", this);
         ResourceService.bind("isLoading", this);
-
-        ItemListService.setSearchParams(document.location.search);
-
-        this.watchFacetOpeningState();
-    },
-
-    methods:
-    {
-        watchFacetOpeningState: function()
-        {
-            if (document.getElementById("filterCollapse") !== null)
-            {
-                var observer = new MutationObserver(function(mutation)
-                {
-                    if (!document.getElementById("filterCollapse").classList.contains("collapsing"))
-                    {
-                        this.filterListState = document.getElementById("filterCollapse").classList.contains("in");
-                    }
-                }.bind(this));
-
-                var targetToWatch = document.getElementById("filterCollapse");
-
-                observer.observe(targetToWatch, {attributes: true, subtree: true});
-            }
-        }
-    },
-
-    watch:
-    {
-        isLoading: function()
-        {
-            this.watchFacetOpeningState();
-        },
-
-        itemList: function()
-        {
-            if (!$.isEmptyObject(this.itemList) && document.getElementById("filterCollapse") !== null)
-            {
-                if (this.filterListState)
-                {
-                    document.getElementById("filterCollapse").classList.add("in");
-                }
-            }
-        }
     }
 });
 
 },{"services/ItemListService":73,"services/ResourceService":76}],35:[function(require,module,exports){
 var ItemListService = require("services/ItemListService");
+var UrlService = require("services/UrlService");
 
 Vue.component("item-list-sorting", {
 
@@ -3260,6 +3221,8 @@ Vue.component("item-list-sorting", {
 
         this.buildData();
         this.selectedSorting = this.sortData[0];
+
+        this.setSelectedValueByUrl();
     },
 
     methods:
@@ -3282,13 +3245,32 @@ Vue.component("item-list-sorting", {
         updateSorting: function()
         {
             ItemListService.setOrderBy(this.selectedSorting.value);
+            ItemListService.getItemList();
+        },
+
+        setSelectedValueByUrl: function()
+        {
+            var urlParams = UrlService.getUrlParams(document.location.search);
+
+            if (urlParams.orderBy)
+            {
+                for (var i in this.sortData)
+                {
+                    if (this.sortData[i].value === urlParams.orderBy)
+                    {
+                        this.selectedSorting = this.sortData[i];
+                        ItemListService.setOrderBy(this.selectedSorting.value);
+                    }
+                }
+            }
         }
     }
 });
 
-},{"services/ItemListService":73}],36:[function(require,module,exports){
+},{"services/ItemListService":73,"services/UrlService":77}],36:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 var ItemListService = require("services/ItemListService");
+var UrlService = require("services/UrlService");
 
 Vue.component("item-search", {
 
@@ -3313,6 +3295,15 @@ Vue.component("item-search", {
     {
         ResourceService.bind("itemSearch", this);
         this.initAutocomplete();
+
+        var urlParams = UrlService.getUrlParams(document.location.search);
+
+        this.itemSearch.searchString = urlParams.query;
+
+        if (this.itemSearch.searchString)
+        {
+            ItemListService.updateSearchString(this.itemSearch.searchString);
+        }
     },
 
     methods:
@@ -3325,7 +3316,7 @@ Vue.component("item-search", {
             }
             else
             {
-                window.open("/search?searchString=" + this.itemSearch.searchString, "_self", false);
+                window.open("/search?query=" + this.itemSearch.searchString, "_self", false);
             }
         },
 
@@ -3384,7 +3375,7 @@ Vue.component("item-search", {
     }
 });
 
-},{"services/ItemListService":73,"services/ResourceService":76}],37:[function(require,module,exports){
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],37:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 var accounting = require("accounting");
 
@@ -3465,6 +3456,7 @@ Vue.component("item-store-special", {
 },{"accounting":1,"services/ResourceService":76}],38:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 var ItemListService = require("services/ItemListService");
+var UrlService = require("services/UrlService");
 
 Vue.component("items-per-page", {
 
@@ -3485,6 +3477,8 @@ Vue.component("items-per-page", {
         this.$options.template = this.template;
 
         ResourceService.bind("itemSearch", this);
+
+        this.setSelectedValueByUrl();
     },
 
     methods:
@@ -3492,11 +3486,36 @@ Vue.component("items-per-page", {
         itemsPerPageChanged: function()
         {
             ItemListService.setItemsPerPage(this.itemSearch.itemsPerPage);
+            ItemListService.setPage(1);
+            ItemListService.getItemList();
+        },
+
+        setSelectedValueByUrl: function()
+        {
+            var urlParams = UrlService.getUrlParams(document.location.search);
+
+            if (urlParams.items)
+            {
+                if (this.paginationValues.indexOf(urlParams.items) > -1)
+                {
+                    this.itemSearch.itemsPerPage = urlParams.items;
+                }
+                else
+                {
+                    this.itemSearch.itemsPerPage = App.config.defaultItemsPerPage;
+                }
+            }
+            else
+            {
+                this.itemSearch.itemsPerPage = App.config.defaultItemsPerPage;
+            }
+
+            ItemListService.setItemsPerPage(this.itemSearch.itemsPerPage);
         }
     }
 });
 
-},{"services/ItemListService":73,"services/ResourceService":76}],39:[function(require,module,exports){
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],39:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 
 Vue.component("loading-animation", {
@@ -3526,6 +3545,7 @@ Vue.component("loading-animation", {
 },{"services/ResourceService":76}],40:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 var ItemListService = require("services/ItemListService");
+var UrlService = require("services/UrlService");
 
 Vue.component("pagination", {
 
@@ -3548,6 +3568,10 @@ Vue.component("pagination", {
 
         ResourceService.bind("itemSearch", this);
         ResourceService.bind("itemList", this);
+
+        var urlParams = UrlService.getUrlParams(document.location.search);
+
+        this.itemSearch.page = urlParams.page;
     },
 
     methods:
@@ -3555,6 +3579,7 @@ Vue.component("pagination", {
         setPage: function(page)
         {
             ItemListService.setPage(page);
+            ItemListService.getItemList();
         }
     },
 
@@ -3585,7 +3610,7 @@ Vue.component("pagination", {
     }
 });
 
-},{"services/ItemListService":73,"services/ResourceService":76}],41:[function(require,module,exports){
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],41:[function(require,module,exports){
 var FilterService   = require("services/ItemFilterService");
 var ResourceService = require("services/ResourceService");
 
@@ -3654,19 +3679,18 @@ Vue.component("item-filter-list", {
 
 },{"services/ResourceService":76,"services/UrlService":77}],43:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
-var FilterService   = require("services/ItemFilterService");
+var ItemListService = require("services/ItemListService");
 
 Vue.component("item-filter-tag-list", {
 
     props: [
-        "template",
-        "facets",
-        "categoryId"
+        "template"
     ],
 
     data: function()
     {
         return {
+            facets: {},
             facetParams: []
         };
     },
@@ -3677,12 +3701,20 @@ Vue.component("item-filter-tag-list", {
         ResourceService.bind("facetParams", this);
     },
 
+    ready: function()
+    {
+        ResourceService.bind("facets", this);
+    },
+
     methods:
     {
         removeTag: function(tagId)
         {
             this.facetParams.splice(this.facetParams.indexOf(tagId.toString()), 1);
-            FilterService.applyFacets(this.facetParams, this.categoryId);
+
+            ResourceService.getResource("facetParams").set(this.facetParams);
+            ItemListService.setFacets(this.facetParams);
+            ItemListService.getItemList();
         }
     },
 
@@ -3711,7 +3743,7 @@ Vue.component("item-filter-tag-list", {
     }
 });
 
-},{"services/ItemFilterService":72,"services/ResourceService":76}],44:[function(require,module,exports){
+},{"services/ItemListService":73,"services/ResourceService":76}],44:[function(require,module,exports){
 var ModalService        = require("services/ModalService");
 var APIService          = require("services/APIService");
 var NotificationService = require("services/NotificationService");
@@ -4390,13 +4422,13 @@ Vue.directive("logout", function()
 },{"services/ApiService":69}],52:[function(require,module,exports){
 var ResourceService = require("services/ResourceService");
 
-Vue.directive("facet-param-watcher",
+Vue.directive("is-loading-watcher",
     {
         bind: function()
         {
             var firstRendering = true;
 
-            ResourceService.watch("facetParams", function()
+            ResourceService.watch("isLoading", function()
             {
                 if (!firstRendering && document.getElementById("twig-rendered-item-list") !== null)
                 {
@@ -5409,45 +5441,56 @@ module.exports = (function($)
     var searchParams =
         {
             searchString: "",
-            itemsPerPage: 20,
-            orderBy     : "itemName",
-            orderByKey  : "ASC",
-            page        : 1
+            itemsPerPage: App.config.defaultItemsPerPage,
+            orderBy     : App.config.defaultSorting,
+            page        : 1,
+            facets      : "",
+            categoryId  : null,
+            template    : ""
         };
 
     return {
-        setSearchString: setSearchString,
-        setItemsPerPage: setItemsPerPage,
-        setOrderBy     : setOrderBy,
-        setPage        : setPage,
-        setSearchParams: setSearchParams
+        getItemList       : getItemList,
+        updateSearchString: updateSearchString,
+        setSearchString   : setSearchString,
+        setItemsPerPage   : setItemsPerPage,
+        setOrderBy        : setOrderBy,
+        setPage           : setPage,
+        setSearchParams   : setSearchParams,
+        setFacets         : setFacets,
+        setCategoryId     : setCategoryId
     };
 
-    function _getItemList()
+    function getItemList()
     {
-        if (searchParams.searchString.length >= 3)
+        if (searchParams.categoryId || searchParams.searchString.length >= 3)
         {
-            UrlService.setUrlParams(searchParams);
+            if (ResourceService.getResource("itemList").val())
+            {
+                ResourceService.getResource("itemList").val().total = 0;
+            }
 
-            ResourceService.getResource("itemList").set({});
+            var url = searchParams.categoryId ? "/rest/io/category" : "/rest/io/item/search";
+
+            searchParams.template = "Ceres::ItemList.ItemListView";
+
             _setIsLoading(true);
 
-            return ApiService.get("/rest/io/item/search", {searchString: searchParams.searchString}, {searchParams: searchParams}, {
-                template: "Ceres::ItemList.ItemListView"
-            })
+            ApiService.get(url, searchParams)
                 .done(function(response)
                 {
                     _setIsLoading(false);
+
                     ResourceService.getResource("itemList").set(response);
+                    ResourceService.getResource("facets").set(response.facets);
                 })
-                .fail(function()
+                .fail(function(response)
                 {
                     _setIsLoading(false);
+
                     NotificationService.error("Error while searching").closeAfter(5000);
                 });
         }
-
-        return null;
     }
 
     function _setIsLoading(isLoading)
@@ -5468,8 +5511,14 @@ module.exports = (function($)
         {
             searchParams[key] = queryParams[key];
         }
+    }
 
-        _getItemList();
+    function updateSearchString(searchString)
+    {
+        searchParams.searchString = searchString;
+
+        searchString = (searchString.length > 0) ? searchString : null;
+        UrlService.setUrlParam("query", searchString);
     }
 
     function setSearchString(searchString)
@@ -5477,26 +5526,54 @@ module.exports = (function($)
         searchParams.searchString = searchString;
         searchParams.page = 1;
 
-        _getItemList();
+        setPage(1);
+        setFacets("");
+
+        ResourceService.getResource("facets").set({});
+        ResourceService.getResource("facetParams").set([]);
+
+        searchString = (searchString.length > 0) ? searchString : null;
+        UrlService.setUrlParam("query", searchString);
     }
 
     function setItemsPerPage(itemsPerPage)
     {
         searchParams.itemsPerPage = itemsPerPage;
-        _getItemList();
+
+        itemsPerPage = (itemsPerPage !== App.config.defaultItemsPerPage) ? itemsPerPage : null;
+        UrlService.setUrlParam("items", itemsPerPage);
     }
 
     function setOrderBy(orderBy)
     {
-        searchParams.orderBy = orderBy.split("_")[0];
-        searchParams.orderByKey = orderBy.split("_")[1];
-        _getItemList();
+        searchParams.orderBy = orderBy;
+
+        orderBy = (orderBy !== App.config.defaultSorting) ? orderBy : null;
+        UrlService.setUrlParam("orderBy", orderBy);
     }
 
     function setPage(page)
     {
         searchParams.page = page;
-        _getItemList();
+
+        page = (page > 1) ? page : null;
+        UrlService.setUrlParam("page", page);
+    }
+
+    function setFacets(facets)
+    {
+        searchParams.facets = facets.toString();
+
+        facets = (facets.toString().length > 0) ? facets.toString() : null;
+
+        setPage(1);
+
+        UrlService.setUrlParam("facets", facets);
+    }
+
+    function setCategoryId(categoryId)
+    {
+        searchParams.categoryId = categoryId;
     }
 
 })(jQuery);
@@ -6397,7 +6474,7 @@ module.exports = (function($)
 {
     return {
         getUrlParams: _getUrlParams,
-        setUrlParams: _setUrlParams
+        setUrlParam: _setUrlParam
     };
 
     function _getUrlParams(urlParams)
@@ -6428,6 +6505,22 @@ module.exports = (function($)
         var title = document.getElementsByTagName("title")[0].innerHTML;
 
         window.history.replaceState({}, title, url);
+    }
+
+    function _setUrlParam(key, value)
+    {
+        urlParams = _getUrlParams(document.location.search);
+
+        if (value !== null)
+        {
+            urlParams[key] = value;
+        }
+        else
+        {
+            delete urlParams[key];
+        }
+
+        _setUrlParams(urlParams);
     }
 
 })(jQuery);
