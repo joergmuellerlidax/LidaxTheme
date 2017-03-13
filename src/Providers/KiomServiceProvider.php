@@ -41,10 +41,10 @@ class KiomServiceProvider extends ServiceProvider
         });
 
         // provide template to use for single items
-        $eventDispatcher->listen('IO.tpl.item', function(TemplateContainer $container, $templateData) {
-            $container->setTemplate("Kiom::Item.SingleItem");
-            return false;
-        });
+        // $eventDispatcher->listen('IO.tpl.item', function(TemplateContainer $container, $templateData) {
+        //     $container->setTemplate("Kiom::Item.SingleItem");
+        //     return false;
+        // });
 
         // provide template to use for basket
         $eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData) {
