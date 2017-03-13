@@ -45,7 +45,7 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <img class="img-fluid" :src="item.images.all[0].urlMiddle | json">
+                    <img class="img-fluid" :src="item.images.all[item.images.all.length - 1].urlMiddle | json">
                   </div>
                 </div>
               </div>
