@@ -33,7 +33,7 @@
         </div>
         
         <div class="eek-sign clearfix" data-toggle="modal" data-target="#availability-modal-${ basketItem.id }">
-            <span>A++</span>
+            <a :href="basketItem.variation.data.images.all[0].urlMiddle | json" data-lightbox="single-big-image-gallery"><span>A++</span></a>
         </div>
 
         <button type="button" class="item-remove btn btn-labeled btn-link btn-sm" @click="deleteItem" :disabled="waiting" :class="{ 'btn-link' : !deleteConfirmed, 'btn-danger' : deleteConfirmed }">
@@ -49,19 +49,7 @@
         </button>
     </div>
     <!-- ./ITEM DETAILS -->
-    <div class="modal fade availability-modal" id="availability-modal-${ basketItem.id }" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${ basketItem.id }" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="availability-modal-label-${ basketItem.id }">Energieeffizienzklasse: A++</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img class="img-fluid" :src="basketItem.variation.data.images | itemImages 'urlPreview' | arrayLast">
-          </div>
-        </div>
-      </div>
-    </div>
+
+            <!-- <img class="img-fluid" :src="basketItem.variation.data.images | itemImages 'urlPreview' | arrayLast"> -->
+            <!-- <img class="img-fluid" :src="basketItem.variation.data.images.all[0].urlMiddle | json"> -->
 </article>
