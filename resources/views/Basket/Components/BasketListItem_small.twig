@@ -32,7 +32,7 @@
             ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup>
         </div>
         
-        <div class="eek-sign clearfix" data-toggle="modal" data-target="#availability-modal-${ basketItem.variation.number }">
+        <div class="eek-sign clearfix" data-toggle="modal" data-target="#availability-modal-${ basket.items.id }">
             <span>A++</span>
         </div>
 
@@ -49,11 +49,11 @@
         </button>
     </div>
     <!-- ./ITEM DETAILS -->
-    <div class="modal fade availability-modal" id="availability-modal-${ basketItem.variation.number }" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${ basketItem.variation.number }" aria-hidden="true">
+    <div class="modal fade availability-modal" id="availability-modal-${ basket.items.id }" tabindex="-1" role="dialog" aria-labelledby="availability-modal-label-${ basket.items.id }" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="availability-modal-label-${ basketItem.variation.number }">Energieeffizienzklasse: A++</h5>
+            <h5 class="modal-title" id="availability-modal-label-${ basket.items.id }">Energieeffizienzklasse: A++</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
