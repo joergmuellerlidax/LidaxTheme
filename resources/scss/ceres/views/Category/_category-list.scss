@@ -1,3 +1,4 @@
+
 .sidebar-categories {
     background:$white;
     font-family: $font-family-heading;
@@ -10,23 +11,37 @@
     ul {
         @include reset-list();
         li {
+            &.first-level {display:none;}
+            &.first-level.active {display:list-item;}
             a {
                 display: block;
                 color: $gray-dark;
                 padding: .75rem 15px;
-                font-size: .8rem;
+                font-size: 1rem;
                 &:hover {
                     color: $gray-darker;
                     background: $gray-lightest;
                 }
             }
-            ul {
-                li {
-                    a {
-                        padding-left:2.5rem;
-                    }
-                    ul li a {
-                        padding-left: 4rem;
+            ul {display:none;}
+            &.active {
+                & > ul {
+                    display: block;
+                }
+                ul {
+                    li {
+                        a {
+                            padding-left:2.5rem;
+                        }
+                        ul li {
+                            a {
+                                padding-left: 4rem;
+                            }
+                            ul li a {
+                                padding-left: 5.5rem;
+                            }
+                        }
+
                     }
                 }
             }
@@ -39,3 +54,12 @@
     }
 }
 
+.cat-teaser {
+    display: none;
+}
+@include media-breakpoint-up(lg){
+    .cat-teaser {
+        margin-top:-72px;
+        display: block;
+    }
+}

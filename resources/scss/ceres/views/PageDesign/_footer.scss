@@ -159,7 +159,7 @@
 			margin: 1rem 0;
 			font-size: 1.2rem;
 		}
-		a {
+		a,span {
 			color: $white;
 			display: block;
 			margin-bottom: .5rem;
@@ -169,6 +169,18 @@
 		img {
 			margin:0 auto;
 			max-width: 90%;
+		}
+		#bde_shopreview {
+			background:transparent !important;
+			color: $white !important;
+			margin: 0;
+			display: inline-block;
+			a {
+				img {
+					max-width: 100%;
+				}
+			}
+			.shop {display:none;}
 		}
 	}
 	.footer-copyright {
