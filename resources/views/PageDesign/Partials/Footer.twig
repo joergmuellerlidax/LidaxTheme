@@ -183,26 +183,37 @@
                 </div>
                 <div class="col-xs-6 col-lg-3">
                     <h2>Bezahlarten</h2>
-                    <a href="#">Paypal</a>
-                    <a href="#">Mastercard</a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/paypal.svg" class="img-fluid"></a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/mastercard.svg" class="img-fluid"></a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/visa.svg" class="img-fluid"></a>
                     <a href="#">Lastschrift</a>
                     <a href="#">Rechnung</a>
-                    <a href="#">paydirekt</a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/paydirekt.svg" class="img-fluid"></a>
                     <a href="#">Vorkasse</a>
                 </div>
                 <div class="col-xs-6 col-lg-3">
                     <h2>Versandarten</h2>
-                    <a href="#">DHL</a>
-                    <a href="#">dpd</a>
-                    <a href="#">Spedition</a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/dhl.svg" class="img-fluid"></a>
+                    <a href="#"><img src="{{ plugin_path('Kiom') }}/images/footer/dpd.svg" class="img-fluid"></a>
+                    <a href="#"><i class="fa fa-truck fa-lg" aria-hidden="true"></i> Spedition</a>
                     <h2>Partner</h2>
-                    <a href="#">billiger.de</a>
+                    <!--  billiger.de Partner button with Shop reviews -->
+                    <div class="billiger-badge" style="width:130px;">
+                    
+                        <div id="bde_shopreview">
+                            <a href="http://www.billiger.de/show/kategorie/100162.htm" target="_blank">
+                                <img src="//img.billiger.de/billiger/partner/billigerde_pb.png"
+                                    width="88" height="59" border="0" alt="Haushalt und Wohnen bei billiger.de" title="Haushalt und Wohnen bei billiger.de"/>
+                            </a>
+                        </div>
+                    </div>
+                    <!--  / billiger.de Partner button with Shop reviews -->
                 </div>
             </div>
             <div class="row m-t-3">
                 <div class="col-xs-12 text-xs-center">
                     <a href="/">
-                         <img src="/layout/plugins/production/kiom/images/logo.png" class="img-fluid">
+                         <img src="{{ plugin_path('Kiom') }}/images/logo.png" class="img-fluid">
                      </a>
                 </div>
             </div>
