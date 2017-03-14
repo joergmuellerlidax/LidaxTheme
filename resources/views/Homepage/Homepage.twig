@@ -6,11 +6,15 @@
 
 {% set itemList             = paginatedResult.documents %}
 
-{% set hero-xtras1 = services.category.get(config("Kiom.homepage.homepageTopCategoryId"), lang) %}
-{% set hero-xtras2 = services.category.get(config("Kiom.homepage.homepageTopCategory2Id"), lang) %}
+{% set homepageTopCategoryId  = config("Kiom.homepage.homepageTopCategoryId") %}
+{% set hero-xtras1 = services.category.get(homepageTopCategoryId, lang) %}
+{% set homepageTopCategory2Id  = config("Kiom.homepage.homepageTopCategory2Id") %}
+{% set hero-xtras2 = services.category.get(homepageTopCategory2Id, lang) %}
 
-{% set featured-category1 = services.category.get(config("Kiom.homepage.homepageFeatureCategoryId"), lang) %}
-{% set featured-category2 = services.category.get(config("Kiom.homepage.homepageFeatureCategory2Id"), lang) %}
+{% set homepageFeatureCategoryId  = config("Kiom.homepage.homepageFeatureCategoryId") %}
+{% set featured-category1 = services.category.get(homepageFeatureCategoryId, lang) %}
+{% set homepageFeatureCategory2Id  = config("Kiom.homepage.homepageFeatureCategory2Id") %}
+{% set featured-category2 = services.category.get(homepageFeatureCategory2Id, lang) %}
 
 {% set homepageImageFirstSlide  = config("Kiom.homepage.homepageImageFirstSlide") %}
 {% set homepageProductIdFirstSlide  = config("Kiom.homepage.homepageProductIdFirstSlide") %}
