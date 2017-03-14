@@ -47,8 +47,8 @@
         <p class="id">
             <strong>{{ trans("Ceres::Template.itemId") }}</strong> ${ basketItem.itemId }
         </p>
-        <div class="eek-sign" data-toggle="modal" data-target="#availability-modal">
-            <span>A++</span>
+        <div class="eek-sign clearfix">
+            <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" data-lightbox="single-big-image-gallery"><span>${ prop.property.names[0].name }</span></a>
         </div>
 
         <div class="item-description">
