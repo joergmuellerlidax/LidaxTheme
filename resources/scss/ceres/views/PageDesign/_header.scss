@@ -104,9 +104,14 @@
 
 		.control-user{
 			margin-left: 1rem;
-			//login | register
+			&:hover {
+				.account-menu {
+					display: inline-block;
+				}
+			}
 			#login-change {
 				position:relative;
+				
 				.dropdown-menu {
 					z-index: 2000;
 					width:150px;
