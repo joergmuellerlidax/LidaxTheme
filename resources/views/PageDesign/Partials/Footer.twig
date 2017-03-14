@@ -9,23 +9,41 @@
 <div class="footer">
     
     <div class="container-max footer-boxes m-y-2">
-        <div class="row is-flex">
+        <div class="row prop-row m-y-2">
             <div class="col-sm-12 col-md-4 box1">
-                <h2>KIOM DESIGNLAMPS</h2>
+                <div class="prop-xs-1-1 prop-sm-2-1 prop-md-1-1">
+                    <div class="prop-inner">
+                        <h2>KIOM DESIGNLAMPS</h2>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6 col-md-4 box2">
-                <h2>Beratung</h2>
-                <p>Sie haben Fragen? Wir beraten Sie gern!</p>
-                <p>Der schnellste Draht zu unserer professionellen Beratung:</p>
-                <span><a href="tel:123">+49 (0)8341 90 80 533</span>
-                <small>Mo-Fr, 08:00 - 17:00 Uhr</small>
-                <span><a href="mailto:info@kiom24.de">info@kiom24.de</a></span>
+                <div class="prop-xs-1-1">
+                    <div class="prop-inner">
+                        <h2>Beratung</h2>
+                        <p>Sie haben Fragen? Wir beraten Sie gern!</p>
+                        <p>Der schnellste Draht zu unserer professionellen Beratung:</p>
+                        <span><a href="tel:123">+49 (0)8341 90 80 533</a></span>
+                        <small>Mo-Fr, 08:00 - 17:00 Uhr</small>
+                        <span><a href="mailto:info@kiom24.de">info@kiom24.de</a></span>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6 col-md-4 box3">
-                <h2>Beliebteste Kategorien</h2>
-                <ul>
-                    <li><a href="{{ services.category.getURL(169, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(169, lang).details[0].name }}</li>
-                </ul>
+                <div class="prop-xs-1-1">
+                    <div class="prop-inner">
+                        <h2>Beliebteste Kategorien</h2>
+                        <ul>
+                            <li><a href="{{ services.category.getURL(169, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(169, lang).details[0].name }}</a></li>
+                            <li><a href="{{ services.category.getURL(47, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(47, lang).details[0].name }}</a></li>
+                            <li><a href="{{ services.category.getURL(19, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(19, lang).details[0].name }}</a></li>
+                            <li><a href="{{ services.category.getURL(20, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(20, lang).details[0].name }}</a></li>
+                            <li><a href="{{ services.category.getURL(102, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(102, lang).details[0].name }}</a></li>
+                            <li><a href="{{ services.category.getURL(103, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(103, lang).details[0].name }}</a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
