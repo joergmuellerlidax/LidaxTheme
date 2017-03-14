@@ -16,11 +16,11 @@
 {% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': homepageProductIdFirstSlide}) %}
 
 {% set test = services.item.getItem(homepageProductIdFirstSlide) %}
-<!-- 48669037 -->
+
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% block ThemeHomepage %}
-
+<!-- 48669037 -->
 <div class="home container-max">
 <hr >
 <p>{{ item | json_encode() }}</p>
