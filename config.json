@@ -18,7 +18,14 @@
         "key"       : "homepage.homepageProductIdFirstSlide",
         "label"     : "Produkt-ID für den ersten Slide",
         "type"      : "text",
-        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+        "default"   : "48669037"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductNameFirstSlide",
+        "label"     : "Produkt-Name für den ersten Slide",
+        "type"      : "text",
+        "default"   : "Produktname"
     },
     {
         "tab"       : "Homepage",
@@ -32,7 +39,14 @@
         "key"       : "homepage.homepageProductIdSecondSlide",
         "label"     : "Produkt-ID für den zweiten Slide",
         "type"      : "text",
-        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+        "default"   : "48669037"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductNameSecondSlide",
+        "label"     : "Produkt-Name für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "Produktname"
     },
     {
         "tab"       : "Homepage",
@@ -46,7 +60,42 @@
         "key"       : "homepage.homepageProductIdThirdSlide",
         "label"     : "Produkt-ID für den dritten Slide",
         "type"      : "text",
-        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+        "default"   : "48669037"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductNameThirdSlide",
+        "label"     : "Produkt-Name für den dritten Slide",
+        "type"      : "text",
+        "default"   : "Produktname"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageTopCategoryId",
+        "label"     : "Kategorie ID für erste Top-Kategorie neben dem Slider",
+        "type"      : "text",
+        "default"   : "16"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageTopCategory2Id",
+        "label"     : "Kategorie ID für zweite Top-Kategorie neben dem Slider",
+        "type"      : "text",
+        "default"   : "41"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageFeatureCategoryId",
+        "label"     : "Kategorie ID für erste Featured-Kategorie unter den Topsellern",
+        "type"      : "text",
+        "default"   : "101"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageFeatureCategory2Id",
+        "label"     : "Kategorie ID für zweite Featured-Kategorie unter den Topsellern",
+        "type"      : "text",
+        "default"   : "92"
     },
     {
         "tab"       : "Header",

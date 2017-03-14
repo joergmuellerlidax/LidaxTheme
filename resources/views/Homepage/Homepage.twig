@@ -2,16 +2,27 @@
 
 {% set lang         = services.sessionStorage.getLang() %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4 }) %}
-{% set c16 = services.category.get(16, lang) %}
-{% set c41 = services.category.get(41, lang) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+
+{% set itemList             = paginatedResult.documents %}
+
+{% set hero-xtras1 = services.category.get(config("Kiom.homepage.homepageTopCategoryId"), lang) %}
+{% set hero-xtras2 = services.category.get(config("Kiom.homepage.homepageTopCategory2Id"), lang) %}
+
+{% set featured-category1 = services.category.get(config("Kiom.homepage.homepageFeatureCategoryId"), lang) %}
+{% set featured-category2 = services.category.get(config("Kiom.homepage.homepageFeatureCategory2Id"), lang) %}
 
 {% set homepageImageFirstSlide  = config("Kiom.homepage.homepageImageFirstSlide") %}
-{% set homepageImageSecondSlide  = config("Kiom.homepage.homepageImageSecondSlide") %}
-{% set homepageImageThirdSlide  = config("Kiom.homepage.homepageImageThirdSlide") %}
 {% set homepageProductIdFirstSlide  = config("Kiom.homepage.homepageProductIdFirstSlide") %}
+{% set homepageProductNameFirstSlide  = config("Kiom.homepage.homepageProductNameFirstSlide") %}
+
+{% set homepageImageSecondSlide  = config("Kiom.homepage.homepageImageSecondSlide") %}
 {% set homepageProductIdSecondSlide  = config("Kiom.homepage.homepageProductIdSecondSlide") %}
+{% set homepageProductNameSecondSlide  = config("Kiom.homepage.homepageProductNameSecondSlide") %}
+
+{% set homepageImageThirdSlide  = config("Kiom.homepage.homepageImageThirdSlide") %}
 {% set homepageProductIdThirdSlide  = config("Kiom.homepage.homepageProductIdThirdSlide") %}
+{% set homepageProductNameThirdSlide  = config("Kiom.homepage.homepageProductNameThirdSlide") %}
 
 {% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': homepageProductIdFirstSlide}) %}
 
@@ -20,7 +31,7 @@
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% block ThemeHomepage %}
-<!-- 48669037 -->
+
 <div class="home container-max">
 <hr >
 <p>{{ item | json_encode() }}</p>
@@ -32,34 +43,26 @@
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
-                                <img src="{{ homepageImageFirstSlide }}" alt="First slide" class="img-fluid">
+                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras1, lang) }}">
+                                <img src="{{ homepageImageFirstSlide }}" alt="{{ homepageProductNameFirstSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameFirstSlide }}</h1>
                                 </div>
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
-                                <img src="{{ homepageImageSecondSlide }}" alt="First slide" class="img-fluid">
+                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras2, lang) }}">
+                                <img src="{{ homepageImageSecondSlide }}" alt="{{ homepageProductNameSecondSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="carousel-item active">
-                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
-                                <img src="{{ homepageImageThirdSlide }}" alt="First slide" class="img-fluid">
-                                <div class="carousel-caption">
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameSecondSlide }}</h1>
                                 </div>
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="hero-category" href="{{ services.category.getURL(c41, lang) }}">
-                                <img src="/documents/{{ c41.details[0].imagePath }}" alt="First slide" class="img-fluid">
+                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras1, lang) }}">
+                                <img src="{{ homepageImageThirdSlide }}" alt="{{ homepageProductNameThirdSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
-                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c41.details[0].name }}</h1>
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameThirdSlide }}</h1>
                                 </div>
                             </a>
                         </div>
@@ -84,21 +87,20 @@
             </div>
 
             <div class="hero-xtras">
-                <a class="hero-category" href="">
-                    <img src="https://unsplash.it/400/300?image=1014" alt="First slide">
+                <a class="hero-category" href="{{ services.category.getURL(hero-xtras1, lang) }}">
+                    <img src="/documents/{{ hero-xtras1.details[0].imagePath }}" alt="{{ hero-xtras1.details[0].name }}">
                     <div class="hero-category-inner">
                         <h2 class="hero-category-headline">
-                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> Innenleuchten
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ hero-xtras1.details[0].name }}
                         </h2>
 
                     </div>
                 </a>
-                <a class="hero-category" href="">
-                    <img src="https://unsplash.it/400/300?image=1024" alt="First slide">
-
+                <a class="hero-category" href="{{ services.category.getURL(hero-xtras2, lang) }}">
+                    <img src="/documents/{{ hero-xtras2.details[0].imagePath }}" alt="{{ hero-xtras2.details[0].name }}">
                     <div class="hero-category-inner">
                         <h2 class="hero-category-headline">
-                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> Außenleuchten
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ hero-xtras2.details[0].name }}
                         </h2>
 
                     </div>
@@ -156,9 +158,9 @@
                 <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
-            <ul class="product-list row grid">
-                {% for item in paginatedResult.documents %}
-                    <li class="col-xs-12 col-sm-6 col-lg-3">
+            <ul id="twig-rendered-item-list" class="product-list row grid" v-is-loading-watcher>
+                {% for item in itemList %}
+                    <li class="col-xs-12 col-sm-6 col-md-4">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
                 {% endfor %}
@@ -166,17 +168,17 @@
         </div>
 
         <!-- CATEGORIES -->
-        
+
         <div class="row prop-row m-y-2 featured-categories">
             <div class="col-xs-12 col-md-8">
                 <div class="prop-xs-6-4 prop-md-2-1">
                     <div class="prop-inner">
-                        <a class="featured-category" href="">
+                        <a class="featured-category" href="{{ services.category.getURL(featured-category1, lang) }}">
 
-                            <img src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                            <img src="/documents/{{ featured-category1.details[0].imagePath }}" alt="{{ featured-category1.details[0].name }}">
                             <div class="featured-category-inner">
                                 <h4 class="featured-category-headline">
-                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> Brunnen
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ featured-category1.details[0].name }}
                                 </h4>
 
                             </div>
@@ -188,12 +190,12 @@
             <div class="col-xs-12 col-md-4">
                 <div class="prop-xs-6-4 prop-md-1-1">
                     <div class="prop-inner">
-                        <a class="featured-category" href="">
+                        <a class="featured-category" href="{{ services.category.getURL(featured-category2, lang) }}">
 
-                            <img class="" src="https://unsplash.it/1200/600?image=1004" alt="First slide">
+                            <img src="/documents/{{ featured-category2.details[0].imagePath }}" alt="{{ featured-category2.details[0].name }}">
                             <div class="featured-category-inner">
                                 <h4 class="featured-category-headline">
-                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> Bogenleuchten
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ featured-category2.details[0].name }}
                                 </h4>
 
                             </div>
@@ -211,9 +213,9 @@
                 <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
-            <ul class="product-list row grid">
-                {% for item in paginatedResult.documents %}
-                    <li class="col-xs-12 col-sm-6 col-lg-3">
+             <ul id="twig-rendered-item-list" class="product-list row grid" v-is-loading-watcher>
+                {% for item in itemList %}
+                    <li class="col-xs-12 col-sm-6 col-md-4">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
                 {% endfor %}
