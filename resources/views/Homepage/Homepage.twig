@@ -71,6 +71,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
                     </ol>
 
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -88,7 +89,7 @@
 
             <div class="hero-xtras">
                 <a class="hero-category" href="{{ services.category.getURL(heroExtras1, lang) }}">
-                    <img src="/documents/{{ heroExtras1.details[0].imagePath }}" alt="{{ heroExtras1.details[0].name }}">
+                    <img class="img-fluid" src="/documents/{{ heroExtras1.details[0].imagePath }}" alt="{{ heroExtras1.details[0].name }}">
                     <div class="hero-category-inner">
                         <h2 class="hero-category-headline">
                             <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ heroExtras1.details[0].name }}
@@ -97,7 +98,7 @@
                     </div>
                 </a>
                 <a class="hero-category" href="{{ services.category.getURL(heroExtras2, lang) }}">
-                    <img src="/documents/{{ heroExtras2.details[0].imagePath }}" alt="{{ heroExtras2.details[0].name }}">
+                    <img class="img-fluid" src="/documents/{{ heroExtras2.details[0].imagePath }}" alt="{{ heroExtras2.details[0].name }}">
                     <div class="hero-category-inner">
                         <h2 class="hero-category-headline">
                             <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ heroExtras2.details[0].name }}
@@ -158,7 +159,7 @@
                 <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
-            <ul id="twig-rendered-item-list" class="product-list row grid" v-is-loading-watcher>
+            <ul class="product-list row grid">
                 {% for item in itemList %}
                     <li class="col-xs-12 col-sm-6 col-md-4">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
@@ -213,7 +214,7 @@
                 <a class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
-             <ul id="twig-rendered-item-list" class="product-list row grid" v-is-loading-watcher>
+             <ul class="product-list row grid">
                 {% for item in itemList %}
                     <li class="col-xs-12 col-sm-6 col-md-4">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
