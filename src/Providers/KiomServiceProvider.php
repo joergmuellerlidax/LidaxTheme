@@ -82,11 +82,11 @@ class KiomServiceProvider extends ServiceProvider
             } 
         }, self::EVENT_LISTENER_PRIORITY);
 
-        $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
-            if($componentContainer->getOriginComponentTemplate() == 'Ceres::ItemList.Components.CategoryItem') {
-                    $componentContainer->setNewComponentTemplate('Kiom::ItemList.Components.CategoryItem');
-            } 
-        }, self::EVENT_LISTENER_PRIORITY);
+        // $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
+        //     if($componentContainer->getOriginComponentTemplate() == 'Ceres::ItemList.Components.CategoryItem') {
+        //             $componentContainer->setNewComponentTemplate('Kiom::ItemList.Components.CategoryItem');
+        //     } 
+        // }, self::EVENT_LISTENER_PRIORITY);
 
     }
 
