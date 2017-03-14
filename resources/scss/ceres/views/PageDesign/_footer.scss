@@ -39,8 +39,23 @@
 	}
 
 
-	.footer-content{
-
+	.footer-boxes {
+		.box1 {
+			background:url("../images/footer_new/box1.jpg") no-repeat center center;
+			background-size:cover;
+		}
+		.box2 {
+			background:$gray-dark;
+			color: $brand-primary;
+			text-align: center;
+			a {
+				color: $brand-primary;
+			}
+		}
+		.box3 {
+			background:url("../images/footer_new/box2.jpg") no-repeat center center;
+			background-size:cover;
+		}
 	}
 
 	.footer-service {
@@ -169,6 +184,13 @@
 		img {
 			margin:0 auto;
 			max-width: 90%;
+		}
+		span {
+			font-size: 1.2rem;
+			color: $brand-primary;
+		}
+		svg {
+			max-width: 80px;
 		}
 		#bde_shopreview {
 			background:transparent !important;
