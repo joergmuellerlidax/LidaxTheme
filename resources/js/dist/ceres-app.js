@@ -6534,10 +6534,11 @@ module.exports = (function($)
 
     function _setUrlParams(urlParams)
     {
-        var url = window.location.pathname + "?" + $.param(urlParams);
+        var pathName = window.location.pathname;
+        var params = $.isEmptyObject(urlParams) ? "" : "?" + $.param(urlParams);
         var title = document.getElementsByTagName("title")[0].innerHTML;
 
-        window.history.replaceState({}, title, url);
+        window.history.replaceState({}, title, pathName + params);
     }
 
     function _setUrlParam(key, value)
