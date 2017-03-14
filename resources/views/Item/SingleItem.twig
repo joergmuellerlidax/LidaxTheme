@@ -7,20 +7,8 @@
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
 {% set crossSellingList = services.item.getItemCrossSellingList( item.documents[0].data.item.id  ) %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::Category.Item.CategoryItem', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'itemsPerPage':4, 'facets': facetParams}) %}
-
-{% set itemList             = paginatedResult.documents %}
-{% set paginationType       = config("Ceres.pagination.position") %}
-
 {% block PageBody %}
 
-
-    <resource name="facetParams" :data="[]"></resource>
-    <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
-    <resource name="itemList" :data="{}"></resource>
-
-    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
-    {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::Item.Components.VariationSelect" ) }}
     {{ component( "Ceres::Item.Components.ItemImageCarousel" ) }}
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}

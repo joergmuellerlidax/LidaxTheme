@@ -6,7 +6,7 @@
 {% set c16 = services.category.get(16, lang) %}
 {% set c41 = services.category.get(41, lang) %}
 
-{% set test = services.item.getItem(48669037, lang) %}
+{% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': 48669037}) %}
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
@@ -15,7 +15,7 @@
 <div class="home container-max">
 <p>{{ c41 }}</p>
 <hr >
-<p>{{ test }}</p>
+<p>{{ item }}</p>
 <hr >
     <div class="row">
         <div class="cmp cmp-hero">
