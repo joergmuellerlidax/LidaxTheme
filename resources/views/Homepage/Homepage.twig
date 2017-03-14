@@ -6,8 +6,17 @@
 {% set c16 = services.category.get(16, lang) %}
 {% set c41 = services.category.get(41, lang) %}
 
-{% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': 48669037}) %}
+{% set homepageImageFirstSlide  = config("Kiom.homepage.homepageImageFirstSlide") %}
+{% set homepageImageSecondSlide  = config("Kiom.homepage.homepageImageSecondSlide") %}
+{% set homepageImageThirdSlide  = config("Kiom.homepage.homepageImageThirdSlide") %}
+{% set homepageProductIdFirstSlide  = config("Kiom.homepage.homepageProductIdFirstSlide") %}
+{% set homepageProductIdSecondSlide  = config("Kiom.homepage.homepageProductIdSecondSlide") %}
+{% set homepageProductIdThirdSlide  = config("Kiom.homepage.homepageProductIdThirdSlide") %}
 
+{% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': homepageProductIdFirstSlide}) %}
+
+{% set test = services.item.getItem(homepageProductIdFirstSlide) %}
+<!-- 48669037 -->
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% block ThemeHomepage %}
@@ -16,6 +25,7 @@
 <hr >
 <p>{{ item | json_encode() }}</p>
 <hr >
+<p>{{ test | json_encode() }}</p>
     <div class="row">
         <div class="cmp cmp-hero">
             <div class="hero-main">
@@ -23,7 +33,23 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
-                                <img src="/documents/{{ c16.details[0].imagePath }}" alt="First slide" class="img-fluid">
+                                <img src="{{ homepageImageFirstSlide }}" alt="First slide" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
+                                <img src="{{ homepageImageSecondSlide }}" alt="First slide" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item active">
+                            <a class="hero-category" href="{{ services.category.getURL(c16, lang) }}">
+                                <img src="{{ homepageImageThirdSlide }}" alt="First slide" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ c16.details[0].name }}</h1>
                                 </div>

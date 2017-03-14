@@ -7,6 +7,48 @@
         "default"   : "true"
     },
     {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageImageFirstSlide",
+        "label"     : "Bildpfad für den ersten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductIdFirstSlide",
+        "label"     : "Produkt-ID für den ersten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageImageSecondSlide",
+        "label"     : "Bildpfad für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductIdSecondSlide",
+        "label"     : "Produkt-ID für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageImageThirdSlide",
+        "label"     : "Bildpfad für den dritten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageProductIdThirdSlide",
+        "label"     : "Produkt-ID für den dritten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
+    },
+    {
         "tab"       : "Header",
         "key"       : "header.company_logo",
         "label"     : "URL to your company logo",
