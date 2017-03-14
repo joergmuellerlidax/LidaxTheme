@@ -1,5 +1,6 @@
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
+{% set lang         = services.sessionStorage.getLang() %}
 {% set numberOfCols = config('Ceres.footer.number_of_cols') %}
 {% set colSize = (12 / (numberOfCols + 1)) %}
 {% set displayedCategories = [] %}
@@ -7,36 +8,27 @@
 
 <div class="footer">
     
-    <!-- <div class="container-max footer-boxes m-y-2">
+    <div class="container-max footer-boxes m-y-2">
         <div class="row is-flex">
-            <div class="col-sm-12 col-md-4">
-                <h1>Ihre Vorteile</h1>
-                <ul>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                    <li>Text</li>
-                </ul>
+            <div class="col-sm-12 col-md-4 box1">
+                <h2>KIOM DESIGNLAMPS</h2>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <h1>Beratung</h1>
+            <div class="col-sm-6 col-md-4 box2">
+                <h2>Beratung</h2>
                 <p>Sie haben Fragen? Wir beraten Sie gern!</p>
                 <p>Der schnellste Draht zu unserer professionellen Beratung:</p>
                 <span><a href="tel:123">+49 (0)8341 90 80 533</span>
                 <small>Mo-Fr, 08:00 - 17:00 Uhr</small>
                 <span><a href="mailto:info@kiom24.de">info@kiom24.de</a></span>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <h1>Amazon Kunde?</h1>
-                <p>Bezahlen Sie jetzt mit den Adress- und Zahlungsdaten, die in Ihrem Amazon-Konto hinterlegt sind.</p>
-                <a href="#" class="btn btn-primary btn-lg">Bezahlen mit Amazon</a>
+            <div class="col-sm-6 col-md-4 box3">
+                <h2>Beliebteste Kategorien</h2>
+                <ul>
+                    <li><a href="{{ services.category.getURL(169, lang) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ services.category.get(169, lang).details[0].name }}</li>
+                </ul>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <div class="footer-service m-y-2">
         <div class="container-max">
@@ -67,28 +59,25 @@
 
     <div class="container-max footer-seo m-y-2">
         <div class="row">
-            <div class="col-xs-12">
-                <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom 24</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor sanctus est Lorem ipsum dolor sit amet.
-                </p>
-                <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom 24</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor sanctus est Lorem ipsum dolor sit amet.
-                </p>
+            <div class="col-xs-12">                
+       
+                <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom24</h2>
+                <p>Kiom 24 Designlamps bietet attraktive LED-Lampen und LED-Leuchten der Marke Kiom zu besonders günstigen Preisen im Direktvertrieb an. Unser Angebotsspektrum umfasst von der stylischen <a href="/innenleuchten/bogenleuchten/">Bogenlampe</a> über sehenswerte Stehlampen und Pendelleuchten bis hin zu Wand-, Decken und-Tischleuchten unterschiedlichste Wohnraumleuchten sowie Außenleuchten und Leuchtmittel. Dabei vereint Kiom24 Designlamps Lampen Technik und Design zu einzigartigen Produkten.</p>
+                <h2>Stilvolle Beleuchtung für den Wohnraum</h2>
+                <p>Wenn Sie auf der Suche nach einer schönen <a href="/led/led-stehleuchten/">LED-Stehlampe</a> sind, finden Sie bei uns wundervolle Modelle aus Metall mit warmweißem oder tageslichtweißem Licht. Passend dazu bieten wir Ihnen auch Metall-Tischleuchten. Besonders beliebt ist unsere Bogenlampe "Big Lilli", die mit schwarzem oder weißem Marmorsockel erhältlich ist. Auch die Designklassiker "Lilli" und "Five Fingers" bringen als Bogenlampen besonders kultiges Flair in Ihren Wohnraum. Apropos Designklassiker: Kennen Sie unsere Bankerslamp "Jack" mit grünem oder weißem Glasschirm? Eine solche Leuchte ist etwas ganz Besonderes auf Ihrem Schreibtisch.</p>
+                
+                    
                 <div class="collapse" id="collapseSEO">
-                    <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom 24</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor sanctus est Lorem ipsum dolor sit amet.
-                    </p>
-                    <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom 24</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor sanctus est Lorem ipsum dolor sit amet.
-                    </p>
-                    <h2>Entdecken Sie die unvergleichliche Vielfalt an Lampen von Kiom 24</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor sanctus est Lorem ipsum dolor sit amet.
-                    </p>
+                    <p>Absolute Highlights sind auch unsere LED-Leuchten "Swan". Diese <a href="/innenleuchten/tischleuchten/">Tischleuchten</a> sind als "Chimei Swan" mit dem Reddot und iF Design Award ausgezeichnet. Auch ihre "inneren" Werte sind mehr als überzeugend: Mit ihren 11 Watt LEDs gehören sie zu den lichtstärksten <a href="/led/led-tischleuchten/">LED-Tischleuchten</a> am Markt.</p>
+                    <p>Die Kiom Pendelleuchten zeichnen sich durch große Vielfalt aus. So können Sie sich für einen edlen Kristalllüster ebenso entscheiden wie für eine puristische <a href="/led/led-pendelleuchten/">LED-Pendelleuchte</a>, die den Wunsch nach exklusivem Design und niedrigem Stromverbrauch gleichermaßen erfüllt. Passend hierzu gibt es Deckenleuchten mit Glaskristallen und energiesparende LED-Deckenleuchten.</p>
+                    <h2>Mit attraktiver LED-Beleuchtung Geld sparen</h2>
+                    <p><a href="/led/led-einbauleuchten/">LED-Einbauleuchten</a> ersetzen mehr und mehr energiefressende Halogen- oder Leuchtstoffröhrensysteme. Egal ob im privaten oder im geschäftlichen Bereich, gerade dort, wo über viele Stunden hinweg Licht brennt, ist Energieeffizienz gefragt. Diesen Anspruch können beispielsweise unsere Einbauleuchten im Format 620 x 620 Millimeter als LED-Panels in Rasterdecken erfüllen. Mit einem Abhängeset können diese wahlweise auch als Pendelleuchten verwendet werden. Wenn Sie es im Wohnraum gerne gemütlich haben, liefern wir diese LED-Leuchten auch mit warmweißem Licht.</p>
+                    <p>Auch unsere Kiom LED Einbaustrahler werden sehr gerne als Beleuchtungslösung verwendet - je nach Wunsch mit sehr niedrigem Stromverbrauch als Deko- oder Orientierungsbeleuchtung oder mit höherer Wattzahl als Raumausleuchtung. Je nach IP-Klasse sind sie als LED-Leuchten im Innen- oder als LED-Lampen im Außenbereich einsetzbar.</p>
+                    <p>LED-Leuchtmittel setzen sich immer mehr am Markt durch. Kiom bietet in diesem Bereich hervorragende Produkte an. Als Alternative in GU 10 oder MR 16 Einbaustrahlern lässt sich damit eine Menge Energie und somit auch Geld einsparen. Bei uns können Sie auch LED-Leuchtmittel in den Formaten E27, E14, G4 und Par 30 bestellen. Diese zeichnen sich durch eine angenehme Lichtfarbe und ihre hohe Zuverlässigkeit aus.</p>
+                    <h2>LED-Design-Lampen online bestellen</h2>
+                    <p>Sie interessieren sich für eine <a href="/innenleuchten/bilderleuchten/">Bilderleuchte</a> oder eine <a href="/aussenleuchten/bewegungsmelderleuchten/">Leuchte mit Bewegungsmelder</a>? Sie möchten Ihr Zuhause mit Kugellampen oder einer stylishen Bogenlampe aufpeppen? Entscheiden Sie sich für Ihre Lieblingslampe und ordern Sie bequem online in unserem Shop.</p>
+                    <p>Diese <strong>Lampen</strong> könnten Sie auch interessieren:</p>
+                    <p>Design <a href="/Aussenleuchten/Kugelleuchten/">Kugelleuchten</a> für drinnen und draußen sind ein optisches Highlight.</p>
                 </div>
                 <a class="btn btn-link text-xs-center" data-toggle="collapse" href="#collapseSEO" aria-expanded="false" aria-controls="collapseSEO">
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
