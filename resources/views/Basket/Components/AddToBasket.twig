@@ -19,7 +19,7 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <div v-for="prop in item.properties">
+                <template v-for="prop in item.properties">
                     <div v-bind:class="{
                         'eek-aaa': prop.property.names[0].name === 'A++',
                         'eek-aa' : prop.property.names[0].name === 'A+',
@@ -35,14 +35,20 @@
                         data-lightbox="${item.variation.id}"><span>${ prop.property.names[0].name }</span>
                         </a>
                     </div>
-                </div>
+                </template>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
                 </button>
-                <div class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
-                :title="!item.variation.releasedAt ? item.variation.availability.names[0].name : item.variation.releasedAt | date 'DD.MM.YYYY'">
-                <i class="fa fa-truck" aria-hidden="true"></i>
+                <div v-if="item.variation.releasedAt" class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
+                    :title="item.variation.releasedAt | date 'DD.MM.YYYY' | attachText 'Verfügbar ab: '">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
                 </div>
+
+                <div v-else class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
+                    :title="item.variation.availability.names[0].name">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                </div>
+
             </div>
             
         </div>
