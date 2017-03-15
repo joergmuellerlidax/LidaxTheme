@@ -32,6 +32,20 @@ button:focus {
 	    border-width: 1.25rem 0 1.25rem 1.25rem;
 	    border-color: transparent transparent transparent $green;
 	}
+	&.eek-aa span {background: $eek-aa;}
+	&.eek-a span {background: $eek-a;}
+	&.eek-b span {background: $eek-b;}
+	&.eek-c span {background: $eek-c;}
+	&.eek-d span {background: $eek-d;}
+	&.eek-e span {background: $eek-e;}
+
+	&.eek-aa:after {border-color: transparent transparent transparent $eek-aa;}
+	&.eek-a:after {border-color: transparent transparent transparent $eek-a;}
+	&.eek-b:after {border-color: transparent transparent transparent $eek-b;}
+	&.eek-c:after {border-color: transparent transparent transparent $eek-c;}
+	&.eek-d:after {border-color: transparent transparent transparent $eek-d;}
+	&.eek-e:after {border-color: transparent transparent transparent $eek-e;}
+
 	&:hover {
 		cursor: pointer;
 		span {
