@@ -35,7 +35,7 @@
                     v-if="prop.group.backendName === 'Energieeffizienzklasse'"
 
                     >
-                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="single-big-image-gallery"><span>${ prop.property.names[0].name }</span></a>
+                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="${item.variation.id}"><span>${ prop.property.names[0].name }</span></a>
                 </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
