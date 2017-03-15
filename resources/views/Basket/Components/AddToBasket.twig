@@ -19,7 +19,7 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <template v-for="prop in item.properties">
+                <div v-for="prop in item.properties">
                     <div v-bind:class="{
                         'eek-aaa': prop.property.names[0].name === 'A++',
                         'eek-aa' : prop.property.names[0].name === 'A+',
@@ -35,7 +35,7 @@
                         data-lightbox="${item.variation.id}"><span>${ prop.property.names[0].name }</span>
                         </a>
                     </div>
-                </template>
+                </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
                 </button>
@@ -45,8 +45,8 @@
                 </div>
 
                 <div v-else class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
-                    :title="item.variation.availability.names[0].name">
-                    <i class="fa fa-truck" aria-hidden="true"></i>
+                :title="item.variation.availability.names[0].name">
+                <i class="fa fa-truck" aria-hidden="true"></i>
                 </div>
 
             </div>
