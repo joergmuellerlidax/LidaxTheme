@@ -15,10 +15,10 @@
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageProductIdFirstSlide",
-        "label"     : "Produkt-ID für den ersten Slide",
+        "key"       : "homepage.homepageProductLinkFirstSlide",
+        "label"     : "Produkt-URL für den ersten Slide",
         "type"      : "text",
-        "default"   : "48669037"
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",
@@ -36,10 +36,10 @@
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageProductIdSecondSlide",
-        "label"     : "Produkt-ID für den zweiten Slide",
+        "key"       : "homepage.homepageProductLinkSecondSlide",
+        "label"     : "Produkt-URL für den zweiten Slide",
         "type"      : "text",
-        "default"   : "48669037"
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",
@@ -57,10 +57,10 @@
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageProductIdThirdSlide",
-        "label"     : "Produkt-ID für den dritten Slide",
+        "key"       : "homepage.homepageProductLinkTihrdSlide",
+        "label"     : "Produkt-URL für den dritten Slide",
         "type"      : "text",
-        "default"   : "48669037"
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",

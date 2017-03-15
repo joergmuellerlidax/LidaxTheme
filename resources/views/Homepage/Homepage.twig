@@ -19,37 +19,30 @@
 {% set featuredCategory2 = services.category.get(config("Kiom.homepage.homepageFeatureCategory2Id"), lang) %}
 
 {% set homepageImageFirstSlide  = config("Kiom.homepage.homepageImageFirstSlide") %}
-{% set homepageProductIdFirstSlide  = config("Kiom.homepage.homepageProductIdFirstSlide") %}
+{% set homepageProductLinkFirstSlide  = config("Kiom.homepage.homepageProductLinkFirstSlide") %}
 {% set homepageProductNameFirstSlide  = config("Kiom.homepage.homepageProductNameFirstSlide") %}
 
 {% set homepageImageSecondSlide  = config("Kiom.homepage.homepageImageSecondSlide") %}
-{% set homepageProductIdSecondSlide  = config("Kiom.homepage.homepageProductIdSecondSlide") %}
+{% set homepageProductLinkSecondSlide  = config("Kiom.homepage.homepageProductLinkSecondSlide") %}
 {% set homepageProductNameSecondSlide  = config("Kiom.homepage.homepageProductNameSecondSlide") %}
 
 {% set homepageImageThirdSlide  = config("Kiom.homepage.homepageImageThirdSlide") %}
-{% set homepageProductIdThirdSlide  = config("Kiom.homepage.homepageProductIdThirdSlide") %}
+{% set homepageProductLinkThirdSlide  = config("Kiom.homepage.homepageProductLinkThirdSlide") %}
 {% set homepageProductNameThirdSlide  = config("Kiom.homepage.homepageProductNameThirdSlide") %}
 
-{% set item = services.itemLoader.loadForTemplate('Ceres::Item.SingleItem', itemLoaderPresets.singleItem, {'itemId': homepageProductIdFirstSlide}) %}
-
-{% set test = services.item.getItem(homepageProductIdFirstSlide) %}
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
 {% block ThemeHomepage %}
 
 <div class="home container-max">
-<hr >
-<p>{{ item | json_encode() }}</p>
-<hr >
-<p>{{ test | json_encode() }}</p>
     <div class="row">
         <div class="cmp cmp-hero">
             <div class="hero-main">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras1, lang) }}">
+                            <a class="hero-category" href="{{ homepageProductLinkFirstSlide }}">
                                 <img src="{{ homepageImageFirstSlide }}" alt="{{ homepageProductNameFirstSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameFirstSlide }}</h1>
@@ -57,7 +50,7 @@
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras2, lang) }}">
+                            <a class="hero-category" href="{{ homepageProductLinkSecondSlide }}">
                                 <img src="{{ homepageImageSecondSlide }}" alt="{{ homepageProductNameSecondSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameSecondSlide }}</h1>
@@ -65,7 +58,7 @@
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <a class="hero-category" href="{{ services.category.getURL(hero-xtras1, lang) }}">
+                            <a class="hero-category" href="{{ homepageProductLinkThirdSlide }}">
                                 <img src="{{ homepageImageThirdSlide }}" alt="{{ homepageProductNameThirdSlide }}" class="img-fluid">
                                 <div class="carousel-caption">
                                     <h1><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ homepageProductNameThirdSlide }}</h1>

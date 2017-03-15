@@ -100,6 +100,9 @@
 .owl-thumbs {display:none;}
 
 .owl-carousel {
+    .owl-stage-outer.owl-height {
+        max-height: 40em;
+    }
     .carousel-control {
         background-image: none !important;
         opacity: 1;
