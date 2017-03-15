@@ -54,6 +54,12 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
+        // provide template to use for checkout
+        $eventDispatcher->listen('IO.tpl.checkout', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::Checkout.Checkout");
+            return false;
+        });
+
         // provide template to use for basket
         $eventDispatcher->listen('IO.tpl.contact', function(TemplateContainer $container, $templateData) {
             $container->setTemplate("Kiom::StaticPages.Contact");
