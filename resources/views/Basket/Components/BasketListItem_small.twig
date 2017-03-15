@@ -48,7 +48,7 @@
                     'hidden-xs-up' : prop.property.names[0].name === 'EEK Skala'
                     }"
                     class="eek-sign clearfix" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
-                    <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.variation.id"><span>${ prop.property.names[0].name }</span>
+                    <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.id"><span>${ prop.property.names[0].name }</span>
                     </a>
                 </div>
             </div>
