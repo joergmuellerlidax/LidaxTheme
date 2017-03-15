@@ -52,7 +52,7 @@
         </div> -->
 
         <div>
-            <div v-for="prop in item.properties">
+            <div v-for="prop in basketItem.variation.data.properties">
                 <div v-bind:class="{
                     'eek-aaa': prop.property.names[0].name === 'A++',
                     'eek-aa' : prop.property.names[0].name === 'A+',

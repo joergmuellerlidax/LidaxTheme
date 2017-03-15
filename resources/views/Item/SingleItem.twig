@@ -5,7 +5,10 @@
 {% set configItemName = config("Ceres.item.name") %}
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
-{% set crossSellingList = services.item.getItemCrossSellingList( item.documents[0].data.item.id  ) %}
+
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+
+{% set itemList          = paginatedResult.documents %}
 
 {% block PageBody %}
 
@@ -102,7 +105,7 @@
                                 <div class="row">
                                     <div class="col-xs-6">
 
-                                        <div class="eek-sign" data-toggle="modal" data-target="#availability-modal">
+                                        <div class="eek-sign">
                                             <span>A++</span>
                                         </div>
                                         
@@ -161,7 +164,7 @@
 
 
                         <h3>Ähnliche Artikel</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                        <ul class="product-list crossselling-list row grid">
                             {% for item in itemList %}
                                 <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
@@ -201,7 +204,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Zubehör</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                        <ul class="product-list crossselling-list row grid">
                             {% for item in itemList %}
                                 <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
@@ -250,7 +253,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Kunden kauften auch</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                        <ul class="product-list crossselling-list row grid">
                             {% for item in itemList %}
                                 <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
@@ -283,7 +286,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Zuletzt angesehen</h3>
-                        <ul class="product-list crossselling-list row grid" v-facet-param-watcher>
+                        <ul class="product-list crossselling-list row grid">
                             {% for item in itemList %}
                                 <li class="col-xs-6 col-lg-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}

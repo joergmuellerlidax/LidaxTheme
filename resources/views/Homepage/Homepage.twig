@@ -2,9 +2,11 @@
 
 {% set lang         = services.sessionStorage.getLang() %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResultTop      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':245, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResultNew      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':244, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
 
-{% set itemList             = paginatedResult.documents %}
+{% set itemListTop          = paginatedResultTop.documents %}
+{% set itemListNew          = paginatedResultNew.documents %}
 
 {% set topsellerId = services.category.get(245, lang) %}
 {% set newId = services.category.get(244, lang) %}
@@ -164,8 +166,8 @@
             </div>
             <!-- crosssell start -->
             <ul class="product-list row grid">
-                {% for item in itemList %}
-                    <li class="col-xs-12 col-sm-6 col-md-4">
+                {% for item in itemListTop %}
+                    <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
                 {% endfor %}
@@ -219,8 +221,8 @@
             </div>
             <!-- crosssell start -->
              <ul class="product-list row grid">
-                {% for item in itemList %}
-                    <li class="col-xs-12 col-sm-6 col-md-4">
+                {% for item in itemListNew %}
+                    <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
                 {% endfor %}
