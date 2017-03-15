@@ -165,6 +165,9 @@
                 <a href="{{ services.category.getURL(topsellerId, lang) }}" class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
+            <p>
+                {{ itemListTop | json_encode() }}
+            </p>
             <ul class="product-list row grid">
                 {% for item in itemListTop %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
