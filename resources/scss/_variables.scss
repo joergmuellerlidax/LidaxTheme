@@ -100,6 +100,12 @@ $eek-d:                 #eb690d;
 $eek-e:                 #e3011b;
 
 
+$availability_1:        $eek-aaa;
+$availability_2:        $eek-aa;
+$availability_3:        $eek-a;
+$availability_4:        $eek-c;
+$availability_5:        $eek-e;
+
 
 $custom-colors: (
   "gelb": "#ffff00",
@@ -116,12 +122,6 @@ $footer-color:          $gray-dark;
 $footer-features-bg:    darken($gray-lightest, 10%);
 $footer-features-color: $gray-dark;
 
-
-$availability_1:        $brand-success !default;
-$availability_2:        $brand-success !default;
-$availability_3:        $brand-warning !default;
-$availability_4:        $brand-warning !default;
-$availability_5:        $brand-danger !default;
 
 
 //== Scaffolding

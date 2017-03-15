@@ -96,6 +96,11 @@ button:focus {
 				cursor: pointer;
 				background:darken($green, 10%);
 			}
+			&.availability-1 {background:$availability_1;}
+			&.availability-2 {background:$availability_2;}
+			&.availability-3 {background:$availability_3;}
+			&.availability-4 {background:$availability_4;}
+			&.availability-5 {background:$availability_5;}
 		}
 	}
 }
