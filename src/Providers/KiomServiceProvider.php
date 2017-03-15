@@ -12,6 +12,7 @@ use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ConfigRepository;
 use IO\Helper\ComponentContainer;
+use Kiom\Providers\KiomRouteServiceProvider;
 
 class KiomServiceProvider extends ServiceProvider
 {
@@ -21,8 +22,9 @@ class KiomServiceProvider extends ServiceProvider
      * Register the service provider.
      */
 
-    public function register() {
-         
+    public function register() 
+    {
+        $this->getApplication()->register(KiomRouteServiceProvider::class);    
     }
 
     public function boot(Twig $twig, Dispatcher $eventDispatcher, ConfigRepository $config)
@@ -49,6 +51,12 @@ class KiomServiceProvider extends ServiceProvider
         // provide template to use for basket
         $eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData) {
             $container->setTemplate("Kiom::Basket.Basket");
+            return false;
+        });
+
+        // provide template to use for basket
+        $eventDispatcher->listen('IO.tpl.contact', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::StaticPages.Contact");
             return false;
         });
 
