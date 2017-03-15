@@ -143,13 +143,11 @@
                                         </span>
                                         
                                         <div class="availability-wrapper">
-                                        {% for availability in services.availability.getAvailabilities() %}
                                             
-                                            <span class="availability tag availability_{{ availability.id }} text-xs-left" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
-                                                {{ availability.languages[0].name }}
+                                            <span class="availability tag availability_{{ availability.id }} text-xs-left">
+                                                {{ item.variation.availability.names[0].name }}
                                             </span>
-                                           
-                                        {% endfor %}
+                                        
                                         </div>
                                         
                                     </div>
