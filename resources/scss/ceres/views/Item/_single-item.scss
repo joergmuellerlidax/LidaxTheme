@@ -102,6 +102,11 @@
 .owl-carousel {
     .owl-stage-outer.owl-height {
         max-height: 40em;
+        img {
+            max-height: 40em;
+            width: auto;
+            margin: 0 auto;
+        }
     }
     .carousel-control {
         background-image: none !important;
