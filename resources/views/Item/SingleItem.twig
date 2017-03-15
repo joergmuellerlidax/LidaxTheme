@@ -112,7 +112,7 @@
                                         {% for prop in item.documents[0].data.properties %}
                                             {% if prop.group.backendName == 'Energieeffizienzklasse' %}
                                                 <div class="eek-sign 
-                                                {% if prop.property.names[0].name === 'A++' %}eek-aaa{% endif %}"></div>
+                                                {% if prop.property.names[0].name == 'A++' %}eek-aaa{% endif %}"></div>
                                                 <span>{{ prop.property.names[0].name }}</span>
                                             {% endif %}
                                         {% endfor %}
