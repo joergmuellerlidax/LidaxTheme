@@ -19,9 +19,9 @@
 
         <div v-else>
             <div class="AddToBasket-inner">
-                <div
-                    v-bind:class="{ 
-                        'eek-aaa': prop.property.names[0].name === 'A++', 
+                <div v-for="prop in item.properties">
+                    <div v-bind:class="{
+                        'eek-aaa': prop.property.names[0].name === 'A++',
                         'eek-aa' : prop.property.names[0].name === 'A+',
                         'eek-a' : prop.property.names[0].name === 'A',
                         'eek-b' : prop.property.names[0].name === 'B',
@@ -29,13 +29,12 @@
                         'eek-d' : prop.property.names[0].name === 'D',
                         'eek-e' : prop.property.names[0].name === 'E',
                         'hidden-xs-up' : prop.property.names[0].name === 'EEK Skala'
-                    }" 
-                    class="eek-sign"
-                    v-for="prop in item.properties"
-                    v-if="prop.group.backendName === 'Energieeffizienzklasse'"
-
-                    >
-                    <a :href="item.images.all[item.images.all.length - 1].url | json" data-lightbox="${item.variation.id}"><span>${ prop.property.names[0].name }</span></a>
+                        }"
+                        class="eek-sign" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
+                        <a :href="item.images.all[item.images.all.length - 1].url | json"
+                        data-lightbox="${item.variation.id}"><span>${ prop.property.names[0].name }</span>
+                        </a>
+                    </div>
                 </div>
                 <button type="button" class="btn btn-block btn-buy" @click="directToItem()">
                     Jetzt ansehen
