@@ -105,6 +105,9 @@
                                 <div class="row">
                                     <div class="col-xs-6">
 
+                                    {% set len = item.documents[0].data.images.all | length %}
+                                    {% set len = len - 1 %}
+
                                         {% for prop in item.documents[0].data.properties %}
                                             {% if prop.group.backendName == 'Energieeffizienzklasse' %}
                                                 <div class="eek-sign 
@@ -125,7 +128,10 @@
                                                 {% elseif prop.property.names[0].name == 'EEK Skala' %}
                                                     hidden-xs-up
                                                 {% endif %}">
-                                                    <span>{{ prop.property.names[0].name }}</span>
+                                                    <a href="{{ item.documents[0].data.images.all[len].url }}"
+                                                        data-lightbox="{{ item.documents[0].data.variation.id }}">
+                                                        <span>{{ prop.property.names[0].name }}</span>
+                                                    </a>
                                                 </div>
                                                 
                                             {% endif %}
