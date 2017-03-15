@@ -105,15 +105,29 @@
                                 <div class="row">
                                     <div class="col-xs-6">
 
-                                        <!-- <div class="eek-sign">
-                                            <span>A++</span>
-                                        </div> -->
-
                                         {% for prop in item.documents[0].data.properties %}
                                             {% if prop.group.backendName == 'Energieeffizienzklasse' %}
                                                 <div class="eek-sign 
-                                                {% if prop.property.names[0].name == 'A++' %}eek-aaa{% endif %}"></div>
-                                                <span>{{ prop.property.names[0].name }}</span>
+                                                {% if prop.property.names[0].name == 'A++' %}
+                                                    eek-aaa
+                                                {% elseif prop.property.names[0].name == 'A+' %}
+                                                    eek-aa
+                                                {% elseif prop.property.names[0].name == 'A' %}
+                                                    eek-a
+                                                {% elseif prop.property.names[0].name == 'B' %}
+                                                    eek-b
+                                                {% elseif prop.property.names[0].name == 'C' %}
+                                                    eek-c
+                                                {% elseif prop.property.names[0].name == 'D' %}
+                                                    eek-d
+                                                {% elseif prop.property.names[0].name == 'E' %}
+                                                    eek-e
+                                                {% elseif prop.property.names[0].name == 'EEK Skala' %}
+                                                    hidden-xs-up
+                                                {% endif %}">
+                                                    <span>{{ prop.property.names[0].name }}</span>
+                                                </div>
+                                                
                                             {% endif %}
                                         {% endfor %}
                                         
