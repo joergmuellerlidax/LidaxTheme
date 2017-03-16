@@ -1,7 +1,7 @@
 <?php //strict
 namespace Kiom\Controllers;
 
-use IO\Helper\TemplateContainer;
+use IO\Controllers\LayoutController;
 
 /**
  * Class ContactController
