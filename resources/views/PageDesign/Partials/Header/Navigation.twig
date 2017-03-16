@@ -18,29 +18,9 @@
                      <li class="nav-item">
                          <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
                      </li>
-                     {% for category in services.category.getNavigationTree("item", lang) %}
-                         {% if category.children is empty %}
-                             <li class="nav-item">
-                                 <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
-                             </li>
-                         {% else %}
-                             <li class="nav-item dropdown">
-                                 <a class="dropdown-toggle nav-link" id="{{ category.details.first.name }}_Menu" href="{{ services.category.getURL( category, lang ) }}"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ category.details.first.name }}
-                                 </a>
-                                 <div class="dropdown-menu" aria-labelledby="{{ category.details.first.name }}_Menu">
-                                     {% for subcat in category.children %}
-                                         <a class="dropdown-item special-case" href="{{ services.category.getURL( subcat, lang ) }}">
-                                             {{ subcat.details.first.name }}
-                                         </a>
-                                     {% endfor %}
-                                     <div class="menu-cat-img">
-                                        <img class="img-fluid" src="https://trello-attachments.s3.amazonaws.com/58c1488ec8ea55b760dcb4c1/600x600/d3eae87877d82cf14d8b450a758bc317/kategoriename_kat2.jpg.png">
-                                    </div>
-                                 </div>
-                             </li>
-                         {% endif %}
-                     {% endfor %}
+                     {% $categories = services.category.getNavigationTree("item", lang) %}
+                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : $categories } %}
+
                      <li class="nav-item hidden-md-down pull-lg-right">
                         <a class="nav-link" data-toggle="collapse" href="#searchBox"
                            aria-expanded="false"

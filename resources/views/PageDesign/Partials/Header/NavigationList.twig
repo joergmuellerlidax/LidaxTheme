@@ -1,0 +1,14 @@
+{% set lang = services.sessionStorage.getLang() %}
+    {% for category in {{ categories }}  %}
+        {% if category.children is empty %}
+            <li><a href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a></li>
+        {% else %}
+            <li class="dropdown">
+                <a href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+                <ul>
+                    {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : category.children } %}
+                    <li class="menu-cat-img"><img class="img-fluid" src="https://trello-attachments.s3.amazonaws.com/58c1488ec8ea55b760dcb4c1/600x600/d3eae87877d82cf14d8b450a758bc317/kategoriename_kat2.jpg.png"></li>
+                <ul>
+            </li>
+    {% endif %}
+{% endfor %}
