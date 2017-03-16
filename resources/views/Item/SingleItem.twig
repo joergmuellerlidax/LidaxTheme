@@ -1,6 +1,8 @@
 {% extends getPartial('page-design') %}
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
+{% set lang         = services.sessionStorage.getLang() %}
+
 {% set itemData = config("Ceres.item.data") | split(', ') %}
 {% set configItemName = config("Ceres.item.name") %}
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
