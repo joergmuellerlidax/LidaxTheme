@@ -1,7 +1,10 @@
 
 .single{
-
-
+    margin-top: -40px;
+    .back-link {
+        color: $gray-dark;
+        i {padding-right:.25rem;}
+    }
     .sidebar-categories {
         ul {
             li {
