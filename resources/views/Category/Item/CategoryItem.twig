@@ -54,7 +54,7 @@
 
 
 
-{% for category in services.category.getNavigationTree("item", lang) %}
+{% set category = services.category.getCurrentCategory() %}
 
  {% if category.children is empty %}
     {% if services.category.isActive(category) %}
@@ -131,7 +131,6 @@
          </ul>
      </li>
  {% endif %}
-{% endfor %}
 </ul>
 				</div>
 			</div>
