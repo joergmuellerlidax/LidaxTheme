@@ -1,4 +1,5 @@
-{% set lang = services.sessionStorage.getLang() %}
+{% set lang         = services.sessionStorage.getLang() %}
+
     {% for category in {{ categories }}  %}
         {% if category.children is empty %}
             <li><a href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a></li>
