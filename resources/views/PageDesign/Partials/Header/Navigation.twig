@@ -20,7 +20,7 @@
                 </ul>
                  <ul class="mainmenu">
                      <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                     {% categories = services.category.getNavigationTree("item", lang) %}
+                     {% set categories = services.category.getNavigationTree("item", lang) %}
                      {% level = 1 %}
                      {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : categories, 'level' : level } %}
 
