@@ -1,6 +1,15 @@
 
 .single{
 
+
+    .sidebar-categories {
+        ul {
+            li {
+                &.first-level {display:list-item;}
+            }
+        }
+    }
+
     .main-image{
         img{
             width: 100%;
@@ -106,6 +115,10 @@
             max-height: 40em;
             width: auto;
             margin: 0 auto;
+            max-width: 100%;
+        }
+        .owl-item  {
+            background:white;
         }
     }
     .carousel-control {
@@ -130,6 +143,7 @@
     .availability {
         display: block;
         white-space: normal;
+        text-align:left;
     }
 }
 

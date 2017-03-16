@@ -42,9 +42,9 @@
 				transform: translateX(-50%);
 				right:auto;
 				li {
-					border-color: $gray-dark;
+					border-color: $brand-primary;
 					&.active {
-						background:$gray-dark;
+						background:$brand-primary;
 					}
 				}
 			}
@@ -59,7 +59,7 @@
 				span:before {
 					font-family: 'FontAwesome';
 					content: "\f053";
-					color: $gray-dark;
+					color: $brand-primary;
 				}
 				.icon-next:before {
 					content: "\f054";
