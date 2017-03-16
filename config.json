@@ -364,11 +364,11 @@
         "type"          : "multi_select",
         "possibleValues":
         {
-            "20"          : "20",
-            "50"          : "50",
-            "100"         : "100"
+            "21"          : "21",
+            "51"          : "51",
+            "102"         : "102"
         },
-        "default"       : "all"
+        "default"       : "21"
     },
     {
         "tab"           : "Pagination and sorting",
@@ -377,11 +377,11 @@
         "type"          : "dropdown",
         "possibleValues":
         {
-            "20"          : "20",
-            "50"          : "50",
-            "100"         : "100"
+            "21"          : "21",
+            "51"          : "51",
+            "102"         : "102"
         },
-        "default"       : "20"
+        "default"       : "21"
     },
     {
         "tab"                       : "Pagination and sorting",
