@@ -52,16 +52,22 @@
 					<div class="category-title">Kategorien</div>
 <ul>
 
+<!-- {{ services.category.getCurrentCategory() | json_encode()  }} -->
+<!-- -->
+<!-- {{ services.category.getCurrentCategory()  }} -->
 
-
-{% set category = services.category.getCurrentCategory() %}
+{% for category in services.category.getNavigationTree("item", lang) %}
 
  {% if category.children is empty %}
-    
-     <li class="nav-item first-level active">
-         <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
-     </li>
-    
+    {% if services.category.isActive(category) %}
+         <li class="nav-item first-level active">
+             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+         </li>
+    {% else %}
+        <li class="nav-item first-level">
+             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+         </li>
+    {% endif %}
  {% else %}
     {% if services.category.isActive(category) %}
     <li class="nav-item first-level hasChildren active">
@@ -127,6 +133,7 @@
          </ul>
      </li>
  {% endif %}
+{% endfor %}
 </ul>
 				</div>
 			</div>
