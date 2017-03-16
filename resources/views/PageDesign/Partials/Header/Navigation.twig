@@ -18,7 +18,7 @@
                      <li class="nav-item">
                          <a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
                      </li>
-                     {% $categories = services.category.getNavigationTree("item", lang) %}
+                     {% categories = services.category.getNavigationTree("item", lang) %}
                      {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : $categories } %}
 
                      <li class="nav-item hidden-md-down pull-lg-right">
