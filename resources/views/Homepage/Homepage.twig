@@ -27,42 +27,14 @@
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
 
-{% set itemSort             = request.get("sorting") %}
-{% set orderBy              = itemSort[0] %}
-{% set variationShowType    = config("Ceres.item.variation_show_type") %}
-{% set categoryParams = {
-'variationShowType' : config("Ceres.item.variation_show_type"),
-'itemsPerPage'      : request.get("items") | default( config('Ceres.pagination.defaultItemsPerPage') ),
-'orderBy'           : itemSort,
-'facetParams'       : request.get("facets")
-} %}
-
-{% set page = request.get("page") | default(1) %}
-
-{% set itemsPerPage = config("Ceres.pagination.defaultItemsPerPage") %}
-{% if request.get("items") %}
-    {% set itemsPerPage = request.get("items") %}
-{% endif %}
-
-{% set paginatedResultTop      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':245, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
-
-{% set paginatedResultNew      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':244, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
-
-{% set itemListTop          = paginatedResultTop.documents %}
-{% set itemListNew          = paginatedResultNew.documents %}
-
-{% set paginationType       = config("Ceres.pagination.position") %}
+{% set itemList          = paginatedResult.documents %}
 
 {% block ThemeHomepage %}
-
-    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
-    {{ component( "Ceres::ItemList.Components.Filter.ItemFilterTagList") }}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
-    {{ component( "Ceres::ItemList.Components.ItemListSorting") }}
-    {{ component( "Ceres::ItemList.Components.ItemsPerPage") }}
-    {{ component( "Ceres::ItemList.Components.Pagination") }}
+    {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
 <div class="home container-max">
     <div class="row">
@@ -188,10 +160,10 @@
             </div>
             <!-- crosssell start -->
             <p>
-                {{ itemListTop | json_encode() }}
+                {{ itemList | json_encode() }}
             </p>
             <ul class="product-list row grid">
-                {% for item in itemListTop %}
+                {% for item in itemList %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
@@ -246,7 +218,7 @@
             </div>
             <!-- crosssell start -->
              <ul class="product-list row grid">
-                {% for item in itemListNew %}
+                {% for item in itemList %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
