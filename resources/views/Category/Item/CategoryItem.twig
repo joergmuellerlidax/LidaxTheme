@@ -52,7 +52,7 @@
 					<div class="category-title">Kategorien</div>
 
     {% set currentCategory = services.category.getCurrentCategory() %}
-
+    
     {% if currentCategory.parentCategoryId != null %}
         {% set category = services.category.getCategory(currentCategory.parentCategoryId) %}
     {% else %}
@@ -60,6 +60,12 @@
     {% endif %}
 
 <ul>
+
+<!-- {{ services.category.getCurrentCategory() | json_encode()  }} -->
+<!-- -->
+<!-- {{ services.category.getCurrentCategory()  }} -->
+
+{# for category in categoryList #}
 
 
     <li class="nav-item first-level {{ services.category.isActive(category) ? " active" : "" }}">
