@@ -157,14 +157,11 @@
         <!-- END SALE -->
 
         <div class="m-b-2 clearfix">
-            <div class="section-header">
+            <div class="section-header m-b-1">
                 <h4>Topseller</h4>
                 <a href="{{ services.category.getURL(topsellerId, lang) }}" class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>
             <!-- crosssell start -->
-            <p>
-                {{ itemList | json_encode() }}
-            </p>
             <ul class="product-list row grid">
                 {% for item in itemListTop %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
@@ -215,7 +212,7 @@
         <!-- END CATEGORIES -->
 
         <div class="m-b-2 clearfix">
-            <div class="section-header">
+            <div class="section-header m-b-1">
                 <h4>Neuheiten</h4>
                 <a href="{{ services.category.getURL(newId, lang) }}" class="section-link-all"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alle ansehen</a>
             </div>

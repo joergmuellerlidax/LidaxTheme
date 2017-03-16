@@ -57,7 +57,7 @@
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageProductLinkTihrdSlide",
+        "key"       : "homepage.homepageProductLinkThirdSlide",
         "label"     : "Produkt-URL für den dritten Slide",
         "type"      : "text",
         "default"   : "/"
