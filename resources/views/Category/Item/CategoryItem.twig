@@ -39,12 +39,21 @@
     <div class="categoriegrid page-content container-max">
         <div class="cat-teaser row">
             <div class="col-xs-12">
-
+            
                 <img class="img-fluid" src="/documents/category/{{ category.id }}/{{ category.details.first.name }}-header.jpg">
 
 
             </div>
         </div>
+        
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                console.log( "Jan Mense test" );
+                $(".cat-teaser img").error(function() {
+                    $(".cat-teaser").css( "display", "none" );
+                });
+            });
+        </script>
 
 		<div class="row is-flex">
 			<div class="col-lg-3 hidden-md-down">

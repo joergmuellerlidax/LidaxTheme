@@ -27,15 +27,21 @@
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':16, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResultTop      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
 
-{% set itemList          = paginatedResult.documents %}
+{% set paginatedResultNew      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':47, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+
+{% set itemListTop          = paginatedResultTop.documents %}
+{% set itemListNew          = paginatedResultNew.documents %}
+
+{% set item = item.item.id %}
 
 {% block ThemeHomepage %}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
+<p>{% item | json_encode %}</p>
 <div class="home container-max">
     <div class="row">
         <div class="cmp cmp-hero">
@@ -163,7 +169,7 @@
                 {{ itemList | json_encode() }}
             </p>
             <ul class="product-list row grid">
-                {% for item in itemList %}
+                {% for item in itemListTop %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
@@ -218,7 +224,7 @@
             </div>
             <!-- crosssell start -->
              <ul class="product-list row grid">
-                {% for item in itemList %}
+                {% for item in itemListNew %}
                     <li class="col-xs-12 col-sm-6 col-md-3">
                         {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
                     </li>
