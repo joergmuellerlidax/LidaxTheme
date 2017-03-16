@@ -187,8 +187,26 @@
     }
 
     @include media-breakpoint-up(md){
-
+        .thumb-image{
+            .owl-carousel {
+                .owl-nav [class*=owl-] {
+                    opacity: 0;
+                }
+                .owl-dots {opacity:0; transition: all .2s ease;}
+            }
+        }
+        &:hover {
+            .thumb-image{
+                .owl-carousel {
+                    .owl-nav [class*=owl-] {
+                        opacity: 1;
+                    }
+                    .owl-dots {opacity:1; transition: all .2s ease;}
+                }
+            }
+        }
     }
+
     @include media-breakpoint-up(lg){
         .btn-group {
             transition:all .3s ease;
