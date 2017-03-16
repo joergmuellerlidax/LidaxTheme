@@ -34,14 +34,11 @@
 {% set itemListTop          = paginatedResultTop.documents %}
 {% set itemListNew          = paginatedResultNew.documents %}
 
-{% set item = item.item.id %}
-
 {% block ThemeHomepage %}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
-<p>{% item | json_encode %}</p>
 <div class="home container-max">
     <div class="row">
         <div class="cmp cmp-hero">
