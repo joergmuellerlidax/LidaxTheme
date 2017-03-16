@@ -57,15 +57,11 @@
 {% set category = services.category.getCurrentCategory() %}
 
  {% if category.children is empty %}
-    {% if services.category.isActive(category) %}
-         <li class="nav-item first-level active">
-             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
-         </li>
-    {% else %}
-        <li class="nav-item first-level">
-             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
-         </li>
-    {% endif %}
+    
+     <li class="nav-item first-level active">
+         <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+     </li>
+    
  {% else %}
     {% if services.category.isActive(category) %}
     <li class="nav-item first-level hasChildren active">
