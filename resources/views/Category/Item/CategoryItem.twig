@@ -51,79 +51,83 @@
 				<div class="sidebar-categories">
 					<div class="category-title">Kategorien</div>
 
-    {% set currentCategory = services.category.getCurrentCategory() %}
-    
-    {% if currentCategory.parentCategoryId != null %}
-        {% set category = services.category.getCategory(currentCategory.parentCategoryId) %}
-    {% else %}
-        {% set category = currentCategory %}
-    {% endif %}
+
 
 <ul>
+{% for category in services.category.getNavigationTree("item", lang) %}
 
-<!-- {{ services.category.getCurrentCategory() | json_encode()  }} -->
-<!-- -->
-<!-- {{ services.category.getCurrentCategory()  }} -->
-
-{# for category in categoryList #}
-
-
-    <li class="nav-item first-level {{ services.category.isActive(category) ? " active" : "" }}">
-        <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">
-            {{ category.details.first.name }}
-        </a>
-
-        {% if not category.children is empty %}
-
-            <ul>
-            {% for subCat in category.children %}
-
-                <li class="nav-item {{ services.category.isActive(subCat) ? " active" : "" }}">
-                    <a class="nav-link" href="{{ services.category.getURL( subCat, lang ) }}">
-                        {{ subCat.details.first.name }}
-                    </a>
-
-                    {% if not subCat.children is empty %}
-
-                        <ul>
-                        {% for subCate in subCat.children %}
-
-                            <li class="nav-item {{ services.category.isActive(subCate) ? " active" : "" }}">
-                                <a class="nav-link" href="{{ services.category.getURL( subCate, lang ) }}">
-                                    {{ subCate.details.first.name }}
-                                </a>
-
-                                {% if not subCate.children is empty %}
-
-                                    <ul>
-                                    {% for subCateg in subCate.children %}
-
-                                        <li class="nav-item {{ services.category.isActive(subCateg) ? " active" : "" }}">
-                                            <a class="nav-link" href="{{ services.category.getURL( subCateg, lang ) }}">
-                                                {{ subCateg.details.first.name }}
-                                            </a>
-                                        </li>
-
-                                    {% endfor %}
-                                    </ul>
-
-                                {% endif %}
-                            </li>
-
-                        {% endfor %}
-                        </ul>
-
+ {% if category.children is empty %}
+    {% if services.category.isActive(category) %}
+         <li class="nav-item first-level active">
+             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+         </li>
+    {% else %}
+        <li class="nav-item first-level">
+             <a class="nav-link" href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
+         </li>
+    {% endif %}
+ {% else %}
+    {% if services.category.isActive(category) %}
+    <li class="nav-item first-level hasChildren active">
+    {% else %}
+    <li class="nav-item first-level hasChildren">
+    {% endif %}
+         <a class="nav-link" id="{{ category.details.first.name }}_Menu" href="{{ services.category.getURL( category, lang ) }}"> {{ category.details.first.name }}
+         </a>
+         <ul>
+             {% for subcat in category.children %}
+                {% if subcat.children is empty %}
+                {% if services.category.isActive(subcat) %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                     <a class="nav-link" href="{{ services.category.getURL( subcat, lang ) }}">{{ subcat.details.first.name }}</a>
+                 </li>
+                {% else %}
+                    {% if services.category.isActive(subcat) %}
+                    <li class="nav-item hasChildren active">
+                    {% else %}
+                    <li class="nav-item hasChildren">
                     {% endif %}
-
-                </li>
-
-            {% endfor %}
-            </ul>
-
-        {% endif %}
-
-    </li>
-   
+                    
+                        <a class="nav-link" href="{{ services.category.getURL( subcat, lang ) }}">{{ subcat.details.first.name }}</a>
+                        <ul>
+                            {% for subsubcat in subcat.children %}
+                                {% if subsubcat.children is empty %}
+                                {% if services.category.isActive(subsubcat) %}
+                                <li class="nav-item active">
+                                {% else %}
+                                <li class="nav-item">
+                                {% endif %}
+                                
+                                     <a class="nav-link" href="{{ services.category.getURL( subsubcat, lang ) }}">{{ subsubcat.details.first.name }}</a>
+                                 </li>
+                                 {% else %}
+                                    {% if services.category.isActive(subsubcat) %}
+                                    <li class="nav-item hasChildren active">
+                                    {% else %}
+                                    <li class="nav-item hasChildren">
+                                    {% endif %}
+                                         <a class="nav-link" href="{{ services.category.getURL( subsubcat, lang ) }}">{{ subsubcat.details.first.name }}</a>
+                                         <ul>
+                                            {% for subsubsubcat in subsubcat.children %}
+                                                {% if services.category.isActive(subsubsubcat) %}
+                                                <li class="nav-item active">
+                                                {% else %}
+                                                <li class="nav-item">
+                                                {% endif %}
+                                                     <a class="nav-link" href="{{ services.category.getURL( subsubsubcat, lang ) }}">{{ subsubsubcat.details.first.name }}</a>
+                                                 </li>
+                                            {% endfor %}
+                                         </ul>
+                                     </li>
+                                 {% endif %}
+                            {% endfor %}
+                        </ul>
+                 </li>
+                {% endif %}
+             {% endfor %}
 </ul>
 				</div>
 			</div>
