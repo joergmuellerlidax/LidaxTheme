@@ -25,7 +25,11 @@
                     <div class="category-title">Kategorien</div>
 <ul>
 
-
+<!-- {{ item | json_encode() }} -->
+<!--  -->
+<!-- {{ services.category.getCurrentCategory() | json_encode() }} -->
+<!--  -->
+<!-- {{ services.category.getCurrentCategory() }} -->
 
 {% for category in services.category.getNavigationTree("item", lang) %}
 
