@@ -14,7 +14,6 @@ nav.navbar ul.nav li.dropdown:hover .dropdown-menu {
 .dropdown-item.special-case {
 	padding: 3px 5px !important;
 }
-
 /* settings */
 // mobile
 $menu-h-sm  			: 100%;
@@ -132,6 +131,7 @@ body.menu-is-visible { overflow-y : hidden; }
 			    font-family 	: FontAwesome;
 			    font-size 		: 1.5rem;
 			    height 			: auto; 
+			    padding-left 	: .3em;
 			    width 			: auto;
 			}
 		}
@@ -228,6 +228,7 @@ body.menu-is-visible { overflow-y : hidden; }
 					}
 				}
 				&.ddown>a:after { content : '\f0d7'; }
+				&.ddown .ddown a:after { display : none; }
 			}
 		}
 	}
