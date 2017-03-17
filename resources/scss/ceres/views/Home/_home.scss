@@ -1,5 +1,11 @@
 .home {
 	margin-top: -44px;
+
+	.product-list {
+		.col-xs-12 {
+			margin: 0 15px;
+		}
+	}
 }
 .cmp-hero {
 	// margin: 0 -15px;
@@ -141,9 +147,23 @@
 	    }
     }
 }
+@include media-breakpoint-up(sm){
+	.home {
+		.product-list {
+			margin:0;
+			.col-xs-12 {
+				margin: 0;
+			}
+		}
+	}
+}
 @include media-breakpoint-up(md){
 
-	
+	.home {
+		.product-list {
+			margin:0;
+		}
+	}
 
 
 	.featured-categories {
@@ -172,7 +192,12 @@
 	}
 }
 
-@include media-breakpoint-up(lg){        
+@include media-breakpoint-up(lg){    
+	.home {
+		.product-list {
+			margin:0;
+		}
+	}    
     .cmp-hero {
     	margin: 0;
 		.hero-main {
@@ -225,6 +250,13 @@
 					}
 				}
 			}
+		}
+	}
+}
+@include media-breakpoint-up(xl){
+	.home {
+		.product-list {
+			margin:0 -15px;
 		}
 	}
 }

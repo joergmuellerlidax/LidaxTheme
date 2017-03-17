@@ -60,9 +60,33 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
-        // provide template to use for basket
+        // provide template to use for contact
         $eventDispatcher->listen('IO.tpl.contact', function(TemplateContainer $container, $templateData) {
             $container->setTemplate("Kiom::StaticPages.Contact");
+            return false;
+        });
+
+        // provide template to use for shipping
+        $eventDispatcher->listen('IO.tpl.shipping', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::StaticPages.Shipping");
+            return false;
+        });
+
+        // provide template to use for payment
+        $eventDispatcher->listen('IO.tpl.payment', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::StaticPages.Payment");
+            return false;
+        });
+
+        // provide template to use for aboutus
+        $eventDispatcher->listen('IO.tpl.aboutus', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::StaticPages.AboutUs");
+            return false;
+        });
+
+        // provide template to use for aboutus
+        $eventDispatcher->listen('IO.tpl.disposal', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::StaticPages.Disposal");
             return false;
         });
 

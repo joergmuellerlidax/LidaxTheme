@@ -15,8 +15,6 @@ nav.navbar ul.nav li.dropdown:hover .dropdown-menu {
 	padding: 3px 5px !important;
 }
 
-
-
 /* settings */
 // mobile
 $menu-h-sm  			: 100%;
@@ -113,21 +111,29 @@ body.menu-is-visible { overflow-y : hidden; }
 			}
 
 			ul {
-				bottom 		: 0;
+				background 	: $menu-bg-sm;
 				display 	: none;
 				left 		: 0;
 				list-style 	: none;
-				margin 		: 0 0 0 3em;
+				margin 		: 0; 
+				min-height 	: 100%;
 				padding 	: 0;
 				position 	: absolute;
 				top 		: 0;
 				width 		: 100%;
 			}
 			&.isSearch { display : none; }
-		}
-		li.open {
-			border : 1px solid red;
-			ul { display : block; border : 1px solid green; }
+			&.open>ul { display : block; }
+			&.menu-cat-img { display : none !important; }
+			&.ddown>a:after {
+				border 			: none;
+				content			: "\f0da";
+			    float 			: right;
+			    font-family 	: FontAwesome;
+			    font-size 		: 1.5rem;
+			    height 			: auto; 
+			    width 			: auto;
+			}
 		}
 	}
 
@@ -140,10 +146,11 @@ body.menu-is-visible { overflow-y : hidden; }
 		transform 		 : translateX(0);
 		width 			 : 100%;
 
-		.breadcrumb { display : none; }
+		.breadcrumb { display : none!important; }
 		ul.mainmenu {
 			color : $menu-color-lg;
 			width : 100%;
+			.open>ul { display : none!important; }
 			>li { 
 				display : inline-block; 
 				width 	: auto;
@@ -169,6 +176,7 @@ body.menu-is-visible { overflow-y : hidden; }
 
 						&.menu-cat-img { 
 							background 	: $menu-big-menu-bg;
+							display 	: inline-block !important;
 							height 		: 100%;
 						    left 		: 75%;
 						    overflow 	: hidden;
@@ -183,17 +191,17 @@ body.menu-is-visible { overflow-y : hidden; }
 							text-decoration : none;
 						}
 					}
-
-					ul, .open ul { display : none!important; }
 				}
 
 				&:not(.isSearch):hover {
 					background-color : $menu-li-bg-hover;
 					color 			 : $menu-li-color-hover;
 					transition 		 : all .3s linear; 
-					>ul { display : flex; /*display : -webkit-flex; */}
+					>ul { display : flex !important; /*display : -webkit-flex; */}
+
 				}
 				&.isSearch {
+					display : inline-block;
 					a {
 						color 		: $search-color; 
 						position 	: relative;
@@ -219,6 +227,7 @@ body.menu-is-visible { overflow-y : hidden; }
 						&:before { background-color : $search-bg-hover !important; }
 					}
 				}
+				&.ddown>a:after { content : '\f0d7'; }
 			}
 		}
 	}

@@ -25,5 +25,11 @@ class KiomRouteServiceProvider extends RouteServiceProvider
 	public function map(Router $router, ApiRouter $api, ConfigRepository $config)
 	{
         $router->get('kontakt', 'Kiom\Controllers\ContactController@showContact');
+        $router->get('versand', 'Kiom\Controllers\ShippingController@showShipping');
+        $router->get('zahlung', 'Kiom\Controllers\PaymentController@showPayment');
+        $router->get('ueber-uns', 'Kiom\Controllers\AboutUsController@showAboutUs');
+        $router->get('entsorgung', 'Kiom\Controllers\DisposalController@showDisposal');
+        
+        
 	}
 }
