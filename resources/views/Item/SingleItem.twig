@@ -71,8 +71,10 @@
                                 </h1>
                     
                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
-                                    <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}</p>
-                                    <a id="description-desktop" href="#">Mehr</a>
+                                    <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}<br />
+                                    <a id="description-desktop" class="small" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
+                                    </p>
+                                    
                                 {% endif %}
 
                                 <div class="row">
@@ -157,8 +159,9 @@
 
                                  {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <h3 class="hidden-md-up">Kurzbeschreibung</h3>
-                                    <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}</p>
-                                    <a id="description-mobile" href="#">Mehr</a>
+                                    <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}<br />
+                                    <a id="description-mobile" class="small" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
+                                    </p>
                                 {% endif %}
                             </div>
                         </div>
