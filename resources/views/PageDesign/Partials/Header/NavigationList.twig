@@ -10,11 +10,11 @@
                     {% if (level == 1) or (level == 2) or (level == 3) or (level == 4) or (level == 5) or (level == 6)  %}
                         <li class="menu-cat-img">
                             {% set currentCategory = category.id %}
-                            <div class="hidden-xs-down">{{ currentCategory | json_encode() }}</div>
-                            <div class="hidden-xs-down">{{ category | json_encode() }}</div>
+                            <div class="hidden-xs-up">{{ currentCategory | json_encode() }}</div>
+                            <div class="hidden-xs-up">{{ category | json_encode() }}</div>
                             
                             <a href="{{ services.category.getURL( category, lang ) }}">
-                                <img src="/documents/{{ category.details[0].image2Path }}">
+                                <img class="img-fluid" src="/documents/{{ category.details[0].image2Path }}">
                             </a>
                         </li>
                     {% endif %}
