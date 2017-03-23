@@ -7,8 +7,15 @@
                 <a href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
                 <ul data-level="{{ level }}">
                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : category.children, 'level' : level }  %}
-                    {% if level == 1 %}
-                        <li class="menu-cat-img"><a href="#"><img src="/item/images/7010252/370x450/7010252-Spike3-01.jpg"></a></li>
+                    {% if (level == 1) or (level == 2) or (level == 3) or (level == 4) or (level == 5) or (level == 6)  %}
+                        <li class="menu-cat-img">
+                            {% set currentCategory = services.category.getCurrentCategory().id %}
+
+                            {% set currentCat = services.category.get(currentCategory, lang) %}
+                            <a href="{{ services.category.getURL(currentCat, lang) }}">
+                                <img src="/documents/{{ currentCat.details[0].image2Path }}">
+                            </a>
+                        </li>
                     {% endif %}
                     {% set level = level +1 %}
                 </ul>
