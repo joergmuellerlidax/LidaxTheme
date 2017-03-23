@@ -1,10 +1,10 @@
 {% set lang = services.sessionStorage.getLang() %}
     {% for category in categories %}
         {% if category.children is empty %}
-            <li><a href="{{ services.category.getURL( category, lang ) }}" data-img="{{ category.details[0].image2Path }}">{{ category.details.first.name }}</a></li>
+            <li><a href="{{ services.category.getURL( category, lang ) }}" data-img="/documents/{{ category.details[0].image2Path }}">{{ category.details.first.name }}</a></li>
         {% else %}
             <li class="ddown">
-                <a href="{{ services.category.getURL( category, lang ) }}" data-img="{{ category.details[0].image2Path }}">{{ category.details.first.name }}</a>
+                <a href="{{ services.category.getURL( category, lang ) }}" data-img="/documents/{{ category.details[0].image2Path }}">{{ category.details.first.name }}</a>
                 <ul data-level="{{ level }}">
                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : category.children, 'level' : level }  %}
                     {% if (level == 1) or (level == 2) or (level == 3) or (level == 4) or (level == 5) or (level == 6)  %}
