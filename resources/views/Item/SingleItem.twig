@@ -72,6 +72,7 @@
                     
                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}</p>
+                                    <a id="description-desktop" href="#">Mehr</a>
                                 {% endif %}
 
                                 <div class="row">
@@ -157,6 +158,7 @@
                                  {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <h3 class="hidden-md-up">Kurzbeschreibung</h3>
                                     <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}</p>
+                                    <a id="description-mobile" href="#">Mehr</a>
                                 {% endif %}
                             </div>
                         </div>
@@ -179,7 +181,7 @@
                     <!-- ITEM DESCRIPTION -->
                     <div class="col-md-7 m-y-3">
 
-                        <ul class="nav nav-tabs" role="tablist">
+                        <ul class="nav nav-tabs" role="tablist" id="single-tabs">
                             {% if not item.documents[0].data.texts[0].description == '' and('item.description' in itemData or 'all' in itemData) %}
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#details-{{ item.documents[0].data.variation.id }}"
