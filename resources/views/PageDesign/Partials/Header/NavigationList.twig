@@ -7,6 +7,9 @@
                 <a href="{{ services.category.getURL( category, lang ) }}">{{ category.details.first.name }}</a>
                 <ul data-level="{{ level }}">
                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : category.children, 'level' : level }  %}
+                    {% if level == 1 %}
+                        <li class="menu-cat-img"><a href="#"><img src="/item/images/7010252/370x450/7010252-Spike3-01.jpg"></a></li>
+                    {% endif %}
                     {% set level = level +1 %}
                 </ul>
             </li>
