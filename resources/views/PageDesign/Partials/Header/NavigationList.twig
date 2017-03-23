@@ -10,7 +10,7 @@
                     {% if (level == 1) or (level == 2) or (level == 3) or (level == 4) or (level == 5) or (level == 6)  %}
                         <li class="menu-cat-img">
                             {% set currentCategory = services.category.getCurrentCategory(category) %}
-                            <!-- {{ currentCategory | json_encode() }} -->
+                            <!-- {{ category | json_encode() }} -->
                             {% set currentCat = services.category.get(currentCategory, lang) %}
                             <a href="{{ services.category.getURL(currentCat, lang) }}">
                                 <img src="/documents/{{ currentCat.details[0].image2Path }}">
