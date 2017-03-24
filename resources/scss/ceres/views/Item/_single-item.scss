@@ -1,4 +1,7 @@
-
+.crossselling-list .owl-item {
+    width: 300px;
+    float: left;
+}
 .single{
     margin-top: -40px;
     .back-link {
@@ -13,6 +16,7 @@
         }
     }
 
+
     .main-image{
         img{
             width: 100%;
@@ -20,7 +24,6 @@
     }
 
     .title{
-        //font-size: 2rem;
         line-height: 1.2;
         font-family: $font-family-heading;
     }

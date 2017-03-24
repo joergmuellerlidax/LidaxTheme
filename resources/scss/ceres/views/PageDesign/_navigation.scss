@@ -22,7 +22,7 @@ $menu-bg-sm 			: $brand-primary;
 $menu-breadcrumb-bg 	: $brand-secondary;
 $menu-breadcrumb-color 	: $text-color;
 $menu-color-sm 			: $text-color;
-$menu-font-s-sm  		: 1.4em;
+$menu-font-s-sm  		: 1.2em;
 $menu-font-f-sm  		: $font-family-serif;
 
 // desktop
@@ -34,12 +34,12 @@ $menu-font-s-lg  		: 1em;
 $menu-font-f-lg  		: $font-family-serif;
 $menu-li-bg-hover		: $gray-lighter;
 $menu-li-color-hover	: $text-color;
-	// bigmenu
-	$menu-big-menu-bg 				: $gray-lighter; // background color of dropdown big-menu
-	$menu-big-menu-li-bg			: transparent; 
-	$menu-big-menu-li-bg-hover		: $brand-secondary; 
-	$menu-big-menu-li-color			: $text-color; 
-	$menu-big-menu-li-color-hover	: $text-color; 
+// bigmenu
+$menu-big-menu-bg 				: $gray-lighter; // background color of dropdown big-menu
+$menu-big-menu-li-bg			: transparent; 
+$menu-big-menu-li-bg-hover		: $brand-secondary; 
+$menu-big-menu-li-color			: $text-color; 
+$menu-big-menu-li-color-hover	: $text-color; 
 
 $search-bg 		 	: $brand-secondary;
 $search-bg-hover 	: $brand-primary;
@@ -69,7 +69,8 @@ body.menu-is-visible { overflow-y : hidden; }
 	ul.breadcrumb {
 		background : $menu-breadcrumb-bg; 
 		max-width  : initial;
-		font-size  : .9em;
+		font-size  : .8em;
+		padding    : 0 calc(15px + .5em) 0 15px;
 
 		li { 
 			display : inline-block; 
@@ -108,7 +109,7 @@ body.menu-is-visible { overflow-y : hidden; }
 			a 	{ 
 				color 	: inherit; 
 				display : inline-block;
-				padding : 1.3rem 1rem;
+				padding : 1rem ;
 				width 	: 100%;
 			}
 
@@ -129,12 +130,12 @@ body.menu-is-visible { overflow-y : hidden; }
 			&.menu-cat-img { display : none !important; }
 			&.ddown>a:after {
 				border 			: none;
-				content			: "\f0da";
+				content			: "\f067";
 			    float 			: right;
 			    font-family 	: FontAwesome;
 			    font-size 		: 1.5rem;
 			    height 			: auto; 
-			    padding-left 	: .3em;
+			    padding 		: 0 .5em 0 1em;
 			    width 			: auto;
 			}
 		}
@@ -158,10 +159,13 @@ body.menu-is-visible { overflow-y : hidden; }
 			>li { 
 				display : inline-block; 
 				width 	: auto;
-
+				>a { padding: 1.3rem 1rem; }
 				>ul {
 
-					display 		: none;
+					display 		: flex;
+					visibility 		: hidden;
+					opacity 		: 0;
+					transition 		: all .2s ease .3s;
 					background 		: $menu-big-menu-bg; 
 					flex-wrap 		: wrap;
 					flex-direction 	: column; 
@@ -176,17 +180,23 @@ body.menu-is-visible { overflow-y : hidden; }
 						color 		: $menu-big-menu-li-color;
 						flex 		: 0 0 auto;
 						transition  : all .3s linear;
-						width 		: 33%; 
+						width 		: 25%; 
 
 						&.menu-cat-img { 
 							background 	: $menu-big-menu-bg;
 							display 	: inline-block !important;
 							height 		: 100%;
-						    left 		: 75%;
+						    right 		: 0;
 						    overflow 	: hidden;
-						    padding 	: 0.5em;
+						    padding 	: 0em;
 						    position 	: absolute;
-						    width 		: 25%;
+						    width 		: 23%;
+						    a {
+						    	padding : 0;
+								img {
+									padding : 1em;
+								}
+						    }
 						}
 
 						&:hover:not(.menu-cat-img) {
@@ -201,7 +211,11 @@ body.menu-is-visible { overflow-y : hidden; }
 					background-color : $menu-li-bg-hover;
 					color 			 : $menu-li-color-hover;
 					transition 		 : all .3s linear; 
-					>ul { display : flex !important; /*display : -webkit-flex; */}
+					>ul {
+						visibility 		: visible;
+						opacity 		: 1;
+						transition 		: all .2s ease .3s;
+					}
 
 				}
 				&.isSearch {
@@ -226,11 +240,17 @@ body.menu-is-visible { overflow-y : hidden; }
 
 							transition 			: background-color .3s linear; 
 						}
-						i { position : relative; }						
+						i { position : relative; top: -1px; left: 1px; }	
+						
 					}
 					&:hover a {
 						color : $search-color-hover !important;
 						&:before { background-color : $search-bg-hover !important; }
+					}
+					a[aria-expanded="true"] {
+						i:before {
+							content: "\f00d";
+						}
 					}
 				}
 				&.ddown>a:after { content : '\f0d7'; font-size: inherit; padding-left:.5em;}
