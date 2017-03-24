@@ -15,6 +15,19 @@
 
 {% set itemList          = paginatedResult.documents %}
 
+{% set hersteller = item.documents[0].data.item.manufacturer.name %}
+{% if hersteller == "AEG" %}
+    {% set herstellerURL = "/hersteller/aeg" %}
+{% elseif hersteller == "Heitronic" %}
+    {% set herstellerURL = "/hersteller/heitronic" %}
+{% elseif hersteller == "KIOM" %}
+    {% set herstellerURL = "/hersteller/kiom" %}
+{% elseif hersteller == "Lead Energy" %}
+    {% set herstellerURL = "/hersteller/lead-energy" %}
+{% elseif hersteller == "SLV" %}
+    {% set herstellerURL = "/hersteller/slv" %}
+{% endif %}
+
 {% block PageBody %}
 
     {{ component( "Ceres::Item.Components.VariationSelect" ) }}
@@ -57,7 +70,8 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <h6 class="producertag hidden-sm-down">
-                                    <a href="#" class="producer text-muted">{{ item.documents[0].data.item.manufacturer.name }}</a>
+
+                                    <a href="{{ herstellerURL }}" class="producer text-muted">{{ hersteller }}</a>
                                     <div class="hidden-xs-up">{{ item | json_encode }}</div>
                                 </h6>
 
@@ -130,7 +144,7 @@
                                     </div>
                                     <div class="col-xs-6">
                                         <h6 class="producertag hidden-md-up">
-                                            <a href="#" class="producer text-muted">{{ item.documents[0].data.item.manufacturer.name }}</a>
+                                            <a href="{{ herstellerURL }}" class="producer text-muted">{{ hersteller }}</a>
                                         </h6>
                                         {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
                                             <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
