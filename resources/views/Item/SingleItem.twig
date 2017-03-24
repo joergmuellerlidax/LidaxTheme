@@ -11,7 +11,7 @@
 {% set newId = services.category.get(244, lang) %}
 {% set saleId = services.category.get(243, lang) %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
 
 {% set itemList          = paginatedResult.documents %}
 
