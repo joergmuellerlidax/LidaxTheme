@@ -60,6 +60,12 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
+        // provide template to use for item search
+        $eventDispatcher->listen('IO.tpl.search', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate("Kiom::ItemList.ItemListView");
+            return false;
+        });
+
         // provide template to use for contact
         $eventDispatcher->listen('IO.tpl.contact', function(TemplateContainer $container, $templateData) {
             $container->setTemplate("Kiom::StaticPages.Contact");
@@ -123,12 +129,6 @@ class KiomServiceProvider extends ServiceProvider
         $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
             if($componentContainer->getOriginComponentTemplate() == 'Ceres::ItemList.Components.CategoryItem') {
                     $componentContainer->setNewComponentTemplate('Kiom::ItemList.Components.CategoryItem');
-            } 
-        }, self::EVENT_LISTENER_PRIORITY);
-
-        $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
-            if($componentContainer->getOriginComponentTemplate() == 'Ceres::ItemList.Components.ItemSearch') {
-                    $componentContainer->setNewComponentTemplate('Kiom::ItemList.Components.ItemSearch');
             } 
         }, self::EVENT_LISTENER_PRIORITY);
 
