@@ -58,6 +58,7 @@
                             <div class="col-xs-12">
                                 <h6 class="producertag hidden-sm-down">
                                     <a href="#" class="producer text-muted">{{ item.documents[0].data.item.manufacturer.name }}</a>
+                                    <div class="hidden-xs-up">{{ item | json_encode }}</div>
                                 </h6>
 
                                 <h1 class="h3 title hidden-sm-down">
@@ -72,7 +73,7 @@
                     
                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}<br />
-                                    <a id="description-desktop" class="small" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
+                                    <a id="description-desktop" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
                                     </p>
                                     
                                 {% endif %}
@@ -160,7 +161,7 @@
                                  {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
                                     <h3 class="hidden-md-up">Kurzbeschreibung</h3>
                                     <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}<br />
-                                    <a id="description-mobile" class="small" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
+                                    <a id="description-mobile" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
                                     </p>
                                 {% endif %}
                             </div>

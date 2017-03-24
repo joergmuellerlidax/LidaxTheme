@@ -9,10 +9,6 @@
                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : category.children, 'level' : level }  %}
                     {% if (level == 1) or (level == 2) or (level == 3) or (level == 4) or (level == 5) or (level == 6)  %}
                         <li class="menu-cat-img">
-                            {% set currentCategory = category.id %}
-                            <div class="hidden-xs-up">{{ currentCategory | json_encode() }}</div>
-                            <div class="hidden-xs-up">{{ category | json_encode() }}</div>
-                            
                             <a href="{{ services.category.getURL( category, lang ) }}">
                                 <img class="img-fluid" src="/documents/{{ category.details[0].image2Path }}">
                             </a>
