@@ -8,6 +8,10 @@
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
 
+{% block PartialHead %}
+    <link rel="canonical" href="{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}{{ item.documents[0].data | itemURL }}">
+{% endblock %}
+
 {% set newId = services.category.get(244, lang) %}
 {% set saleId = services.category.get(243, lang) %}
 
@@ -148,14 +152,14 @@
                                         </h6>
                                         {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
                                             <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
-                                                <del class="small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
-                                                    {#{{ item.data.salesPrices[1].price | formatMonetary(item.variationRetailPrice.currency) }} TODO get correct currency#}
+                                                <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
                                                     {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
                                                 </del>
                                             </div>
                                         {% endif %}
 
                                         <span class="price h1">
+
                                             <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
                                             <sup>*</sup>
                                         </span>
