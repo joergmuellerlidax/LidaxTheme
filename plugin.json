@@ -22,6 +22,11 @@
         "key":"Kiom\\Containers\\Kiom",
         "name":"Kiom",
         "description":"Kiom Theme"
+      },
+      {
+        "key":"Kiom\\Containers\\KiomScripts",
+        "name":"KiomScripts",
+        "description":"Kiom JS"
       }
     ]
 }
