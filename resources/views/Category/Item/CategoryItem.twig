@@ -22,6 +22,7 @@
 {% set itemList             = paginatedResult.documents %}
 {% set paginationType       = config("Ceres.pagination.position") %}
 
+
 {% block PageBody %}
 
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
