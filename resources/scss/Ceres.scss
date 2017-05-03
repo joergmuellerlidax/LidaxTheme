@@ -6,7 +6,6 @@
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "../../node_modules/shariff/build/shariff.complete.css";
 @import "../../node_modules/flag-icon-css/sass/flag-icon";
-@import "../../node_modules/owl.carousel/dist/assets/owl.carousel.css";
 
 // ==========================================================================
 // Custom styles
@@ -58,6 +57,7 @@
 @import "ceres/views/Templates/BasketPreview/basket-preview";
 @import "ceres/views/Templates/BasketTotalSum/basket-total-sum";
 @import "ceres/views/Templates/CategoryListItem/category-list-item";
+@import "ceres/views/Templates/CategoryViewFilter/category-view-filter";
 @import "ceres/views/Templates/Hero/component-hero";
 @import "ceres/views/Templates/ItemListSort/pagination";
 @import "ceres/views/Templates/ItemRating/item-rating-roll";

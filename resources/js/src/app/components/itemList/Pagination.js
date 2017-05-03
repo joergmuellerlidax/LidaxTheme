@@ -1,6 +1,7 @@
 var ResourceService = require("services/ResourceService");
 var ItemListService = require("services/ItemListService");
-var UrlService = require("services/UrlService");
+
+import UrlService from "services/UrlService";
 
 Vue.component("pagination", {
 
@@ -35,6 +36,8 @@ Vue.component("pagination", {
         {
             ItemListService.setPage(page);
             ItemListService.getItemList();
+
+            $("html, body").animate({scrollTop: 0}, "slow");
         }
     },
 
@@ -52,9 +55,9 @@ Vue.component("pagination", {
                 return this.lastPageMax;
             }
 
-            var pageMax = this.itemList.total / this.itemSearch.itemsPerPage;
+            var pageMax = this.itemList.total / parseInt(this.itemSearch.items);
 
-            if (this.itemList.total % this.itemSearch.itemsPerPage > 0)
+            if (this.itemList.total % parseInt(this.itemSearch.items) > 0)
             {
                 pageMax += 1;
             }
