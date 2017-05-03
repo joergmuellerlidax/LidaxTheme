@@ -1,11 +1,11 @@
 {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
+{% set showHeaderNavBar = config("Ceres.header.show_navbars") %}
+{% set configItemName = config("Ceres.item.name") %}
+
 <script type="x/template" id="vue-category-item">
-    {% if services.template.isSearch() %}
-        <li class="col-xs-12 col-sm-6 col-md-3">
-    {% else %}
-        <li class="col-xs-12 col-sm-6 col-md-4">
-    {% endif %}
+
+    <li class="col-xs-12 col-sm-6 col-md-{% if (showHeaderNavBar == "side" or showHeaderNavBar == "both") and not services.template.isSearch() %}4{% else %}3{% endif %}">
     
 
         <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
@@ -17,7 +17,10 @@
                         <div class="square-inner main-image">
                             <category-image-carousel template="#vue-category-image-carousel"
                                                      :image-urls="itemData.images | itemImages imageUrlAccessor"
-                                                     :item-url="itemData | itemURL">
+                                                     :alt-text="texts | itemName {{ configItemName }}"
+                                                     :item-url="itemData | itemURL"
+                                                     :show-dots="{{ config("Ceres.item.category_show_dots") | json_encode() }}"
+                                                     :show-nav="{{ config("Ceres.item.category_show_nav") | json_encode() }}">
                             </category-image-carousel>
                         </div>
                     </div>
@@ -33,7 +36,7 @@
                 <!-- ITEM DETAILS -->
                 <div class="thumb-content">
                     <a href="${ itemData | itemURL }" class="thumb-title small">
-                        ${ texts | itemName }
+                        ${ texts | itemName {{ configItemName }} }
                     </a>
                     <div class="thumb-meta">
                         <div class="prices">
@@ -55,7 +58,7 @@
 
                     <div class="AddToBasket">
                         <add-to-basket template="#vue-add-to-basket" :item="itemData" :show-quantity="false"
-                                   :item-url="itemData | itemURL"></add-to-basket>
+                               :item-url="itemData | itemURL"></add-to-basket>
                     </div>
 
                 </div>
