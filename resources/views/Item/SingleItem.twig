@@ -50,7 +50,6 @@
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
-    <!-- {{ item.documents[0].data.item.flags.flag1.text }} -->
 
     <div class="single container-max page-content">
         <div class="row">
@@ -113,14 +112,14 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
-                                    {% set eek-label-string = item.documents[0].data.item.flags.flag1.text %}
+                                    {% set eek-array = item.documents[0].data.item.flags.flag1.text|split(' ', 2) %}
+                                    <p> {{ eek-array }} </p>
+                                    <p> {{ item.documents[0].data.item.flags.flag1.text }} </p>
+                                   
                                     
-                                    {% set eek-array = eek-label-string|split(' ', 2) %}
-                                    {% set eek-label = attribute(eek-array, 1) %}
-                                    <!-- {{ eek-label }} -->
-                                       
-                                                
-                                                
+                                    
+                                    
+
                                           
                                         
                                         
