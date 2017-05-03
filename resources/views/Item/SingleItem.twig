@@ -50,7 +50,8 @@
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
-    <p class="hidden-xs-up">{{ item | json_encode() }}</p>
+    <!-- {{ item | json_encode() }} -->
+    
     <div class="single container-max page-content">
         <div class="row">
             <div class="col-md-12">
