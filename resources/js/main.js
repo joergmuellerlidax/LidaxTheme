@@ -2,22 +2,22 @@
 // error messages
     $(document).ready(function() {
 
-        $('.crossselling-similar').owlCarousel({
-            loop:true,
-            nav:true,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:2
-                }
-            }
-        });
-        $('.crossselling-last-seen, .crossselling-customer-buyed, .crossselling-accessory').owlCarousel({
-            loop:true,
-            nav:true
-        });        
+        // $('.crossselling-similar').owlCarousel({
+        //     loop:true,
+        //     nav:true,
+        //     responsive:{
+        //         0:{
+        //             items:1
+        //         },
+        //         600:{
+        //             items:2
+        //         }
+        //     }
+        // });
+        // $('.crossselling-last-seen, .crossselling-customer-buyed, .crossselling-accessory').owlCarousel({
+        //     loop:true,
+        //     nav:true
+        // });        
         
 
         $("#description-desktop").click(function() {

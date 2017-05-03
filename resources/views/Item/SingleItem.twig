@@ -40,6 +40,8 @@
     {% set herstellerURL = "/hersteller/slv" %}
 {% endif %}
 
+{% set crossItems = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Accessory") %}
+
 {% block PageBody %}
     {{ services.lastSeen.setLastSeenMaxCount(config("Ceres.item.lists.last_seen")) }}
 
