@@ -50,7 +50,7 @@
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
-    <!-- {{ item | json_encode() }} -->
+    <!-- {{ item.documents[0].data.item.flags.flag1.text }} -->
 
     <div class="single container-max page-content">
         <div class="row">
@@ -113,36 +113,7 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
-                                    {% set eek-label-string = item.documents[0].data.item.flags.flag1.text %}
-
-                                    {% set eek-label = 'eek-label-string'[3:] %}
-    
-                                       
-                                                <div class="eek-sign 
-                                                {% if eek-label == 'A++' %}
-                                                    eek-aaa
-                                                {% elseif eek-label == 'A+' %}
-                                                    eek-aa
-                                                {% elseif eek-label == 'A' %}
-                                                    eek-a
-                                                {% elseif eek-label == 'B' %}
-                                                    eek-b
-                                                {% elseif eek-label == 'C' %}
-                                                    eek-c
-                                                {% elseif eek-label == 'D' %}
-                                                    eek-d
-                                                {% elseif eek-label == 'E' %}
-                                                    eek-e
-                                                {% elseif eek-label == 'EEK Skala' %}
-                                                    hidden-xs-up
-                                                {% endif %}">
-                                                    <a href="{{ item.documents[0].data.images.all[len].url }}"
-                                                        data-lightbox="{{ item.documents[0].data.variation.id }}">
-                                                        <span>{{ eek-label }}</span>
-                                                        <span>{{ item.documents[0].data.item.flags.flag1.text }}</span>
-                                                    </a>
-                                                </div>
-                                                
+                                    
                                           
                                         
                                         
