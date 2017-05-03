@@ -112,14 +112,42 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
-                                    {% set eek-array = item.documents[0].data.item.flags.flag1.text|split(' ', 2) %}
-                                    <p> {{ eek-array }} </p>
-                                    <p> {{ item.documents[0].data.item.flags.flag1.text }} </p>
+                                   
                                    
                                     
                                     
                                     
 
+                                    {% set eekLabelString = item.documents[0].data.item.flags.flag1.text %}
+                                    
+                                    {% set eekArray = eekLabelString|split(' ', 2) %}
+                                    {% set eekLabel = attribute(eekArray, 1) %}
+                                    <!-- {{ eekLabel }} -->
+                                       
+                                                <div class="eek-sign 
+                                                {% if eekLabel == 'A++' %}
+                                                    eek-aaa
+                                                {% elseif eekLabel == 'A+' %}
+                                                    eek-aa
+                                                {% elseif eekLabel == 'A' %}
+                                                    eek-a
+                                                {% elseif eekLabel == 'B' %}
+                                                    eek-b
+                                                {% elseif eekLabel == 'C' %}
+                                                    eek-c
+                                                {% elseif eekLabel == 'D' %}
+                                                    eek-d
+                                                {% elseif eekLabel == 'E' %}
+                                                    eek-e
+                                                {% elseif eekLabel == 'EEK Skala' %}
+                                                    hidden-xs-up
+                                                {% endif %}">
+                                                    <a href="{{ item.documents[0].data.images.all[len].url }}"
+                                                        data-lightbox="{{ item.documents[0].data.variation.id }}">
+                                                        <span>{{ eekLabel }}</span>
+                                                    </a>
+                                                </div>
+                                                
                                           
                                         
                                         
