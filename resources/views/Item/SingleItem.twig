@@ -50,7 +50,7 @@
     {{ component( "Kiom::Basket.Components.AddToBasket" ) }}
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
-
+    <p class="hidden-xs-up">{{ item | json_encode() }}</p>
     <div class="single container-max page-content">
         <div class="row">
             <div class="col-md-12">
@@ -112,8 +112,7 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
-                                        {% for prop in item.documents[0].data.properties %}
-                                            {% if prop.group.backendName == 'Energieeffizienzklasse' %}
+                                       
                                                 <div class="eek-sign 
                                                 {% if prop.property.names[0].name == 'A++' %}
                                                     eek-aaa
@@ -134,12 +133,12 @@
                                                 {% endif %}">
                                                     <a href="{{ item.documents[0].data.images.all[len].url }}"
                                                         data-lightbox="{{ item.documents[0].data.variation.id }}">
-                                                        <span>{{ prop.property.names[0].name }}</span>
+                                                        <span>{{ item.item.flags.flag1.text }}</span>
                                                     </a>
                                                 </div>
                                                 
-                                            {% endif %}
-                                        {% endfor %}
+                                          
+                                        
                                         
                                         <span class="articlenumber small">
                                             <b>Art.-Nr.: </b>
