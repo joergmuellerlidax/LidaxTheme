@@ -51,7 +51,7 @@
 
     <resource name="currentVariation" :data="{{ item | json_encode() }}"></resource>
     <!-- {{ item | json_encode() }} -->
-    
+
     <div class="single container-max page-content">
         <div class="row">
             <div class="col-md-12">
@@ -113,28 +113,33 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
+                                    {% set eek-label-string = item.documents[0].data.item.flags.flag1.text %}
+
+                                    {% set eek-label = eek-label-string[3:] %}
+    
                                        
                                                 <div class="eek-sign 
-                                                {% if prop.property.names[0].name == 'A++' %}
+                                                {% if eek-label == 'A++' %}
                                                     eek-aaa
-                                                {% elseif prop.property.names[0].name == 'A+' %}
+                                                {% elseif eek-label == 'A+' %}
                                                     eek-aa
-                                                {% elseif prop.property.names[0].name == 'A' %}
+                                                {% elseif eek-label == 'A' %}
                                                     eek-a
-                                                {% elseif prop.property.names[0].name == 'B' %}
+                                                {% elseif eek-label == 'B' %}
                                                     eek-b
-                                                {% elseif prop.property.names[0].name == 'C' %}
+                                                {% elseif eek-label == 'C' %}
                                                     eek-c
-                                                {% elseif prop.property.names[0].name == 'D' %}
+                                                {% elseif eek-label == 'D' %}
                                                     eek-d
-                                                {% elseif prop.property.names[0].name == 'E' %}
+                                                {% elseif eek-label == 'E' %}
                                                     eek-e
-                                                {% elseif prop.property.names[0].name == 'EEK Skala' %}
+                                                {% elseif eek-label == 'EEK Skala' %}
                                                     hidden-xs-up
                                                 {% endif %}">
                                                     <a href="{{ item.documents[0].data.images.all[len].url }}"
                                                         data-lightbox="{{ item.documents[0].data.variation.id }}">
-                                                        <span>{{ item.item.flags.flag1.text }}</span>
+                                                        <span>{{ eek-label }}</span>
+                                                        <span>{{ item.documents[0].data.item.flags.flag1.text }}</span>
                                                     </a>
                                                 </div>
                                                 
