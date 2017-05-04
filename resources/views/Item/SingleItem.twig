@@ -102,8 +102,8 @@
                                     </span>
                                 </h1>
                     
-                                {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
-                                    <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts[0].shortDescription }}<br />
+                                {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts.shortDescription != '' %}
+                                    <p class="single-description hidden-sm-down">{{ item.documents[0].data.texts.shortDescription }}<br />
                                     <a id="description-desktop" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
                                     </p>
                                     
@@ -186,9 +186,9 @@
                                 <add-to-basket template="#vue-add-to-basket" v-resource-push:item data-accessor="true" resource="currentVariation" :show-quantity="true"></add-to-basket>
                                
 
-                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts[0].shortDescription != '' %}
+                                 {% if ('item.shortDescription' in itemData or 'all' in itemData) and item.documents[0].data.texts.shortDescription != '' %}
                                     <h3 class="hidden-md-up">Kurzbeschreibung</h3>
-                                    <p class="single-description hidden-md-up">{{ item.documents[0].data.texts[0].shortDescription }}<br />
+                                    <p class="single-description hidden-md-up">{{ item.documents[0].data.texts.shortDescription }}<br />
                                     <a id="description-mobile" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mehr</a>
                                     </p>
                                 {% endif %}
@@ -214,7 +214,7 @@
                     <div class="col-md-7 m-y-3">
 
                         <ul class="nav nav-tabs" role="tablist" id="single-tabs">
-                            {% if not item.documents[0].data.texts[0].description == '' and('item.description' in itemData or 'all' in itemData) %}
+                            {% if not item.documents[0].data.texts.description == '' and('item.description' in itemData or 'all' in itemData) %}
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#details-{{ item.documents[0].data.variation.id }}"
                                        role="tab">{{ trans("Ceres::Template.itemDescription") }}</a>
@@ -225,7 +225,7 @@
                         <div class="tab-content">
                             <div class="tab-pane active" id="details-{{ item.documents[0].data.variation.id }}" role="tabpanel">
                                 <div class="m-y-2">
-                                    {{ item.documents[0].data.texts[0].description|raw }}
+                                    {{ item.documents[0].data.texts.description|raw }}
                                 </div>
                             </div>
                         </div>
