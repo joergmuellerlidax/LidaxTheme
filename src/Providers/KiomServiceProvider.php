@@ -132,6 +132,12 @@ class KiomServiceProvider extends ServiceProvider
             } 
         }, self::EVENT_LISTENER_PRIORITY);
 
+        $eventDispatcher->listen('IO.Component.Import', function(ComponentContainer $componentContainer) { 
+            if($componentContainer->getOriginComponentTemplate() == 'Ceres::Category.Components.CategoryBreadcrumbs') {
+                    $componentContainer->setNewComponentTemplate('Kiom::Category.Components.CategoryBreadcrumbs');
+            } 
+        }, self::EVENT_LISTENER_PRIORITY);
+
     }
 
 
