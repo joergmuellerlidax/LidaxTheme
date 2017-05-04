@@ -24,10 +24,7 @@
                 </ul>
                  <ul class="mainmenu">
                      <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                     {% set categories = services.category.getNavigationTree("item", lang) %}
-                     {% set level = 1 %}
-                     {% include "Kiom::PageDesign.Partials.Header.NavigationList" with  { 'categories' : categories, 'level' : level } %}
-
+                     {{ Tree.get_nav_bar(categories, "") }}
                      <li class="pull-lg-right isSearch">
                         <a class="nav-link" data-toggle="collapse" href="#searchBox"
                            aria-expanded="false"
