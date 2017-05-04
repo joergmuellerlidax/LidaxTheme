@@ -155,10 +155,12 @@ body.menu-is-visible { overflow-y : hidden; }
 		ul.mainmenu {
 			color : $menu-color-lg;
 			width : 100%;
+			text-align: left;
 			.open>ul { display : none!important; }
 			>li { 
 				display : inline-block; 
 				width 	: auto;
+				position: static;
 				>a { padding: 1.3rem 1rem; }
 				>ul {
 
