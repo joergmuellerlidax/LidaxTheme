@@ -112,27 +112,29 @@
                                     {% set len = item.documents[0].data.images.all | length %}
                                     {% set len = len - 1 %}
 
-                                    {% set eekLabelString = item.documents[0].data.item.flags.flag1.text %}
                                     
-                                    {% set eekArray = eekLabelString|split(' ', 2) %}
-                                    {% set eekLabel = attribute(eekArray, 1) %}
-                                       
-                                    <div class="eek-sign 
-                                    {% if eekLabel == 'A++' %} eek-aaa
-                                    {% elseif eekLabel == 'A+' %} eek-aa
-                                    {% elseif eekLabel == 'A' %} eek-a
-                                    {% elseif eekLabel == 'B' %} eek-b
-                                    {% elseif eekLabel == 'C' %} eek-c
-                                    {% elseif eekLabel == 'D' %} eek-d
-                                    {% elseif eekLabel == 'E' %} eek-e
-                                    {% elseif eekLabel == 'EEK Skala' %} hidden-xs-up
-                                    {% endif %}">
-                                        <a href="{{ item.documents[0].data.images.all[len].url }}"
-                                            data-lightbox="{{ item.documents[0].data.variation.id }}">
-                                            <span>{{ eekLabel }}</span>
-                                        </a>
-                                    </div>
-                                                
+                                    
+                                    {% if item.documents[0].data.item.flags.flag1.text == "0" %}
+                                    {% else %}
+                                        {% set eekLabelString = item.documents[0].data.item.flags.flag1.text %}
+                                        {% set eekArray = eekLabelString|split(' ', 2) %}
+                                        {% set eekLabel = attribute(eekArray, 1) %}
+                                        <div class="eek-sign 
+                                        {% if eekLabel == 'A++' %} eek-aaa
+                                        {% elseif eekLabel == 'A+' %} eek-aa
+                                        {% elseif eekLabel == 'A' %} eek-a
+                                        {% elseif eekLabel == 'B' %} eek-b
+                                        {% elseif eekLabel == 'C' %} eek-c
+                                        {% elseif eekLabel == 'D' %} eek-d
+                                        {% elseif eekLabel == 'E' %} eek-e
+                                        {% elseif eekLabel == 'EEK Skala' %} hidden-xs-up
+                                        {% endif %}">
+                                            <a href="{{ item.documents[0].data.images.all[len].url }}"
+                                                data-lightbox="{{ item.documents[0].data.variation.id }}">
+                                                <span>{{ eekLabel }}</span>
+                                            </a>
+                                        </div>
+                                    {% endif %}          
                                           
                                         
                                         
@@ -192,11 +194,13 @@
 
 
                         <h3>Ähnliche Artikel</h3>
-                        <div class="crossselling-list crossselling-similar">
+                        <ul class="product-list row grid crossselling-list crossselling-similar">
                             {% for item in itemList %}
+                                <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
+                                </li>
                             {% endfor %}
-                        </div>
+                        </ul>
 
 
                         
@@ -230,11 +234,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Zubehör</h3>
-                        <div class="crossselling-list crossselling-accessory">
+                        <ul class="product-list row grid crossselling-list crossselling-accessory">
                             {% for item in itemList %}
+                                <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
+                                </li>
                             {% endfor %}
-                        </div>
+                        </ul>
                     </div>
                 </div><!-- ./Zubehör -->
 
@@ -279,11 +285,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Kunden kauften auch</h3>
-                        <div class="crossselling-list crossselling-customer-buyed">
+                        <ul class="product-list row grid crossselling-list crossselling-customer-buyed">
                             {% for item in itemList %}
+                                <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
+                                </li>
                             {% endfor %}
-                        </div>
+                        </ul>
                     </div>
                 </div><!-- ./Kunden kauften auch -->
 
@@ -310,11 +318,13 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Zuletzt angesehen</h3>
-                        <div class="crossselling-list crossselling-last-seen">
+                        <ul class="product-list row grid crossselling-list crossselling-last-seen">
                             {% for item in itemList %}
+                                <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
+                                </li>
                             {% endfor %}
-                        </div>
+                        </ul>
                     </div>
                 </div><!-- ./Zuletzt angesehen -->
 
