@@ -8,7 +8,7 @@
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
 {# set crossSellingList = services.item.getItemCrossSellingList( item.documents[0].data.item.id  ) #}
-{% set crossSellingList = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Accessory") %}
+{% set crossSellingItems = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Accessory") %}
 
 {% block PartialHead %}
     <meta property="og:title" content="{{ item.documents[0].data.texts | itemName(configItemName) }}" />
@@ -201,24 +201,24 @@
 
                         {% if crossSellingItems | length > 0 %}
 
-{% set crossItemIds = [] %}
+                        {% set crossItemIds = [] %}
 
-{% for crossItem in crossSellingItems %}
-    {% set crossItemIds = crossItemIds|merge([crossItem.crossItemId]) %}
-{% endfor %}
+                        {% for crossItem in crossSellingItems %}
+                            {% set crossItemIds = crossItemIds|merge([crossItem.crossItemId]) %}
+                        {% endfor %}
 
-{% set crossItemDetails = services.itemLoader.loadForTemplate('Ceres::Category.Item.Partials.CategoryItem', itemLoaderPresets.items, {'itemIds':crossItemIds}) %}
+                        {% set crossItemDetails = services.itemLoader.loadForTemplate('Ceres::Category.Item.Partials.CategoryItem', itemLoaderPresets.items, {'itemIds':crossItemIds}) %}
 
                         
                             
-                                <h3>Zubehör</h3>
-                                <ul class="product-list row grid crossselling-list crossselling-accessory">
-                                    {% for item in crossItemDetails %}
-                                        <li class="col-xs-6">
-                                            {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
+                        <h3>Zubehör</h3>
+                        <ul class="product-list row grid crossselling-list crossselling-accessory">
+                            {% for item in crossItemDetails %}
+                                <li class="col-xs-6">
+                                    {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
+                                </li>
+                            {% endfor %}
+                        </ul>
                             
                         
                         {% endif %}<!-- ./Zubehör -->
