@@ -25,7 +25,10 @@
 
 {% set paginatedResult      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
 
+{% set paginatedResultSimilar      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':2, 'facets': facetParams, 'sorting': itemSort}) %}
+
 {% set itemList          = paginatedResult.documents %}
+{% set itemListSimilar   = paginatedResultSimilar.documents %}
 
 {% set hersteller = item.documents[0].data.item.manufacturer.name %}
 {% if hersteller == "AEG" %}
@@ -195,7 +198,7 @@
 
                         <h3>Ähnliche Artikel</h3>
                         <ul class="product-list row grid crossselling-list crossselling-similar">
-                            {% for item in itemList %}
+                            {% for item in itemListSimilar %}
                                 <li class="col-xs-6">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
                                 </li>
@@ -236,7 +239,7 @@
                         <h3>Zubehör</h3>
                         <ul class="product-list row grid crossselling-list crossselling-accessory">
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-md-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
@@ -287,7 +290,7 @@
                         <h3>Kunden kauften auch</h3>
                         <ul class="product-list row grid crossselling-list crossselling-customer-buyed">
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-md-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
@@ -320,7 +323,7 @@
                         <h3>Zuletzt angesehen</h3>
                         <ul class="product-list row grid crossselling-list crossselling-last-seen">
                             {% for item in itemList %}
-                                <li class="col-xs-6">
+                                <li class="col-xs-6 col-md-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
