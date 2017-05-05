@@ -316,19 +316,25 @@
 
                 </div>
                 
+               
+
+
                 <div class="row">
                     <div class="col-xs-12">
-                        <h3>Kunden kauften auch</h3>
-                        <ul class="product-list row grid crossselling-list crossselling-customer-buyed">
-                            {% for item in itemList %}
+                        <h3>Zuletzt angesehen</h3>
+                        {# LayoutContainer.show("Ceres::SingleItem.ItemListContainer", item.documents[0].data) #}
+
+                        {% set itemListLastSeen = services.itemLoader.loadForTemplate('Ceres::Containers.ItemLists.LastSeenItemList', itemLoaderPresets.lastSeenItemsList, {'items':itemsPerPage}).documents %}
+                        <ul class="product-list row grid crossselling-list crossselling-accessory">
+                            {% for item in itemListLastSeen %}
                                 <li class="col-xs-6 col-md-3">
                                     {% include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } %}
                                 </li>
                             {% endfor %}
                         </ul>
-                    </div>
-                </div><!-- ./Kunden kauften auch -->
 
+                    </div>
+                </div><!-- ./Zuletzt angesehen -->
 
                 <div class="row prop-row m-y-2 sale-new">
                     <div class="col-xs-12">
@@ -349,13 +355,18 @@
                     </div>
                 </div><!-- ./Zuletzt gesehene Kategorie -->
                 
-                <div class="row">
+                 <!--<div class="row">
                     <div class="col-xs-12">
-                        <h3>Zuletzt angesehen</h3>
-                        {{ LayoutContainer.show("Ceres::SingleItem.ItemListContainer", item.documents[0].data) }}
-                        
+                        <h3>Kunden kauften auch</h3>
+                        <ul class="product-list row grid crossselling-list crossselling-customer-buyed">
+                            {# for item in itemList #}
+                                <li class="col-xs-6 col-md-3">
+                                    {# include "Kiom::Category.Item.Partials.CrosssellingItem" with { 'item': item } #}
+                                </li>
+                            {# endfor #}
+                        </ul>
                     </div>
-                </div><!-- ./Zuletzt angesehen -->
+                </div> ./Kunden kauften auch -->
 
             </div>
         </div>
