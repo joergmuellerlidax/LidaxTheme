@@ -46,6 +46,7 @@
 
 {% set crossItems = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Accessory") %}
 
+
 {% block PageBody %}
     {{ services.lastSeen.setLastSeenMaxCount(config("Ceres.item.lists.last_seen")) }}
 
@@ -207,7 +208,7 @@
                             {% set crossItemIds = crossItemIds|merge([crossItem.crossItemId]) %}
                         {% endfor %}
 
-                        {% set crossItemDetails = services.itemLoader.loadForTemplate('Ceres::Category.Item.Partials.CategoryItem', itemLoaderPresets.items, {'itemIds':crossItemIds}) %}
+                        {% set crossItemDetails = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.items, {'itemIds':crossItemIds}) %}
 
                         
                             
