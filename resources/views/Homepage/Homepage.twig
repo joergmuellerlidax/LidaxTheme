@@ -27,9 +27,9 @@
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
-{% set paginatedResultTop      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResultTop      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':8, 'facets': facetParams, 'sorting': itemSort}) %}
 
-{% set paginatedResultNew      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':47, 'page':1, 'items':4, 'facets': facetParams, 'sorting': itemSort}) %}
+{% set paginatedResultNew      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':47, 'page':1, 'items':8, 'facets': facetParams, 'sorting': itemSort}) %}
 
 {% set itemListTop          = paginatedResultTop.documents %}
 {% set itemListNew          = paginatedResultNew.documents %}
