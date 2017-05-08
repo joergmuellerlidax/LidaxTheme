@@ -33,16 +33,15 @@
     <resource name="facets" :data="{{ paginatedResult.facets | json_encode }} || []"></resource>
     <resource name="facetParams" :data="[]"></resource>
     
-    {% if services.template.isSearch() %}
-    <div class="categoriegrid page-content container-max search-results">
-        <div class="row m-t-1">
+    
+    <div class="categoriegrid page-content container-max">
+        {% if services.template.isSearch() %}
+        <div class="row m-b-1" style="margin-top: -50px;">
             <div class="col-xs-12">
                 <h1>Suchergebnisse für: <span class="search-result"></span></h1>
             </div>
         </div>
-    {% else %}
-    <div class="categoriegrid page-content container-max">
-    {% endif %}
+        {% endif %}
 
         <div class="list-controls m-b-3">
             <div class="list-controls-inner">
