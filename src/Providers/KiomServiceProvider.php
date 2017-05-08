@@ -90,6 +90,11 @@ class KiomServiceProvider extends ServiceProvider
             return false;
         });
 
+        $eventDispatcher->listen('IO.tpl.disposal', function(TemplateContainer $container, $templateData) {
+            $container->setTemplate('Kiom::StaticPages.Disposal');
+            return false;
+        });
+
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
             $partial->set('head', 'Kiom::PageDesign.Partials.Head');
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
