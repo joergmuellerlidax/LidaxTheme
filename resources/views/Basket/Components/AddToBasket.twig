@@ -42,7 +42,7 @@
                 </button>
                 <div v-if="item.variation.releasedAt" class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
                     :title="item.variation.releasedAt | date 'DD.MM.YYYY' | attachText 'Verfügbar ab: '">
-                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
 
                 <div v-else class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
