@@ -26,7 +26,6 @@
 {% set showHeaderNavBar = config("Ceres.header.show_navbars") %}
 
 {% block PageBody %}
-<p class="small text-primary">{{ fileexists }}</p>
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterTagList") }}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
@@ -42,8 +41,12 @@
     <div class="categoriegrid page-content container-max">
         <div class="cat-teaser row">
             <div class="col-xs-12">
-
+                {% set file = "/documents/category/{{ category.id }}/header.jpg" %}
+                {% if file is empty %}
+                <p>test</p>
+                {% else %}
                 <img class="img-fluid" src="/documents/category/{{ category.id }}/header.jpg">
+                {% endif %}
 
             </div>
         </div>
