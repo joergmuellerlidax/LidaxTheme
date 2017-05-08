@@ -97,6 +97,7 @@ class KiomServiceProvider extends ServiceProvider
         });
 
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
+            $partial->set('head', 'Kiom::PageDesign.Partials.Head');
             $partial->set('header', 'Kiom::PageDesign.Partials.Header.Header');
             $partial->set('footer', 'Kiom::PageDesign.Partials.Footer');
             $partial->set('page-design', 'Kiom::PageDesign.PageDesign');
