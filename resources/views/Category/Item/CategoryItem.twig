@@ -25,13 +25,6 @@
 
 {% set showHeaderNavBar = config("Ceres.header.show_navbars") %}
 
-{% set filename = "https://kiom24.plentymarkets-cloud01.com/documents/category/16/header.jpg" %}
-{% if file_exists(filename) %}
-{% set fileexists = "ja" %}
-{% else %}
-{% set fileexists = "nein" %}
-{% endif %}
-
 {% block PageBody %}
 <p class="small text-primary">{{ fileexists }}</p>
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
@@ -49,7 +42,7 @@
     <div class="categoriegrid page-content container-max">
         <div class="cat-teaser row">
             <div class="col-xs-12">
-            
+
                 <img class="img-fluid" src="/documents/category/{{ category.id }}/header.jpg">
 
             </div>
