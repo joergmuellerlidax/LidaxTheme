@@ -37,7 +37,7 @@
             <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.variation.id"><span>A++</span></a>
         </div> -->
         <div>
-            <div v-for="prop in basketItem[0].variation.data.properties">
+            <div v-for="prop in basketItem.variation.data.properties">
                 <div v-bind:class="{
                     'eek-aaa': prop.property.names[0].name === 'A++',
                     'eek-aa' : prop.property.names[0].name === 'A+',
@@ -49,7 +49,7 @@
                     'hidden-xs-up' : prop.property.names[0].name === 'EEK Skala'
                     }"
                     class="eek-sign clearfix" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
-                    <a :href="basketItem[0].variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.id"><span>${ prop.property.names.name }</span>
+                    <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.id"><span>${ prop.property.names[0].name }</span>
                     </a>
                 </div>
             </div>
