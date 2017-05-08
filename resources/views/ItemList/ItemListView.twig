@@ -21,6 +21,7 @@
 {% set paginatedResult = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.search, {'query': request.get("query"), 'page': page, 'items': itemsPerPage, 'sorting':  sorting, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
 
 {% block PageBody %}
+    <script src="https://www.frontend-studios.de/kiom/resources/js/searchresults.js"></script>
 
     {{ component( "Ceres::ItemList.Components.ItemList" ) }}
     {{ component( "Ceres::ItemList.Components.ItemListSorting" ) }}
@@ -36,19 +37,6 @@
     
     <div class="categoriegrid page-content container-max">
         {% if services.template.isSearch() %}
-        <script>
-        $( document ).ready(function() {
-            $.urlParam = function (name) {
-                var results = new RegExp('[\?&]' + name + '=([^&#]*)')
-                                  .exec(window.location.href);
-
-                return results[1] || 0;
-            }
-            
-            $(".search-result").html($.urlParam('query'));
-            console.log($.urlParam('query'));
-        });
-        </script>
         <div class="row m-b-1" style="margin-top: -50px;">
             <div class="col-xs-12">
                 <h1>Suchergebnisse für: <span class="search-result"></span></h1>
