@@ -12,10 +12,7 @@ class DisposalController extends LayoutController
 	public function showDisposal():string
 	{
 		return $this->renderTemplate(
-			"tpl.disposal",
-			[
-				"disposal" => ""
-			]
+			
 		);
 	}
 }
