@@ -42,7 +42,7 @@
     <div class="categoriegrid page-content container-max">
         <div class="cat-teaser row">
             <div class="col-xs-12">
-                {% if /documents/category/{{ category.id }}/header.jpg is defined  %}
+                {% if /documents/category/{{ category.id }}/header.jpg is null  %}
                 <img class="img-fluid" src="/documents/category/{{ category.id }}/header.jpg">
                 {% else %}
                 test
