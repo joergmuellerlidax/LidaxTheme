@@ -29,6 +29,7 @@
 // // External plugins overrides
 // @import "ceres/plugins/lightbox";
 // @import "ceres/plugins/owl-carousel";
+@import "ceres/plugins/slick";
 
 // // Components
 // @import "ceres/components/component-base";
@@ -72,6 +73,6 @@
 @import "ceres/views/Home/home";
 // @import "ceres/views/Checkout/checkout";
 @import "ceres/views/Item/single-item";
-// @import "ceres/views/ItemList/loading-animation";
+@import "ceres/views/ItemList/loading-animation";
 @import "ceres/views/Category/category-list";
 @import "ceres/views/Category/category-list-controls";

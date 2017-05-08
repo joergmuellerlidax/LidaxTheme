@@ -226,6 +226,7 @@
     
     .owl-thumbs {
         display: inline-block;
+        max-width: 100%;
         .owl-thumb {
             max-height: 8em;
             background:$white;

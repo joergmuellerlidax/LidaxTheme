@@ -1,0 +1,22 @@
+.slick-slider {
+	.slick-arrow {
+		z-index:2000;
+		top:37%;
+		&.slick-prev {
+			left:0;
+		}
+		&.slick-next {
+			right:10px;
+		}
+		&:before {
+			color: $brand-primary;
+			font-size: 35px;
+		}
+	}
+	.slick-dots {
+		bottom: 0;
+		li {
+			display: inline-block !important;
+		}
+	}
+}

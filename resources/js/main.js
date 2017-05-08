@@ -1,7 +1,30 @@
 (function($) {
 // error messages
     $(document).ready(function() {
+        $('.crossselling-similar').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: true,
+            arrows: true
+        });
+        $('.home .product-list').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: true
+        });
 
+        $('.single-leftside .owl-thumbs').slick({
+            infinite: false,
+            variableWidth: true,
+            slidesToShow: 3,
+            arrows: true
+        });
+        
+
+        
         // $('.crossselling-similar').owlCarousel({
         //     loop:true,
         //     nav:true,

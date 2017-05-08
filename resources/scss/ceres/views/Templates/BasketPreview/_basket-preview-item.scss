@@ -2,6 +2,9 @@
 	.item-remove {
 		left: auto;
 		right:0;
+		&.btn-danger:hover {
+			color: $white;
+		}
 	}
 	.eek-sign {
 		max-width: 4rem;
