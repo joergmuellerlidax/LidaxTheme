@@ -21,7 +21,6 @@
 {% set paginatedResult = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.search, {'query': request.get("query"), 'page': page, 'items': itemsPerPage, 'sorting':  sorting, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
 
 {% block PageBody %}
-    <script src="https://www.frontend-studios.de/kiom/resources/js/searchresults.js"></script>
 
     {{ component( "Ceres::ItemList.Components.ItemList" ) }}
     {{ component( "Ceres::ItemList.Components.ItemListSorting" ) }}
