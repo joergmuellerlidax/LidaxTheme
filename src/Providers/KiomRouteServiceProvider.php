@@ -29,7 +29,7 @@ class KiomRouteServiceProvider extends RouteServiceProvider
         $router->get('zahlung', 'Kiom\Controllers\PaymentController@showPayment');
         $router->get('ueber-uns', 'Kiom\Controllers\AboutUsController@showAboutUs');
         $router->get('entsorgung', 'Kiom\Controllers\DisposalController@showDisposal');
-        
+                
         
 	}
 }
