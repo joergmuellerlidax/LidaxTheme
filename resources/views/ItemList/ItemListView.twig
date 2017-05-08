@@ -41,6 +41,20 @@
                 <h1>Suchergebnisse für: <span class="search-result"></span></h1>
             </div>
         </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.urlParam = function (name) {
+                    var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                                      .exec(window.location.href);
+
+                    return results[1] || 0;
+                }
+                
+                $(".search-result").html($.urlParam('query'));
+                console.log($.urlParam('query'));
+
+            });
+        </script>
         {% endif %}
 
         <div class="list-controls m-b-3">
