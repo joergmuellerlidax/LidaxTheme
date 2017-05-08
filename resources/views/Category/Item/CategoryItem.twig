@@ -41,12 +41,8 @@
     <div class="categoriegrid page-content container-max">
         <div class="cat-teaser row">
             <div class="col-xs-12">
-                {% set file = "/documents/category/{{ category.id }}/header.jpg" %}
-                {% if file is empty %}
-                <p>test</p>
-                {% else %}
+
                 <img class="img-fluid" src="/documents/category/{{ category.id }}/header.jpg">
-                {% endif %}
 
             </div>
         </div>

@@ -13,7 +13,7 @@
                     {% for child in category.children %}
 
                         <li>
-                            <a href="{{ currentScopeUrl }}/{{ child.details[0].nameUrl }}" v-render-category="{{ child }}" data-img="/documents/{{ category.details[0].image2Path }}">{{ child.details[0].name }}</a>
+                            <a href="{{ currentScopeUrl }}/{{ child.details[0].nameUrl }}" v-render-category="{{ child }}" data-img="/documents/{{ child.details[0].image2Path }}">{{ child.details[0].name }}</a>
                         </li>
 
                     {% endfor %}
