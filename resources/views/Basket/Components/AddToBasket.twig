@@ -41,7 +41,7 @@
                     Jetzt ansehen
                 </button>
                 <div v-if="item.variation.releasedAt && new Date(item.variation.releasedAt) > new Date()" class="availability-preview availability-${item.variation.availability.id}" v-tooltip data-toggle="tooltip" data-placement="top"
-                    :title="item.variation.releasedAt | date 'DD.MM.YYYY' | attachText 'Verfügbar ab: '">
+                    :title="item.variation.releasedAt | date 'DD.MM.YYYY' | attachText 'Verfügbar abs: '">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                 </div>
 
