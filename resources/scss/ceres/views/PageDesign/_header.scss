@@ -161,10 +161,7 @@
 			}
 		}
 	}
-
-
 }
-
 
 //navigation scss
 .wrapper-main {
@@ -492,6 +489,7 @@
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
+		z-index:1000;
 	}
 	.navbar-brand {
 		padding: .75rem 15px .25rem;

@@ -62,4 +62,18 @@
         margin-top:-72px;
         display: block;
     }
+
+
+    .product-list.grid{
+
+        li{
+            //@include make-col(3);
+            display: flex;
+        }
+    }
+
+}
+
+.item-list-frame.loading:not(.blur-effect) > ul {
+  display: none
 }

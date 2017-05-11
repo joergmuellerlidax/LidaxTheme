@@ -4,7 +4,7 @@
 
     <!-- ITEM IMAGE -->
     <a class="item-image" :href="basketItem.variation.data | itemURL">
-        <img alt="${ basketItem.variation.data.texts | itemName {{configItemName}} }" :src="basketItem.variation.data.images | itemImages 'urlMiddle' | arrayFirst">
+        <img alt="${ basketItem.variation.data.texts | itemName {{configItemName}} }" :src="basketItem.variation.data.images | itemImages 'urlMiddle' | arrayFirst">
     </a>
     <!-- ./ITEM IMAGE -->
 
@@ -40,7 +40,7 @@
         <input type="checkbox" class="toggle-description" id="itemid-${ basketItem.variationId }" value="">
         <a class="clearfix" :href="basketItem.variation.data | itemURL">
             <div class="item-name">
-                ${ basketItem.variation.data.texts | itemName {{configItemName}} }
+                ${ basketItem.variation.data.texts | itemName {{configItemName}} }
             </div>
         </a>
 
@@ -75,10 +75,10 @@
                 <strong class="col-xs-6 col-sm-5">{{ trans("Ceres::Template.itemNumber") }}:</strong>
                 <span class="col-xs-6 col-sm-7">${ basketItem.variation.data.variation.number}</span>
             </div>
-            <div class="row">
-                <strong class="col-xs-6 col-sm-5">{{ trans("Ceres::Template.itemCondition") }}:</strong>
-                {#<span class="col-xs-6 col-sm-7">${ itemCondition }</span> #}{# TODO #}
-            </div>
+            {#<div class="row">#}
+                {#<strong class="col-xs-6 col-sm-5">{{ trans("Ceres::Template.itemCondition") }}:</strong>#}
+                {#<span class="col-xs-6 col-sm-7">${ itemCondition }</span> #}{##}{# TODO #}
+            {#</div>#}
             <div class="row">
                 <strong class="col-xs-6 col-sm-5">{{ trans("Ceres::Template.itemAvailability") }}:</strong>
                 <span class="col-xs-6 col-sm-7">
