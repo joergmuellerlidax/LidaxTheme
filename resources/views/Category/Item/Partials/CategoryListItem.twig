@@ -95,7 +95,8 @@
                 {{ LayoutContainer.show("Ceres::CategoryItem.AfterPrices", item.data) }}
             </div>
             <div class="AddToBasket">
-                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false" item-url="{{ itemUrl }}"></add-to-basket>
+                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false"
+                       item-url="{{ itemUrl }}"></add-to-basket>
             </div>
         </div>
         <!-- ./ITEM DETAILS  -->
