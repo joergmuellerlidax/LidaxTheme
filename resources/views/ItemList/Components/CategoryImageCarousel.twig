@@ -1,8 +1,0 @@
-<script type="x/template" id="vue-category-image-carousel-kiom">
-    <div class="owl-carousel owl-theme">
-        <a v-for="imageUrl in imageUrls | orderBy 'position'" :href="itemUrl">
-            <item-lazy-img template="#vue-item-lazy-img-kiom" v-if="$index === 0" :image-url="imageUrl.url" :alt="altText"></item-lazy-img>
-            <img v-else class="img-fluid owl-lazy" :data-src="imageUrl.url" :alt="altText">
-        </a>
-    </div>
-</script>
