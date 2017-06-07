@@ -90,6 +90,7 @@
                 </div>
             </div>
 
+
             <div class="hero-xtras">
                 <a class="hero-category" href="{{ services.category.getURL(heroExtras1, lang) }}">
                     <img class="img-fluid" src="/documents/{{ heroExtras1.details[0].imagePath }}" alt="{{ heroExtras1.details[0].name }}">
@@ -120,7 +121,6 @@
                 <div class="prop-xs-6-4 prop-md-3-1">
                     <div class="prop-inner">
                         <a class="featured-sale-new" href="{{ services.category.getURL(newId, lang) }}">
-
                             <img src="/documents/{{ newId.details[0].imagePath }}" alt="New">
                             <div class="featured-category-inner">
                                 <h4 class="featured-category-headline">
@@ -227,4 +227,22 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
+{% block PartialHead %}
+    <meta property="og:title" content="{{ companyName }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}"/>
+    <meta property="og:image"
+          content="{% if ('http' in companyLogo) or ('layout/' in companyLogo) %}{{ companyLogo }}{% else %}{{ plugin_path('Ceres') }}/{{ companyLogo }}{% endif %}"/>
+
+    <link rel="canonical"
+          href="{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}{{ item.documents[0].data | itemURL }}">
+
+    <script type="application/ld+json">
+        {"@context": "http://schema.org","@type": "WebSite","url": "{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}
+        ","potentialAction":{"@type": "SearchAction","target": "{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}
+        /search?query={search_term}","query-input": "required name=search_term"}}
+
+    </script>
 {% endblock %}

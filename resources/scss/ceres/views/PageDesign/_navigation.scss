@@ -105,6 +105,8 @@ body.menu-is-visible { overflow-y : hidden; }
 		
 		li 	{ 
 			width : 100%; 
+			cursor: pointer;
+			float: left;
 
 			a 	{ 
 				color 		: inherit; 
