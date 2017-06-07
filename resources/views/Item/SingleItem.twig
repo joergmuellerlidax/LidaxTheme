@@ -205,7 +205,7 @@
                             {% set crossSimilarItemIds = [] %}
                             
                             {% for crossSimilarItem in crossSellingItemsSimilar %}
-                                {% if crossSimilarItemIds | length < 4 %}
+                                {% if crossSimilarItemIds | length < 8 %}
                                     {% set crossSimilarItemIds = crossSimilarItemIds|merge([crossSimilarItem.crossItemId]) %}
                                 {% endif %}
                             {% endfor %}
