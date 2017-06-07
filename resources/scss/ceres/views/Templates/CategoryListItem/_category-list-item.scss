@@ -92,6 +92,7 @@
         line-height: 1.4em;
         font-size: .9rem;
         margin-top: 1rem;
+        height: 36px;
     }
 
     .thumb-meta{
@@ -163,11 +164,11 @@
         .thumb-title{
             font-weight: 400;
 
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
+            overflow: visible;
+            text-overflow: clip;
+            white-space: normal;
             line-height: 1.5em;
-            max-width: 75%;
+            max-width: 100%;
         }
 
         .thumb-image{

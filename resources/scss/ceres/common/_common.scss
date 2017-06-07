@@ -2,6 +2,12 @@ body .wrapper-main{
     overflow-x: hidden;
 }
 
+#tsbadgeResponsiveTop_db8d3657bdbe440c985ae127463eaad4 {
+    position: fixed;
+    bottom: 0;
+    z-index:9999;
+}
+
 a:hover,
 a:focus,
 a:active {

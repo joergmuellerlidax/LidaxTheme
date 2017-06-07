@@ -106,7 +106,7 @@ body.menu-is-visible { overflow-y : hidden; }
 		li 	{ 
 			width : 100%; 
 			cursor: pointer;
-			float: left;
+			float: none;
 
 			a 	{ 
 				color 		: inherit; 
@@ -179,6 +179,7 @@ body.menu-is-visible { overflow-y : hidden; }
 					top 			: 100%;
 					width 			: 100%;
 					padding-right 	: 25%;
+					transform: translateX(0%);
 					
 					>li {
 						background 	: $menu-big-menu-li-bg;

@@ -317,6 +317,9 @@
 			margin:0 auto;
 			max-width: 90%;
 		}
+		.footer-links-inner {
+			img {max-width:80px;}
+		}
 		span {
 			font-size: 1.2rem;
 			color: $brand-primary;
@@ -342,6 +345,7 @@
 		color: $gray-darker;
 		font-family: $font-family-sans-serif;
 		font-size: .8rem;
+		padding-bottom: 7em !important;
 	}
 
 	.btn-mail {
@@ -358,6 +362,9 @@
 	}
 
 	@include media-breakpoint-up(sm){
+		.footer-copyright {
+			padding-bottom: 1.5em !important;
+		}
 		.footer-services{
 			flex-flow: row nowrap;
 		}
