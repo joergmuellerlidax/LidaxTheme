@@ -1,5 +1,5 @@
-var Languages = Languages || {}; Languages['de'] = {Template: {accAccountSettings: "Kontoeinstellungen",accAlreadyLoggedIn: "Sie sind bereits eingeloggt.",accBankDetails: "Bankdaten",accChangeLoginData: "Ändern Sie Ihre Zugangsdaten",accChangePassword: "Passwort ändern",accChangePasswordFailed: "Das Passwort konnte nicht geändert werden.",accChangePasswordSuccessful: "Das Passwort wurde erfolgreich geändert.",accChangePaymentInformation: "Ändern Sie Ihre Zahlungsinformationen",accChangeSettings: "Einstellungen ändern",accCorrectPassword: "Bitte korrigieren",accCreateAccount: "Jetzt registrieren",accEmail: "E-Mail",accForgotPassword: "Passwort vergessen?",accHolder: "Kontoinhaber",accInvoiceAddresses: "Rechnungsadressen",accLogin: "Anmelden",accLoginFailed: "Die Anmeldedaten sind ungültig.",accLoginSuccessful: "Sie wurden erfolgreich eingeloggt.",accLogout: "Ausloggen",accLogoutSuccessful: "Sie wurden erfolgreich ausgeloggt.",accMyAccount: "Mein Konto",accNewPassword: "Neues Passwort",accOrderAsGuest: "Als Gast bestellen",accPassword: "Passwort",accPleaseLogin: "Bitte einloggen",accRegister: "Registrieren",accRegisterAccount: "Registrieren Sie sich",accRegistrationError: "Für diese E-Mail-Adresse existiert bereits ein Konto.",accRegistrationSuccessful: "Sie wurden erfolgreich registriert.",accRememberPassword: "Passwort merken",accRepeatPassword: "Passwort wiederholen",accShippingAddresses: "Lieferadressen",accUsername: "Benutzername",addressAddAddress: "Neue Adresse hinzufügen",addressAdditionalAddress1: "Adresszusatz 1",addressAdditionalAddress2: "Adresszusatz 2",addressAdditionalName: "Namenszusatz",addressChangeAddress: "Adresse ändern",addressCompany: "Firma",addressContact: "Kontakt",addressDeleteAddress: "Adresse löschen",addressDeleteWarning: "Adresse wirklich löschen?",addressFirstName: "Vorname",addressGBAdditionalLocality: "Adresszusatz",addressGBBuildingName: "Gebäude Name",addressGBNameAffix: "Namenszusatz",addressLastName: "Nachname",addressNoAddress: "Noch keine Adresse vorhanden",addressNumber: "Nr.",addressPlace: "Ort",addressSameAsInvoice: "Lieferadresse gleich Rechnungsadresse",addressStreet: "Straße",addressZip: "PLZ",addToBasket: "In den Warenkorb",bank: "Kreditinstitut",bankAddDataTitle: "Bankdaten hinzufügen",bankBicNotification: "Bitte BIC bei Auslandsüberweisungen angeben",bankDataAdded: "Bankdaten hinzugefügt",bankDataDeleted: "Bankdaten gelöscht",bankDataNotAdded: "Bankdaten nicht hinzugefügt",bankDataNotDeleted: "Bankdaten nicht gelöscht",bankDataNotUpdated: "Bankdaten nicht aktualisiert",bankDataUpdated: "Bankdaten aktualisiert",bankDeleteTitle: "Bankdaten löschen",bankDeleteWarning: "Bankdaten wirklich löschen?",bankNoBankData: "Noch keine Bankdaten vorhanden",bankUpdateDataTitle: "Bankdaten bearbeiten",basket: "Warenkorb",basketCoupon: "Gutschein",basketGross: "Brutto",basketItemAdded: "Der Artikel wurde in den Warenkorb gelegt.",basketItemNotAdded: "Der Artikel konnte nicht hinzugefügt werden.",basketNet: "Netto",basketOrderNow: "Jetzt bestellen",basketPreview: "Warenkorbvorschau",basketSum: "Summe",basketTotalSum: "Gesamtsumme",basketValue: "Warenwert",basketVAT: "MwSt. 19%",couponRedeemFailure: "Gutschein nicht eingelöst",couponRedeemSuccess: "Gutschein erfolgreich eingelöst",couponRemoveFailure: "Gutschein nicht entfernt",couponRemoveSuccess: "Gutschein erfolgreich entfernt",generalAdd: "Anlegen",generalAll: "alle",generalBigAll: "Alle",generalAllRightsReserved: "Alle Rechte vorbehalten.",generalAustria: "Österreich",generalCancel: "Abbrechen",generalCancellationRight: "Widerrufs&shy;recht",generalCategories: "Kategorien",generalCertifiedBy: "Geprüfte Leistung",generalCheckEntries: "Bitte Eingaben prüfen.",generalChooseOur: "Bitte nehmen Sie unsere :gtc, :cancellation und :policy zur Kenntnis.",generalClose: "Schließen",generalCountry: "Land",generalCountrySettings: "Ländereinstellungen",generalDelete: "Löschen",generalDeleteNow: "Jetzt löschen",generalEdit: "Bearbeiten",generalEngland: "England",generalEnglish: "Englisch",generalEnterCoupon: "Gutschein-Code eingeben",generalEnterEmail: "E-Mail-Adresse eingeben",generalEnterFeedback: "Bewertung eingeben",generalFirstName: "Vorname",generalFilter: "Filter",generalFrance: "Frankreich",generalGerman: "Deutsch",generalGermany: "Deutschland",generalGiveFeedback: "Bewerten",generalGtc: "AGB",generalHello: "Hallo, :username",generalHomepage: "Startseite",generalItaly: "Italien",generalLastName: "Nachname",generalLegalDisclosure: "Impressum",generalNewsletter: "Newsletter",generalNext: "Weiter",generalOrderShippedBy: "Wir verschicken mit",generalPrivacyPolicy: "Daten&shy;schutz&shy;erklärung",generalRedeem: "Einlösen",generalRemove: "Entfernen",generalSave: "Speichern",generalSearch: "Suchen..",generalSearchNoDot: "Suchen",generalSelectLanguage: "Sprache",generalSelectShippingCountry: "Lieferland",generalSend: "Senden",generalState: "Bundesland",generalSwitzerland: "Schweiz",generalThanks: "Vielen Dank!",generalYourEmail: "Ihre E-Mail-Adresse",itemAge: "Altersfreigabe",itemAvailability: "Verfügbarkeit",itemCategoryIdDesc: "Art.-ID aufsteigend",itemCategoryItemAsc: "Positionsnummer aufsteigend",itemCategoryItemDesc: "Positionsnummer absteigend",itemCategoryItemsPerPage: "Artikel pro Seite",itemCategoryNameAsc: "Name aufsteigend",itemCategoryNameDesc: "Name absteigend",itemCategoryNext: "Nächste",itemCategoryPrevious: "Vorherige",itemCategoryPriceAsc: "Preis aufsteigend",itemCategoryPriceDesc: "Preis absteigend",itemCategoryRandom: "Zufällige Sortierung",itemCategoryReleaseAsc: "Erscheinungsdatum aufsteigend",itemCategoryReleaseDesc: "Erscheinungsdatum absteigend",itemCategorySort: "Sortieren",itemCategoryStoreSpecialAsc: "Shop-Aktion aufsteigend",itemCategoryStoreSpecialDesc: "Shop-Aktion absteigend",itemCategoryTopItems: "Top-Artikel",itemCondition: "Zustand",itemContent: "Inhalt",itemCustomerFeedback: "Kundenrezensionen",itemCustomsTariffNumber: "Zolltarifnummer",itemDescription: "Beschreibung",itemDimensions: "Maße",itemEach: "Stück",itemExclusive: "zzgl.",itemExternalVariationId: "Externe Varianten-ID",itemFSK: "FSK ab :age freigegeben",itemId: "Art.-ID",itemId_asc: "Artikel-ID (aufsteigend)",itemId_desc: " Artikel-ID (absteigend)",itemInclVAT: "* inkl. ges. MwSt.",itemListLastSeen: "Zuletzt angesehen",itemManufacturer: "Hersteller",itemManufacturingCountry: "Herstellungsland",itemModel: "Modell",itemMoreDetails: "Weitere Details",itemName_asc: "Artikelname (aufsteigend)",itemName_desc: "Artikelname (absteigend)",itemNetWeight: "Netto-Gewicht",itemNew: "Neu",itemNumber: "Artikelnummer",itemPleaseSelect: "Bitte wählen",itemPosition_asc: "Artikelposition (aufsteigend)",itemPosition_desc: " Artikelposition (absteigend)",itemPrice_asc: "Preis (aufsteigend)",itemPrice_desc: "Preis (absteigend)",itemProducerName_asc: "Hersteller (aufsteigend)",itemProducerName_desc: "Hersteller (absteigend)",itemRand: "Zufällige Artikel",itemRating_asc: "Kundenbewertung (aufsteigend)",itemRating_desc: "Kundenbewertung (absteigend)",itemShippingCosts: "Versandkosten",itemShowLess: "Weniger",itemShowMore: "Mehr",itemState: "Status",itemTechnicalData: "Technische Daten",itemUnitPrice: "Grundpreis",itemWeight: "Gewicht",itemWishList: "Wunschliste",notFoundOops: "Ups, ein Fehler!",notFoundPage: "Die Seite, die du aufgerufen hast, wurde nicht gefunden.",orderApply: "Anwenden",orderBuyNow: "Kaufen",orderCheckout: "Kasse",orderDate: "Auftragsdatum",orderDetails: "Bestelldetails",orderDhlPackage: "DHL Paket",orderEnterOrderId: "Auftrags-ID eingeben",orderEstimatedShippingDate: "Voraussichtl. Versanddatum",orderFrom: "Von",orderHistory: "Auftragshistorie",orderId: "Auftrags-ID",orderInvoiceAddress: "Rechnungsadresse",orderInvoiceAddressCreate: "Rechnungsadresse anlegen",orderInvoiceAddressDelete: "Rechnungsadresse löschen",orderInvoiceAddressEdit: "Rechnungsadresse bearbeiten",orderItemId: "Art.-ID",orderItemsBought: "Gekaufte Artikel",orderLast30Days: "letzte 30 Tage",orderLast3Month: "letzte 3 Monate",orderLast6Month: "letzte 6 Monate",orderNoItemsInBasket: "Sie haben noch keine Artikel im Warenkorb.",orderPayEasy: "Zahlen Sie bequem per",orderPaymentEntry: "Zahlungseingang",orderPaymentMethod: "Zahlungsart",orderPaymentMethods: "Zahlungsarten",orderPaymentStatus: "Zahlungsstatus",orderPaypalPlus: "PayPal PLUS",orderPeace: "Stückzahl",orderPricePerPiece: "Einzelpreis",orderRecipient: "Empfänger",orderSelectTimePeriod: "Zeitraum wählen",orderShipped: "Versand",orderShippingAddress: "Lieferadresse",orderShippingAddressCreate: "Lieferadresse anlegen",orderShippingAddressDelete: "Lieferadresse löschen",orderShippingAddressEdit: "Lieferadresse bearbeiten",orderShippingProfile: "Versandart",orderShow: "Zeige :countStart - :countEnd von :orderMaxCount Aufträgen",orderStatus: "Status",orderStatusHistory: "Statushistorie",orderTo: "Bis",orderTotal: "Gesamt",orderWeShip: "Wir versenden mit",orderWillBeProcessed: "Ihre Bestellung wird bearbeitet. Hier finden Sie eine Zusammenfassung:",paymentStatus_fullyPaid: "Bezahlt",paymentStatus_overpaid: "Überzahlt",paymentStatus_partlyPaid: "Teilweise bezahlt",paymentStatus_prepaid: "Im Voraus bezahlt",paymentStatus_unpaid: "Nicht bezahlt",pleaseSelect: "Bitte wählen",variationActive_asc: "Aktive Variante (aufsteigend)",variationActive_desc: "Aktive Variante (absteigend)",variationCreateTimestamp_asc: "Neueste Varianten",variationCreateTimestamp_desc: "Älteste Varianten",variationCustomNumber_asc: "Variantennummer (aufsteigend)",variationCustomNumber_desc: "Variantennummer (absteigend)",variationId_asc: "Varianten-ID (aufsteigend)",variationId_desc: "Varianten-ID (absteigend)",variationLastUpdateTimestamp_asc: "Letzte Variantenaktualisierung",variationLastUpdateTimestamp_desc: "Erste Variantenaktualisierung",variationName_asc: "Variantenname (aufsteigend)",variationName_desc: "Variantenname (absteigend)",variationPosition_asc: "Variantenposition (aufsteigend)",variationPosition_desc: "Variantenposition (absteigend)",variationPrimary_asc: "Hauptvariante (aufsteigend)",variationPrimary_desc: "Hauptvariante (absteigend)",cn: "Chinesisch",cz: "Tschechisch",da: "Dänisch",de: "Deutsch",en: "Englisch",es: "Spanisch",fr: "Französisch",it: "Italienisch",nl: "Niederländisch",nn: "Norwegisch",pl: "Polnisch",pt: "Portugiesisch",ru: "Russisch",se: "Schwedisch",sk: "Slowakisch",tr: "Türkisch",vn: "Vietnamesisch",dateFormat: "d.m.Y",dateFormatMoment: "DD.MM.YYYY",dateTimeFormat: "d.m.Y, H:i",dateTimeFormatMoment: "DD.MM.YYYY, HH:mm",timeFormat: "H:i",timeFormatMoment: "HH:mm",},};
-var Languages = Languages || {}; Languages['en'] = {Template: {accAccountSettings: "Account settings",accAlreadyLoggedIn: "You are already logged in.",accBankDetails: "Bank details",accChangeLoginData: "Change your access data",accChangePassword: "Change password",accChangePasswordFailed: "The password could not be changed.",accChangePasswordSuccessful: "The password has been changed successfully.",accChangePaymentInformation: "Change your payment information",accChangeSettings: "Change settings",accCorrectPassword: "Please correct",accCreateAccount: "Register now",accEmail: "Email",accForgotPassword: "Forgot your password?",accHolder: "Account holder",accInvoiceAddresses: "Invoice addresses",accLogin: "Log in",accLoginFailed: "Your login data is invalid.",accLoginSuccessful: "You have been logged in successfully.",accLogout: "Log out",accLogoutSuccessful: "You have been logged out successfully.",accMyAccount: "My account",accNewPassword: "New password",accOrderAsGuest: "Order as a guest",accPassword: "Password",accPleaseLogin: "Please log in",accRegister: "Register",accRegisterAccount: "Register first",accRegistrationError: "An account already exists for this email address.",accRegistrationSuccessful: "You have been registered successfully.",accRememberPassword: "Remember password",accRepeatPassword: "Repeat password",accShippingAddresses: "Delivery addresses",accUsername: "User name",addressAddAddress: "Create a new address",addressAdditionalAddress1: "Additional address information 1",addressAdditionalAddress2: "Additional address information 2",addressAdditionalName: "Additional name",addressChangeAddress: "Change address",addressCompany: "Company",addressContact: "Contact",addressDeleteAddress: "Delete address",addressDeleteWarning: "Really delete address?",addressFirstName: "First name",addressGBAdditionalLocality: "Additional locality",addressGBBuildingName: "Building name",addressGBNameAffix: "Name affix",addressLastName: "Last name",addressNoAddress: "No Address saved",addressNumber: "House No.",addressPlace: "Town",addressSameAsInvoice: "Delivery address same as invoice address",addressStreet: "Street",addressZip: "Postcode",addToBasket: "Add to shopping cart",bank: "Bank",bankAddDataTitle: "Add bank details",bankBicNotification: "Please use the BIC for international bank transfers",bankDataAdded: "Bank details added",bankDataDeleted: "Bank details deleted",bankDataNotAdded: "Bank details not added",bankDataNotDeleted: "Bank details not deleted",bankDataNotUpdated: "Bank details not updated",bankDataUpdated: "Bank details updated",bankDeleteTitle: "Delete bank details",bankDeleteWarning: "Really delete bank details?",bankNoBankData: "No bank details saved",bankUpdateDataTitle: "Edit bank details",basket: "Shopping cart",basketCoupon: "Coupon",basketGross: "Gross",basketItemAdded: "The item was placed in the shopping cart.",basketItemNotAdded: "The item could not be added.",basketNet: "Net",basketOrderNow: "Order now",basketPreview: "Shopping cart preview",basketSum: "Total",basketTotalSum: "Total",basketValue: "Value of items",basketVAT: "VAT 19%",couponRedeemFailure: "Coupon not redeemed",couponRedeemSuccess: "Coupon redeemed successfully",couponRemoveFailure: "Coupon not removed",couponRemoveSuccess: "Coupon removed successfully",generalAdd: "Create",generalAll: "all",generalBigAll: "All",generalAllRightsReserved: "All rights reserved.",generalAustria: "Austria",generalCancel: "Cancel",generalCancellationRight: "Cancellation&shy; rights",generalCategories: "Categories",generalCertifiedBy: "Certified by",generalCheckEntries: "Please check the entries.",generalChooseOur: "Please accept our :gtc, :cancellation and :policy.",generalClose: "Close",generalCountry: "Country",generalCountrySettings: "Locale settings",generalDelete: "Delete",generalDeleteNow: "Delete now",generalEdit: "Edit",generalEngland: "England",generalEnglish: "English",generalEnterCoupon: "Your coupon code",generalEnterEmail: "Enter email address",generalEnterFeedback: "Enter feedback",generalFirstName: "First name",generalFilter: "Filter",generalFrance: "France",generalGerman: "German",generalGermany: "Germany",generalGiveFeedback: "Rate item",generalGtc: "Terms and conditions",generalHello: "Hello, :username",generalHomepage: "Homepage",generalItaly: "Italy",generalLastName: "Last name",generalLegalDisclosure: "Legal disclosure",generalNewsletter: "Newsletter",generalNext: "Next",generalOrderShippedBy: "Your order is shipped by",generalPrivacyPolicy: "Privacy&shy; policy",generalRedeem: "Redeem coupon",generalRemove: "Remove",generalSave: "Save",generalSearch: "Search..",generalSearchNoDot: "Search",generalSelectLanguage: "Language",generalSelectShippingCountry: "Country of delivery",generalSend: "Send",generalState: "State/Province",generalSwitzerland: "Switzerland",generalThanks: "Thank you!",generalYourEmail: "Your email address",itemAge: "Age rating",itemAvailability: "Availability",itemCategoryIdDesc: "Item ID ascending",itemCategoryItemAsc: "Position ascending",itemCategoryItemDesc: "Position descending",itemCategoryItemsPerPage: "Items per page",itemCategoryNameAsc: "Name ascending",itemCategoryNameDesc: "Name descending",itemCategoryNext: "Next",itemCategoryPrevious: "Previous",itemCategoryPriceAsc: "Price ascending",itemCategoryPriceDesc: "Price descending",itemCategoryRandom: "Random sorting",itemCategoryReleaseAsc: "Release date ascending",itemCategoryReleaseDesc: "Release date descending",itemCategorySort: "Sort by",itemCategoryStoreSpecialAsc: "Store special ascending",itemCategoryStoreSpecialDesc: "Store special descending",itemCategoryTopItems: "Top items",itemCondition: "Condition",itemContent: "Content",itemCustomerFeedback: "Customer reviews",itemCustomsTariffNumber: "Customs tariff number",itemDescription: "Description",itemDimensions: "Dimensions",itemEach: "Each",itemExclusive: "excl.",itemExternalVariationId: "External variation ID",itemFSK: "Released for age :age and older",itemId: "Item ID",itemId_asc: "Item ID (ascending)",itemId_desc: "Item ID (descending)",itemInclVAT: "* Incl. VAT",itemListLastSeen: "Last seen",itemManufacturer: "Manufacturer",itemManufacturingCountry: "Manufacturing country",itemModel: "Model",itemMoreDetails: "More details",itemName_asc: "Item name (ascending)",itemName_desc: "Item name (descending)",itemNetWeight: "Net weight",itemNew: "New",itemNumber: "Item number",itemPleaseSelect: "Please select",itemPosition_asc: "Item position (ascending)",itemPosition_desc: "Item position (descending)",itemPrice_asc: "Price (ascending)",itemPrice_desc: "Price (descending)",itemProducerName_asc: "Manufacturer (ascending)",itemProducerName_desc: "Manufacturer (descending)",itemRand: "Random items",itemRating_asc: "Customer feedback (ascending)",itemRating_desc: "Customer feedback (descending)",itemShippingCosts: "Shipping",itemShowLess: "Less",itemShowMore: "More",itemState: "State",itemTechnicalData: "Technical data",itemUnitPrice: "Unit price",itemWeight: "Weight",itemWishList: "Wish list",notFoundOops: "Oops, something went terribly wrong!",notFoundPage: "The requested page was not found.",orderApply: "Apply",orderBuyNow: "Order now",orderCheckout: "Checkout",orderDate: "Order date:",orderDetails: "Order details",orderDhlPackage: "DHL Paket",orderEnterOrderId: "Enter order ID",orderEstimatedShippingDate: "Estimated shipping date",orderFrom: "From",orderHistory: "Order history",orderId: "Order ID",orderInvoiceAddress: "Invoice address",orderInvoiceAddressCreate: "Create invoice address",orderInvoiceAddressDelete: "Delete invoice address",orderInvoiceAddressEdit: "Edit invoice address",orderItemId: "Item ID",orderItemsBought: "Purchased items",orderLast30Days: "the last 30 days",orderLast3Month: "the last 3 months",orderLast6Month: "the last 6 months",orderNoItemsInBasket: "Your shopping cart is empty.",orderPayEasy: "Pay quickly and easily with",orderPaymentEntry: "Incoming payment:",orderPaymentMethod: "Payment method",orderPaymentMethods: "Payment methods",orderPaymentStatus: "Payment status",orderPaypalPlus: "PayPal PLUS",orderPeace: "Quantity",orderPricePerPiece: "Price per piece",orderRecipient: "Recipient:",orderSelectTimePeriod: "Select a time period",orderShipped: "Shipping:",orderShippingAddress: "Delivery address",orderShippingAddressCreate: "Create delivery address",orderShippingAddressDelete: "Delete shipping address",orderShippingAddressEdit: "Edit delivery address",orderShippingProfile: "Shipping method",orderShow: "Show :countStart - :countEnd of :orderMaxCount orders",orderStatus: "Status:",orderStatusHistory: "Status history",orderTo: "To",orderTotal: "Total",orderWeShip: "Your order is shipped by",orderWillBeProcessed: "Your order is being processed. Here, you will find an overview:",paymentStatus_fullyPaid: "Paid",paymentStatus_overpaid: "Overpaid",paymentStatus_partlyPaid: "Partially paid",paymentStatus_prepaid: "Prepaid",paymentStatus_unpaid: "Not paid",pleaseSelect: "Please select",variationActive_asc: "Active variation (ascending)",variationActive_desc: "Active variation (descending)",variationCreateTimestamp_asc: "Newest variation",variationCreateTimestamp_desc: "Oldest variation",variationCustomNumber_asc: "Variation number (ascending)",variationCustomNumber_desc: "Variation number (descending)",variationId_asc: "Variation ID (ascending)",variationId_desc: "Variation ID (descending)",variationLastUpdateTimestamp_asc: "Last variation update",variationLastUpdateTimestamp_desc: "First variation update",variationName_asc: "Variation name (ascending)",variationName_desc: "Variation name (descending)",variationPosition_asc: "Variation position (ascending)",variationPosition_desc: "Variation position (descending)",variationPrimary_asc: "Main variation (ascending)",variationPrimary_desc: "Main variation (descending)",cn: "Chinese",cz: "Czech",da: "Danish",de: "German",en: "English",es: "Spanish",fr: "French",it: "Italian",nl: "Dutch",nn: "Norwegian",pl: "Polish",pt: "Portuguese",ru: "Russian",se: "Swedish",sk: "Slovak",tr: "Turkish",vn: "Vietnamese",dateFormat: "d.m.Y",dateFormatMoment: "DD.MM.YYYY",dateTimeFormat: "d.m.Y, H:i",dateTimeFormatMoment: "DD.MM.YYYY, HH:mm",timeFormat: "H:i",timeFormatMoment: "HH:mm",},};
+var Languages = Languages || {}; Languages['de'] = {Template: {accAccountSettings: "Kontoeinstellungen",accAlreadyLoggedIn: "Sie sind bereits eingeloggt.",accBankDetails: "Bankdaten",accChangeLoginData: "Ändern Sie Ihre Zugangsdaten",accChangePassword: "Passwort ändern",accChangePasswordFailed: "Das Passwort konnte nicht geändert werden.",accChangePasswordSuccessful: "Das Passwort wurde erfolgreich geändert.",accChangePaymentInformation: "Ändern Sie Ihre Zahlungsinformationen",accChangeSettings: "Einstellungen ändern",accCorrectPassword: "Bitte korrigieren",accCreateAccount: "Jetzt registrieren",accEmail: "E-Mail",accForgotPassword: "Passwort vergessen?",accHolder: "Kontoinhaber",accInvoiceAddresses: "Rechnungsadressen",accLogin: "Anmelden",accLoginFailed: "Die Anmeldedaten sind ungültig.",accLoginSuccessful: "Sie wurden erfolgreich eingeloggt.",accLogout: "Ausloggen",accLogoutSuccessful: "Sie wurden erfolgreich ausgeloggt.",accMyAccount: "Mein Konto",accNewPassword: "Neues Passwort",accOrderAsGuest: "Als Gast bestellen",accPassword: "Passwort",accPleaseLogin: "Bitte einloggen",accRegister: "Registrieren",accRegisterAccount: "Registrieren Sie sich",accRegistrationError: "Für diese E-Mail-Adresse existiert bereits ein Konto.",accRegistrationSuccessful: "Sie wurden erfolgreich registriert.",accRememberPassword: "Passwort merken",accRepeatPassword: "Passwort wiederholen",accShippingAddresses: "Lieferadressen",accUsername: "Benutzername",addressAddAddress: "Neue Adresse hinzufügen",addressAdditionalAddress1: "Adresszusatz 1",addressAdditionalAddress2: "Adresszusatz 2",addressAdditionalName: "Namenszusatz",addressBirthdate: "Geburtsdatum",addressChangeAddress: "Adresse ändern",addressCompany: "Firma",addressContact: "Kontakt",addressDeleteAddress: "Adresse löschen",addressDeleteWarning: "Adresse wirklich löschen?",addressFirstName: "Vorname",addressGBAdditionalLocality: "Adresszusatz",addressGBBuildingName: "Gebäude Name",addressGBNameAffix: "Namenszusatz",addressLastName: "Nachname",addressNoAddress: "Noch keine Adresse vorhanden",addressNumber: "Nr.",addressPlace: "Ort",addressSalutation: "Anrede",addressSameAsInvoice: "Lieferadresse gleich Rechnungsadresse",addressStreet: "Straße",addressTitle: "Titel",addressVatNumber: "USt.-Nr.",addressZip: "PLZ",addressENAddressLine1: "Adresszeile 1",addressENAddressLine2: "Adresszeile 2",addressENAddressLine3: "Adresszeile 3",addressENAddressLine4: "Adresszeile 4",addToBasket: "In den Warenkorb",bank: "Kreditinstitut",bankAddDataTitle: "Bankdaten hinzufügen",bankBicNotification: "Bitte BIC bei Auslandsüberweisungen angeben",bankDataAdded: "Bankdaten hinzugefügt",bankDataDeleted: "Bankdaten gelöscht",bankDataNotAdded: "Bankdaten nicht hinzugefügt",bankDataNotDeleted: "Bankdaten nicht gelöscht",bankDataNotUpdated: "Bankdaten nicht aktualisiert",bankDataUpdated: "Bankdaten aktualisiert",bankDeleteTitle: "Bankdaten löschen",bankDeleteWarning: "Bankdaten wirklich löschen?",bankNoBankData: "Noch keine Bankdaten vorhanden",bankUpdateDataTitle: "Bankdaten bearbeiten",basket: "Warenkorb",basketCoupon: "Gutschein",basketGross: "Brutto",basketItemAdded: "Der Artikel wurde in den Warenkorb gelegt.",basketItemNotAdded: "Der Artikel konnte nicht hinzugefügt werden.",basketNet: "Netto",basketOrderNow: "Jetzt bestellen",basketPreview: "Warenkorbvorschau",basketSum: "Summe",basketTotalSum: "Gesamtsumme",basketValue: "Warenwert",basketVAT: "MwSt. 19%",couponRedeemFailure: "Gutschein nicht eingelöst",couponRedeemSuccess: "Gutschein erfolgreich eingelöst",couponRemoveFailure: "Gutschein nicht entfernt",couponRemoveSuccess: "Gutschein erfolgreich entfernt",generalAdd: "Anlegen",generalAll: "alle",generalBigAll: "Alle",generalAllRightsReserved: "Alle Rechte vorbehalten.",generalAustria: "Österreich",generalCancel: "Abbrechen",generalCancellationRight: "Widerrufs&shy;recht",generalCategories: "Kategorien",generalCertifiedBy: "Geprüfte Leistung",generalCheckEntries: "Bitte Eingaben prüfen.",generalChooseOur: "Bitte nehmen Sie unsere :gtc, :cancellation und :policy zur Kenntnis.",generalClose: "Schließen",generalCountry: "Land",generalCountrySettings: "Ländereinstellungen",generalDelete: "Löschen",generalDeleteNow: "Jetzt löschen",generalEdit: "Bearbeiten",generalEngland: "England",generalEnglish: "Englisch",generalEnterCoupon: "Gutschein-Code eingeben",generalEnterEmail: "E-Mail-Adresse eingeben",generalEnterFeedback: "Bewertung eingeben",generalFirstName: "Vorname",generalFilter: "Filter",generalFrance: "Frankreich",generalGerman: "Deutsch",generalGermany: "Deutschland",generalGiveFeedback: "Bewerten",generalGtc: "AGB",generalHello: "Hallo, :username",generalHomepage: "Startseite",generalItaly: "Italien",generalLastName: "Nachname",generalLegalDisclosure: "Impressum",generalNewsletter: "Newsletter",generalNext: "Weiter",generalOrderShippedBy: "Wir verschicken mit",generalPrivacyPolicy: "Daten&shy;schutz&shy;erklärung",generalRedeem: "Einlösen",generalRemove: "Entfernen",generalSave: "Speichern",generalSearch: "Suchen..",generalSearchNoDot: "Suchen",generalSelectLanguage: "Sprache",generalSelectShippingCountry: "Lieferland",generalSend: "Senden",generalState: "Bundesland",generalSwitzerland: "Schweiz",generalThanks: "Vielen Dank!",generalYourEmail: "Ihre E-Mail-Adresse",itemAge: "Altersfreigabe",itemAvailability: "Verfügbarkeit",itemCategoryIdDesc: "Art.-ID aufsteigend",itemCategoryItemAsc: "Positionsnummer aufsteigend",itemCategoryItemDesc: "Positionsnummer absteigend",itemCategoryItemsPerPage: "Artikel pro Seite",itemCategoryNameAsc: "Name aufsteigend",itemCategoryNameDesc: "Name absteigend",itemCategoryNext: "Nächste",itemCategoryPrevious: "Vorherige",itemCategoryPriceAsc: "Preis aufsteigend",itemCategoryPriceDesc: "Preis absteigend",itemCategoryRandom: "Zufällige Sortierung",itemCategoryReleaseAsc: "Erscheinungsdatum aufsteigend",itemCategoryReleaseDesc: "Erscheinungsdatum absteigend",itemCategorySort: "Sortieren",itemCategoryStoreSpecialAsc: "Shop-Aktion aufsteigend",itemCategoryStoreSpecialDesc: "Shop-Aktion absteigend",itemCategoryTopItems: "Top-Artikel",itemCondition: "Zustand",itemContent: "Inhalt",itemCustomerFeedback: "Kundenrezensionen",itemCustomsTariffNumber: "Zolltarifnummer",itemDescription: "Beschreibung",itemDimensions: "Maße",itemEach: "Stück",itemExclusive: "zzgl.",itemExternalVariationId: "Externe Varianten-ID",itemFSK: "FSK ab :age freigegeben",itemId: "Art.-ID",itemId_asc: "Artikel-ID (aufsteigend)",itemId_desc: " Artikel-ID (absteigend)",itemInclVAT: "* inkl. ges. MwSt.",itemListLastSeen: "Zuletzt angesehen",itemManufacturer: "Hersteller",itemManufacturingCountry: "Herstellungsland",itemModel: "Modell",itemMoreDetails: "Weitere Details",itemName_asc: "Artikelname (aufsteigend)",itemName_desc: "Artikelname (absteigend)",itemNetWeight: "Netto-Gewicht",itemNew: "Neu",itemNumber: "Artikelnummer",itemPleaseSelect: "Bitte wählen",itemPosition_asc: "Artikelposition (aufsteigend)",itemPosition_desc: " Artikelposition (absteigend)",itemPrice_asc: "Preis (aufsteigend)",itemPrice_desc: "Preis (absteigend)",itemProducerName_asc: "Hersteller (aufsteigend)",itemProducerName_desc: "Hersteller (absteigend)",itemRand: "Zufällige Artikel",itemRating_asc: "Kundenbewertung (aufsteigend)",itemRating_desc: "Kundenbewertung (absteigend)",itemShippingCosts: "Versandkosten",itemShowLess: "Weniger",itemShowMore: "Mehr",itemState: "Status",itemTechnicalData: "Technische Daten",itemUnitPrice: "Grundpreis",itemWeight: "Gewicht",itemWishList: "Wunschliste",notFoundOops: "Ups, ein Fehler!",notFoundPage: "Die Seite, die du aufgerufen hast, wurde nicht gefunden.",orderApply: "Anwenden",orderBuyNow: "Kaufen",orderCheckout: "Kasse",orderDate: "Auftragsdatum",orderDetails: "Bestelldetails",orderDhlPackage: "DHL Paket",orderEnterOrderId: "Auftrags-ID eingeben",orderEstimatedShippingDate: "Voraussichtl. Versanddatum",orderFrom: "Von",orderHistory: "Auftragshistorie",orderId: "Auftrags-ID",orderInvoiceAddress: "Rechnungsadresse",orderInvoiceAddressInitial: "Bitte geben Sie Ihre Adresse ein",orderInvoiceAddressCreate: "Rechnungsadresse anlegen",orderInvoiceAddressDelete: "Rechnungsadresse löschen",orderInvoiceAddressEdit: "Rechnungsadresse bearbeiten",orderItemId: "Art.-ID",orderItemsBought: "Gekaufte Artikel",orderLast30Days: "letzte 30 Tage",orderLast3Month: "letzte 3 Monate",orderLast6Month: "letzte 6 Monate",orderNoItemsInBasket: "Sie haben noch keine Artikel im Warenkorb.",orderPayEasy: "Zahlen Sie bequem per",orderPaymentEntry: "Zahlungseingang",orderPaymentMethod: "Zahlungsart",orderPaymentMethods: "Zahlungsarten",orderPaymentStatus: "Zahlungsstatus",orderPaypalPlus: "PayPal PLUS",orderPeace: "Stückzahl",orderPricePerPiece: "Einzelpreis",orderRecipient: "Empfänger",orderSelectTimePeriod: "Zeitraum wählen",orderShipped: "Versand",orderShippingAddress: "Lieferadresse",orderShippingAddressCreate: "Lieferadresse anlegen",orderShippingAddressDelete: "Lieferadresse löschen",orderShippingAddressEdit: "Lieferadresse bearbeiten",orderShippingProfile: "Versandart",orderShow: "Zeige :countStart - :countEnd von :orderMaxCount Aufträgen",orderStatus: "Status",orderStatusHistory: "Statushistorie",orderTo: "Bis",orderTotal: "Gesamt",orderWeShip: "Wir versenden mit",orderWillBeProcessed: "Ihre Bestellung wird bearbeitet. Hier finden Sie eine Zusammenfassung:",paymentStatus_fullyPaid: "Bezahlt",paymentStatus_overpaid: "Überzahlt",paymentStatus_partlyPaid: "Teilweise bezahlt",paymentStatus_prepaid: "Im Voraus bezahlt",paymentStatus_unpaid: "Nicht bezahlt",pleaseSelect: "Bitte wählen",showItem: "Artikel anzeigen",variationActive_asc: "Aktive Variante (aufsteigend)",variationActive_desc: "Aktive Variante (absteigend)",variationCreateTimestamp_asc: "Neueste Varianten",variationCreateTimestamp_desc: "Älteste Varianten",variationCustomNumber_asc: "Variantennummer (aufsteigend)",variationCustomNumber_desc: "Variantennummer (absteigend)",variationId_asc: "Varianten-ID (aufsteigend)",variationId_desc: "Varianten-ID (absteigend)",variationLastUpdateTimestamp_asc: "Letzte Variantenaktualisierung",variationLastUpdateTimestamp_desc: "Erste Variantenaktualisierung",variationName_asc: "Variantenname (aufsteigend)",variationName_desc: "Variantenname (absteigend)",variationPosition_asc: "Variantenposition (aufsteigend)",variationPosition_desc: "Variantenposition (absteigend)",variationPrimary_asc: "Hauptvariante (aufsteigend)",variationPrimary_desc: "Hauptvariante (absteigend)",cn: "Chinesisch",cz: "Tschechisch",da: "Dänisch",de: "Deutsch",en: "Englisch",es: "Spanisch",fr: "Französisch",it: "Italienisch",nl: "Niederländisch",nn: "Norwegisch",pl: "Polnisch",pt: "Portugiesisch",ru: "Russisch",se: "Schwedisch",sk: "Slowakisch",tr: "Türkisch",vn: "Vietnamesisch",dateFormat: "d.m.Y",dateFormatMoment: "DD.MM.YYYY",dateTimeFormat: "d.m.Y, H:i",dateTimeFormatMoment: "DD.MM.YYYY, HH:mm",timeFormat: "H:i",timeFormatMoment: "HH:mm",homepageShowAll: "Alle ansehen",homepageNext: "Nächste",homepageBack: "Zurück",},};
+var Languages = Languages || {}; Languages['en'] = {Template: {accAccountSettings: "Account settings",accAlreadyLoggedIn: "You are already logged in.",accBankDetails: "Bank details",accChangeLoginData: "Change your access data",accChangePassword: "Change password",accChangePasswordFailed: "The password could not be changed.",accChangePasswordSuccessful: "The password has been changed successfully.",accChangePaymentInformation: "Change your payment information",accChangeSettings: "Change settings",accCorrectPassword: "Please correct",accCreateAccount: "Register now",accEmail: "Email",accForgotPassword: "Forgot your password?",accHolder: "Account holder",accInvoiceAddresses: "Invoice addresses",accLogin: "Log in",accLoginFailed: "Your login data is invalid.",accLoginSuccessful: "You have been logged in successfully.",accLogout: "Log out",accLogoutSuccessful: "You have been logged out successfully.",accMyAccount: "My account",accNewPassword: "New password",accOrderAsGuest: "Order as a guest",accPassword: "Password",accPleaseLogin: "Please log in",accRegister: "Register",accRegisterAccount: "Register first",accRegistrationError: "An account already exists for this email address.",accRegistrationSuccessful: "You have been registered successfully.",accRememberPassword: "Remember password",accRepeatPassword: "Repeat password",accShippingAddresses: "Delivery addresses",accUsername: "User name",addressAddAddress: "Create a new address",addressAdditionalAddress1: "Additional address information 1",addressAdditionalAddress2: "Additional address information 2",addressAdditionalName: "Additional name",addressBirthdate: "Date of birth",addressChangeAddress: "Change address",addressCompany: "Company",addressContact: "Contact",addressDeleteAddress: "Delete address",addressDeleteWarning: "Really delete address?",addressFirstName: "First name",addressGBAdditionalLocality: "Additional locality",addressGBBuildingName: "Building name",addressGBNameAffix: "Name affix",addressLastName: "Last name",addressNoAddress: "No Address saved",addressNumber: "House No.",addressPlace: "Town",addressSalutation: "Form of address",addressSameAsInvoice: "Delivery address same as invoice address",addressStreet: "Street",addressTitle: "Title",addressVatNumber: "VAT number",addressZip: "Postcode",addressENAddressLine1: "Address line 1",addressENAddressLine2: "Address line 2",addressENAddressLine3: "Address line 3",addressENAddressLine4: "Address line 4",addToBasket: "Add to shopping cart",bank: "Bank",bankAddDataTitle: "Add bank details",bankBicNotification: "Please use the BIC for international bank transfers",bankDataAdded: "Bank details added",bankDataDeleted: "Bank details deleted",bankDataNotAdded: "Bank details not added",bankDataNotDeleted: "Bank details not deleted",bankDataNotUpdated: "Bank details not updated",bankDataUpdated: "Bank details updated",bankDeleteTitle: "Delete bank details",bankDeleteWarning: "Really delete bank details?",bankNoBankData: "No bank details saved",bankUpdateDataTitle: "Edit bank details",basket: "Shopping cart",basketCoupon: "Coupon",basketGross: "Gross",basketItemAdded: "The item was placed in the shopping cart.",basketItemNotAdded: "The item could not be added.",basketNet: "Net",basketOrderNow: "Order now",basketPreview: "Shopping cart preview",basketSum: "Total",basketTotalSum: "Total",basketValue: "Value of items",basketVAT: "VAT 19%",couponRedeemFailure: "Coupon not redeemed",couponRedeemSuccess: "Coupon redeemed successfully",couponRemoveFailure: "Coupon not removed",couponRemoveSuccess: "Coupon removed successfully",generalAdd: "Create",generalAll: "all",generalBigAll: "All",generalAllRightsReserved: "All rights reserved.",generalAustria: "Austria",generalCancel: "Cancel",generalCancellationRight: "Cancellation&shy; rights",generalCategories: "Categories",generalCertifiedBy: "Certified by",generalCheckEntries: "Please check the entries.",generalChooseOur: "Please accept our :gtc, :cancellation and :policy.",generalClose: "Close",generalCountry: "Country",generalCountrySettings: "Locale settings",generalDelete: "Delete",generalDeleteNow: "Delete now",generalEdit: "Edit",generalEngland: "England",generalEnglish: "English",generalEnterCoupon: "Your coupon code",generalEnterEmail: "Enter email address",generalEnterFeedback: "Enter feedback",generalFirstName: "First name",generalFilter: "Filter",generalFrance: "France",generalGerman: "German",generalGermany: "Germany",generalGiveFeedback: "Rate item",generalGtc: "Terms and conditions",generalHello: "Hello, :username",generalHomepage: "Homepage",generalItaly: "Italy",generalLastName: "Last name",generalLegalDisclosure: "Legal disclosure",generalNewsletter: "Newsletter",generalNext: "Next",generalOrderShippedBy: "Your order is shipped by",generalPrivacyPolicy: "Privacy&shy; policy",generalRedeem: "Redeem coupon",generalRemove: "Remove",generalSave: "Save",generalSearch: "Search..",generalSearchNoDot: "Search",generalSelectLanguage: "Language",generalSelectShippingCountry: "Country of delivery",generalSend: "Send",generalState: "State/Province",generalSwitzerland: "Switzerland",generalThanks: "Thank you!",generalYourEmail: "Your email address",itemAge: "Age rating",itemAvailability: "Availability",itemCategoryIdDesc: "Item ID ascending",itemCategoryItemAsc: "Position ascending",itemCategoryItemDesc: "Position descending",itemCategoryItemsPerPage: "Items per page",itemCategoryNameAsc: "Name ascending",itemCategoryNameDesc: "Name descending",itemCategoryNext: "Next",itemCategoryPrevious: "Previous",itemCategoryPriceAsc: "Price ascending",itemCategoryPriceDesc: "Price descending",itemCategoryRandom: "Random sorting",itemCategoryReleaseAsc: "Release date ascending",itemCategoryReleaseDesc: "Release date descending",itemCategorySort: "Sort by",itemCategoryStoreSpecialAsc: "Store special ascending",itemCategoryStoreSpecialDesc: "Store special descending",itemCategoryTopItems: "Top items",itemCondition: "Condition",itemContent: "Content",itemCustomerFeedback: "Customer reviews",itemCustomsTariffNumber: "Customs tariff number",itemDescription: "Description",itemDimensions: "Dimensions",itemEach: "Each",itemExclusive: "excl.",itemExternalVariationId: "External variation ID",itemFSK: "Released for age :age and older",itemId: "Item ID",itemId_asc: "Item ID (ascending)",itemId_desc: "Item ID (descending)",itemInclVAT: "* Incl. VAT",itemListLastSeen: "Last seen",itemManufacturer: "Manufacturer",itemManufacturingCountry: "Manufacturing country",itemModel: "Model",itemMoreDetails: "More details",itemName_asc: "Item name (ascending)",itemName_desc: "Item name (descending)",itemNetWeight: "Net weight",itemNew: "New",itemNumber: "Item number",itemPleaseSelect: "Please select",itemPosition_asc: "Item position (ascending)",itemPosition_desc: "Item position (descending)",itemPrice_asc: "Price (ascending)",itemPrice_desc: "Price (descending)",itemProducerName_asc: "Manufacturer (ascending)",itemProducerName_desc: "Manufacturer (descending)",itemRand: "Random items",itemRating_asc: "Customer feedback (ascending)",itemRating_desc: "Customer feedback (descending)",itemShippingCosts: "Shipping",itemShowLess: "Less",itemShowMore: "More",itemState: "State",itemTechnicalData: "Technical data",itemUnitPrice: "Unit price",itemWeight: "Weight",itemWishList: "Wish list",notFoundOops: "Oops, something went terribly wrong!",notFoundPage: "The requested page was not found.",orderApply: "Apply",orderBuyNow: "Order now",orderCheckout: "Checkout",orderDate: "Order date:",orderDetails: "Order details",orderDhlPackage: "DHL Paket",orderEnterOrderId: "Enter order ID",orderEstimatedShippingDate: "Estimated shipping date",orderFrom: "From",orderHistory: "Order history",orderId: "Order ID",orderInvoiceAddress: "Invoice address",orderInvoiceAddressInitial: "Please enter your address",orderInvoiceAddressCreate: "Create invoice address",orderInvoiceAddressDelete: "Delete invoice address",orderInvoiceAddressEdit: "Edit invoice address",orderItemId: "Item ID",orderItemsBought: "Purchased items",orderLast30Days: "the last 30 days",orderLast3Month: "the last 3 months",orderLast6Month: "the last 6 months",orderNoItemsInBasket: "Your shopping cart is empty.",orderPayEasy: "Pay quickly and easily with",orderPaymentEntry: "Incoming payment:",orderPaymentMethod: "Payment method",orderPaymentMethods: "Payment methods",orderPaymentStatus: "Payment status",orderPaypalPlus: "PayPal PLUS",orderPeace: "Quantity",orderPricePerPiece: "Price per piece",orderRecipient: "Recipient:",orderSelectTimePeriod: "Select a time period",orderShipped: "Shipping:",orderShippingAddress: "Delivery address",orderShippingAddressCreate: "Create delivery address",orderShippingAddressDelete: "Delete shipping address",orderShippingAddressEdit: "Edit delivery address",orderShippingProfile: "Shipping method",orderShow: "Show :countStart - :countEnd of :orderMaxCount orders",orderStatus: "Status:",orderStatusHistory: "Status history",orderTo: "To",orderTotal: "Total",orderWeShip: "Your order is shipped by",orderWillBeProcessed: "Your order is being processed. Here, you will find an overview:",paymentStatus_fullyPaid: "Paid",paymentStatus_overpaid: "Overpaid",paymentStatus_partlyPaid: "Partially paid",paymentStatus_prepaid: "Prepaid",paymentStatus_unpaid: "Not paid",pleaseSelect: "Please select",showItem: "Show item",variationActive_asc: "Active variation (ascending)",variationActive_desc: "Active variation (descending)",variationCreateTimestamp_asc: "Newest variation",variationCreateTimestamp_desc: "Oldest variation",variationCustomNumber_asc: "Variation number (ascending)",variationCustomNumber_desc: "Variation number (descending)",variationId_asc: "Variation ID (ascending)",variationId_desc: "Variation ID (descending)",variationLastUpdateTimestamp_asc: "Last variation update",variationLastUpdateTimestamp_desc: "First variation update",variationName_asc: "Variation name (ascending)",variationName_desc: "Variation name (descending)",variationPosition_asc: "Variation position (ascending)",variationPosition_desc: "Variation position (descending)",variationPrimary_asc: "Main variation (ascending)",variationPrimary_desc: "Main variation (descending)",cn: "Chinese",cz: "Czech",da: "Danish",de: "German",en: "English",es: "Spanish",fr: "French",it: "Italian",nl: "Dutch",nn: "Norwegian",pl: "Polish",pt: "Portuguese",ru: "Russian",se: "Swedish",sk: "Slovak",tr: "Turkish",vn: "Vietnamese",dateFormat: "d.m.Y",dateFormatMoment: "DD.MM.YYYY",dateTimeFormat: "d.m.Y, H:i",dateTimeFormatMoment: "DD.MM.YYYY, HH:mm",timeFormat: "H:i",timeFormatMoment: "HH:mm",homepageShowAll: "Show all",homepageNext: "Next",homepageBack: "Back",},};
 /*! jQuery v2.2.4 | (c) jQuery Foundation | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=a.document,e=c.slice,f=c.concat,g=c.push,h=c.indexOf,i={},j=i.toString,k=i.hasOwnProperty,l={},m="2.2.4",n=function(a,b){return new n.fn.init(a,b)},o=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,p=/^-ms-/,q=/-([\da-z])/gi,r=function(a,b){return b.toUpperCase()};n.fn=n.prototype={jquery:m,constructor:n,selector:"",length:0,toArray:function(){return e.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:e.call(this)},pushStack:function(a){var b=n.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a){return n.each(this,a)},map:function(a){return this.pushStack(n.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(e.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:g,sort:c.sort,splice:c.splice},n.extend=n.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||n.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(n.isPlainObject(d)||(e=n.isArray(d)))?(e?(e=!1,f=c&&n.isArray(c)?c:[]):f=c&&n.isPlainObject(c)?c:{},g[b]=n.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},n.extend({expando:"jQuery"+(m+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===n.type(a)},isArray:Array.isArray,isWindow:function(a){return null!=a&&a===a.window},isNumeric:function(a){var b=a&&a.toString();return!n.isArray(a)&&b-parseFloat(b)+1>=0},isPlainObject:function(a){var b;if("object"!==n.type(a)||a.nodeType||n.isWindow(a))return!1;if(a.constructor&&!k.call(a,"constructor")&&!k.call(a.constructor.prototype||{},"isPrototypeOf"))return!1;for(b in a);return void 0===b||k.call(a,b)},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?i[j.call(a)]||"object":typeof a},globalEval:function(a){var b,c=eval;a=n.trim(a),a&&(1===a.indexOf("use strict")?(b=d.createElement("script"),b.text=a,d.head.appendChild(b).parentNode.removeChild(b)):c(a))},camelCase:function(a){return a.replace(p,"ms-").replace(q,r)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b){var c,d=0;if(s(a)){for(c=a.length;c>d;d++)if(b.call(a[d],d,a[d])===!1)break}else for(d in a)if(b.call(a[d],d,a[d])===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(o,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(s(Object(a))?n.merge(c,"string"==typeof a?[a]:a):g.call(c,a)),c},inArray:function(a,b,c){return null==b?-1:h.call(b,a,c)},merge:function(a,b){for(var c=+b.length,d=0,e=a.length;c>d;d++)a[e++]=b[d];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,e,g=0,h=[];if(s(a))for(d=a.length;d>g;g++)e=b(a[g],g,c),null!=e&&h.push(e);else for(g in a)e=b(a[g],g,c),null!=e&&h.push(e);return f.apply([],h)},guid:1,proxy:function(a,b){var c,d,f;return"string"==typeof b&&(c=a[b],b=a,a=c),n.isFunction(a)?(d=e.call(arguments,2),f=function(){return a.apply(b||this,d.concat(e.call(arguments)))},f.guid=a.guid=a.guid||n.guid++,f):void 0},now:Date.now,support:l}),"function"==typeof Symbol&&(n.fn[Symbol.iterator]=c[Symbol.iterator]),n.each("Boolean Number String Function Array Date RegExp Object Error Symbol".split(" "),function(a,b){i["[object "+b+"]"]=b.toLowerCase()});function s(a){var b=!!a&&"length"in a&&a.length,c=n.type(a);return"function"===c||n.isWindow(a)?!1:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var t=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ga(),z=ga(),A=ga(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+M+"))|)"+L+"*\\]",O=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+N+")*)|.*)\\)|)",P=new RegExp(L+"+","g"),Q=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),R=new RegExp("^"+L+"*,"+L+"*"),S=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),T=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),U=new RegExp(O),V=new RegExp("^"+M+"$"),W={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M+"|[*])"),ATTR:new RegExp("^"+N),PSEUDO:new RegExp("^"+O),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},X=/^(?:input|select|textarea|button)$/i,Y=/^h\d$/i,Z=/^[^{]+\{\s*\[native \w/,$=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,_=/[+~]/,aa=/'|\\/g,ba=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),ca=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},da=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(ea){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function fa(a,b,d,e){var f,h,j,k,l,o,r,s,w=b&&b.ownerDocument,x=b?b.nodeType:9;if(d=d||[],"string"!=typeof a||!a||1!==x&&9!==x&&11!==x)return d;if(!e&&((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,p)){if(11!==x&&(o=$.exec(a)))if(f=o[1]){if(9===x){if(!(j=b.getElementById(f)))return d;if(j.id===f)return d.push(j),d}else if(w&&(j=w.getElementById(f))&&t(b,j)&&j.id===f)return d.push(j),d}else{if(o[2])return H.apply(d,b.getElementsByTagName(a)),d;if((f=o[3])&&c.getElementsByClassName&&b.getElementsByClassName)return H.apply(d,b.getElementsByClassName(f)),d}if(c.qsa&&!A[a+" "]&&(!q||!q.test(a))){if(1!==x)w=b,s=a;else if("object"!==b.nodeName.toLowerCase()){(k=b.getAttribute("id"))?k=k.replace(aa,"\\$&"):b.setAttribute("id",k=u),r=g(a),h=r.length,l=V.test(k)?"#"+k:"[id='"+k+"']";while(h--)r[h]=l+" "+qa(r[h]);s=r.join(","),w=_.test(a)&&oa(b.parentNode)||b}if(s)try{return H.apply(d,w.querySelectorAll(s)),d}catch(y){}finally{k===u&&b.removeAttribute("id")}}}return i(a.replace(Q,"$1"),b,d,e)}function ga(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ha(a){return a[u]=!0,a}function ia(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ja(a,b){var c=a.split("|"),e=c.length;while(e--)d.attrHandle[c[e]]=b}function ka(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function la(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function na(a){return ha(function(b){return b=+b,ha(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function oa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=fa.support={},f=fa.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=fa.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=n.documentElement,p=!f(n),(e=n.defaultView)&&e.top!==e&&(e.addEventListener?e.addEventListener("unload",da,!1):e.attachEvent&&e.attachEvent("onunload",da)),c.attributes=ia(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ia(function(a){return a.appendChild(n.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=Z.test(n.getElementsByClassName),c.getById=ia(function(a){return o.appendChild(a).id=u,!n.getElementsByName||!n.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ba,ca);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ba,ca);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return"undefined"!=typeof b.getElementsByClassName&&p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=Z.test(n.querySelectorAll))&&(ia(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\r\\' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ia(function(a){var b=n.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=Z.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ia(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",O)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=Z.test(o.compareDocumentPosition),t=b||Z.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===n||a.ownerDocument===v&&t(v,a)?-1:b===n||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,g=[a],h=[b];if(!e||!f)return a===n?-1:b===n?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return ka(a,b);c=a;while(c=c.parentNode)g.unshift(c);c=b;while(c=c.parentNode)h.unshift(c);while(g[d]===h[d])d++;return d?ka(g[d],h[d]):g[d]===v?-1:h[d]===v?1:0},n):n},fa.matches=function(a,b){return fa(a,null,null,b)},fa.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(T,"='$1']"),c.matchesSelector&&p&&!A[b+" "]&&(!r||!r.test(b))&&(!q||!q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return fa(b,n,null,[a]).length>0},fa.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},fa.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},fa.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},fa.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=fa.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=fa.selectors={cacheLength:50,createPseudo:ha,match:W,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ba,ca),a[3]=(a[3]||a[4]||a[5]||"").replace(ba,ca),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||fa.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&fa.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return W.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&U.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ba,ca).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=fa.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(P," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h,t=!1;if(q){if(f){while(p){m=b;while(m=m[p])if(h?m.nodeName.toLowerCase()===r:1===m.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){m=q,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n&&j[2],m=n&&q.childNodes[n];while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if(1===m.nodeType&&++t&&m===b){k[a]=[w,n,t];break}}else if(s&&(m=b,l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),j=k[a]||[],n=j[0]===w&&j[1],t=n),t===!1)while(m=++n&&m&&m[p]||(t=n=0)||o.pop())if((h?m.nodeName.toLowerCase()===r:1===m.nodeType)&&++t&&(s&&(l=m[u]||(m[u]={}),k=l[m.uniqueID]||(l[m.uniqueID]={}),k[a]=[w,t]),m===b))break;return t-=e,t===d||t%d===0&&t/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||fa.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ha(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ha(function(a){var b=[],c=[],d=h(a.replace(Q,"$1"));return d[u]?ha(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ha(function(a){return function(b){return fa(a,b).length>0}}),contains:ha(function(a){return a=a.replace(ba,ca),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ha(function(a){return V.test(a||"")||fa.error("unsupported lang: "+a),a=a.replace(ba,ca).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Y.test(a.nodeName)},input:function(a){return X.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:na(function(){return[0]}),last:na(function(a,b){return[b-1]}),eq:na(function(a,b,c){return[0>c?c+b:c]}),even:na(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:na(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:na(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:na(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=la(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=ma(b);function pa(){}pa.prototype=d.filters=d.pseudos,d.setFilters=new pa,g=fa.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){c&&!(e=R.exec(h))||(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=S.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(Q," ")}),h=h.slice(c.length));for(g in d.filter)!(e=W[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?fa.error(a):z(a,i).slice(0)};function qa(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function ra(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j,k=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(j=b[u]||(b[u]={}),i=j[b.uniqueID]||(j[b.uniqueID]={}),(h=i[d])&&h[0]===w&&h[1]===f)return k[2]=h[2];if(i[d]=k,k[2]=a(b,c,g))return!0}}}function sa(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ta(a,b,c){for(var d=0,e=b.length;e>d;d++)fa(a,b[d],c);return c}function ua(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(c&&!c(f,d,e)||(g.push(f),j&&b.push(h)));return g}function va(a,b,c,d,e,f){return d&&!d[u]&&(d=va(d)),e&&!e[u]&&(e=va(e,f)),ha(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ta(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:ua(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=ua(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=ua(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function wa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=ra(function(a){return a===b},h,!0),l=ra(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[ra(sa(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return va(i>1&&sa(m),i>1&&qa(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(Q,"$1"),c,e>i&&wa(a.slice(i,e)),f>e&&wa(a=a.slice(e)),f>e&&qa(a))}m.push(c)}return sa(m)}function xa(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,o,q,r=0,s="0",t=f&&[],u=[],v=j,x=f||e&&d.find.TAG("*",k),y=w+=null==v?1:Math.random()||.1,z=x.length;for(k&&(j=g===n||g||k);s!==z&&null!=(l=x[s]);s++){if(e&&l){o=0,g||l.ownerDocument===n||(m(l),h=!p);while(q=a[o++])if(q(l,g||n,h)){i.push(l);break}k&&(w=y)}c&&((l=!q&&l)&&r--,f&&t.push(l))}if(r+=s,c&&s!==r){o=0;while(q=b[o++])q(t,u,g,h);if(f){if(r>0)while(s--)t[s]||u[s]||(u[s]=F.call(i));u=ua(u)}H.apply(i,u),k&&!f&&u.length>0&&r+b.length>1&&fa.uniqueSort(i)}return k&&(w=y,j=v),t};return c?ha(f):f}return h=fa.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=wa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,xa(e,d)),f.selector=a}return f},i=fa.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ba,ca),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=W.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ba,ca),_.test(j[0].type)&&oa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&qa(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,!b||_.test(a)&&oa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ia(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ia(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ja("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ia(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ja("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ia(function(a){return null==a.getAttribute("disabled")})||ja(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),fa}(a);n.find=t,n.expr=t.selectors,n.expr[":"]=n.expr.pseudos,n.uniqueSort=n.unique=t.uniqueSort,n.text=t.getText,n.isXMLDoc=t.isXML,n.contains=t.contains;var u=function(a,b,c){var d=[],e=void 0!==c;while((a=a[b])&&9!==a.nodeType)if(1===a.nodeType){if(e&&n(a).is(c))break;d.push(a)}return d},v=function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c},w=n.expr.match.needsContext,x=/^<([\w-]+)\s*\/?>(?:<\/\1>|)$/,y=/^.[^:#\[\.,]*$/;function z(a,b,c){if(n.isFunction(b))return n.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return n.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(y.test(b))return n.filter(b,a,c);b=n.filter(b,a)}return n.grep(a,function(a){return h.call(b,a)>-1!==c})}n.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?n.find.matchesSelector(d,a)?[d]:[]:n.find.matches(a,n.grep(b,function(a){return 1===a.nodeType}))},n.fn.extend({find:function(a){var b,c=this.length,d=[],e=this;if("string"!=typeof a)return this.pushStack(n(a).filter(function(){for(b=0;c>b;b++)if(n.contains(e[b],this))return!0}));for(b=0;c>b;b++)n.find(a,e[b],d);return d=this.pushStack(c>1?n.unique(d):d),d.selector=this.selector?this.selector+" "+a:a,d},filter:function(a){return this.pushStack(z(this,a||[],!1))},not:function(a){return this.pushStack(z(this,a||[],!0))},is:function(a){return!!z(this,"string"==typeof a&&w.test(a)?n(a):a||[],!1).length}});var A,B=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,C=n.fn.init=function(a,b,c){var e,f;if(!a)return this;if(c=c||A,"string"==typeof a){if(e="<"===a[0]&&">"===a[a.length-1]&&a.length>=3?[null,a,null]:B.exec(a),!e||!e[1]&&b)return!b||b.jquery?(b||c).find(a):this.constructor(b).find(a);if(e[1]){if(b=b instanceof n?b[0]:b,n.merge(this,n.parseHTML(e[1],b&&b.nodeType?b.ownerDocument||b:d,!0)),x.test(e[1])&&n.isPlainObject(b))for(e in b)n.isFunction(this[e])?this[e](b[e]):this.attr(e,b[e]);return this}return f=d.getElementById(e[2]),f&&f.parentNode&&(this.length=1,this[0]=f),this.context=d,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):n.isFunction(a)?void 0!==c.ready?c.ready(a):a(n):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),n.makeArray(a,this))};C.prototype=n.fn,A=n(d);var D=/^(?:parents|prev(?:Until|All))/,E={children:!0,contents:!0,next:!0,prev:!0};n.fn.extend({has:function(a){var b=n(a,this),c=b.length;return this.filter(function(){for(var a=0;c>a;a++)if(n.contains(this,b[a]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=w.test(a)||"string"!=typeof a?n(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&n.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?n.uniqueSort(f):f)},index:function(a){return a?"string"==typeof a?h.call(n(a),this[0]):h.call(this,a.jquery?a[0]:a):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(n.uniqueSort(n.merge(this.get(),n(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function F(a,b){while((a=a[b])&&1!==a.nodeType);return a}n.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return u(a,"parentNode")},parentsUntil:function(a,b,c){return u(a,"parentNode",c)},next:function(a){return F(a,"nextSibling")},prev:function(a){return F(a,"previousSibling")},nextAll:function(a){return u(a,"nextSibling")},prevAll:function(a){return u(a,"previousSibling")},nextUntil:function(a,b,c){return u(a,"nextSibling",c)},prevUntil:function(a,b,c){return u(a,"previousSibling",c)},siblings:function(a){return v((a.parentNode||{}).firstChild,a)},children:function(a){return v(a.firstChild)},contents:function(a){return a.contentDocument||n.merge([],a.childNodes)}},function(a,b){n.fn[a]=function(c,d){var e=n.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=n.filter(d,e)),this.length>1&&(E[a]||n.uniqueSort(e),D.test(a)&&e.reverse()),this.pushStack(e)}});var G=/\S+/g;function H(a){var b={};return n.each(a.match(G)||[],function(a,c){b[c]=!0}),b}n.Callbacks=function(a){a="string"==typeof a?H(a):n.extend({},a);var b,c,d,e,f=[],g=[],h=-1,i=function(){for(e=a.once,d=b=!0;g.length;h=-1){c=g.shift();while(++h<f.length)f[h].apply(c[0],c[1])===!1&&a.stopOnFalse&&(h=f.length,c=!1)}a.memory||(c=!1),b=!1,e&&(f=c?[]:"")},j={add:function(){return f&&(c&&!b&&(h=f.length-1,g.push(c)),function d(b){n.each(b,function(b,c){n.isFunction(c)?a.unique&&j.has(c)||f.push(c):c&&c.length&&"string"!==n.type(c)&&d(c)})}(arguments),c&&!b&&i()),this},remove:function(){return n.each(arguments,function(a,b){var c;while((c=n.inArray(b,f,c))>-1)f.splice(c,1),h>=c&&h--}),this},has:function(a){return a?n.inArray(a,f)>-1:f.length>0},empty:function(){return f&&(f=[]),this},disable:function(){return e=g=[],f=c="",this},disabled:function(){return!f},lock:function(){return e=g=[],c||(f=c=""),this},locked:function(){return!!e},fireWith:function(a,c){return e||(c=c||[],c=[a,c.slice?c.slice():c],g.push(c),b||i()),this},fire:function(){return j.fireWith(this,arguments),this},fired:function(){return!!d}};return j},n.extend({Deferred:function(a){var b=[["resolve","done",n.Callbacks("once memory"),"resolved"],["reject","fail",n.Callbacks("once memory"),"rejected"],["notify","progress",n.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return n.Deferred(function(c){n.each(b,function(b,f){var g=n.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&n.isFunction(a.promise)?a.promise().progress(c.notify).done(c.resolve).fail(c.reject):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?n.extend(a,d):d}},e={};return d.pipe=d.then,n.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=e.call(arguments),d=c.length,f=1!==d||a&&n.isFunction(a.promise)?d:0,g=1===f?a:n.Deferred(),h=function(a,b,c){return function(d){b[a]=this,c[a]=arguments.length>1?e.call(arguments):d,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(d>1)for(i=new Array(d),j=new Array(d),k=new Array(d);d>b;b++)c[b]&&n.isFunction(c[b].promise)?c[b].promise().progress(h(b,j,i)).done(h(b,k,c)).fail(g.reject):--f;return f||g.resolveWith(k,c),g.promise()}});var I;n.fn.ready=function(a){return n.ready.promise().done(a),this},n.extend({isReady:!1,readyWait:1,holdReady:function(a){a?n.readyWait++:n.ready(!0)},ready:function(a){(a===!0?--n.readyWait:n.isReady)||(n.isReady=!0,a!==!0&&--n.readyWait>0||(I.resolveWith(d,[n]),n.fn.triggerHandler&&(n(d).triggerHandler("ready"),n(d).off("ready"))))}});function J(){d.removeEventListener("DOMContentLoaded",J),a.removeEventListener("load",J),n.ready()}n.ready.promise=function(b){return I||(I=n.Deferred(),"complete"===d.readyState||"loading"!==d.readyState&&!d.documentElement.doScroll?a.setTimeout(n.ready):(d.addEventListener("DOMContentLoaded",J),a.addEventListener("load",J))),I.promise(b)},n.ready.promise();var K=function(a,b,c,d,e,f,g){var h=0,i=a.length,j=null==c;if("object"===n.type(c)){e=!0;for(h in c)K(a,b,h,c[h],!0,f,g)}else if(void 0!==d&&(e=!0,n.isFunction(d)||(g=!0),j&&(g?(b.call(a,d),b=null):(j=b,b=function(a,b,c){return j.call(n(a),c)})),b))for(;i>h;h++)b(a[h],c,g?d:d.call(a[h],h,b(a[h],c)));return e?a:j?b.call(a):i?b(a[0],c):f},L=function(a){return 1===a.nodeType||9===a.nodeType||!+a.nodeType};function M(){this.expando=n.expando+M.uid++}M.uid=1,M.prototype={register:function(a,b){var c=b||{};return a.nodeType?a[this.expando]=c:Object.defineProperty(a,this.expando,{value:c,writable:!0,configurable:!0}),a[this.expando]},cache:function(a){if(!L(a))return{};var b=a[this.expando];return b||(b={},L(a)&&(a.nodeType?a[this.expando]=b:Object.defineProperty(a,this.expando,{value:b,configurable:!0}))),b},set:function(a,b,c){var d,e=this.cache(a);if("string"==typeof b)e[b]=c;else for(d in b)e[d]=b[d];return e},get:function(a,b){return void 0===b?this.cache(a):a[this.expando]&&a[this.expando][b]},access:function(a,b,c){var d;return void 0===b||b&&"string"==typeof b&&void 0===c?(d=this.get(a,b),void 0!==d?d:this.get(a,n.camelCase(b))):(this.set(a,b,c),void 0!==c?c:b)},remove:function(a,b){var c,d,e,f=a[this.expando];if(void 0!==f){if(void 0===b)this.register(a);else{n.isArray(b)?d=b.concat(b.map(n.camelCase)):(e=n.camelCase(b),b in f?d=[b,e]:(d=e,d=d in f?[d]:d.match(G)||[])),c=d.length;while(c--)delete f[d[c]]}(void 0===b||n.isEmptyObject(f))&&(a.nodeType?a[this.expando]=void 0:delete a[this.expando])}},hasData:function(a){var b=a[this.expando];return void 0!==b&&!n.isEmptyObject(b)}};var N=new M,O=new M,P=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,Q=/[A-Z]/g;function R(a,b,c){var d;if(void 0===c&&1===a.nodeType)if(d="data-"+b.replace(Q,"-$&").toLowerCase(),c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:P.test(c)?n.parseJSON(c):c;
 }catch(e){}O.set(a,b,c)}else c=void 0;return c}n.extend({hasData:function(a){return O.hasData(a)||N.hasData(a)},data:function(a,b,c){return O.access(a,b,c)},removeData:function(a,b){O.remove(a,b)},_data:function(a,b,c){return N.access(a,b,c)},_removeData:function(a,b){N.remove(a,b)}}),n.fn.extend({data:function(a,b){var c,d,e,f=this[0],g=f&&f.attributes;if(void 0===a){if(this.length&&(e=O.get(f),1===f.nodeType&&!N.get(f,"hasDataAttrs"))){c=g.length;while(c--)g[c]&&(d=g[c].name,0===d.indexOf("data-")&&(d=n.camelCase(d.slice(5)),R(f,d,e[d])));N.set(f,"hasDataAttrs",!0)}return e}return"object"==typeof a?this.each(function(){O.set(this,a)}):K(this,function(b){var c,d;if(f&&void 0===b){if(c=O.get(f,a)||O.get(f,a.replace(Q,"-$&").toLowerCase()),void 0!==c)return c;if(d=n.camelCase(a),c=O.get(f,d),void 0!==c)return c;if(c=R(f,d,void 0),void 0!==c)return c}else d=n.camelCase(a),this.each(function(){var c=O.get(this,d);O.set(this,d,b),a.indexOf("-")>-1&&void 0!==c&&O.set(this,a,b)})},null,b,arguments.length>1,null,!0)},removeData:function(a){return this.each(function(){O.remove(this,a)})}}),n.extend({queue:function(a,b,c){var d;return a?(b=(b||"fx")+"queue",d=N.get(a,b),c&&(!d||n.isArray(c)?d=N.access(a,b,n.makeArray(c)):d.push(c)),d||[]):void 0},dequeue:function(a,b){b=b||"fx";var c=n.queue(a,b),d=c.length,e=c.shift(),f=n._queueHooks(a,b),g=function(){n.dequeue(a,b)};"inprogress"===e&&(e=c.shift(),d--),e&&("fx"===b&&c.unshift("inprogress"),delete f.stop,e.call(a,g,f)),!d&&f&&f.empty.fire()},_queueHooks:function(a,b){var c=b+"queueHooks";return N.get(a,c)||N.access(a,c,{empty:n.Callbacks("once memory").add(function(){N.remove(a,[b+"queue",c])})})}}),n.fn.extend({queue:function(a,b){var c=2;return"string"!=typeof a&&(b=a,a="fx",c--),arguments.length<c?n.queue(this[0],a):void 0===b?this:this.each(function(){var c=n.queue(this,a,b);n._queueHooks(this,a),"fx"===a&&"inprogress"!==c[0]&&n.dequeue(this,a)})},dequeue:function(a){return this.each(function(){n.dequeue(this,a)})},clearQueue:function(a){return this.queue(a||"fx",[])},promise:function(a,b){var c,d=1,e=n.Deferred(),f=this,g=this.length,h=function(){--d||e.resolveWith(f,[f])};"string"!=typeof a&&(b=a,a=void 0),a=a||"fx";while(g--)c=N.get(f[g],a+"queueHooks"),c&&c.empty&&(d++,c.empty.add(h));return h(),e.promise(b)}});var S=/[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,T=new RegExp("^(?:([+-])=|)("+S+")([a-z%]*)$","i"),U=["Top","Right","Bottom","Left"],V=function(a,b){return a=b||a,"none"===n.css(a,"display")||!n.contains(a.ownerDocument,a)};function W(a,b,c,d){var e,f=1,g=20,h=d?function(){return d.cur()}:function(){return n.css(a,b,"")},i=h(),j=c&&c[3]||(n.cssNumber[b]?"":"px"),k=(n.cssNumber[b]||"px"!==j&&+i)&&T.exec(n.css(a,b));if(k&&k[3]!==j){j=j||k[3],c=c||[],k=+i||1;do f=f||".5",k/=f,n.style(a,b,k+j);while(f!==(f=h()/i)&&1!==f&&--g)}return c&&(k=+k||+i||0,e=c[1]?k+(c[1]+1)*c[2]:+c[2],d&&(d.unit=j,d.start=k,d.end=e)),e}var X=/^(?:checkbox|radio)$/i,Y=/<([\w:-]+)/,Z=/^$|\/(?:java|ecma)script/i,$={option:[1,"<select multiple='multiple'>","</select>"],thead:[1,"<table>","</table>"],col:[2,"<table><colgroup>","</colgroup></table>"],tr:[2,"<table><tbody>","</tbody></table>"],td:[3,"<table><tbody><tr>","</tr></tbody></table>"],_default:[0,"",""]};$.optgroup=$.option,$.tbody=$.tfoot=$.colgroup=$.caption=$.thead,$.th=$.td;function _(a,b){var c="undefined"!=typeof a.getElementsByTagName?a.getElementsByTagName(b||"*"):"undefined"!=typeof a.querySelectorAll?a.querySelectorAll(b||"*"):[];return void 0===b||b&&n.nodeName(a,b)?n.merge([a],c):c}function aa(a,b){for(var c=0,d=a.length;d>c;c++)N.set(a[c],"globalEval",!b||N.get(b[c],"globalEval"))}var ba=/<|&#?\w+;/;function ca(a,b,c,d,e){for(var f,g,h,i,j,k,l=b.createDocumentFragment(),m=[],o=0,p=a.length;p>o;o++)if(f=a[o],f||0===f)if("object"===n.type(f))n.merge(m,f.nodeType?[f]:f);else if(ba.test(f)){g=g||l.appendChild(b.createElement("div")),h=(Y.exec(f)||["",""])[1].toLowerCase(),i=$[h]||$._default,g.innerHTML=i[1]+n.htmlPrefilter(f)+i[2],k=i[0];while(k--)g=g.lastChild;n.merge(m,g.childNodes),g=l.firstChild,g.textContent=""}else m.push(b.createTextNode(f));l.textContent="",o=0;while(f=m[o++])if(d&&n.inArray(f,d)>-1)e&&e.push(f);else if(j=n.contains(f.ownerDocument,f),g=_(l.appendChild(f),"script"),j&&aa(g),c){k=0;while(f=g[k++])Z.test(f.type||"")&&c.push(f)}return l}!function(){var a=d.createDocumentFragment(),b=a.appendChild(d.createElement("div")),c=d.createElement("input");c.setAttribute("type","radio"),c.setAttribute("checked","checked"),c.setAttribute("name","t"),b.appendChild(c),l.checkClone=b.cloneNode(!0).cloneNode(!0).lastChild.checked,b.innerHTML="<textarea>x</textarea>",l.noCloneChecked=!!b.cloneNode(!0).lastChild.defaultValue}();var da=/^key/,ea=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,fa=/^([^.]*)(?:\.(.+)|)/;function ga(){return!0}function ha(){return!1}function ia(){try{return d.activeElement}catch(a){}}function ja(a,b,c,d,e,f){var g,h;if("object"==typeof b){"string"!=typeof c&&(d=d||c,c=void 0);for(h in b)ja(a,h,c,d,b[h],f);return a}if(null==d&&null==e?(e=c,d=c=void 0):null==e&&("string"==typeof c?(e=d,d=void 0):(e=d,d=c,c=void 0)),e===!1)e=ha;else if(!e)return a;return 1===f&&(g=e,e=function(a){return n().off(a),g.apply(this,arguments)},e.guid=g.guid||(g.guid=n.guid++)),a.each(function(){n.event.add(this,b,e,d,c)})}n.event={global:{},add:function(a,b,c,d,e){var f,g,h,i,j,k,l,m,o,p,q,r=N.get(a);if(r){c.handler&&(f=c,c=f.handler,e=f.selector),c.guid||(c.guid=n.guid++),(i=r.events)||(i=r.events={}),(g=r.handle)||(g=r.handle=function(b){return"undefined"!=typeof n&&n.event.triggered!==b.type?n.event.dispatch.apply(a,arguments):void 0}),b=(b||"").match(G)||[""],j=b.length;while(j--)h=fa.exec(b[j])||[],o=q=h[1],p=(h[2]||"").split(".").sort(),o&&(l=n.event.special[o]||{},o=(e?l.delegateType:l.bindType)||o,l=n.event.special[o]||{},k=n.extend({type:o,origType:q,data:d,handler:c,guid:c.guid,selector:e,needsContext:e&&n.expr.match.needsContext.test(e),namespace:p.join(".")},f),(m=i[o])||(m=i[o]=[],m.delegateCount=0,l.setup&&l.setup.call(a,d,p,g)!==!1||a.addEventListener&&a.addEventListener(o,g)),l.add&&(l.add.call(a,k),k.handler.guid||(k.handler.guid=c.guid)),e?m.splice(m.delegateCount++,0,k):m.push(k),n.event.global[o]=!0)}},remove:function(a,b,c,d,e){var f,g,h,i,j,k,l,m,o,p,q,r=N.hasData(a)&&N.get(a);if(r&&(i=r.events)){b=(b||"").match(G)||[""],j=b.length;while(j--)if(h=fa.exec(b[j])||[],o=q=h[1],p=(h[2]||"").split(".").sort(),o){l=n.event.special[o]||{},o=(d?l.delegateType:l.bindType)||o,m=i[o]||[],h=h[2]&&new RegExp("(^|\\.)"+p.join("\\.(?:.*\\.|)")+"(\\.|$)"),g=f=m.length;while(f--)k=m[f],!e&&q!==k.origType||c&&c.guid!==k.guid||h&&!h.test(k.namespace)||d&&d!==k.selector&&("**"!==d||!k.selector)||(m.splice(f,1),k.selector&&m.delegateCount--,l.remove&&l.remove.call(a,k));g&&!m.length&&(l.teardown&&l.teardown.call(a,p,r.handle)!==!1||n.removeEvent(a,o,r.handle),delete i[o])}else for(o in i)n.event.remove(a,o+b[j],c,d,!0);n.isEmptyObject(i)&&N.remove(a,"handle events")}},dispatch:function(a){a=n.event.fix(a);var b,c,d,f,g,h=[],i=e.call(arguments),j=(N.get(this,"events")||{})[a.type]||[],k=n.event.special[a.type]||{};if(i[0]=a,a.delegateTarget=this,!k.preDispatch||k.preDispatch.call(this,a)!==!1){h=n.event.handlers.call(this,a,j),b=0;while((f=h[b++])&&!a.isPropagationStopped()){a.currentTarget=f.elem,c=0;while((g=f.handlers[c++])&&!a.isImmediatePropagationStopped())a.rnamespace&&!a.rnamespace.test(g.namespace)||(a.handleObj=g,a.data=g.data,d=((n.event.special[g.origType]||{}).handle||g.handler).apply(f.elem,i),void 0!==d&&(a.result=d)===!1&&(a.preventDefault(),a.stopPropagation()))}return k.postDispatch&&k.postDispatch.call(this,a),a.result}},handlers:function(a,b){var c,d,e,f,g=[],h=b.delegateCount,i=a.target;if(h&&i.nodeType&&("click"!==a.type||isNaN(a.button)||a.button<1))for(;i!==this;i=i.parentNode||this)if(1===i.nodeType&&(i.disabled!==!0||"click"!==a.type)){for(d=[],c=0;h>c;c++)f=b[c],e=f.selector+" ",void 0===d[e]&&(d[e]=f.needsContext?n(e,this).index(i)>-1:n.find(e,this,null,[i]).length),d[e]&&d.push(f);d.length&&g.push({elem:i,handlers:d})}return h<b.length&&g.push({elem:this,handlers:b.slice(h)}),g},props:"altKey bubbles cancelable ctrlKey currentTarget detail eventPhase metaKey relatedTarget shiftKey target timeStamp view which".split(" "),fixHooks:{},keyHooks:{props:"char charCode key keyCode".split(" "),filter:function(a,b){return null==a.which&&(a.which=null!=b.charCode?b.charCode:b.keyCode),a}},mouseHooks:{props:"button buttons clientX clientY offsetX offsetY pageX pageY screenX screenY toElement".split(" "),filter:function(a,b){var c,e,f,g=b.button;return null==a.pageX&&null!=b.clientX&&(c=a.target.ownerDocument||d,e=c.documentElement,f=c.body,a.pageX=b.clientX+(e&&e.scrollLeft||f&&f.scrollLeft||0)-(e&&e.clientLeft||f&&f.clientLeft||0),a.pageY=b.clientY+(e&&e.scrollTop||f&&f.scrollTop||0)-(e&&e.clientTop||f&&f.clientTop||0)),a.which||void 0===g||(a.which=1&g?1:2&g?3:4&g?2:0),a}},fix:function(a){if(a[n.expando])return a;var b,c,e,f=a.type,g=a,h=this.fixHooks[f];h||(this.fixHooks[f]=h=ea.test(f)?this.mouseHooks:da.test(f)?this.keyHooks:{}),e=h.props?this.props.concat(h.props):this.props,a=new n.Event(g),b=e.length;while(b--)c=e[b],a[c]=g[c];return a.target||(a.target=d),3===a.target.nodeType&&(a.target=a.target.parentNode),h.filter?h.filter(a,g):a},special:{load:{noBubble:!0},focus:{trigger:function(){return this!==ia()&&this.focus?(this.focus(),!1):void 0},delegateType:"focusin"},blur:{trigger:function(){return this===ia()&&this.blur?(this.blur(),!1):void 0},delegateType:"focusout"},click:{trigger:function(){return"checkbox"===this.type&&this.click&&n.nodeName(this,"input")?(this.click(),!1):void 0},_default:function(a){return n.nodeName(a.target,"a")}},beforeunload:{postDispatch:function(a){void 0!==a.result&&a.originalEvent&&(a.originalEvent.returnValue=a.result)}}}},n.removeEvent=function(a,b,c){a.removeEventListener&&a.removeEventListener(b,c)},n.Event=function(a,b){return this instanceof n.Event?(a&&a.type?(this.originalEvent=a,this.type=a.type,this.isDefaultPrevented=a.defaultPrevented||void 0===a.defaultPrevented&&a.returnValue===!1?ga:ha):this.type=a,b&&n.extend(this,b),this.timeStamp=a&&a.timeStamp||n.now(),void(this[n.expando]=!0)):new n.Event(a,b)},n.Event.prototype={constructor:n.Event,isDefaultPrevented:ha,isPropagationStopped:ha,isImmediatePropagationStopped:ha,isSimulated:!1,preventDefault:function(){var a=this.originalEvent;this.isDefaultPrevented=ga,a&&!this.isSimulated&&a.preventDefault()},stopPropagation:function(){var a=this.originalEvent;this.isPropagationStopped=ga,a&&!this.isSimulated&&a.stopPropagation()},stopImmediatePropagation:function(){var a=this.originalEvent;this.isImmediatePropagationStopped=ga,a&&!this.isSimulated&&a.stopImmediatePropagation(),this.stopPropagation()}},n.each({mouseenter:"mouseover",mouseleave:"mouseout",pointerenter:"pointerover",pointerleave:"pointerout"},function(a,b){n.event.special[a]={delegateType:b,bindType:b,handle:function(a){var c,d=this,e=a.relatedTarget,f=a.handleObj;return e&&(e===d||n.contains(d,e))||(a.type=f.origType,c=f.handler.apply(this,arguments),a.type=b),c}}}),n.fn.extend({on:function(a,b,c,d){return ja(this,a,b,c,d)},one:function(a,b,c,d){return ja(this,a,b,c,d,1)},off:function(a,b,c){var d,e;if(a&&a.preventDefault&&a.handleObj)return d=a.handleObj,n(a.delegateTarget).off(d.namespace?d.origType+"."+d.namespace:d.origType,d.selector,d.handler),this;if("object"==typeof a){for(e in a)this.off(e,b,a[e]);return this}return b!==!1&&"function"!=typeof b||(c=b,b=void 0),c===!1&&(c=ha),this.each(function(){n.event.remove(this,a,c,b)})}});var ka=/<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:-]+)[^>]*)\/>/gi,la=/<script|<style|<link/i,ma=/checked\s*(?:[^=]|=\s*.checked.)/i,na=/^true\/(.*)/,oa=/^\s*<!(?:\[CDATA\[|--)|(?:\]\]|--)>\s*$/g;function pa(a,b){return n.nodeName(a,"table")&&n.nodeName(11!==b.nodeType?b:b.firstChild,"tr")?a.getElementsByTagName("tbody")[0]||a.appendChild(a.ownerDocument.createElement("tbody")):a}function qa(a){return a.type=(null!==a.getAttribute("type"))+"/"+a.type,a}function ra(a){var b=na.exec(a.type);return b?a.type=b[1]:a.removeAttribute("type"),a}function sa(a,b){var c,d,e,f,g,h,i,j;if(1===b.nodeType){if(N.hasData(a)&&(f=N.access(a),g=N.set(b,f),j=f.events)){delete g.handle,g.events={};for(e in j)for(c=0,d=j[e].length;d>c;c++)n.event.add(b,e,j[e][c])}O.hasData(a)&&(h=O.access(a),i=n.extend({},h),O.set(b,i))}}function ta(a,b){var c=b.nodeName.toLowerCase();"input"===c&&X.test(a.type)?b.checked=a.checked:"input"!==c&&"textarea"!==c||(b.defaultValue=a.defaultValue)}function ua(a,b,c,d){b=f.apply([],b);var e,g,h,i,j,k,m=0,o=a.length,p=o-1,q=b[0],r=n.isFunction(q);if(r||o>1&&"string"==typeof q&&!l.checkClone&&ma.test(q))return a.each(function(e){var f=a.eq(e);r&&(b[0]=q.call(this,e,f.html())),ua(f,b,c,d)});if(o&&(e=ca(b,a[0].ownerDocument,!1,a,d),g=e.firstChild,1===e.childNodes.length&&(e=g),g||d)){for(h=n.map(_(e,"script"),qa),i=h.length;o>m;m++)j=e,m!==p&&(j=n.clone(j,!0,!0),i&&n.merge(h,_(j,"script"))),c.call(a[m],j,m);if(i)for(k=h[h.length-1].ownerDocument,n.map(h,ra),m=0;i>m;m++)j=h[m],Z.test(j.type||"")&&!N.access(j,"globalEval")&&n.contains(k,j)&&(j.src?n._evalUrl&&n._evalUrl(j.src):n.globalEval(j.textContent.replace(oa,"")))}return a}function va(a,b,c){for(var d,e=b?n.filter(b,a):a,f=0;null!=(d=e[f]);f++)c||1!==d.nodeType||n.cleanData(_(d)),d.parentNode&&(c&&n.contains(d.ownerDocument,d)&&aa(_(d,"script")),d.parentNode.removeChild(d));return a}n.extend({htmlPrefilter:function(a){return a.replace(ka,"<$1></$2>")},clone:function(a,b,c){var d,e,f,g,h=a.cloneNode(!0),i=n.contains(a.ownerDocument,a);if(!(l.noCloneChecked||1!==a.nodeType&&11!==a.nodeType||n.isXMLDoc(a)))for(g=_(h),f=_(a),d=0,e=f.length;e>d;d++)ta(f[d],g[d]);if(b)if(c)for(f=f||_(a),g=g||_(h),d=0,e=f.length;e>d;d++)sa(f[d],g[d]);else sa(a,h);return g=_(h,"script"),g.length>0&&aa(g,!i&&_(a,"script")),h},cleanData:function(a){for(var b,c,d,e=n.event.special,f=0;void 0!==(c=a[f]);f++)if(L(c)){if(b=c[N.expando]){if(b.events)for(d in b.events)e[d]?n.event.remove(c,d):n.removeEvent(c,d,b.handle);c[N.expando]=void 0}c[O.expando]&&(c[O.expando]=void 0)}}}),n.fn.extend({domManip:ua,detach:function(a){return va(this,a,!0)},remove:function(a){return va(this,a)},text:function(a){return K(this,function(a){return void 0===a?n.text(this):this.empty().each(function(){1!==this.nodeType&&11!==this.nodeType&&9!==this.nodeType||(this.textContent=a)})},null,a,arguments.length)},append:function(){return ua(this,arguments,function(a){if(1===this.nodeType||11===this.nodeType||9===this.nodeType){var b=pa(this,a);b.appendChild(a)}})},prepend:function(){return ua(this,arguments,function(a){if(1===this.nodeType||11===this.nodeType||9===this.nodeType){var b=pa(this,a);b.insertBefore(a,b.firstChild)}})},before:function(){return ua(this,arguments,function(a){this.parentNode&&this.parentNode.insertBefore(a,this)})},after:function(){return ua(this,arguments,function(a){this.parentNode&&this.parentNode.insertBefore(a,this.nextSibling)})},empty:function(){for(var a,b=0;null!=(a=this[b]);b++)1===a.nodeType&&(n.cleanData(_(a,!1)),a.textContent="");return this},clone:function(a,b){return a=null==a?!1:a,b=null==b?a:b,this.map(function(){return n.clone(this,a,b)})},html:function(a){return K(this,function(a){var b=this[0]||{},c=0,d=this.length;if(void 0===a&&1===b.nodeType)return b.innerHTML;if("string"==typeof a&&!la.test(a)&&!$[(Y.exec(a)||["",""])[1].toLowerCase()]){a=n.htmlPrefilter(a);try{for(;d>c;c++)b=this[c]||{},1===b.nodeType&&(n.cleanData(_(b,!1)),b.innerHTML=a);b=0}catch(e){}}b&&this.empty().append(a)},null,a,arguments.length)},replaceWith:function(){var a=[];return ua(this,arguments,function(b){var c=this.parentNode;n.inArray(this,a)<0&&(n.cleanData(_(this)),c&&c.replaceChild(b,this))},a)}}),n.each({appendTo:"append",prependTo:"prepend",insertBefore:"before",insertAfter:"after",replaceAll:"replaceWith"},function(a,b){n.fn[a]=function(a){for(var c,d=[],e=n(a),f=e.length-1,h=0;f>=h;h++)c=h===f?this:this.clone(!0),n(e[h])[b](c),g.apply(d,c.get());return this.pushStack(d)}});var wa,xa={HTML:"block",BODY:"block"};function ya(a,b){var c=n(b.createElement(a)).appendTo(b.body),d=n.css(c[0],"display");return c.detach(),d}function za(a){var b=d,c=xa[a];return c||(c=ya(a,b),"none"!==c&&c||(wa=(wa||n("<iframe frameborder='0' width='0' height='0'/>")).appendTo(b.documentElement),b=wa[0].contentDocument,b.write(),b.close(),c=ya(a,b),wa.detach()),xa[a]=c),c}var Aa=/^margin/,Ba=new RegExp("^("+S+")(?!px)[a-z%]+$","i"),Ca=function(b){var c=b.ownerDocument.defaultView;return c&&c.opener||(c=a),c.getComputedStyle(b)},Da=function(a,b,c,d){var e,f,g={};for(f in b)g[f]=a.style[f],a.style[f]=b[f];e=c.apply(a,d||[]);for(f in b)a.style[f]=g[f];return e},Ea=d.documentElement;!function(){var b,c,e,f,g=d.createElement("div"),h=d.createElement("div");if(h.style){h.style.backgroundClip="content-box",h.cloneNode(!0).style.backgroundClip="",l.clearCloneStyle="content-box"===h.style.backgroundClip,g.style.cssText="border:0;width:8px;height:0;top:0;left:-9999px;padding:0;margin-top:1px;position:absolute",g.appendChild(h);function i(){h.style.cssText="-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative;display:block;margin:auto;border:1px;padding:1px;top:1%;width:50%",h.innerHTML="",Ea.appendChild(g);var d=a.getComputedStyle(h);b="1%"!==d.top,f="2px"===d.marginLeft,c="4px"===d.width,h.style.marginRight="50%",e="4px"===d.marginRight,Ea.removeChild(g)}n.extend(l,{pixelPosition:function(){return i(),b},boxSizingReliable:function(){return null==c&&i(),c},pixelMarginRight:function(){return null==c&&i(),e},reliableMarginLeft:function(){return null==c&&i(),f},reliableMarginRight:function(){var b,c=h.appendChild(d.createElement("div"));return c.style.cssText=h.style.cssText="-webkit-box-sizing:content-box;box-sizing:content-box;display:block;margin:0;border:0;padding:0",c.style.marginRight=c.style.width="0",h.style.width="1px",Ea.appendChild(g),b=!parseFloat(a.getComputedStyle(c).marginRight),Ea.removeChild(g),h.removeChild(c),b}})}}();function Fa(a,b,c){var d,e,f,g,h=a.style;return c=c||Ca(a),g=c?c.getPropertyValue(b)||c[b]:void 0,""!==g&&void 0!==g||n.contains(a.ownerDocument,a)||(g=n.style(a,b)),c&&!l.pixelMarginRight()&&Ba.test(g)&&Aa.test(b)&&(d=h.width,e=h.minWidth,f=h.maxWidth,h.minWidth=h.maxWidth=h.width=g,g=c.width,h.width=d,h.minWidth=e,h.maxWidth=f),void 0!==g?g+"":g}function Ga(a,b){return{get:function(){return a()?void delete this.get:(this.get=b).apply(this,arguments)}}}var Ha=/^(none|table(?!-c[ea]).+)/,Ia={position:"absolute",visibility:"hidden",display:"block"},Ja={letterSpacing:"0",fontWeight:"400"},Ka=["Webkit","O","Moz","ms"],La=d.createElement("div").style;function Ma(a){if(a in La)return a;var b=a[0].toUpperCase()+a.slice(1),c=Ka.length;while(c--)if(a=Ka[c]+b,a in La)return a}function Na(a,b,c){var d=T.exec(b);return d?Math.max(0,d[2]-(c||0))+(d[3]||"px"):b}function Oa(a,b,c,d,e){for(var f=c===(d?"border":"content")?4:"width"===b?1:0,g=0;4>f;f+=2)"margin"===c&&(g+=n.css(a,c+U[f],!0,e)),d?("content"===c&&(g-=n.css(a,"padding"+U[f],!0,e)),"margin"!==c&&(g-=n.css(a,"border"+U[f]+"Width",!0,e))):(g+=n.css(a,"padding"+U[f],!0,e),"padding"!==c&&(g+=n.css(a,"border"+U[f]+"Width",!0,e)));return g}function Pa(a,b,c){var d=!0,e="width"===b?a.offsetWidth:a.offsetHeight,f=Ca(a),g="border-box"===n.css(a,"boxSizing",!1,f);if(0>=e||null==e){if(e=Fa(a,b,f),(0>e||null==e)&&(e=a.style[b]),Ba.test(e))return e;d=g&&(l.boxSizingReliable()||e===a.style[b]),e=parseFloat(e)||0}return e+Oa(a,b,c||(g?"border":"content"),d,f)+"px"}function Qa(a,b){for(var c,d,e,f=[],g=0,h=a.length;h>g;g++)d=a[g],d.style&&(f[g]=N.get(d,"olddisplay"),c=d.style.display,b?(f[g]||"none"!==c||(d.style.display=""),""===d.style.display&&V(d)&&(f[g]=N.access(d,"olddisplay",za(d.nodeName)))):(e=V(d),"none"===c&&e||N.set(d,"olddisplay",e?c:n.css(d,"display"))));for(g=0;h>g;g++)d=a[g],d.style&&(b&&"none"!==d.style.display&&""!==d.style.display||(d.style.display=b?f[g]||"":"none"));return a}n.extend({cssHooks:{opacity:{get:function(a,b){if(b){var c=Fa(a,"opacity");return""===c?"1":c}}}},cssNumber:{animationIterationCount:!0,columnCount:!0,fillOpacity:!0,flexGrow:!0,flexShrink:!0,fontWeight:!0,lineHeight:!0,opacity:!0,order:!0,orphans:!0,widows:!0,zIndex:!0,zoom:!0},cssProps:{"float":"cssFloat"},style:function(a,b,c,d){if(a&&3!==a.nodeType&&8!==a.nodeType&&a.style){var e,f,g,h=n.camelCase(b),i=a.style;return b=n.cssProps[h]||(n.cssProps[h]=Ma(h)||h),g=n.cssHooks[b]||n.cssHooks[h],void 0===c?g&&"get"in g&&void 0!==(e=g.get(a,!1,d))?e:i[b]:(f=typeof c,"string"===f&&(e=T.exec(c))&&e[1]&&(c=W(a,b,e),f="number"),null!=c&&c===c&&("number"===f&&(c+=e&&e[3]||(n.cssNumber[h]?"":"px")),l.clearCloneStyle||""!==c||0!==b.indexOf("background")||(i[b]="inherit"),g&&"set"in g&&void 0===(c=g.set(a,c,d))||(i[b]=c)),void 0)}},css:function(a,b,c,d){var e,f,g,h=n.camelCase(b);return b=n.cssProps[h]||(n.cssProps[h]=Ma(h)||h),g=n.cssHooks[b]||n.cssHooks[h],g&&"get"in g&&(e=g.get(a,!0,c)),void 0===e&&(e=Fa(a,b,d)),"normal"===e&&b in Ja&&(e=Ja[b]),""===c||c?(f=parseFloat(e),c===!0||isFinite(f)?f||0:e):e}}),n.each(["height","width"],function(a,b){n.cssHooks[b]={get:function(a,c,d){return c?Ha.test(n.css(a,"display"))&&0===a.offsetWidth?Da(a,Ia,function(){return Pa(a,b,d)}):Pa(a,b,d):void 0},set:function(a,c,d){var e,f=d&&Ca(a),g=d&&Oa(a,b,d,"border-box"===n.css(a,"boxSizing",!1,f),f);return g&&(e=T.exec(c))&&"px"!==(e[3]||"px")&&(a.style[b]=c,c=n.css(a,b)),Na(a,c,g)}}}),n.cssHooks.marginLeft=Ga(l.reliableMarginLeft,function(a,b){return b?(parseFloat(Fa(a,"marginLeft"))||a.getBoundingClientRect().left-Da(a,{marginLeft:0},function(){return a.getBoundingClientRect().left}))+"px":void 0}),n.cssHooks.marginRight=Ga(l.reliableMarginRight,function(a,b){return b?Da(a,{display:"inline-block"},Fa,[a,"marginRight"]):void 0}),n.each({margin:"",padding:"",border:"Width"},function(a,b){n.cssHooks[a+b]={expand:function(c){for(var d=0,e={},f="string"==typeof c?c.split(" "):[c];4>d;d++)e[a+U[d]+b]=f[d]||f[d-2]||f[0];return e}},Aa.test(a)||(n.cssHooks[a+b].set=Na)}),n.fn.extend({css:function(a,b){return K(this,function(a,b,c){var d,e,f={},g=0;if(n.isArray(b)){for(d=Ca(a),e=b.length;e>g;g++)f[b[g]]=n.css(a,b[g],!1,d);return f}return void 0!==c?n.style(a,b,c):n.css(a,b)},a,b,arguments.length>1)},show:function(){return Qa(this,!0)},hide:function(){return Qa(this)},toggle:function(a){return"boolean"==typeof a?a?this.show():this.hide():this.each(function(){V(this)?n(this).show():n(this).hide()})}});function Ra(a,b,c,d,e){return new Ra.prototype.init(a,b,c,d,e)}n.Tween=Ra,Ra.prototype={constructor:Ra,init:function(a,b,c,d,e,f){this.elem=a,this.prop=c,this.easing=e||n.easing._default,this.options=b,this.start=this.now=this.cur(),this.end=d,this.unit=f||(n.cssNumber[c]?"":"px")},cur:function(){var a=Ra.propHooks[this.prop];return a&&a.get?a.get(this):Ra.propHooks._default.get(this)},run:function(a){var b,c=Ra.propHooks[this.prop];return this.options.duration?this.pos=b=n.easing[this.easing](a,this.options.duration*a,0,1,this.options.duration):this.pos=b=a,this.now=(this.end-this.start)*b+this.start,this.options.step&&this.options.step.call(this.elem,this.now,this),c&&c.set?c.set(this):Ra.propHooks._default.set(this),this}},Ra.prototype.init.prototype=Ra.prototype,Ra.propHooks={_default:{get:function(a){var b;return 1!==a.elem.nodeType||null!=a.elem[a.prop]&&null==a.elem.style[a.prop]?a.elem[a.prop]:(b=n.css(a.elem,a.prop,""),b&&"auto"!==b?b:0)},set:function(a){n.fx.step[a.prop]?n.fx.step[a.prop](a):1!==a.elem.nodeType||null==a.elem.style[n.cssProps[a.prop]]&&!n.cssHooks[a.prop]?a.elem[a.prop]=a.now:n.style(a.elem,a.prop,a.now+a.unit)}}},Ra.propHooks.scrollTop=Ra.propHooks.scrollLeft={set:function(a){a.elem.nodeType&&a.elem.parentNode&&(a.elem[a.prop]=a.now)}},n.easing={linear:function(a){return a},swing:function(a){return.5-Math.cos(a*Math.PI)/2},_default:"swing"},n.fx=Ra.prototype.init,n.fx.step={};var Sa,Ta,Ua=/^(?:toggle|show|hide)$/,Va=/queueHooks$/;function Wa(){return a.setTimeout(function(){Sa=void 0}),Sa=n.now()}function Xa(a,b){var c,d=0,e={height:a};for(b=b?1:0;4>d;d+=2-b)c=U[d],e["margin"+c]=e["padding"+c]=a;return b&&(e.opacity=e.width=a),e}function Ya(a,b,c){for(var d,e=(_a.tweeners[b]||[]).concat(_a.tweeners["*"]),f=0,g=e.length;g>f;f++)if(d=e[f].call(c,b,a))return d}function Za(a,b,c){var d,e,f,g,h,i,j,k,l=this,m={},o=a.style,p=a.nodeType&&V(a),q=N.get(a,"fxshow");c.queue||(h=n._queueHooks(a,"fx"),null==h.unqueued&&(h.unqueued=0,i=h.empty.fire,h.empty.fire=function(){h.unqueued||i()}),h.unqueued++,l.always(function(){l.always(function(){h.unqueued--,n.queue(a,"fx").length||h.empty.fire()})})),1===a.nodeType&&("height"in b||"width"in b)&&(c.overflow=[o.overflow,o.overflowX,o.overflowY],j=n.css(a,"display"),k="none"===j?N.get(a,"olddisplay")||za(a.nodeName):j,"inline"===k&&"none"===n.css(a,"float")&&(o.display="inline-block")),c.overflow&&(o.overflow="hidden",l.always(function(){o.overflow=c.overflow[0],o.overflowX=c.overflow[1],o.overflowY=c.overflow[2]}));for(d in b)if(e=b[d],Ua.exec(e)){if(delete b[d],f=f||"toggle"===e,e===(p?"hide":"show")){if("show"!==e||!q||void 0===q[d])continue;p=!0}m[d]=q&&q[d]||n.style(a,d)}else j=void 0;if(n.isEmptyObject(m))"inline"===("none"===j?za(a.nodeName):j)&&(o.display=j);else{q?"hidden"in q&&(p=q.hidden):q=N.access(a,"fxshow",{}),f&&(q.hidden=!p),p?n(a).show():l.done(function(){n(a).hide()}),l.done(function(){var b;N.remove(a,"fxshow");for(b in m)n.style(a,b,m[b])});for(d in m)g=Ya(p?q[d]:0,d,l),d in q||(q[d]=g.start,p&&(g.end=g.start,g.start="width"===d||"height"===d?1:0))}}function $a(a,b){var c,d,e,f,g;for(c in a)if(d=n.camelCase(c),e=b[d],f=a[c],n.isArray(f)&&(e=f[1],f=a[c]=f[0]),c!==d&&(a[d]=f,delete a[c]),g=n.cssHooks[d],g&&"expand"in g){f=g.expand(f),delete a[d];for(c in f)c in a||(a[c]=f[c],b[c]=e)}else b[d]=e}function _a(a,b,c){var d,e,f=0,g=_a.prefilters.length,h=n.Deferred().always(function(){delete i.elem}),i=function(){if(e)return!1;for(var b=Sa||Wa(),c=Math.max(0,j.startTime+j.duration-b),d=c/j.duration||0,f=1-d,g=0,i=j.tweens.length;i>g;g++)j.tweens[g].run(f);return h.notifyWith(a,[j,f,c]),1>f&&i?c:(h.resolveWith(a,[j]),!1)},j=h.promise({elem:a,props:n.extend({},b),opts:n.extend(!0,{specialEasing:{},easing:n.easing._default},c),originalProperties:b,originalOptions:c,startTime:Sa||Wa(),duration:c.duration,tweens:[],createTween:function(b,c){var d=n.Tween(a,j.opts,b,c,j.opts.specialEasing[b]||j.opts.easing);return j.tweens.push(d),d},stop:function(b){var c=0,d=b?j.tweens.length:0;if(e)return this;for(e=!0;d>c;c++)j.tweens[c].run(1);return b?(h.notifyWith(a,[j,1,0]),h.resolveWith(a,[j,b])):h.rejectWith(a,[j,b]),this}}),k=j.props;for($a(k,j.opts.specialEasing);g>f;f++)if(d=_a.prefilters[f].call(j,a,k,j.opts))return n.isFunction(d.stop)&&(n._queueHooks(j.elem,j.opts.queue).stop=n.proxy(d.stop,d)),d;return n.map(k,Ya,j),n.isFunction(j.opts.start)&&j.opts.start.call(a,j),n.fx.timer(n.extend(i,{elem:a,anim:j,queue:j.opts.queue})),j.progress(j.opts.progress).done(j.opts.done,j.opts.complete).fail(j.opts.fail).always(j.opts.always)}n.Animation=n.extend(_a,{tweeners:{"*":[function(a,b){var c=this.createTween(a,b);return W(c.elem,a,T.exec(b),c),c}]},tweener:function(a,b){n.isFunction(a)?(b=a,a=["*"]):a=a.match(G);for(var c,d=0,e=a.length;e>d;d++)c=a[d],_a.tweeners[c]=_a.tweeners[c]||[],_a.tweeners[c].unshift(b)},prefilters:[Za],prefilter:function(a,b){b?_a.prefilters.unshift(a):_a.prefilters.push(a)}}),n.speed=function(a,b,c){var d=a&&"object"==typeof a?n.extend({},a):{complete:c||!c&&b||n.isFunction(a)&&a,duration:a,easing:c&&b||b&&!n.isFunction(b)&&b};return d.duration=n.fx.off?0:"number"==typeof d.duration?d.duration:d.duration in n.fx.speeds?n.fx.speeds[d.duration]:n.fx.speeds._default,null!=d.queue&&d.queue!==!0||(d.queue="fx"),d.old=d.complete,d.complete=function(){n.isFunction(d.old)&&d.old.call(this),d.queue&&n.dequeue(this,d.queue)},d},n.fn.extend({fadeTo:function(a,b,c,d){return this.filter(V).css("opacity",0).show().end().animate({opacity:b},a,c,d)},animate:function(a,b,c,d){var e=n.isEmptyObject(a),f=n.speed(b,c,d),g=function(){var b=_a(this,n.extend({},a),f);(e||N.get(this,"finish"))&&b.stop(!0)};return g.finish=g,e||f.queue===!1?this.each(g):this.queue(f.queue,g)},stop:function(a,b,c){var d=function(a){var b=a.stop;delete a.stop,b(c)};return"string"!=typeof a&&(c=b,b=a,a=void 0),b&&a!==!1&&this.queue(a||"fx",[]),this.each(function(){var b=!0,e=null!=a&&a+"queueHooks",f=n.timers,g=N.get(this);if(e)g[e]&&g[e].stop&&d(g[e]);else for(e in g)g[e]&&g[e].stop&&Va.test(e)&&d(g[e]);for(e=f.length;e--;)f[e].elem!==this||null!=a&&f[e].queue!==a||(f[e].anim.stop(c),b=!1,f.splice(e,1));!b&&c||n.dequeue(this,a)})},finish:function(a){return a!==!1&&(a=a||"fx"),this.each(function(){var b,c=N.get(this),d=c[a+"queue"],e=c[a+"queueHooks"],f=n.timers,g=d?d.length:0;for(c.finish=!0,n.queue(this,a,[]),e&&e.stop&&e.stop.call(this,!0),b=f.length;b--;)f[b].elem===this&&f[b].queue===a&&(f[b].anim.stop(!0),f.splice(b,1));for(b=0;g>b;b++)d[b]&&d[b].finish&&d[b].finish.call(this);delete c.finish})}}),n.each(["toggle","show","hide"],function(a,b){var c=n.fn[b];n.fn[b]=function(a,d,e){return null==a||"boolean"==typeof a?c.apply(this,arguments):this.animate(Xa(b,!0),a,d,e)}}),n.each({slideDown:Xa("show"),slideUp:Xa("hide"),slideToggle:Xa("toggle"),fadeIn:{opacity:"show"},fadeOut:{opacity:"hide"},fadeToggle:{opacity:"toggle"}},function(a,b){n.fn[a]=function(a,c,d){return this.animate(b,a,c,d)}}),n.timers=[],n.fx.tick=function(){var a,b=0,c=n.timers;for(Sa=n.now();b<c.length;b++)a=c[b],a()||c[b]!==a||c.splice(b--,1);c.length||n.fx.stop(),Sa=void 0},n.fx.timer=function(a){n.timers.push(a),a()?n.fx.start():n.timers.pop()},n.fx.interval=13,n.fx.start=function(){Ta||(Ta=a.setInterval(n.fx.tick,n.fx.interval))},n.fx.stop=function(){a.clearInterval(Ta),Ta=null},n.fx.speeds={slow:600,fast:200,_default:400},n.fn.delay=function(b,c){return b=n.fx?n.fx.speeds[b]||b:b,c=c||"fx",this.queue(c,function(c,d){var e=a.setTimeout(c,b);d.stop=function(){a.clearTimeout(e)}})},function(){var a=d.createElement("input"),b=d.createElement("select"),c=b.appendChild(d.createElement("option"));a.type="checkbox",l.checkOn=""!==a.value,l.optSelected=c.selected,b.disabled=!0,l.optDisabled=!c.disabled,a=d.createElement("input"),a.value="t",a.type="radio",l.radioValue="t"===a.value}();var ab,bb=n.expr.attrHandle;n.fn.extend({attr:function(a,b){return K(this,n.attr,a,b,arguments.length>1)},removeAttr:function(a){return this.each(function(){n.removeAttr(this,a)})}}),n.extend({attr:function(a,b,c){var d,e,f=a.nodeType;if(3!==f&&8!==f&&2!==f)return"undefined"==typeof a.getAttribute?n.prop(a,b,c):(1===f&&n.isXMLDoc(a)||(b=b.toLowerCase(),e=n.attrHooks[b]||(n.expr.match.bool.test(b)?ab:void 0)),void 0!==c?null===c?void n.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:(a.setAttribute(b,c+""),c):e&&"get"in e&&null!==(d=e.get(a,b))?d:(d=n.find.attr(a,b),null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!l.radioValue&&"radio"===b&&n.nodeName(a,"input")){var c=a.value;return a.setAttribute("type",b),c&&(a.value=c),b}}}},removeAttr:function(a,b){var c,d,e=0,f=b&&b.match(G);if(f&&1===a.nodeType)while(c=f[e++])d=n.propFix[c]||c,n.expr.match.bool.test(c)&&(a[d]=!1),a.removeAttribute(c)}}),ab={set:function(a,b,c){return b===!1?n.removeAttr(a,c):a.setAttribute(c,c),c}},n.each(n.expr.match.bool.source.match(/\w+/g),function(a,b){var c=bb[b]||n.find.attr;bb[b]=function(a,b,d){var e,f;return d||(f=bb[b],bb[b]=e,e=null!=c(a,b,d)?b.toLowerCase():null,bb[b]=f),e}});var cb=/^(?:input|select|textarea|button)$/i,db=/^(?:a|area)$/i;n.fn.extend({prop:function(a,b){return K(this,n.prop,a,b,arguments.length>1)},removeProp:function(a){return this.each(function(){delete this[n.propFix[a]||a]})}}),n.extend({prop:function(a,b,c){var d,e,f=a.nodeType;if(3!==f&&8!==f&&2!==f)return 1===f&&n.isXMLDoc(a)||(b=n.propFix[b]||b,e=n.propHooks[b]),
@@ -249,13 +249,13 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
 })(jQuery, window, document);
 
 /**
-*  Ajax Autocomplete for jQuery, version 1.3.0
+*  Ajax Autocomplete for jQuery, version 1.4.1
 *  (c) 2017 Tomas Kirda
 *
 *  Ajax Autocomplete for jQuery is freely distributable under the terms of an MIT-style license.
 *  For details, see the web site: https://github.com/devbridge/jQuery-Autocomplete
 */
-!function(a){"use strict";"function"==typeof define&&define.amd?define(["jquery"],a):a("object"==typeof exports&&"function"==typeof require?require("jquery"):jQuery)}(function(a){"use strict";function b(c,d){var e=a.noop,f=this,g={ajaxSettings:{},autoSelectFirst:!1,appendTo:document.body,serviceUrl:null,lookup:null,onSelect:null,width:"auto",minChars:1,maxHeight:300,deferRequestBy:0,params:{},formatResult:b.formatResult,formatGroup:b.formatGroup,delimiter:null,zIndex:9999,type:"GET",noCache:!1,onSearchStart:e,onSearchComplete:e,onSearchError:e,preserveInput:!1,containerClass:"autocomplete-suggestions",tabDisabled:!1,dataType:"text",currentRequest:null,triggerSelectOnValidInput:!0,preventBadQueries:!0,lookupFilter:function(a,b,c){return-1!==a.value.toLowerCase().indexOf(c)},paramName:"query",transformResult:function(b){return"string"==typeof b?a.parseJSON(b):b},showNoSuggestionNotice:!1,noSuggestionNotice:"No results",orientation:"bottom",forceFixPosition:!1};f.element=c,f.el=a(c),f.suggestions=[],f.badQueries=[],f.selectedIndex=-1,f.currentValue=f.element.value,f.intervalId=0,f.cachedResponse={},f.onChangeInterval=null,f.onChange=null,f.isLocal=!1,f.suggestionsContainer=null,f.noSuggestionsContainer=null,f.options=a.extend({},g,d),f.classes={selected:"autocomplete-selected",suggestion:"autocomplete-suggestion"},f.hint=null,f.hintValue="",f.selection=null,f.initialize(),f.setOptions(d)}var c=function(){return{escapeRegExChars:function(a){return a.replace(/[|\\{}()[\]^$+*?.]/g,"\\$&")},createNode:function(a){var b=document.createElement("div");return b.className=a,b.style.position="absolute",b.style.display="none",b}}}(),d={ESC:27,TAB:9,RETURN:13,LEFT:37,UP:38,RIGHT:39,DOWN:40};b.utils=c,a.Autocomplete=b,b.formatResult=function(a,b){if(!b)return a.value;var d="("+c.escapeRegExChars(b)+")";return a.value.replace(new RegExp(d,"gi"),"<strong>$1</strong>").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/&lt;(\/?strong)&gt;/g,"<$1>")},b.formatGroup=function(a,b){return'<div class="autocomplete-group"><strong>'+b+"</strong></div>"},b.prototype={killerFn:null,initialize:function(){var c,d=this,e="."+d.classes.suggestion,f=d.classes.selected,g=d.options;d.element.setAttribute("autocomplete","off"),d.killerFn=function(b){a(b.target).closest("."+d.options.containerClass).length||(d.killSuggestions(),d.disableKillerFn())},d.noSuggestionsContainer=a('<div class="autocomplete-no-suggestion"></div>').html(this.options.noSuggestionNotice).get(0),d.suggestionsContainer=b.utils.createNode(g.containerClass),c=a(d.suggestionsContainer),c.appendTo(g.appendTo),"auto"!==g.width&&c.css("width",g.width),c.on("mouseover.autocomplete",e,function(){d.activate(a(this).data("index"))}),c.on("mouseout.autocomplete",function(){d.selectedIndex=-1,c.children("."+f).removeClass(f)}),c.on("click.autocomplete",e,function(){return d.select(a(this).data("index")),!1}),d.fixPositionCapture=function(){d.visible&&d.fixPosition()},a(window).on("resize.autocomplete",d.fixPositionCapture),d.el.on("keydown.autocomplete",function(a){d.onKeyPress(a)}),d.el.on("keyup.autocomplete",function(a){d.onKeyUp(a)}),d.el.on("blur.autocomplete",function(){d.onBlur()}),d.el.on("focus.autocomplete",function(){d.onFocus()}),d.el.on("change.autocomplete",function(a){d.onKeyUp(a)}),d.el.on("input.autocomplete",function(a){d.onKeyUp(a)})},onFocus:function(){var a=this;a.fixPosition(),a.el.val().length>=a.options.minChars&&a.onValueChange()},onBlur:function(){this.enableKillerFn()},abortAjax:function(){var a=this;a.currentRequest&&(a.currentRequest.abort(),a.currentRequest=null)},setOptions:function(b){var c=this,d=c.options;a.extend(d,b),c.isLocal=a.isArray(d.lookup),c.isLocal&&(d.lookup=c.verifySuggestionsFormat(d.lookup)),d.orientation=c.validateOrientation(d.orientation,"bottom"),a(c.suggestionsContainer).css({"max-height":d.maxHeight+"px",width:d.width+"px","z-index":d.zIndex})},clearCache:function(){this.cachedResponse={},this.badQueries=[]},clear:function(){this.clearCache(),this.currentValue="",this.suggestions=[]},disable:function(){var a=this;a.disabled=!0,clearInterval(a.onChangeInterval),a.abortAjax()},enable:function(){this.disabled=!1},fixPosition:function(){var b=this,c=a(b.suggestionsContainer),d=c.parent().get(0);if(d===document.body||b.options.forceFixPosition){var e=b.options.orientation,f=c.outerHeight(),g=b.el.outerHeight(),h=b.el.offset(),i={top:h.top,left:h.left};if("auto"===e){var j=a(window).height(),k=a(window).scrollTop(),l=-k+h.top-f,m=k+j-(h.top+g+f);e=Math.max(l,m)===l?"top":"bottom"}if("top"===e?i.top+=-f:i.top+=g,d!==document.body){var n,o=c.css("opacity");b.visible||c.css("opacity",0).show(),n=c.offsetParent().offset(),i.top-=n.top,i.left-=n.left,b.visible||c.css("opacity",o).hide()}"auto"===b.options.width&&(i.width=b.el.outerWidth()+"px"),c.css(i)}},enableKillerFn:function(){var b=this;a(document).on("click.autocomplete",b.killerFn)},disableKillerFn:function(){var b=this;a(document).off("click.autocomplete",b.killerFn)},killSuggestions:function(){var a=this;a.stopKillSuggestions(),a.intervalId=window.setInterval(function(){a.visible&&(a.options.preserveInput||a.el.val(a.currentValue),a.hide()),a.stopKillSuggestions()},50)},stopKillSuggestions:function(){window.clearInterval(this.intervalId)},isCursorAtEnd:function(){var a,b=this,c=b.el.val().length,d=b.element.selectionStart;return"number"==typeof d?d===c:document.selection?(a=document.selection.createRange(),a.moveStart("character",-c),c===a.text.length):!0},onKeyPress:function(a){var b=this;if(!b.disabled&&!b.visible&&a.which===d.DOWN&&b.currentValue)return void b.suggest();if(!b.disabled&&b.visible){switch(a.which){case d.ESC:b.el.val(b.currentValue),b.hide();break;case d.RIGHT:if(b.hint&&b.options.onHint&&b.isCursorAtEnd()){b.selectHint();break}return;case d.TAB:if(b.hint&&b.options.onHint)return void b.selectHint();if(-1===b.selectedIndex)return void b.hide();if(b.select(b.selectedIndex),b.options.tabDisabled===!1)return;break;case d.RETURN:if(-1===b.selectedIndex)return void b.hide();b.select(b.selectedIndex);break;case d.UP:b.moveUp();break;case d.DOWN:b.moveDown();break;default:return}a.stopImmediatePropagation(),a.preventDefault()}},onKeyUp:function(a){var b=this;if(!b.disabled){switch(a.which){case d.UP:case d.DOWN:return}clearInterval(b.onChangeInterval),b.currentValue!==b.el.val()&&(b.findBestHint(),b.options.deferRequestBy>0?b.onChangeInterval=setInterval(function(){b.onValueChange()},b.options.deferRequestBy):b.onValueChange())}},onValueChange:function(){var b=this,c=b.options,d=b.el.val(),e=b.getQuery(d);return b.selection&&b.currentValue!==e&&(b.selection=null,(c.onInvalidateSelection||a.noop).call(b.element)),clearInterval(b.onChangeInterval),b.currentValue=d,b.selectedIndex=-1,c.triggerSelectOnValidInput&&b.isExactMatch(e)?void b.select(0):void(e.length<c.minChars?b.hide():b.getSuggestions(e))},isExactMatch:function(a){var b=this.suggestions;return 1===b.length&&b[0].value.toLowerCase()===a.toLowerCase()},getQuery:function(b){var c,d=this.options.delimiter;return d?(c=b.split(d),a.trim(c[c.length-1])):b},getSuggestionsLocal:function(b){var c,d=this,e=d.options,f=b.toLowerCase(),g=e.lookupFilter,h=parseInt(e.lookupLimit,10);return c={suggestions:a.grep(e.lookup,function(a){return g(a,b,f)})},h&&c.suggestions.length>h&&(c.suggestions=c.suggestions.slice(0,h)),c},getSuggestions:function(b){var c,d,e,f,g=this,h=g.options,i=h.serviceUrl;if(h.params[h.paramName]=b,d=h.ignoreParams?null:h.params,h.onSearchStart.call(g.element,h.params)!==!1){if(a.isFunction(h.lookup))return void h.lookup(b,function(a){g.suggestions=a.suggestions,g.suggest(),h.onSearchComplete.call(g.element,b,a.suggestions)});g.isLocal?c=g.getSuggestionsLocal(b):(a.isFunction(i)&&(i=i.call(g.element,b)),e=i+"?"+a.param(d||{}),c=g.cachedResponse[e]),c&&a.isArray(c.suggestions)?(g.suggestions=c.suggestions,g.suggest(),h.onSearchComplete.call(g.element,b,c.suggestions)):g.isBadQuery(b)?h.onSearchComplete.call(g.element,b,[]):(g.abortAjax(),f={url:i,data:d,type:h.type,dataType:h.dataType},a.extend(f,h.ajaxSettings),g.currentRequest=a.ajax(f).done(function(a){var c;g.currentRequest=null,c=h.transformResult(a,b),g.processResponse(c,b,e),h.onSearchComplete.call(g.element,b,c.suggestions)}).fail(function(a,c,d){h.onSearchError.call(g.element,b,a,c,d)}))}},isBadQuery:function(a){if(!this.options.preventBadQueries)return!1;for(var b=this.badQueries,c=b.length;c--;)if(0===a.indexOf(b[c]))return!0;return!1},hide:function(){var b=this,c=a(b.suggestionsContainer);a.isFunction(b.options.onHide)&&b.visible&&b.options.onHide.call(b.element,c),b.visible=!1,b.selectedIndex=-1,clearInterval(b.onChangeInterval),a(b.suggestionsContainer).hide(),b.signalHint(null)},suggest:function(){if(!this.suggestions.length)return void(this.options.showNoSuggestionNotice?this.noSuggestions():this.hide());var b,c=this,d=c.options,e=d.groupBy,f=d.formatResult,g=c.getQuery(c.currentValue),h=c.classes.suggestion,i=c.classes.selected,j=a(c.suggestionsContainer),k=a(c.noSuggestionsContainer),l=d.beforeRender,m="",n=function(a,c){var f=a.data[e];return b===f?"":(b=f,d.formatGroup(a,b))};return d.triggerSelectOnValidInput&&c.isExactMatch(g)?void c.select(0):(a.each(c.suggestions,function(a,b){e&&(m+=n(b,g,a)),m+='<div class="'+h+'" data-index="'+a+'">'+f(b,g,a)+"</div>"}),this.adjustContainerWidth(),k.detach(),j.html(m),a.isFunction(l)&&l.call(c.element,j,c.suggestions),c.fixPosition(),j.show(),d.autoSelectFirst&&(c.selectedIndex=0,j.scrollTop(0),j.children("."+h).first().addClass(i)),c.visible=!0,void c.findBestHint())},noSuggestions:function(){var b=this,c=a(b.suggestionsContainer),d=a(b.noSuggestionsContainer);this.adjustContainerWidth(),d.detach(),c.empty(),c.append(d),b.fixPosition(),c.show(),b.visible=!0},adjustContainerWidth:function(){var b,c=this,d=c.options,e=a(c.suggestionsContainer);"auto"===d.width?(b=c.el.outerWidth(),e.css("width",b>0?b:300)):"flex"===d.width&&e.css("width","")},findBestHint:function(){var b=this,c=b.el.val().toLowerCase(),d=null;c&&(a.each(b.suggestions,function(a,b){var e=0===b.value.toLowerCase().indexOf(c);return e&&(d=b),!e}),b.signalHint(d))},signalHint:function(b){var c="",d=this;b&&(c=d.currentValue+b.value.substr(d.currentValue.length)),d.hintValue!==c&&(d.hintValue=c,d.hint=b,(this.options.onHint||a.noop)(c))},verifySuggestionsFormat:function(b){return b.length&&"string"==typeof b[0]?a.map(b,function(a){return{value:a,data:null}}):b},validateOrientation:function(b,c){return b=a.trim(b||"").toLowerCase(),-1===a.inArray(b,["auto","bottom","top"])&&(b=c),b},processResponse:function(a,b,c){var d=this,e=d.options;a.suggestions=d.verifySuggestionsFormat(a.suggestions),e.noCache||(d.cachedResponse[c]=a,e.preventBadQueries&&!a.suggestions.length&&d.badQueries.push(b)),b===d.getQuery(d.currentValue)&&(d.suggestions=a.suggestions,d.suggest())},activate:function(b){var c,d=this,e=d.classes.selected,f=a(d.suggestionsContainer),g=f.find("."+d.classes.suggestion);return f.find("."+e).removeClass(e),d.selectedIndex=b,-1!==d.selectedIndex&&g.length>d.selectedIndex?(c=g.get(d.selectedIndex),a(c).addClass(e),c):null},selectHint:function(){var b=this,c=a.inArray(b.hint,b.suggestions);b.select(c)},select:function(a){var b=this;b.hide(),b.onSelect(a),b.disableKillerFn()},moveUp:function(){var b=this;if(-1!==b.selectedIndex)return 0===b.selectedIndex?(a(b.suggestionsContainer).children().first().removeClass(b.classes.selected),b.selectedIndex=-1,b.el.val(b.currentValue),void b.findBestHint()):void b.adjustScroll(b.selectedIndex-1)},moveDown:function(){var a=this;a.selectedIndex!==a.suggestions.length-1&&a.adjustScroll(a.selectedIndex+1)},adjustScroll:function(b){var c=this,d=c.activate(b);if(d){var e,f,g,h=a(d).outerHeight();e=d.offsetTop,f=a(c.suggestionsContainer).scrollTop(),g=f+c.options.maxHeight-h,f>e?a(c.suggestionsContainer).scrollTop(e):e>g&&a(c.suggestionsContainer).scrollTop(e-c.options.maxHeight+h),c.options.preserveInput||c.el.val(c.getValue(c.suggestions[b].value)),c.signalHint(null)}},onSelect:function(b){var c=this,d=c.options.onSelect,e=c.suggestions[b];c.currentValue=c.getValue(e.value),c.currentValue===c.el.val()||c.options.preserveInput||c.el.val(c.currentValue),c.signalHint(null),c.suggestions=[],c.selection=e,a.isFunction(d)&&d.call(c.element,e)},getValue:function(a){var b,c,d=this,e=d.options.delimiter;return e?(b=d.currentValue,c=b.split(e),1===c.length?a:b.substr(0,b.length-c[c.length-1].length)+a):a},dispose:function(){var b=this;b.el.off(".autocomplete").removeData("autocomplete"),b.disableKillerFn(),a(window).off("resize.autocomplete",b.fixPositionCapture),a(b.suggestionsContainer).remove()}},a.fn.autocomplete=a.fn.devbridgeAutocomplete=function(c,d){var e="autocomplete";return arguments.length?this.each(function(){var f=a(this),g=f.data(e);"string"==typeof c?g&&"function"==typeof g[c]&&g[c](d):(g&&g.dispose&&g.dispose(),g=new b(this,c),f.data(e,g))}):this.first().data(e)}});
+!function(a){"use strict";"function"==typeof define&&define.amd?define(["jquery"],a):a("object"==typeof exports&&"function"==typeof require?require("jquery"):jQuery)}(function(a){"use strict";function b(c,d){var e=this;e.element=c,e.el=a(c),e.suggestions=[],e.badQueries=[],e.selectedIndex=-1,e.currentValue=e.element.value,e.timeoutId=null,e.cachedResponse={},e.onChangeTimeout=null,e.onChange=null,e.isLocal=!1,e.suggestionsContainer=null,e.noSuggestionsContainer=null,e.options=a.extend({},b.defaults,d),e.classes={selected:"autocomplete-selected",suggestion:"autocomplete-suggestion"},e.hint=null,e.hintValue="",e.selection=null,e.initialize(),e.setOptions(d)}function c(a,b,c){return-1!==a.value.toLowerCase().indexOf(c)}function d(b){return"string"==typeof b?a.parseJSON(b):b}function e(a,b){if(!b)return a.value;var c="("+g.escapeRegExChars(b)+")";return a.value.replace(new RegExp(c,"gi"),"<strong>$1</strong>").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/&lt;(\/?strong)&gt;/g,"<$1>")}function f(a,b){return'<div class="autocomplete-group">'+b+"</div>"}var g=function(){return{escapeRegExChars:function(a){return a.replace(/[|\\{}()[\]^$+*?.]/g,"\\$&")},createNode:function(a){var b=document.createElement("div");return b.className=a,b.style.position="absolute",b.style.display="none",b}}}(),h={ESC:27,TAB:9,RETURN:13,LEFT:37,UP:38,RIGHT:39,DOWN:40},i=a.noop;b.utils=g,a.Autocomplete=b,b.defaults={ajaxSettings:{},autoSelectFirst:!1,appendTo:"body",serviceUrl:null,lookup:null,onSelect:null,width:"auto",minChars:1,maxHeight:300,deferRequestBy:0,params:{},formatResult:e,formatGroup:f,delimiter:null,zIndex:9999,type:"GET",noCache:!1,onSearchStart:i,onSearchComplete:i,onSearchError:i,preserveInput:!1,containerClass:"autocomplete-suggestions",tabDisabled:!1,dataType:"text",currentRequest:null,triggerSelectOnValidInput:!0,preventBadQueries:!0,lookupFilter:c,paramName:"query",transformResult:d,showNoSuggestionNotice:!1,noSuggestionNotice:"No results",orientation:"bottom",forceFixPosition:!1},b.prototype={initialize:function(){var c,d=this,e="."+d.classes.suggestion,f=d.classes.selected,g=d.options;d.element.setAttribute("autocomplete","off"),d.noSuggestionsContainer=a('<div class="autocomplete-no-suggestion"></div>').html(this.options.noSuggestionNotice).get(0),d.suggestionsContainer=b.utils.createNode(g.containerClass),c=a(d.suggestionsContainer),c.appendTo(g.appendTo||"body"),"auto"!==g.width&&c.css("width",g.width),c.on("mouseover.autocomplete",e,function(){d.activate(a(this).data("index"))}),c.on("mouseout.autocomplete",function(){d.selectedIndex=-1,c.children("."+f).removeClass(f)}),c.on("click.autocomplete",e,function(){d.select(a(this).data("index"))}),c.on("click.autocomplete",function(){clearTimeout(d.blurTimeoutId)}),d.fixPositionCapture=function(){d.visible&&d.fixPosition()},a(window).on("resize.autocomplete",d.fixPositionCapture),d.el.on("keydown.autocomplete",function(a){d.onKeyPress(a)}),d.el.on("keyup.autocomplete",function(a){d.onKeyUp(a)}),d.el.on("blur.autocomplete",function(){d.onBlur()}),d.el.on("focus.autocomplete",function(){d.onFocus()}),d.el.on("change.autocomplete",function(a){d.onKeyUp(a)}),d.el.on("input.autocomplete",function(a){d.onKeyUp(a)})},onFocus:function(){var a=this;a.fixPosition(),a.el.val().length>=a.options.minChars&&a.onValueChange()},onBlur:function(){var a=this;a.blurTimeoutId=setTimeout(function(){a.hide()},200)},abortAjax:function(){var a=this;a.currentRequest&&(a.currentRequest.abort(),a.currentRequest=null)},setOptions:function(b){var c=this,d=c.options;this.options=a.extend({},d,b),c.isLocal=a.isArray(d.lookup),c.isLocal&&(d.lookup=c.verifySuggestionsFormat(d.lookup)),d.orientation=c.validateOrientation(d.orientation,"bottom"),a(c.suggestionsContainer).css({"max-height":d.maxHeight+"px",width:d.width+"px","z-index":d.zIndex})},clearCache:function(){this.cachedResponse={},this.badQueries=[]},clear:function(){this.clearCache(),this.currentValue="",this.suggestions=[]},disable:function(){var a=this;a.disabled=!0,clearTimeout(a.onChangeTimeout),a.abortAjax()},enable:function(){this.disabled=!1},fixPosition:function(){var b=this,c=a(b.suggestionsContainer),d=c.parent().get(0);if(d===document.body||b.options.forceFixPosition){var e=b.options.orientation,f=c.outerHeight(),g=b.el.outerHeight(),h=b.el.offset(),i={top:h.top,left:h.left};if("auto"===e){var j=a(window).height(),k=a(window).scrollTop(),l=-k+h.top-f,m=k+j-(h.top+g+f);e=Math.max(l,m)===l?"top":"bottom"}if("top"===e?i.top+=-f:i.top+=g,d!==document.body){var n,o=c.css("opacity");b.visible||c.css("opacity",0).show(),n=c.offsetParent().offset(),i.top-=n.top,i.left-=n.left,b.visible||c.css("opacity",o).hide()}"auto"===b.options.width&&(i.width=b.el.outerWidth()+"px"),c.css(i)}},isCursorAtEnd:function(){var a,b=this,c=b.el.val().length,d=b.element.selectionStart;return"number"==typeof d?d===c:document.selection?(a=document.selection.createRange(),a.moveStart("character",-c),c===a.text.length):!0},onKeyPress:function(a){var b=this;if(!b.disabled&&!b.visible&&a.which===h.DOWN&&b.currentValue)return void b.suggest();if(!b.disabled&&b.visible){switch(a.which){case h.ESC:b.el.val(b.currentValue),b.hide();break;case h.RIGHT:if(b.hint&&b.options.onHint&&b.isCursorAtEnd()){b.selectHint();break}return;case h.TAB:if(b.hint&&b.options.onHint)return void b.selectHint();if(-1===b.selectedIndex)return void b.hide();if(b.select(b.selectedIndex),b.options.tabDisabled===!1)return;break;case h.RETURN:if(-1===b.selectedIndex)return void b.hide();b.select(b.selectedIndex);break;case h.UP:b.moveUp();break;case h.DOWN:b.moveDown();break;default:return}a.stopImmediatePropagation(),a.preventDefault()}},onKeyUp:function(a){var b=this;if(!b.disabled){switch(a.which){case h.UP:case h.DOWN:return}clearTimeout(b.onChangeTimeout),b.currentValue!==b.el.val()&&(b.findBestHint(),b.options.deferRequestBy>0?b.onChangeTimeout=setTimeout(function(){b.onValueChange()},b.options.deferRequestBy):b.onValueChange())}},onValueChange:function(){var b=this,c=b.options,d=b.el.val(),e=b.getQuery(d);return b.selection&&b.currentValue!==e&&(b.selection=null,(c.onInvalidateSelection||a.noop).call(b.element)),clearTimeout(b.onChangeTimeout),b.currentValue=d,b.selectedIndex=-1,c.triggerSelectOnValidInput&&b.isExactMatch(e)?void b.select(0):void(e.length<c.minChars?b.hide():b.getSuggestions(e))},isExactMatch:function(a){var b=this.suggestions;return 1===b.length&&b[0].value.toLowerCase()===a.toLowerCase()},getQuery:function(b){var c,d=this.options.delimiter;return d?(c=b.split(d),a.trim(c[c.length-1])):b},getSuggestionsLocal:function(b){var c,d=this,e=d.options,f=b.toLowerCase(),g=e.lookupFilter,h=parseInt(e.lookupLimit,10);return c={suggestions:a.grep(e.lookup,function(a){return g(a,b,f)})},h&&c.suggestions.length>h&&(c.suggestions=c.suggestions.slice(0,h)),c},getSuggestions:function(b){var c,d,e,f,g=this,h=g.options,i=h.serviceUrl;if(h.params[h.paramName]=b,h.onSearchStart.call(g.element,h.params)!==!1){if(d=h.ignoreParams?null:h.params,a.isFunction(h.lookup))return void h.lookup(b,function(a){g.suggestions=a.suggestions,g.suggest(),h.onSearchComplete.call(g.element,b,a.suggestions)});g.isLocal?c=g.getSuggestionsLocal(b):(a.isFunction(i)&&(i=i.call(g.element,b)),e=i+"?"+a.param(d||{}),c=g.cachedResponse[e]),c&&a.isArray(c.suggestions)?(g.suggestions=c.suggestions,g.suggest(),h.onSearchComplete.call(g.element,b,c.suggestions)):g.isBadQuery(b)?h.onSearchComplete.call(g.element,b,[]):(g.abortAjax(),f={url:i,data:d,type:h.type,dataType:h.dataType},a.extend(f,h.ajaxSettings),g.currentRequest=a.ajax(f).done(function(a){var c;g.currentRequest=null,c=h.transformResult(a,b),g.processResponse(c,b,e),h.onSearchComplete.call(g.element,b,c.suggestions)}).fail(function(a,c,d){h.onSearchError.call(g.element,b,a,c,d)}))}},isBadQuery:function(a){if(!this.options.preventBadQueries)return!1;for(var b=this.badQueries,c=b.length;c--;)if(0===a.indexOf(b[c]))return!0;return!1},hide:function(){var b=this,c=a(b.suggestionsContainer);a.isFunction(b.options.onHide)&&b.visible&&b.options.onHide.call(b.element,c),b.visible=!1,b.selectedIndex=-1,clearTimeout(b.onChangeTimeout),a(b.suggestionsContainer).hide(),b.signalHint(null)},suggest:function(){if(!this.suggestions.length)return void(this.options.showNoSuggestionNotice?this.noSuggestions():this.hide());var b,c=this,d=c.options,e=d.groupBy,f=d.formatResult,g=c.getQuery(c.currentValue),h=c.classes.suggestion,i=c.classes.selected,j=a(c.suggestionsContainer),k=a(c.noSuggestionsContainer),l=d.beforeRender,m="",n=function(a,c){var f=a.data[e];return b===f?"":(b=f,d.formatGroup(a,b))};return d.triggerSelectOnValidInput&&c.isExactMatch(g)?void c.select(0):(a.each(c.suggestions,function(a,b){e&&(m+=n(b,g,a)),m+='<div class="'+h+'" data-index="'+a+'">'+f(b,g,a)+"</div>"}),this.adjustContainerWidth(),k.detach(),j.html(m),a.isFunction(l)&&l.call(c.element,j,c.suggestions),c.fixPosition(),j.show(),d.autoSelectFirst&&(c.selectedIndex=0,j.scrollTop(0),j.children("."+h).first().addClass(i)),c.visible=!0,void c.findBestHint())},noSuggestions:function(){var b=this,c=b.options.beforeRender,d=a(b.suggestionsContainer),e=a(b.noSuggestionsContainer);this.adjustContainerWidth(),e.detach(),d.empty(),d.append(e),a.isFunction(c)&&c.call(b.element,d,b.suggestions),b.fixPosition(),d.show(),b.visible=!0},adjustContainerWidth:function(){var b,c=this,d=c.options,e=a(c.suggestionsContainer);"auto"===d.width?(b=c.el.outerWidth(),e.css("width",b>0?b:300)):"flex"===d.width&&e.css("width","")},findBestHint:function(){var b=this,c=b.el.val().toLowerCase(),d=null;c&&(a.each(b.suggestions,function(a,b){var e=0===b.value.toLowerCase().indexOf(c);return e&&(d=b),!e}),b.signalHint(d))},signalHint:function(b){var c="",d=this;b&&(c=d.currentValue+b.value.substr(d.currentValue.length)),d.hintValue!==c&&(d.hintValue=c,d.hint=b,(this.options.onHint||a.noop)(c))},verifySuggestionsFormat:function(b){return b.length&&"string"==typeof b[0]?a.map(b,function(a){return{value:a,data:null}}):b},validateOrientation:function(b,c){return b=a.trim(b||"").toLowerCase(),-1===a.inArray(b,["auto","bottom","top"])&&(b=c),b},processResponse:function(a,b,c){var d=this,e=d.options;a.suggestions=d.verifySuggestionsFormat(a.suggestions),e.noCache||(d.cachedResponse[c]=a,e.preventBadQueries&&!a.suggestions.length&&d.badQueries.push(b)),b===d.getQuery(d.currentValue)&&(d.suggestions=a.suggestions,d.suggest())},activate:function(b){var c,d=this,e=d.classes.selected,f=a(d.suggestionsContainer),g=f.find("."+d.classes.suggestion);return f.find("."+e).removeClass(e),d.selectedIndex=b,-1!==d.selectedIndex&&g.length>d.selectedIndex?(c=g.get(d.selectedIndex),a(c).addClass(e),c):null},selectHint:function(){var b=this,c=a.inArray(b.hint,b.suggestions);b.select(c)},select:function(a){var b=this;b.hide(),b.onSelect(a)},moveUp:function(){var b=this;if(-1!==b.selectedIndex)return 0===b.selectedIndex?(a(b.suggestionsContainer).children().first().removeClass(b.classes.selected),b.selectedIndex=-1,b.el.val(b.currentValue),void b.findBestHint()):void b.adjustScroll(b.selectedIndex-1)},moveDown:function(){var a=this;a.selectedIndex!==a.suggestions.length-1&&a.adjustScroll(a.selectedIndex+1)},adjustScroll:function(b){var c=this,d=c.activate(b);if(d){var e,f,g,h=a(d).outerHeight();e=d.offsetTop,f=a(c.suggestionsContainer).scrollTop(),g=f+c.options.maxHeight-h,f>e?a(c.suggestionsContainer).scrollTop(e):e>g&&a(c.suggestionsContainer).scrollTop(e-c.options.maxHeight+h),c.options.preserveInput||c.el.val(c.getValue(c.suggestions[b].value)),c.signalHint(null)}},onSelect:function(b){var c=this,d=c.options.onSelect,e=c.suggestions[b];c.currentValue=c.getValue(e.value),c.currentValue===c.el.val()||c.options.preserveInput||c.el.val(c.currentValue),c.signalHint(null),c.suggestions=[],c.selection=e,a.isFunction(d)&&d.call(c.element,e)},getValue:function(a){var b,c,d=this,e=d.options.delimiter;return e?(b=d.currentValue,c=b.split(e),1===c.length?a:b.substr(0,b.length-c[c.length-1].length)+a):a},dispose:function(){var b=this;b.el.off(".autocomplete").removeData("autocomplete"),a(window).off("resize.autocomplete",b.fixPositionCapture),a(b.suggestionsContainer).remove()}},a.fn.devbridgeAutocomplete=function(c,d){var e="autocomplete";return arguments.length?this.each(function(){var f=a(this),g=f.data(e);"string"==typeof c?g&&"function"==typeof g[c]&&g[c](d):(g&&g.dispose&&g.dispose(),g=new b(this,c),f.data(e,g))}):this.first().data(e)},a.fn.autocomplete||(a.fn.autocomplete=a.fn.devbridgeAutocomplete)});
 /*!
  * Vue.js v1.0.28
  * (c) 2016 Evan You
@@ -396,567 +396,5493 @@ y=function(){x();return l()},H=function(){G=!0;f.off("touchmove",l);f.off("scrol
 if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires jQuery");+function(a){var b=a.fn.jquery.split(" ")[0].split(".");if(b[0]<2&&b[1]<9||1==b[0]&&9==b[1]&&b[2]<1||b[0]>=4)throw new Error("Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0")}(jQuery),+function(a){"use strict";function b(a,b){if("function"!=typeof b&&null!==b)throw new TypeError("Super expression must either be null or a function, not "+typeof b);a.prototype=Object.create(b&&b.prototype,{constructor:{value:a,enumerable:!1,writable:!0,configurable:!0}}),b&&(Object.setPrototypeOf?Object.setPrototypeOf(a,b):a.__proto__=b)}function c(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}var d=function(a,b,c){for(var d=!0;d;){var e=a,f=b,g=c;d=!1,null===e&&(e=Function.prototype);var h=Object.getOwnPropertyDescriptor(e,f);if(void 0!==h){if("value"in h)return h.value;var i=h.get;if(void 0===i)return;return i.call(g)}var j=Object.getPrototypeOf(e);if(null===j)return;a=j,b=f,c=g,d=!0,h=j=void 0}},e=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),f=function(a){function b(a){return{}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()}function c(a){return(a[0]||a).nodeType}function d(){return{bindType:h.end,delegateType:h.end,handle:function(b){if(a(b.target).is(this))return b.handleObj.handler.apply(this,arguments)}}}function e(){if(window.QUnit)return!1;var a=document.createElement("bootstrap");for(var b in j)if(void 0!==a.style[b])return{end:j[b]};return!1}function f(b){var c=this,d=!1;return a(this).one(k.TRANSITION_END,function(){d=!0}),setTimeout(function(){d||k.triggerTransitionEnd(c)},b),this}function g(){h=e(),a.fn.emulateTransitionEnd=f,k.supportsTransitionEnd()&&(a.event.special[k.TRANSITION_END]=d())}var h=!1,i=1e6,j={WebkitTransition:"webkitTransitionEnd",MozTransition:"transitionend",OTransition:"oTransitionEnd otransitionend",transition:"transitionend"},k={TRANSITION_END:"bsTransitionEnd",getUID:function(a){do a+=~~(Math.random()*i);while(document.getElementById(a));return a},getSelectorFromElement:function(a){var b=a.getAttribute("data-target");return b||(b=a.getAttribute("href")||"",b=/^#[a-z]/i.test(b)?b:null),b},reflow:function(a){new Function("bs","return bs")(a.offsetHeight)},triggerTransitionEnd:function(b){a(b).trigger(h.end)},supportsTransitionEnd:function(){return Boolean(h)},typeCheckConfig:function(a,d,e){for(var f in e)if(e.hasOwnProperty(f)){var g=e[f],h=d[f],i=void 0;if(i=h&&c(h)?"element":b(h),!new RegExp(g).test(i))throw new Error(a.toUpperCase()+": "+('Option "'+f+'" provided type "'+i+'" ')+('but expected type "'+g+'".'))}}};return g(),k}(jQuery),g=(function(a){var b="alert",d="4.0.0-alpha.3",g="bs.alert",h="."+g,i=".data-api",j=a.fn[b],k=150,l={DISMISS:'[data-dismiss="alert"]'},m={CLOSE:"close"+h,CLOSED:"closed"+h,CLICK_DATA_API:"click"+h+i},n={ALERT:"alert",FADE:"fade",IN:"in"},o=function(){function b(a){c(this,b),this._element=a}return e(b,[{key:"close",value:function(a){a=a||this._element;var b=this._getRootElement(a),c=this._triggerCloseEvent(b);c.isDefaultPrevented()||this._removeElement(b)}},{key:"dispose",value:function(){a.removeData(this._element,g),this._element=null}},{key:"_getRootElement",value:function(b){var c=f.getSelectorFromElement(b),d=!1;return c&&(d=a(c)[0]),d||(d=a(b).closest("."+n.ALERT)[0]),d}},{key:"_triggerCloseEvent",value:function(b){var c=a.Event(m.CLOSE);return a(b).trigger(c),c}},{key:"_removeElement",value:function(b){return a(b).removeClass(n.IN),f.supportsTransitionEnd()&&a(b).hasClass(n.FADE)?void a(b).one(f.TRANSITION_END,a.proxy(this._destroyElement,this,b)).emulateTransitionEnd(k):void this._destroyElement(b)}},{key:"_destroyElement",value:function(b){a(b).detach().trigger(m.CLOSED).remove()}}],[{key:"_jQueryInterface",value:function(c){return this.each(function(){var d=a(this),e=d.data(g);e||(e=new b(this),d.data(g,e)),"close"===c&&e[c](this)})}},{key:"_handleDismiss",value:function(a){return function(b){b&&b.preventDefault(),a.close(this)}}},{key:"VERSION",get:function(){return d}}]),b}();return a(document).on(m.CLICK_DATA_API,l.DISMISS,o._handleDismiss(new o)),a.fn[b]=o._jQueryInterface,a.fn[b].Constructor=o,a.fn[b].noConflict=function(){return a.fn[b]=j,o._jQueryInterface},o}(jQuery),function(a){var b="button",d="4.0.0-alpha.3",f="bs.button",g="."+f,h=".data-api",i=a.fn[b],j={ACTIVE:"active",BUTTON:"btn",FOCUS:"focus"},k={DATA_TOGGLE_CARROT:'[data-toggle^="button"]',DATA_TOGGLE:'[data-toggle="buttons"]',INPUT:"input",ACTIVE:".active",BUTTON:".btn"},l={CLICK_DATA_API:"click"+g+h,FOCUS_BLUR_DATA_API:"focus"+g+h+" "+("blur"+g+h)},m=function(){function b(a){c(this,b),this._element=a}return e(b,[{key:"toggle",value:function(){var b=!0,c=a(this._element).closest(k.DATA_TOGGLE)[0];if(c){var d=a(this._element).find(k.INPUT)[0];if(d){if("radio"===d.type)if(d.checked&&a(this._element).hasClass(j.ACTIVE))b=!1;else{var e=a(c).find(k.ACTIVE)[0];e&&a(e).removeClass(j.ACTIVE)}b&&(d.checked=!a(this._element).hasClass(j.ACTIVE),a(this._element).trigger("change")),d.focus()}}else this._element.setAttribute("aria-pressed",!a(this._element).hasClass(j.ACTIVE));b&&a(this._element).toggleClass(j.ACTIVE)}},{key:"dispose",value:function(){a.removeData(this._element,f),this._element=null}}],[{key:"_jQueryInterface",value:function(c){return this.each(function(){var d=a(this).data(f);d||(d=new b(this),a(this).data(f,d)),"toggle"===c&&d[c]()})}},{key:"VERSION",get:function(){return d}}]),b}();return a(document).on(l.CLICK_DATA_API,k.DATA_TOGGLE_CARROT,function(b){b.preventDefault();var c=b.target;a(c).hasClass(j.BUTTON)||(c=a(c).closest(k.BUTTON)),m._jQueryInterface.call(a(c),"toggle")}).on(l.FOCUS_BLUR_DATA_API,k.DATA_TOGGLE_CARROT,function(b){var c=a(b.target).closest(k.BUTTON)[0];a(c).toggleClass(j.FOCUS,/^focus(in)?$/.test(b.type))}),a.fn[b]=m._jQueryInterface,a.fn[b].Constructor=m,a.fn[b].noConflict=function(){return a.fn[b]=i,m._jQueryInterface},m}(jQuery),function(a){var b="carousel",d="4.0.0-alpha.3",g="bs.carousel",h="."+g,i=".data-api",j=a.fn[b],k=600,l=37,m=39,n={interval:5e3,keyboard:!0,slide:!1,pause:"hover",wrap:!0},o={interval:"(number|boolean)",keyboard:"boolean",slide:"(boolean|string)",pause:"(string|boolean)",wrap:"boolean"},p={NEXT:"next",PREVIOUS:"prev"},q={SLIDE:"slide"+h,SLID:"slid"+h,KEYDOWN:"keydown"+h,MOUSEENTER:"mouseenter"+h,MOUSELEAVE:"mouseleave"+h,LOAD_DATA_API:"load"+h+i,CLICK_DATA_API:"click"+h+i},r={CAROUSEL:"carousel",ACTIVE:"active",SLIDE:"slide",RIGHT:"right",LEFT:"left",ITEM:"carousel-item"},s={ACTIVE:".active",ACTIVE_ITEM:".active.carousel-item",ITEM:".carousel-item",NEXT_PREV:".next, .prev",INDICATORS:".carousel-indicators",DATA_SLIDE:"[data-slide], [data-slide-to]",DATA_RIDE:'[data-ride="carousel"]'},t=function(){function i(b,d){c(this,i),this._items=null,this._interval=null,this._activeElement=null,this._isPaused=!1,this._isSliding=!1,this._config=this._getConfig(d),this._element=a(b)[0],this._indicatorsElement=a(this._element).find(s.INDICATORS)[0],this._addEventListeners()}return e(i,[{key:"next",value:function(){this._isSliding||this._slide(p.NEXT)}},{key:"nextWhenVisible",value:function(){document.hidden||this.next()}},{key:"prev",value:function(){this._isSliding||this._slide(p.PREVIOUS)}},{key:"pause",value:function(b){b||(this._isPaused=!0),a(this._element).find(s.NEXT_PREV)[0]&&f.supportsTransitionEnd()&&(f.triggerTransitionEnd(this._element),this.cycle(!0)),clearInterval(this._interval),this._interval=null}},{key:"cycle",value:function(b){b||(this._isPaused=!1),this._interval&&(clearInterval(this._interval),this._interval=null),this._config.interval&&!this._isPaused&&(this._interval=setInterval(a.proxy(document.visibilityState?this.nextWhenVisible:this.next,this),this._config.interval))}},{key:"to",value:function(b){var c=this;this._activeElement=a(this._element).find(s.ACTIVE_ITEM)[0];var d=this._getItemIndex(this._activeElement);if(!(b>this._items.length-1||b<0)){if(this._isSliding)return void a(this._element).one(q.SLID,function(){return c.to(b)});if(d===b)return this.pause(),void this.cycle();var e=b>d?p.NEXT:p.PREVIOUS;this._slide(e,this._items[b])}}},{key:"dispose",value:function(){a(this._element).off(h),a.removeData(this._element,g),this._items=null,this._config=null,this._element=null,this._interval=null,this._isPaused=null,this._isSliding=null,this._activeElement=null,this._indicatorsElement=null}},{key:"_getConfig",value:function(c){return c=a.extend({},n,c),f.typeCheckConfig(b,c,o),c}},{key:"_addEventListeners",value:function(){this._config.keyboard&&a(this._element).on(q.KEYDOWN,a.proxy(this._keydown,this)),"hover"!==this._config.pause||"ontouchstart"in document.documentElement||a(this._element).on(q.MOUSEENTER,a.proxy(this.pause,this)).on(q.MOUSELEAVE,a.proxy(this.cycle,this))}},{key:"_keydown",value:function(a){if(a.preventDefault(),!/input|textarea/i.test(a.target.tagName))switch(a.which){case l:this.prev();break;case m:this.next();break;default:return}}},{key:"_getItemIndex",value:function(b){return this._items=a.makeArray(a(b).parent().find(s.ITEM)),this._items.indexOf(b)}},{key:"_getItemByDirection",value:function(a,b){var c=a===p.NEXT,d=a===p.PREVIOUS,e=this._getItemIndex(b),f=this._items.length-1,g=d&&0===e||c&&e===f;if(g&&!this._config.wrap)return b;var h=a===p.PREVIOUS?-1:1,i=(e+h)%this._items.length;return i===-1?this._items[this._items.length-1]:this._items[i]}},{key:"_triggerSlideEvent",value:function(b,c){var d=a.Event(q.SLIDE,{relatedTarget:b,direction:c});return a(this._element).trigger(d),d}},{key:"_setActiveIndicatorElement",value:function(b){if(this._indicatorsElement){a(this._indicatorsElement).find(s.ACTIVE).removeClass(r.ACTIVE);var c=this._indicatorsElement.children[this._getItemIndex(b)];c&&a(c).addClass(r.ACTIVE)}}},{key:"_slide",value:function(b,c){var d=this,e=a(this._element).find(s.ACTIVE_ITEM)[0],g=c||e&&this._getItemByDirection(b,e),h=Boolean(this._interval),i=b===p.NEXT?r.LEFT:r.RIGHT;if(g&&a(g).hasClass(r.ACTIVE))return void(this._isSliding=!1);var j=this._triggerSlideEvent(g,i);if(!j.isDefaultPrevented()&&e&&g){this._isSliding=!0,h&&this.pause(),this._setActiveIndicatorElement(g);var l=a.Event(q.SLID,{relatedTarget:g,direction:i});f.supportsTransitionEnd()&&a(this._element).hasClass(r.SLIDE)?(a(g).addClass(b),f.reflow(g),a(e).addClass(i),a(g).addClass(i),a(e).one(f.TRANSITION_END,function(){a(g).removeClass(i).removeClass(b),a(g).addClass(r.ACTIVE),a(e).removeClass(r.ACTIVE).removeClass(b).removeClass(i),d._isSliding=!1,setTimeout(function(){return a(d._element).trigger(l)},0)}).emulateTransitionEnd(k)):(a(e).removeClass(r.ACTIVE),a(g).addClass(r.ACTIVE),this._isSliding=!1,a(this._element).trigger(l)),h&&this.cycle()}}}],[{key:"_jQueryInterface",value:function(b){return this.each(function(){var c=a(this).data(g),d=a.extend({},n,a(this).data());"object"==typeof b&&a.extend(d,b);var e="string"==typeof b?b:d.slide;if(c||(c=new i(this,d),a(this).data(g,c)),"number"==typeof b)c.to(b);else if("string"==typeof e){if(void 0===c[e])throw new Error('No method named "'+e+'"');c[e]()}else d.interval&&(c.pause(),c.cycle())})}},{key:"_dataApiClickHandler",value:function(b){var c=f.getSelectorFromElement(this);if(c){var d=a(c)[0];if(d&&a(d).hasClass(r.CAROUSEL)){var e=a.extend({},a(d).data(),a(this).data()),h=this.getAttribute("data-slide-to");h&&(e.interval=!1),i._jQueryInterface.call(a(d),e),h&&a(d).data(g).to(h),b.preventDefault()}}}},{key:"VERSION",get:function(){return d}},{key:"Default",get:function(){return n}}]),i}();return a(document).on(q.CLICK_DATA_API,s.DATA_SLIDE,t._dataApiClickHandler),a(window).on(q.LOAD_DATA_API,function(){a(s.DATA_RIDE).each(function(){var b=a(this);t._jQueryInterface.call(b,b.data())})}),a.fn[b]=t._jQueryInterface,a.fn[b].Constructor=t,a.fn[b].noConflict=function(){return a.fn[b]=j,t._jQueryInterface},t}(jQuery),function(a){var b="collapse",d="4.0.0-alpha.3",g="bs.collapse",h="."+g,i=".data-api",j=a.fn[b],k=600,l={toggle:!0,parent:""},m={toggle:"boolean",parent:"string"},n={SHOW:"show"+h,SHOWN:"shown"+h,HIDE:"hide"+h,HIDDEN:"hidden"+h,CLICK_DATA_API:"click"+h+i},o={IN:"in",COLLAPSE:"collapse",COLLAPSING:"collapsing",COLLAPSED:"collapsed"},p={WIDTH:"width",HEIGHT:"height"},q={ACTIVES:".panel > .in, .panel > .collapsing",DATA_TOGGLE:'[data-toggle="collapse"]'},r=function(){function h(b,d){c(this,h),this._isTransitioning=!1,this._element=b,this._config=this._getConfig(d),this._triggerArray=a.makeArray(a('[data-toggle="collapse"][href="#'+b.id+'"],'+('[data-toggle="collapse"][data-target="#'+b.id+'"]'))),this._parent=this._config.parent?this._getParent():null,this._config.parent||this._addAriaAndCollapsedClass(this._element,this._triggerArray),this._config.toggle&&this.toggle()}return e(h,[{key:"toggle",value:function(){a(this._element).hasClass(o.IN)?this.hide():this.show()}},{key:"show",value:function(){var b=this;if(!this._isTransitioning&&!a(this._element).hasClass(o.IN)){var c=void 0,d=void 0;if(this._parent&&(c=a.makeArray(a(q.ACTIVES)),c.length||(c=null)),!(c&&(d=a(c).data(g),d&&d._isTransitioning))){var e=a.Event(n.SHOW);if(a(this._element).trigger(e),!e.isDefaultPrevented()){c&&(h._jQueryInterface.call(a(c),"hide"),d||a(c).data(g,null));var i=this._getDimension();a(this._element).removeClass(o.COLLAPSE).addClass(o.COLLAPSING),this._element.style[i]=0,this._element.setAttribute("aria-expanded",!0),this._triggerArray.length&&a(this._triggerArray).removeClass(o.COLLAPSED).attr("aria-expanded",!0),this.setTransitioning(!0);var j=function(){a(b._element).removeClass(o.COLLAPSING).addClass(o.COLLAPSE).addClass(o.IN),b._element.style[i]="",b.setTransitioning(!1),a(b._element).trigger(n.SHOWN)};if(!f.supportsTransitionEnd())return void j();var l=i[0].toUpperCase()+i.slice(1),m="scroll"+l;a(this._element).one(f.TRANSITION_END,j).emulateTransitionEnd(k),this._element.style[i]=this._element[m]+"px"}}}}},{key:"hide",value:function(){var b=this;if(!this._isTransitioning&&a(this._element).hasClass(o.IN)){var c=a.Event(n.HIDE);if(a(this._element).trigger(c),!c.isDefaultPrevented()){var d=this._getDimension(),e=d===p.WIDTH?"offsetWidth":"offsetHeight";this._element.style[d]=this._element[e]+"px",f.reflow(this._element),a(this._element).addClass(o.COLLAPSING).removeClass(o.COLLAPSE).removeClass(o.IN),this._element.setAttribute("aria-expanded",!1),this._triggerArray.length&&a(this._triggerArray).addClass(o.COLLAPSED).attr("aria-expanded",!1),this.setTransitioning(!0);var g=function(){b.setTransitioning(!1),a(b._element).removeClass(o.COLLAPSING).addClass(o.COLLAPSE).trigger(n.HIDDEN)};return this._element.style[d]=0,f.supportsTransitionEnd()?void a(this._element).one(f.TRANSITION_END,g).emulateTransitionEnd(k):void g()}}}},{key:"setTransitioning",value:function(a){this._isTransitioning=a}},{key:"dispose",value:function(){a.removeData(this._element,g),this._config=null,this._parent=null,this._element=null,this._triggerArray=null,this._isTransitioning=null}},{key:"_getConfig",value:function(c){return c=a.extend({},l,c),c.toggle=Boolean(c.toggle),f.typeCheckConfig(b,c,m),c}},{key:"_getDimension",value:function(){var b=a(this._element).hasClass(p.WIDTH);return b?p.WIDTH:p.HEIGHT}},{key:"_getParent",value:function(){var b=this,c=a(this._config.parent)[0],d='[data-toggle="collapse"][data-parent="'+this._config.parent+'"]';return a(c).find(d).each(function(a,c){b._addAriaAndCollapsedClass(h._getTargetFromElement(c),[c])}),c}},{key:"_addAriaAndCollapsedClass",value:function(b,c){if(b){var d=a(b).hasClass(o.IN);b.setAttribute("aria-expanded",d),c.length&&a(c).toggleClass(o.COLLAPSED,!d).attr("aria-expanded",d)}}}],[{key:"_getTargetFromElement",value:function(b){var c=f.getSelectorFromElement(b);return c?a(c)[0]:null}},{key:"_jQueryInterface",value:function(b){return this.each(function(){var c=a(this),d=c.data(g),e=a.extend({},l,c.data(),"object"==typeof b&&b);if(!d&&e.toggle&&/show|hide/.test(b)&&(e.toggle=!1),d||(d=new h(this,e),c.data(g,d)),"string"==typeof b){if(void 0===d[b])throw new Error('No method named "'+b+'"');d[b]()}})}},{key:"VERSION",get:function(){return d}},{key:"Default",get:function(){return l}}]),h}();return a(document).on(n.CLICK_DATA_API,q.DATA_TOGGLE,function(b){b.preventDefault();var c=r._getTargetFromElement(this),d=a(c).data(g),e=d?"toggle":a(this).data();r._jQueryInterface.call(a(c),e)}),a.fn[b]=r._jQueryInterface,a.fn[b].Constructor=r,a.fn[b].noConflict=function(){return a.fn[b]=j,r._jQueryInterface},r}(jQuery),function(a){var b="dropdown",d="4.0.0-alpha.3",g="bs.dropdown",h="."+g,i=".data-api",j=a.fn[b],k=27,l=38,m=40,n=3,o={HIDE:"hide"+h,HIDDEN:"hidden"+h,SHOW:"show"+h,SHOWN:"shown"+h,CLICK:"click"+h,CLICK_DATA_API:"click"+h+i,KEYDOWN_DATA_API:"keydown"+h+i},p={BACKDROP:"dropdown-backdrop",DISABLED:"disabled",OPEN:"open"},q={BACKDROP:".dropdown-backdrop",DATA_TOGGLE:'[data-toggle="dropdown"]',FORM_CHILD:".dropdown form",ROLE_MENU:'[role="menu"]',ROLE_LISTBOX:'[role="listbox"]',NAVBAR_NAV:".navbar-nav",VISIBLE_ITEMS:'[role="menu"] li:not(.disabled) a, [role="listbox"] li:not(.disabled) a'},r=function(){function b(a){c(this,b),this._element=a,this._addEventListeners()}return e(b,[{key:"toggle",value:function(){if(this.disabled||a(this).hasClass(p.DISABLED))return!1;var c=b._getParentFromElement(this),d=a(c).hasClass(p.OPEN);if(b._clearMenus(),d)return!1;if("ontouchstart"in document.documentElement&&!a(c).closest(q.NAVBAR_NAV).length){var e=document.createElement("div");e.className=p.BACKDROP,a(e).insertBefore(this),a(e).on("click",b._clearMenus)}var f={relatedTarget:this},g=a.Event(o.SHOW,f);return a(c).trigger(g),!g.isDefaultPrevented()&&(this.focus(),this.setAttribute("aria-expanded","true"),a(c).toggleClass(p.OPEN),a(c).trigger(a.Event(o.SHOWN,f)),!1)}},{key:"dispose",value:function(){a.removeData(this._element,g),a(this._element).off(h),this._element=null}},{key:"_addEventListeners",value:function(){a(this._element).on(o.CLICK,this.toggle)}}],[{key:"_jQueryInterface",value:function(c){return this.each(function(){var d=a(this).data(g);if(d||a(this).data(g,d=new b(this)),"string"==typeof c){if(void 0===d[c])throw new Error('No method named "'+c+'"');d[c].call(this)}})}},{key:"_clearMenus",value:function(c){if(!c||c.which!==n){var d=a(q.BACKDROP)[0];d&&d.parentNode.removeChild(d);for(var e=a.makeArray(a(q.DATA_TOGGLE)),f=0;f<e.length;f++){var g=b._getParentFromElement(e[f]),h={relatedTarget:e[f]};if(a(g).hasClass(p.OPEN)&&!(c&&"click"===c.type&&/input|textarea/i.test(c.target.tagName)&&a.contains(g,c.target))){var i=a.Event(o.HIDE,h);a(g).trigger(i),i.isDefaultPrevented()||(e[f].setAttribute("aria-expanded","false"),a(g).removeClass(p.OPEN).trigger(a.Event(o.HIDDEN,h)))}}}}},{key:"_getParentFromElement",value:function(b){var c=void 0,d=f.getSelectorFromElement(b);return d&&(c=a(d)[0]),c||b.parentNode}},{key:"_dataApiKeydownHandler",value:function(c){if(/(38|40|27|32)/.test(c.which)&&!/input|textarea/i.test(c.target.tagName)&&(c.preventDefault(),c.stopPropagation(),!this.disabled&&!a(this).hasClass(p.DISABLED))){var d=b._getParentFromElement(this),e=a(d).hasClass(p.OPEN);if(!e&&c.which!==k||e&&c.which===k){if(c.which===k){var f=a(d).find(q.DATA_TOGGLE)[0];a(f).trigger("focus")}return void a(this).trigger("click")}var g=a.makeArray(a(q.VISIBLE_ITEMS));if(g=g.filter(function(a){return a.offsetWidth||a.offsetHeight}),g.length){var h=g.indexOf(c.target);c.which===l&&h>0&&h--,c.which===m&&h<g.length-1&&h++,h<0&&(h=0),g[h].focus()}}}},{key:"VERSION",get:function(){return d}}]),b}();return a(document).on(o.KEYDOWN_DATA_API,q.DATA_TOGGLE,r._dataApiKeydownHandler).on(o.KEYDOWN_DATA_API,q.ROLE_MENU,r._dataApiKeydownHandler).on(o.KEYDOWN_DATA_API,q.ROLE_LISTBOX,r._dataApiKeydownHandler).on(o.CLICK_DATA_API,r._clearMenus).on(o.CLICK_DATA_API,q.DATA_TOGGLE,r.prototype.toggle).on(o.CLICK_DATA_API,q.FORM_CHILD,function(a){a.stopPropagation()}),a.fn[b]=r._jQueryInterface,a.fn[b].Constructor=r,a.fn[b].noConflict=function(){return a.fn[b]=j,r._jQueryInterface},r}(jQuery),function(a){var b="modal",d="4.0.0-alpha.3",g="bs.modal",h="."+g,i=".data-api",j=a.fn[b],k=300,l=150,m=27,n={backdrop:!0,keyboard:!0,focus:!0,show:!0},o={backdrop:"(boolean|string)",keyboard:"boolean",focus:"boolean",show:"boolean"},p={HIDE:"hide"+h,HIDDEN:"hidden"+h,SHOW:"show"+h,SHOWN:"shown"+h,FOCUSIN:"focusin"+h,RESIZE:"resize"+h,CLICK_DISMISS:"click.dismiss"+h,KEYDOWN_DISMISS:"keydown.dismiss"+h,MOUSEUP_DISMISS:"mouseup.dismiss"+h,MOUSEDOWN_DISMISS:"mousedown.dismiss"+h,CLICK_DATA_API:"click"+h+i},q={SCROLLBAR_MEASURER:"modal-scrollbar-measure",BACKDROP:"modal-backdrop",OPEN:"modal-open",FADE:"fade",IN:"in"},r={DIALOG:".modal-dialog",DATA_TOGGLE:'[data-toggle="modal"]',DATA_DISMISS:'[data-dismiss="modal"]',FIXED_CONTENT:".navbar-fixed-top, .navbar-fixed-bottom, .is-fixed"},s=function(){function i(b,d){c(this,i),this._config=this._getConfig(d),this._element=b,this._dialog=a(b).find(r.DIALOG)[0],this._backdrop=null,this._isShown=!1,this._isBodyOverflowing=!1,this._ignoreBackdropClick=!1,this._originalBodyPadding=0,this._scrollbarWidth=0}return e(i,[{key:"toggle",value:function(a){return this._isShown?this.hide():this.show(a)}},{key:"show",value:function(b){var c=this,d=a.Event(p.SHOW,{relatedTarget:b});a(this._element).trigger(d),this._isShown||d.isDefaultPrevented()||(this._isShown=!0,this._checkScrollbar(),this._setScrollbar(),a(document.body).addClass(q.OPEN),this._setEscapeEvent(),this._setResizeEvent(),a(this._element).on(p.CLICK_DISMISS,r.DATA_DISMISS,a.proxy(this.hide,this)),a(this._dialog).on(p.MOUSEDOWN_DISMISS,function(){a(c._element).one(p.MOUSEUP_DISMISS,function(b){a(b.target).is(c._element)&&(c._ignoreBackdropClick=!0)})}),this._showBackdrop(a.proxy(this._showElement,this,b)))}},{key:"hide",value:function(b){b&&b.preventDefault();var c=a.Event(p.HIDE);a(this._element).trigger(c),this._isShown&&!c.isDefaultPrevented()&&(this._isShown=!1,this._setEscapeEvent(),this._setResizeEvent(),a(document).off(p.FOCUSIN),a(this._element).removeClass(q.IN),a(this._element).off(p.CLICK_DISMISS),a(this._dialog).off(p.MOUSEDOWN_DISMISS),f.supportsTransitionEnd()&&a(this._element).hasClass(q.FADE)?a(this._element).one(f.TRANSITION_END,a.proxy(this._hideModal,this)).emulateTransitionEnd(k):this._hideModal())}},{key:"dispose",value:function(){a.removeData(this._element,g),a(window).off(h),a(document).off(h),a(this._element).off(h),a(this._backdrop).off(h),this._config=null,this._element=null,this._dialog=null,this._backdrop=null,this._isShown=null,this._isBodyOverflowing=null,this._ignoreBackdropClick=null,this._originalBodyPadding=null,this._scrollbarWidth=null}},{key:"_getConfig",value:function(c){return c=a.extend({},n,c),f.typeCheckConfig(b,c,o),c}},{key:"_showElement",value:function(b){var c=this,d=f.supportsTransitionEnd()&&a(this._element).hasClass(q.FADE);this._element.parentNode&&this._element.parentNode.nodeType===Node.ELEMENT_NODE||document.body.appendChild(this._element),this._element.style.display="block",this._element.removeAttribute("aria-hidden"),this._element.scrollTop=0,d&&f.reflow(this._element),a(this._element).addClass(q.IN),this._config.focus&&this._enforceFocus();var e=a.Event(p.SHOWN,{relatedTarget:b}),g=function(){c._config.focus&&c._element.focus(),a(c._element).trigger(e)};d?a(this._dialog).one(f.TRANSITION_END,g).emulateTransitionEnd(k):g()}},{key:"_enforceFocus",value:function(){var b=this;a(document).off(p.FOCUSIN).on(p.FOCUSIN,function(c){document===c.target||b._element===c.target||a(b._element).has(c.target).length||b._element.focus()})}},{key:"_setEscapeEvent",value:function(){var b=this;this._isShown&&this._config.keyboard?a(this._element).on(p.KEYDOWN_DISMISS,function(a){a.which===m&&b.hide()}):this._isShown||a(this._element).off(p.KEYDOWN_DISMISS)}},{key:"_setResizeEvent",value:function(){this._isShown?a(window).on(p.RESIZE,a.proxy(this._handleUpdate,this)):a(window).off(p.RESIZE)}},{key:"_hideModal",value:function(){var b=this;this._element.style.display="none",this._element.setAttribute("aria-hidden","true"),this._showBackdrop(function(){a(document.body).removeClass(q.OPEN),b._resetAdjustments(),b._resetScrollbar(),a(b._element).trigger(p.HIDDEN)})}},{key:"_removeBackdrop",value:function(){this._backdrop&&(a(this._backdrop).remove(),this._backdrop=null)}},{key:"_showBackdrop",value:function(b){var c=this,d=a(this._element).hasClass(q.FADE)?q.FADE:"";if(this._isShown&&this._config.backdrop){var e=f.supportsTransitionEnd()&&d;if(this._backdrop=document.createElement("div"),this._backdrop.className=q.BACKDROP,d&&a(this._backdrop).addClass(d),a(this._backdrop).appendTo(document.body),a(this._element).on(p.CLICK_DISMISS,function(a){return c._ignoreBackdropClick?void(c._ignoreBackdropClick=!1):void(a.target===a.currentTarget&&("static"===c._config.backdrop?c._element.focus():c.hide()))}),e&&f.reflow(this._backdrop),a(this._backdrop).addClass(q.IN),!b)return;if(!e)return void b();a(this._backdrop).one(f.TRANSITION_END,b).emulateTransitionEnd(l)}else if(!this._isShown&&this._backdrop){a(this._backdrop).removeClass(q.IN);var g=function(){c._removeBackdrop(),b&&b()};f.supportsTransitionEnd()&&a(this._element).hasClass(q.FADE)?a(this._backdrop).one(f.TRANSITION_END,g).emulateTransitionEnd(l):g()}else b&&b()}},{key:"_handleUpdate",value:function(){this._adjustDialog()}},{key:"_adjustDialog",value:function(){var a=this._element.scrollHeight>document.documentElement.clientHeight;!this._isBodyOverflowing&&a&&(this._element.style.paddingLeft=this._scrollbarWidth+"px"),this._isBodyOverflowing&&!a&&(this._element.style.paddingRight=this._scrollbarWidth+"px")}},{key:"_resetAdjustments",value:function(){this._element.style.paddingLeft="",this._element.style.paddingRight=""}},{key:"_checkScrollbar",value:function(){this._isBodyOverflowing=document.body.clientWidth<window.innerWidth,this._scrollbarWidth=this._getScrollbarWidth()}},{key:"_setScrollbar",value:function(){var b=parseInt(a(r.FIXED_CONTENT).css("padding-right")||0,10);this._originalBodyPadding=document.body.style.paddingRight||"",this._isBodyOverflowing&&(document.body.style.paddingRight=b+this._scrollbarWidth+"px")}},{key:"_resetScrollbar",value:function(){document.body.style.paddingRight=this._originalBodyPadding}},{key:"_getScrollbarWidth",value:function(){var a=document.createElement("div");a.className=q.SCROLLBAR_MEASURER,document.body.appendChild(a);var b=a.offsetWidth-a.clientWidth;return document.body.removeChild(a),b}}],[{key:"_jQueryInterface",value:function(b,c){return this.each(function(){var d=a(this).data(g),e=a.extend({},i.Default,a(this).data(),"object"==typeof b&&b);if(d||(d=new i(this,e),a(this).data(g,d)),"string"==typeof b){if(void 0===d[b])throw new Error('No method named "'+b+'"');d[b](c)}else e.show&&d.show(c)})}},{key:"VERSION",get:function(){return d}},{key:"Default",get:function(){return n}}]),i}();return a(document).on(p.CLICK_DATA_API,r.DATA_TOGGLE,function(b){var c=this,d=void 0,e=f.getSelectorFromElement(this);e&&(d=a(e)[0]);var h=a(d).data(g)?"toggle":a.extend({},a(d).data(),a(this).data());"A"===this.tagName&&b.preventDefault();var i=a(d).one(p.SHOW,function(b){b.isDefaultPrevented()||i.one(p.HIDDEN,function(){a(c).is(":visible")&&c.focus()})});s._jQueryInterface.call(a(d),h,this)}),a.fn[b]=s._jQueryInterface,a.fn[b].Constructor=s,a.fn[b].noConflict=function(){return a.fn[b]=j,s._jQueryInterface},s}(jQuery),function(a){var b="scrollspy",d="4.0.0-alpha.3",g="bs.scrollspy",h="."+g,i=".data-api",j=a.fn[b],k={offset:10,method:"auto",target:""},l={offset:"number",method:"string",target:"(string|element)"},m={ACTIVATE:"activate"+h,SCROLL:"scroll"+h,LOAD_DATA_API:"load"+h+i},n={DROPDOWN_ITEM:"dropdown-item",DROPDOWN_MENU:"dropdown-menu",NAV_LINK:"nav-link",NAV:"nav",ACTIVE:"active"},o={DATA_SPY:'[data-spy="scroll"]',ACTIVE:".active",LIST_ITEM:".list-item",LI:"li",LI_DROPDOWN:"li.dropdown",NAV_LINKS:".nav-link",DROPDOWN:".dropdown",DROPDOWN_ITEMS:".dropdown-item",DROPDOWN_TOGGLE:".dropdown-toggle"},p={OFFSET:"offset",POSITION:"position"},q=function(){function i(b,d){c(this,i),this._element=b,this._scrollElement="BODY"===b.tagName?window:b,this._config=this._getConfig(d),this._selector=this._config.target+" "+o.NAV_LINKS+","+(this._config.target+" "+o.DROPDOWN_ITEMS),this._offsets=[],this._targets=[],this._activeTarget=null,this._scrollHeight=0,a(this._scrollElement).on(m.SCROLL,a.proxy(this._process,this)),this.refresh(),this._process()}return e(i,[{key:"refresh",value:function(){var b=this,c=this._scrollElement!==this._scrollElement.window?p.POSITION:p.OFFSET,d="auto"===this._config.method?c:this._config.method,e=d===p.POSITION?this._getScrollTop():0;this._offsets=[],this._targets=[],this._scrollHeight=this._getScrollHeight();var g=a.makeArray(a(this._selector));g.map(function(b){var c=void 0,g=f.getSelectorFromElement(b);return g&&(c=a(g)[0]),c&&(c.offsetWidth||c.offsetHeight)?[a(c)[d]().top+e,g]:null}).filter(function(a){return a}).sort(function(a,b){return a[0]-b[0]}).forEach(function(a){b._offsets.push(a[0]),b._targets.push(a[1])})}},{key:"dispose",value:function(){a.removeData(this._element,g),a(this._scrollElement).off(h),this._element=null,this._scrollElement=null,this._config=null,this._selector=null,this._offsets=null,this._targets=null,this._activeTarget=null,this._scrollHeight=null}},{key:"_getConfig",value:function(c){if(c=a.extend({},k,c),"string"!=typeof c.target){var d=a(c.target).attr("id");d||(d=f.getUID(b),a(c.target).attr("id",d)),c.target="#"+d}return f.typeCheckConfig(b,c,l),c}},{key:"_getScrollTop",value:function(){return this._scrollElement===window?this._scrollElement.scrollY:this._scrollElement.scrollTop}},{key:"_getScrollHeight",value:function(){return this._scrollElement.scrollHeight||Math.max(document.body.scrollHeight,document.documentElement.scrollHeight)}},{key:"_process",value:function(){var a=this._getScrollTop()+this._config.offset,b=this._getScrollHeight(),c=this._config.offset+b-this._scrollElement.offsetHeight;if(this._scrollHeight!==b&&this.refresh(),a>=c){var d=this._targets[this._targets.length-1];this._activeTarget!==d&&this._activate(d)}if(this._activeTarget&&a<this._offsets[0])return this._activeTarget=null,void this._clear();for(var e=this._offsets.length;e--;){var f=this._activeTarget!==this._targets[e]&&a>=this._offsets[e]&&(void 0===this._offsets[e+1]||a<this._offsets[e+1]);f&&this._activate(this._targets[e])}}},{key:"_activate",value:function(b){this._activeTarget=b,this._clear();var c=this._selector.split(",");c=c.map(function(a){return a+'[data-target="'+b+'"],'+(a+'[href="'+b+'"]')});var d=a(c.join(","));d.hasClass(n.DROPDOWN_ITEM)?(d.closest(o.DROPDOWN).find(o.DROPDOWN_TOGGLE).addClass(n.ACTIVE),d.addClass(n.ACTIVE)):d.parents(o.LI).find(o.NAV_LINKS).addClass(n.ACTIVE),a(this._scrollElement).trigger(m.ACTIVATE,{relatedTarget:b})}},{key:"_clear",value:function(){a(this._selector).filter(o.ACTIVE).removeClass(n.ACTIVE)}}],[{key:"_jQueryInterface",value:function(b){return this.each(function(){var c=a(this).data(g),d="object"==typeof b&&b||null;if(c||(c=new i(this,d),a(this).data(g,c)),"string"==typeof b){if(void 0===c[b])throw new Error('No method named "'+b+'"');c[b]()}})}},{key:"VERSION",get:function(){return d}},{key:"Default",get:function(){return k}}]),i}();return a(window).on(m.LOAD_DATA_API,function(){for(var b=a.makeArray(a(o.DATA_SPY)),c=b.length;c--;){var d=a(b[c]);q._jQueryInterface.call(d,d.data())}}),a.fn[b]=q._jQueryInterface,a.fn[b].Constructor=q,a.fn[b].noConflict=function(){return a.fn[b]=j,q._jQueryInterface},q}(jQuery),function(a){var b="tab",d="4.0.0-alpha.3",g="bs.tab",h="."+g,i=".data-api",j=a.fn[b],k=150,l={HIDE:"hide"+h,HIDDEN:"hidden"+h,SHOW:"show"+h,SHOWN:"shown"+h,CLICK_DATA_API:"click"+h+i},m={DROPDOWN_MENU:"dropdown-menu",ACTIVE:"active",FADE:"fade",IN:"in"},n={A:"a",LI:"li",DROPDOWN:".dropdown",UL:"ul:not(.dropdown-menu)",FADE_CHILD:"> .nav-item .fade, > .fade",
 ACTIVE:".active",ACTIVE_CHILD:"> .nav-item > .active, > .active",DATA_TOGGLE:'[data-toggle="tab"], [data-toggle="pill"]',DROPDOWN_TOGGLE:".dropdown-toggle",DROPDOWN_ACTIVE_CHILD:"> .dropdown-menu .active"},o=function(){function b(a){c(this,b),this._element=a}return e(b,[{key:"show",value:function(){var b=this;if(!this._element.parentNode||this._element.parentNode.nodeType!==Node.ELEMENT_NODE||!a(this._element).hasClass(m.ACTIVE)){var c=void 0,d=void 0,e=a(this._element).closest(n.UL)[0],g=f.getSelectorFromElement(this._element);e&&(d=a.makeArray(a(e).find(n.ACTIVE)),d=d[d.length-1]);var h=a.Event(l.HIDE,{relatedTarget:this._element}),i=a.Event(l.SHOW,{relatedTarget:d});if(d&&a(d).trigger(h),a(this._element).trigger(i),!i.isDefaultPrevented()&&!h.isDefaultPrevented()){g&&(c=a(g)[0]),this._activate(this._element,e);var j=function(){var c=a.Event(l.HIDDEN,{relatedTarget:b._element}),e=a.Event(l.SHOWN,{relatedTarget:d});a(d).trigger(c),a(b._element).trigger(e)};c?this._activate(c,c.parentNode,j):j()}}}},{key:"dispose",value:function(){a.removeClass(this._element,g),this._element=null}},{key:"_activate",value:function(b,c,d){var e=a(c).find(n.ACTIVE_CHILD)[0],g=d&&f.supportsTransitionEnd()&&(e&&a(e).hasClass(m.FADE)||Boolean(a(c).find(n.FADE_CHILD)[0])),h=a.proxy(this._transitionComplete,this,b,e,g,d);e&&g?a(e).one(f.TRANSITION_END,h).emulateTransitionEnd(k):h(),e&&a(e).removeClass(m.IN)}},{key:"_transitionComplete",value:function(b,c,d,e){if(c){a(c).removeClass(m.ACTIVE);var g=a(c).find(n.DROPDOWN_ACTIVE_CHILD)[0];g&&a(g).removeClass(m.ACTIVE),c.setAttribute("aria-expanded",!1)}if(a(b).addClass(m.ACTIVE),b.setAttribute("aria-expanded",!0),d?(f.reflow(b),a(b).addClass(m.IN)):a(b).removeClass(m.FADE),b.parentNode&&a(b.parentNode).hasClass(m.DROPDOWN_MENU)){var h=a(b).closest(n.DROPDOWN)[0];h&&a(h).find(n.DROPDOWN_TOGGLE).addClass(m.ACTIVE),b.setAttribute("aria-expanded",!0)}e&&e()}}],[{key:"_jQueryInterface",value:function(c){return this.each(function(){var d=a(this),e=d.data(g);if(e||(e=e=new b(this),d.data(g,e)),"string"==typeof c){if(void 0===e[c])throw new Error('No method named "'+c+'"');e[c]()}})}},{key:"VERSION",get:function(){return d}}]),b}();return a(document).on(l.CLICK_DATA_API,n.DATA_TOGGLE,function(b){b.preventDefault(),o._jQueryInterface.call(a(this),"show")}),a.fn[b]=o._jQueryInterface,a.fn[b].Constructor=o,a.fn[b].noConflict=function(){return a.fn[b]=j,o._jQueryInterface},o}(jQuery),function(a){if(void 0===window.Tether)throw new Error("Bootstrap tooltips require Tether (http://github.hubspot.com/tether/)");var b="tooltip",d="4.0.0-alpha.3",g="bs.tooltip",h="."+g,i=a.fn[b],j=150,k="bs-tether",l={animation:!0,template:'<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',trigger:"hover focus",title:"",delay:0,html:!1,selector:!1,placement:"top",offset:"0 0",constraints:[]},m={animation:"boolean",template:"string",title:"(string|element|function)",trigger:"string",delay:"(number|object)",html:"boolean",selector:"(string|boolean)",placement:"(string|function)",offset:"string",constraints:"array"},n={TOP:"bottom center",RIGHT:"middle left",BOTTOM:"top center",LEFT:"middle right"},o={IN:"in",OUT:"out"},p={HIDE:"hide"+h,HIDDEN:"hidden"+h,SHOW:"show"+h,SHOWN:"shown"+h,INSERTED:"inserted"+h,CLICK:"click"+h,FOCUSIN:"focusin"+h,FOCUSOUT:"focusout"+h,MOUSEENTER:"mouseenter"+h,MOUSELEAVE:"mouseleave"+h},q={FADE:"fade",IN:"in"},r={TOOLTIP:".tooltip",TOOLTIP_INNER:".tooltip-inner"},s={element:!1,enabled:!1},t={HOVER:"hover",FOCUS:"focus",CLICK:"click",MANUAL:"manual"},u=function(){function i(a,b){c(this,i),this._isEnabled=!0,this._timeout=0,this._hoverState="",this._activeTrigger={},this._tether=null,this.element=a,this.config=this._getConfig(b),this.tip=null,this._setListeners()}return e(i,[{key:"enable",value:function(){this._isEnabled=!0}},{key:"disable",value:function(){this._isEnabled=!1}},{key:"toggleEnabled",value:function(){this._isEnabled=!this._isEnabled}},{key:"toggle",value:function(b){if(b){var c=this.constructor.DATA_KEY,d=a(b.currentTarget).data(c);d||(d=new this.constructor(b.currentTarget,this._getDelegateConfig()),a(b.currentTarget).data(c,d)),d._activeTrigger.click=!d._activeTrigger.click,d._isWithActiveTrigger()?d._enter(null,d):d._leave(null,d)}else{if(a(this.getTipElement()).hasClass(q.IN))return void this._leave(null,this);this._enter(null,this)}}},{key:"dispose",value:function(){clearTimeout(this._timeout),this.cleanupTether(),a.removeData(this.element,this.constructor.DATA_KEY),a(this.element).off(this.constructor.EVENT_KEY),this.tip&&a(this.tip).remove(),this._isEnabled=null,this._timeout=null,this._hoverState=null,this._activeTrigger=null,this._tether=null,this.element=null,this.config=null,this.tip=null}},{key:"show",value:function(){var b=this,c=a.Event(this.constructor.Event.SHOW);if(this.isWithContent()&&this._isEnabled){a(this.element).trigger(c);var d=a.contains(this.element.ownerDocument.documentElement,this.element);if(c.isDefaultPrevented()||!d)return;var e=this.getTipElement(),g=f.getUID(this.constructor.NAME);e.setAttribute("id",g),this.element.setAttribute("aria-describedby",g),this.setContent(),this.config.animation&&a(e).addClass(q.FADE);var h="function"==typeof this.config.placement?this.config.placement.call(this,e,this.element):this.config.placement,j=this._getAttachment(h);a(e).data(this.constructor.DATA_KEY,this).appendTo(document.body),a(this.element).trigger(this.constructor.Event.INSERTED),this._tether=new Tether({attachment:j,element:e,target:this.element,classes:s,classPrefix:k,offset:this.config.offset,constraints:this.config.constraints,addTargetClasses:!1}),f.reflow(e),this._tether.position(),a(e).addClass(q.IN);var l=function(){var c=b._hoverState;b._hoverState=null,a(b.element).trigger(b.constructor.Event.SHOWN),c===o.OUT&&b._leave(null,b)};if(f.supportsTransitionEnd()&&a(this.tip).hasClass(q.FADE))return void a(this.tip).one(f.TRANSITION_END,l).emulateTransitionEnd(i._TRANSITION_DURATION);l()}}},{key:"hide",value:function(b){var c=this,d=this.getTipElement(),e=a.Event(this.constructor.Event.HIDE),g=function(){c._hoverState!==o.IN&&d.parentNode&&d.parentNode.removeChild(d),c.element.removeAttribute("aria-describedby"),a(c.element).trigger(c.constructor.Event.HIDDEN),c.cleanupTether(),b&&b()};a(this.element).trigger(e),e.isDefaultPrevented()||(a(d).removeClass(q.IN),f.supportsTransitionEnd()&&a(this.tip).hasClass(q.FADE)?a(d).one(f.TRANSITION_END,g).emulateTransitionEnd(j):g(),this._hoverState="")}},{key:"isWithContent",value:function(){return Boolean(this.getTitle())}},{key:"getTipElement",value:function(){return this.tip=this.tip||a(this.config.template)[0]}},{key:"setContent",value:function(){var b=a(this.getTipElement());this.setElementContent(b.find(r.TOOLTIP_INNER),this.getTitle()),b.removeClass(q.FADE).removeClass(q.IN),this.cleanupTether()}},{key:"setElementContent",value:function(b,c){var d=this.config.html;"object"==typeof c&&(c.nodeType||c.jquery)?d?a(c).parent().is(b)||b.empty().append(c):b.text(a(c).text()):b[d?"html":"text"](c)}},{key:"getTitle",value:function(){var a=this.element.getAttribute("data-original-title");return a||(a="function"==typeof this.config.title?this.config.title.call(this.element):this.config.title),a}},{key:"cleanupTether",value:function(){this._tether&&this._tether.destroy()}},{key:"_getAttachment",value:function(a){return n[a.toUpperCase()]}},{key:"_setListeners",value:function(){var b=this,c=this.config.trigger.split(" ");c.forEach(function(c){if("click"===c)a(b.element).on(b.constructor.Event.CLICK,b.config.selector,a.proxy(b.toggle,b));else if(c!==t.MANUAL){var d=c===t.HOVER?b.constructor.Event.MOUSEENTER:b.constructor.Event.FOCUSIN,e=c===t.HOVER?b.constructor.Event.MOUSELEAVE:b.constructor.Event.FOCUSOUT;a(b.element).on(d,b.config.selector,a.proxy(b._enter,b)).on(e,b.config.selector,a.proxy(b._leave,b))}}),this.config.selector?this.config=a.extend({},this.config,{trigger:"manual",selector:""}):this._fixTitle()}},{key:"_fixTitle",value:function(){var a=typeof this.element.getAttribute("data-original-title");(this.element.getAttribute("title")||"string"!==a)&&(this.element.setAttribute("data-original-title",this.element.getAttribute("title")||""),this.element.setAttribute("title",""))}},{key:"_enter",value:function(b,c){var d=this.constructor.DATA_KEY;return c=c||a(b.currentTarget).data(d),c||(c=new this.constructor(b.currentTarget,this._getDelegateConfig()),a(b.currentTarget).data(d,c)),b&&(c._activeTrigger["focusin"===b.type?t.FOCUS:t.HOVER]=!0),a(c.getTipElement()).hasClass(q.IN)||c._hoverState===o.IN?void(c._hoverState=o.IN):(clearTimeout(c._timeout),c._hoverState=o.IN,c.config.delay&&c.config.delay.show?void(c._timeout=setTimeout(function(){c._hoverState===o.IN&&c.show()},c.config.delay.show)):void c.show())}},{key:"_leave",value:function(b,c){var d=this.constructor.DATA_KEY;if(c=c||a(b.currentTarget).data(d),c||(c=new this.constructor(b.currentTarget,this._getDelegateConfig()),a(b.currentTarget).data(d,c)),b&&(c._activeTrigger["focusout"===b.type?t.FOCUS:t.HOVER]=!1),!c._isWithActiveTrigger())return clearTimeout(c._timeout),c._hoverState=o.OUT,c.config.delay&&c.config.delay.hide?void(c._timeout=setTimeout(function(){c._hoverState===o.OUT&&c.hide()},c.config.delay.hide)):void c.hide()}},{key:"_isWithActiveTrigger",value:function(){for(var a in this._activeTrigger)if(this._activeTrigger[a])return!0;return!1}},{key:"_getConfig",value:function(c){return c=a.extend({},this.constructor.Default,a(this.element).data(),c),c.delay&&"number"==typeof c.delay&&(c.delay={show:c.delay,hide:c.delay}),f.typeCheckConfig(b,c,this.constructor.DefaultType),c}},{key:"_getDelegateConfig",value:function(){var a={};if(this.config)for(var b in this.config)this.constructor.Default[b]!==this.config[b]&&(a[b]=this.config[b]);return a}}],[{key:"_jQueryInterface",value:function(b){return this.each(function(){var c=a(this).data(g),d="object"==typeof b?b:null;if((c||!/destroy|hide/.test(b))&&(c||(c=new i(this,d),a(this).data(g,c)),"string"==typeof b)){if(void 0===c[b])throw new Error('No method named "'+b+'"');c[b]()}})}},{key:"VERSION",get:function(){return d}},{key:"Default",get:function(){return l}},{key:"NAME",get:function(){return b}},{key:"DATA_KEY",get:function(){return g}},{key:"Event",get:function(){return p}},{key:"EVENT_KEY",get:function(){return h}},{key:"DefaultType",get:function(){return m}}]),i}();return a.fn[b]=u._jQueryInterface,a.fn[b].Constructor=u,a.fn[b].noConflict=function(){return a.fn[b]=i,u._jQueryInterface},u}(jQuery));(function(a){var f="popover",h="4.0.0-alpha.3",i="bs.popover",j="."+i,k=a.fn[f],l=a.extend({},g.Default,{placement:"right",trigger:"click",content:"",template:'<div class="popover" role="tooltip"><div class="popover-arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'}),m=a.extend({},g.DefaultType,{content:"(string|element|function)"}),n={FADE:"fade",IN:"in"},o={TITLE:".popover-title",CONTENT:".popover-content",ARROW:".popover-arrow"},p={HIDE:"hide"+j,HIDDEN:"hidden"+j,SHOW:"show"+j,SHOWN:"shown"+j,INSERTED:"inserted"+j,CLICK:"click"+j,FOCUSIN:"focusin"+j,FOCUSOUT:"focusout"+j,MOUSEENTER:"mouseenter"+j,MOUSELEAVE:"mouseleave"+j},q=function(g){function k(){c(this,k),d(Object.getPrototypeOf(k.prototype),"constructor",this).apply(this,arguments)}return b(k,g),e(k,[{key:"isWithContent",value:function(){return this.getTitle()||this._getContent()}},{key:"getTipElement",value:function(){return this.tip=this.tip||a(this.config.template)[0]}},{key:"setContent",value:function(){var b=a(this.getTipElement());this.setElementContent(b.find(o.TITLE),this.getTitle()),this.setElementContent(b.find(o.CONTENT),this._getContent()),b.removeClass(n.FADE).removeClass(n.IN),this.cleanupTether()}},{key:"_getContent",value:function(){return this.element.getAttribute("data-content")||("function"==typeof this.config.content?this.config.content.call(this.element):this.config.content)}}],[{key:"_jQueryInterface",value:function(b){return this.each(function(){var c=a(this).data(i),d="object"==typeof b?b:null;if((c||!/destroy|hide/.test(b))&&(c||(c=new k(this,d),a(this).data(i,c)),"string"==typeof b)){if(void 0===c[b])throw new Error('No method named "'+b+'"');c[b]()}})}},{key:"VERSION",get:function(){return h}},{key:"Default",get:function(){return l}},{key:"NAME",get:function(){return f}},{key:"DATA_KEY",get:function(){return i}},{key:"Event",get:function(){return p}},{key:"EVENT_KEY",get:function(){return j}},{key:"DefaultType",get:function(){return m}}]),k}(g);return a.fn[f]=q._jQueryInterface,a.fn[f].Constructor=q,a.fn[f].noConflict=function(){return a.fn[f]=k,q._jQueryInterface},q})(jQuery)}(jQuery);
 //! moment.js
-//! version : 2.17.1
+//! version : 2.18.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
 //! momentjs.com
-!function(a,b){"object"==typeof exports&&"undefined"!=typeof module?module.exports=b():"function"==typeof define&&define.amd?define(b):a.moment=b()}(this,function(){"use strict";function a(){return od.apply(null,arguments)}
-// This is done to register the method called with moment()
-// without creating circular dependencies.
-function b(a){od=a}function c(a){return a instanceof Array||"[object Array]"===Object.prototype.toString.call(a)}function d(a){
-// IE8 will treat undefined and null as object if it wasn't for
-// input != null
-return null!=a&&"[object Object]"===Object.prototype.toString.call(a)}function e(a){var b;for(b in a)
-// even if its not own property I'd still call it non-empty
-return!1;return!0}function f(a){return"number"==typeof a||"[object Number]"===Object.prototype.toString.call(a)}function g(a){return a instanceof Date||"[object Date]"===Object.prototype.toString.call(a)}function h(a,b){var c,d=[];for(c=0;c<a.length;++c)d.push(b(a[c],c));return d}function i(a,b){return Object.prototype.hasOwnProperty.call(a,b)}function j(a,b){for(var c in b)i(b,c)&&(a[c]=b[c]);return i(b,"toString")&&(a.toString=b.toString),i(b,"valueOf")&&(a.valueOf=b.valueOf),a}function k(a,b,c,d){return rb(a,b,c,d,!0).utc()}function l(){
-// We need to deep clone this object.
-return{empty:!1,unusedTokens:[],unusedInput:[],overflow:-2,charsLeftOver:0,nullInput:!1,invalidMonth:null,invalidFormat:!1,userInvalidated:!1,iso:!1,parsedDateParts:[],meridiem:null}}function m(a){return null==a._pf&&(a._pf=l()),a._pf}function n(a){if(null==a._isValid){var b=m(a),c=qd.call(b.parsedDateParts,function(a){return null!=a}),d=!isNaN(a._d.getTime())&&b.overflow<0&&!b.empty&&!b.invalidMonth&&!b.invalidWeekday&&!b.nullInput&&!b.invalidFormat&&!b.userInvalidated&&(!b.meridiem||b.meridiem&&c);if(a._strict&&(d=d&&0===b.charsLeftOver&&0===b.unusedTokens.length&&void 0===b.bigHour),null!=Object.isFrozen&&Object.isFrozen(a))return d;a._isValid=d}return a._isValid}function o(a){var b=k(NaN);return null!=a?j(m(b),a):m(b).userInvalidated=!0,b}function p(a){return void 0===a}function q(a,b){var c,d,e;if(p(b._isAMomentObject)||(a._isAMomentObject=b._isAMomentObject),p(b._i)||(a._i=b._i),p(b._f)||(a._f=b._f),p(b._l)||(a._l=b._l),p(b._strict)||(a._strict=b._strict),p(b._tzm)||(a._tzm=b._tzm),p(b._isUTC)||(a._isUTC=b._isUTC),p(b._offset)||(a._offset=b._offset),p(b._pf)||(a._pf=m(b)),p(b._locale)||(a._locale=b._locale),rd.length>0)for(c in rd)d=rd[c],e=b[d],p(e)||(a[d]=e);return a}
-// Moment prototype object
-function r(b){q(this,b),this._d=new Date(null!=b._d?b._d.getTime():NaN),this.isValid()||(this._d=new Date(NaN)),
-// Prevent infinite loop in case updateOffset creates new moment
-// objects.
-sd===!1&&(sd=!0,a.updateOffset(this),sd=!1)}function s(a){return a instanceof r||null!=a&&null!=a._isAMomentObject}function t(a){return a<0?Math.ceil(a)||0:Math.floor(a)}function u(a){var b=+a,c=0;return 0!==b&&isFinite(b)&&(c=t(b)),c}
-// compare two arrays, return the number of differences
-function v(a,b,c){var d,e=Math.min(a.length,b.length),f=Math.abs(a.length-b.length),g=0;for(d=0;d<e;d++)(c&&a[d]!==b[d]||!c&&u(a[d])!==u(b[d]))&&g++;return g+f}function w(b){a.suppressDeprecationWarnings===!1&&"undefined"!=typeof console&&console.warn&&console.warn("Deprecation warning: "+b)}function x(b,c){var d=!0;return j(function(){if(null!=a.deprecationHandler&&a.deprecationHandler(null,b),d){for(var e,f=[],g=0;g<arguments.length;g++){if(e="","object"==typeof arguments[g]){e+="\n["+g+"] ";for(var h in arguments[0])e+=h+": "+arguments[0][h]+", ";e=e.slice(0,-2)}else e=arguments[g];f.push(e)}w(b+"\nArguments: "+Array.prototype.slice.call(f).join("")+"\n"+(new Error).stack),d=!1}return c.apply(this,arguments)},c)}function y(b,c){null!=a.deprecationHandler&&a.deprecationHandler(b,c),td[b]||(w(c),td[b]=!0)}function z(a){return a instanceof Function||"[object Function]"===Object.prototype.toString.call(a)}function A(a){var b,c;for(c in a)b=a[c],z(b)?this[c]=b:this["_"+c]=b;this._config=a,
-// Lenient ordinal parsing accepts just a number in addition to
-// number + (possibly) stuff coming from _ordinalParseLenient.
-this._ordinalParseLenient=new RegExp(this._ordinalParse.source+"|"+/\d{1,2}/.source)}function B(a,b){var c,e=j({},a);for(c in b)i(b,c)&&(d(a[c])&&d(b[c])?(e[c]={},j(e[c],a[c]),j(e[c],b[c])):null!=b[c]?e[c]=b[c]:delete e[c]);for(c in a)i(a,c)&&!i(b,c)&&d(a[c])&&(
-// make sure changes to properties don't modify parent config
-e[c]=j({},e[c]));return e}function C(a){null!=a&&this.set(a)}function D(a,b,c){var d=this._calendar[a]||this._calendar.sameElse;return z(d)?d.call(b,c):d}function E(a){var b=this._longDateFormat[a],c=this._longDateFormat[a.toUpperCase()];return b||!c?b:(this._longDateFormat[a]=c.replace(/MMMM|MM|DD|dddd/g,function(a){return a.slice(1)}),this._longDateFormat[a])}function F(){return this._invalidDate}function G(a){return this._ordinal.replace("%d",a)}function H(a,b,c,d){var e=this._relativeTime[c];return z(e)?e(a,b,c,d):e.replace(/%d/i,a)}function I(a,b){var c=this._relativeTime[a>0?"future":"past"];return z(c)?c(b):c.replace(/%s/i,b)}function J(a,b){var c=a.toLowerCase();Dd[c]=Dd[c+"s"]=Dd[b]=a}function K(a){return"string"==typeof a?Dd[a]||Dd[a.toLowerCase()]:void 0}function L(a){var b,c,d={};for(c in a)i(a,c)&&(b=K(c),b&&(d[b]=a[c]));return d}function M(a,b){Ed[a]=b}function N(a){var b=[];for(var c in a)b.push({unit:c,priority:Ed[c]});return b.sort(function(a,b){return a.priority-b.priority}),b}function O(b,c){return function(d){return null!=d?(Q(this,b,d),a.updateOffset(this,c),this):P(this,b)}}function P(a,b){return a.isValid()?a._d["get"+(a._isUTC?"UTC":"")+b]():NaN}function Q(a,b,c){a.isValid()&&a._d["set"+(a._isUTC?"UTC":"")+b](c)}
-// MOMENTS
-function R(a){return a=K(a),z(this[a])?this[a]():this}function S(a,b){if("object"==typeof a){a=L(a);for(var c=N(a),d=0;d<c.length;d++)this[c[d].unit](a[c[d].unit])}else if(a=K(a),z(this[a]))return this[a](b);return this}function T(a,b,c){var d=""+Math.abs(a),e=b-d.length,f=a>=0;return(f?c?"+":"":"-")+Math.pow(10,Math.max(0,e)).toString().substr(1)+d}
-// token:    'M'
-// padded:   ['MM', 2]
-// ordinal:  'Mo'
-// callback: function () { this.month() + 1 }
-function U(a,b,c,d){var e=d;"string"==typeof d&&(e=function(){return this[d]()}),a&&(Id[a]=e),b&&(Id[b[0]]=function(){return T(e.apply(this,arguments),b[1],b[2])}),c&&(Id[c]=function(){return this.localeData().ordinal(e.apply(this,arguments),a)})}function V(a){return a.match(/\[[\s\S]/)?a.replace(/^\[|\]$/g,""):a.replace(/\\/g,"")}function W(a){var b,c,d=a.match(Fd);for(b=0,c=d.length;b<c;b++)Id[d[b]]?d[b]=Id[d[b]]:d[b]=V(d[b]);return function(b){var e,f="";for(e=0;e<c;e++)f+=d[e]instanceof Function?d[e].call(b,a):d[e];return f}}
-// format date using native date object
-function X(a,b){return a.isValid()?(b=Y(b,a.localeData()),Hd[b]=Hd[b]||W(b),Hd[b](a)):a.localeData().invalidDate()}function Y(a,b){function c(a){return b.longDateFormat(a)||a}var d=5;for(Gd.lastIndex=0;d>=0&&Gd.test(a);)a=a.replace(Gd,c),Gd.lastIndex=0,d-=1;return a}function Z(a,b,c){$d[a]=z(b)?b:function(a,d){return a&&c?c:b}}function $(a,b){return i($d,a)?$d[a](b._strict,b._locale):new RegExp(_(a))}
-// Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
-function _(a){return aa(a.replace("\\","").replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g,function(a,b,c,d,e){return b||c||d||e}))}function aa(a){return a.replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&")}function ba(a,b){var c,d=b;for("string"==typeof a&&(a=[a]),f(b)&&(d=function(a,c){c[b]=u(a)}),c=0;c<a.length;c++)_d[a[c]]=d}function ca(a,b){ba(a,function(a,c,d,e){d._w=d._w||{},b(a,d._w,d,e)})}function da(a,b,c){null!=b&&i(_d,a)&&_d[a](b,c._a,c,a)}function ea(a,b){return new Date(Date.UTC(a,b+1,0)).getUTCDate()}function fa(a,b){return a?c(this._months)?this._months[a.month()]:this._months[(this._months.isFormat||ke).test(b)?"format":"standalone"][a.month()]:this._months}function ga(a,b){return a?c(this._monthsShort)?this._monthsShort[a.month()]:this._monthsShort[ke.test(b)?"format":"standalone"][a.month()]:this._monthsShort}function ha(a,b,c){var d,e,f,g=a.toLocaleLowerCase();if(!this._monthsParse)for(
-// this is not used
-this._monthsParse=[],this._longMonthsParse=[],this._shortMonthsParse=[],d=0;d<12;++d)f=k([2e3,d]),this._shortMonthsParse[d]=this.monthsShort(f,"").toLocaleLowerCase(),this._longMonthsParse[d]=this.months(f,"").toLocaleLowerCase();return c?"MMM"===b?(e=je.call(this._shortMonthsParse,g),e!==-1?e:null):(e=je.call(this._longMonthsParse,g),e!==-1?e:null):"MMM"===b?(e=je.call(this._shortMonthsParse,g),e!==-1?e:(e=je.call(this._longMonthsParse,g),e!==-1?e:null)):(e=je.call(this._longMonthsParse,g),e!==-1?e:(e=je.call(this._shortMonthsParse,g),e!==-1?e:null))}function ia(a,b,c){var d,e,f;if(this._monthsParseExact)return ha.call(this,a,b,c);
-// TODO: add sorting
-// Sorting makes sure if one month (or abbr) is a prefix of another
-// see sorting in computeMonthsParse
-for(this._monthsParse||(this._monthsParse=[],this._longMonthsParse=[],this._shortMonthsParse=[]),d=0;d<12;d++){
-// test the regex
-if(
-// make the regex if we don't have it already
-e=k([2e3,d]),c&&!this._longMonthsParse[d]&&(this._longMonthsParse[d]=new RegExp("^"+this.months(e,"").replace(".","")+"$","i"),this._shortMonthsParse[d]=new RegExp("^"+this.monthsShort(e,"").replace(".","")+"$","i")),c||this._monthsParse[d]||(f="^"+this.months(e,"")+"|^"+this.monthsShort(e,""),this._monthsParse[d]=new RegExp(f.replace(".",""),"i")),c&&"MMMM"===b&&this._longMonthsParse[d].test(a))return d;if(c&&"MMM"===b&&this._shortMonthsParse[d].test(a))return d;if(!c&&this._monthsParse[d].test(a))return d}}
-// MOMENTS
-function ja(a,b){var c;if(!a.isValid())
-// No op
-return a;if("string"==typeof b)if(/^\d+$/.test(b))b=u(b);else
-// TODO: Another silent failure?
-if(b=a.localeData().monthsParse(b),!f(b))return a;return c=Math.min(a.date(),ea(a.year(),b)),a._d["set"+(a._isUTC?"UTC":"")+"Month"](b,c),a}function ka(b){return null!=b?(ja(this,b),a.updateOffset(this,!0),this):P(this,"Month")}function la(){return ea(this.year(),this.month())}function ma(a){return this._monthsParseExact?(i(this,"_monthsRegex")||oa.call(this),a?this._monthsShortStrictRegex:this._monthsShortRegex):(i(this,"_monthsShortRegex")||(this._monthsShortRegex=ne),this._monthsShortStrictRegex&&a?this._monthsShortStrictRegex:this._monthsShortRegex)}function na(a){return this._monthsParseExact?(i(this,"_monthsRegex")||oa.call(this),a?this._monthsStrictRegex:this._monthsRegex):(i(this,"_monthsRegex")||(this._monthsRegex=oe),this._monthsStrictRegex&&a?this._monthsStrictRegex:this._monthsRegex)}function oa(){function a(a,b){return b.length-a.length}var b,c,d=[],e=[],f=[];for(b=0;b<12;b++)
-// make the regex if we don't have it already
-c=k([2e3,b]),d.push(this.monthsShort(c,"")),e.push(this.months(c,"")),f.push(this.months(c,"")),f.push(this.monthsShort(c,""));for(
-// Sorting makes sure if one month (or abbr) is a prefix of another it
-// will match the longer piece.
-d.sort(a),e.sort(a),f.sort(a),b=0;b<12;b++)d[b]=aa(d[b]),e[b]=aa(e[b]);for(b=0;b<24;b++)f[b]=aa(f[b]);this._monthsRegex=new RegExp("^("+f.join("|")+")","i"),this._monthsShortRegex=this._monthsRegex,this._monthsStrictRegex=new RegExp("^("+e.join("|")+")","i"),this._monthsShortStrictRegex=new RegExp("^("+d.join("|")+")","i")}
-// HELPERS
-function pa(a){return qa(a)?366:365}function qa(a){return a%4===0&&a%100!==0||a%400===0}function ra(){return qa(this.year())}function sa(a,b,c,d,e,f,g){
-//can't just apply() to create a date:
-//http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
-var h=new Date(a,b,c,d,e,f,g);
-//the date constructor remaps years 0-99 to 1900-1999
-return a<100&&a>=0&&isFinite(h.getFullYear())&&h.setFullYear(a),h}function ta(a){var b=new Date(Date.UTC.apply(null,arguments));
-//the Date.UTC function remaps years 0-99 to 1900-1999
-return a<100&&a>=0&&isFinite(b.getUTCFullYear())&&b.setUTCFullYear(a),b}
-// start-of-first-week - start-of-year
-function ua(a,b,c){var// first-week day -- which january is always in the first week (4 for iso, 1 for other)
-d=7+b-c,
-// first-week day local weekday -- which local weekday is fwd
-e=(7+ta(a,0,d).getUTCDay()-b)%7;return-e+d-1}
-//http://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
-function va(a,b,c,d,e){var f,g,h=(7+c-d)%7,i=ua(a,d,e),j=1+7*(b-1)+h+i;return j<=0?(f=a-1,g=pa(f)+j):j>pa(a)?(f=a+1,g=j-pa(a)):(f=a,g=j),{year:f,dayOfYear:g}}function wa(a,b,c){var d,e,f=ua(a.year(),b,c),g=Math.floor((a.dayOfYear()-f-1)/7)+1;return g<1?(e=a.year()-1,d=g+xa(e,b,c)):g>xa(a.year(),b,c)?(d=g-xa(a.year(),b,c),e=a.year()+1):(e=a.year(),d=g),{week:d,year:e}}function xa(a,b,c){var d=ua(a,b,c),e=ua(a+1,b,c);return(pa(a)-d+e)/7}
-// HELPERS
-// LOCALES
-function ya(a){return wa(a,this._week.dow,this._week.doy).week}function za(){return this._week.dow}function Aa(){return this._week.doy}
-// MOMENTS
-function Ba(a){var b=this.localeData().week(this);return null==a?b:this.add(7*(a-b),"d")}function Ca(a){var b=wa(this,1,4).week;return null==a?b:this.add(7*(a-b),"d")}
-// HELPERS
-function Da(a,b){return"string"!=typeof a?a:isNaN(a)?(a=b.weekdaysParse(a),"number"==typeof a?a:null):parseInt(a,10)}function Ea(a,b){return"string"==typeof a?b.weekdaysParse(a)%7||7:isNaN(a)?null:a}function Fa(a,b){return a?c(this._weekdays)?this._weekdays[a.day()]:this._weekdays[this._weekdays.isFormat.test(b)?"format":"standalone"][a.day()]:this._weekdays}function Ga(a){return a?this._weekdaysShort[a.day()]:this._weekdaysShort}function Ha(a){return a?this._weekdaysMin[a.day()]:this._weekdaysMin}function Ia(a,b,c){var d,e,f,g=a.toLocaleLowerCase();if(!this._weekdaysParse)for(this._weekdaysParse=[],this._shortWeekdaysParse=[],this._minWeekdaysParse=[],d=0;d<7;++d)f=k([2e3,1]).day(d),this._minWeekdaysParse[d]=this.weekdaysMin(f,"").toLocaleLowerCase(),this._shortWeekdaysParse[d]=this.weekdaysShort(f,"").toLocaleLowerCase(),this._weekdaysParse[d]=this.weekdays(f,"").toLocaleLowerCase();return c?"dddd"===b?(e=je.call(this._weekdaysParse,g),e!==-1?e:null):"ddd"===b?(e=je.call(this._shortWeekdaysParse,g),e!==-1?e:null):(e=je.call(this._minWeekdaysParse,g),e!==-1?e:null):"dddd"===b?(e=je.call(this._weekdaysParse,g),e!==-1?e:(e=je.call(this._shortWeekdaysParse,g),e!==-1?e:(e=je.call(this._minWeekdaysParse,g),e!==-1?e:null))):"ddd"===b?(e=je.call(this._shortWeekdaysParse,g),e!==-1?e:(e=je.call(this._weekdaysParse,g),e!==-1?e:(e=je.call(this._minWeekdaysParse,g),e!==-1?e:null))):(e=je.call(this._minWeekdaysParse,g),e!==-1?e:(e=je.call(this._weekdaysParse,g),e!==-1?e:(e=je.call(this._shortWeekdaysParse,g),e!==-1?e:null)))}function Ja(a,b,c){var d,e,f;if(this._weekdaysParseExact)return Ia.call(this,a,b,c);for(this._weekdaysParse||(this._weekdaysParse=[],this._minWeekdaysParse=[],this._shortWeekdaysParse=[],this._fullWeekdaysParse=[]),d=0;d<7;d++){
-// test the regex
-if(
-// make the regex if we don't have it already
-e=k([2e3,1]).day(d),c&&!this._fullWeekdaysParse[d]&&(this._fullWeekdaysParse[d]=new RegExp("^"+this.weekdays(e,"").replace(".",".?")+"$","i"),this._shortWeekdaysParse[d]=new RegExp("^"+this.weekdaysShort(e,"").replace(".",".?")+"$","i"),this._minWeekdaysParse[d]=new RegExp("^"+this.weekdaysMin(e,"").replace(".",".?")+"$","i")),this._weekdaysParse[d]||(f="^"+this.weekdays(e,"")+"|^"+this.weekdaysShort(e,"")+"|^"+this.weekdaysMin(e,""),this._weekdaysParse[d]=new RegExp(f.replace(".",""),"i")),c&&"dddd"===b&&this._fullWeekdaysParse[d].test(a))return d;if(c&&"ddd"===b&&this._shortWeekdaysParse[d].test(a))return d;if(c&&"dd"===b&&this._minWeekdaysParse[d].test(a))return d;if(!c&&this._weekdaysParse[d].test(a))return d}}
-// MOMENTS
-function Ka(a){if(!this.isValid())return null!=a?this:NaN;var b=this._isUTC?this._d.getUTCDay():this._d.getDay();return null!=a?(a=Da(a,this.localeData()),this.add(a-b,"d")):b}function La(a){if(!this.isValid())return null!=a?this:NaN;var b=(this.day()+7-this.localeData()._week.dow)%7;return null==a?b:this.add(a-b,"d")}function Ma(a){if(!this.isValid())return null!=a?this:NaN;
-// behaves the same as moment#day except
-// as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
-// as a setter, sunday should belong to the previous week.
-if(null!=a){var b=Ea(a,this.localeData());return this.day(this.day()%7?b:b-7)}return this.day()||7}function Na(a){return this._weekdaysParseExact?(i(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysStrictRegex:this._weekdaysRegex):(i(this,"_weekdaysRegex")||(this._weekdaysRegex=ue),this._weekdaysStrictRegex&&a?this._weekdaysStrictRegex:this._weekdaysRegex)}function Oa(a){return this._weekdaysParseExact?(i(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysShortStrictRegex:this._weekdaysShortRegex):(i(this,"_weekdaysShortRegex")||(this._weekdaysShortRegex=ve),this._weekdaysShortStrictRegex&&a?this._weekdaysShortStrictRegex:this._weekdaysShortRegex)}function Pa(a){return this._weekdaysParseExact?(i(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysMinStrictRegex:this._weekdaysMinRegex):(i(this,"_weekdaysMinRegex")||(this._weekdaysMinRegex=we),this._weekdaysMinStrictRegex&&a?this._weekdaysMinStrictRegex:this._weekdaysMinRegex)}function Qa(){function a(a,b){return b.length-a.length}var b,c,d,e,f,g=[],h=[],i=[],j=[];for(b=0;b<7;b++)
-// make the regex if we don't have it already
-c=k([2e3,1]).day(b),d=this.weekdaysMin(c,""),e=this.weekdaysShort(c,""),f=this.weekdays(c,""),g.push(d),h.push(e),i.push(f),j.push(d),j.push(e),j.push(f);for(
-// Sorting makes sure if one weekday (or abbr) is a prefix of another it
-// will match the longer piece.
-g.sort(a),h.sort(a),i.sort(a),j.sort(a),b=0;b<7;b++)h[b]=aa(h[b]),i[b]=aa(i[b]),j[b]=aa(j[b]);this._weekdaysRegex=new RegExp("^("+j.join("|")+")","i"),this._weekdaysShortRegex=this._weekdaysRegex,this._weekdaysMinRegex=this._weekdaysRegex,this._weekdaysStrictRegex=new RegExp("^("+i.join("|")+")","i"),this._weekdaysShortStrictRegex=new RegExp("^("+h.join("|")+")","i"),this._weekdaysMinStrictRegex=new RegExp("^("+g.join("|")+")","i")}
-// FORMATTING
-function Ra(){return this.hours()%12||12}function Sa(){return this.hours()||24}function Ta(a,b){U(a,0,0,function(){return this.localeData().meridiem(this.hours(),this.minutes(),b)})}
-// PARSING
-function Ua(a,b){return b._meridiemParse}
-// LOCALES
-function Va(a){
-// IE8 Quirks Mode & IE7 Standards Mode do not allow accessing strings like arrays
-// Using charAt should be more compatible.
-return"p"===(a+"").toLowerCase().charAt(0)}function Wa(a,b,c){return a>11?c?"pm":"PM":c?"am":"AM"}function Xa(a){return a?a.toLowerCase().replace("_","-"):a}
-// pick the locale from the array
-// try ['en-au', 'en-gb'] as 'en-au', 'en-gb', 'en', as in move through the list trying each
-// substring from most specific to least, but move to the next array item if it's a more specific variant than the current root
-function Ya(a){for(var b,c,d,e,f=0;f<a.length;){for(e=Xa(a[f]).split("-"),b=e.length,c=Xa(a[f+1]),c=c?c.split("-"):null;b>0;){if(d=Za(e.slice(0,b).join("-")))return d;if(c&&c.length>=b&&v(e,c,!0)>=b-1)
-//the next array item is better than a shallower substring of this one
-break;b--}f++}return null}function Za(a){var b=null;
-// TODO: Find a better way to register and load all the locales in Node
-if(!Be[a]&&"undefined"!=typeof module&&module&&module.exports)try{b=xe._abbr,require("./locale/"+a),
-// because defineLocale currently also sets the global locale, we
-// want to undo that for lazy loaded locales
-$a(b)}catch(a){}return Be[a]}
-// This function will load locale and then set the global locale.  If
-// no arguments are passed in, it will simply return the current global
-// locale key.
-function $a(a,b){var c;
-// moment.duration._locale = moment._locale = data;
-return a&&(c=p(b)?bb(a):_a(a,b),c&&(xe=c)),xe._abbr}function _a(a,b){if(null!==b){var c=Ae;if(b.abbr=a,null!=Be[a])y("defineLocaleOverride","use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info."),c=Be[a]._config;else if(null!=b.parentLocale){if(null==Be[b.parentLocale])return Ce[b.parentLocale]||(Ce[b.parentLocale]=[]),Ce[b.parentLocale].push({name:a,config:b}),null;c=Be[b.parentLocale]._config}
-// backwards compat for now: also set the locale
-// make sure we set the locale AFTER all child locales have been
-// created, so we won't end up with the child locale set.
-return Be[a]=new C(B(c,b)),Ce[a]&&Ce[a].forEach(function(a){_a(a.name,a.config)}),$a(a),Be[a]}
-// useful for testing
-return delete Be[a],null}function ab(a,b){if(null!=b){var c,d=Ae;
-// MERGE
-null!=Be[a]&&(d=Be[a]._config),b=B(d,b),c=new C(b),c.parentLocale=Be[a],Be[a]=c,
-// backwards compat for now: also set the locale
-$a(a)}else
-// pass null for config to unupdate, useful for tests
-null!=Be[a]&&(null!=Be[a].parentLocale?Be[a]=Be[a].parentLocale:null!=Be[a]&&delete Be[a]);return Be[a]}
-// returns locale data
-function bb(a){var b;if(a&&a._locale&&a._locale._abbr&&(a=a._locale._abbr),!a)return xe;if(!c(a)){if(
-//short-circuit everything else
-b=Za(a))return b;a=[a]}return Ya(a)}function cb(){return wd(Be)}function db(a){var b,c=a._a;return c&&m(a).overflow===-2&&(b=c[be]<0||c[be]>11?be:c[ce]<1||c[ce]>ea(c[ae],c[be])?ce:c[de]<0||c[de]>24||24===c[de]&&(0!==c[ee]||0!==c[fe]||0!==c[ge])?de:c[ee]<0||c[ee]>59?ee:c[fe]<0||c[fe]>59?fe:c[ge]<0||c[ge]>999?ge:-1,m(a)._overflowDayOfYear&&(b<ae||b>ce)&&(b=ce),m(a)._overflowWeeks&&b===-1&&(b=he),m(a)._overflowWeekday&&b===-1&&(b=ie),m(a).overflow=b),a}
-// date from iso format
-function eb(a){var b,c,d,e,f,g,h=a._i,i=De.exec(h)||Ee.exec(h);if(i){for(m(a).iso=!0,b=0,c=Ge.length;b<c;b++)if(Ge[b][1].exec(i[1])){e=Ge[b][0],d=Ge[b][2]!==!1;break}if(null==e)return void(a._isValid=!1);if(i[3]){for(b=0,c=He.length;b<c;b++)if(He[b][1].exec(i[3])){
-// match[2] should be 'T' or space
-f=(i[2]||" ")+He[b][0];break}if(null==f)return void(a._isValid=!1)}if(!d&&null!=f)return void(a._isValid=!1);if(i[4]){if(!Fe.exec(i[4]))return void(a._isValid=!1);g="Z"}a._f=e+(f||"")+(g||""),kb(a)}else a._isValid=!1}
-// date from iso format or fallback
-function fb(b){var c=Ie.exec(b._i);return null!==c?void(b._d=new Date(+c[1])):(eb(b),void(b._isValid===!1&&(delete b._isValid,a.createFromInputFallback(b))))}
-// Pick the first defined of two or three arguments.
-function gb(a,b,c){return null!=a?a:null!=b?b:c}function hb(b){
-// hooks is actually the exported moment object
-var c=new Date(a.now());return b._useUTC?[c.getUTCFullYear(),c.getUTCMonth(),c.getUTCDate()]:[c.getFullYear(),c.getMonth(),c.getDate()]}
-// convert an array to a date.
-// the array should mirror the parameters below
-// note: all values past the year are optional and will default to the lowest possible value.
-// [year, month, day , hour, minute, second, millisecond]
-function ib(a){var b,c,d,e,f=[];if(!a._d){
-// Default to current date.
-// * if no year, month, day of month are given, default to today
-// * if day of month is given, default month and year
-// * if month is given, default only year
-// * if year is given, don't default anything
-for(d=hb(a),
-//compute day of the year from weeks and weekdays
-a._w&&null==a._a[ce]&&null==a._a[be]&&jb(a),
-//if the day of the year is set, figure out what it is
-a._dayOfYear&&(e=gb(a._a[ae],d[ae]),a._dayOfYear>pa(e)&&(m(a)._overflowDayOfYear=!0),c=ta(e,0,a._dayOfYear),a._a[be]=c.getUTCMonth(),a._a[ce]=c.getUTCDate()),b=0;b<3&&null==a._a[b];++b)a._a[b]=f[b]=d[b];
-// Zero out whatever was not defaulted, including time
-for(;b<7;b++)a._a[b]=f[b]=null==a._a[b]?2===b?1:0:a._a[b];
-// Check for 24:00:00.000
-24===a._a[de]&&0===a._a[ee]&&0===a._a[fe]&&0===a._a[ge]&&(a._nextDay=!0,a._a[de]=0),a._d=(a._useUTC?ta:sa).apply(null,f),
-// Apply timezone offset from input. The actual utcOffset can be changed
-// with parseZone.
-null!=a._tzm&&a._d.setUTCMinutes(a._d.getUTCMinutes()-a._tzm),a._nextDay&&(a._a[de]=24)}}function jb(a){var b,c,d,e,f,g,h,i;if(b=a._w,null!=b.GG||null!=b.W||null!=b.E)f=1,g=4,
-// TODO: We need to take the current isoWeekYear, but that depends on
-// how we interpret now (local, utc, fixed offset). So create
-// a now version of current config (take local/utc/offset flags, and
-// create now).
-c=gb(b.GG,a._a[ae],wa(sb(),1,4).year),d=gb(b.W,1),e=gb(b.E,1),(e<1||e>7)&&(i=!0);else{f=a._locale._week.dow,g=a._locale._week.doy;var j=wa(sb(),f,g);c=gb(b.gg,a._a[ae],j.year),
-// Default to current week.
-d=gb(b.w,j.week),null!=b.d?(
-// weekday -- low day numbers are considered next week
-e=b.d,(e<0||e>6)&&(i=!0)):null!=b.e?(
-// local weekday -- counting starts from begining of week
-e=b.e+f,(b.e<0||b.e>6)&&(i=!0)):
-// default to begining of week
-e=f}d<1||d>xa(c,f,g)?m(a)._overflowWeeks=!0:null!=i?m(a)._overflowWeekday=!0:(h=va(c,d,e,f,g),a._a[ae]=h.year,a._dayOfYear=h.dayOfYear)}
-// date from string and format string
-function kb(b){
-// TODO: Move this to another part of the creation flow to prevent circular deps
-if(b._f===a.ISO_8601)return void eb(b);b._a=[],m(b).empty=!0;
-// This array is used to make a Date, either with `new Date` or `Date.UTC`
-var c,d,e,f,g,h=""+b._i,i=h.length,j=0;for(e=Y(b._f,b._locale).match(Fd)||[],c=0;c<e.length;c++)f=e[c],d=(h.match($(f,b))||[])[0],
-// console.log('token', token, 'parsedInput', parsedInput,
-//         'regex', getParseRegexForToken(token, config));
-d&&(g=h.substr(0,h.indexOf(d)),g.length>0&&m(b).unusedInput.push(g),h=h.slice(h.indexOf(d)+d.length),j+=d.length),
-// don't parse if it's not a known token
-Id[f]?(d?m(b).empty=!1:m(b).unusedTokens.push(f),da(f,d,b)):b._strict&&!d&&m(b).unusedTokens.push(f);
-// add remaining unparsed input length to the string
-m(b).charsLeftOver=i-j,h.length>0&&m(b).unusedInput.push(h),
-// clear _12h flag if hour is <= 12
-b._a[de]<=12&&m(b).bigHour===!0&&b._a[de]>0&&(m(b).bigHour=void 0),m(b).parsedDateParts=b._a.slice(0),m(b).meridiem=b._meridiem,
-// handle meridiem
-b._a[de]=lb(b._locale,b._a[de],b._meridiem),ib(b),db(b)}function lb(a,b,c){var d;
-// Fallback
-return null==c?b:null!=a.meridiemHour?a.meridiemHour(b,c):null!=a.isPM?(d=a.isPM(c),d&&b<12&&(b+=12),d||12!==b||(b=0),b):b}
-// date from string and array of format strings
-function mb(a){var b,c,d,e,f;if(0===a._f.length)return m(a).invalidFormat=!0,void(a._d=new Date(NaN));for(e=0;e<a._f.length;e++)f=0,b=q({},a),null!=a._useUTC&&(b._useUTC=a._useUTC),b._f=a._f[e],kb(b),n(b)&&(
-// if there is any input that was not parsed add a penalty for that format
-f+=m(b).charsLeftOver,
-//or tokens
-f+=10*m(b).unusedTokens.length,m(b).score=f,(null==d||f<d)&&(d=f,c=b));j(a,c||b)}function nb(a){if(!a._d){var b=L(a._i);a._a=h([b.year,b.month,b.day||b.date,b.hour,b.minute,b.second,b.millisecond],function(a){return a&&parseInt(a,10)}),ib(a)}}function ob(a){var b=new r(db(pb(a)));
-// Adding is smart enough around DST
-return b._nextDay&&(b.add(1,"d"),b._nextDay=void 0),b}function pb(a){var b=a._i,d=a._f;return a._locale=a._locale||bb(a._l),null===b||void 0===d&&""===b?o({nullInput:!0}):("string"==typeof b&&(a._i=b=a._locale.preparse(b)),s(b)?new r(db(b)):(g(b)?a._d=b:c(d)?mb(a):d?kb(a):qb(a),n(a)||(a._d=null),a))}function qb(b){var d=b._i;void 0===d?b._d=new Date(a.now()):g(d)?b._d=new Date(d.valueOf()):"string"==typeof d?fb(b):c(d)?(b._a=h(d.slice(0),function(a){return parseInt(a,10)}),ib(b)):"object"==typeof d?nb(b):f(d)?
-// from milliseconds
-b._d=new Date(d):a.createFromInputFallback(b)}function rb(a,b,f,g,h){var i={};
-// object construction must be done this way.
-// https://github.com/moment/moment/issues/1423
-return f!==!0&&f!==!1||(g=f,f=void 0),(d(a)&&e(a)||c(a)&&0===a.length)&&(a=void 0),i._isAMomentObject=!0,i._useUTC=i._isUTC=h,i._l=f,i._i=a,i._f=b,i._strict=g,ob(i)}function sb(a,b,c,d){return rb(a,b,c,d,!1)}
-// Pick a moment m from moments so that m[fn](other) is true for all
-// other. This relies on the function fn to be transitive.
-//
-// moments should either be an array of moment objects or an array, whose
-// first element is an array of moment objects.
-function tb(a,b){var d,e;if(1===b.length&&c(b[0])&&(b=b[0]),!b.length)return sb();for(d=b[0],e=1;e<b.length;++e)b[e].isValid()&&!b[e][a](d)||(d=b[e]);return d}
-// TODO: Use [].sort instead?
-function ub(){var a=[].slice.call(arguments,0);return tb("isBefore",a)}function vb(){var a=[].slice.call(arguments,0);return tb("isAfter",a)}function wb(a){var b=L(a),c=b.year||0,d=b.quarter||0,e=b.month||0,f=b.week||0,g=b.day||0,h=b.hour||0,i=b.minute||0,j=b.second||0,k=b.millisecond||0;
-// representation for dateAddRemove
-this._milliseconds=+k+1e3*j+// 1000
-6e4*i+// 1000 * 60
-1e3*h*60*60,//using 1000 * 60 * 60 instead of 36e5 to avoid floating point rounding errors https://github.com/moment/moment/issues/2978
-// Because of dateAddRemove treats 24 hours as different from a
-// day when working around DST, we need to store them separately
-this._days=+g+7*f,
-// It is impossible translate months into days without knowing
-// which months you are are talking about, so we have to store
-// it separately.
-this._months=+e+3*d+12*c,this._data={},this._locale=bb(),this._bubble()}function xb(a){return a instanceof wb}function yb(a){return a<0?Math.round(-1*a)*-1:Math.round(a)}
-// FORMATTING
-function zb(a,b){U(a,0,0,function(){var a=this.utcOffset(),c="+";return a<0&&(a=-a,c="-"),c+T(~~(a/60),2)+b+T(~~a%60,2)})}function Ab(a,b){var c=(b||"").match(a);if(null===c)return null;var d=c[c.length-1]||[],e=(d+"").match(Me)||["-",0,0],f=+(60*e[1])+u(e[2]);return 0===f?0:"+"===e[0]?f:-f}
-// Return a moment from input, that is local/utc/zone equivalent to model.
-function Bb(b,c){var d,e;
-// Use low-level api, because this fn is low-level api.
-return c._isUTC?(d=c.clone(),e=(s(b)||g(b)?b.valueOf():sb(b).valueOf())-d.valueOf(),d._d.setTime(d._d.valueOf()+e),a.updateOffset(d,!1),d):sb(b).local()}function Cb(a){
-// On Firefox.24 Date#getTimezoneOffset returns a floating point.
-// https://github.com/moment/moment/pull/1871
-return 15*-Math.round(a._d.getTimezoneOffset()/15)}
-// MOMENTS
-// keepLocalTime = true means only change the timezone, without
-// affecting the local hour. So 5:31:26 +0300 --[utcOffset(2, true)]-->
-// 5:31:26 +0200 It is possible that 5:31:26 doesn't exist with offset
-// +0200, so we adjust the time as needed, to be valid.
-//
-// Keeping the time actually adds/subtracts (one hour)
-// from the actual represented time. That is why we call updateOffset
-// a second time. In case it wants us to change the offset again
-// _changeInProgress == true case, then we have to adjust, because
-// there is no such time in the given timezone.
-function Db(b,c){var d,e=this._offset||0;if(!this.isValid())return null!=b?this:NaN;if(null!=b){if("string"==typeof b){if(b=Ab(Xd,b),null===b)return this}else Math.abs(b)<16&&(b=60*b);return!this._isUTC&&c&&(d=Cb(this)),this._offset=b,this._isUTC=!0,null!=d&&this.add(d,"m"),e!==b&&(!c||this._changeInProgress?Tb(this,Ob(b-e,"m"),1,!1):this._changeInProgress||(this._changeInProgress=!0,a.updateOffset(this,!0),this._changeInProgress=null)),this}return this._isUTC?e:Cb(this)}function Eb(a,b){return null!=a?("string"!=typeof a&&(a=-a),this.utcOffset(a,b),this):-this.utcOffset()}function Fb(a){return this.utcOffset(0,a)}function Gb(a){return this._isUTC&&(this.utcOffset(0,a),this._isUTC=!1,a&&this.subtract(Cb(this),"m")),this}function Hb(){if(null!=this._tzm)this.utcOffset(this._tzm);else if("string"==typeof this._i){var a=Ab(Wd,this._i);null!=a?this.utcOffset(a):this.utcOffset(0,!0)}return this}function Ib(a){return!!this.isValid()&&(a=a?sb(a).utcOffset():0,(this.utcOffset()-a)%60===0)}function Jb(){return this.utcOffset()>this.clone().month(0).utcOffset()||this.utcOffset()>this.clone().month(5).utcOffset()}function Kb(){if(!p(this._isDSTShifted))return this._isDSTShifted;var a={};if(q(a,this),a=pb(a),a._a){var b=a._isUTC?k(a._a):sb(a._a);this._isDSTShifted=this.isValid()&&v(a._a,b.toArray())>0}else this._isDSTShifted=!1;return this._isDSTShifted}function Lb(){return!!this.isValid()&&!this._isUTC}function Mb(){return!!this.isValid()&&this._isUTC}function Nb(){return!!this.isValid()&&(this._isUTC&&0===this._offset)}function Ob(a,b){var c,d,e,g=a,
-// matching against regexp is expensive, do it on demand
-h=null;// checks for null or undefined
-return xb(a)?g={ms:a._milliseconds,d:a._days,M:a._months}:f(a)?(g={},b?g[b]=a:g.milliseconds=a):(h=Ne.exec(a))?(c="-"===h[1]?-1:1,g={y:0,d:u(h[ce])*c,h:u(h[de])*c,m:u(h[ee])*c,s:u(h[fe])*c,ms:u(yb(1e3*h[ge]))*c}):(h=Oe.exec(a))?(c="-"===h[1]?-1:1,g={y:Pb(h[2],c),M:Pb(h[3],c),w:Pb(h[4],c),d:Pb(h[5],c),h:Pb(h[6],c),m:Pb(h[7],c),s:Pb(h[8],c)}):null==g?g={}:"object"==typeof g&&("from"in g||"to"in g)&&(e=Rb(sb(g.from),sb(g.to)),g={},g.ms=e.milliseconds,g.M=e.months),d=new wb(g),xb(a)&&i(a,"_locale")&&(d._locale=a._locale),d}function Pb(a,b){
-// We'd normally use ~~inp for this, but unfortunately it also
-// converts floats to ints.
-// inp may be undefined, so careful calling replace on it.
-var c=a&&parseFloat(a.replace(",","."));
-// apply sign while we're at it
-return(isNaN(c)?0:c)*b}function Qb(a,b){var c={milliseconds:0,months:0};return c.months=b.month()-a.month()+12*(b.year()-a.year()),a.clone().add(c.months,"M").isAfter(b)&&--c.months,c.milliseconds=+b-+a.clone().add(c.months,"M"),c}function Rb(a,b){var c;return a.isValid()&&b.isValid()?(b=Bb(b,a),a.isBefore(b)?c=Qb(a,b):(c=Qb(b,a),c.milliseconds=-c.milliseconds,c.months=-c.months),c):{milliseconds:0,months:0}}
-// TODO: remove 'name' arg after deprecation is removed
-function Sb(a,b){return function(c,d){var e,f;
-//invert the arguments, but complain about it
-return null===d||isNaN(+d)||(y(b,"moment()."+b+"(period, number) is deprecated. Please use moment()."+b+"(number, period). See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info."),f=c,c=d,d=f),c="string"==typeof c?+c:c,e=Ob(c,d),Tb(this,e,a),this}}function Tb(b,c,d,e){var f=c._milliseconds,g=yb(c._days),h=yb(c._months);b.isValid()&&(e=null==e||e,f&&b._d.setTime(b._d.valueOf()+f*d),g&&Q(b,"Date",P(b,"Date")+g*d),h&&ja(b,P(b,"Month")+h*d),e&&a.updateOffset(b,g||h))}function Ub(a,b){var c=a.diff(b,"days",!0);return c<-6?"sameElse":c<-1?"lastWeek":c<0?"lastDay":c<1?"sameDay":c<2?"nextDay":c<7?"nextWeek":"sameElse"}function Vb(b,c){
-// We want to compare the start of today, vs this.
-// Getting start-of-today depends on whether we're local/utc/offset or not.
-var d=b||sb(),e=Bb(d,this).startOf("day"),f=a.calendarFormat(this,e)||"sameElse",g=c&&(z(c[f])?c[f].call(this,d):c[f]);return this.format(g||this.localeData().calendar(f,this,sb(d)))}function Wb(){return new r(this)}function Xb(a,b){var c=s(a)?a:sb(a);return!(!this.isValid()||!c.isValid())&&(b=K(p(b)?"millisecond":b),"millisecond"===b?this.valueOf()>c.valueOf():c.valueOf()<this.clone().startOf(b).valueOf())}function Yb(a,b){var c=s(a)?a:sb(a);return!(!this.isValid()||!c.isValid())&&(b=K(p(b)?"millisecond":b),"millisecond"===b?this.valueOf()<c.valueOf():this.clone().endOf(b).valueOf()<c.valueOf())}function Zb(a,b,c,d){return d=d||"()",("("===d[0]?this.isAfter(a,c):!this.isBefore(a,c))&&(")"===d[1]?this.isBefore(b,c):!this.isAfter(b,c))}function $b(a,b){var c,d=s(a)?a:sb(a);return!(!this.isValid()||!d.isValid())&&(b=K(b||"millisecond"),"millisecond"===b?this.valueOf()===d.valueOf():(c=d.valueOf(),this.clone().startOf(b).valueOf()<=c&&c<=this.clone().endOf(b).valueOf()))}function _b(a,b){return this.isSame(a,b)||this.isAfter(a,b)}function ac(a,b){return this.isSame(a,b)||this.isBefore(a,b)}function bc(a,b,c){var d,e,f,g;// 1000
-// 1000 * 60
-// 1000 * 60 * 60
-// 1000 * 60 * 60 * 24, negate dst
-// 1000 * 60 * 60 * 24 * 7, negate dst
-return this.isValid()?(d=Bb(a,this),d.isValid()?(e=6e4*(d.utcOffset()-this.utcOffset()),b=K(b),"year"===b||"month"===b||"quarter"===b?(g=cc(this,d),"quarter"===b?g/=3:"year"===b&&(g/=12)):(f=this-d,g="second"===b?f/1e3:"minute"===b?f/6e4:"hour"===b?f/36e5:"day"===b?(f-e)/864e5:"week"===b?(f-e)/6048e5:f),c?g:t(g)):NaN):NaN}function cc(a,b){
-// difference in months
-var c,d,e=12*(b.year()-a.year())+(b.month()-a.month()),
-// b is in (anchor - 1 month, anchor + 1 month)
-f=a.clone().add(e,"months");
-//check for negative zero, return zero if negative zero
-// linear across the month
-// linear across the month
-return b-f<0?(c=a.clone().add(e-1,"months"),d=(b-f)/(f-c)):(c=a.clone().add(e+1,"months"),d=(b-f)/(c-f)),-(e+d)||0}function dc(){return this.clone().locale("en").format("ddd MMM DD YYYY HH:mm:ss [GMT]ZZ")}function ec(){var a=this.clone().utc();return 0<a.year()&&a.year()<=9999?z(Date.prototype.toISOString)?this.toDate().toISOString():X(a,"YYYY-MM-DD[T]HH:mm:ss.SSS[Z]"):X(a,"YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]")}/**
- * Return a human readable representation of a moment that can
- * also be evaluated to get a new moment which is the same
- *
- * @link https://nodejs.org/dist/latest/docs/api/util.html#util_custom_inspect_function_on_objects
- */
-function fc(){if(!this.isValid())return"moment.invalid(/* "+this._i+" */)";var a="moment",b="";this.isLocal()||(a=0===this.utcOffset()?"moment.utc":"moment.parseZone",b="Z");var c="["+a+'("]',d=0<this.year()&&this.year()<=9999?"YYYY":"YYYYYY",e="-MM-DD[T]HH:mm:ss.SSS",f=b+'[")]';return this.format(c+d+e+f)}function gc(b){b||(b=this.isUtc()?a.defaultFormatUtc:a.defaultFormat);var c=X(this,b);return this.localeData().postformat(c)}function hc(a,b){return this.isValid()&&(s(a)&&a.isValid()||sb(a).isValid())?Ob({to:this,from:a}).locale(this.locale()).humanize(!b):this.localeData().invalidDate()}function ic(a){return this.from(sb(),a)}function jc(a,b){return this.isValid()&&(s(a)&&a.isValid()||sb(a).isValid())?Ob({from:this,to:a}).locale(this.locale()).humanize(!b):this.localeData().invalidDate()}function kc(a){return this.to(sb(),a)}
-// If passed a locale key, it will set the locale for this
-// instance.  Otherwise, it will return the locale configuration
-// variables for this instance.
-function lc(a){var b;return void 0===a?this._locale._abbr:(b=bb(a),null!=b&&(this._locale=b),this)}function mc(){return this._locale}function nc(a){
-// the following switch intentionally omits break keywords
-// to utilize falling through the cases.
-switch(a=K(a)){case"year":this.month(0);/* falls through */
-case"quarter":case"month":this.date(1);/* falls through */
-case"week":case"isoWeek":case"day":case"date":this.hours(0);/* falls through */
-case"hour":this.minutes(0);/* falls through */
-case"minute":this.seconds(0);/* falls through */
-case"second":this.milliseconds(0)}
-// weeks are a special case
-// quarters are also special
-return"week"===a&&this.weekday(0),"isoWeek"===a&&this.isoWeekday(1),"quarter"===a&&this.month(3*Math.floor(this.month()/3)),this}function oc(a){
-// 'date' is an alias for 'day', so it should be considered as such.
-return a=K(a),void 0===a||"millisecond"===a?this:("date"===a&&(a="day"),this.startOf(a).add(1,"isoWeek"===a?"week":a).subtract(1,"ms"))}function pc(){return this._d.valueOf()-6e4*(this._offset||0)}function qc(){return Math.floor(this.valueOf()/1e3)}function rc(){return new Date(this.valueOf())}function sc(){var a=this;return[a.year(),a.month(),a.date(),a.hour(),a.minute(),a.second(),a.millisecond()]}function tc(){var a=this;return{years:a.year(),months:a.month(),date:a.date(),hours:a.hours(),minutes:a.minutes(),seconds:a.seconds(),milliseconds:a.milliseconds()}}function uc(){
-// new Date(NaN).toJSON() === null
-return this.isValid()?this.toISOString():null}function vc(){return n(this)}function wc(){return j({},m(this))}function xc(){return m(this).overflow}function yc(){return{input:this._i,format:this._f,locale:this._locale,isUTC:this._isUTC,strict:this._strict}}function zc(a,b){U(0,[a,a.length],0,b)}
-// MOMENTS
-function Ac(a){return Ec.call(this,a,this.week(),this.weekday(),this.localeData()._week.dow,this.localeData()._week.doy)}function Bc(a){return Ec.call(this,a,this.isoWeek(),this.isoWeekday(),1,4)}function Cc(){return xa(this.year(),1,4)}function Dc(){var a=this.localeData()._week;return xa(this.year(),a.dow,a.doy)}function Ec(a,b,c,d,e){var f;return null==a?wa(this,d,e).year:(f=xa(a,d,e),b>f&&(b=f),Fc.call(this,a,b,c,d,e))}function Fc(a,b,c,d,e){var f=va(a,b,c,d,e),g=ta(f.year,0,f.dayOfYear);return this.year(g.getUTCFullYear()),this.month(g.getUTCMonth()),this.date(g.getUTCDate()),this}
-// MOMENTS
-function Gc(a){return null==a?Math.ceil((this.month()+1)/3):this.month(3*(a-1)+this.month()%3)}
-// HELPERS
-// MOMENTS
-function Hc(a){var b=Math.round((this.clone().startOf("day")-this.clone().startOf("year"))/864e5)+1;return null==a?b:this.add(a-b,"d")}function Ic(a,b){b[ge]=u(1e3*("0."+a))}
-// MOMENTS
-function Jc(){return this._isUTC?"UTC":""}function Kc(){return this._isUTC?"Coordinated Universal Time":""}function Lc(a){return sb(1e3*a)}function Mc(){return sb.apply(null,arguments).parseZone()}function Nc(a){return a}function Oc(a,b,c,d){var e=bb(),f=k().set(d,b);return e[c](f,a)}function Pc(a,b,c){if(f(a)&&(b=a,a=void 0),a=a||"",null!=b)return Oc(a,b,c,"month");var d,e=[];for(d=0;d<12;d++)e[d]=Oc(a,d,c,"month");return e}
-// ()
-// (5)
-// (fmt, 5)
-// (fmt)
-// (true)
-// (true, 5)
-// (true, fmt, 5)
-// (true, fmt)
-function Qc(a,b,c,d){"boolean"==typeof a?(f(b)&&(c=b,b=void 0),b=b||""):(b=a,c=b,a=!1,f(b)&&(c=b,b=void 0),b=b||"");var e=bb(),g=a?e._week.dow:0;if(null!=c)return Oc(b,(c+g)%7,d,"day");var h,i=[];for(h=0;h<7;h++)i[h]=Oc(b,(h+g)%7,d,"day");return i}function Rc(a,b){return Pc(a,b,"months")}function Sc(a,b){return Pc(a,b,"monthsShort")}function Tc(a,b,c){return Qc(a,b,c,"weekdays")}function Uc(a,b,c){return Qc(a,b,c,"weekdaysShort")}function Vc(a,b,c){return Qc(a,b,c,"weekdaysMin")}function Wc(){var a=this._data;return this._milliseconds=Ze(this._milliseconds),this._days=Ze(this._days),this._months=Ze(this._months),a.milliseconds=Ze(a.milliseconds),a.seconds=Ze(a.seconds),a.minutes=Ze(a.minutes),a.hours=Ze(a.hours),a.months=Ze(a.months),a.years=Ze(a.years),this}function Xc(a,b,c,d){var e=Ob(b,c);return a._milliseconds+=d*e._milliseconds,a._days+=d*e._days,a._months+=d*e._months,a._bubble()}
-// supports only 2.0-style add(1, 's') or add(duration)
-function Yc(a,b){return Xc(this,a,b,1)}
-// supports only 2.0-style subtract(1, 's') or subtract(duration)
-function Zc(a,b){return Xc(this,a,b,-1)}function $c(a){return a<0?Math.floor(a):Math.ceil(a)}function _c(){var a,b,c,d,e,f=this._milliseconds,g=this._days,h=this._months,i=this._data;
-// if we have a mix of positive and negative values, bubble down first
-// check: https://github.com/moment/moment/issues/2166
-// The following code bubbles up values, see the tests for
-// examples of what that means.
-// convert days to months
-// 12 months -> 1 year
-return f>=0&&g>=0&&h>=0||f<=0&&g<=0&&h<=0||(f+=864e5*$c(bd(h)+g),g=0,h=0),i.milliseconds=f%1e3,a=t(f/1e3),i.seconds=a%60,b=t(a/60),i.minutes=b%60,c=t(b/60),i.hours=c%24,g+=t(c/24),e=t(ad(g)),h+=e,g-=$c(bd(e)),d=t(h/12),h%=12,i.days=g,i.months=h,i.years=d,this}function ad(a){
-// 400 years have 146097 days (taking into account leap year rules)
-// 400 years have 12 months === 4800
-return 4800*a/146097}function bd(a){
-// the reverse of daysToMonths
-return 146097*a/4800}function cd(a){var b,c,d=this._milliseconds;if(a=K(a),"month"===a||"year"===a)return b=this._days+d/864e5,c=this._months+ad(b),"month"===a?c:c/12;switch(
-// handle milliseconds separately because of floating point math errors (issue #1867)
-b=this._days+Math.round(bd(this._months)),a){case"week":return b/7+d/6048e5;case"day":return b+d/864e5;case"hour":return 24*b+d/36e5;case"minute":return 1440*b+d/6e4;case"second":return 86400*b+d/1e3;
-// Math.floor prevents floating point math errors here
-case"millisecond":return Math.floor(864e5*b)+d;default:throw new Error("Unknown unit "+a)}}
-// TODO: Use this.as('ms')?
-function dd(){return this._milliseconds+864e5*this._days+this._months%12*2592e6+31536e6*u(this._months/12)}function ed(a){return function(){return this.as(a)}}function fd(a){return a=K(a),this[a+"s"]()}function gd(a){return function(){return this._data[a]}}function hd(){return t(this.days()/7)}
-// helper function for moment.fn.from, moment.fn.fromNow, and moment.duration.fn.humanize
-function id(a,b,c,d,e){return e.relativeTime(b||1,!!c,a,d)}function jd(a,b,c){var d=Ob(a).abs(),e=of(d.as("s")),f=of(d.as("m")),g=of(d.as("h")),h=of(d.as("d")),i=of(d.as("M")),j=of(d.as("y")),k=e<pf.s&&["s",e]||f<=1&&["m"]||f<pf.m&&["mm",f]||g<=1&&["h"]||g<pf.h&&["hh",g]||h<=1&&["d"]||h<pf.d&&["dd",h]||i<=1&&["M"]||i<pf.M&&["MM",i]||j<=1&&["y"]||["yy",j];return k[2]=b,k[3]=+a>0,k[4]=c,id.apply(null,k)}
-// This function allows you to set the rounding function for relative time strings
-function kd(a){return void 0===a?of:"function"==typeof a&&(of=a,!0)}
-// This function allows you to set a threshold for relative time strings
-function ld(a,b){return void 0!==pf[a]&&(void 0===b?pf[a]:(pf[a]=b,!0))}function md(a){var b=this.localeData(),c=jd(this,!a,b);return a&&(c=b.pastFuture(+this,c)),b.postformat(c)}function nd(){
-// for ISO strings we do not use the normal bubbling rules:
-//  * milliseconds bubble up until they become hours
-//  * days do not bubble at all
-//  * months bubble up until they become years
-// This is because there is no context-free conversion between hours and days
-// (think of clock changes)
-// and also not between days and months (28-31 days per month)
-var a,b,c,d=qf(this._milliseconds)/1e3,e=qf(this._days),f=qf(this._months);
-// 3600 seconds -> 60 minutes -> 1 hour
-a=t(d/60),b=t(a/60),d%=60,a%=60,
-// 12 months -> 1 year
-c=t(f/12),f%=12;
-// inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
-var g=c,h=f,i=e,j=b,k=a,l=d,m=this.asSeconds();return m?(m<0?"-":"")+"P"+(g?g+"Y":"")+(h?h+"M":"")+(i?i+"D":"")+(j||k||l?"T":"")+(j?j+"H":"")+(k?k+"M":"")+(l?l+"S":""):"P0D"}var od,pd;pd=Array.prototype.some?Array.prototype.some:function(a){for(var b=Object(this),c=b.length>>>0,d=0;d<c;d++)if(d in b&&a.call(this,b[d],d,b))return!0;return!1};var qd=pd,rd=a.momentProperties=[],sd=!1,td={};a.suppressDeprecationWarnings=!1,a.deprecationHandler=null;var ud;ud=Object.keys?Object.keys:function(a){var b,c=[];for(b in a)i(a,b)&&c.push(b);return c};var vd,wd=ud,xd={sameDay:"[Today at] LT",nextDay:"[Tomorrow at] LT",nextWeek:"dddd [at] LT",lastDay:"[Yesterday at] LT",lastWeek:"[Last] dddd [at] LT",sameElse:"L"},yd={LTS:"h:mm:ss A",LT:"h:mm A",L:"MM/DD/YYYY",LL:"MMMM D, YYYY",LLL:"MMMM D, YYYY h:mm A",LLLL:"dddd, MMMM D, YYYY h:mm A"},zd="Invalid date",Ad="%d",Bd=/\d{1,2}/,Cd={future:"in %s",past:"%s ago",s:"a few seconds",m:"a minute",mm:"%d minutes",h:"an hour",hh:"%d hours",d:"a day",dd:"%d days",M:"a month",MM:"%d months",y:"a year",yy:"%d years"},Dd={},Ed={},Fd=/(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,Gd=/(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,Hd={},Id={},Jd=/\d/,Kd=/\d\d/,Ld=/\d{3}/,Md=/\d{4}/,Nd=/[+-]?\d{6}/,Od=/\d\d?/,Pd=/\d\d\d\d?/,Qd=/\d\d\d\d\d\d?/,Rd=/\d{1,3}/,Sd=/\d{1,4}/,Td=/[+-]?\d{1,6}/,Ud=/\d+/,Vd=/[+-]?\d+/,Wd=/Z|[+-]\d\d:?\d\d/gi,Xd=/Z|[+-]\d\d(?::?\d\d)?/gi,Yd=/[+-]?\d+(\.\d{1,3})?/,Zd=/[0-9]*['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+|[\u0600-\u06FF\/]+(\s*?[\u0600-\u06FF]+){1,2}/i,$d={},_d={},ae=0,be=1,ce=2,de=3,ee=4,fe=5,ge=6,he=7,ie=8;vd=Array.prototype.indexOf?Array.prototype.indexOf:function(a){
-// I know
-var b;for(b=0;b<this.length;++b)if(this[b]===a)return b;return-1};var je=vd;
-// FORMATTING
-U("M",["MM",2],"Mo",function(){return this.month()+1}),U("MMM",0,0,function(a){return this.localeData().monthsShort(this,a)}),U("MMMM",0,0,function(a){return this.localeData().months(this,a)}),
-// ALIASES
-J("month","M"),
-// PRIORITY
-M("month",8),
-// PARSING
-Z("M",Od),Z("MM",Od,Kd),Z("MMM",function(a,b){return b.monthsShortRegex(a)}),Z("MMMM",function(a,b){return b.monthsRegex(a)}),ba(["M","MM"],function(a,b){b[be]=u(a)-1}),ba(["MMM","MMMM"],function(a,b,c,d){var e=c._locale.monthsParse(a,d,c._strict);
-// if we didn't find a month name, mark the date as invalid.
-null!=e?b[be]=e:m(c).invalidMonth=a});
-// LOCALES
-var ke=/D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/,le="January_February_March_April_May_June_July_August_September_October_November_December".split("_"),me="Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec".split("_"),ne=Zd,oe=Zd;
-// FORMATTING
-U("Y",0,0,function(){var a=this.year();return a<=9999?""+a:"+"+a}),U(0,["YY",2],0,function(){return this.year()%100}),U(0,["YYYY",4],0,"year"),U(0,["YYYYY",5],0,"year"),U(0,["YYYYYY",6,!0],0,"year"),
-// ALIASES
-J("year","y"),
-// PRIORITIES
-M("year",1),
-// PARSING
-Z("Y",Vd),Z("YY",Od,Kd),Z("YYYY",Sd,Md),Z("YYYYY",Td,Nd),Z("YYYYYY",Td,Nd),ba(["YYYYY","YYYYYY"],ae),ba("YYYY",function(b,c){c[ae]=2===b.length?a.parseTwoDigitYear(b):u(b)}),ba("YY",function(b,c){c[ae]=a.parseTwoDigitYear(b)}),ba("Y",function(a,b){b[ae]=parseInt(a,10)}),
-// HOOKS
-a.parseTwoDigitYear=function(a){return u(a)+(u(a)>68?1900:2e3)};
-// MOMENTS
-var pe=O("FullYear",!0);
-// FORMATTING
-U("w",["ww",2],"wo","week"),U("W",["WW",2],"Wo","isoWeek"),
-// ALIASES
-J("week","w"),J("isoWeek","W"),
-// PRIORITIES
-M("week",5),M("isoWeek",5),
-// PARSING
-Z("w",Od),Z("ww",Od,Kd),Z("W",Od),Z("WW",Od,Kd),ca(["w","ww","W","WW"],function(a,b,c,d){b[d.substr(0,1)]=u(a)});var qe={dow:0,// Sunday is the first day of the week.
-doy:6};
-// FORMATTING
-U("d",0,"do","day"),U("dd",0,0,function(a){return this.localeData().weekdaysMin(this,a)}),U("ddd",0,0,function(a){return this.localeData().weekdaysShort(this,a)}),U("dddd",0,0,function(a){return this.localeData().weekdays(this,a)}),U("e",0,0,"weekday"),U("E",0,0,"isoWeekday"),
-// ALIASES
-J("day","d"),J("weekday","e"),J("isoWeekday","E"),
-// PRIORITY
-M("day",11),M("weekday",11),M("isoWeekday",11),
-// PARSING
-Z("d",Od),Z("e",Od),Z("E",Od),Z("dd",function(a,b){return b.weekdaysMinRegex(a)}),Z("ddd",function(a,b){return b.weekdaysShortRegex(a)}),Z("dddd",function(a,b){return b.weekdaysRegex(a)}),ca(["dd","ddd","dddd"],function(a,b,c,d){var e=c._locale.weekdaysParse(a,d,c._strict);
-// if we didn't get a weekday name, mark the date as invalid
-null!=e?b.d=e:m(c).invalidWeekday=a}),ca(["d","e","E"],function(a,b,c,d){b[d]=u(a)});
-// LOCALES
-var re="Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split("_"),se="Sun_Mon_Tue_Wed_Thu_Fri_Sat".split("_"),te="Su_Mo_Tu_We_Th_Fr_Sa".split("_"),ue=Zd,ve=Zd,we=Zd;U("H",["HH",2],0,"hour"),U("h",["hh",2],0,Ra),U("k",["kk",2],0,Sa),U("hmm",0,0,function(){return""+Ra.apply(this)+T(this.minutes(),2)}),U("hmmss",0,0,function(){return""+Ra.apply(this)+T(this.minutes(),2)+T(this.seconds(),2)}),U("Hmm",0,0,function(){return""+this.hours()+T(this.minutes(),2)}),U("Hmmss",0,0,function(){return""+this.hours()+T(this.minutes(),2)+T(this.seconds(),2)}),Ta("a",!0),Ta("A",!1),
-// ALIASES
-J("hour","h"),
-// PRIORITY
-M("hour",13),Z("a",Ua),Z("A",Ua),Z("H",Od),Z("h",Od),Z("HH",Od,Kd),Z("hh",Od,Kd),Z("hmm",Pd),Z("hmmss",Qd),Z("Hmm",Pd),Z("Hmmss",Qd),ba(["H","HH"],de),ba(["a","A"],function(a,b,c){c._isPm=c._locale.isPM(a),c._meridiem=a}),ba(["h","hh"],function(a,b,c){b[de]=u(a),m(c).bigHour=!0}),ba("hmm",function(a,b,c){var d=a.length-2;b[de]=u(a.substr(0,d)),b[ee]=u(a.substr(d)),m(c).bigHour=!0}),ba("hmmss",function(a,b,c){var d=a.length-4,e=a.length-2;b[de]=u(a.substr(0,d)),b[ee]=u(a.substr(d,2)),b[fe]=u(a.substr(e)),m(c).bigHour=!0}),ba("Hmm",function(a,b,c){var d=a.length-2;b[de]=u(a.substr(0,d)),b[ee]=u(a.substr(d))}),ba("Hmmss",function(a,b,c){var d=a.length-4,e=a.length-2;b[de]=u(a.substr(0,d)),b[ee]=u(a.substr(d,2)),b[fe]=u(a.substr(e))});var xe,ye=/[ap]\.?m?\.?/i,ze=O("Hours",!0),Ae={calendar:xd,longDateFormat:yd,invalidDate:zd,ordinal:Ad,ordinalParse:Bd,relativeTime:Cd,months:le,monthsShort:me,week:qe,weekdays:re,weekdaysMin:te,weekdaysShort:se,meridiemParse:ye},Be={},Ce={},De=/^\s*((?:[+-]\d{6}|\d{4})-(?:\d\d-\d\d|W\d\d-\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?::\d\d(?::\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/,Ee=/^\s*((?:[+-]\d{6}|\d{4})(?:\d\d\d\d|W\d\d\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?:\d\d(?:\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/,Fe=/Z|[+-]\d\d(?::?\d\d)?/,Ge=[["YYYYYY-MM-DD",/[+-]\d{6}-\d\d-\d\d/],["YYYY-MM-DD",/\d{4}-\d\d-\d\d/],["GGGG-[W]WW-E",/\d{4}-W\d\d-\d/],["GGGG-[W]WW",/\d{4}-W\d\d/,!1],["YYYY-DDD",/\d{4}-\d{3}/],["YYYY-MM",/\d{4}-\d\d/,!1],["YYYYYYMMDD",/[+-]\d{10}/],["YYYYMMDD",/\d{8}/],
-// YYYYMM is NOT allowed by the standard
-["GGGG[W]WWE",/\d{4}W\d{3}/],["GGGG[W]WW",/\d{4}W\d{2}/,!1],["YYYYDDD",/\d{7}/]],He=[["HH:mm:ss.SSSS",/\d\d:\d\d:\d\d\.\d+/],["HH:mm:ss,SSSS",/\d\d:\d\d:\d\d,\d+/],["HH:mm:ss",/\d\d:\d\d:\d\d/],["HH:mm",/\d\d:\d\d/],["HHmmss.SSSS",/\d\d\d\d\d\d\.\d+/],["HHmmss,SSSS",/\d\d\d\d\d\d,\d+/],["HHmmss",/\d\d\d\d\d\d/],["HHmm",/\d\d\d\d/],["HH",/\d\d/]],Ie=/^\/?Date\((\-?\d+)/i;a.createFromInputFallback=x("value provided is not in a recognized ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.",function(a){a._d=new Date(a._i+(a._useUTC?" UTC":""))}),
-// constant that refers to the ISO standard
-a.ISO_8601=function(){};var Je=x("moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/",function(){var a=sb.apply(null,arguments);return this.isValid()&&a.isValid()?a<this?this:a:o()}),Ke=x("moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/",function(){var a=sb.apply(null,arguments);return this.isValid()&&a.isValid()?a>this?this:a:o()}),Le=function(){return Date.now?Date.now():+new Date};zb("Z",":"),zb("ZZ",""),
-// PARSING
-Z("Z",Xd),Z("ZZ",Xd),ba(["Z","ZZ"],function(a,b,c){c._useUTC=!0,c._tzm=Ab(Xd,a)});
-// HELPERS
-// timezone chunker
-// '+10:00' > ['10',  '00']
-// '-1530'  > ['-15', '30']
-var Me=/([\+\-]|\d\d)/gi;
-// HOOKS
-// This function will be called whenever a moment is mutated.
-// It is intended to keep the offset in sync with the timezone.
-a.updateOffset=function(){};
-// ASP.NET json date format regex
-var Ne=/^(\-)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)(\.\d*)?)?$/,Oe=/^(-)?P(?:(-?[0-9,.]*)Y)?(?:(-?[0-9,.]*)M)?(?:(-?[0-9,.]*)W)?(?:(-?[0-9,.]*)D)?(?:T(?:(-?[0-9,.]*)H)?(?:(-?[0-9,.]*)M)?(?:(-?[0-9,.]*)S)?)?$/;Ob.fn=wb.prototype;var Pe=Sb(1,"add"),Qe=Sb(-1,"subtract");a.defaultFormat="YYYY-MM-DDTHH:mm:ssZ",a.defaultFormatUtc="YYYY-MM-DDTHH:mm:ss[Z]";var Re=x("moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.",function(a){return void 0===a?this.localeData():this.locale(a)});
-// FORMATTING
-U(0,["gg",2],0,function(){return this.weekYear()%100}),U(0,["GG",2],0,function(){return this.isoWeekYear()%100}),zc("gggg","weekYear"),zc("ggggg","weekYear"),zc("GGGG","isoWeekYear"),zc("GGGGG","isoWeekYear"),
-// ALIASES
-J("weekYear","gg"),J("isoWeekYear","GG"),
-// PRIORITY
-M("weekYear",1),M("isoWeekYear",1),
-// PARSING
-Z("G",Vd),Z("g",Vd),Z("GG",Od,Kd),Z("gg",Od,Kd),Z("GGGG",Sd,Md),Z("gggg",Sd,Md),Z("GGGGG",Td,Nd),Z("ggggg",Td,Nd),ca(["gggg","ggggg","GGGG","GGGGG"],function(a,b,c,d){b[d.substr(0,2)]=u(a)}),ca(["gg","GG"],function(b,c,d,e){c[e]=a.parseTwoDigitYear(b)}),
-// FORMATTING
-U("Q",0,"Qo","quarter"),
-// ALIASES
-J("quarter","Q"),
-// PRIORITY
-M("quarter",7),
-// PARSING
-Z("Q",Jd),ba("Q",function(a,b){b[be]=3*(u(a)-1)}),
-// FORMATTING
-U("D",["DD",2],"Do","date"),
-// ALIASES
-J("date","D"),
-// PRIOROITY
-M("date",9),
-// PARSING
-Z("D",Od),Z("DD",Od,Kd),Z("Do",function(a,b){return a?b._ordinalParse:b._ordinalParseLenient}),ba(["D","DD"],ce),ba("Do",function(a,b){b[ce]=u(a.match(Od)[0],10)});
-// MOMENTS
-var Se=O("Date",!0);
-// FORMATTING
-U("DDD",["DDDD",3],"DDDo","dayOfYear"),
-// ALIASES
-J("dayOfYear","DDD"),
-// PRIORITY
-M("dayOfYear",4),
-// PARSING
-Z("DDD",Rd),Z("DDDD",Ld),ba(["DDD","DDDD"],function(a,b,c){c._dayOfYear=u(a)}),
-// FORMATTING
-U("m",["mm",2],0,"minute"),
-// ALIASES
-J("minute","m"),
-// PRIORITY
-M("minute",14),
-// PARSING
-Z("m",Od),Z("mm",Od,Kd),ba(["m","mm"],ee);
-// MOMENTS
-var Te=O("Minutes",!1);
-// FORMATTING
-U("s",["ss",2],0,"second"),
-// ALIASES
-J("second","s"),
-// PRIORITY
-M("second",15),
-// PARSING
-Z("s",Od),Z("ss",Od,Kd),ba(["s","ss"],fe);
-// MOMENTS
-var Ue=O("Seconds",!1);
-// FORMATTING
-U("S",0,0,function(){return~~(this.millisecond()/100)}),U(0,["SS",2],0,function(){return~~(this.millisecond()/10)}),U(0,["SSS",3],0,"millisecond"),U(0,["SSSS",4],0,function(){return 10*this.millisecond()}),U(0,["SSSSS",5],0,function(){return 100*this.millisecond()}),U(0,["SSSSSS",6],0,function(){return 1e3*this.millisecond()}),U(0,["SSSSSSS",7],0,function(){return 1e4*this.millisecond()}),U(0,["SSSSSSSS",8],0,function(){return 1e5*this.millisecond()}),U(0,["SSSSSSSSS",9],0,function(){return 1e6*this.millisecond()}),
-// ALIASES
-J("millisecond","ms"),
-// PRIORITY
-M("millisecond",16),
-// PARSING
-Z("S",Rd,Jd),Z("SS",Rd,Kd),Z("SSS",Rd,Ld);var Ve;for(Ve="SSSS";Ve.length<=9;Ve+="S")Z(Ve,Ud);for(Ve="S";Ve.length<=9;Ve+="S")ba(Ve,Ic);
-// MOMENTS
-var We=O("Milliseconds",!1);
-// FORMATTING
-U("z",0,0,"zoneAbbr"),U("zz",0,0,"zoneName");var Xe=r.prototype;Xe.add=Pe,Xe.calendar=Vb,Xe.clone=Wb,Xe.diff=bc,Xe.endOf=oc,Xe.format=gc,Xe.from=hc,Xe.fromNow=ic,Xe.to=jc,Xe.toNow=kc,Xe.get=R,Xe.invalidAt=xc,Xe.isAfter=Xb,Xe.isBefore=Yb,Xe.isBetween=Zb,Xe.isSame=$b,Xe.isSameOrAfter=_b,Xe.isSameOrBefore=ac,Xe.isValid=vc,Xe.lang=Re,Xe.locale=lc,Xe.localeData=mc,Xe.max=Ke,Xe.min=Je,Xe.parsingFlags=wc,Xe.set=S,Xe.startOf=nc,Xe.subtract=Qe,Xe.toArray=sc,Xe.toObject=tc,Xe.toDate=rc,Xe.toISOString=ec,Xe.inspect=fc,Xe.toJSON=uc,Xe.toString=dc,Xe.unix=qc,Xe.valueOf=pc,Xe.creationData=yc,
-// Year
-Xe.year=pe,Xe.isLeapYear=ra,
-// Week Year
-Xe.weekYear=Ac,Xe.isoWeekYear=Bc,
-// Quarter
-Xe.quarter=Xe.quarters=Gc,
-// Month
-Xe.month=ka,Xe.daysInMonth=la,
-// Week
-Xe.week=Xe.weeks=Ba,Xe.isoWeek=Xe.isoWeeks=Ca,Xe.weeksInYear=Dc,Xe.isoWeeksInYear=Cc,
-// Day
-Xe.date=Se,Xe.day=Xe.days=Ka,Xe.weekday=La,Xe.isoWeekday=Ma,Xe.dayOfYear=Hc,
-// Hour
-Xe.hour=Xe.hours=ze,
-// Minute
-Xe.minute=Xe.minutes=Te,
-// Second
-Xe.second=Xe.seconds=Ue,
-// Millisecond
-Xe.millisecond=Xe.milliseconds=We,
-// Offset
-Xe.utcOffset=Db,Xe.utc=Fb,Xe.local=Gb,Xe.parseZone=Hb,Xe.hasAlignedHourOffset=Ib,Xe.isDST=Jb,Xe.isLocal=Lb,Xe.isUtcOffset=Mb,Xe.isUtc=Nb,Xe.isUTC=Nb,
-// Timezone
-Xe.zoneAbbr=Jc,Xe.zoneName=Kc,
-// Deprecations
-Xe.dates=x("dates accessor is deprecated. Use date instead.",Se),Xe.months=x("months accessor is deprecated. Use month instead",ka),Xe.years=x("years accessor is deprecated. Use year instead",pe),Xe.zone=x("moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/",Eb),Xe.isDSTShifted=x("isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information",Kb);var Ye=C.prototype;Ye.calendar=D,Ye.longDateFormat=E,Ye.invalidDate=F,Ye.ordinal=G,Ye.preparse=Nc,Ye.postformat=Nc,Ye.relativeTime=H,Ye.pastFuture=I,Ye.set=A,
-// Month
-Ye.months=fa,Ye.monthsShort=ga,Ye.monthsParse=ia,Ye.monthsRegex=na,Ye.monthsShortRegex=ma,
-// Week
-Ye.week=ya,Ye.firstDayOfYear=Aa,Ye.firstDayOfWeek=za,
-// Day of Week
-Ye.weekdays=Fa,Ye.weekdaysMin=Ha,Ye.weekdaysShort=Ga,Ye.weekdaysParse=Ja,Ye.weekdaysRegex=Na,Ye.weekdaysShortRegex=Oa,Ye.weekdaysMinRegex=Pa,
-// Hours
-Ye.isPM=Va,Ye.meridiem=Wa,$a("en",{ordinalParse:/\d{1,2}(th|st|nd|rd)/,ordinal:function(a){var b=a%10,c=1===u(a%100/10)?"th":1===b?"st":2===b?"nd":3===b?"rd":"th";return a+c}}),
-// Side effect imports
-a.lang=x("moment.lang is deprecated. Use moment.locale instead.",$a),a.langData=x("moment.langData is deprecated. Use moment.localeData instead.",bb);var Ze=Math.abs,$e=ed("ms"),_e=ed("s"),af=ed("m"),bf=ed("h"),cf=ed("d"),df=ed("w"),ef=ed("M"),ff=ed("y"),gf=gd("milliseconds"),hf=gd("seconds"),jf=gd("minutes"),kf=gd("hours"),lf=gd("days"),mf=gd("months"),nf=gd("years"),of=Math.round,pf={s:45,// seconds to minute
-m:45,// minutes to hour
-h:22,// hours to day
-d:26,// days to month
-M:11},qf=Math.abs,rf=wb.prototype;
-// Deprecations
-// Side effect imports
-// FORMATTING
-// PARSING
-// Side effect imports
-return rf.abs=Wc,rf.add=Yc,rf.subtract=Zc,rf.as=cd,rf.asMilliseconds=$e,rf.asSeconds=_e,rf.asMinutes=af,rf.asHours=bf,rf.asDays=cf,rf.asWeeks=df,rf.asMonths=ef,rf.asYears=ff,rf.valueOf=dd,rf._bubble=_c,rf.get=fd,rf.milliseconds=gf,rf.seconds=hf,rf.minutes=jf,rf.hours=kf,rf.days=lf,rf.weeks=hd,rf.months=mf,rf.years=nf,rf.humanize=md,rf.toISOString=nd,rf.toString=nd,rf.toJSON=nd,rf.locale=lc,rf.localeData=mc,rf.toIsoString=x("toIsoString() is deprecated. Please use toISOString() instead (notice the capitals)",nd),rf.lang=Re,U("X",0,0,"unix"),U("x",0,0,"valueOf"),Z("x",Vd),Z("X",Yd),ba("X",function(a,b,c){c._d=new Date(1e3*parseFloat(a,10))}),ba("x",function(a,b,c){c._d=new Date(u(a))}),a.version="2.17.1",b(sb),a.fn=Xe,a.min=ub,a.max=vb,a.now=Le,a.utc=k,a.unix=Lc,a.months=Rc,a.isDate=g,a.locale=$a,a.invalid=o,a.duration=Ob,a.isMoment=s,a.weekdays=Tc,a.parseZone=Mc,a.localeData=bb,a.isDuration=xb,a.monthsShort=Sc,a.weekdaysMin=Vc,a.defineLocale=_a,a.updateLocale=ab,a.locales=cb,a.weekdaysShort=Uc,a.normalizeUnits=K,a.relativeTimeRounding=kd,a.relativeTimeThreshold=ld,a.calendarFormat=Ub,a.prototype=Xe,a});
+!function(a,b){"object"==typeof exports&&"undefined"!=typeof module?module.exports=b():"function"==typeof define&&define.amd?define(b):a.moment=b()}(this,function(){"use strict";function a(){return sd.apply(null,arguments)}function b(a){sd=a}function c(a){return a instanceof Array||"[object Array]"===Object.prototype.toString.call(a)}function d(a){return null!=a&&"[object Object]"===Object.prototype.toString.call(a)}function e(a){var b;for(b in a)return!1;return!0}function f(a){return void 0===a}function g(a){return"number"==typeof a||"[object Number]"===Object.prototype.toString.call(a)}function h(a){return a instanceof Date||"[object Date]"===Object.prototype.toString.call(a)}function i(a,b){var c,d=[];for(c=0;c<a.length;++c)d.push(b(a[c],c));return d}function j(a,b){return Object.prototype.hasOwnProperty.call(a,b)}function k(a,b){for(var c in b)j(b,c)&&(a[c]=b[c]);return j(b,"toString")&&(a.toString=b.toString),j(b,"valueOf")&&(a.valueOf=b.valueOf),a}function l(a,b,c,d){return sb(a,b,c,d,!0).utc()}function m(){return{empty:!1,unusedTokens:[],unusedInput:[],overflow:-2,charsLeftOver:0,nullInput:!1,invalidMonth:null,invalidFormat:!1,userInvalidated:!1,iso:!1,parsedDateParts:[],meridiem:null,rfc2822:!1,weekdayMismatch:!1}}function n(a){return null==a._pf&&(a._pf=m()),a._pf}function o(a){if(null==a._isValid){var b=n(a),c=ud.call(b.parsedDateParts,function(a){return null!=a}),d=!isNaN(a._d.getTime())&&b.overflow<0&&!b.empty&&!b.invalidMonth&&!b.invalidWeekday&&!b.nullInput&&!b.invalidFormat&&!b.userInvalidated&&(!b.meridiem||b.meridiem&&c);if(a._strict&&(d=d&&0===b.charsLeftOver&&0===b.unusedTokens.length&&void 0===b.bigHour),null!=Object.isFrozen&&Object.isFrozen(a))return d;a._isValid=d}return a._isValid}function p(a){var b=l(NaN);return null!=a?k(n(b),a):n(b).userInvalidated=!0,b}function q(a,b){var c,d,e;if(f(b._isAMomentObject)||(a._isAMomentObject=b._isAMomentObject),f(b._i)||(a._i=b._i),f(b._f)||(a._f=b._f),f(b._l)||(a._l=b._l),f(b._strict)||(a._strict=b._strict),f(b._tzm)||(a._tzm=b._tzm),f(b._isUTC)||(a._isUTC=b._isUTC),f(b._offset)||(a._offset=b._offset),f(b._pf)||(a._pf=n(b)),f(b._locale)||(a._locale=b._locale),vd.length>0)for(c=0;c<vd.length;c++)d=vd[c],e=b[d],f(e)||(a[d]=e);return a}function r(b){q(this,b),this._d=new Date(null!=b._d?b._d.getTime():NaN),this.isValid()||(this._d=new Date(NaN)),wd===!1&&(wd=!0,a.updateOffset(this),wd=!1)}function s(a){return a instanceof r||null!=a&&null!=a._isAMomentObject}function t(a){return a<0?Math.ceil(a)||0:Math.floor(a)}function u(a){var b=+a,c=0;return 0!==b&&isFinite(b)&&(c=t(b)),c}function v(a,b,c){var d,e=Math.min(a.length,b.length),f=Math.abs(a.length-b.length),g=0;for(d=0;d<e;d++)(c&&a[d]!==b[d]||!c&&u(a[d])!==u(b[d]))&&g++;return g+f}function w(b){a.suppressDeprecationWarnings===!1&&"undefined"!=typeof console&&console.warn&&console.warn("Deprecation warning: "+b)}function x(b,c){var d=!0;return k(function(){if(null!=a.deprecationHandler&&a.deprecationHandler(null,b),d){for(var e,f=[],g=0;g<arguments.length;g++){if(e="","object"==typeof arguments[g]){e+="\n["+g+"] ";for(var h in arguments[0])e+=h+": "+arguments[0][h]+", ";e=e.slice(0,-2)}else e=arguments[g];f.push(e)}w(b+"\nArguments: "+Array.prototype.slice.call(f).join("")+"\n"+(new Error).stack),d=!1}return c.apply(this,arguments)},c)}function y(b,c){null!=a.deprecationHandler&&a.deprecationHandler(b,c),xd[b]||(w(c),xd[b]=!0)}function z(a){return a instanceof Function||"[object Function]"===Object.prototype.toString.call(a)}function A(a){var b,c;for(c in a)b=a[c],z(b)?this[c]=b:this["_"+c]=b;this._config=a,this._dayOfMonthOrdinalParseLenient=new RegExp((this._dayOfMonthOrdinalParse.source||this._ordinalParse.source)+"|"+/\d{1,2}/.source)}function B(a,b){var c,e=k({},a);for(c in b)j(b,c)&&(d(a[c])&&d(b[c])?(e[c]={},k(e[c],a[c]),k(e[c],b[c])):null!=b[c]?e[c]=b[c]:delete e[c]);for(c in a)j(a,c)&&!j(b,c)&&d(a[c])&&(e[c]=k({},e[c]));return e}function C(a){null!=a&&this.set(a)}function D(a,b,c){var d=this._calendar[a]||this._calendar.sameElse;return z(d)?d.call(b,c):d}function E(a){var b=this._longDateFormat[a],c=this._longDateFormat[a.toUpperCase()];return b||!c?b:(this._longDateFormat[a]=c.replace(/MMMM|MM|DD|dddd/g,function(a){return a.slice(1)}),this._longDateFormat[a])}function F(){return this._invalidDate}function G(a){return this._ordinal.replace("%d",a)}function H(a,b,c,d){var e=this._relativeTime[c];return z(e)?e(a,b,c,d):e.replace(/%d/i,a)}function I(a,b){var c=this._relativeTime[a>0?"future":"past"];return z(c)?c(b):c.replace(/%s/i,b)}function J(a,b){var c=a.toLowerCase();Hd[c]=Hd[c+"s"]=Hd[b]=a}function K(a){return"string"==typeof a?Hd[a]||Hd[a.toLowerCase()]:void 0}function L(a){var b,c,d={};for(c in a)j(a,c)&&(b=K(c),b&&(d[b]=a[c]));return d}function M(a,b){Id[a]=b}function N(a){var b=[];for(var c in a)b.push({unit:c,priority:Id[c]});return b.sort(function(a,b){return a.priority-b.priority}),b}function O(b,c){return function(d){return null!=d?(Q(this,b,d),a.updateOffset(this,c),this):P(this,b)}}function P(a,b){return a.isValid()?a._d["get"+(a._isUTC?"UTC":"")+b]():NaN}function Q(a,b,c){a.isValid()&&a._d["set"+(a._isUTC?"UTC":"")+b](c)}function R(a){return a=K(a),z(this[a])?this[a]():this}function S(a,b){if("object"==typeof a){a=L(a);for(var c=N(a),d=0;d<c.length;d++)this[c[d].unit](a[c[d].unit])}else if(a=K(a),z(this[a]))return this[a](b);return this}function T(a,b,c){var d=""+Math.abs(a),e=b-d.length,f=a>=0;return(f?c?"+":"":"-")+Math.pow(10,Math.max(0,e)).toString().substr(1)+d}function U(a,b,c,d){var e=d;"string"==typeof d&&(e=function(){return this[d]()}),a&&(Md[a]=e),b&&(Md[b[0]]=function(){return T(e.apply(this,arguments),b[1],b[2])}),c&&(Md[c]=function(){return this.localeData().ordinal(e.apply(this,arguments),a)})}function V(a){return a.match(/\[[\s\S]/)?a.replace(/^\[|\]$/g,""):a.replace(/\\/g,"")}function W(a){var b,c,d=a.match(Jd);for(b=0,c=d.length;b<c;b++)Md[d[b]]?d[b]=Md[d[b]]:d[b]=V(d[b]);return function(b){var e,f="";for(e=0;e<c;e++)f+=z(d[e])?d[e].call(b,a):d[e];return f}}function X(a,b){return a.isValid()?(b=Y(b,a.localeData()),Ld[b]=Ld[b]||W(b),Ld[b](a)):a.localeData().invalidDate()}function Y(a,b){function c(a){return b.longDateFormat(a)||a}var d=5;for(Kd.lastIndex=0;d>=0&&Kd.test(a);)a=a.replace(Kd,c),Kd.lastIndex=0,d-=1;return a}function Z(a,b,c){ce[a]=z(b)?b:function(a,d){return a&&c?c:b}}function $(a,b){return j(ce,a)?ce[a](b._strict,b._locale):new RegExp(_(a))}function _(a){return aa(a.replace("\\","").replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g,function(a,b,c,d,e){return b||c||d||e}))}function aa(a){return a.replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&")}function ba(a,b){var c,d=b;for("string"==typeof a&&(a=[a]),g(b)&&(d=function(a,c){c[b]=u(a)}),c=0;c<a.length;c++)de[a[c]]=d}function ca(a,b){ba(a,function(a,c,d,e){d._w=d._w||{},b(a,d._w,d,e)})}function da(a,b,c){null!=b&&j(de,a)&&de[a](b,c._a,c,a)}function ea(a,b){return new Date(Date.UTC(a,b+1,0)).getUTCDate()}function fa(a,b){return a?c(this._months)?this._months[a.month()]:this._months[(this._months.isFormat||oe).test(b)?"format":"standalone"][a.month()]:c(this._months)?this._months:this._months.standalone}function ga(a,b){return a?c(this._monthsShort)?this._monthsShort[a.month()]:this._monthsShort[oe.test(b)?"format":"standalone"][a.month()]:c(this._monthsShort)?this._monthsShort:this._monthsShort.standalone}function ha(a,b,c){var d,e,f,g=a.toLocaleLowerCase();if(!this._monthsParse)for(this._monthsParse=[],this._longMonthsParse=[],this._shortMonthsParse=[],d=0;d<12;++d)f=l([2e3,d]),this._shortMonthsParse[d]=this.monthsShort(f,"").toLocaleLowerCase(),this._longMonthsParse[d]=this.months(f,"").toLocaleLowerCase();return c?"MMM"===b?(e=ne.call(this._shortMonthsParse,g),e!==-1?e:null):(e=ne.call(this._longMonthsParse,g),e!==-1?e:null):"MMM"===b?(e=ne.call(this._shortMonthsParse,g),e!==-1?e:(e=ne.call(this._longMonthsParse,g),e!==-1?e:null)):(e=ne.call(this._longMonthsParse,g),e!==-1?e:(e=ne.call(this._shortMonthsParse,g),e!==-1?e:null))}function ia(a,b,c){var d,e,f;if(this._monthsParseExact)return ha.call(this,a,b,c);for(this._monthsParse||(this._monthsParse=[],this._longMonthsParse=[],this._shortMonthsParse=[]),d=0;d<12;d++){if(e=l([2e3,d]),c&&!this._longMonthsParse[d]&&(this._longMonthsParse[d]=new RegExp("^"+this.months(e,"").replace(".","")+"$","i"),this._shortMonthsParse[d]=new RegExp("^"+this.monthsShort(e,"").replace(".","")+"$","i")),c||this._monthsParse[d]||(f="^"+this.months(e,"")+"|^"+this.monthsShort(e,""),this._monthsParse[d]=new RegExp(f.replace(".",""),"i")),c&&"MMMM"===b&&this._longMonthsParse[d].test(a))return d;if(c&&"MMM"===b&&this._shortMonthsParse[d].test(a))return d;if(!c&&this._monthsParse[d].test(a))return d}}function ja(a,b){var c;if(!a.isValid())return a;if("string"==typeof b)if(/^\d+$/.test(b))b=u(b);else if(b=a.localeData().monthsParse(b),!g(b))return a;return c=Math.min(a.date(),ea(a.year(),b)),a._d["set"+(a._isUTC?"UTC":"")+"Month"](b,c),a}function ka(b){return null!=b?(ja(this,b),a.updateOffset(this,!0),this):P(this,"Month")}function la(){return ea(this.year(),this.month())}function ma(a){return this._monthsParseExact?(j(this,"_monthsRegex")||oa.call(this),a?this._monthsShortStrictRegex:this._monthsShortRegex):(j(this,"_monthsShortRegex")||(this._monthsShortRegex=re),this._monthsShortStrictRegex&&a?this._monthsShortStrictRegex:this._monthsShortRegex)}function na(a){return this._monthsParseExact?(j(this,"_monthsRegex")||oa.call(this),a?this._monthsStrictRegex:this._monthsRegex):(j(this,"_monthsRegex")||(this._monthsRegex=se),this._monthsStrictRegex&&a?this._monthsStrictRegex:this._monthsRegex)}function oa(){function a(a,b){return b.length-a.length}var b,c,d=[],e=[],f=[];for(b=0;b<12;b++)c=l([2e3,b]),d.push(this.monthsShort(c,"")),e.push(this.months(c,"")),f.push(this.months(c,"")),f.push(this.monthsShort(c,""));for(d.sort(a),e.sort(a),f.sort(a),b=0;b<12;b++)d[b]=aa(d[b]),e[b]=aa(e[b]);for(b=0;b<24;b++)f[b]=aa(f[b]);this._monthsRegex=new RegExp("^("+f.join("|")+")","i"),this._monthsShortRegex=this._monthsRegex,this._monthsStrictRegex=new RegExp("^("+e.join("|")+")","i"),this._monthsShortStrictRegex=new RegExp("^("+d.join("|")+")","i")}function pa(a){return qa(a)?366:365}function qa(a){return a%4===0&&a%100!==0||a%400===0}function ra(){return qa(this.year())}function sa(a,b,c,d,e,f,g){var h=new Date(a,b,c,d,e,f,g);return a<100&&a>=0&&isFinite(h.getFullYear())&&h.setFullYear(a),h}function ta(a){var b=new Date(Date.UTC.apply(null,arguments));return a<100&&a>=0&&isFinite(b.getUTCFullYear())&&b.setUTCFullYear(a),b}function ua(a,b,c){var d=7+b-c,e=(7+ta(a,0,d).getUTCDay()-b)%7;return-e+d-1}function va(a,b,c,d,e){var f,g,h=(7+c-d)%7,i=ua(a,d,e),j=1+7*(b-1)+h+i;return j<=0?(f=a-1,g=pa(f)+j):j>pa(a)?(f=a+1,g=j-pa(a)):(f=a,g=j),{year:f,dayOfYear:g}}function wa(a,b,c){var d,e,f=ua(a.year(),b,c),g=Math.floor((a.dayOfYear()-f-1)/7)+1;return g<1?(e=a.year()-1,d=g+xa(e,b,c)):g>xa(a.year(),b,c)?(d=g-xa(a.year(),b,c),e=a.year()+1):(e=a.year(),d=g),{week:d,year:e}}function xa(a,b,c){var d=ua(a,b,c),e=ua(a+1,b,c);return(pa(a)-d+e)/7}function ya(a){return wa(a,this._week.dow,this._week.doy).week}function za(){return this._week.dow}function Aa(){return this._week.doy}function Ba(a){var b=this.localeData().week(this);return null==a?b:this.add(7*(a-b),"d")}function Ca(a){var b=wa(this,1,4).week;return null==a?b:this.add(7*(a-b),"d")}function Da(a,b){return"string"!=typeof a?a:isNaN(a)?(a=b.weekdaysParse(a),"number"==typeof a?a:null):parseInt(a,10)}function Ea(a,b){return"string"==typeof a?b.weekdaysParse(a)%7||7:isNaN(a)?null:a}function Fa(a,b){return a?c(this._weekdays)?this._weekdays[a.day()]:this._weekdays[this._weekdays.isFormat.test(b)?"format":"standalone"][a.day()]:c(this._weekdays)?this._weekdays:this._weekdays.standalone}function Ga(a){return a?this._weekdaysShort[a.day()]:this._weekdaysShort}function Ha(a){return a?this._weekdaysMin[a.day()]:this._weekdaysMin}function Ia(a,b,c){var d,e,f,g=a.toLocaleLowerCase();if(!this._weekdaysParse)for(this._weekdaysParse=[],this._shortWeekdaysParse=[],this._minWeekdaysParse=[],d=0;d<7;++d)f=l([2e3,1]).day(d),this._minWeekdaysParse[d]=this.weekdaysMin(f,"").toLocaleLowerCase(),this._shortWeekdaysParse[d]=this.weekdaysShort(f,"").toLocaleLowerCase(),this._weekdaysParse[d]=this.weekdays(f,"").toLocaleLowerCase();return c?"dddd"===b?(e=ne.call(this._weekdaysParse,g),e!==-1?e:null):"ddd"===b?(e=ne.call(this._shortWeekdaysParse,g),e!==-1?e:null):(e=ne.call(this._minWeekdaysParse,g),e!==-1?e:null):"dddd"===b?(e=ne.call(this._weekdaysParse,g),e!==-1?e:(e=ne.call(this._shortWeekdaysParse,g),e!==-1?e:(e=ne.call(this._minWeekdaysParse,g),e!==-1?e:null))):"ddd"===b?(e=ne.call(this._shortWeekdaysParse,g),e!==-1?e:(e=ne.call(this._weekdaysParse,g),e!==-1?e:(e=ne.call(this._minWeekdaysParse,g),e!==-1?e:null))):(e=ne.call(this._minWeekdaysParse,g),e!==-1?e:(e=ne.call(this._weekdaysParse,g),e!==-1?e:(e=ne.call(this._shortWeekdaysParse,g),e!==-1?e:null)))}function Ja(a,b,c){var d,e,f;if(this._weekdaysParseExact)return Ia.call(this,a,b,c);for(this._weekdaysParse||(this._weekdaysParse=[],this._minWeekdaysParse=[],this._shortWeekdaysParse=[],this._fullWeekdaysParse=[]),d=0;d<7;d++){if(e=l([2e3,1]).day(d),c&&!this._fullWeekdaysParse[d]&&(this._fullWeekdaysParse[d]=new RegExp("^"+this.weekdays(e,"").replace(".",".?")+"$","i"),this._shortWeekdaysParse[d]=new RegExp("^"+this.weekdaysShort(e,"").replace(".",".?")+"$","i"),this._minWeekdaysParse[d]=new RegExp("^"+this.weekdaysMin(e,"").replace(".",".?")+"$","i")),this._weekdaysParse[d]||(f="^"+this.weekdays(e,"")+"|^"+this.weekdaysShort(e,"")+"|^"+this.weekdaysMin(e,""),this._weekdaysParse[d]=new RegExp(f.replace(".",""),"i")),c&&"dddd"===b&&this._fullWeekdaysParse[d].test(a))return d;if(c&&"ddd"===b&&this._shortWeekdaysParse[d].test(a))return d;if(c&&"dd"===b&&this._minWeekdaysParse[d].test(a))return d;if(!c&&this._weekdaysParse[d].test(a))return d}}function Ka(a){if(!this.isValid())return null!=a?this:NaN;var b=this._isUTC?this._d.getUTCDay():this._d.getDay();return null!=a?(a=Da(a,this.localeData()),this.add(a-b,"d")):b}function La(a){if(!this.isValid())return null!=a?this:NaN;var b=(this.day()+7-this.localeData()._week.dow)%7;return null==a?b:this.add(a-b,"d")}function Ma(a){if(!this.isValid())return null!=a?this:NaN;if(null!=a){var b=Ea(a,this.localeData());return this.day(this.day()%7?b:b-7)}return this.day()||7}function Na(a){return this._weekdaysParseExact?(j(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysStrictRegex:this._weekdaysRegex):(j(this,"_weekdaysRegex")||(this._weekdaysRegex=ye),this._weekdaysStrictRegex&&a?this._weekdaysStrictRegex:this._weekdaysRegex)}function Oa(a){return this._weekdaysParseExact?(j(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysShortStrictRegex:this._weekdaysShortRegex):(j(this,"_weekdaysShortRegex")||(this._weekdaysShortRegex=ze),this._weekdaysShortStrictRegex&&a?this._weekdaysShortStrictRegex:this._weekdaysShortRegex)}function Pa(a){return this._weekdaysParseExact?(j(this,"_weekdaysRegex")||Qa.call(this),a?this._weekdaysMinStrictRegex:this._weekdaysMinRegex):(j(this,"_weekdaysMinRegex")||(this._weekdaysMinRegex=Ae),this._weekdaysMinStrictRegex&&a?this._weekdaysMinStrictRegex:this._weekdaysMinRegex)}function Qa(){function a(a,b){return b.length-a.length}var b,c,d,e,f,g=[],h=[],i=[],j=[];for(b=0;b<7;b++)c=l([2e3,1]).day(b),d=this.weekdaysMin(c,""),e=this.weekdaysShort(c,""),f=this.weekdays(c,""),g.push(d),h.push(e),i.push(f),j.push(d),j.push(e),j.push(f);for(g.sort(a),h.sort(a),i.sort(a),j.sort(a),b=0;b<7;b++)h[b]=aa(h[b]),i[b]=aa(i[b]),j[b]=aa(j[b]);this._weekdaysRegex=new RegExp("^("+j.join("|")+")","i"),this._weekdaysShortRegex=this._weekdaysRegex,this._weekdaysMinRegex=this._weekdaysRegex,this._weekdaysStrictRegex=new RegExp("^("+i.join("|")+")","i"),this._weekdaysShortStrictRegex=new RegExp("^("+h.join("|")+")","i"),this._weekdaysMinStrictRegex=new RegExp("^("+g.join("|")+")","i")}function Ra(){return this.hours()%12||12}function Sa(){return this.hours()||24}function Ta(a,b){U(a,0,0,function(){return this.localeData().meridiem(this.hours(),this.minutes(),b)})}function Ua(a,b){return b._meridiemParse}function Va(a){return"p"===(a+"").toLowerCase().charAt(0)}function Wa(a,b,c){return a>11?c?"pm":"PM":c?"am":"AM"}function Xa(a){return a?a.toLowerCase().replace("_","-"):a}function Ya(a){for(var b,c,d,e,f=0;f<a.length;){for(e=Xa(a[f]).split("-"),b=e.length,c=Xa(a[f+1]),c=c?c.split("-"):null;b>0;){if(d=Za(e.slice(0,b).join("-")))return d;if(c&&c.length>=b&&v(e,c,!0)>=b-1)break;b--}f++}return null}function Za(a){var b=null;if(!Fe[a]&&"undefined"!=typeof module&&module&&module.exports)try{b=Be._abbr,require("./locale/"+a),$a(b)}catch(a){}return Fe[a]}function $a(a,b){var c;return a&&(c=f(b)?bb(a):_a(a,b),c&&(Be=c)),Be._abbr}function _a(a,b){if(null!==b){var c=Ee;if(b.abbr=a,null!=Fe[a])y("defineLocaleOverride","use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info."),c=Fe[a]._config;else if(null!=b.parentLocale){if(null==Fe[b.parentLocale])return Ge[b.parentLocale]||(Ge[b.parentLocale]=[]),Ge[b.parentLocale].push({name:a,config:b}),null;c=Fe[b.parentLocale]._config}return Fe[a]=new C(B(c,b)),Ge[a]&&Ge[a].forEach(function(a){_a(a.name,a.config)}),$a(a),Fe[a]}return delete Fe[a],null}function ab(a,b){if(null!=b){var c,d=Ee;null!=Fe[a]&&(d=Fe[a]._config),b=B(d,b),c=new C(b),c.parentLocale=Fe[a],Fe[a]=c,$a(a)}else null!=Fe[a]&&(null!=Fe[a].parentLocale?Fe[a]=Fe[a].parentLocale:null!=Fe[a]&&delete Fe[a]);return Fe[a]}function bb(a){var b;if(a&&a._locale&&a._locale._abbr&&(a=a._locale._abbr),!a)return Be;if(!c(a)){if(b=Za(a))return b;a=[a]}return Ya(a)}function cb(){return Ad(Fe)}function db(a){var b,c=a._a;return c&&n(a).overflow===-2&&(b=c[fe]<0||c[fe]>11?fe:c[ge]<1||c[ge]>ea(c[ee],c[fe])?ge:c[he]<0||c[he]>24||24===c[he]&&(0!==c[ie]||0!==c[je]||0!==c[ke])?he:c[ie]<0||c[ie]>59?ie:c[je]<0||c[je]>59?je:c[ke]<0||c[ke]>999?ke:-1,n(a)._overflowDayOfYear&&(b<ee||b>ge)&&(b=ge),n(a)._overflowWeeks&&b===-1&&(b=le),n(a)._overflowWeekday&&b===-1&&(b=me),n(a).overflow=b),a}function eb(a){var b,c,d,e,f,g,h=a._i,i=He.exec(h)||Ie.exec(h);if(i){for(n(a).iso=!0,b=0,c=Ke.length;b<c;b++)if(Ke[b][1].exec(i[1])){e=Ke[b][0],d=Ke[b][2]!==!1;break}if(null==e)return void(a._isValid=!1);if(i[3]){for(b=0,c=Le.length;b<c;b++)if(Le[b][1].exec(i[3])){f=(i[2]||" ")+Le[b][0];break}if(null==f)return void(a._isValid=!1)}if(!d&&null!=f)return void(a._isValid=!1);if(i[4]){if(!Je.exec(i[4]))return void(a._isValid=!1);g="Z"}a._f=e+(f||"")+(g||""),lb(a)}else a._isValid=!1}function fb(a){var b,c,d,e,f,g,h,i,j={" GMT":" +0000"," EDT":" -0400"," EST":" -0500"," CDT":" -0500"," CST":" -0600"," MDT":" -0600"," MST":" -0700"," PDT":" -0700"," PST":" -0800"},k="YXWVUTSRQPONZABCDEFGHIKLM";if(b=a._i.replace(/\([^\)]*\)|[\n\t]/g," ").replace(/(\s\s+)/g," ").replace(/^\s|\s$/g,""),c=Ne.exec(b)){if(d=c[1]?"ddd"+(5===c[1].length?", ":" "):"",e="D MMM "+(c[2].length>10?"YYYY ":"YY "),f="HH:mm"+(c[4]?":ss":""),c[1]){var l=new Date(c[2]),m=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][l.getDay()];if(c[1].substr(0,3)!==m)return n(a).weekdayMismatch=!0,void(a._isValid=!1)}switch(c[5].length){case 2:0===i?h=" +0000":(i=k.indexOf(c[5][1].toUpperCase())-12,h=(i<0?" -":" +")+(""+i).replace(/^-?/,"0").match(/..$/)[0]+"00");break;case 4:h=j[c[5]];break;default:h=j[" GMT"]}c[5]=h,a._i=c.splice(1).join(""),g=" ZZ",a._f=d+e+f+g,lb(a),n(a).rfc2822=!0}else a._isValid=!1}function gb(b){var c=Me.exec(b._i);return null!==c?void(b._d=new Date(+c[1])):(eb(b),void(b._isValid===!1&&(delete b._isValid,fb(b),b._isValid===!1&&(delete b._isValid,a.createFromInputFallback(b)))))}function hb(a,b,c){return null!=a?a:null!=b?b:c}function ib(b){var c=new Date(a.now());return b._useUTC?[c.getUTCFullYear(),c.getUTCMonth(),c.getUTCDate()]:[c.getFullYear(),c.getMonth(),c.getDate()]}function jb(a){var b,c,d,e,f=[];if(!a._d){for(d=ib(a),a._w&&null==a._a[ge]&&null==a._a[fe]&&kb(a),null!=a._dayOfYear&&(e=hb(a._a[ee],d[ee]),(a._dayOfYear>pa(e)||0===a._dayOfYear)&&(n(a)._overflowDayOfYear=!0),c=ta(e,0,a._dayOfYear),a._a[fe]=c.getUTCMonth(),a._a[ge]=c.getUTCDate()),b=0;b<3&&null==a._a[b];++b)a._a[b]=f[b]=d[b];for(;b<7;b++)a._a[b]=f[b]=null==a._a[b]?2===b?1:0:a._a[b];24===a._a[he]&&0===a._a[ie]&&0===a._a[je]&&0===a._a[ke]&&(a._nextDay=!0,a._a[he]=0),a._d=(a._useUTC?ta:sa).apply(null,f),null!=a._tzm&&a._d.setUTCMinutes(a._d.getUTCMinutes()-a._tzm),a._nextDay&&(a._a[he]=24)}}function kb(a){var b,c,d,e,f,g,h,i;if(b=a._w,null!=b.GG||null!=b.W||null!=b.E)f=1,g=4,c=hb(b.GG,a._a[ee],wa(tb(),1,4).year),d=hb(b.W,1),e=hb(b.E,1),(e<1||e>7)&&(i=!0);else{f=a._locale._week.dow,g=a._locale._week.doy;var j=wa(tb(),f,g);c=hb(b.gg,a._a[ee],j.year),d=hb(b.w,j.week),null!=b.d?(e=b.d,(e<0||e>6)&&(i=!0)):null!=b.e?(e=b.e+f,(b.e<0||b.e>6)&&(i=!0)):e=f}d<1||d>xa(c,f,g)?n(a)._overflowWeeks=!0:null!=i?n(a)._overflowWeekday=!0:(h=va(c,d,e,f,g),a._a[ee]=h.year,a._dayOfYear=h.dayOfYear)}function lb(b){if(b._f===a.ISO_8601)return void eb(b);if(b._f===a.RFC_2822)return void fb(b);b._a=[],n(b).empty=!0;var c,d,e,f,g,h=""+b._i,i=h.length,j=0;for(e=Y(b._f,b._locale).match(Jd)||[],c=0;c<e.length;c++)f=e[c],d=(h.match($(f,b))||[])[0],d&&(g=h.substr(0,h.indexOf(d)),g.length>0&&n(b).unusedInput.push(g),h=h.slice(h.indexOf(d)+d.length),j+=d.length),Md[f]?(d?n(b).empty=!1:n(b).unusedTokens.push(f),da(f,d,b)):b._strict&&!d&&n(b).unusedTokens.push(f);n(b).charsLeftOver=i-j,h.length>0&&n(b).unusedInput.push(h),b._a[he]<=12&&n(b).bigHour===!0&&b._a[he]>0&&(n(b).bigHour=void 0),n(b).parsedDateParts=b._a.slice(0),n(b).meridiem=b._meridiem,b._a[he]=mb(b._locale,b._a[he],b._meridiem),jb(b),db(b)}function mb(a,b,c){var d;return null==c?b:null!=a.meridiemHour?a.meridiemHour(b,c):null!=a.isPM?(d=a.isPM(c),d&&b<12&&(b+=12),d||12!==b||(b=0),b):b}function nb(a){var b,c,d,e,f;if(0===a._f.length)return n(a).invalidFormat=!0,void(a._d=new Date(NaN));for(e=0;e<a._f.length;e++)f=0,b=q({},a),null!=a._useUTC&&(b._useUTC=a._useUTC),b._f=a._f[e],lb(b),o(b)&&(f+=n(b).charsLeftOver,f+=10*n(b).unusedTokens.length,n(b).score=f,(null==d||f<d)&&(d=f,c=b));k(a,c||b)}function ob(a){if(!a._d){var b=L(a._i);a._a=i([b.year,b.month,b.day||b.date,b.hour,b.minute,b.second,b.millisecond],function(a){return a&&parseInt(a,10)}),jb(a)}}function pb(a){var b=new r(db(qb(a)));return b._nextDay&&(b.add(1,"d"),b._nextDay=void 0),b}function qb(a){var b=a._i,d=a._f;return a._locale=a._locale||bb(a._l),null===b||void 0===d&&""===b?p({nullInput:!0}):("string"==typeof b&&(a._i=b=a._locale.preparse(b)),s(b)?new r(db(b)):(h(b)?a._d=b:c(d)?nb(a):d?lb(a):rb(a),o(a)||(a._d=null),a))}function rb(b){var e=b._i;f(e)?b._d=new Date(a.now()):h(e)?b._d=new Date(e.valueOf()):"string"==typeof e?gb(b):c(e)?(b._a=i(e.slice(0),function(a){return parseInt(a,10)}),jb(b)):d(e)?ob(b):g(e)?b._d=new Date(e):a.createFromInputFallback(b)}function sb(a,b,f,g,h){var i={};return f!==!0&&f!==!1||(g=f,f=void 0),(d(a)&&e(a)||c(a)&&0===a.length)&&(a=void 0),i._isAMomentObject=!0,i._useUTC=i._isUTC=h,i._l=f,i._i=a,i._f=b,i._strict=g,pb(i)}function tb(a,b,c,d){return sb(a,b,c,d,!1)}function ub(a,b){var d,e;if(1===b.length&&c(b[0])&&(b=b[0]),!b.length)return tb();for(d=b[0],e=1;e<b.length;++e)b[e].isValid()&&!b[e][a](d)||(d=b[e]);return d}function vb(){var a=[].slice.call(arguments,0);return ub("isBefore",a)}function wb(){var a=[].slice.call(arguments,0);return ub("isAfter",a)}function xb(a){for(var b in a)if(Re.indexOf(b)===-1||null!=a[b]&&isNaN(a[b]))return!1;for(var c=!1,d=0;d<Re.length;++d)if(a[Re[d]]){if(c)return!1;parseFloat(a[Re[d]])!==u(a[Re[d]])&&(c=!0)}return!0}function yb(){return this._isValid}function zb(){return Sb(NaN)}function Ab(a){var b=L(a),c=b.year||0,d=b.quarter||0,e=b.month||0,f=b.week||0,g=b.day||0,h=b.hour||0,i=b.minute||0,j=b.second||0,k=b.millisecond||0;this._isValid=xb(b),this._milliseconds=+k+1e3*j+6e4*i+1e3*h*60*60,this._days=+g+7*f,this._months=+e+3*d+12*c,this._data={},this._locale=bb(),this._bubble()}function Bb(a){return a instanceof Ab}function Cb(a){return a<0?Math.round(-1*a)*-1:Math.round(a)}function Db(a,b){U(a,0,0,function(){var a=this.utcOffset(),c="+";return a<0&&(a=-a,c="-"),c+T(~~(a/60),2)+b+T(~~a%60,2)})}function Eb(a,b){var c=(b||"").match(a);if(null===c)return null;var d=c[c.length-1]||[],e=(d+"").match(Se)||["-",0,0],f=+(60*e[1])+u(e[2]);return 0===f?0:"+"===e[0]?f:-f}function Fb(b,c){var d,e;return c._isUTC?(d=c.clone(),e=(s(b)||h(b)?b.valueOf():tb(b).valueOf())-d.valueOf(),d._d.setTime(d._d.valueOf()+e),a.updateOffset(d,!1),d):tb(b).local()}function Gb(a){return 15*-Math.round(a._d.getTimezoneOffset()/15)}function Hb(b,c,d){var e,f=this._offset||0;if(!this.isValid())return null!=b?this:NaN;if(null!=b){if("string"==typeof b){if(b=Eb(_d,b),null===b)return this}else Math.abs(b)<16&&!d&&(b=60*b);return!this._isUTC&&c&&(e=Gb(this)),this._offset=b,this._isUTC=!0,null!=e&&this.add(e,"m"),f!==b&&(!c||this._changeInProgress?Xb(this,Sb(b-f,"m"),1,!1):this._changeInProgress||(this._changeInProgress=!0,a.updateOffset(this,!0),this._changeInProgress=null)),this}return this._isUTC?f:Gb(this)}function Ib(a,b){return null!=a?("string"!=typeof a&&(a=-a),this.utcOffset(a,b),this):-this.utcOffset()}function Jb(a){return this.utcOffset(0,a)}function Kb(a){return this._isUTC&&(this.utcOffset(0,a),this._isUTC=!1,a&&this.subtract(Gb(this),"m")),this}function Lb(){if(null!=this._tzm)this.utcOffset(this._tzm,!1,!0);else if("string"==typeof this._i){var a=Eb($d,this._i);null!=a?this.utcOffset(a):this.utcOffset(0,!0)}return this}function Mb(a){return!!this.isValid()&&(a=a?tb(a).utcOffset():0,(this.utcOffset()-a)%60===0)}function Nb(){return this.utcOffset()>this.clone().month(0).utcOffset()||this.utcOffset()>this.clone().month(5).utcOffset()}function Ob(){if(!f(this._isDSTShifted))return this._isDSTShifted;var a={};if(q(a,this),a=qb(a),a._a){var b=a._isUTC?l(a._a):tb(a._a);this._isDSTShifted=this.isValid()&&v(a._a,b.toArray())>0}else this._isDSTShifted=!1;return this._isDSTShifted}function Pb(){return!!this.isValid()&&!this._isUTC}function Qb(){return!!this.isValid()&&this._isUTC}function Rb(){return!!this.isValid()&&(this._isUTC&&0===this._offset)}function Sb(a,b){var c,d,e,f=a,h=null;return Bb(a)?f={ms:a._milliseconds,d:a._days,M:a._months}:g(a)?(f={},b?f[b]=a:f.milliseconds=a):(h=Te.exec(a))?(c="-"===h[1]?-1:1,f={y:0,d:u(h[ge])*c,h:u(h[he])*c,m:u(h[ie])*c,s:u(h[je])*c,ms:u(Cb(1e3*h[ke]))*c}):(h=Ue.exec(a))?(c="-"===h[1]?-1:1,f={y:Tb(h[2],c),M:Tb(h[3],c),w:Tb(h[4],c),d:Tb(h[5],c),h:Tb(h[6],c),m:Tb(h[7],c),s:Tb(h[8],c)}):null==f?f={}:"object"==typeof f&&("from"in f||"to"in f)&&(e=Vb(tb(f.from),tb(f.to)),f={},f.ms=e.milliseconds,f.M=e.months),d=new Ab(f),Bb(a)&&j(a,"_locale")&&(d._locale=a._locale),d}function Tb(a,b){var c=a&&parseFloat(a.replace(",","."));return(isNaN(c)?0:c)*b}function Ub(a,b){var c={milliseconds:0,months:0};return c.months=b.month()-a.month()+12*(b.year()-a.year()),a.clone().add(c.months,"M").isAfter(b)&&--c.months,c.milliseconds=+b-+a.clone().add(c.months,"M"),c}function Vb(a,b){var c;return a.isValid()&&b.isValid()?(b=Fb(b,a),a.isBefore(b)?c=Ub(a,b):(c=Ub(b,a),c.milliseconds=-c.milliseconds,c.months=-c.months),c):{milliseconds:0,months:0}}function Wb(a,b){return function(c,d){var e,f;return null===d||isNaN(+d)||(y(b,"moment()."+b+"(period, number) is deprecated. Please use moment()."+b+"(number, period). See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info."),f=c,c=d,d=f),c="string"==typeof c?+c:c,e=Sb(c,d),Xb(this,e,a),this}}function Xb(b,c,d,e){var f=c._milliseconds,g=Cb(c._days),h=Cb(c._months);b.isValid()&&(e=null==e||e,f&&b._d.setTime(b._d.valueOf()+f*d),g&&Q(b,"Date",P(b,"Date")+g*d),h&&ja(b,P(b,"Month")+h*d),e&&a.updateOffset(b,g||h))}function Yb(a,b){var c=a.diff(b,"days",!0);return c<-6?"sameElse":c<-1?"lastWeek":c<0?"lastDay":c<1?"sameDay":c<2?"nextDay":c<7?"nextWeek":"sameElse"}function Zb(b,c){var d=b||tb(),e=Fb(d,this).startOf("day"),f=a.calendarFormat(this,e)||"sameElse",g=c&&(z(c[f])?c[f].call(this,d):c[f]);return this.format(g||this.localeData().calendar(f,this,tb(d)))}function $b(){return new r(this)}function _b(a,b){var c=s(a)?a:tb(a);return!(!this.isValid()||!c.isValid())&&(b=K(f(b)?"millisecond":b),"millisecond"===b?this.valueOf()>c.valueOf():c.valueOf()<this.clone().startOf(b).valueOf())}function ac(a,b){var c=s(a)?a:tb(a);return!(!this.isValid()||!c.isValid())&&(b=K(f(b)?"millisecond":b),"millisecond"===b?this.valueOf()<c.valueOf():this.clone().endOf(b).valueOf()<c.valueOf())}function bc(a,b,c,d){return d=d||"()",("("===d[0]?this.isAfter(a,c):!this.isBefore(a,c))&&(")"===d[1]?this.isBefore(b,c):!this.isAfter(b,c))}function cc(a,b){var c,d=s(a)?a:tb(a);return!(!this.isValid()||!d.isValid())&&(b=K(b||"millisecond"),"millisecond"===b?this.valueOf()===d.valueOf():(c=d.valueOf(),this.clone().startOf(b).valueOf()<=c&&c<=this.clone().endOf(b).valueOf()))}function dc(a,b){return this.isSame(a,b)||this.isAfter(a,b)}function ec(a,b){return this.isSame(a,b)||this.isBefore(a,b)}function fc(a,b,c){var d,e,f,g;return this.isValid()?(d=Fb(a,this),d.isValid()?(e=6e4*(d.utcOffset()-this.utcOffset()),b=K(b),"year"===b||"month"===b||"quarter"===b?(g=gc(this,d),"quarter"===b?g/=3:"year"===b&&(g/=12)):(f=this-d,g="second"===b?f/1e3:"minute"===b?f/6e4:"hour"===b?f/36e5:"day"===b?(f-e)/864e5:"week"===b?(f-e)/6048e5:f),c?g:t(g)):NaN):NaN}function gc(a,b){var c,d,e=12*(b.year()-a.year())+(b.month()-a.month()),f=a.clone().add(e,"months");return b-f<0?(c=a.clone().add(e-1,"months"),d=(b-f)/(f-c)):(c=a.clone().add(e+1,"months"),d=(b-f)/(c-f)),-(e+d)||0}function hc(){return this.clone().locale("en").format("ddd MMM DD YYYY HH:mm:ss [GMT]ZZ")}function ic(){if(!this.isValid())return null;var a=this.clone().utc();return a.year()<0||a.year()>9999?X(a,"YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]"):z(Date.prototype.toISOString)?this.toDate().toISOString():X(a,"YYYY-MM-DD[T]HH:mm:ss.SSS[Z]")}function jc(){if(!this.isValid())return"moment.invalid(/* "+this._i+" */)";var a="moment",b="";this.isLocal()||(a=0===this.utcOffset()?"moment.utc":"moment.parseZone",b="Z");var c="["+a+'("]',d=0<=this.year()&&this.year()<=9999?"YYYY":"YYYYYY",e="-MM-DD[T]HH:mm:ss.SSS",f=b+'[")]';return this.format(c+d+e+f)}function kc(b){b||(b=this.isUtc()?a.defaultFormatUtc:a.defaultFormat);var c=X(this,b);return this.localeData().postformat(c)}function lc(a,b){return this.isValid()&&(s(a)&&a.isValid()||tb(a).isValid())?Sb({to:this,from:a}).locale(this.locale()).humanize(!b):this.localeData().invalidDate()}function mc(a){return this.from(tb(),a)}function nc(a,b){return this.isValid()&&(s(a)&&a.isValid()||tb(a).isValid())?Sb({from:this,to:a}).locale(this.locale()).humanize(!b):this.localeData().invalidDate()}function oc(a){return this.to(tb(),a)}function pc(a){var b;return void 0===a?this._locale._abbr:(b=bb(a),null!=b&&(this._locale=b),this)}function qc(){return this._locale}function rc(a){switch(a=K(a)){case"year":this.month(0);case"quarter":case"month":this.date(1);case"week":case"isoWeek":case"day":case"date":this.hours(0);case"hour":this.minutes(0);case"minute":this.seconds(0);case"second":this.milliseconds(0)}return"week"===a&&this.weekday(0),"isoWeek"===a&&this.isoWeekday(1),"quarter"===a&&this.month(3*Math.floor(this.month()/3)),this}function sc(a){return a=K(a),void 0===a||"millisecond"===a?this:("date"===a&&(a="day"),this.startOf(a).add(1,"isoWeek"===a?"week":a).subtract(1,"ms"))}function tc(){return this._d.valueOf()-6e4*(this._offset||0)}function uc(){return Math.floor(this.valueOf()/1e3)}function vc(){return new Date(this.valueOf())}function wc(){var a=this;return[a.year(),a.month(),a.date(),a.hour(),a.minute(),a.second(),a.millisecond()]}function xc(){var a=this;return{years:a.year(),months:a.month(),date:a.date(),hours:a.hours(),minutes:a.minutes(),seconds:a.seconds(),milliseconds:a.milliseconds()}}function yc(){return this.isValid()?this.toISOString():null}function zc(){return o(this)}function Ac(){
+return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{input:this._i,format:this._f,locale:this._locale,isUTC:this._isUTC,strict:this._strict}}function Dc(a,b){U(0,[a,a.length],0,b)}function Ec(a){return Ic.call(this,a,this.week(),this.weekday(),this.localeData()._week.dow,this.localeData()._week.doy)}function Fc(a){return Ic.call(this,a,this.isoWeek(),this.isoWeekday(),1,4)}function Gc(){return xa(this.year(),1,4)}function Hc(){var a=this.localeData()._week;return xa(this.year(),a.dow,a.doy)}function Ic(a,b,c,d,e){var f;return null==a?wa(this,d,e).year:(f=xa(a,d,e),b>f&&(b=f),Jc.call(this,a,b,c,d,e))}function Jc(a,b,c,d,e){var f=va(a,b,c,d,e),g=ta(f.year,0,f.dayOfYear);return this.year(g.getUTCFullYear()),this.month(g.getUTCMonth()),this.date(g.getUTCDate()),this}function Kc(a){return null==a?Math.ceil((this.month()+1)/3):this.month(3*(a-1)+this.month()%3)}function Lc(a){var b=Math.round((this.clone().startOf("day")-this.clone().startOf("year"))/864e5)+1;return null==a?b:this.add(a-b,"d")}function Mc(a,b){b[ke]=u(1e3*("0."+a))}function Nc(){return this._isUTC?"UTC":""}function Oc(){return this._isUTC?"Coordinated Universal Time":""}function Pc(a){return tb(1e3*a)}function Qc(){return tb.apply(null,arguments).parseZone()}function Rc(a){return a}function Sc(a,b,c,d){var e=bb(),f=l().set(d,b);return e[c](f,a)}function Tc(a,b,c){if(g(a)&&(b=a,a=void 0),a=a||"",null!=b)return Sc(a,b,c,"month");var d,e=[];for(d=0;d<12;d++)e[d]=Sc(a,d,c,"month");return e}function Uc(a,b,c,d){"boolean"==typeof a?(g(b)&&(c=b,b=void 0),b=b||""):(b=a,c=b,a=!1,g(b)&&(c=b,b=void 0),b=b||"");var e=bb(),f=a?e._week.dow:0;if(null!=c)return Sc(b,(c+f)%7,d,"day");var h,i=[];for(h=0;h<7;h++)i[h]=Sc(b,(h+f)%7,d,"day");return i}function Vc(a,b){return Tc(a,b,"months")}function Wc(a,b){return Tc(a,b,"monthsShort")}function Xc(a,b,c){return Uc(a,b,c,"weekdays")}function Yc(a,b,c){return Uc(a,b,c,"weekdaysShort")}function Zc(a,b,c){return Uc(a,b,c,"weekdaysMin")}function $c(){var a=this._data;return this._milliseconds=df(this._milliseconds),this._days=df(this._days),this._months=df(this._months),a.milliseconds=df(a.milliseconds),a.seconds=df(a.seconds),a.minutes=df(a.minutes),a.hours=df(a.hours),a.months=df(a.months),a.years=df(a.years),this}function _c(a,b,c,d){var e=Sb(b,c);return a._milliseconds+=d*e._milliseconds,a._days+=d*e._days,a._months+=d*e._months,a._bubble()}function ad(a,b){return _c(this,a,b,1)}function bd(a,b){return _c(this,a,b,-1)}function cd(a){return a<0?Math.floor(a):Math.ceil(a)}function dd(){var a,b,c,d,e,f=this._milliseconds,g=this._days,h=this._months,i=this._data;return f>=0&&g>=0&&h>=0||f<=0&&g<=0&&h<=0||(f+=864e5*cd(fd(h)+g),g=0,h=0),i.milliseconds=f%1e3,a=t(f/1e3),i.seconds=a%60,b=t(a/60),i.minutes=b%60,c=t(b/60),i.hours=c%24,g+=t(c/24),e=t(ed(g)),h+=e,g-=cd(fd(e)),d=t(h/12),h%=12,i.days=g,i.months=h,i.years=d,this}function ed(a){return 4800*a/146097}function fd(a){return 146097*a/4800}function gd(a){if(!this.isValid())return NaN;var b,c,d=this._milliseconds;if(a=K(a),"month"===a||"year"===a)return b=this._days+d/864e5,c=this._months+ed(b),"month"===a?c:c/12;switch(b=this._days+Math.round(fd(this._months)),a){case"week":return b/7+d/6048e5;case"day":return b+d/864e5;case"hour":return 24*b+d/36e5;case"minute":return 1440*b+d/6e4;case"second":return 86400*b+d/1e3;case"millisecond":return Math.floor(864e5*b)+d;default:throw new Error("Unknown unit "+a)}}function hd(){return this.isValid()?this._milliseconds+864e5*this._days+this._months%12*2592e6+31536e6*u(this._months/12):NaN}function id(a){return function(){return this.as(a)}}function jd(a){return a=K(a),this.isValid()?this[a+"s"]():NaN}function kd(a){return function(){return this.isValid()?this._data[a]:NaN}}function ld(){return t(this.days()/7)}function md(a,b,c,d,e){return e.relativeTime(b||1,!!c,a,d)}function nd(a,b,c){var d=Sb(a).abs(),e=uf(d.as("s")),f=uf(d.as("m")),g=uf(d.as("h")),h=uf(d.as("d")),i=uf(d.as("M")),j=uf(d.as("y")),k=e<=vf.ss&&["s",e]||e<vf.s&&["ss",e]||f<=1&&["m"]||f<vf.m&&["mm",f]||g<=1&&["h"]||g<vf.h&&["hh",g]||h<=1&&["d"]||h<vf.d&&["dd",h]||i<=1&&["M"]||i<vf.M&&["MM",i]||j<=1&&["y"]||["yy",j];return k[2]=b,k[3]=+a>0,k[4]=c,md.apply(null,k)}function od(a){return void 0===a?uf:"function"==typeof a&&(uf=a,!0)}function pd(a,b){return void 0!==vf[a]&&(void 0===b?vf[a]:(vf[a]=b,"s"===a&&(vf.ss=b-1),!0))}function qd(a){if(!this.isValid())return this.localeData().invalidDate();var b=this.localeData(),c=nd(this,!a,b);return a&&(c=b.pastFuture(+this,c)),b.postformat(c)}function rd(){if(!this.isValid())return this.localeData().invalidDate();var a,b,c,d=wf(this._milliseconds)/1e3,e=wf(this._days),f=wf(this._months);a=t(d/60),b=t(a/60),d%=60,a%=60,c=t(f/12),f%=12;var g=c,h=f,i=e,j=b,k=a,l=d,m=this.asSeconds();return m?(m<0?"-":"")+"P"+(g?g+"Y":"")+(h?h+"M":"")+(i?i+"D":"")+(j||k||l?"T":"")+(j?j+"H":"")+(k?k+"M":"")+(l?l+"S":""):"P0D"}var sd,td;td=Array.prototype.some?Array.prototype.some:function(a){for(var b=Object(this),c=b.length>>>0,d=0;d<c;d++)if(d in b&&a.call(this,b[d],d,b))return!0;return!1};var ud=td,vd=a.momentProperties=[],wd=!1,xd={};a.suppressDeprecationWarnings=!1,a.deprecationHandler=null;var yd;yd=Object.keys?Object.keys:function(a){var b,c=[];for(b in a)j(a,b)&&c.push(b);return c};var zd,Ad=yd,Bd={sameDay:"[Today at] LT",nextDay:"[Tomorrow at] LT",nextWeek:"dddd [at] LT",lastDay:"[Yesterday at] LT",lastWeek:"[Last] dddd [at] LT",sameElse:"L"},Cd={LTS:"h:mm:ss A",LT:"h:mm A",L:"MM/DD/YYYY",LL:"MMMM D, YYYY",LLL:"MMMM D, YYYY h:mm A",LLLL:"dddd, MMMM D, YYYY h:mm A"},Dd="Invalid date",Ed="%d",Fd=/\d{1,2}/,Gd={future:"in %s",past:"%s ago",s:"a few seconds",ss:"%d seconds",m:"a minute",mm:"%d minutes",h:"an hour",hh:"%d hours",d:"a day",dd:"%d days",M:"a month",MM:"%d months",y:"a year",yy:"%d years"},Hd={},Id={},Jd=/(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,Kd=/(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,Ld={},Md={},Nd=/\d/,Od=/\d\d/,Pd=/\d{3}/,Qd=/\d{4}/,Rd=/[+-]?\d{6}/,Sd=/\d\d?/,Td=/\d\d\d\d?/,Ud=/\d\d\d\d\d\d?/,Vd=/\d{1,3}/,Wd=/\d{1,4}/,Xd=/[+-]?\d{1,6}/,Yd=/\d+/,Zd=/[+-]?\d+/,$d=/Z|[+-]\d\d:?\d\d/gi,_d=/Z|[+-]\d\d(?::?\d\d)?/gi,ae=/[+-]?\d+(\.\d{1,3})?/,be=/[0-9]*['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+|[\u0600-\u06FF\/]+(\s*?[\u0600-\u06FF]+){1,2}/i,ce={},de={},ee=0,fe=1,ge=2,he=3,ie=4,je=5,ke=6,le=7,me=8;zd=Array.prototype.indexOf?Array.prototype.indexOf:function(a){var b;for(b=0;b<this.length;++b)if(this[b]===a)return b;return-1};var ne=zd;U("M",["MM",2],"Mo",function(){return this.month()+1}),U("MMM",0,0,function(a){return this.localeData().monthsShort(this,a)}),U("MMMM",0,0,function(a){return this.localeData().months(this,a)}),J("month","M"),M("month",8),Z("M",Sd),Z("MM",Sd,Od),Z("MMM",function(a,b){return b.monthsShortRegex(a)}),Z("MMMM",function(a,b){return b.monthsRegex(a)}),ba(["M","MM"],function(a,b){b[fe]=u(a)-1}),ba(["MMM","MMMM"],function(a,b,c,d){var e=c._locale.monthsParse(a,d,c._strict);null!=e?b[fe]=e:n(c).invalidMonth=a});var oe=/D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/,pe="January_February_March_April_May_June_July_August_September_October_November_December".split("_"),qe="Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec".split("_"),re=be,se=be;U("Y",0,0,function(){var a=this.year();return a<=9999?""+a:"+"+a}),U(0,["YY",2],0,function(){return this.year()%100}),U(0,["YYYY",4],0,"year"),U(0,["YYYYY",5],0,"year"),U(0,["YYYYYY",6,!0],0,"year"),J("year","y"),M("year",1),Z("Y",Zd),Z("YY",Sd,Od),Z("YYYY",Wd,Qd),Z("YYYYY",Xd,Rd),Z("YYYYYY",Xd,Rd),ba(["YYYYY","YYYYYY"],ee),ba("YYYY",function(b,c){c[ee]=2===b.length?a.parseTwoDigitYear(b):u(b)}),ba("YY",function(b,c){c[ee]=a.parseTwoDigitYear(b)}),ba("Y",function(a,b){b[ee]=parseInt(a,10)}),a.parseTwoDigitYear=function(a){return u(a)+(u(a)>68?1900:2e3)};var te=O("FullYear",!0);U("w",["ww",2],"wo","week"),U("W",["WW",2],"Wo","isoWeek"),J("week","w"),J("isoWeek","W"),M("week",5),M("isoWeek",5),Z("w",Sd),Z("ww",Sd,Od),Z("W",Sd),Z("WW",Sd,Od),ca(["w","ww","W","WW"],function(a,b,c,d){b[d.substr(0,1)]=u(a)});var ue={dow:0,doy:6};U("d",0,"do","day"),U("dd",0,0,function(a){return this.localeData().weekdaysMin(this,a)}),U("ddd",0,0,function(a){return this.localeData().weekdaysShort(this,a)}),U("dddd",0,0,function(a){return this.localeData().weekdays(this,a)}),U("e",0,0,"weekday"),U("E",0,0,"isoWeekday"),J("day","d"),J("weekday","e"),J("isoWeekday","E"),M("day",11),M("weekday",11),M("isoWeekday",11),Z("d",Sd),Z("e",Sd),Z("E",Sd),Z("dd",function(a,b){return b.weekdaysMinRegex(a)}),Z("ddd",function(a,b){return b.weekdaysShortRegex(a)}),Z("dddd",function(a,b){return b.weekdaysRegex(a)}),ca(["dd","ddd","dddd"],function(a,b,c,d){var e=c._locale.weekdaysParse(a,d,c._strict);null!=e?b.d=e:n(c).invalidWeekday=a}),ca(["d","e","E"],function(a,b,c,d){b[d]=u(a)});var ve="Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split("_"),we="Sun_Mon_Tue_Wed_Thu_Fri_Sat".split("_"),xe="Su_Mo_Tu_We_Th_Fr_Sa".split("_"),ye=be,ze=be,Ae=be;U("H",["HH",2],0,"hour"),U("h",["hh",2],0,Ra),U("k",["kk",2],0,Sa),U("hmm",0,0,function(){return""+Ra.apply(this)+T(this.minutes(),2)}),U("hmmss",0,0,function(){return""+Ra.apply(this)+T(this.minutes(),2)+T(this.seconds(),2)}),U("Hmm",0,0,function(){return""+this.hours()+T(this.minutes(),2)}),U("Hmmss",0,0,function(){return""+this.hours()+T(this.minutes(),2)+T(this.seconds(),2)}),Ta("a",!0),Ta("A",!1),J("hour","h"),M("hour",13),Z("a",Ua),Z("A",Ua),Z("H",Sd),Z("h",Sd),Z("k",Sd),Z("HH",Sd,Od),Z("hh",Sd,Od),Z("kk",Sd,Od),Z("hmm",Td),Z("hmmss",Ud),Z("Hmm",Td),Z("Hmmss",Ud),ba(["H","HH"],he),ba(["k","kk"],function(a,b,c){var d=u(a);b[he]=24===d?0:d}),ba(["a","A"],function(a,b,c){c._isPm=c._locale.isPM(a),c._meridiem=a}),ba(["h","hh"],function(a,b,c){b[he]=u(a),n(c).bigHour=!0}),ba("hmm",function(a,b,c){var d=a.length-2;b[he]=u(a.substr(0,d)),b[ie]=u(a.substr(d)),n(c).bigHour=!0}),ba("hmmss",function(a,b,c){var d=a.length-4,e=a.length-2;b[he]=u(a.substr(0,d)),b[ie]=u(a.substr(d,2)),b[je]=u(a.substr(e)),n(c).bigHour=!0}),ba("Hmm",function(a,b,c){var d=a.length-2;b[he]=u(a.substr(0,d)),b[ie]=u(a.substr(d))}),ba("Hmmss",function(a,b,c){var d=a.length-4,e=a.length-2;b[he]=u(a.substr(0,d)),b[ie]=u(a.substr(d,2)),b[je]=u(a.substr(e))});var Be,Ce=/[ap]\.?m?\.?/i,De=O("Hours",!0),Ee={calendar:Bd,longDateFormat:Cd,invalidDate:Dd,ordinal:Ed,dayOfMonthOrdinalParse:Fd,relativeTime:Gd,months:pe,monthsShort:qe,week:ue,weekdays:ve,weekdaysMin:xe,weekdaysShort:we,meridiemParse:Ce},Fe={},Ge={},He=/^\s*((?:[+-]\d{6}|\d{4})-(?:\d\d-\d\d|W\d\d-\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?::\d\d(?::\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/,Ie=/^\s*((?:[+-]\d{6}|\d{4})(?:\d\d\d\d|W\d\d\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?:\d\d(?:\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/,Je=/Z|[+-]\d\d(?::?\d\d)?/,Ke=[["YYYYYY-MM-DD",/[+-]\d{6}-\d\d-\d\d/],["YYYY-MM-DD",/\d{4}-\d\d-\d\d/],["GGGG-[W]WW-E",/\d{4}-W\d\d-\d/],["GGGG-[W]WW",/\d{4}-W\d\d/,!1],["YYYY-DDD",/\d{4}-\d{3}/],["YYYY-MM",/\d{4}-\d\d/,!1],["YYYYYYMMDD",/[+-]\d{10}/],["YYYYMMDD",/\d{8}/],["GGGG[W]WWE",/\d{4}W\d{3}/],["GGGG[W]WW",/\d{4}W\d{2}/,!1],["YYYYDDD",/\d{7}/]],Le=[["HH:mm:ss.SSSS",/\d\d:\d\d:\d\d\.\d+/],["HH:mm:ss,SSSS",/\d\d:\d\d:\d\d,\d+/],["HH:mm:ss",/\d\d:\d\d:\d\d/],["HH:mm",/\d\d:\d\d/],["HHmmss.SSSS",/\d\d\d\d\d\d\.\d+/],["HHmmss,SSSS",/\d\d\d\d\d\d,\d+/],["HHmmss",/\d\d\d\d\d\d/],["HHmm",/\d\d\d\d/],["HH",/\d\d/]],Me=/^\/?Date\((\-?\d+)/i,Ne=/^((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),?\s)?(\d?\d\s(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s(?:\d\d)?\d\d\s)(\d\d:\d\d)(\:\d\d)?(\s(?:UT|GMT|[ECMP][SD]T|[A-IK-Za-ik-z]|[+-]\d{4}))$/;a.createFromInputFallback=x("value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.",function(a){a._d=new Date(a._i+(a._useUTC?" UTC":""))}),a.ISO_8601=function(){},a.RFC_2822=function(){};var Oe=x("moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/",function(){var a=tb.apply(null,arguments);return this.isValid()&&a.isValid()?a<this?this:a:p()}),Pe=x("moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/",function(){var a=tb.apply(null,arguments);return this.isValid()&&a.isValid()?a>this?this:a:p()}),Qe=function(){return Date.now?Date.now():+new Date},Re=["year","quarter","month","week","day","hour","minute","second","millisecond"];Db("Z",":"),Db("ZZ",""),Z("Z",_d),Z("ZZ",_d),ba(["Z","ZZ"],function(a,b,c){c._useUTC=!0,c._tzm=Eb(_d,a)});var Se=/([\+\-]|\d\d)/gi;a.updateOffset=function(){};var Te=/^(\-)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)(\.\d*)?)?$/,Ue=/^(-)?P(?:(-?[0-9,.]*)Y)?(?:(-?[0-9,.]*)M)?(?:(-?[0-9,.]*)W)?(?:(-?[0-9,.]*)D)?(?:T(?:(-?[0-9,.]*)H)?(?:(-?[0-9,.]*)M)?(?:(-?[0-9,.]*)S)?)?$/;Sb.fn=Ab.prototype,Sb.invalid=zb;var Ve=Wb(1,"add"),We=Wb(-1,"subtract");a.defaultFormat="YYYY-MM-DDTHH:mm:ssZ",a.defaultFormatUtc="YYYY-MM-DDTHH:mm:ss[Z]";var Xe=x("moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.",function(a){return void 0===a?this.localeData():this.locale(a)});U(0,["gg",2],0,function(){return this.weekYear()%100}),U(0,["GG",2],0,function(){return this.isoWeekYear()%100}),Dc("gggg","weekYear"),Dc("ggggg","weekYear"),Dc("GGGG","isoWeekYear"),Dc("GGGGG","isoWeekYear"),J("weekYear","gg"),J("isoWeekYear","GG"),M("weekYear",1),M("isoWeekYear",1),Z("G",Zd),Z("g",Zd),Z("GG",Sd,Od),Z("gg",Sd,Od),Z("GGGG",Wd,Qd),Z("gggg",Wd,Qd),Z("GGGGG",Xd,Rd),Z("ggggg",Xd,Rd),ca(["gggg","ggggg","GGGG","GGGGG"],function(a,b,c,d){b[d.substr(0,2)]=u(a)}),ca(["gg","GG"],function(b,c,d,e){c[e]=a.parseTwoDigitYear(b)}),U("Q",0,"Qo","quarter"),J("quarter","Q"),M("quarter",7),Z("Q",Nd),ba("Q",function(a,b){b[fe]=3*(u(a)-1)}),U("D",["DD",2],"Do","date"),J("date","D"),M("date",9),Z("D",Sd),Z("DD",Sd,Od),Z("Do",function(a,b){return a?b._dayOfMonthOrdinalParse||b._ordinalParse:b._dayOfMonthOrdinalParseLenient}),ba(["D","DD"],ge),ba("Do",function(a,b){b[ge]=u(a.match(Sd)[0],10)});var Ye=O("Date",!0);U("DDD",["DDDD",3],"DDDo","dayOfYear"),J("dayOfYear","DDD"),M("dayOfYear",4),Z("DDD",Vd),Z("DDDD",Pd),ba(["DDD","DDDD"],function(a,b,c){c._dayOfYear=u(a)}),U("m",["mm",2],0,"minute"),J("minute","m"),M("minute",14),Z("m",Sd),Z("mm",Sd,Od),ba(["m","mm"],ie);var Ze=O("Minutes",!1);U("s",["ss",2],0,"second"),J("second","s"),M("second",15),Z("s",Sd),Z("ss",Sd,Od),ba(["s","ss"],je);var $e=O("Seconds",!1);U("S",0,0,function(){return~~(this.millisecond()/100)}),U(0,["SS",2],0,function(){return~~(this.millisecond()/10)}),U(0,["SSS",3],0,"millisecond"),U(0,["SSSS",4],0,function(){return 10*this.millisecond()}),U(0,["SSSSS",5],0,function(){return 100*this.millisecond()}),U(0,["SSSSSS",6],0,function(){return 1e3*this.millisecond()}),U(0,["SSSSSSS",7],0,function(){return 1e4*this.millisecond()}),U(0,["SSSSSSSS",8],0,function(){return 1e5*this.millisecond()}),U(0,["SSSSSSSSS",9],0,function(){return 1e6*this.millisecond()}),J("millisecond","ms"),M("millisecond",16),Z("S",Vd,Nd),Z("SS",Vd,Od),Z("SSS",Vd,Pd);var _e;for(_e="SSSS";_e.length<=9;_e+="S")Z(_e,Yd);for(_e="S";_e.length<=9;_e+="S")ba(_e,Mc);var af=O("Milliseconds",!1);U("z",0,0,"zoneAbbr"),U("zz",0,0,"zoneName");var bf=r.prototype;bf.add=Ve,bf.calendar=Zb,bf.clone=$b,bf.diff=fc,bf.endOf=sc,bf.format=kc,bf.from=lc,bf.fromNow=mc,bf.to=nc,bf.toNow=oc,bf.get=R,bf.invalidAt=Bc,bf.isAfter=_b,bf.isBefore=ac,bf.isBetween=bc,bf.isSame=cc,bf.isSameOrAfter=dc,bf.isSameOrBefore=ec,bf.isValid=zc,bf.lang=Xe,bf.locale=pc,bf.localeData=qc,bf.max=Pe,bf.min=Oe,bf.parsingFlags=Ac,bf.set=S,bf.startOf=rc,bf.subtract=We,bf.toArray=wc,bf.toObject=xc,bf.toDate=vc,bf.toISOString=ic,bf.inspect=jc,bf.toJSON=yc,bf.toString=hc,bf.unix=uc,bf.valueOf=tc,bf.creationData=Cc,bf.year=te,bf.isLeapYear=ra,bf.weekYear=Ec,bf.isoWeekYear=Fc,bf.quarter=bf.quarters=Kc,bf.month=ka,bf.daysInMonth=la,bf.week=bf.weeks=Ba,bf.isoWeek=bf.isoWeeks=Ca,bf.weeksInYear=Hc,bf.isoWeeksInYear=Gc,bf.date=Ye,bf.day=bf.days=Ka,bf.weekday=La,bf.isoWeekday=Ma,bf.dayOfYear=Lc,bf.hour=bf.hours=De,bf.minute=bf.minutes=Ze,bf.second=bf.seconds=$e,bf.millisecond=bf.milliseconds=af,bf.utcOffset=Hb,bf.utc=Jb,bf.local=Kb,bf.parseZone=Lb,bf.hasAlignedHourOffset=Mb,bf.isDST=Nb,bf.isLocal=Pb,bf.isUtcOffset=Qb,bf.isUtc=Rb,bf.isUTC=Rb,bf.zoneAbbr=Nc,bf.zoneName=Oc,bf.dates=x("dates accessor is deprecated. Use date instead.",Ye),bf.months=x("months accessor is deprecated. Use month instead",ka),bf.years=x("years accessor is deprecated. Use year instead",te),bf.zone=x("moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/",Ib),bf.isDSTShifted=x("isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information",Ob);var cf=C.prototype;cf.calendar=D,cf.longDateFormat=E,cf.invalidDate=F,cf.ordinal=G,cf.preparse=Rc,cf.postformat=Rc,cf.relativeTime=H,cf.pastFuture=I,cf.set=A,cf.months=fa,cf.monthsShort=ga,cf.monthsParse=ia,cf.monthsRegex=na,cf.monthsShortRegex=ma,cf.week=ya,cf.firstDayOfYear=Aa,cf.firstDayOfWeek=za,cf.weekdays=Fa,cf.weekdaysMin=Ha,cf.weekdaysShort=Ga,cf.weekdaysParse=Ja,cf.weekdaysRegex=Na,cf.weekdaysShortRegex=Oa,cf.weekdaysMinRegex=Pa,cf.isPM=Va,cf.meridiem=Wa,$a("en",{dayOfMonthOrdinalParse:/\d{1,2}(th|st|nd|rd)/,ordinal:function(a){var b=a%10,c=1===u(a%100/10)?"th":1===b?"st":2===b?"nd":3===b?"rd":"th";return a+c}}),a.lang=x("moment.lang is deprecated. Use moment.locale instead.",$a),a.langData=x("moment.langData is deprecated. Use moment.localeData instead.",bb);var df=Math.abs,ef=id("ms"),ff=id("s"),gf=id("m"),hf=id("h"),jf=id("d"),kf=id("w"),lf=id("M"),mf=id("y"),nf=kd("milliseconds"),of=kd("seconds"),pf=kd("minutes"),qf=kd("hours"),rf=kd("days"),sf=kd("months"),tf=kd("years"),uf=Math.round,vf={ss:44,s:45,m:45,h:22,d:26,M:11},wf=Math.abs,xf=Ab.prototype;return xf.isValid=yb,xf.abs=$c,xf.add=ad,xf.subtract=bd,xf.as=gd,xf.asMilliseconds=ef,xf.asSeconds=ff,xf.asMinutes=gf,xf.asHours=hf,xf.asDays=jf,xf.asWeeks=kf,xf.asMonths=lf,xf.asYears=mf,xf.valueOf=hd,xf._bubble=dd,xf.get=jd,xf.milliseconds=nf,xf.seconds=of,xf.minutes=pf,xf.hours=qf,xf.days=rf,xf.weeks=ld,xf.months=sf,xf.years=tf,xf.humanize=qd,xf.toISOString=rd,xf.toString=rd,xf.toJSON=rd,xf.locale=pc,xf.localeData=qc,xf.toIsoString=x("toIsoString() is deprecated. Please use toISOString() instead (notice the capitals)",rd),xf.lang=Xe,U("X",0,0,"unix"),U("x",0,0,"valueOf"),Z("x",Zd),Z("X",ae),ba("X",function(a,b,c){c._d=new Date(1e3*parseFloat(a,10))}),ba("x",function(a,b,c){c._d=new Date(u(a))}),a.version="2.18.1",b(tb),a.fn=bf,a.min=vb,a.max=wb,a.now=Qe,a.utc=l,a.unix=Pc,a.months=Vc,a.isDate=h,a.locale=$a,a.invalid=p,a.duration=Sb,a.isMoment=s,a.weekdays=Xc,a.parseZone=Qc,a.localeData=bb,a.isDuration=Bb,a.monthsShort=Wc,a.weekdaysMin=Zc,a.defineLocale=_a,a.updateLocale=ab,a.locales=cb,a.weekdaysShort=Yc,a.normalizeUnits=K,a.relativeTimeRounding=od,a.relativeTimeThreshold=pd,a.calendarFormat=Yb,a.prototype=bf,a});
 //# sourceMappingURL=ceres-vendor.productive.js.map
 
 Vue.config.delimiters = ["${", "}"];
 Vue.config.unsafeDelimiters = ["{!!", "!!}"];
 
-// Comment these three for local build. TODO dev/production
-// Vue.config.devtools = false;
-// Vue.config.debug = false;
-// Vue.config.silent = true;
-
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var ModalService = require("services/ModalService");
+
+Vue.component("add-item-to-basket-overlay", {
+
+    props: ["basketAddInformation", "template"],
+
+    data: function data() {
+        return {
+            basketItem: { currentBasketItem: {} },
+            timeToClose: 0,
+            price: 0,
+            currency: ""
+        };
+    },
+    created: function created() {
+        this.$options.template = this.template;
+    },
+    ready: function ready() {
+        ResourceService.bind("basketItem", this);
+    },
+
+
+    watch: {
+        basketItem: function basketItem() {
+            if (this.basketAddInformation === "overlay") {
+                ModalService.findModal(document.getElementById("add-item-to-basket-overlay")).show();
+            } else if (this.basketAddInformation === "preview" && Object.keys(this.basketItem.currentBasketItem).length != 0) {
+                setTimeout(function () {
+                    $("body").toggleClass("open-right");
+                }, 1);
+            }
+        }
+    },
+
+    methods: {
+
+        /**
+         * check if current basket object exist and start rendering
+         */
+        startRendering: function startRendering() {
+            var render = Object.keys(this.basketItem.currentBasketItem).length != 0;
+
+            if (render) {
+                this.startCounter();
+            }
+
+            this.setPriceFromData();
+
+            return render;
+        },
+        setPriceFromData: function setPriceFromData() {
+            if (this.basketItem.currentBasketItem.calculatedPrices) {
+                this.price = this.basketItem.currentBasketItem.calculatedPrices.default.price;
+                this.currency = this.basketItem.currentBasketItem.calculatedPrices.default.currency;
+            }
+        },
+
+
+        /**
+         * @returns {string}
+         */
+        getImage: function getImage() {
+            var path = "";
+
+            for (var i = 0; i < this.basketItem.currentBasketItem.variationImageList.length; i++) {
+                if (this.basketItem.currentBasketItem.variationImageList[i].path !== "") {
+                    path = this.basketItem.currentBasketItem.variationImageList[i].path;
+                }
+            }
+
+            return "/" + path;
+        },
+        startCounter: function startCounter() {
+            var _this = this;
+
+            this.timeToClose = 10;
+
+            var timerVar = setInterval(function () {
+                _this.timeToClose -= 1;
+
+                if (_this.timeToClose === 0) {
+                    ModalService.findModal(document.getElementById("add-item-to-basket-overlay")).hide();
+
+                    clearInterval(timerVar);
+                }
+            }, 1000);
+        }
+    },
+
+    computed: {
+        /**
+         * returns itemData.texts[0]
+         */
+        texts: function texts() {
+            return this.basketItem.currentBasketItem.texts;
+        },
+        imageUrl: function imageUrl() {
+            var img = this.$options.filters.itemImages(this.basketItem.currentBasketItem.images, "urlPreview")[0];
+
+            return img.url;
+        }
+    }
+});
+
+},{"services/ModalService":74,"services/ResourceService":76}],2:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("add-to-basket", {
+
+    props: ["item", "itemUrl", "showQuantity", "template"],
+
+    data: function data() {
+        return {
+            quantity: 1
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+        /**
+         * add an item to basket-resource
+         */
+        addToBasket: function addToBasket() {
+            var basketObject = {
+                variationId: this.variationId,
+                quantity: this.quantity
+            };
+
+            ResourceService.getResource("basketItems").push(basketObject);
+
+            this.openAddToBasketOverlay();
+        },
+
+        directToItem: function directToItem() {
+            window.location.assign(this.itemUrl);
+        },
+
+        /**
+         * open the AddItemToBasketOverlay
+         */
+        openAddToBasketOverlay: function openAddToBasketOverlay() {
+            var currentBasketObject = {
+                currentBasketItem: this.item,
+                quantity: this.quantity
+            };
+
+            ResourceService.getResource("basketItem").set(currentBasketObject);
+        },
+
+        /**
+         * update the property quantity of the current instance
+         * @param value
+         */
+        updateQuantity: function updateQuantity(value) {
+            this.quantity = value;
+        }
+    },
+
+    computed: {
+        /**
+         * returns item.variation.id
+         */
+        variationId: function variationId() {
+            return this.item.variation.id;
+        },
+
+        hasChildren: function hasChildren() {
+            return this.item.filter && this.item.filter.hasChildren && App.isCategoryView;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],3:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("basket-preview", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            basket: {},
+            basketItems: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Bind to basket and bind the basket items
+     */
+    ready: function ready() {
+        ResourceService.bind("basket", this);
+        ResourceService.bind("basketItems", this);
+    }
+});
+
+},{"services/ResourceService":76}],4:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("basket-totals", {
+
+    props: ["config", "template"],
+
+    data: function data() {
+        return {
+            basket: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Bind to basket
+     */
+    ready: function ready() {
+        ResourceService.bind("basket", this);
+    },
+
+    methods: {
+        /**
+         * TODO
+         * @param name
+         * @returns {boolean}
+         */
+        showProperty: function showProperty(name) {
+            return !this.config || this.config.indexOf(name) >= 0 || this.config.indexOf("all") >= 0;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],5:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var ResourceService = require("services/ResourceService");
+var NotificationService = require("services/NotificationService");
+
+Vue.component("coupon", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            couponCode: "",
+            basket: {},
+            waiting: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+        ResourceService.bind("basket", this);
+    },
+
+    ready: function ready() {
+        if (this.disabled) {
+            this.couponCode = this.basket.couponCode;
+        }
+    },
+
+    methods: {
+        redeemCode: function redeemCode() {
+            this.waiting = true;
+            var self = this;
+
+            ApiService.post("/rest/io/coupon", { couponCode: this.couponCode }).always(function () {
+                self.waiting = false;
+            }).done(function (response) {
+                NotificationService.success(Translations.Template.couponRedeemSuccess).closeAfter(10000);
+            }).fail(function (response) {
+                NotificationService.error(Translations.Template.couponRedeemFailure).closeAfter(10000);
+            });
+        },
+
+        removeCode: function removeCode() {
+            this.waiting = true;
+            var self = this;
+
+            ApiService.delete("/rest/io/coupon/" + this.basket.couponCode).always(function () {
+                self.waiting = false;
+            }).done(function (response) {
+                self.couponCode = "";
+                NotificationService.success(Translations.Template.couponRemoveSuccess).closeAfter(10000);
+            }).fail(function (response) {
+                NotificationService.error(Translations.Template.couponRemoveFailure).closeAfter(10000);
+            });
+        }
+    },
+
+    computed: {
+        disabled: function disabled() {
+            if (this.basket.couponCode) {
+                return true;
+            }
+
+            return false;
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/NotificationService":75,"services/ResourceService":76}],6:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("basket-list", {
+
+    props: ["size", "template", "triggerEvent"],
+
+    data: function data() {
+        return {
+            basketItems: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Bind to basket and show the items in a small or large list
+     */
+    ready: function ready() {
+        ResourceService.bind("basketItems", this);
+
+        if (this.triggerEvent) {
+            ResourceService.watch("basket", function (newValue, oldValue) {
+                if (oldValue) {
+                    if (JSON.stringify(newValue) != JSON.stringify(oldValue)) {
+                        document.dispatchEvent(new CustomEvent("afterBasketChanged", { detail: newValue }));
+                    }
+                }
+            });
+        }
+    }
+});
+
+},{"services/ResourceService":76}],7:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+// var ApiService          = require("services/ApiService");
+// var NotificationService = require("services/NotificationService");
+
+Vue.component("basket-list-item", {
+
+    props: ["basketItem", "size", "language", "template"],
+
+    data: function data() {
+        return {
+            waiting: false,
+            deleteConfirmed: false,
+            deleteConfirmedTimeout: null,
+            itemCondition: ""
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+
+        /**
+         * Delete item from basket
+         */
+        deleteItem: function deleteItem() {
+            var self = this;
+
+            if (!this.deleteConfirmed) {
+                this.deleteConfirmed = true;
+                this.deleteConfirmedTimeout = window.setTimeout(function () {
+                    self.resetDelete();
+                }, 5000);
+            } else {
+                this.waiting = true;
+                ResourceService.getResource("basketItems").remove(this.basketItem.id).fail(function () {
+                    self.resetDelete();
+                    self.waiting = false;
+                });
+            }
+        },
+
+        /**
+         * Update item quantity in basket
+         * @param quantity
+         */
+        updateQuantity: function updateQuantity(quantity) {
+            if (this.basketItem.quantity === quantity) {
+                return;
+            }
+
+            this.basketItem.quantity = quantity;
+            this.waiting = true;
+
+            ResourceService.getResource("basketItems").set(this.basketItem.id, this.basketItem).fail(function () {
+                this.waiting = false;
+            }.bind(this));
+        },
+
+        /**
+         * Cancel delete
+         */
+        resetDelete: function resetDelete() {
+            this.deleteConfirmed = false;
+            if (this.deleteConfirmedTimeout) {
+                window.clearTimeout(this.deleteConfirmedTimeout);
+            }
+        }
+    },
+
+    computed: {
+        imageUrl: function imageUrl() {
+            var img = this.$options.filters.itemImages(this.basketItem.variation.data.images, "urlPreview")[0];
+
+            return img.url;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],8:[function(require,module,exports){
+"use strict";
+
+var CategoryRendererService = require("services/CategoryRendererService");
+var ResourceService = require("services/ResourceService");
+
+Vue.component("category-breadcrumbs", {
+
+    props: ["template", "categories", "currentCategoryTree"],
+
+    data: function data() {
+        return {
+            breadcrumbs: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        this.init();
+    },
+
+    methods: {
+        /**
+         * initialize values
+         */
+        init: function init() {
+            this.categories = JSON.parse(this.categories);
+            this.currentCategoryTree = JSON.parse(this.currentCategoryTree);
+
+            ResourceService.bind("breadcrumbs", this);
+            ResourceService.getResource("breadcrumbs").set(this.currentCategoryTree);
+        },
+
+        /**
+         * render items in relation to location
+         * @param currentCategory
+         */
+        renderItems: function renderItems(currentCategory) {
+            CategoryRendererService.renderItems(currentCategory);
+
+            return false;
+        },
+
+        getBreadcrumbURL: function getBreadcrumbURL(breadcrumb) {
+            return CategoryRendererService.getScopeUrl(breadcrumb);
+        }
+    }
+});
+
+},{"services/CategoryRendererService":70,"services/ResourceService":76}],9:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("accept-gtc-check", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            isChecked: false,
+            checkoutValidation: { gtc: {} }
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+        ResourceService.bind("checkoutValidation", this);
+        this.checkoutValidation.gtc.validate = this.validate;
+    },
+
+    methods: {
+        validate: function validate() {
+            this.checkoutValidation.gtc.showError = !this.isChecked;
+        }
+    },
+
+    watch: {
+        isChecked: function isChecked() {
+            this.checkoutValidation.gtc.showError = false;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],10:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("payment-provider-select", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            checkout: {},
+            checkoutValidation: { paymentProvider: {} }
+        };
+    },
+
+    /**
+     * Initialise the event listener
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("checkout", this);
+        ResourceService.bind("checkoutValidation", this);
+
+        this.checkoutValidation.paymentProvider.validate = this.validate;
+
+        this.initDefaultPaymentProvider();
+    },
+
+    methods: {
+        /**
+         * Event when changing the payment provider
+         */
+        onPaymentProviderChange: function onPaymentProviderChange() {
+            ResourceService.getResource("checkout").set(this.checkout).done(function () {
+                document.dispatchEvent(new CustomEvent("afterPaymentMethodChanged", { detail: this.checkout.methodOfPaymentId }));
+            }.bind(this));
+
+            this.validate();
+        },
+
+        validate: function validate() {
+            this.checkoutValidation.paymentProvider.showError = !(this.checkout.methodOfPaymentId > 0);
+        },
+
+        initDefaultPaymentProvider: function initDefaultPaymentProvider() {
+            // todo get entry from config | select first payment provider
+            if (this.checkout.methodOfPaymentId == 0 && this.checkout.paymentDataList.length > 0) {
+                this.checkout.methodOfPaymentId = this.checkout.paymentDataList[0].id;
+
+                ResourceService.getResource("checkout").set(this.checkout);
+            }
+        }
+    }
+});
+
+},{"services/ResourceService":76}],11:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var NotificationService = require("services/NotificationService");
+var ResourceService = require("services/ResourceService");
+
+(function ($) {
+    Vue.component("place-order", {
+
+        props: ["targetContinue", "template"],
+
+        data: function data() {
+            return {
+                waiting: false,
+                checkout: {},
+                checkoutValidation: {}
+            };
+        },
+
+        created: function created() {
+            this.$options.template = this.template;
+
+            ResourceService.bind("checkout", this);
+            ResourceService.bind("checkoutValidation", this);
+        },
+
+        methods: {
+
+            preparePayment: function preparePayment() {
+                this.waiting = true;
+                var self = this;
+
+                if (self.validateCheckout()) {
+                    ApiService.post("/rest/io/checkout/payment").done(function (response) {
+                        self.afterPreparePayment(response);
+                    }).fail(function (response) {
+                        self.waiting = false;
+                    });
+                } else {
+                    NotificationService.error(Translations.Template.generalCheckEntries);
+                    this.waiting = false;
+                }
+            },
+
+            validateCheckout: function validateCheckout() {
+                for (var validator in this.checkoutValidation) {
+                    if (this.checkoutValidation[validator].validate) {
+                        this.checkoutValidation[validator].validate();
+                    }
+                }
+
+                for (var i in this.checkoutValidation) {
+                    if (this.checkoutValidation[i].showError) {
+                        return false;
+                    }
+                }
+
+                return true;
+            },
+
+            afterPreparePayment: function afterPreparePayment(response) {
+                var paymentType = response.type || "errorCode";
+                var paymentValue = response.value || "";
+
+                switch (paymentType) {
+                    case "continue":
+                        var target = this.targetContinue;
+
+                        if (target) {
+                            window.location.assign(target);
+                        }
+                        break;
+                    case "redirectUrl":
+                        // redirect to given payment provider
+                        window.location.assign(paymentValue);
+                        break;
+                    case "externalContentUrl":
+                        // show external content in iframe
+                        this.showModal(paymentValue, true);
+                        break;
+                    case "htmlContent":
+                        this.showModal(paymentValue, false);
+                        break;
+
+                    case "errorCode":
+                        NotificationService.error(paymentValue);
+                        break;
+                    default:
+                        NotificationService.error("Unknown response from payment provider: " + paymentType);
+                        break;
+                }
+            },
+
+            showModal: function showModal(content, isExternalContent) {
+                var $modal = $(this.$els.modal);
+                var $modalBody = $(this.$els.modalContent);
+
+                if (isExternalContent) {
+                    $modalBody.html("<iframe src=\"" + content + "\">");
+                } else {
+                    $modalBody.html(content);
+                }
+
+                $modal.modal("show");
+            }
+        }
+    });
+})(jQuery);
+
+},{"services/ApiService":69,"services/NotificationService":75,"services/ResourceService":76}],12:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("shipping-profile-select", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            checkout: {},
+            checkoutValidation: { shippingProfile: {} }
+        };
+    },
+
+    /**
+     * Add a shipping provider
+     * Initialise the event listener
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("checkout", this);
+        ResourceService.bind("checkoutValidation", this);
+
+        this.checkoutValidation.shippingProfile.validate = this.validate;
+    },
+
+    methods: {
+        /**
+         * Method on shipping profile changed
+         */
+        onShippingProfileChange: function onShippingProfileChange() {
+            ResourceService.getResource("checkout").set(this.checkout).done(function () {
+                document.dispatchEvent(new CustomEvent("afterShippingProfileChanged", { detail: this.checkout.shippingProfileId }));
+            }.bind(this));
+
+            this.validate();
+        },
+
+        validate: function validate() {
+            this.checkoutValidation.shippingProfile.showError = !(this.checkout.shippingProfileId > 0);
+        }
+    }
+});
+
+},{"services/ResourceService":76}],13:[function(require,module,exports){
+"use strict";
+
+Vue.component("address-input-group", {
+
+    props: ["addressData", "defaultCountry", "addressType", "modalType", "template"],
+
+    data: function data() {
+        return {
+            stateList: [],
+            countryLocaleList: ["DE", "GB"],
+            localeToShow: ""
+        };
+    },
+
+
+    /**
+     * Check whether the address data exists. Else, create an empty one
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        if (!this.addressData) {
+            this.addressData = {};
+        }
+
+        this.defaultCountry = "DE";
+    },
+
+
+    methods: {
+        /**
+         * Update the address input group to show.
+         * @param value
+         */
+        onSelectedCountryChanged: function onSelectedCountryChanged(value) {
+            if (this.countryLocaleList.indexOf(value) > 0) {
+                this.localeToShow = value;
+            } else {
+                this.localeToShow = this.defaultCountry;
+            }
+        },
+        getOptionType: function getOptionType(data, optionType) {
+            for (var i = 0; i < data.length; i++) {
+                if (optionType === data[i].typeId) {
+                    return data[i].value;
+                }
+            }
+            return "";
+        },
+        equalOptionValues: function equalOptionValues(newValue, data, optionType) {
+            var oldValue = this.getOptionType(data, optionType);
+
+            if (typeof newValue === "undefined") {
+                return oldValue;
+            }
+
+            return oldValue === newValue;
+        }
+    },
+
+    filters: {
+        optionType: {
+            read: function read(value, optionType) {
+                var data = this.addressData.options;
+
+                if (typeof data === "undefined") {
+                    return value;
+                } else if (this.modalType === "update" && !this.equalOptionValues(value, data, optionType)) {
+                    return value;
+                }
+
+                return this.getOptionType(data, optionType);
+            },
+            write: function write(value) {
+                return value;
+            }
+        }
+    }
+});
+
+},{}],14:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var ModalService = require("services/ModalService");
+var AddressService = require("services/AddressService");
+
+Vue.component("address-select", {
+
+    props: ["addressList", "addressType", "selectedAddressId", "template", "showError"],
+
+    data: function data() {
+        return {
+            selectedAddress: {},
+            addressModal: {},
+            modalType: "",
+            headline: "",
+            addressToEdit: {},
+            addressToDelete: {},
+            deleteModal: ""
+        };
+    },
+
+
+    /**
+     *  Check whether the address list is not empty and select the address with the matching ID
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        this.addEventListener();
+    },
+
+
+    /**
+     * Select the address modal
+     */
+    ready: function ready() {
+        if (!this.isAddressListEmpty()) {
+            this.loadSelectedAddress();
+        } else {
+            this.addressList = [];
+        }
+
+        this.addressModal = ModalService.findModal(this.$els.addressModal);
+        this.deleteModal = ModalService.findModal(this.$els.deleteModal);
+    },
+
+
+    methods: {
+        /**
+         * Add the event listener
+         */
+        addEventListener: function addEventListener() {
+            var self = this;
+
+            ApiService.listen("AfterAccountContactLogout", function () {
+                self.cleanUserAddressData();
+            });
+        },
+
+
+        /**
+         * Load the address filtered by selectedId into selectedAddress
+         */
+        loadSelectedAddress: function loadSelectedAddress() {
+            var isSelectedAddressSet = false;
+
+            for (var index in this.addressList) {
+                if (this.addressList[index].id === this.selectedAddressId) {
+                    this.selectedAddress = this.addressList[index];
+                    isSelectedAddressSet = true;
+                    this.$dispatch("address-changed", this.selectedAddress);
+                }
+            }
+
+            if (!isSelectedAddressSet) {
+                this.selectedAddressId = null;
+            }
+        },
+
+
+        /**
+         * Remove all user related addresses from the component
+         */
+        cleanUserAddressData: function cleanUserAddressData() {
+            this.addressList = this.addressList.filter(function (value) {
+                return value.id === -99;
+            });
+
+            if (this.selectedAddressId !== -99) {
+                this.selectedAddress = {};
+                this.selectedAddressId = "";
+            }
+        },
+
+
+        /**
+         * Update the selected address
+         * @param index
+         */
+        onAddressChanged: function onAddressChanged(index) {
+            this.selectedAddress = this.addressList[index];
+
+            this.$dispatch("address-changed", this.selectedAddress);
+        },
+
+
+        /**
+         * Check whether the address list is empty
+         * @returns {boolean}
+         */
+        isAddressListEmpty: function isAddressListEmpty() {
+            return !(this.addressList && this.addressList.length > 0);
+        },
+
+
+        /**
+         * Check whether a company name exists and show it in bold
+         * @returns {boolean}
+         */
+        showNameStrong: function showNameStrong() {
+            return !this.selectedAddress.name1 || this.selectedAddress.name1.length === 0;
+        },
+
+
+        /**
+         * Show the add modal initially, if no address is selected in checkout
+         */
+        showInitialAddModal: function showInitialAddModal() {
+            this.modalType = "initial";
+            this.addressToEdit = {};
+            this.updateHeadline();
+            this.addressModal.show();
+        },
+
+
+        /**
+         * Show the add modal
+         */
+        showAddModal: function showAddModal() {
+            this.modalType = "create";
+            this.addressToEdit = {};
+            this.updateHeadline();
+            this.addressModal.show();
+        },
+
+
+        /**
+         * Show the edit modal
+         * @param address
+         */
+        showEditModal: function showEditModal(address) {
+            this.modalType = "update";
+            // Creates a tmp address to prevent unwanted two-way binding
+            this.addressToEdit = JSON.parse(JSON.stringify(address));
+            this.updateHeadline();
+            this.addressModal.show();
+        },
+
+
+        /**
+         * Show the delete modal
+         * @param address
+         */
+        showDeleteModal: function showDeleteModal(address) {
+            this.modalType = "delete";
+            this.addressToDelete = address;
+            this.updateHeadline();
+            this.deleteModal.show();
+        },
+
+
+        /**
+         * Delete the address selected before
+         */
+        deleteAddress: function deleteAddress() {
+            var self = this;
+            var address = this.addressToDelete;
+            var addressType = this.addressType;
+
+            AddressService.deleteAddress(address.id, addressType).done(function () {
+                self.closeDeleteModal();
+                self.removeIdFromList(address.id);
+            });
+        },
+
+
+        /**
+         * Close the current create/update address modal
+         */
+        closeAddressModal: function closeAddressModal() {
+            this.addressModal.hide();
+        },
+
+
+        /**
+         * Close the current delete address modal
+         */
+        closeDeleteModal: function closeDeleteModal() {
+            this.deleteModal.hide();
+        },
+
+
+        /**
+         * Dynamically create the header line in the modal
+         */
+        updateHeadline: function updateHeadline() {
+            var headline;
+
+            if (this.modalType === "initial") {
+                headline = Translations.Template.orderInvoiceAddressInitial;
+            } else if (this.addressType === "2") {
+                if (this.modalType === "update") {
+                    headline = Translations.Template.orderShippingAddressEdit;
+                } else if (this.modalType === "create") {
+                    headline = Translations.Template.orderShippingAddressCreate;
+                } else {
+                    headline = Translations.Template.orderShippingAddressDelete;
+                }
+            } else if (this.modalType === "update") {
+                headline = Translations.Template.orderInvoiceAddressEdit;
+            } else if (this.modalType === "create") {
+                headline = Translations.Template.orderInvoiceAddressCreate;
+            } else {
+                headline = Translations.Template.orderInvoiceAddressDelete;
+            }
+
+            this.headline = headline;
+        },
+
+
+        /**
+         * Remove an address from the addressList by ID
+         * @param id
+         */
+        removeIdFromList: function removeIdFromList(id) {
+            for (var i in this.addressList) {
+                if (this.addressList[i].id === id) {
+                    this.addressList.splice(i, 1);
+
+                    if (this.selectedAddressId && this.selectedAddressId.toString() === id.toString()) {
+                        this.selectedAddress = {};
+                        this.selectedAddressId = "";
+
+                        break;
+                    }
+                }
+            }
+        },
+
+
+        /**
+         * Update the selected address when a new address is created
+         * @param addressData
+         */
+        onAddressCreated: function onAddressCreated(addressData) {
+            if (!this.selectedAddressId) {
+                this.selectedAddressId = addressData.id;
+
+                this.loadSelectedAddress();
+            }
+        }
+    }
+});
+
+},{"services/AddressService":68,"services/ApiService":69,"services/ModalService":74}],15:[function(require,module,exports){
+"use strict";
+
+var AddressService = require("services/AddressService");
+var ValidationService = require("services/ValidationService");
+
+Vue.component("create-update-address", {
+
+    props: ["addressData", "addressModal", "addressList", "modalType", "addressType", "template"],
+
+    data: function data() {
+        return {
+            waiting: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+        /**
+         * Validate the address fields
+         */
+        validate: function validate() {
+            var self = this;
+
+            if (this.addressType === "1") {
+                ValidationService.validate($("#billing_address_form")).done(function () {
+                    self.saveAddress();
+                }).fail(function (invalidFields) {
+                    ValidationService.markInvalidFields(invalidFields, "error");
+                });
+            } else if (this.addressType === "2") {
+                ValidationService.validate($("#delivery_address_form")).done(function () {
+                    self.saveAddress();
+                }).fail(function (invalidFields) {
+                    ValidationService.markInvalidFields(invalidFields, "error");
+                });
+            }
+        },
+
+        /**
+         * Save the new address or update an existing one
+         */
+        saveAddress: function saveAddress() {
+            if (this.modalType === "initial" || this.modalType === "create") {
+                this.createAddress();
+            } else if (this.modalType === "update") {
+                this.updateAddress();
+            }
+        },
+
+        /**
+         * Update an address
+         */
+        updateAddress: function updateAddress() {
+            this.waiting = true;
+
+            AddressService.updateAddress(this.addressData, this.addressType).done(function () {
+                this.addressModal.hide();
+
+                for (var key in this.addressList) {
+                    var address = this.addressList[key];
+
+                    if (address.id === this.addressData.id) {
+                        for (var attribute in this.addressList[key]) {
+                            this.addressList[key][attribute] = this.addressData[attribute];
+                        }
+
+                        break;
+                    }
+                }
+
+                this.waiting = false;
+            }.bind(this)).fail(function () {
+                this.waiting = false;
+            }.bind(this));
+        },
+
+        /**
+         * Create a new address
+         */
+        createAddress: function createAddress() {
+            this.waiting = true;
+
+            AddressService.createAddress(this.addressData, this.addressType, true).done(function (newAddress) {
+                this.addressData = newAddress;
+
+                this.addressModal.hide();
+                this.addressList.push(this.addressData);
+
+                this.$dispatch("new-address-created", this.addressData);
+
+                this.waiting = false;
+            }.bind(this)).fail(function () {
+                this.waiting = false;
+            }.bind(this));
+        }
+    }
+
+});
+
+},{"services/AddressService":68,"services/ValidationService":78}],16:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("invoice-address-select", {
+
+    template: "<address-select v-ref:invoice-address-select template=\"#vue-address-select\" v-on:address-changed=\"addressChanged\" address-type=\"1\" :address-list=\"addressList\" :selected-address-id=\"selectedAddressId\" :show-error='checkoutValidation.invoiceAddress.showError'></address-select>",
+
+    props: ["addressList", "hasToValidate", "selectedAddressId"],
+
+    data: function data() {
+        return {
+            checkout: {},
+            checkoutValidation: { invoiceAddress: {} }
+        };
+    },
+
+
+    /**
+     * Initialise the event listener
+     */
+    created: function created() {
+        ResourceService.bind("checkout", this);
+
+        if (this.hasToValidate) {
+            ResourceService.bind("checkoutValidation", this);
+
+            this.checkoutValidation.invoiceAddress.validate = this.validate;
+        }
+    },
+
+
+    /**
+     * If no address is related to the user, a popup will open to add an address
+     */
+    ready: function ready() {
+        if (App.isCheckoutView && this.addressList.length <= 0) {
+            this.$refs.invoiceAddressSelect.showInitialAddModal();
+        }
+    },
+
+
+    methods: {
+        /**
+         * Update the invoice address
+         * @param selectedAddress
+         */
+        addressChanged: function addressChanged(selectedAddress) {
+            this.checkout.billingAddressId = selectedAddress.id;
+
+            ResourceService.getResource("checkout").set(this.checkout).done(function () {
+                document.dispatchEvent(new CustomEvent("afterInvoiceAddressChanged", { detail: this.checkout.billingAddressId }));
+            }.bind(this));
+
+            if (this.hasToValidate) {
+                this.validate();
+            }
+        },
+        validate: function validate() {
+            this.checkoutValidation.invoiceAddress.showError = this.checkout.billingAddressId <= 0;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],17:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("shipping-address-select", {
+
+    template: "<address-select template=\"#vue-address-select\" v-on:address-changed=\"addressChanged\" address-type=\"2\" :address-list=\"addressList\" :selected-address-id=\"selectedAddressId\"></address-select>",
+
+    props: ["addressList", "selectedAddressId"],
+
+    data: function data() {
+        return {
+            checkout: {}
+        };
+    },
+
+    /**
+     * Initialise the event listener
+     */
+    created: function created() {
+        ResourceService.bind("checkout", this);
+
+        if (!this.addressList) {
+            this.addressList = [];
+        }
+
+        // Adds the dummy entry for "delivery address same as invoice address"
+        this.addressList.unshift({
+            id: -99
+        });
+
+        // if there is no selection for delivery address, the dummy entry will be selected
+        if (this.selectedAddressId === 0) {
+            this.selectedAddressId = -99;
+            this.checkout.deliveryAddressId = -99;
+            ResourceService.getResource("checkout").set(this.checkout);
+        }
+    },
+
+    methods: {
+        /**
+         * Update the delivery address
+         * @param selectedAddress
+         */
+        addressChanged: function addressChanged(selectedAddress) {
+            this.checkout.deliveryAddressId = selectedAddress.id;
+            ResourceService.getResource("checkout").set(this.checkout).done(function () {
+                document.dispatchEvent(new CustomEvent("afterDeliveryAddressChanged", { detail: this.checkout.deliveryAddressId }));
+            }.bind(this));
+        }
+    }
+});
+
+},{"services/ResourceService":76}],18:[function(require,module,exports){
+"use strict";
+
+var CountryService = require("services/CountryService");
+var ResourceService = require("services/ResourceService");
+
+Vue.component("country-select", {
+
+    props: ["countryList", "countryNameMap", "selectedCountryId", "selectedStateId", "template", "addressType"],
+
+    data: function data() {
+        return {
+            stateList: [],
+            selectedCountry: {},
+            localization: {}
+        };
+    },
+
+    /**
+     * Get the shipping countries
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("localization", this);
+        this.selectedCountryId = this.selectedCountryId || this.localization.currentShippingCountryId;
+
+        CountryService.translateCountryNames(this.countryNameMap, this.countryList);
+        CountryService.sortCountries(this.countryList);
+    },
+
+
+    methods: {
+        /**
+         * Method to fire when the country has changed
+         */
+        countryChanged: function countryChanged() {
+            this.selectedStateId = null;
+            this.localization.currentShippingCountryId = this.selectedCountryId;
+        },
+
+
+        /**
+         * @param countryId
+         * @returns {*}
+         */
+        getCountryById: function getCountryById(countryId) {
+            return this.countryList.find(function (country) {
+                if (country.id === countryId) {
+                    return country;
+                }
+
+                return null;
+            });
+        }
+    },
+
+    watch: {
+        /**
+         * Add watcher to handle the country changed
+         */
+        selectedCountryId: function selectedCountryId() {
+            this.selectedCountryId = this.selectedCountryId || this.localization.currentShippingCountryId;
+            this.selectedCountry = this.getCountryById(this.selectedCountryId);
+
+            if (this.selectedCountry) {
+                this.stateList = CountryService.parseShippingStates(this.countryList, this.selectedCountryId);
+
+                this.$dispatch("selected-country-changed", this.selectedCountry.isoCode2);
+            }
+        }
+    }
+});
+
+},{"services/CountryService":72,"services/ResourceService":76}],19:[function(require,module,exports){
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var ApiService = require("services/ApiService");
+var NotificationService = require("services/NotificationService");
+var ModalService = require("services/ModalService");
+
+var ValidationService = require("services/ValidationService");
+
+Vue.component("registration", {
+
+    props: {
+        modalElement: String,
+        guestMode: { type: Boolean, default: false },
+        isSimpleRegistration: { type: Boolean, default: false },
+        template: String,
+        backlink: String
+    },
+
+    data: function data() {
+        return {
+            password: "",
+            passwordRepeat: "",
+            username: "",
+            billingAddress: {},
+            isDisabled: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+        /**
+         * Validate the registration form
+         */
+        validateRegistration: function validateRegistration() {
+            var self = this;
+
+            ValidationService.validate($("#registration" + this._uid)).done(function () {
+                self.sendRegistration();
+            }).fail(function (invalidFields) {
+                ValidationService.markInvalidFields(invalidFields, "error");
+            });
+        },
+
+        /**
+         * Send the registration
+         */
+        sendRegistration: function sendRegistration() {
+            var userObject = this.getUserObject();
+            var component = this;
+
+            this.isDisabled = true;
+
+            ApiService.post("/rest/io/customer", userObject).done(function (response) {
+                ApiService.setToken(response);
+
+                if (document.getElementById(component.modalElement) !== null) {
+                    ModalService.findModal(document.getElementById(component.modalElement)).hide();
+                }
+
+                if ((typeof response === "undefined" ? "undefined" : _typeof(response)) === "object") {
+                    NotificationService.success(Translations.Template.accRegistrationSuccessful).closeAfter(3000);
+                } else {
+                    NotificationService.error(Translations.Template.accRegistrationError).closeAfter(3000);
+                }
+
+                if (component.backlink !== null && component.backlink) {
+                    window.location.assign(component.backlink);
+                }
+
+                component.isDisabled = false;
+            }).fail(function () {
+                component.isDisabled = false;
+            });
+        },
+
+        /**
+         * Handle the user object which is send to the server
+         * @returns {{contact: {referrerId: number, typeId: number, options: {typeId: {typeId: number, subTypeId: number, value: *, priority: number}}}}|{contact: {referrerId: number, typeId: number, password: *, options: {typeId: {typeId: number, subTypeId: number, value: *, priority: number}}}}}
+         */
+        getUserObject: function getUserObject() {
+            var userObject = {
+                contact: {
+                    referrerId: 1,
+                    typeId: 1,
+                    options: {
+                        typeId: {
+                            typeId: 2,
+                            subTypeId: 4,
+                            value: this.username,
+                            priority: 0
+                        }
+                    }
+                }
+            };
+
+            if (!this.guestMode) {
+                userObject.contact.password = this.password;
+            }
+
+            if (!this.isSimpleRegistration) {
+                userObject.billingAddress = this.billingAddress;
+            }
+
+            return userObject;
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/ModalService":74,"services/NotificationService":75,"services/ValidationService":78}],20:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("salutation-select", {
+
+    props: ["template", "addressData"],
+
+    data: function data() {
+        return {
+            localization: {},
+            salutations: {
+                de: ["Herr", "Frau", "Firma", "Familie"],
+                en: ["Mr.", "Ms.", "Company", "Family"]
+            },
+            currentSalutation: {}
+        };
+    },
+
+    /**
+     * Get the shipping countries
+     */
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("localization", this);
+        this.shopLanguage = this.localization.shopLanguage;
+
+        if (this.shopLanguage === "de") {
+            this.currentSalutation = this.salutations.de;
+        } else {
+            this.currentSalutation = this.salutations.en;
+        }
+    }
+});
+
+},{"services/ResourceService":76}],21:[function(require,module,exports){
+"use strict";
+
+var ValidationService = require("services/ValidationService");
+var ApiService = require("services/ApiService");
+
+Vue.component("guest-login", {
+
+    props: ["template", "backlink"],
+
+    data: function data() {
+        return {
+            email: "",
+            isDisabled: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+        validate: function validate() {
+            ValidationService.validate($("#guest-login-form-" + this._uid)).done(function () {
+                this.sendEMail();
+            }.bind(this)).fail(function (invalidFields) {
+                ValidationService.markInvalidFields(invalidFields, "error");
+            });
+        },
+
+        sendEMail: function sendEMail() {
+            this.isDisabled = true;
+
+            ApiService.post("/rest/io/guest", { email: this.email }).done(function () {
+                if (this.backlink !== null && this.backlink) {
+                    window.location.assign(this.backlink);
+                }
+
+                this.isDisabled = false;
+            }.bind(this));
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/ValidationService":78}],22:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var NotificationService = require("services/NotificationService");
+var ModalService = require("services/ModalService");
+var ValidationService = require("services/ValidationService");
+
+Vue.component("login", {
+
+    props: ["modalElement", "backlink", "hasToForward", "template"],
+
+    data: function data() {
+        return {
+            password: "",
+            username: "",
+            isDisabled: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    methods: {
+        /**
+         * Open the login modal
+         */
+        showLogin: function showLogin() {
+            ModalService.findModal(document.getElementById(this.modalElement)).show();
+        },
+
+        validateLogin: function validateLogin() {
+            var self = this;
+
+            ValidationService.validate($("#login-form-" + this._uid)).done(function () {
+                self.sendLogin();
+            }).fail(function (invalidFields) {
+                ValidationService.markInvalidFields(invalidFields, "error");
+            });
+        },
+
+        /**
+         * Send the login data
+         */
+        sendLogin: function sendLogin() {
+            var self = this;
+
+            this.isDisabled = true;
+
+            ApiService.post("/rest/io/customer/login", { email: this.username, password: this.password }, { supressNotifications: true }).done(function (response) {
+                ApiService.setToken(response);
+
+                if (document.getElementById(self.modalElement) !== null) {
+                    ModalService.findModal(document.getElementById(self.modalElement)).hide();
+                }
+
+                NotificationService.success(Translations.Template.accLoginSuccessful).closeAfter(10000);
+
+                if (self.backlink !== null && self.backlink) {
+                    location.assign(self.backlink);
+                } else if (self.hasToForward) {
+                    location.assign(location.origin);
+                } else {
+                    location.reload();
+                }
+
+                self.isDisabled = false;
+            }).fail(function (response) {
+                switch (response.code) {
+                    case 401:
+                        NotificationService.error(Translations.Template.accLoginFailed).closeAfter(10000);
+                        break;
+                    default:
+                        return;
+                }
+
+                self.isDisabled = false;
+            });
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/ModalService":74,"services/NotificationService":75,"services/ValidationService":78}],23:[function(require,module,exports){
+"use strict";
+
+Vue.component("login-view", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            isGuestMode: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    }
+});
+
+},{}],24:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var ResourceService = require("services/ResourceService");
+
+Vue.component("user-login-handler", {
+
+    props: ["userData", "template"],
+
+    data: function data() {
+        return {
+            username: "",
+            isLoggedIn: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Add the global event listener for login and logout
+     */
+    ready: function ready() {
+        ResourceService.bind("user", this, "isLoggedIn");
+
+        this.setUsername(this.userData);
+        this.addEventListeners();
+    },
+
+    methods: {
+        /**
+         * Set the current user logged in
+         * @param userData
+         */
+        setUsername: function setUsername(userData) {
+            if (userData) {
+                if (userData.firstName.length > 0 && userData.lastName.length > 0) {
+                    this.username = userData.firstName + " " + userData.lastName;
+                } else {
+                    this.username = userData.options[0].value;
+                }
+            }
+        },
+
+        /**
+         * Adds login/logout event listeners
+         */
+        addEventListeners: function addEventListeners() {
+            var self = this;
+
+            ApiService.listen("AfterAccountAuthentication", function (userData) {
+                self.setUsername(userData.accountContact);
+                ResourceService.getResource("user").set({ isLoggedIn: true });
+            });
+
+            ApiService.listen("AfterAccountContactLogout", function () {
+                self.username = "";
+                ResourceService.getResource("user").set({ isLoggedIn: false });
+            });
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/ResourceService":76}],25:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("item-image-carousel", {
+
+    props: ["imageUrlAccessor", "template"],
+
+    data: function data() {
+        return {
+            init: false,
+            currentVariation: {},
+            currentItem: 0
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.watch("currentVariation", function (newValue) {
+            this.currentVariation = newValue;
+
+            var self = this;
+
+            if (!this.init) {
+                $(window).load(function () {
+                    self.initCarousel();
+
+                    self.init = true;
+                });
+            } else {
+                setTimeout(function () {
+                    self.reInitialize();
+                }, 1);
+            }
+        }.bind(this));
+    },
+
+    methods: {
+        getImageCount: function getImageCount() {
+            var images = this.currentVariation.documents[0].data.images;
+
+            return images.variation.length || images.all.length;
+        },
+
+        reInitialize: function reInitialize() {
+            var $owl = $(this.$els.single);
+
+            $owl.trigger("destroy.owl.carousel");
+            $owl.html($owl.find(".owl-stage-outer").html()).removeClass("owl-loaded");
+            $owl.find(".owl-item").remove();
+
+            this.initCarousel();
+        },
+
+        initCarousel: function initCarousel() {
+            var imageCount = this.getImageCount();
+
+            $(this.$els.single).owlCarousel({
+                autoHeight: true,
+                dots: true,
+                items: 1,
+                lazyLoad: true,
+                loop: true,
+                margin: 10,
+                mouseDrag: imageCount > 1,
+                nav: imageCount > 1,
+                navClass: ["owl-single-item-nav left carousel-control", "owl-single-item-nav right carousel-control"],
+                navContainerClass: "",
+                navText: ["<i class=\"owl-single-item-control fa fa-chevron-left\" aria-hidden=\"true\"></i>", "<i class=\"owl-single-item-control fa fa-chevron-right\" aria-hidden=\"true\"></i>"],
+                smartSpeed: 350
+            });
+
+            $(this.$els.single).on("changed.owl.carousel", function (event) {
+                this.currentItem = event.page.index;
+            }.bind(this));
+        },
+
+        goTo: function goTo(index) {
+            var $owl = $(this.$els.single);
+
+            $owl.trigger("to.owl.carousel", [index, 350]);
+        }
+    }
+});
+
+},{"services/ResourceService":76}],26:[function(require,module,exports){
+"use strict";
+
+Vue.component("quantity-input", {
+
+    props: ["value", "timeout", "min", "max", "vertical", "template", "waiting"],
+
+    data: function data() {
+        return {
+            timeoutHandle: null
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * TODO
+     */
+    ready: function ready() {
+        this.timeout = this.timeout || 300;
+        this.min = this.min || 1;
+        this.max = this.max || 999;
+        this.vertical = this.vertical || false;
+
+        this.$watch("value", function (newValue) {
+            if (newValue < this.min) {
+                this.value = this.min;
+            }
+
+            if (newValue > this.max) {
+                this.value = this.max;
+            }
+
+            if (this.timeoutHandle) {
+                window.clearTimeout(this.timeoutHandle);
+            }
+
+            var self = this;
+
+            this.timeoutHandle = window.setTimeout(function () {
+                self.$dispatch("quantity-change", newValue);
+            }, this.timeout);
+        });
+    }
+
+});
+
+},{}],27:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var ResourceService = require("services/ResourceService");
+
+// cache loaded variation data for reuse
+var VariationData = {};
+
+Vue.component("variation-select", {
+
+    props: ["attributes", "variations", "preselect", "template"],
+
+    data: function data() {
+        return {
+            // Collection of currently selected variation attributes.
+            selectedAttributes: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    ready: function ready() {
+        // initialize selected attributes to be tracked by change detection
+        var attributes = {};
+
+        for (var attributeId in this.attributes) {
+            attributes[attributeId] = null;
+        }
+        this.selectedAttributes = attributes;
+
+        // set attributes of preselected variation if exists
+        if (this.preselect) {
+            // find variation by id
+            var preselectedVariation = this.variations.filter(function (variation) {
+                // eslint-disable-next-line eqeqeq
+                return variation.variationId == this.preselect;
+            }.bind(this));
+
+            if (!!preselectedVariation && preselectedVariation.length === 1) {
+                // set attributes of preselected variation
+                this.setAttributes(preselectedVariation[0]);
+            }
+        }
+
+        // search for matching variation on each change of attribute selection
+        this.$watch("selectedAttributes", function () {
+
+            // search variations matching current selection
+            var possibleVariations = this.filterVariations();
+
+            if (possibleVariations.length === 1) {
+                // only 1 matching variation remaining:
+                // set remaining attributes if not set already. Will trigger this watcher again.
+                if (!this.setAttributes(possibleVariations[0])) {
+                    // all attributes are set => load variation data
+                    var variationId = possibleVariations[0].variationId;
+
+                    if (VariationData[variationId]) {
+                        // reuse cached variation data
+                        ResourceService.getResource("currentVariation").set(VariationData[variationId]);
+                    } else {
+                        // get variation data from remote
+                        ApiService.get("/rest/io/variations/" + variationId, { template: "Ceres::Item.SingleItem" }).done(function (response) {
+                            // store received variation data for later reuse
+                            VariationData[variationId] = response;
+                            ResourceService.getResource("currentVariation").set(response);
+                        });
+                    }
+                }
+            }
+        }, {
+            deep: true
+        });
+
+        // watch for changes on selected variation to adjust url
+        ResourceService.watch("currentVariation", function (newVariation, oldVariation) {
+            if (oldVariation) {
+                var url = this.$options.filters.itemURL(newVariation.documents[0].data);
+                var title = document.getElementsByTagName("title")[0].innerHTML;
+
+                window.history.replaceState({}, title, url);
+            }
+        }.bind(this));
+    },
+
+    methods: {
+
+        /**
+         * Finds all variations matching a given set of attributes.
+         * @param {{[int]: int}}  attributes   A map containing attributeIds and attributeValueIds. Used to filter variations
+         * @returns {array}                    A list of matching variations.
+         */
+        filterVariations: function filterVariations(attributes) {
+            attributes = attributes || this.selectedAttributes;
+            return this.variations.filter(function (variation) {
+
+                for (var i = 0; i < variation.attributes.length; i++) {
+                    var id = variation.attributes[i].attributeId;
+                    var val = variation.attributes[i].attributeValueId;
+
+                    if (!!attributes[id] && attributes[id] != val) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+        },
+
+        /**
+         * Tests if a given attribute value is not available depending on the current selection.
+         * @param {int}     attributeId         The id of the attribute
+         * @param {int}     attributeValueId    The valueId of the attribute
+         * @returns {boolean}                   True if the value can be combined with the current selection.
+         */
+        isEnabled: function isEnabled(attributeId, attributeValueId) {
+            // clone selectedAttributes to avoid touching objects bound to UI
+            var attributes = JSON.parse(JSON.stringify(this.selectedAttributes));
+
+            attributes[attributeId] = attributeValueId;
+            return this.filterVariations(attributes).length > 0;
+        },
+
+        /**
+         * Set selected attributes by a given variation.
+         * @param {*}           variation   The variation to set as selected
+         * @returns {boolean}               true if at least one attribute has been changed
+         */
+        setAttributes: function setAttributes(variation) {
+            var hasChanges = false;
+
+            for (var i = 0; i < variation.attributes.length; i++) {
+                var id = variation.attributes[i].attributeId;
+                var val = variation.attributes[i].attributeValueId;
+
+                if (this.selectedAttributes[id] !== val) {
+                    this.selectedAttributes[id] = val;
+                    hasChanges = true;
+                }
+            }
+
+            return hasChanges;
+        }
+
+    }
+
+});
+
+},{"services/ApiService":69,"services/ResourceService":76}],28:[function(require,module,exports){
+"use strict";
+
+Vue.component("category-image-carousel", {
+
+    props: {
+        imageUrls: { type: Array },
+        itemUrl: { type: String },
+        altText: { type: String },
+        showDots: { type: String },
+        showNav: { type: String },
+        disableLazyLoad: {
+            type: Boolean,
+            default: false
+        },
+        template: { type: String }
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    ready: function ready() {
+        if (this.imageUrls && this.imageUrls.length > 0) {
+            $(".owl-carousel").owlCarousel({
+                dots: this.showDots === "true",
+                items: 1,
+                loop: this.imageUrls.length > 1,
+                lazyLoad: !this.disableLazyLoad,
+                margin: 10,
+                nav: this.showNav === "true",
+                navText: ["<i class='fa fa-chevron-left' aria-hidden='true'></i>", "<i class='fa fa-chevron-right' aria-hidden='true'></i>"]
+            });
+        }
+    }
+});
+
+},{}],29:[function(require,module,exports){
+"use strict";
+
+Vue.component("category-item", {
+
+    template: "#vue-category-item",
+
+    props: ["decimalCount", "itemData", "imageUrlAccessor"],
+
+    data: function data() {
+        return {
+            recommendedRetailPrice: 0,
+            variationRetailPrice: 0
+        };
+    },
+
+    created: function created() {
+        this.recommendedRetailPrice = this.itemData.calculatedPrices.rrp.price;
+        this.variationRetailPrice = this.itemData.calculatedPrices.default.price;
+    },
+
+    computed: {
+        /**
+         * returns itemData.item.storeSpecial
+         */
+        storeSpecial: function storeSpecial() {
+            return this.itemData.item.storeSpecial;
+        },
+
+        /**
+         * returns itemData.texts[0]
+         */
+        texts: function texts() {
+            return this.itemData.texts;
+        }
+    }
+});
+
+},{}],30:[function(require,module,exports){
+"use strict";
+
+Vue.component("item-lazy-img", {
+
+    props: ["imageUrl", "template"],
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    ready: function ready() {
+        var self = this;
+
+        setTimeout(function () {
+            $(self.$els.lazyImg).show().lazyload();
+        }, 1);
+    }
+});
+
+},{}],31:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("item-list", {
+
+    props: ["categoryId", "template"],
+
+    data: function data() {
+        return {
+            itemList: {},
+            isLoading: false,
+            filterListState: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        ItemListService.setCategoryId(this.categoryId);
+    },
+
+    ready: function ready() {
+        ResourceService.bind("itemList", this);
+        ResourceService.bind("isLoading", this);
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76}],32:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ItemListService = require("services/ItemListService");
+
+Vue.component("item-list-sorting", {
+
+    props: ["sortData", "template"],
+
+    data: function data() {
+        return {
+            selectedSorting: {},
+            dataTranslationMapping: {
+                "item.id_asc": "itemId_asc",
+                "item.id_desc": "itemId_desc",
+                "texts.name1_asc": "itemName_asc",
+                "texts.name1_desc": "itemName_desc",
+                "item.position_asc": "itemPosition_asc",
+                "item.position_desc": "itemPosition_desc",
+                "item.salesPrice.price_asc": "itemPrice_asc",
+                "item.salesPrice.price_desc": "itemPrice_desc",
+                "variation.createdAt_asc": "variationCreateTimestamp_asc",
+                "variation.createdAt_desc": "variationCreateTimestamp_desc",
+                "variation.id_asc": "variationId_asc",
+                "variation.id_desc": "variationId_desc",
+                "variation.number_asc": "variationCustomNumber_asc",
+                "variation.number_desc": "variationCustomNumber_desc",
+                "variation.updatedAt_asc": "variationLastUpdateTimestamp_asc",
+                "variation.updatedAt_desc": "variationLastUpdateTimestamp_desc",
+                "variation.position_asc": "variationPosition_asc",
+                "variation.position_desc": "variationPosition_desc",
+                "variation.isActive_asc": "variationActive_asc",
+                "variation.isActive_desc": "variationActive_desc",
+                "variation.isMain_asc": "variationPrimary_asc",
+                "variation.isMain_desc": "variationPrimary_desc",
+                "item.manufacturer.name_asc": "itemProducerName_asc",
+                "item.manufacturer.name_desc": "itemProducerName_desc"
+            }
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        this.buildData();
+        this.selectedSorting = this.sortData[0];
+
+        this.setSelectedValueByUrl();
+    },
+
+    methods: {
+        buildData: function buildData() {
+            for (var i in this.sortData) {
+                var data = this.sortData[i];
+                var sortItem = {
+                    value: data,
+                    displayName: Translations.Template[this.dataTranslationMapping[data]]
+                };
+
+                this.sortData[i] = sortItem;
+            }
+        },
+
+        updateSorting: function updateSorting() {
+            ItemListService.setOrderBy(this.selectedSorting.value);
+            ItemListService.getItemList();
+        },
+
+        setSelectedValueByUrl: function setSelectedValueByUrl() {
+            var urlParams = _UrlService2.default.getUrlParams(document.location.search);
+
+            if (urlParams.sorting) {
+                for (var i in this.sortData) {
+                    if (this.sortData[i].value === urlParams.sorting) {
+                        this.selectedSorting = this.sortData[i];
+                        ItemListService.setOrderBy(this.selectedSorting.value);
+                    }
+                }
+            }
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/UrlService":77}],33:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("item-search", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            searchString: "",
+            itemSearch: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    ready: function ready() {
+        ResourceService.bind("itemSearch", this);
+        this.initAutocomplete();
+
+        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
+
+        this.itemSearch.query = urlParams.query;
+
+        if (this.itemSearch.query) {
+            ItemListService.updateSearchString(this.itemSearch.query);
+        }
+    },
+
+    methods: {
+        search: function search() {
+            if (document.location.pathname === "/search") {
+                ItemListService.setSearchString(this.itemSearch.query);
+                ItemListService.getItemList();
+            } else {
+                window.open("/search?query=" + this.itemSearch.query, "_self", false);
+            }
+        },
+
+        initAutocomplete: function initAutocomplete() {
+            var self = this;
+
+            $(".search-input").autocomplete({
+                serviceUrl: "/rest/io/item/search/autocomplete",
+                paramName: "query",
+                params: { template: "Ceres::ItemList.Components.ItemSearch", variationShowType: App.config.variationShowType },
+                width: $(".search-box-shadow-frame").width(),
+                zIndex: 1070,
+                maxHeight: 310,
+                minChars: 2,
+                preventBadQueries: false,
+                onSelect: function onSelect(suggestion) {
+                    self.itemSearch.query = suggestion.value;
+                    self.search();
+                },
+                beforeRender: function beforeRender() {
+                    $(".autocomplete-suggestions").width($(".search-box-shadow-frame").width());
+                },
+                transformResult: function transformResult(response) {
+                    return self.transformSuggestionResult(response);
+                }
+            });
+
+            $(window).resize(function () {
+                $(".autocomplete-suggestions").width($(".search-box-shadow-frame").width());
+            });
+        },
+
+        transformSuggestionResult: function transformSuggestionResult(result) {
+            result = JSON.parse(result);
+            var suggestions = {
+                suggestions: $.map(result.data.documents, function (dataItem) {
+                    var value = this.$options.filters.itemName(dataItem.data.texts, window.App.config.itemName);
+
+                    return {
+                        value: value,
+                        data: value
+                    };
+                }.bind(this))
+            };
+
+            return suggestions;
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],34:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var accounting = require("accounting");
+
+Vue.component("item-store-special", {
+
+    template: "#vue-item-store-special",
+
+    props: ["storeSpecial", "recommendedRetailPrice", "variationRetailPrice", "decimalCount"],
+
+    data: function data() {
+        return {
+            tagClassPrefix: "bg-",
+            localization: {}
+        };
+    },
+
+    created: function created() {
+        ResourceService.bind("localization", this);
+    },
+
+    methods: {
+        getPercentageSale: function getPercentageSale() {
+            var percent = 100 - this.recommendedRetailPrice / this.variationRetailPrice * 100;
+
+            return accounting.formatNumber(percent, this.decimalCount, "");
+        }
+    },
+
+    computed: {
+        label: function label() {
+            if (this.storeSpecial.id === 1) {
+                var percent = this.getPercentageSale();
+
+                if (percent <= 0) {
+                    return percent + "%";
+                }
+            }
+
+            return this.storeSpecial.names.name;
+        },
+
+        tagClass: function tagClass() {
+            if (this.storeSpecial.id === 1) {
+                return this.tagClassPrefix + "danger";
+            } else if (this.storeSpecial.id === 2) {
+                return this.tagClassPrefix + "primary";
+            }
+            return this.tagClassPrefix + "success";
+        }
+    }
+});
+
+},{"accounting":80,"services/ResourceService":76}],35:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("items-per-page", {
+
+    props: ["columnsPerPage", "rowsPerPage", "template"],
+
+    data: function data() {
+        return {
+            itemSearch: {},
+            paginationValues: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        this.initPaginationValues();
+        ResourceService.bind("itemSearch", this);
+        this.setSelectedValueByUrl();
+    },
+
+    methods: {
+        itemsPerPageChanged: function itemsPerPageChanged() {
+            ItemListService.setItemsPerPage(this.itemSearch.items);
+            ItemListService.setPage(1);
+            ItemListService.getItemList();
+        },
+
+        setSelectedValueByUrl: function setSelectedValueByUrl() {
+            var urlParams = _UrlService2.default.getUrlParams(document.location.search);
+
+            if (urlParams.items) {
+                if (this.paginationValues.indexOf(urlParams.items) > -1) {
+                    this.itemSearch.items = urlParams.items;
+                } else {
+                    this.itemSearch.items = App.config.defaultItemsPerPage;
+                }
+            } else {
+                this.itemSearch.items = App.config.defaultItemsPerPage;
+            }
+
+            ItemListService.setItemsPerPage(this.itemSearch.items);
+        },
+
+        initPaginationValues: function initPaginationValues() {
+            for (var rowKey in this.rowsPerPage) {
+                this.paginationValues.push(this.rowsPerPage[rowKey] * this.columnsPerPage);
+            }
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],36:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("pagination", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            itemSearch: {},
+            itemList: {},
+            lastPageMax: 0
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("itemSearch", this);
+        ResourceService.bind("itemList", this);
+
+        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
+
+        this.itemSearch.page = urlParams.page;
+    },
+
+    methods: {
+        setPage: function setPage(page) {
+            ItemListService.setPage(page);
+            ItemListService.getItemList();
+
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+        }
+    },
+
+    computed: {
+        page: function page() {
+            return parseInt(this.itemSearch.page) || 1;
+        },
+
+        pageMax: function pageMax() {
+            if (this.itemSearch.isLoading) {
+                return this.lastPageMax;
+            }
+
+            var pageMax = this.itemList.total / parseInt(this.itemSearch.items);
+
+            if (this.itemList.total % parseInt(this.itemSearch.items) > 0) {
+                pageMax += 1;
+            }
+
+            this.lastPageMax = parseInt(pageMax) || 1;
+            return parseInt(pageMax) || 1;
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76,"services/UrlService":77}],37:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("item-filter", {
+
+    props: ["template", "facet"],
+
+    data: function data() {
+        return {
+            facetParams: [],
+            isLoading: false
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template || "#vue-item-filter";
+        ResourceService.bind("facetParams", this);
+    },
+
+    ready: function ready() {
+        ResourceService.bind("isLoading", this);
+    },
+
+    methods: {
+        updateFacet: function updateFacet() {
+            ResourceService.getResource("facetParams").set(this.facetParams);
+            ItemListService.setFacets(this.facetParams);
+            ItemListService.getItemList();
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76}],38:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("item-filter-list", {
+
+    props: ["template", "facets"],
+
+    data: function data() {
+        return {
+            isActive: false
+        };
+    },
+
+    created: function created() {
+        ResourceService.bind("facets", this);
+
+        this.$options.template = this.template || "#vue-item-filter-list";
+
+        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
+
+        if (urlParams.facets) {
+            ResourceService.getResource("facetParams").set(urlParams.facets.split(","));
+        }
+    },
+
+    methods: {
+        toggleOpeningState: function toggleOpeningState() {
+            window.setTimeout(function () {
+                this.isActive = !this.isActive;
+            }.bind(this), 300);
+        }
+    }
+});
+
+},{"services/ResourceService":76,"services/UrlService":77}],39:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var ItemListService = require("services/ItemListService");
+
+Vue.component("item-filter-tag-list", {
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            facets: {},
+            facetParams: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template || "#vue-item-filter-tag-list";
+        ResourceService.bind("facetParams", this);
+    },
+
+    ready: function ready() {
+        ResourceService.bind("facets", this);
+    },
+
+    methods: {
+        removeTag: function removeTag(tagId) {
+            this.facetParams.splice(this.facetParams.indexOf(tagId.toString()), 1);
+
+            ResourceService.getResource("facetParams").set(this.facetParams);
+            ItemListService.setFacets(this.facetParams);
+            ItemListService.getItemList();
+        }
+    },
+
+    computed: {
+        tagList: function tagList() {
+            var tagList = [];
+
+            if (this.facetParams.length > 0) {
+                for (var facetKey in this.facets) {
+                    for (var facetItemKey in this.facets[facetKey].values) {
+                        if (this.facetParams.indexOf(this.facets[facetKey].values[facetItemKey].id.toString()) > -1) {
+                            tagList.push(this.facets[facetKey].values[facetItemKey]);
+                        }
+                    }
+                }
+            }
+
+            return tagList;
+        }
+    }
+});
+
+},{"services/ItemListService":73,"services/ResourceService":76}],40:[function(require,module,exports){
+"use strict";
+
+var ModalService = require("services/ModalService");
+var APIService = require("services/APIService");
+var NotificationService = require("services/NotificationService");
+
+Vue.component("account-settings", {
+
+    props: ["userData", "template"],
+
+    data: function data() {
+        return {
+            newPassword: "",
+            confirmPassword: "",
+            accountSettingsClass: "",
+            accountSettingsModal: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Initialise the account settings modal
+     */
+    ready: function ready() {
+        this.accountSettingsModal = ModalService.findModal(this.$els.accountSettingsModal);
+    },
+
+    computed: {
+        /**
+         * Check whether the passwords match
+         * @returns {boolean}
+         */
+        matchPassword: function matchPassword() {
+            if (this.confirmPassword !== "") {
+                return this.newPassword === this.confirmPassword;
+            }
+            return true;
+        }
+    },
+
+    methods: {
+
+        /**
+         * Open the account settings modal
+         */
+        showChangeAccountSettings: function showChangeAccountSettings() {
+            this.accountSettingsModal.show();
+        },
+
+        /**
+         * Save the new password
+         */
+        saveAccountSettings: function saveAccountSettings() {
+            var self = this;
+
+            if (this.newPassword !== "" && this.newPassword === this.confirmPassword) {
+                APIService.post("/rest/io/customer/password", { password: this.newPassword }).done(function (response) {
+                    self.clearFieldsAndClose();
+                    NotificationService.success(Translations.Template.accChangePasswordSuccessful).closeAfter(3000);
+                }).fail(function (response) {
+                    self.clearFieldsAndClose();
+                    NotificationService.error(Translations.Template.accChangePasswordFailed).closeAfter(5000);
+                });
+            }
+        },
+
+        /**
+         * Clear the password fields in the modal
+         */
+        clearFields: function clearFields() {
+            this.newPassword = "";
+            this.confirmPassword = "";
+        },
+
+        /**
+         * Clear the fields and close the modal
+         */
+        clearFieldsAndClose: function clearFieldsAndClose() {
+            this.accountSettingsModal.hide();
+            this.clearFields();
+        },
+
+        /**
+         * Get the current email address of the user
+         * @returns {*}
+         */
+        getEmail: function getEmail() {
+            return this.userData.options[0].value;
+        }
+    }
+
+});
+
+},{"services/APIService":67,"services/ModalService":74,"services/NotificationService":75}],41:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var NotificationService = require("services/NotificationService");
+var ModalService = require("services/ModalService");
+var ValidationService = require("services/ValidationService");
+
+Vue.component("bank-data-select", {
+
+    props: ["userBankData", "contactId", "template"],
+
+    data: function data() {
+        return {
+            bankInfoModal: {},
+            bankDeleteModal: {},
+            updateBankData: {},
+            selectedBankData: null,
+            updateBankIndex: 0,
+            doUpdate: null,
+            headline: ""
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    /**
+     * Select the modals
+     */
+    ready: function ready() {
+        this.bankInfoModal = ModalService.findModal(this.$els.bankInfoModal);
+        this.bankDeleteModal = ModalService.findModal(this.$els.bankDeleteModal);
+    },
+
+    methods: {
+
+        /**
+         * Set the selected bank-data
+         */
+        changeSelecting: function changeSelecting(bankData) {
+            this.selectedBankData = bankData;
+        },
+
+        /**
+         * Open the modal to add new bank-data
+         */
+        openAddBank: function openAddBank() {
+            this.headline = Translations.Template.bankAddDataTitle;
+            this.openModal(false);
+        },
+
+        /**
+         * Set data to update and open the modal
+         * @param index
+         * @param bankdata
+         */
+        openUpdateBank: function openUpdateBank(index, bankData) {
+            this.headline = Translations.Template.bankUpdateDataTitle;
+
+            this.setUpdateData(index, bankData);
+            this.openModal(true);
+        },
+
+        /**
+         * Set data to remove and open the modal
+         * @param index
+         * @param bankdata
+         */
+        openDeleteBank: function openDeleteBank(index, bankData) {
+            this.setUpdateData(index, bankData);
+
+            this.doUpdate = false;
+            this.bankDeleteModal.show();
+        },
+
+        /**
+         * Open the modal
+         * @param doUpdate
+         */
+        openModal: function openModal(doUpdate) {
+            this.doUpdate = doUpdate;
+            this.bankInfoModal.show();
+        },
+
+        /**
+         * Set data to change
+         * @param index
+         * @param bankdata
+         */
+        setUpdateData: function setUpdateData(index, bankData) {
+            this.updateBankData = JSON.parse(JSON.stringify(bankData));
+            this.updateBankIndex = index;
+        },
+
+        /**
+         * Validate the input-fields-data
+         */
+        validateInput: function validateInput() {
+            var _self = this;
+
+            ValidationService.validate($("#my-bankForm")).done(function () {
+                if (_self.doUpdate) {
+                    _self.updateBankInfo();
+                } else {
+                    _self.addBankInfo();
+                }
+            }).fail(function (invalidFields) {
+                ValidationService.markInvalidFields(invalidFields, "error");
+            });
+        },
+
+        /**
+         * Update bank-data
+         */
+        updateBankInfo: function updateBankInfo() {
+            var _self = this;
+
+            this.updateBankData.lastUpdateBy = "customer";
+
+            ApiService.put("/rest/io/customer/bank_data/" + this.updateBankData.id, this.updateBankData).done(function (response) {
+                _self.userBankData.splice(_self.updateBankIndex, 1, response);
+                _self.checkBankDataSelection();
+                _self.closeModal();
+
+                NotificationService.success(Translations.Template.bankDataUpdated).closeAfter(3000);
+            }).fail(function () {
+                _self.closeModal();
+
+                NotificationService.error(Translations.Template.bankDataNotUpdated).closeAfter(5000);
+            });
+        },
+
+        /**
+         * Add new bank-data
+         */
+        addBankInfo: function addBankInfo() {
+            var _self = this;
+
+            this.updateBankData.lastUpdateBy = "customer";
+            this.updateBankData.contactId = this.contactId;
+
+            ApiService.post("/rest/io/customer/bank_data", this.updateBankData).done(function (response) {
+                _self.userBankData.push(response);
+                _self.checkBankDataSelection(true);
+                _self.closeModal();
+
+                NotificationService.success(Translations.Template.bankDataAdded).closeAfter(3000);
+            }).fail(function () {
+                _self.closeModal();
+
+                NotificationService.error(Translations.Template.bankDataNotAdded).closeAfter(5000);
+            });
+        },
+
+        /**
+         * Delete bank-data
+         */
+        removeBankInfo: function removeBankInfo() {
+            var _self = this;
+
+            ApiService.delete("/rest/io/customer/bank_data/" + this.updateBankData.id).done(function (response) {
+                _self.checkBankDataSelection(false);
+                _self.closeDeleteModal();
+                _self.userBankData.splice(_self.updateBankIndex, 1);
+
+                NotificationService.success(Translations.Template.bankDataDeleted).closeAfter(3000);
+            }).fail(function () {
+                _self.closeDeleteModal();
+
+                NotificationService.error(Translations.Template.bankDataNotDeleted).closeAfter(5000);
+            });
+        },
+
+        /**
+         * Check selection on delete and on add bank-data
+         */
+        checkBankDataSelection: function checkBankDataSelection(addData) {
+            if (addData && !this.doUpdate && this.userBankData.length < 1) {
+                this.selectedBankData = this.userBankData[0];
+            }
+
+            if (!addData && this.selectedBankData && this.selectedBankData.id == this.updateBankData.id) {
+                if (!this.doUpdate) {
+                    this.selectedBankData = null;
+                } else {
+                    this.selectedBankData = this.userBankData[this.updateBankIndex];
+                }
+            }
+        },
+
+        /**
+         * Reset the updateBankData and updateBankIndex
+         */
+        resetData: function resetData() {
+            this.updateBankData = {};
+            this.updateBankIndex = 0;
+            this.doUpdate = false;
+        },
+
+        /**
+         * Close the current bank-modal
+         */
+        closeModal: function closeModal() {
+            this.bankInfoModal.hide();
+            this.resetData();
+        },
+
+        /**
+         * Close the current bank-delete-modal
+         */
+        closeDeleteModal: function closeDeleteModal() {
+            this.bankDeleteModal.hide();
+            this.resetData();
+        }
+    }
+});
+
+},{"services/ApiService":69,"services/ModalService":74,"services/NotificationService":75,"services/ValidationService":78}],42:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+
+(function ($) {
+    Vue.component("order-history", {
+
+        props: ["orderList", "itemsPerPage", "showFirstPage", "showLastPage", "template"],
+
+        data: function data() {
+            return {
+                page: 1,
+                pageMax: 1,
+                countStart: 0,
+                countEnd: 0,
+                currentOrder: null,
+                isLoading: true
+            };
+        },
+
+        created: function created() {
+            this.$options.template = this.template;
+        },
+
+        ready: function ready() {
+            this.itemsPerPage = this.itemsPerPage || 10;
+            this.pageMax = Math.ceil(this.orderList.totalsCount / this.itemsPerPage);
+            this.setOrders(this.orderList);
+        },
+
+        methods: {
+
+            setOrders: function setOrders(orderList) {
+                this.$set("orderList", orderList);
+                this.page = this.orderList.page;
+                this.countStart = (this.orderList.page - 1) * this.itemsPerPage + 1;
+                this.countEnd = this.orderList.page * this.itemsPerPage;
+
+                if (this.countEnd > this.orderList.totalsCount) {
+                    this.countEnd = this.orderList.totalsCount;
+                }
+            },
+
+            setCurrentOrder: function setCurrentOrder(order) {
+                $("#dynamic-twig-content").html("");
+                this.isLoading = true;
+
+                this.currentOrder = order;
+                var self = this;
+
+                Vue.nextTick(function () {
+                    $(self.$els.orderDetails).modal("show");
+                });
+
+                var jsonEncodedOrder = JSON.stringify(order);
+
+                ApiService.get("/rest/io/template?template=Ceres::Checkout.OrderDetails&params[orderData]=" + jsonEncodedOrder).done(function (response) {
+                    this.isLoading = false;
+                    $("#dynamic-twig-content").html(response);
+                }.bind(this));
+            },
+
+            showPage: function showPage(page) {
+                var self = this;
+
+                if (page <= 0 || page > this.pageMax) {
+                    return;
+                }
+
+                ApiService.get("rest/io/order?page=" + page + "&items=" + this.itemsPerPage).done(function (response) {
+                    self.setOrders(response);
+                });
+            }
+        }
+    });
+})(jQuery);
+
+},{"services/ApiService":69}],43:[function(require,module,exports){
+"use strict";
+
+var NotificationService = require("services/NotificationService");
+
+Vue.component("notifications", {
+
+    props: ["initialNotifications", "template"],
+
+    data: function data() {
+        return {
+            notifications: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    ready: function ready() {
+        var self = this;
+
+        NotificationService.listen(function (notifications) {
+            self.$set("notifications", notifications);
+        });
+
+        self.showInitialNotifications();
+    },
+
+    methods: {
+        /**
+         * Dissmiss the notification
+         * @param notification
+         */
+        dismiss: function dismiss(notification) {
+            NotificationService.getNotifications().remove(notification);
+        },
+
+        /**
+         * show initial notifications from server
+         */
+        showInitialNotifications: function showInitialNotifications() {
+            for (var key in this.initialNotifications) {
+                // set default type top 'log'
+                var type = this.initialNotifications[key].type || "log";
+                var message = this.initialNotifications[key].message;
+
+                // type cannot be undefined
+                if (message) {
+                    if (NotificationService[type] && typeof NotificationService[type] === "function") {
+                        NotificationService[type](message);
+                    } else {
+                        // unkown type
+                        NotificationService.log(message);
+                    }
+                }
+            }
+        }
+    }
+});
+
+},{"services/NotificationService":75}],44:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("shipping-country-select", {
+
+    props: ["countryFlagPrefix", "template"],
+
+    data: function data() {
+        return {
+            localization: {}
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("localization", this);
+
+        for (var i in this.localization.activeShippingCountries) {
+            var country = this.localization.activeShippingCountries[i];
+
+            country.countryFlagClass = this.countryFlagPrefix + country.isoCode2.toLowerCase();
+        }
+    }
+});
+
+},{"services/ResourceService":76}],45:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.component("shop-language-select", {
+
+    props: ["countryFlagPrefix", "template"],
+
+    data: function data() {
+        return {
+            localization: {},
+            languageList: []
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+
+        ResourceService.bind("localization", this);
+
+        for (var i in this.localization.activeShopLanguageList) {
+            var languageKey = this.localization.activeShopLanguageList[i];
+            var languageName = Translations.Template[languageKey];
+            var language = {
+                key: languageKey,
+                name: languageName,
+                flagClass: this.countryFlagPrefix + languageKey
+            };
+
+            this.languageList.push(language);
+        }
+    }
+});
+
+},{"services/ResourceService":76}],46:[function(require,module,exports){
+"use strict";
+
+var WaitScreenService = require("services/WaitScreenService");
+
+/**
+*
+* CURRENTLY NOT IN USE
+* MAY BE USEFUL LATER
+*
+*/
+
+Vue.component("wait-screen", {
+
+    // template: "#vue-wait-screen", NEED TO IMPLEMENT TEMPLATE IN COMPONENT
+
+    props: ["template"],
+
+    data: function data() {
+        return {
+            overlay: WaitScreenService.getOverlay()
+        };
+    },
+
+    created: function created() {
+        this.$options.template = this.template;
+    },
+
+    computed: {
+        /**
+         * Show an overlay over the page
+         * @returns {boolean}
+         */
+        visible: function visible() {
+            return this.overlay.count > 0;
+        }
+    }
+});
+
+},{"services/WaitScreenService":79}],47:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+
+Vue.directive("logout", function () {
+    /**
+     * Logout the current user
+     */
+    $(this.el).click(function (event) {
+        $(this.el).addClass("disabled");
+
+        ApiService.post("/rest/io/customer/logout").done(function () {
+            window.location.assign(window.location.origin);
+        }).fail(function () {
+            $(this.el).removeClass("disabled");
+        }.bind(this));
+
+        event.preventDefault();
+    }.bind(this));
+});
+
+},{"services/ApiService":69}],48:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("is-loading-watcher", {
+    bind: function bind() {
+        var firstRendering = true;
+
+        ResourceService.watch("isLoading", function (newValue) {
+            if (!firstRendering && document.getElementById("twig-rendered-item-list") !== null) {
+                if (!newValue) {
+                    $("#twig-rendered-item-list").remove();
+
+                    document.getElementById("vue-rendered-item-list").style.removeProperty("display");
+                } else {
+                    $("#twig-rendered-item-list").addClass("loading");
+                }
+            } else {
+                firstRendering = false;
+            }
+        });
+    }
+});
+
+},{"services/ResourceService":76}],49:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("check-active", {
+    params: ["category"],
+
+    bind: function bind() {
+        var categoryObject = JSON.parse(this.params.category);
+
+        ResourceService.watch("breadcrumbs", function (values) {
+            for (var index in values) {
+                if (values[index].id == categoryObject.id) {
+                    this.el.classList.add("active");
+                    break;
+                } else {
+                    this.el.classList.remove("active");
+                }
+            }
+        }.bind(this));
+    }
+});
+
+},{"services/ResourceService":76}],50:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("is-loading-breadcrumbs-watcher", {
+    bind: function bind() {
+        var firstRendering = true;
+
+        ResourceService.watch("isLoadingBreadcrumbs", function () {
+            if (!firstRendering && document.getElementById("twig-rendered-breadcrumbs") !== null) {
+                $("#twig-rendered-breadcrumbs").remove();
+
+                document.getElementById("vue-rendered-breadcrumbs").style.removeProperty("display");
+            } else {
+                firstRendering = false;
+            }
+        });
+    }
+});
+
+},{"services/ResourceService":76}],51:[function(require,module,exports){
+"use strict";
+
+var CategoryRendererService = require("services/CategoryRendererService");
+
+Vue.directive("render-category", function (value) {
+    $(this.el).click(function (event) {
+        event.preventDefault();
+
+        CategoryRendererService.renderItems(value);
+    });
+});
+
+},{"services/CategoryRendererService":70}],52:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.elementDirective("resource", {
+    priority: 10000,
+    params: ["name", "route", "data", "events", "responseTemplate"],
+    bind: function bind() {
+        var resource = ResourceService.registerResource(this.params.name, this.params.route, this.params.data, this.params.responseTemplate);
+        var events = this.params.events || [];
+
+        for (var i = 0; i < events.length; i++) {
+            var event = events[i].split("!");
+            var usePayload;
+
+            if (event.length > 1) {
+                usePayload = event[1];
+            }
+
+            resource.listen(event[0], usePayload);
+        }
+    }
+
+});
+
+Vue.elementDirective("resource-list", {
+    priority: 10000,
+    params: ["name", "route", "data", "events", "responseTemplate"],
+    bind: function bind() {
+        var resource = ResourceService.registerResourceList(this.params.name, this.params.route, this.params.data, this.params.responseTemplate);
+        var events = this.params.events || [];
+
+        for (var i = 0; i < events.length; i++) {
+            var event = events[i].split("!");
+            var usePayload;
+
+            if (event.length > 1) {
+                usePayload = event[1];
+            }
+
+            resource.listen(event[0], usePayload);
+        }
+    }
+});
+
+},{"services/ResourceService":76}],53:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("resource-bind", {
+
+    params: ["filters"],
+
+    bind: function bind() {
+        var self = this;
+
+        ResourceService.watch(this.arg, function (value) {
+            var paths = self.expression.split(".");
+
+            for (var i = 0; i < paths.length; i++) {
+                var path = paths[i];
+
+                value = value[path];
+            }
+
+            var filters = self.params.filters || [];
+
+            for (var j = 0; j < filters.length; j++) {
+                var filter = Vue.filter(self.params.filters[j]);
+
+                value = filter.apply(Object, [value]);
+            }
+
+            self.el.innerHTML = value;
+        });
+    }
+
+});
+
+},{"services/ResourceService":76}],54:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("resource-if", {
+
+    bind: function bind() {
+        var self = this;
+        var display = window.getComputedStyle(this.el, null).getPropertyValue("display");
+
+        ResourceService.watch(this.arg, function (value) {
+
+            var keys = Object.keys(value);
+            var values = keys.map(function (key) {
+                return value[key];
+            });
+
+            // eslint-disable-next-line
+            var condition = new Function(keys, "return " + self.expression);
+
+            if (condition.apply(null, values)) {
+                self.el.style.display = display;
+            } else {
+                self.el.style.display = "none";
+            }
+        });
+    }
+
+});
+
+},{"services/ResourceService":76}],55:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+
+Vue.directive("resource-push", {
+
+    params: ["dataAccessor", "resource"],
+
+    bind: function bind() {
+        var self = this;
+
+        ResourceService.watch(this.params.resource, function (newValue, oldValue) {
+            if (self.params.dataAccessor) {
+                self.el.__vue__[self.arg] = newValue.documents[0].data;
+            } else {
+                self.el.__vue__[self.arg] = newValue;
+            }
+        });
+    }
+
+});
+
+},{"services/ResourceService":76}],56:[function(require,module,exports){
+"use strict";
+
+Vue.directive("change-lang", function (value) {
+    $(this.el).click(function (event) {
+        var subPath = window.location.pathname.split("/");
+
+        subPath = subPath[1] == value.currLang ? window.location.pathname.substring(3) : window.location.pathname;
+
+        window.location.assign(window.location.origin + "/" + value.lang + "" + subPath);
+    });
+});
+
+},{}],57:[function(require,module,exports){
+"use strict";
+
+var CheckoutService = require("services/CheckoutService");
+
+Vue.directive("shipping-country", function (value) {
+    $(this.el).click(function (event) {
+        event.preventDefault();
+        CheckoutService.setShippingCountryId(value);
+    });
+});
+
+},{"services/CheckoutService":71}],58:[function(require,module,exports){
+"use strict";
+
+Vue.directive("tooltip", {
+
+    bind: function bind() {
+        setTimeout(function () {
+            $(this.el).tooltip();
+        }.bind(this), 1);
+    }
+});
+
+},{}],59:[function(require,module,exports){
+"use strict";
+
+Vue.filter("arrayFirst", function (array) {
+    return array[0];
+});
+
+},{}],60:[function(require,module,exports){
+"use strict";
+
+Vue.filter("attachText", function (item, text) {
+    return text + item;
+});
+
+},{}],61:[function(require,module,exports){
+"use strict";
+
+var ResourceService = require("services/ResourceService");
+var currencySymbolMap = require("currency-symbol-map");
+var accounting = require("accounting");
+
+Vue.filter("currency", function (price, customCurrency) {
+    var basket = ResourceService.getResource("basket").val();
+
+    var currency = customCurrency || basket.currency;
+
+    if (currency) {
+        var currencySymbol = currencySymbolMap.getSymbolFromCurrency(currency);
+
+        if (currencySymbol) {
+            currency = currencySymbol;
+        }
+    }
+
+    // (%v = value, %s = symbol)
+    var options = {
+        symbol: currency,
+        decimal: ",",
+        thousand: ".",
+        precision: 2,
+        format: "%v %s"
+    };
+
+    return accounting.formatMoney(price, options);
+});
+
+},{"accounting":80,"currency-symbol-map":81,"services/ResourceService":76}],62:[function(require,module,exports){
+"use strict";
+
+// for docs see https://github.com/brockpetrie/vue-moment
+
+var dateFilter = function dateFilter() {
+    var args = Array.prototype.slice.call(arguments);
+    var input = args.shift();
+    var date;
+
+    if (isNaN(new Date(input).getTime())) {
+        return input;
+    }
+
+    if (Array.isArray(input) && typeof input[0] === "string") {
+        // If input is array, assume we're being passed a format pattern to parse against.
+        // Format pattern will accept an array of potential formats to parse against.
+        // Date string should be at [0], format pattern(s) should be at [1]
+        date = moment(string = input[0], formats = input[1], true);
+    } else {
+        // Otherwise, throw the input at moment and see what happens...
+        date = moment(input);
+    }
+
+    if (!date.isValid()) {
+        // Log a warning if moment couldn't reconcile the input. Better than throwing an error?
+        console.warn("Could not build a valid `moment` object from input.");
+        return input;
+    }
+
+    function parse() {
+        var args = Array.prototype.slice.call(arguments);
+        var method = args.shift();
+
+        switch (method) {
+            case "add":
+
+                // Mutates the original moment by adding time.
+                // http://momentjs.com/docs/#/manipulating/add/
+
+                var addends = args.shift().split(",").map(Function.prototype.call, String.prototype.trim);
+
+                obj = {};
+                for (var aId = 0; aId < addends.length; aId++) {
+                    var addend = addends[aId].split(" ");
+
+                    obj[addend[1]] = addend[0];
+                }
+                date = date.add(obj);
+                break;
+
+            case "subtract":
+
+                // Mutates the original moment by subtracting time.
+                // http://momentjs.com/docs/#/manipulating/subtract/
+
+                var subtrahends = args.shift().split(",").map(Function.prototype.call, String.prototype.trim);
+
+                obj = {};
+                for (var sId = 0; sId < subtrahends.length; sId++) {
+                    var subtrahend = subtrahends[sId].split(" ");
+
+                    obj[subtrahend[1]] = subtrahend[0];
+                }
+                date = date.subtract(obj);
+                break;
+
+            case "from":
+
+                // Display a moment in relative time, either from now or from a specified date.
+                // http://momentjs.com/docs/#/displaying/fromnow/
+
+                var from = "now";
+
+                if (args[0] === "now") args.shift();
+
+                if (moment(args[0]).isValid()) {
+                    // If valid, assume it is a date we want the output computed against.
+                    from = moment(args.shift());
+                }
+
+                var removeSuffix = false;
+
+                if (args[0] === true) {
+                    args.shift();
+                    removeSuffix = true;
+                }
+
+                if (from != "now") {
+                    date = date.from(from, removeSuffix);
+                    break;
+                }
+
+                date = date.fromNow(removeSuffix);
+                break;
+
+            case "calendar":
+
+                // Formats a date with different strings depending on how close to a certain date (today by default) the date is.
+                // http://momentjs.com/docs/#/displaying/calendar-time/
+
+                var referenceTime = moment();
+
+                if (moment(args[0]).isValid()) {
+                    // If valid, assume it is a date we want the output computed against.
+                    referenceTime = moment(args.shift());
+                }
+
+                date = date.calendar(referenceTime);
+                break;
+
+            default:
+                // Format
+                // Formats a date by taking a string of tokens and replacing them with their corresponding values.
+                // http://momentjs.com/docs/#/displaying/format/
+
+                var format = method;
+
+                date = date.format(format);
+        }
+
+        if (args.length) parse.apply(parse, args);
+    }
+
+    parse.apply(parse, args);
+
+    return date;
+};
+
+Vue.filter("moment", dateFilter);
+Vue.filter("date", dateFilter);
+
+},{}],63:[function(require,module,exports){
+"use strict";
+
+Vue.filter("itemImage", function (item, baseUrl) {
+    var imageList = item.variationImageList;
+
+    baseUrl = baseUrl || "/";
+
+    if (baseUrl.charAt(baseUrl.length - 1) !== "/") {
+        baseUrl += "/";
+    }
+
+    if (!!imageList && imageList.length > 0) {
+        for (var i = 0; i < imageList.length; i++) {
+            var image = imageList[i];
+
+            if (!!image.path && image.path.length > 0) {
+                return baseUrl + image.path;
+            }
+        }
+    }
+
+    return "";
+});
+
+},{}],64:[function(require,module,exports){
+"use strict";
+
+Vue.filter("itemImages", function (images, accessor) {
+    var imageUrls = [];
+    var imagesAccessor = "all";
+
+    if (images.variation.length) {
+        imagesAccessor = "variation";
+    }
+
+    for (var i in images[imagesAccessor]) {
+        var imageUrl = images[imagesAccessor][i][accessor];
+
+        imageUrls.push({ url: imageUrl, position: images[imagesAccessor][i].position });
+    }
+
+    return imageUrls;
+});
+
+},{}],65:[function(require,module,exports){
+"use strict";
+
+Vue.filter("itemName", function (item, selectedName) {
+    if (selectedName == 0 && item.name1 !== "") {
+        return item.name1;
+    } else if (selectedName == 1 && item.name2 !== "") {
+        return item.name2;
+    } else if (selectedName == 2 && item.name3 !== "") {
+        return item.name3;
+    }
+
+    return item.name1;
+});
+
+},{}],66:[function(require,module,exports){
+"use strict";
+
+Vue.filter("itemURL", function (item) {
+    var urlPath = item.texts.urlPath;
+
+    if (urlPath && urlPath.length > 0) {
+        return "/" + urlPath + "_" + item.item.id + "_" + item.variation.id;
+    }
+
+    return "/" + item.item.id + "_" + item.variation.id;
+});
+
+},{}],67:[function(require,module,exports){
+"use strict";
+
+var NotificationService = require("services/NotificationService");
+var WaitScreenService = require("services/WaitScreenService");
+
+module.exports = function ($) {
+
+    var _eventListeners = {};
+
+    return {
+        get: _get,
+        put: _put,
+        post: _post,
+        delete: _delete,
+        send: _send,
+        setToken: _setToken,
+        getToken: _getToken,
+        listen: _listen
+    };
+
+    function _listen(event, handler) {
+        _eventListeners[event] = _eventListeners[event] || [];
+        _eventListeners[event].push(handler);
+    }
+
+    function _triggerEvent(event, payload) {
+        if (_eventListeners[event]) {
+            for (var i = 0; i < _eventListeners[event].length; i++) {
+                var listener = _eventListeners[event][i];
+
+                if (typeof listener !== "function") {
+                    continue;
+                }
+                listener.call(Object, payload);
+            }
+        }
+    }
+
+    function _get(url, data, config) {
+        config = config || {};
+        config.method = "GET";
+        return _send(url, data, config);
+    }
+
+    function _put(url, data, config) {
+        config = config || {};
+        config.method = "PUT";
+        return _send(url, data, config);
+    }
+
+    function _post(url, data, config) {
+        config = config || {};
+        config.method = "POST";
+        return _send(url, data, config);
+    }
+
+    function _delete(url, data, config) {
+        config = config || {};
+        config.method = "DELETE";
+        return _send(url, data, config);
+    }
+
+    function _send(url, data, config) {
+        var deferred = $.Deferred();
+
+        config = config || {};
+        config.data = data || null;
+        config.dataType = config.dataType || "json";
+        config.contentType = config.contentType || "application/x-www-form-urlencoded; charset=UTF-8";
+        config.doInBackground = !!config.doInBackground;
+        config.supressNotifications = !!config.supressNotifications;
+
+        if (!config.doInBackground) {
+            WaitScreenService.showWaitScreen();
+        }
+        $.ajax(url, config).done(function (response) {
+            if (!config.supressNotifications) {
+                printMessages(response);
+            }
+            for (var event in response.events) {
+                _triggerEvent(event, response.events[event]);
+            }
+            deferred.resolve(response.data || response);
+        }).fail(function (jqXHR) {
+            var response = jqXHR.responseText ? $.parseJSON(jqXHR.responseText) : {};
+
+            if (!config.supressNotifications) {
+                printMessages(response);
+            }
+            deferred.reject(response.error);
+        }).always(function () {
+            if (!config.doInBackground) {
+                WaitScreenService.hideWaitScreen();
+            }
+        });
+
+        return deferred;
+    }
+
+    function printMessages(response) {
+        var notification;
+
+        if (response.error && response.error.message.length > 0) {
+            notification = NotificationService.error(response.error);
+        }
+
+        if (response.success && response.success.message.length > 0) {
+            notification = NotificationService.success(response.success);
+        }
+
+        if (response.warning && response.warning.message.length > 0) {
+            notification = NotificationService.warning(response.warning);
+        }
+
+        if (response.info && response.info.message.length > 0) {
+            notification = NotificationService.info(response.info);
+        }
+
+        if (response.debug && response.debug.class.length > 0) {
+            notification.trace(response.debug.file + "(" + response.debug.line + "): " + response.debug.class);
+            for (var i = 0; i < response.debug.trace.length; i++) {
+                notification.trace(response.debug.trace[i]);
+            }
+        }
+    }
+
+    function _setToken(token) {
+        this._token = token;
+    }
+
+    function _getToken() {
+        return this._token;
+    }
+}(jQuery);
+
+},{"services/NotificationService":75,"services/WaitScreenService":79}],68:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+var CheckoutService = require("services/CheckoutService");
+
+module.exports = function ($) {
+
+    return {
+        createAddress: createAddress,
+        updateAddress: updateAddress,
+        deleteAddress: deleteAddress
+    };
+
+    /**
+     * Create a new address
+     * @param address
+     * @param addressType
+     * @param setActive
+     * @returns {*}
+     */
+    function createAddress(address, addressType, setActive) {
+        return ApiService.post("rest/io/customer/address?typeId=" + addressType, address).done(function (response) {
+            if (setActive) {
+                if (addressType === 1) {
+                    CheckoutService.setBillingAddressId(response.id);
+                } else if (addressType === 2) {
+                    CheckoutService.setDeliveryAddressId(response.id);
+                }
+            }
+        });
+    }
+
+    /**
+     * Update an existing address
+     * @param newData
+     * @param addressType
+     * @returns {*|Entry|undefined}
+     */
+    function updateAddress(newData, addressType) {
+        addressType = addressType || newData.pivot.typeId;
+        return ApiService.put("rest/io/customer/address/" + newData.id + "?typeId=" + addressType, newData);
+    }
+
+    /**
+     * Delete an existing address
+     * @param addressId
+     * @param addressType
+     * @returns {*}
+     */
+    function deleteAddress(addressId, addressType) {
+        return ApiService.delete("rest/io/customer/address/" + addressId + "?typeId=" + addressType);
+    }
+}(jQuery);
+
+},{"services/ApiService":69,"services/CheckoutService":71}],69:[function(require,module,exports){
+"use strict";
+
+var NotificationService = require("services/NotificationService");
+var WaitScreenService = require("services/WaitScreenService");
+
+module.exports = function ($) {
+
+    var _eventListeners = {};
+
+    return {
+        get: _get,
+        put: _put,
+        post: _post,
+        delete: _delete,
+        send: _send,
+        setToken: _setToken,
+        getToken: _getToken,
+        listen: _listen
+    };
+
+    function _listen(event, handler) {
+        _eventListeners[event] = _eventListeners[event] || [];
+        _eventListeners[event].push(handler);
+    }
+
+    function _triggerEvent(event, payload) {
+        if (_eventListeners[event]) {
+            for (var i = 0; i < _eventListeners[event].length; i++) {
+                var listener = _eventListeners[event][i];
+
+                if (typeof listener !== "function") {
+                    continue;
+                }
+                listener.call(Object, payload);
+            }
+        }
+    }
+
+    function _get(url, data, config) {
+        config = config || {};
+        config.method = "GET";
+        return _send(url, data, config);
+    }
+
+    function _put(url, data, config) {
+        config = config || {};
+        config.method = "PUT";
+        return _send(url, data, config);
+    }
+
+    function _post(url, data, config) {
+        config = config || {};
+        config.method = "POST";
+        return _send(url, data, config);
+    }
+
+    function _delete(url, data, config) {
+        config = config || {};
+        config.method = "DELETE";
+        return _send(url, data, config);
+    }
+
+    function _send(url, data, config) {
+        var deferred = $.Deferred();
+
+        config = config || {};
+        config.data = data || null;
+        config.dataType = config.dataType || "json";
+        config.contentType = config.contentType || "application/x-www-form-urlencoded; charset=UTF-8";
+        config.doInBackground = !!config.doInBackground;
+        config.supressNotifications = !!config.supressNotifications;
+
+        if (!config.doInBackground) {
+            WaitScreenService.showWaitScreen();
+        }
+        $.ajax(url, config).done(function (response) {
+            if (!config.supressNotifications) {
+                printMessages(response);
+            }
+            for (var event in response.events) {
+                _triggerEvent(event, response.events[event]);
+            }
+            deferred.resolve(response.data || response);
+        }).fail(function (jqXHR) {
+            var response = jqXHR.responseText ? $.parseJSON(jqXHR.responseText) : {};
+
+            if (!config.supressNotifications) {
+                printMessages(response);
+            }
+            deferred.reject(response.error);
+        }).always(function () {
+            if (!config.doInBackground) {
+                WaitScreenService.hideWaitScreen();
+            }
+        });
+
+        return deferred;
+    }
+
+    function printMessages(response) {
+        var notification;
+
+        if (response.error && response.error.message.length > 0) {
+            notification = NotificationService.error(response.error);
+        }
+
+        if (response.success && response.success.message.length > 0) {
+            notification = NotificationService.success(response.success);
+        }
+
+        if (response.warning && response.warning.message.length > 0) {
+            notification = NotificationService.warning(response.warning);
+        }
+
+        if (response.info && response.info.message.length > 0) {
+            notification = NotificationService.info(response.info);
+        }
+
+        if (response.debug && response.debug.class.length > 0) {
+            notification.trace(response.debug.file + "(" + response.debug.line + "): " + response.debug.class);
+            for (var i = 0; i < response.debug.trace.length; i++) {
+                notification.trace(response.debug.trace[i]);
+            }
+        }
+    }
+
+    function _setToken(token) {
+        this._token = token;
+    }
+
+    function _getToken() {
+        return this._token;
+    }
+}(jQuery);
+
+},{"services/NotificationService":75,"services/WaitScreenService":79}],70:[function(require,module,exports){
+"use strict";
+
+var ItemListService = require("services/ItemListService");
+var ResourceService = require("services/ResourceService");
+
+module.exports = function ($) {
+    var _categoryTree = {};
+    var _categoryBreadcrumbs = [];
+
+    return {
+        getScopeUrl: _getScopeUrl,
+        renderItems: _renderItems
+    };
+
+    /**
+     * render items in relation to location
+     * @param currentCategory
+     */
+    function _renderItems(currentCategory) {
+        ResourceService.getResource("isLoadingBreadcrumbs").set(true);
+
+        if ($.isEmptyObject(_categoryTree)) {
+            _categoryTree = ResourceService.getResource("navigationTree").val();
+        }
+
+        if (!App.isCategoryView) {
+            window.open(_getScopeUrl(currentCategory), "_self");
+        } else {
+            _handleCurrentCategory(currentCategory);
+        }
+    }
+
+    /**
+     * bundle functions
+     * @param currentCategory
+     */
+    function _handleCurrentCategory(currentCategory) {
+        _updateItemList(currentCategory);
+        _updateHistory(currentCategory);
+        _updateBreadcrumbs();
+    }
+
+    function _updateBreadcrumbs() {
+        ResourceService.getResource("breadcrumbs").set(_categoryBreadcrumbs.reverse());
+    }
+
+    /**
+     * update the current item list without reloading
+     * @param currentCategory
+     */
+    function _updateItemList(currentCategory) {
+        ItemListService.setCategoryId(currentCategory.id);
+
+        ItemListService.setPage(1);
+        ItemListService.setFacets("");
+        ItemListService.getItemList();
+    }
+
+    /**
+     * update page informations
+     * @param currentCategory
+     */
+    function _updateHistory(currentCategory) {
+        var title = document.getElementsByTagName("title")[0].innerHTML;
+
+        window.history.replaceState({}, title, _getScopeUrl(currentCategory) + window.location.search);
+
+        document.getElementsByTagName("h1")[0].innerHTML = currentCategory.details[0].name;
+    }
+
+    /**
+     * get the current scope url
+     * @param currentCategory
+     * @param scopeUrl - default
+     * @param categories - default
+     */
+    function _getScopeUrl(currentCategory, scopeUrl, categories) {
+        scopeUrl = scopeUrl || "";
+        categories = categories || _categoryTree;
+
+        if (scopeUrl.length == 0) {
+            _categoryBreadcrumbs = [];
+        }
+
+        for (var category in categories) {
+            if (categories[category].id == currentCategory.id) {
+                scopeUrl += "/" + categories[category].details[0].nameUrl;
+
+                _categoryBreadcrumbs.push(categories[category]);
+
+                return scopeUrl;
+            }
+
+            if (categories[category].children) {
+                var tempScopeUrl = scopeUrl + "/" + categories[category].details[0].nameUrl;
+
+                var urlScope = _getScopeUrl(currentCategory, tempScopeUrl, categories[category].children);
+
+                if (urlScope.length > 0) {
+                    _categoryBreadcrumbs.push(categories[category]);
+
+                    return urlScope;
+                }
+            }
+        }
+
+        return "";
+    }
+}(jQuery);
+
+},{"services/ItemListService":73,"services/ResourceService":76}],71:[function(require,module,exports){
+"use strict";
+
+var ApiService = require("services/ApiService");
+
+module.exports = function ($) {
+
+    var checkout = {};
+    var initPromise;
+
+    return {
+        init: init,
+        setCheckout: setCheckout,
+        setDeliveryAddressId: setDeliveryAddressId,
+        setBillingAddressId: setBillingAddressId,
+        setMethodOfPaymentId: setMethodOfPaymentId,
+        setShippingCountryId: setShippingCountryId,
+        setShippingProfileId: setShippingProfileId
+    };
+
+    function init(checkoutData) {
+        if (!initPromise) {
+            if (checkoutData) {
+                initPromise = $.Deferred();
+                checkout = checkoutData;
+                initPromise.resolve();
+            } else {
+                initPromise = ApiService.get("/rest/io/checkout").done(function (response) {
+                    checkout = response;
+                });
+            }
+        }
+        return initPromise;
+    }
+
+    function _set(property, value) {
+        checkout[property] = value;
+        return ApiService.post("/rest/io/checkout/", checkout).done(function (response) {
+            checkout = response;
+        });
+    }
+
+    function setCheckout(checkoutData) {
+        var properties = Object.keys(checkoutData);
+
+        for (var i = 0; i < properties.length; i++) {
+            checkout[properties[i]] = checkoutData[properties[i]];
+        }
+
+        return ApiService.post("/rest/io/checkout/", checkout).done(function (response) {
+            checkout = response;
+        });
+    }
+
+    function setDeliveryAddressId(deliveryAddressId) {
+        return _set("deliveryAddressId", deliveryAddressId);
+    }
+
+    function setBillingAddressId(billingAddressId) {
+        return _set("billingAddressId", billingAddressId);
+    }
+
+    function setMethodOfPaymentId(methodOfPaymentId) {
+        return _set("methodOfPaymentId", methodOfPaymentId);
+    }
+
+    function setShippingCountryId(shippingCountryId) {
+        return _set("shippingCountryId", shippingCountryId);
+    }
+
+    function setShippingProfileId(shippingProfileId) {
+        return _set("shippingProfileId", shippingProfileId);
+    }
+}(jQuery);
+
+},{"services/ApiService":69}],72:[function(require,module,exports){
+"use strict";
+
+module.exports = function ($) {
+
+    return {
+        parseShippingCountries: parseShippingCountries,
+        parseShippingStates: parseShippingStates,
+        translateCountryNames: translateCountryNames,
+        sortCountries: sortCountries
+    };
+
+    function parseShippingCountries(countryList, id) {
+        var deliveryCountries = [];
+
+        if (countryList === null) {
+            return deliveryCountries;
+        }
+
+        for (var key in countryList) {
+            var country = countryList[key];
+            var option = { id: country.id, name: country.name, locale: country.isoCode2, selected: false };
+
+            option.selected = id === country.id;
+            deliveryCountries.push(option);
+        }
+
+        return deliveryCountries;
+    }
+
+    function translateCountryNames(countryNameMap, countryList) {
+        if (countryNameMap === null) {
+            return;
+        }
+        for (var countryId in countryNameMap) {
+            var countryName = countryNameMap[countryId];
+
+            for (var index in countryList) {
+                var country = countryList[index];
+
+                if (country.id === parseInt(countryId)) {
+                    country.name = countryName;
+                    break;
+                }
+            }
+        }
+    }
+
+    function sortCountries(countries) {
+        countries.sort(function (first, second) {
+            if (first.name < second.name) {
+                return -1;
+            }
+            if (first.name > second.name) {
+                return 1;
+            }
+            return 0;
+        });
+    }
+
+    function parseShippingStates(countryList, countryID) {
+        var states = [];
+
+        for (var key in countryList) {
+            var country = countryList[key];
+
+            if (country.id === countryID) {
+                states = country.states;
+                break;
+            }
+        }
+
+        return states;
+    }
+}(jQuery);
+
+},{}],73:[function(require,module,exports){
+"use strict";
+
+var _UrlService = require("services/UrlService");
+
+var _UrlService2 = _interopRequireDefault(_UrlService);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ApiService = require("services/ApiService");
+var NotificationService = require("services/NotificationService");
+var ResourceService = require("services/ResourceService");
+
+module.exports = function ($) {
+    var searchParams = {
+        query: "",
+        items: App.config.defaultItemsPerPage,
+        sorting: App.config.defaultSorting,
+        page: 1,
+        facets: "",
+        categoryId: null,
+        template: "",
+        variationShowType: App.config.variationShowType
+    };
+
+    return {
+        getItemList: getItemList,
+        updateSearchString: updateSearchString,
+        setSearchString: setSearchString,
+        setItemsPerPage: setItemsPerPage,
+        setOrderBy: setOrderBy,
+        setPage: setPage,
+        setSearchParams: setSearchParams,
+        setFacets: setFacets,
+        setCategoryId: setCategoryId
+    };
+
+    function getItemList() {
+        if (searchParams.categoryId || searchParams.query.length >= 3) {
+            if (ResourceService.getResource("itemList").val()) {
+                ResourceService.getResource("itemList").val().total = 0;
+            }
+
+            var url = searchParams.categoryId ? "/rest/io/category" : "/rest/io/item/search";
+
+            searchParams.template = "Ceres::ItemList.ItemListView";
+
+            _setIsLoading(true);
+
+            ApiService.get(url, searchParams).done(function (response) {
+                _setIsLoading(false);
+
+                ResourceService.getResource("itemList").set(response);
+                ResourceService.getResource("facets").set(response.facets);
+            }).fail(function (response) {
+                _setIsLoading(false);
+
+                NotificationService.error("Error while searching").closeAfter(5000);
+            });
+        }
+    }
+
+    function _setIsLoading(isLoading) {
+        ResourceService.getResource("itemSearch").set(searchParams);
+        ResourceService.getResource("isLoading").set(isLoading);
+    }
+
+    /**
+     * ?searchString=searchString&itemsPerPage=itemsPerPage&orderBy=orderBy&orderByKey=orderByKey&page=page
+     * @param urlParams
+     */
+    function setSearchParams(urlParams) {
+        var queryParams = _UrlService2.default.getUrlParams(urlParams);
+
+        for (var key in queryParams) {
+            searchParams[key] = queryParams[key];
+        }
+    }
+
+    function updateSearchString(query) {
+        searchParams.query = query;
+
+        query = query.length > 0 ? query : null;
+        _UrlService2.default.setUrlParam("query", query);
+    }
+
+    function setSearchString(query) {
+        searchParams.query = query;
+        searchParams.page = 1;
+
+        setPage(1);
+        setFacets("");
+
+        ResourceService.getResource("facets").set({});
+        ResourceService.getResource("facetParams").set([]);
+
+        query = query.length > 0 ? query : null;
+        _UrlService2.default.setUrlParam("query", query);
+    }
+
+    function setItemsPerPage(items) {
+        searchParams.items = items;
+
+        items = items != App.config.defaultItemsPerPage ? items : null;
+        _UrlService2.default.setUrlParam("items", items);
+    }
+
+    function setOrderBy(sorting) {
+        searchParams.sorting = sorting;
+
+        sorting = sorting !== App.config.defaultSorting ? sorting : null;
+        _UrlService2.default.setUrlParam("sorting", sorting);
+    }
+
+    function setPage(page) {
+        searchParams.page = page;
+
+        page = page > 1 ? page : null;
+        _UrlService2.default.setUrlParam("page", page);
+    }
+
+    function setFacets(facets) {
+        searchParams.facets = facets.toString();
+
+        facets = facets.toString().length > 0 ? facets.toString() : null;
+
+        setPage(1);
+
+        _UrlService2.default.setUrlParam("facets", facets);
+    }
+
+    function setCategoryId(categoryId) {
+        searchParams.categoryId = categoryId;
+    }
+}(jQuery);
+
+},{"services/ApiService":69,"services/NotificationService":75,"services/ResourceService":76,"services/UrlService":77}],74:[function(require,module,exports){
+"use strict";
+
+module.exports = function ($) {
+
+    var paused = false;
+    var timeout = -1;
+    var interval;
+    var timeRemaining;
+    var timeStart;
+
+    return {
+        findModal: findModal
+    };
+
+    function findModal(element) {
+        return new Modal(element);
+    }
+
+    function Modal(element) {
+        var self = this;
+        var $bsModal;
+
+        if ($(element).is(".modal")) {
+            $bsModal = $(element);
+        } else {
+            $bsModal = $(element).find(".modal").first();
+        }
+
+        return {
+            show: show,
+            hide: hide,
+            setTimeout: setTimeout,
+            startTimeout: startTimeout,
+            pauseTimeout: pauseTimeout,
+            continueTimeout: continueTimeout,
+            stopTimeout: stopTimeout,
+            getModalContainer: getModalContainer
+        };
+
+        function show() {
+            $bsModal.modal("show");
+
+            if ($bsModal.timeout > 0) {
+                startTimeout();
+            }
+
+            return self;
+        }
+
+        function hide() {
+            $bsModal.modal("hide");
+            return self;
+        }
+
+        function getModalContainer() {
+            return $bsModal;
+        }
+
+        function setTimeout(timeout) {
+            $bsModal.timeout = timeout;
+
+            $bsModal.find(".modal-content").mouseover(function () {
+                pauseTimeout();
+            });
+
+            $bsModal.find(".modal-content").mouseout(function () {
+                continueTimeout();
+            });
+
+            return this;
+        }
+
+        function startTimeout() {
+            timeRemaining = $bsModal.timeout;
+            timeStart = new Date().getTime();
+
+            timeout = window.setTimeout(function () {
+                window.clearInterval(interval);
+                hide();
+            }, $bsModal.timeout);
+
+            $bsModal.find(".timer").text(timeRemaining / 1000);
+            interval = window.setInterval(function () {
+                if (!paused) {
+                    var secondsRemaining = timeRemaining - new Date().getTime() + timeStart;
+
+                    secondsRemaining = Math.round(secondsRemaining / 1000);
+                    $bsModal.find(".timer").text(secondsRemaining);
+                }
+            }, 1000);
+        }
+
+        function pauseTimeout() {
+            paused = true;
+            timeRemaining -= new Date().getTime() - timeStart;
+            window.clearTimeout(timeout);
+        }
+
+        function continueTimeout() {
+            paused = false;
+            timeStart = new Date().getTime();
+            timeout = window.setTimeout(function () {
+                hide();
+                window.clearInterval(interval);
+            }, timeRemaining);
+        }
+
+        function stopTimeout() {
+            window.clearTimeout(timeout);
+            window.clearInterval(interval);
+        }
+    }
+}(jQuery);
+
+},{}],75:[function(require,module,exports){
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+module.exports = function ($) {
+
+    var notificationCount = 0;
+    var notifications = new NotificationList();
+
+    var handlerList = [];
+
+    return {
+        log: _log,
+        info: _info,
+        warn: _warn,
+        error: _error,
+        success: _success,
+        getNotifications: getNotifications,
+        listen: _listen
+    };
+
+    function _listen(handler) {
+        handlerList.push(handler);
+    }
+
+    function trigger() {
+        for (var i = 0; i < handlerList.length; i++) {
+            handlerList[i].call({}, notifications.all());
+        }
+    }
+
+    function _log(message, prefix) {
+        var notification = new Notification(message);
+
+        if (App.config.logMessages) {
+            console.log((prefix || "") + "[" + notification.code + "] " + notification.message);
+
+            for (var i = 0; i < notification.stackTrace.length; i++) {
+                _log(notification.stackTrace[i], " + ");
+            }
+        }
+
+        return notification;
+    }
+
+    function _info(message) {
+        var notification = new Notification(message, "info");
+
+        if (App.config.printInfos) {
+            _printNotification(notification);
+        }
+
+        return notification;
+    }
+
+    function _warn(message) {
+        var notification = new Notification(message, "warning");
+
+        if (App.config.printWarnings) {
+            _printNotification(notification);
+        }
+
+        return notification;
+    }
+
+    function _error(message) {
+        var notification = new Notification(message, "danger");
+
+        if (App.config.printErrors) {
+            _printNotification(notification);
+        }
+
+        return notification;
+    }
+
+    function _success(message) {
+        var notification = new Notification(message, "success");
+
+        if (App.config.printSuccess) {
+            _printNotification(notification);
+        }
+
+        return notification;
+    }
+
+    function getNotifications() {
+        return notifications;
+    }
+
+    function _printNotification(notification) {
+        notifications.add(notification);
+        _log(notification);
+
+        trigger();
+
+        return notification;
+    }
+
+    function Notification(data, context) {
+        if (!App.config.printStackTrace && (typeof data === "undefined" ? "undefined" : _typeof(data)) === "object") {
+            data.stackTrace = [];
+        }
+        var id = notificationCount++;
+        var self = {
+            id: id,
+            code: data.code || 0,
+            message: data.message || data || "",
+            context: context || "info",
+            stackTrace: data.stackTrace || [],
+            close: close,
+            closeAfter: closeAfter,
+            trace: trace
+        };
+
+        return self;
+
+        function close() {
+            notifications.remove(self);
+            trigger();
+        }
+
+        function closeAfter(timeout) {
+            setTimeout(function () {
+                notifications.remove(self);
+                trigger();
+            }, timeout);
+        }
+
+        function trace(message, code) {
+            if (App.config.printStackTrace) {
+                self.stackTrace.push({
+                    code: code || 0,
+                    message: message
+                });
+            }
+        }
+    }
+
+    function NotificationList() {
+        var elements = [];
+
+        return {
+            all: all,
+            add: add,
+            remove: remove
+        };
+
+        function all() {
+            return elements;
+        }
+
+        function add(notification) {
+            elements.push(notification);
+        }
+
+        function remove(notification) {
+            for (var i = 0; i < elements.length; i++) {
+                if (elements[i].id === notification.id) {
+                    elements.splice(i, 1);
+                    break;
+                }
+            }
+        }
+    }
+}(jQuery);
+
+},{}],76:[function(require,module,exports){
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var ApiService = require("services/ApiService");
+
+module.exports = function ($) {
+
+    var resources = {};
+
+    return {
+        registerResource: registerResource,
+        registerResourceList: registerResourceList,
+        getResource: getResource,
+        watch: watch,
+        bind: bind
+    };
+
+    /**
+     * Register a new resource
+     * @param {string}  name          The name of the resource. Must be a unique identifier
+     * @param {string}  route         The route to bind the resource to
+     * @param {*}       initialValue  The initial value to assign to the resource
+     *
+     * @returns {Resource} The created resource.
+     */
+    function registerResource(name, route, initialValue, responseTemplate) {
+        if (!name) {
+            throw new Error("Cannot register resource. Name is required.");
+        }
+
+        if (!route && typeof initialValue === "undefined") {
+            throw new Error("Cannot register resource. Route or initial value is required.");
+        }
+
+        if (resources[name]) {
+            throw new Error("Resource '" + name + "' already exists.");
+        }
+
+        var data;
+
+        try {
+            data = $.parseJSON(initialValue);
+        } catch (err) {
+            data = initialValue;
+        }
+
+        name = name.toLowerCase();
+        resources[name] = new Resource(route, data, responseTemplate);
+
+        return resources[name];
+    }
+
+    /**
+     * Register a new list resource
+     * @param {string}  name          The name of the resource. Must be a unique identifier
+     * @param {string}  route         The route to bind the resource to
+     * @param {*}       initialValue  The initial value to assign to the resource
+     *
+     * @returns {Resource}            The created resource.
+     */
+    function registerResourceList(name, route, initialValue, responseTemplate) {
+        if (!name) {
+            throw new Error("Cannot register resource. Name is required.");
+        }
+
+        if (!route && typeof initialValue === "undefined") {
+            throw new Error("Cannot register resource. Route or initial value is required.");
+        }
+
+        if (resources[name]) {
+            throw new Error("Resource '" + name + "' already exists.");
+        }
+
+        var data;
+
+        try {
+            data = $.parseJSON(initialValue);
+        } catch (err) {
+            data = initialValue;
+        }
+
+        name = name.toLowerCase();
+        resources[name] = new ResourceList(route, data, responseTemplate);
+
+        return resources[name];
+    }
+
+    /**
+     * Receive a registered resource by its name
+     * @param {string}  name    The name of the resource to receive
+     *
+     * @returns {Resource}      The resource
+     */
+    function getResource(name) {
+        name = name.toLowerCase();
+
+        if (!resources[name]) {
+            throw new Error("Unkown resource: " + name);
+        }
+
+        return resources[name];
+    }
+
+    /**
+     * Track changes of a given resource.
+     * @param {string}      name        The name of the resource to watch
+     * @param {function}    callback    The handler to call on each change
+     */
+    function watch(name, callback) {
+        getResource(name).watch(callback);
+    }
+
+    /**
+     * Bind a resource to a property of a vue instance.
+     * @param {string}  name        The name of the resource to bind
+     * @param {Vue}     vue         The vue instance
+     * @param {string}  property    The property of the vue instance. Optional if the property name is equal to the resource name.
+     */
+    function bind(name, vue, property) {
+        property = property || name;
+        getResource(name).bind(vue, property);
+    }
+
+    /**
+     * @class Observable
+     * Automatically notify all attached listeners on any changes.
+     */
+    function Observable() {
+        var _value;
+        var _watchers = [];
+
+        return {
+            get value() {
+                return _value;
+            },
+            set value(newValue) {
+                for (var i = 0; i < _watchers.length; i++) {
+                    var watcher = _watchers[i];
+
+                    watcher.apply({}, [newValue, _value]);
+                }
+                _value = newValue;
+            },
+            watch: function watch(cb) {
+                _watchers.push(cb);
+            }
+        };
+    }
+
+    /**
+     * @class Resource
+     * @param {string}  url              The url to bind the resource to
+     * @param {string}  initialValue     The initial value to assign to the resource
+     * @param {string}  responseTemplate The path to the response fields file
+     */
+    function Resource(url, initialValue, responseTemplate) {
+        var data = new Observable();
+        var ready = false;
+
+        // initialize resource
+        if (typeof initialValue !== "undefined") {
+            // Initial value that was given by constructor
+            data.value = initialValue;
+            ready = true;
+        } else if (url) {
+            // If no initial value was given, get the value from the URL
+            ApiService.get(url, { template: this.responseTemplate }).done(function (response) {
+                data.value = response;
+                ready = true;
+            });
+        } else {
+            throw new Error("Cannot initialize resource.");
+        }
+
+        return {
+            watch: watch,
+            bind: bind,
+            val: val,
+            set: set,
+            update: update,
+            listen: listen
+        };
+
+        /**
+         * Update this resource on a given event triggered by ApiService.
+         * @param {string} event        The event to listen on
+         * @param {string} usePayload   A property of the payload to assign to this resource.
+         *                              The resource will be updated by GET request if not set.
+         */
+        function listen(event, usePayload) {
+            ApiService.listen(event, function (payload) {
+                if (usePayload) {
+                    update(payload[usePayload]);
+                } else {
+                    update();
+                }
+            });
+        }
+
+        /**
+         * Add handler to track changes on this resource
+         * @param {function} cb     The callback to call on each change
+         */
+        function watch(cb) {
+            if (typeof cb !== "function") {
+                throw new Error("Callback expected but got '" + (typeof cb === "undefined" ? "undefined" : _typeof(cb)) + "'.");
+            }
+            data.watch(cb);
+            if (ready) {
+                cb.apply({}, [data.value, null]);
+            }
+        }
+
+        /**
+         * Bind a property of a vue instance to this resource
+         * @param {Vue}     vue         The vue instance
+         * @param {string}   property    The property of the vue instance
+         */
+        function bind(vue, property) {
+            if (!vue) {
+                throw new Error("Vue instance not set.");
+            }
+
+            if (!property) {
+                throw new Error("Cannot bind undefined property.");
+            }
+
+            watch(function (newValue) {
+                vue.$set(property, newValue);
+            });
+        }
+
+        /**
+         * Receive the current value of this resource
+         * @returns {*}
+         */
+        function val() {
+            return data.value;
+        }
+
+        /**
+         * Set the value of the resource.
+         * @param {*}   value   The value to set.
+         * @returns {Deferred}  The PUT request to the url of the resource
+         */
+        function set(value) {
+            if (url) {
+                value.template = responseTemplate;
+                return ApiService.put(url, value).done(function (response) {
+                    data.value = response;
+                });
+            }
+
+            var deferred = $.Deferred();
+
+            data.value = value;
+            deferred.resolve();
+            return deferred;
+        }
+
+        /**
+         * Update the value of the resource.
+         * @param {*}           value   The new value to assign to this resource. Will receive current value from url if not set
+         * @returns {Deferred}          The GET request to the url of the resource
+         */
+        function update(value) {
+            if (value) {
+                var deferred = $.Deferred();
+
+                data.value = value;
+                deferred.resolve();
+                return deferred;
+            } else if (url) {
+                return ApiService.get(url, { template: responseTemplate }).done(function (response) {
+                    data.value = response;
+                });
+            }
+
+            throw new Error("Cannot update resource. Neither an URL nor a value is prodivded.");
+        }
+    }
+
+    /**
+     * @class ResourceList
+     * @param {string}  url              The url to bind the resource to
+     * @param {string}  initialValue     The initial value to assign to the resource
+     * @param {string}  responseTemplate The path to the response fields file
+     */
+    function ResourceList(url, initialValue, responseTemplate) {
+        var data = new Observable();
+        var ready = false;
+
+        if (url.charAt(url.length - 1) !== "/") {
+            url += "/";
+        }
+
+        if (typeof initialValue !== "undefined") {
+            data.value = initialValue;
+            ready = true;
+        } else if (url) {
+            ApiService.get(url, { template: responseTemplate }).done(function (response) {
+                data.value = response;
+                ready = true;
+            });
+        } else {
+            throw new Error("Cannot initialize resource.");
+        }
+
+        return {
+            watch: watch,
+            bind: bind,
+            val: val,
+            set: set,
+            push: push,
+            remove: remove,
+            update: update,
+            listen: listen
+        };
+
+        /**
+         * Update this resource on a given event triggered by ApiService.
+         * @param {string} event        The event to listen on
+         * @param {string} usePayload   A property of the payload to assign to this resource.
+         *                              The resource will be updated by GET request if not set.
+         */
+        function listen(event, usePayload) {
+            ApiService.listen(event, function (payload) {
+                if (usePayload) {
+                    update(payload[usePayload]);
+                } else {
+                    update();
+                }
+            });
+        }
+
+        /**
+         * Add handler to track changes on this resource
+         * @param {function} cb     The callback to call on each change
+         */
+        function watch(cb) {
+            if (typeof cb !== "function") {
+                throw new Error("Callback expected but got '" + (typeof cb === "undefined" ? "undefined" : _typeof(cb)) + "'.");
+            }
+            data.watch(cb);
+
+            if (ready) {
+                cb.apply({}, [data.value, null]);
+            }
+        }
+
+        /**
+         * Bind a property of a vue instance to this resource
+         * @param {Vue}     vue         The vue instance
+         * @param {sting}   property    The property of the vue instance
+         */
+        function bind(vue, property) {
+            if (!vue) {
+                throw new Error("Vue instance not set.");
+            }
+
+            if (!property) {
+                throw new Error("Cannot bind undefined property.");
+            }
+
+            watch(function (newValue) {
+                vue.$set(property, newValue);
+            });
+        }
+
+        /**
+         * Receive the current value of this resource
+         * @returns {*}
+         */
+        function val() {
+            return data.value;
+        }
+
+        /**
+         * Set the value of a single element of this resource.
+         * @param {string|number}   key     The key of the element
+         * @param {*}               value   The value to set.
+         * @returns {Deferred}      The PUT request to the url of the resource
+         */
+        function set(key, value) {
+            if (url) {
+                value.template = responseTemplate;
+                return ApiService.put(url + key, value).done(function (response) {
+                    data.value = response;
+                });
+            }
+            var deferred = $.Deferred();
+
+            data.value = value;
+            deferred.resolve();
+            return deferred;
+        }
+
+        /**
+         * Add a new element to this resource
+         * @param {*}   value   The element to add
+         * @returns {Deferred}  The POST request to the url of the resource
+         */
+        function push(value) {
+            if (url) {
+                value.template = responseTemplate;
+                return ApiService.post(url, value).done(function (response) {
+                    data.value = response;
+                });
+            }
+
+            var deferred = $.Deferred();
+            var list = data.value;
+
+            list.push(value);
+            data.value = list;
+
+            deferred.resolve();
+            return deferred;
+        }
+
+        /**
+         * Remove an element from this resource
+         * @param {string|number}   key     The key of the element
+         * @returns {Deferred}              The DELETE request to the url of the resource
+         */
+        function remove(key) {
+            if (url) {
+                return ApiService.delete(url + key, { template: responseTemplate }).done(function (response) {
+                    data.value = response;
+                });
+            }
+
+            var deferred = $.Deferred();
+            var list = data.value;
+
+            list.splice(key, 1);
+            data.value = list;
+
+            deferred.resolve();
+            return deferred;
+        }
+
+        /**
+         * Update the value of the resource.
+         * @param {*}           value   The new value to assign to this resource. Will receive current value from url if not set
+         * @returns {Deferred}          The GET request to the url of the resource
+         */
+        function update(value) {
+            if (value) {
+                var deferred = $.Deferred();
+
+                data.value = value;
+                deferred.resolve();
+                return deferred;
+            }
+
+            return ApiService.get(url, { template: responseTemplate }).done(function (response) {
+                data.value = response;
+            });
+        }
+    }
+}(jQuery);
+
+},{"services/ApiService":69}],77:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.getUrlParams = getUrlParams;
+exports.setUrlParams = setUrlParams;
+exports.setUrlParam = setUrlParam;
+
+var _jquery = require("jquery");
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function getUrlParams(urlParams) {
+    if (urlParams) {
+        var tokens;
+        var params = {};
+        var regex = /[?&]?([^=]+)=([^&]*)/g;
+
+        urlParams = urlParams.split("+").join(" ");
+
+        // eslint-disable-next-line
+        while (tokens = regex.exec(urlParams)) {
+            params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+        }
+
+        return params;
+    }
+
+    return {};
+}
+
+function setUrlParams(urlParams) {
+    var pathName = window.location.pathname;
+    var params = _jquery2.default.isEmptyObject(urlParams) ? "" : "?" + _jquery2.default.param(urlParams);
+    var title = document.getElementsByTagName("title")[0].innerHTML;
+
+    window.history.replaceState({}, title, pathName + params);
+}
+
+function setUrlParam(key, value) {
+    var urlParams = getUrlParams(document.location.search);
+
+    if (value !== null) {
+        urlParams[key] = value;
+    } else {
+        delete urlParams[key];
+    }
+
+    setUrlParams(urlParams);
+}
+
+exports.default = { setUrlParam: setUrlParam, setUrlParams: setUrlParams, getUrlParams: getUrlParams };
+
+},{"jquery":83}],78:[function(require,module,exports){
+"use strict";
+
+module.exports = function ($) {
+    var $form;
+
+    return {
+        validate: _validate,
+        getInvalidFields: _getInvalidFields,
+        markInvalidFields: _markInvalidFields
+    };
+
+    function _validate(form) {
+        var deferred = $.Deferred();
+        var invalidFields = _getInvalidFields(form);
+
+        if (invalidFields.length > 0) {
+            deferred.rejectWith(form, [invalidFields]);
+        } else {
+            deferred.resolveWith(form);
+        }
+
+        return deferred;
+    }
+
+    function _getInvalidFields(form) {
+        $form = $(form);
+        var invalidFormControls = [];
+
+        $form.find("[data-validate]").each(function (i, elem) {
+
+            if (!_validateElement($(elem))) {
+                invalidFormControls.push(elem);
+            }
+        });
+
+        return invalidFormControls;
+    }
+
+    function _markInvalidFields(fields, errorClass) {
+        errorClass = errorClass || "has-error";
+
+        $(fields).each(function (i, elem) {
+            var $elem = $(elem);
+
+            $elem.addClass(errorClass);
+            _findFormControls($elem).on("click.removeErrorClass keyup.removeErrorClass change.removeErrorClass", function () {
+                if (_validateElement($elem)) {
+                    $elem.removeClass(errorClass);
+                    if ($elem.is("[type=\"radio\"], [type=\"checkbox\"]")) {
+                        var groupName = $elem.attr("name");
+
+                        $("." + errorClass + "[name=\"" + groupName + "\"]").removeClass(errorClass);
+                    }
+                    _findFormControls($elem).off("click.removeErrorClass keyup.removeErrorClass change.removeErrorClass");
+                }
+            });
+        });
+    }
+
+    function _validateElement(elem) {
+        var $elem = $(elem);
+        var validationKeys = $elem.attr("data-validate").split("|").map(function (i) {
+            return i.trim();
+        }) || ["text"];
+        var hasError = false;
+
+        _findFormControls($elem).each(function (i, formControl) {
+            var $formControl = $(formControl);
+            var validationKey = validationKeys[i] || validationKeys[0];
+
+            if (!_isActive($formControl)) {
+                // continue loop
+                return true;
+            }
+
+            if ($formControl.is("[type=\"checkbox\"], [type=\"radio\"]")) {
+
+                if (!_validateGroup($formControl, validationKey)) {
+                    hasError = true;
+                }
+
+                return true;
+            }
+
+            if ($formControl.is("select")) {
+                if (!_validateSelect($formControl, validationKey)) {
+                    hasError = true;
+                }
+
+                return true;
+            }
+
+            if (!_validateInput($formControl, validationKey)) {
+                hasError = true;
+            }
+
+            return false;
+        });
+
+        return !hasError;
+    }
+
+    function _validateGroup($formControl, validationKey) {
+        var groupName = $formControl.attr("name");
+        var $group = $form.find("[name=\"" + groupName + "\"]");
+        var range = _eval(validationKey) || { min: 1, max: 1 };
+        var checked = $group.filter(":checked").length;
+
+        return checked >= range.min && checked <= range.max;
+    }
+
+    function _validateSelect($formControl, validationKey) {
+        return $.trim($formControl.val()) !== validationKey;
+    }
+
+    function _validateInput($formControl, validationKey) {
+        switch (validationKey) {
+            case "text":
+                return _hasValue($formControl);
+            case "number":
+                return _hasValue($formControl) && $.isNumeric($.trim($formControl.val()));
+            case "ref":
+                return _compareRef($.trim($formControl.val()), $.trim($formControl.attr("data-validate-ref")));
+            case "regex":
+                var ref = $formControl.attr("data-validate-ref");
+                var regex = ref.startsWith("/") ? _eval(ref) : new RegExp(ref);
+
+                return _hasValue($formControl) && regex.test($.trim($formControl.val()));
+            default:
+                console.error("Form validation error: unknown validation property: \"" + validationKey + "\"");
+                return true;
+        }
+    }
+
+    function _hasValue($formControl) {
+        return $.trim($formControl.val()).length > 0;
+    }
+
+    function _compareRef(value, ref) {
+        if ($(ref).length > 0) {
+            ref = $.trim($(ref).val());
+        }
+
+        return value === ref;
+    }
+
+    function _findFormControls($elem) {
+        if ($elem.is("input, select, textarea")) {
+            return $elem;
+        }
+
+        return $elem.find("input, select, textarea");
+    }
+
+    function _isActive($elem) {
+        return $elem.is(":visible") && $elem.is(":enabled");
+    }
+
+    function _eval(input) {
+        // eslint-disable-next-line
+        return new Function("return " + input)();
+    }
+}(jQuery);
+
+},{}],79:[function(require,module,exports){
+"use strict";
+
+module.exports = function ($) {
+
+    var overlay = {
+        count: 0,
+        isVisible: false
+    };
+
+    return {
+        getOverlay: getOverlay,
+        showWaitScreen: showWaitScreen,
+        hideWaitScreen: hideWaitScreen
+    };
+
+    function getOverlay() {
+        return overlay;
+    }
+
+    function showWaitScreen() {
+        overlay.count = overlay.count || 0;
+        overlay.count++;
+        overlay.isVisible = true;
+    }
+
+    function hideWaitScreen(force) {
+        overlay.count = overlay.count || 0;
+        if (overlay.count > 0) {
+            overlay.count--;
+        }
+
+        if (force) {
+            overlay.count = 0;
+        }
+
+        if (overlay.count <= 0) {
+            overlay.count = 0;
+            overlay.visible = false;
+        }
+    }
+}(jQuery);
+
+},{}],80:[function(require,module,exports){
 /*!
  * accounting.js v0.4.1
  * Copyright 2014 Open Exchange Rates
@@ -1371,7 +6297,7 @@ Vue.config.unsafeDelimiters = ["{!!", "!!}"];
 	// Root will be `window` in browser or `global` on the server:
 }(this));
 
-},{}],2:[function(require,module,exports){
+},{}],81:[function(require,module,exports){
 var currencySymbolMap = require('./map');
 
 var symbolCurrencyMap = {};
@@ -1411,7 +6337,7 @@ module.exports.getCurrencyFromSymbol = getCurrencyFromSymbol;
 module.exports.symbolCurrencyMap = symbolCurrencyMap;
 module.exports.currencySymbolMap = currencySymbolMap;
 
-},{"./map":3}],3:[function(require,module,exports){
+},{"./map":82}],82:[function(require,module,exports){
 module.exports =
 { "ALL": "L"
 , "AFN": "؋"
@@ -1531,7 +6457,7 @@ module.exports =
 , "ZWD": "Z$"
 }
 
-},{}],4:[function(require,module,exports){
+},{}],83:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.2.4
  * http://jquery.com/
@@ -11347,5338 +16273,7 @@ if ( !noGlobal ) {
 return jQuery;
 }));
 
-},{}],5:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var ModalService = require("services/ModalService");
-
-Vue.component("add-item-to-basket-overlay", {
-
-    props: ["showOverlay", "template"],
-
-    data: function data() {
-        return {
-            basketItem: { currentBasketItem: {} },
-            timeToClose: 0,
-            price: 0,
-            currency: ""
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        ResourceService.bind("basketItem", this);
-    },
-
-    watch: {
-        basketItem: function basketItem() {
-            if (this.showOverlay) {
-                ModalService.findModal(document.getElementById("add-item-to-basket-overlay")).show();
-            }
-        }
-    },
-
-    methods: {
-
-        /**
-         * check if current basket object exist and start rendering
-         */
-        startRendering: function startRendering() {
-            var render = Object.keys(this.basketItem.currentBasketItem).length != 0;
-
-            if (render) {
-                this.startCounter();
-            }
-
-            this.setPriceFromData();
-
-            return render;
-        },
-
-        setPriceFromData: function setPriceFromData() {
-            if (this.basketItem.currentBasketItem.calculatedPrices) {
-                this.price = this.basketItem.currentBasketItem.calculatedPrices.default.price;
-                this.currency = this.basketItem.currentBasketItem.calculatedPrices.default.currency;
-            }
-        },
-
-        /**
-         * @returns {string}
-         */
-        getImage: function getImage() {
-            var path = "";
-
-            for (var i = 0; i < this.basketItem.currentBasketItem.variationImageList.length; i++) {
-                if (this.basketItem.currentBasketItem.variationImageList[i].path !== "") {
-                    path = this.basketItem.currentBasketItem.variationImageList[i].path;
-                }
-            }
-
-            return "/" + path;
-        },
-
-        startCounter: function startCounter() {
-            this.timeToClose = 10;
-
-            var timerVar = setInterval(countTimer, 1000);
-
-            var self = this;
-
-            function countTimer() {
-                self.timeToClose -= 1;
-
-                if (self.timeToClose === 0) {
-                    ModalService.findModal(document.getElementById("add-item-to-basket-overlay")).hide();
-
-                    clearInterval(timerVar);
-                }
-            }
-        }
-    },
-
-    computed: {
-        /**
-         * returns itemData.texts[0]
-         */
-        texts: function texts() {
-            return this.basketItem.currentBasketItem.texts;
-        }
-    }
-});
-
-},{"services/ModalService":77,"services/ResourceService":79}],6:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("add-to-basket", {
-
-    props: ["item", "itemUrl", "showQuantity", "template"],
-
-    data: function data() {
-        return {
-            quantity: 1
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    computed: {
-        /**
-         * returns item.variation.id
-         */
-        variationId: function variationId() {
-            return this.item.variation.id;
-        }
-    },
-
-    methods: {
-        /**
-         * add an item to basket-resource
-         */
-        addToBasket: function addToBasket() {
-            var basketObject = {
-                variationId: this.variationId,
-                quantity: this.quantity
-            };
-
-            ResourceService.getResource("basketItems").push(basketObject);
-
-            this.openAddToBasketOverlay();
-        },
-
-        directToItem: function directToItem() {
-            window.location.assign(this.itemUrl);
-        },
-
-        /**
-         * open the AddItemToBasketOverlay
-         */
-        openAddToBasketOverlay: function openAddToBasketOverlay() {
-            var currentBasketObject = {
-                currentBasketItem: this.item,
-                quantity: this.quantity
-            };
-
-            ResourceService.getResource("basketItem").set(currentBasketObject);
-        },
-
-        /**
-         * update the property quantity of the current instance
-         * @param value
-         */
-        updateQuantity: function updateQuantity(value) {
-            this.quantity = value;
-        }
-    }
-});
-
-},{"services/ResourceService":79}],7:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("basket-preview", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            basket: {},
-            basketItems: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Bind to basket and bind the basket items
-     */
-    ready: function ready() {
-        ResourceService.bind("basket", this);
-        ResourceService.bind("basketItems", this);
-    }
-});
-
-},{"services/ResourceService":79}],8:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("basket-totals", {
-
-    props: ["config", "template"],
-
-    data: function data() {
-        return {
-            basket: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Bind to basket
-     */
-    ready: function ready() {
-        ResourceService.bind("basket", this);
-    },
-
-    methods: {
-        /**
-         * TODO
-         * @param name
-         * @returns {boolean}
-         */
-        showProperty: function showProperty(name) {
-            return !this.config || this.config.indexOf(name) >= 0 || this.config.indexOf("all") >= 0;
-        }
-    }
-});
-
-},{"services/ResourceService":79}],9:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var ResourceService = require("services/ResourceService");
-var NotificationService = require("services/NotificationService");
-
-Vue.component("coupon", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            couponCode: "",
-            basket: {},
-            waiting: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-        ResourceService.bind("basket", this);
-    },
-
-    ready: function ready() {
-        if (this.disabled) {
-            this.couponCode = this.basket.couponCode;
-        }
-    },
-
-    methods: {
-        redeemCode: function redeemCode() {
-            this.waiting = true;
-            var self = this;
-
-            ApiService.post("/rest/io/coupon", { couponCode: this.couponCode }).always(function () {
-                self.waiting = false;
-            }).done(function (response) {
-                NotificationService.success(Translations.Template.couponRedeemSuccess).closeAfter(10000);
-            }).fail(function (response) {
-                NotificationService.error(Translations.Template.couponRedeemFailure).closeAfter(10000);
-            });
-        },
-
-        removeCode: function removeCode() {
-            this.waiting = true;
-            var self = this;
-
-            ApiService.delete("/rest/io/coupon/" + this.basket.couponCode).always(function () {
-                self.waiting = false;
-            }).done(function (response) {
-                self.couponCode = "";
-                NotificationService.success(Translations.Template.couponRemoveSuccess).closeAfter(10000);
-            }).fail(function (response) {
-                NotificationService.error(Translations.Template.couponRemoveFailure).closeAfter(10000);
-            });
-        }
-    },
-
-    computed: {
-        disabled: function disabled() {
-            if (this.basket.couponCode) {
-                return true;
-            }
-
-            return false;
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/NotificationService":78,"services/ResourceService":79}],10:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("basket-list", {
-
-    props: ["size", "template", "triggerEvent"],
-
-    data: function data() {
-        return {
-            basketItems: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Bind to basket and show the items in a small or large list
-     */
-    ready: function ready() {
-        ResourceService.bind("basketItems", this);
-
-        if (this.triggerEvent) {
-            ResourceService.watch("basket", function (newValue, oldValue) {
-                if (oldValue) {
-                    if (JSON.stringify(newValue) != JSON.stringify(oldValue)) {
-                        document.dispatchEvent(new CustomEvent("afterBasketChanged", { detail: newValue }));
-                    }
-                }
-            });
-        }
-    }
-});
-
-},{"services/ResourceService":79}],11:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-// var ApiService          = require("services/ApiService");
-// var NotificationService = require("services/NotificationService");
-
-Vue.component("basket-list-item", {
-
-    props: ["basketItem", "size", "language", "template"],
-
-    data: function data() {
-        return {
-            waiting: false,
-            deleteConfirmed: false,
-            deleteConfirmedTimeout: null,
-            itemCondition: ""
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    methods: {
-
-        /**
-         * Delete item from basket
-         */
-        deleteItem: function deleteItem() {
-            var self = this;
-
-            if (!this.deleteConfirmed) {
-                this.deleteConfirmed = true;
-                this.deleteConfirmedTimeout = window.setTimeout(function () {
-                    self.resetDelete();
-                }, 5000);
-            } else {
-                this.waiting = true;
-                ResourceService.getResource("basketItems").remove(this.basketItem.id).fail(function () {
-                    self.resetDelete();
-                    self.waiting = false;
-                });
-            }
-        },
-
-        /**
-         * Update item quantity in basket
-         * @param quantity
-         */
-        updateQuantity: function updateQuantity(quantity) {
-            if (this.basketItem.quantity === quantity) {
-                return;
-            }
-
-            this.basketItem.quantity = quantity;
-            this.waiting = true;
-
-            ResourceService.getResource("basketItems").set(this.basketItem.id, this.basketItem).fail(function () {
-                this.waiting = false;
-            }.bind(this));
-        },
-
-        /**
-         * Cancel delete
-         */
-        resetDelete: function resetDelete() {
-            this.deleteConfirmed = false;
-            if (this.deleteConfirmedTimeout) {
-                window.clearTimeout(this.deleteConfirmedTimeout);
-            }
-        }
-    }
-});
-
-},{"services/ResourceService":79}],12:[function(require,module,exports){
-"use strict";
-
-var CategoryRendererService = require("services/CategoryRendererService");
-var ResourceService = require("services/ResourceService");
-
-Vue.component("category-breadcrumbs", {
-
-    props: ["template", "categories", "currentCategoryTree"],
-
-    data: function data() {
-        return {
-            breadcrumbs: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        this.init();
-    },
-
-    methods: {
-        /**
-         * initialize values
-         */
-        init: function init() {
-            this.categories = JSON.parse(this.categories);
-            this.currentCategoryTree = JSON.parse(this.currentCategoryTree);
-
-            ResourceService.bind("breadcrumbs", this);
-            ResourceService.getResource("breadcrumbs").set(this.currentCategoryTree);
-        },
-
-        /**
-         * render items in relation to location
-         * @param currentCategory
-         */
-        renderItems: function renderItems(currentCategory) {
-            CategoryRendererService.renderItems(currentCategory);
-
-            return false;
-        },
-
-        getBreadcrumbURL: function getBreadcrumbURL(breadcrumb) {
-            return CategoryRendererService.getScopeUrl(breadcrumb);
-        }
-    }
-});
-
-},{"services/CategoryRendererService":73,"services/ResourceService":79}],13:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("accept-gtc-check", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            isChecked: false,
-            checkoutValidation: { gtc: {} }
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-        ResourceService.bind("checkoutValidation", this);
-        this.checkoutValidation.gtc.validate = this.validate;
-    },
-
-    methods: {
-        validate: function validate() {
-            this.checkoutValidation.gtc.showError = !this.isChecked;
-        }
-    },
-
-    watch: {
-        isChecked: function isChecked() {
-            this.checkoutValidation.gtc.showError = false;
-        }
-    }
-});
-
-},{"services/ResourceService":79}],14:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("payment-provider-select", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            checkout: {},
-            checkoutValidation: { paymentProvider: {} }
-        };
-    },
-
-    /**
-     * Initialise the event listener
-     */
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("checkout", this);
-        ResourceService.bind("checkoutValidation", this);
-
-        this.checkoutValidation.paymentProvider.validate = this.validate;
-
-        this.initDefaultPaymentProvider();
-    },
-
-    methods: {
-        /**
-         * Event when changing the payment provider
-         */
-        onPaymentProviderChange: function onPaymentProviderChange() {
-            ResourceService.getResource("checkout").set(this.checkout).done(function () {
-                document.dispatchEvent(new CustomEvent("afterPaymentMethodChanged", { detail: this.checkout.methodOfPaymentId }));
-            }.bind(this));
-
-            this.validate();
-        },
-
-        validate: function validate() {
-            this.checkoutValidation.paymentProvider.showError = !(this.checkout.methodOfPaymentId > 0);
-        },
-
-        initDefaultPaymentProvider: function initDefaultPaymentProvider() {
-            // todo get entry from config | select first payment provider
-            if (this.checkout.methodOfPaymentId == 0 && this.checkout.paymentDataList.length > 0) {
-                this.checkout.methodOfPaymentId = this.checkout.paymentDataList[0].id;
-
-                ResourceService.getResource("checkout").set(this.checkout);
-            }
-        }
-    }
-});
-
-},{"services/ResourceService":79}],15:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var NotificationService = require("services/NotificationService");
-var ResourceService = require("services/ResourceService");
-
-(function ($) {
-    Vue.component("place-order", {
-
-        props: ["targetContinue", "template"],
-
-        data: function data() {
-            return {
-                waiting: false,
-                checkout: {},
-                checkoutValidation: {}
-            };
-        },
-
-        created: function created() {
-            this.$options.template = this.template;
-
-            ResourceService.bind("checkout", this);
-            ResourceService.bind("checkoutValidation", this);
-        },
-
-        methods: {
-
-            preparePayment: function preparePayment() {
-                this.waiting = true;
-                var self = this;
-
-                if (self.validateCheckout()) {
-                    ApiService.post("/rest/io/checkout/payment").done(function (response) {
-                        self.afterPreparePayment(response);
-                    }).fail(function (response) {
-                        self.waiting = false;
-                    });
-                } else {
-                    NotificationService.error(Translations.Template.generalCheckEntries);
-                    this.waiting = false;
-                }
-            },
-
-            validateCheckout: function validateCheckout() {
-                for (var validator in this.checkoutValidation) {
-                    if (this.checkoutValidation[validator].validate) {
-                        this.checkoutValidation[validator].validate();
-                    }
-                }
-
-                for (var i in this.checkoutValidation) {
-                    if (this.checkoutValidation[i].showError) {
-                        return false;
-                    }
-                }
-
-                return true;
-            },
-
-            afterPreparePayment: function afterPreparePayment(response) {
-                var paymentType = response.type || "errorCode";
-                var paymentValue = response.value || "";
-
-                switch (paymentType) {
-                    case "continue":
-                        var target = this.targetContinue;
-
-                        if (target) {
-                            window.location.assign(target);
-                        }
-                        break;
-                    case "redirectUrl":
-                        // redirect to given payment provider
-                        window.location.assign(paymentValue);
-                        break;
-                    case "externalContentUrl":
-                        // show external content in iframe
-                        this.showModal(paymentValue, true);
-                        break;
-                    case "htmlContent":
-                        this.showModal(paymentValue, false);
-                        break;
-
-                    case "errorCode":
-                        NotificationService.error(paymentValue);
-                        break;
-                    default:
-                        NotificationService.error("Unknown response from payment provider: " + paymentType);
-                        break;
-                }
-            },
-
-            showModal: function showModal(content, isExternalContent) {
-                var $modal = $(this.$els.modal);
-                var $modalBody = $(this.$els.modalContent);
-
-                if (isExternalContent) {
-                    $modalBody.html("<iframe src=\"" + content + "\">");
-                } else {
-                    $modalBody.html(content);
-                }
-
-                $modal.modal("show");
-            }
-        }
-    });
-})(jQuery);
-
-},{"services/ApiService":72,"services/NotificationService":78,"services/ResourceService":79}],16:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("shipping-profile-select", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            checkout: {},
-            checkoutValidation: { shippingProfile: {} }
-        };
-    },
-
-    /**
-     * Add a shipping provider
-     * Initialise the event listener
-     */
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("checkout", this);
-        ResourceService.bind("checkoutValidation", this);
-
-        this.checkoutValidation.shippingProfile.validate = this.validate;
-    },
-
-    methods: {
-        /**
-         * Method on shipping profile changed
-         */
-        onShippingProfileChange: function onShippingProfileChange() {
-            ResourceService.getResource("checkout").set(this.checkout).done(function () {
-                document.dispatchEvent(new CustomEvent("afterShippingProfileChanged", { detail: this.checkout.shippingProfileId }));
-            }.bind(this));
-
-            this.validate();
-        },
-
-        validate: function validate() {
-            this.checkoutValidation.shippingProfile.showError = !(this.checkout.shippingProfileId > 0);
-        }
-    }
-});
-
-},{"services/ResourceService":79}],17:[function(require,module,exports){
-"use strict";
-
-Vue.component("address-input-group", {
-
-    props: ["addressData", "defaultCountry", "template"],
-
-    data: function data() {
-        return {
-            stateList: [],
-            countryLocaleList: ["DE", "GB"],
-            localeToShow: ""
-        };
-    },
-
-    /**
-     * Check whether the address data exists. Else, create an empty one
-     */
-    created: function created() {
-        this.$options.template = this.template;
-
-        if (!this.addressData) {
-            this.addressData = {};
-        }
-
-        this.defaultCountry = "DE";
-    },
-
-    methods: {
-        /**
-         * Update the address input group to show.
-         * @param value
-         */
-        onSelectedCountryChanged: function onSelectedCountryChanged(value) {
-            if (this.countryLocaleList.indexOf(value) > 0) {
-                this.localeToShow = value;
-            } else {
-                this.localeToShow = this.defaultCountry;
-            }
-        }
-    }
-});
-
-},{}],18:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var ModalService = require("services/ModalService");
-var AddressService = require("services/AddressService");
-
-Vue.component("address-select", {
-
-    props: ["addressList", "addressType", "selectedAddressId", "template", "showError"],
-
-    data: function data() {
-        return {
-            selectedAddress: {},
-            addressModal: {},
-            modalType: "",
-            headline: "",
-            addressToEdit: {},
-            addressToDelete: {},
-            deleteModal: ""
-        };
-    },
-
-    /**
-     *  Check whether the address list is not empty and select the address with the matching ID
-     */
-    created: function created() {
-        this.$options.template = this.template;
-
-        this.addEventListener();
-    },
-
-    /**
-     * Select the address modal
-     */
-    ready: function ready() {
-        if (!this.isAddressListEmpty()) {
-            this.loadSelectedAddress();
-        } else {
-            this.addressList = [];
-        }
-
-        this.addressModal = ModalService.findModal(this.$els.addressModal);
-        this.deleteModal = ModalService.findModal(this.$els.deleteModal);
-    },
-
-    methods: {
-        /**
-         * Add the event listener
-         */
-        addEventListener: function addEventListener() {
-            var self = this;
-
-            ApiService.listen("AfterAccountContactLogout", function () {
-                self.cleanUserAddressData();
-            });
-        },
-
-        /**
-         * Load the address filtered by selectedId into selectedAddress
-         */
-        loadSelectedAddress: function loadSelectedAddress() {
-            var isSelectedAddressSet = false;
-
-            for (var index in this.addressList) {
-                if (this.addressList[index].id === this.selectedAddressId) {
-                    this.selectedAddress = this.addressList[index];
-                    isSelectedAddressSet = true;
-                    this.$dispatch("address-changed", this.selectedAddress);
-                }
-            }
-
-            if (!isSelectedAddressSet) {
-                this.selectedAddressId = null;
-            }
-        },
-
-        /**
-         * Remove all user related addresses from the component
-         */
-        cleanUserAddressData: function cleanUserAddressData() {
-            this.addressList = this.addressList.filter(function (value) {
-                return value.id === -99;
-            });
-
-            if (this.selectedAddressId !== -99) {
-                this.selectedAddress = {};
-                this.selectedAddressId = "";
-            }
-        },
-
-        /**
-         * Update the selected address
-         * @param index
-         */
-        onAddressChanged: function onAddressChanged(index) {
-            this.selectedAddress = this.addressList[index];
-
-            this.$dispatch("address-changed", this.selectedAddress);
-        },
-
-        /**
-         * Check whether the address list is empty
-         * @returns {boolean}
-         */
-        isAddressListEmpty: function isAddressListEmpty() {
-            return !(this.addressList && this.addressList.length > 0);
-        },
-
-        /**
-         * Check whether a company name exists and show it in bold
-         * @returns {boolean}
-         */
-        showNameStrong: function showNameStrong() {
-            return !this.selectedAddress.name1 || this.selectedAddress.name1.length === 0;
-        },
-
-        /**
-         * Show the add modal
-         */
-        showAddModal: function showAddModal() {
-            this.modalType = "create";
-            this.addressToEdit = {};
-            this.updateHeadline();
-            this.addressModal.show();
-        },
-
-        /**
-         * Show the edit modal
-         * @param address
-         */
-        showEditModal: function showEditModal(address) {
-            this.modalType = "update";
-            // Creates a tmp address to prevent unwanted two-way binding
-            this.addressToEdit = JSON.parse(JSON.stringify(address));
-            this.updateHeadline();
-            this.addressModal.show();
-        },
-
-        /**
-         * Show the delete modal
-         * @param address
-         */
-        showDeleteModal: function showDeleteModal(address) {
-            this.modalType = "delete";
-            this.addressToDelete = address;
-            this.updateHeadline();
-            this.deleteModal.show();
-        },
-
-        /**
-         * Delete the address selected before
-         */
-        deleteAddress: function deleteAddress() {
-            var self = this;
-            var address = this.addressToDelete;
-            var addressType = this.addressType;
-
-            AddressService.deleteAddress(address.id, addressType).done(function () {
-                self.closeDeleteModal();
-                self.removeIdFromList(address.id);
-            });
-        },
-
-        /**
-         * Close the current create/update address modal
-         */
-        closeAddressModal: function closeAddressModal() {
-            this.addressModal.hide();
-        },
-
-        /**
-         * Close the current delete address modal
-         */
-        closeDeleteModal: function closeDeleteModal() {
-            this.deleteModal.hide();
-        },
-
-        /**
-         * Dynamically create the header line in the modal
-         */
-        updateHeadline: function updateHeadline() {
-            var headline;
-
-            if (this.addressType === "2") {
-                if (this.modalType === "update") {
-                    headline = Translations.Template.orderShippingAddressEdit;
-                } else if (this.modalType === "create") {
-                    headline = Translations.Template.orderShippingAddressCreate;
-                } else {
-                    headline = Translations.Template.orderShippingAddressDelete;
-                }
-            } else if (this.modalType === "update") {
-                headline = Translations.Template.orderInvoiceAddressEdit;
-            } else if (this.modalType === "create") {
-                headline = Translations.Template.orderInvoiceAddressCreate;
-            } else {
-                headline = Translations.Template.orderInvoiceAddressDelete;
-            }
-
-            this.headline = headline;
-        },
-
-        /**
-         * Remove an address from the addressList by ID
-         * @param id
-         */
-        removeIdFromList: function removeIdFromList(id) {
-            for (var i in this.addressList) {
-                if (this.addressList[i].id === id) {
-                    this.addressList.splice(i, 1);
-
-                    if (this.selectedAddressId && this.selectedAddressId.toString() === id.toString()) {
-                        this.selectedAddress = {};
-                        this.selectedAddressId = "";
-
-                        break;
-                    }
-                }
-            }
-        },
-
-        /**
-         * Update the selected address when a new address is created
-         * @param addressData
-         */
-        onAddressCreated: function onAddressCreated(addressData) {
-            if (!this.selectedAddressId) {
-                this.selectedAddressId = addressData.id;
-
-                this.loadSelectedAddress();
-            }
-        }
-    }
-});
-
-},{"services/AddressService":71,"services/ApiService":72,"services/ModalService":77}],19:[function(require,module,exports){
-"use strict";
-
-var AddressService = require("services/AddressService");
-var ValidationService = require("services/ValidationService");
-
-Vue.component("create-update-address", {
-
-    props: ["addressData", "addressModal", "addressList", "modalType", "addressType", "template"],
-
-    data: function data() {
-        return {
-            waiting: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    methods: {
-        /**
-         * Validate the address fields
-         */
-        validate: function validate() {
-            var self = this;
-
-            ValidationService.validate($("#my-form")).done(function () {
-                self.saveAddress();
-            }).fail(function (invalidFields) {
-                ValidationService.markInvalidFields(invalidFields, "error");
-            });
-        },
-
-        /**
-         * Save the new address or update an existing one
-         */
-        saveAddress: function saveAddress() {
-            if (this.modalType === "create") {
-                this.createAddress();
-            } else if (this.modalType === "update") {
-                this.updateAddress();
-            }
-        },
-
-        /**
-         * Update an address
-         */
-        updateAddress: function updateAddress() {
-            this.waiting = true;
-
-            AddressService.updateAddress(this.addressData, this.addressType).done(function () {
-                this.addressModal.hide();
-
-                for (var key in this.addressList) {
-                    var address = this.addressList[key];
-
-                    if (address.id === this.addressData.id) {
-                        for (var attribute in this.addressList[key]) {
-                            this.addressList[key][attribute] = this.addressData[attribute];
-                        }
-
-                        break;
-                    }
-                }
-
-                this.waiting = false;
-            }.bind(this));
-        },
-
-        /**
-         * Create a new address
-         */
-        createAddress: function createAddress() {
-            this.waiting = true;
-
-            AddressService.createAddress(this.addressData, this.addressType, true).done(function (newAddress) {
-                this.addressData = newAddress;
-
-                this.addressModal.hide();
-                this.addressList.push(this.addressData);
-
-                this.$dispatch("new-address-created", this.addressData);
-
-                this.waiting = false;
-            }.bind(this));
-        }
-    }
-
-});
-
-},{"services/AddressService":71,"services/ValidationService":81}],20:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("invoice-address-select", {
-
-    template: "<address-select template=\"#vue-address-select\" v-on:address-changed=\"addressChanged\" address-type=\"1\" :address-list=\"addressList\" :selected-address-id=\"selectedAddressId\" :show-error='checkoutValidation.invoiceAddress.showError'></address-select>",
-
-    props: ["addressList", "hasToValidate", "selectedAddressId"],
-
-    data: function data() {
-        return {
-            checkout: {},
-            checkoutValidation: { invoiceAddress: {} }
-        };
-    },
-
-    /**
-     * Initialise the event listener
-     */
-    created: function created() {
-        ResourceService.bind("checkout", this);
-
-        if (this.hasToValidate) {
-            ResourceService.bind("checkoutValidation", this);
-
-            this.checkoutValidation.invoiceAddress.validate = this.validate;
-        }
-    },
-
-    methods: {
-        /**
-         * Update the invoice address
-         * @param selectedAddress
-         */
-        addressChanged: function addressChanged(selectedAddress) {
-            this.checkout.billingAddressId = selectedAddress.id;
-
-            ResourceService.getResource("checkout").set(this.checkout).done(function () {
-                document.dispatchEvent(new CustomEvent("afterInvoiceAddressChanged", { detail: this.checkout.billingAddressId }));
-            }.bind(this));
-
-            if (this.hasToValidate) {
-                this.validate();
-            }
-        },
-
-        validate: function validate() {
-            this.checkoutValidation.invoiceAddress.showError = this.checkout.billingAddressId <= 0;
-        }
-    }
-});
-
-},{"services/ResourceService":79}],21:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("shipping-address-select", {
-
-    template: "<address-select template=\"#vue-address-select\" v-on:address-changed=\"addressChanged\" address-type=\"2\" :address-list=\"addressList\" :selected-address-id=\"selectedAddressId\"></address-select>",
-
-    props: ["addressList", "selectedAddressId"],
-
-    data: function data() {
-        return {
-            checkout: {}
-        };
-    },
-
-    /**
-     * Initialise the event listener
-     */
-    created: function created() {
-        ResourceService.bind("checkout", this);
-
-        if (!this.addressList) {
-            this.addressList = [];
-        }
-
-        // Adds the dummy entry for "delivery address same as invoice address"
-        this.addressList.unshift({
-            id: -99
-        });
-
-        // if there is no selection for delivery address, the dummy entry will be selected
-        if (this.selectedAddressId === 0) {
-            this.selectedAddressId = -99;
-            this.checkout.deliveryAddressId = -99;
-            ResourceService.getResource("checkout").set(this.checkout);
-        }
-    },
-
-    methods: {
-        /**
-         * Update the delivery address
-         * @param selectedAddress
-         */
-        addressChanged: function addressChanged(selectedAddress) {
-            this.checkout.deliveryAddressId = selectedAddress.id;
-            ResourceService.getResource("checkout").set(this.checkout).done(function () {
-                document.dispatchEvent(new CustomEvent("afterDeliveryAddressChanged", { detail: this.checkout.deliveryAddressId }));
-            }.bind(this));
-        }
-    }
-});
-
-},{"services/ResourceService":79}],22:[function(require,module,exports){
-"use strict";
-
-var CountryService = require("services/CountryService");
-var ResourceService = require("services/ResourceService");
-
-Vue.component("country-select", {
-
-    props: ["countryList", "countryNameMap", "selectedCountryId", "selectedStateId", "template"],
-
-    data: function data() {
-        return {
-            stateList: [],
-            selectedCountry: {},
-            localization: {}
-        };
-    },
-
-    /**
-     * Get the shipping countries
-     */
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("localization", this);
-        this.selectedCountryId = this.selectedCountryId || this.localization.currentShippingCountryId;
-
-        CountryService.translateCountryNames(this.countryNameMap, this.countryList);
-        CountryService.sortCountries(this.countryList);
-    },
-
-    methods: {
-        /**
-         * Method to fire when the country has changed
-         */
-        countryChanged: function countryChanged() {
-            this.selectedStateId = null;
-        },
-
-        /**
-         * @param countryId
-         * @returns {*}
-         */
-        getCountryById: function getCountryById(countryId) {
-            return this.countryList.find(function (country) {
-                if (country.id === countryId) {
-                    return country;
-                }
-
-                return null;
-            });
-        }
-    },
-
-    watch: {
-        /**
-         * Add watcher to handle the country changed
-         */
-        selectedCountryId: function selectedCountryId() {
-            this.selectedCountryId = this.selectedCountryId || this.localization.currentShippingCountryId;
-            this.selectedCountry = this.getCountryById(this.selectedCountryId);
-
-            if (this.selectedCountry) {
-                this.stateList = CountryService.parseShippingStates(this.countryList, this.selectedCountryId);
-
-                this.$dispatch("selected-country-changed", this.selectedCountry.isoCode2);
-            }
-        }
-    }
-});
-
-},{"services/CountryService":75,"services/ResourceService":79}],23:[function(require,module,exports){
-"use strict";
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var ApiService = require("services/ApiService");
-var NotificationService = require("services/NotificationService");
-var ModalService = require("services/ModalService");
-
-var ValidationService = require("services/ValidationService");
-
-Vue.component("registration", {
-
-    props: {
-        modalElement: String,
-        guestMode: { type: Boolean, default: false },
-        isSimpleRegistration: { type: Boolean, default: false },
-        template: String,
-        backlink: String
-    },
-
-    data: function data() {
-        return {
-            password: "",
-            passwordRepeat: "",
-            username: "",
-            billingAddress: {},
-            isDisabled: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    methods: {
-        /**
-         * Validate the registration form
-         */
-        validateRegistration: function validateRegistration() {
-            var self = this;
-
-            ValidationService.validate($("#registration" + this._uid)).done(function () {
-                self.sendRegistration();
-            }).fail(function (invalidFields) {
-                ValidationService.markInvalidFields(invalidFields, "error");
-            });
-        },
-
-        /**
-         * Send the registration
-         */
-        sendRegistration: function sendRegistration() {
-            var userObject = this.getUserObject();
-            var component = this;
-
-            this.isDisabled = true;
-
-            ApiService.post("/rest/io/customer", userObject).done(function (response) {
-                ApiService.setToken(response);
-
-                if (document.getElementById(component.modalElement) !== null) {
-                    ModalService.findModal(document.getElementById(component.modalElement)).hide();
-                }
-
-                if ((typeof response === "undefined" ? "undefined" : _typeof(response)) === "object") {
-                    NotificationService.success(Translations.Template.accRegistrationSuccessful).closeAfter(3000);
-                } else {
-                    NotificationService.error(Translations.Template.accRegistrationError).closeAfter(3000);
-                }
-
-                if (component.backlink !== null && component.backlink) {
-                    window.location.assign(component.backlink);
-                }
-
-                component.isDisabled = false;
-            }).fail(function () {
-                component.isDisabled = false;
-            });
-        },
-
-        /**
-         * Handle the user object which is send to the server
-         * @returns {{contact: {referrerId: number, typeId: number, options: {typeId: {typeId: number, subTypeId: number, value: *, priority: number}}}}|{contact: {referrerId: number, typeId: number, password: *, options: {typeId: {typeId: number, subTypeId: number, value: *, priority: number}}}}}
-         */
-        getUserObject: function getUserObject() {
-            var userObject = {
-                contact: {
-                    referrerId: 1,
-                    typeId: 1,
-                    options: {
-                        typeId: {
-                            typeId: 2,
-                            subTypeId: 4,
-                            value: this.username,
-                            priority: 0
-                        }
-                    }
-                }
-            };
-
-            if (!this.guestMode) {
-                userObject.contact.password = this.password;
-            }
-
-            if (!this.isSimpleRegistration) {
-                userObject.billingAddress = this.billingAddress;
-            }
-
-            return userObject;
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/ModalService":77,"services/NotificationService":78,"services/ValidationService":81}],24:[function(require,module,exports){
-"use strict";
-
-var ValidationService = require("services/ValidationService");
-var ApiService = require("services/ApiService");
-
-Vue.component("guest-login", {
-
-    props: ["template", "backlink"],
-
-    data: function data() {
-        return {
-            email: "",
-            isDisabled: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    methods: {
-        validate: function validate() {
-            ValidationService.validate($("#guest-login-form-" + this._uid)).done(function () {
-                this.sendEMail();
-            }.bind(this)).fail(function (invalidFields) {
-                ValidationService.markInvalidFields(invalidFields, "error");
-            });
-        },
-
-        sendEMail: function sendEMail() {
-            this.isDisabled = true;
-
-            ApiService.post("/rest/io/guest", { email: this.email }).done(function () {
-                if (this.backlink !== null && this.backlink) {
-                    window.location.assign(this.backlink);
-                }
-
-                this.isDisabled = false;
-            }.bind(this));
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/ValidationService":81}],25:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var NotificationService = require("services/NotificationService");
-var ModalService = require("services/ModalService");
-var ValidationService = require("services/ValidationService");
-
-Vue.component("login", {
-
-    props: ["modalElement", "backlink", "hasToForward", "template"],
-
-    data: function data() {
-        return {
-            password: "",
-            username: "",
-            isDisabled: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    methods: {
-        /**
-         * Open the login modal
-         */
-        showLogin: function showLogin() {
-            ModalService.findModal(document.getElementById(this.modalElement)).show();
-        },
-
-        validateLogin: function validateLogin() {
-            var self = this;
-
-            ValidationService.validate($("#login-form-" + this._uid)).done(function () {
-                self.sendLogin();
-            }).fail(function (invalidFields) {
-                ValidationService.markInvalidFields(invalidFields, "error");
-            });
-        },
-
-        /**
-         * Send the login data
-         */
-        sendLogin: function sendLogin() {
-            var self = this;
-
-            this.isDisabled = true;
-
-            ApiService.post("/rest/io/customer/login", { email: this.username, password: this.password }, { supressNotifications: true }).done(function (response) {
-                ApiService.setToken(response);
-
-                if (document.getElementById(self.modalElement) !== null) {
-                    ModalService.findModal(document.getElementById(self.modalElement)).hide();
-                }
-
-                NotificationService.success(Translations.Template.accLoginSuccessful).closeAfter(10000);
-
-                if (self.backlink !== null && self.backlink) {
-                    location.assign(self.backlink);
-                } else if (self.hasToForward) {
-                    location.assign(location.origin);
-                } else {
-                    location.reload();
-                }
-
-                self.isDisabled = false;
-            }).fail(function (response) {
-                switch (response.code) {
-                    case 401:
-                        NotificationService.error(Translations.Template.accLoginFailed).closeAfter(10000);
-                        break;
-                    default:
-                        return;
-                }
-
-                self.isDisabled = false;
-            });
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/ModalService":77,"services/NotificationService":78,"services/ValidationService":81}],26:[function(require,module,exports){
-"use strict";
-
-Vue.component("login-view", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            isGuestMode: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    }
-});
-
-},{}],27:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var ResourceService = require("services/ResourceService");
-
-Vue.component("user-login-handler", {
-
-    props: ["userData", "template"],
-
-    data: function data() {
-        return {
-            username: "",
-            isLoggedIn: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Add the global event listener for login and logout
-     */
-    ready: function ready() {
-        ResourceService.bind("user", this, "isLoggedIn");
-
-        this.setUsername(this.userData);
-        this.addEventListeners();
-    },
-
-    methods: {
-        /**
-         * Set the current user logged in
-         * @param userData
-         */
-        setUsername: function setUsername(userData) {
-            if (userData) {
-                if (userData.firstName.length > 0 && userData.lastName.length > 0) {
-                    this.username = userData.firstName + " " + userData.lastName;
-                } else {
-                    this.username = userData.options[0].value;
-                }
-            }
-        },
-
-        /**
-         * Adds login/logout event listeners
-         */
-        addEventListeners: function addEventListeners() {
-            var self = this;
-
-            ApiService.listen("AfterAccountAuthentication", function (userData) {
-                self.setUsername(userData.accountContact);
-                ResourceService.getResource("user").set({ isLoggedIn: true });
-            });
-
-            ApiService.listen("AfterAccountContactLogout", function () {
-                self.username = "";
-                ResourceService.getResource("user").set({ isLoggedIn: false });
-            });
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/ResourceService":79}],28:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("item-image-carousel", {
-
-    props: ["imageUrlAccessor", "template"],
-
-    data: function data() {
-        return {
-            init: false,
-            currentVariation: {},
-            currentItem: 0
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.watch("currentVariation", function (newValue) {
-            this.currentVariation = newValue;
-
-            var self = this;
-
-            if (!this.init) {
-                $(window).load(function () {
-                    self.initCarousel();
-
-                    self.init = true;
-                });
-            } else {
-                setTimeout(function () {
-                    self.reInitialize();
-                }, 1);
-            }
-        }.bind(this));
-    },
-
-    methods: {
-        getImageCount: function getImageCount() {
-            var images = this.currentVariation.documents[0].data.images;
-
-            return images.variation.length || images.all.length;
-        },
-
-        reInitialize: function reInitialize() {
-            var $owl = $(this.$els.single);
-
-            $owl.trigger("destroy.owl.carousel");
-            $owl.html($owl.find(".owl-stage-outer").html()).removeClass("owl-loaded");
-            $owl.find(".owl-item").remove();
-
-            this.initCarousel();
-        },
-
-        initCarousel: function initCarousel() {
-            var imageCount = this.getImageCount();
-
-            $(this.$els.single).owlCarousel({
-                autoHeight: true,
-                dots: true,
-                items: 1,
-                lazyLoad: true,
-                loop: true,
-                margin: 10,
-                mouseDrag: imageCount > 1,
-                nav: imageCount > 1,
-                navClass: ["owl-single-item-nav left carousel-control", "owl-single-item-nav right carousel-control"],
-                navContainerClass: "",
-                navText: ["<i class=\"owl-single-item-control fa fa-chevron-left\" aria-hidden=\"true\"></i>", "<i class=\"owl-single-item-control fa fa-chevron-right\" aria-hidden=\"true\"></i>"],
-                smartSpeed: 350
-            });
-
-            $(this.$els.single).on("changed.owl.carousel", function (event) {
-                this.currentItem = event.page.index;
-            }.bind(this));
-        },
-
-        goTo: function goTo(index) {
-            var $owl = $(this.$els.single);
-
-            $owl.trigger("to.owl.carousel", [index, 350]);
-        }
-    }
-});
-
-},{"services/ResourceService":79}],29:[function(require,module,exports){
-"use strict";
-
-Vue.component("quantity-input", {
-
-    props: ["value", "timeout", "min", "max", "vertical", "template", "waiting"],
-
-    data: function data() {
-        return {
-            timeoutHandle: null
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * TODO
-     */
-    ready: function ready() {
-        this.timeout = this.timeout || 300;
-        this.min = this.min || 1;
-        this.max = this.max || 999;
-        this.vertical = this.vertical || false;
-
-        this.$watch("value", function (newValue) {
-            if (newValue < this.min) {
-                this.value = this.min;
-            }
-
-            if (newValue > this.max) {
-                this.value = this.max;
-            }
-
-            if (this.timeoutHandle) {
-                window.clearTimeout(this.timeoutHandle);
-            }
-
-            var self = this;
-
-            this.timeoutHandle = window.setTimeout(function () {
-                self.$dispatch("quantity-change", newValue);
-            }, this.timeout);
-        });
-    }
-
-});
-
-},{}],30:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var ResourceService = require("services/ResourceService");
-
-// cache loaded variation data for reuse
-var VariationData = {};
-
-Vue.component("variation-select", {
-
-    props: ["attributes", "variations", "preselect", "template"],
-
-    data: function data() {
-        return {
-            // Collection of currently selected variation attributes.
-            selectedAttributes: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        // initialize selected attributes to be tracked by change detection
-        var attributes = {};
-
-        for (var attributeId in this.attributes) {
-            attributes[attributeId] = null;
-        }
-        this.selectedAttributes = attributes;
-
-        // set attributes of preselected variation if exists
-        if (this.preselect) {
-            // find variation by id
-            var preselectedVariation = this.variations.filter(function (variation) {
-                // eslint-disable-next-line eqeqeq
-                return variation.variationId == this.preselect;
-            }.bind(this));
-
-            if (!!preselectedVariation && preselectedVariation.length === 1) {
-                // set attributes of preselected variation
-                this.setAttributes(preselectedVariation[0]);
-            }
-        }
-
-        // search for matching variation on each change of attribute selection
-        this.$watch("selectedAttributes", function () {
-
-            // search variations matching current selection
-            var possibleVariations = this.filterVariations();
-
-            if (possibleVariations.length === 1) {
-                // only 1 matching variation remaining:
-                // set remaining attributes if not set already. Will trigger this watcher again.
-                if (!this.setAttributes(possibleVariations[0])) {
-                    // all attributes are set => load variation data
-                    var variationId = possibleVariations[0].variationId;
-
-                    if (VariationData[variationId]) {
-                        // reuse cached variation data
-                        ResourceService.getResource("currentVariation").set(VariationData[variationId]);
-                    } else {
-                        // get variation data from remote
-                        ApiService.get("/rest/io/variations/" + variationId, { template: "Ceres::Item.SingleItem" }).done(function (response) {
-                            // store received variation data for later reuse
-                            VariationData[variationId] = response;
-                            ResourceService.getResource("currentVariation").set(response);
-                        });
-                    }
-                }
-            }
-        }, {
-            deep: true
-        });
-
-        // watch for changes on selected variation to adjust url
-        ResourceService.watch("currentVariation", function (newVariation, oldVariation) {
-            if (oldVariation) {
-                var url = this.$options.filters.itemURL(newVariation.documents[0].data);
-                var title = document.getElementsByTagName("title")[0].innerHTML;
-
-                window.history.replaceState({}, title, url);
-            }
-        }.bind(this));
-    },
-
-    methods: {
-
-        /**
-         * Finds all variations matching a given set of attributes.
-         * @param {{[int]: int}}  attributes   A map containing attributeIds and attributeValueIds. Used to filter variations
-         * @returns {array}                    A list of matching variations.
-         */
-        filterVariations: function filterVariations(attributes) {
-            attributes = attributes || this.selectedAttributes;
-            return this.variations.filter(function (variation) {
-
-                for (var i = 0; i < variation.attributes.length; i++) {
-                    var id = variation.attributes[i].attributeId;
-                    var val = variation.attributes[i].attributeValueId;
-
-                    if (!!attributes[id] && attributes[id] != val) {
-                        return false;
-                    }
-                }
-                return true;
-            });
-        },
-
-        /**
-         * Tests if a given attribute value is not available depending on the current selection.
-         * @param {int}     attributeId         The id of the attribute
-         * @param {int}     attributeValueId    The valueId of the attribute
-         * @returns {boolean}                   True if the value can be combined with the current selection.
-         */
-        isEnabled: function isEnabled(attributeId, attributeValueId) {
-            // clone selectedAttributes to avoid touching objects bound to UI
-            var attributes = JSON.parse(JSON.stringify(this.selectedAttributes));
-
-            attributes[attributeId] = attributeValueId;
-            return this.filterVariations(attributes).length > 0;
-        },
-
-        /**
-         * Set selected attributes by a given variation.
-         * @param {*}           variation   The variation to set as selected
-         * @returns {boolean}               true if at least one attribute has been changed
-         */
-        setAttributes: function setAttributes(variation) {
-            var hasChanges = false;
-
-            for (var i = 0; i < variation.attributes.length; i++) {
-                var id = variation.attributes[i].attributeId;
-                var val = variation.attributes[i].attributeValueId;
-
-                if (this.selectedAttributes[id] !== val) {
-                    this.selectedAttributes[id] = val;
-                    hasChanges = true;
-                }
-            }
-
-            return hasChanges;
-        }
-
-    }
-
-});
-
-},{"services/ApiService":72,"services/ResourceService":79}],31:[function(require,module,exports){
-"use strict";
-
-Vue.component("category-image-carousel", {
-
-    props: ["imageUrls", "itemUrl", "altText", "showDots", "showNav", "template"],
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        if (this.imageUrls && this.imageUrls.length > 0) {
-            $(".owl-carousel").owlCarousel({
-                dots: this.showDots === "true",
-                items: 1,
-                loop: this.imageUrls.length > 1,
-                lazyLoad: true,
-                margin: 10,
-                nav: this.showNav === "true",
-                navText: ["<i class='fa fa-chevron-left' aria-hidden='true'></i>", "<i class='fa fa-chevron-right' aria-hidden='true'></i>"]
-            });
-        }
-    }
-});
-
-},{}],32:[function(require,module,exports){
-"use strict";
-
-Vue.component("category-item", {
-
-    template: "#vue-category-item",
-
-    props: ["decimalCount", "itemData", "imageUrlAccessor"],
-
-    data: function data() {
-        return {
-            recommendedRetailPrice: 0,
-            variationRetailPrice: 0
-        };
-    },
-
-    created: function created() {
-        this.recommendedRetailPrice = this.itemData.calculatedPrices.rrp.price;
-        this.variationRetailPrice = this.itemData.calculatedPrices.default.price;
-    },
-
-    computed: {
-        /**
-         * returns itemData.item.storeSpecial
-         */
-        storeSpecial: function storeSpecial() {
-            return this.itemData.item.storeSpecial;
-        },
-
-        /**
-         * returns itemData.texts[0]
-         */
-        texts: function texts() {
-            return this.itemData.texts;
-        }
-    }
-});
-
-},{}],33:[function(require,module,exports){
-"use strict";
-
-Vue.component("item-lazy-img", {
-
-    props: ["imageUrl", "template"],
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        var self = this;
-
-        setTimeout(function () {
-            $(self.$els.lazyImg).show().lazyload();
-        }, 1);
-    }
-});
-
-},{}],34:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("item-list", {
-
-    props: ["categoryId", "template"],
-
-    data: function data() {
-        return {
-            itemList: {},
-            isLoading: false,
-            filterListState: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        ItemListService.setCategoryId(this.categoryId);
-    },
-
-    ready: function ready() {
-        ResourceService.bind("itemList", this);
-        ResourceService.bind("isLoading", this);
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79}],35:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ItemListService = require("services/ItemListService");
-
-Vue.component("item-list-sorting", {
-
-    props: ["sortData", "template"],
-
-    data: function data() {
-        return {
-            selectedSorting: {},
-            dataTranslationMapping: {
-                "item.id_asc": "itemId_asc",
-                "item.id_desc": "itemId_desc",
-                "texts.name1_asc": "itemName_asc",
-                "texts.name1_desc": "itemName_desc",
-                "item.position_asc": "itemPosition_asc",
-                "item.position_desc": "itemPosition_desc",
-                "item.salesPrice.price_asc": "itemPrice_asc",
-                "item.salesPrice.price_desc": "itemPrice_desc",
-                "variation.createdAt_asc": "variationCreateTimestamp_asc",
-                "variation.createdAt_desc": "variationCreateTimestamp_desc",
-                "variation.id_asc": "variationId_asc",
-                "variation.id_desc": "variationId_desc",
-                "variation.number_asc": "variationCustomNumber_asc",
-                "variation.number_desc": "variationCustomNumber_desc",
-                "variation.updatedAt_asc": "variationLastUpdateTimestamp_asc",
-                "variation.updatedAt_desc": "variationLastUpdateTimestamp_desc",
-                "variation.position_asc": "variationPosition_asc",
-                "variation.position_desc": "variationPosition_desc",
-                "variation.isActive_asc": "variationActive_asc",
-                "variation.isActive_desc": "variationActive_desc",
-                "variation.isMain_asc": "variationPrimary_asc",
-                "variation.isMain_desc": "variationPrimary_desc",
-                "item.manufacturer.name_asc": "itemProducerName_asc",
-                "item.manufacturer.name_desc": "itemProducerName_desc"
-            }
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        this.buildData();
-        this.selectedSorting = this.sortData[0];
-
-        this.setSelectedValueByUrl();
-    },
-
-    methods: {
-        buildData: function buildData() {
-            for (var i in this.sortData) {
-                var data = this.sortData[i];
-                var sortItem = {
-                    value: data,
-                    displayName: Translations.Template[this.dataTranslationMapping[data]]
-                };
-
-                this.sortData[i] = sortItem;
-            }
-        },
-
-        updateSorting: function updateSorting() {
-            ItemListService.setOrderBy(this.selectedSorting.value);
-            ItemListService.getItemList();
-        },
-
-        setSelectedValueByUrl: function setSelectedValueByUrl() {
-            var urlParams = _UrlService2.default.getUrlParams(document.location.search);
-
-            if (urlParams.sorting) {
-                for (var i in this.sortData) {
-                    if (this.sortData[i].value === urlParams.sorting) {
-                        this.selectedSorting = this.sortData[i];
-                        ItemListService.setOrderBy(this.selectedSorting.value);
-                    }
-                }
-            }
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/UrlService":80}],36:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("item-search", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            searchString: "",
-            itemSearch: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        ResourceService.bind("itemSearch", this);
-        this.initAutocomplete();
-
-        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
-
-        this.itemSearch.query = urlParams.query;
-
-        if (this.itemSearch.query) {
-            ItemListService.updateSearchString(this.itemSearch.query);
-        }
-    },
-
-    methods: {
-        search: function search() {
-            if (document.location.pathname === "/search") {
-                ItemListService.setSearchString(this.itemSearch.query);
-                ItemListService.getItemList();
-            } else {
-                window.open("/search?query=" + this.itemSearch.query, "_self", false);
-            }
-        },
-
-        initAutocomplete: function initAutocomplete() {
-            var self = this;
-
-            $(".search-input").autocomplete({
-                serviceUrl: "/rest/io/item/search/autocomplete",
-                paramName: "query",
-                params: { template: "Ceres::ItemList.Components.ItemSearch" },
-                width: $(".search-box-shadow-frame").width(),
-                zIndex: 1070,
-                maxHeight: 310,
-                minChars: 2,
-                preventBadQueries: false,
-                onSelect: function onSelect(suggestion) {
-                    self.itemSearch.query = suggestion.value;
-                    self.search();
-                },
-                beforeRender: function beforeRender() {
-                    $(".autocomplete-suggestions").width($(".search-box-shadow-frame").width());
-                },
-                transformResult: function transformResult(response) {
-                    return self.transformSuggestionResult(response);
-                }
-            });
-
-            $(window).resize(function () {
-                $(".autocomplete-suggestions").width($(".search-box-shadow-frame").width());
-            });
-        },
-
-        transformSuggestionResult: function transformSuggestionResult(result) {
-            result = JSON.parse(result);
-            var suggestions = {
-                suggestions: $.map(result.data.documents, function (dataItem) {
-                    var value = this.$options.filters.itemName(dataItem.data.texts, window.App.config.itemName);
-
-                    return {
-                        value: value,
-                        data: value
-                    };
-                }.bind(this))
-            };
-
-            return suggestions;
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79,"services/UrlService":80}],37:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var accounting = require("accounting");
-
-Vue.component("item-store-special", {
-
-    template: "#vue-item-store-special",
-
-    props: ["storeSpecial", "recommendedRetailPrice", "variationRetailPrice", "decimalCount"],
-
-    data: function data() {
-        return {
-            tagClassPrefix: "bg-",
-            localization: {}
-        };
-    },
-
-    created: function created() {
-        ResourceService.bind("localization", this);
-    },
-
-    methods: {
-        getPercentageSale: function getPercentageSale() {
-            var percent = 100 - this.recommendedRetailPrice / this.variationRetailPrice * 100;
-
-            return accounting.formatNumber(percent, this.decimalCount, "");
-        }
-    },
-
-    computed: {
-        label: function label() {
-            if (this.storeSpecial.id === 1) {
-                var percent = this.getPercentageSale();
-
-                if (percent <= 0) {
-                    return percent + "%";
-                }
-            }
-
-            return this.storeSpecial.names.name;
-        },
-
-        tagClass: function tagClass() {
-            if (this.storeSpecial.id === 1) {
-                return this.tagClassPrefix + "danger";
-            } else if (this.storeSpecial.id === 2) {
-                return this.tagClassPrefix + "primary";
-            }
-            return this.tagClassPrefix + "success";
-        }
-    }
-});
-
-},{"accounting":1,"services/ResourceService":79}],38:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("items-per-page", {
-
-    props: ["columnsPerPage", "rowsPerPage", "template"],
-
-    data: function data() {
-        return {
-            itemSearch: {},
-            paginationValues: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        this.initPaginationValues();
-        ResourceService.bind("itemSearch", this);
-        this.setSelectedValueByUrl();
-    },
-
-    methods: {
-        itemsPerPageChanged: function itemsPerPageChanged() {
-            ItemListService.setItemsPerPage(this.itemSearch.items);
-            ItemListService.setPage(1);
-            ItemListService.getItemList();
-        },
-
-        setSelectedValueByUrl: function setSelectedValueByUrl() {
-            var urlParams = _UrlService2.default.getUrlParams(document.location.search);
-
-            if (urlParams.items) {
-                if (this.paginationValues.indexOf(urlParams.items) > -1) {
-                    this.itemSearch.items = urlParams.items;
-                } else {
-                    this.itemSearch.items = App.config.defaultItemsPerPage;
-                }
-            } else {
-                this.itemSearch.items = App.config.defaultItemsPerPage;
-            }
-
-            ItemListService.setItemsPerPage(this.itemSearch.items);
-        },
-
-        initPaginationValues: function initPaginationValues() {
-            for (var rowKey in this.rowsPerPage) {
-                this.paginationValues.push(this.rowsPerPage[rowKey] * this.columnsPerPage);
-            }
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79,"services/UrlService":80}],39:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("pagination", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            itemSearch: {},
-            itemList: {},
-            lastPageMax: 0
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("itemSearch", this);
-        ResourceService.bind("itemList", this);
-
-        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
-
-        this.itemSearch.page = urlParams.page;
-    },
-
-    methods: {
-        setPage: function setPage(page) {
-            ItemListService.setPage(page);
-            ItemListService.getItemList();
-
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-        }
-    },
-
-    computed: {
-        page: function page() {
-            return parseInt(this.itemSearch.page) || 1;
-        },
-
-        pageMax: function pageMax() {
-            if (this.itemSearch.isLoading) {
-                return this.lastPageMax;
-            }
-
-            var pageMax = this.itemList.total / parseInt(this.itemSearch.items);
-
-            if (this.itemList.total % parseInt(this.itemSearch.items) > 0) {
-                pageMax += 1;
-            }
-
-            this.lastPageMax = parseInt(pageMax) || 1;
-            return parseInt(pageMax) || 1;
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79,"services/UrlService":80}],40:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("item-filter", {
-
-    props: ["template", "facet"],
-
-    data: function data() {
-        return {
-            facetParams: [],
-            isLoading: false
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template || "#vue-item-filter";
-        ResourceService.bind("facetParams", this);
-    },
-
-    ready: function ready() {
-        ResourceService.bind("isLoading", this);
-    },
-
-    methods: {
-        updateFacet: function updateFacet() {
-            ResourceService.getResource("facetParams").set(this.facetParams);
-            ItemListService.setFacets(this.facetParams);
-            ItemListService.getItemList();
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79}],41:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("item-filter-list", {
-
-    props: ["template", "facets"],
-
-    data: function data() {
-        return {
-            isActive: false
-        };
-    },
-
-    created: function created() {
-        ResourceService.bind("facets", this);
-
-        this.$options.template = this.template || "#vue-item-filter-list";
-
-        var urlParams = _UrlService2.default.getUrlParams(document.location.search);
-
-        if (urlParams.facets) {
-            ResourceService.getResource("facetParams").set(urlParams.facets.split(","));
-        }
-    },
-
-    methods: {
-        toggleOpeningState: function toggleOpeningState() {
-            window.setTimeout(function () {
-                this.isActive = !this.isActive;
-            }.bind(this), 300);
-        }
-    }
-});
-
-},{"services/ResourceService":79,"services/UrlService":80}],42:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var ItemListService = require("services/ItemListService");
-
-Vue.component("item-filter-tag-list", {
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            facets: {},
-            facetParams: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template || "#vue-item-filter-tag-list";
-        ResourceService.bind("facetParams", this);
-    },
-
-    ready: function ready() {
-        ResourceService.bind("facets", this);
-    },
-
-    methods: {
-        removeTag: function removeTag(tagId) {
-            this.facetParams.splice(this.facetParams.indexOf(tagId.toString()), 1);
-
-            ResourceService.getResource("facetParams").set(this.facetParams);
-            ItemListService.setFacets(this.facetParams);
-            ItemListService.getItemList();
-        }
-    },
-
-    computed: {
-        tagList: function tagList() {
-            var tagList = [];
-
-            if (this.facetParams.length > 0) {
-                for (var facetKey in this.facets) {
-                    for (var facetItemKey in this.facets[facetKey].values) {
-                        if (this.facetParams.indexOf(this.facets[facetKey].values[facetItemKey].id.toString()) > -1) {
-                            tagList.push(this.facets[facetKey].values[facetItemKey]);
-                        }
-                    }
-                }
-            }
-
-            return tagList;
-        }
-    }
-});
-
-},{"services/ItemListService":76,"services/ResourceService":79}],43:[function(require,module,exports){
-"use strict";
-
-var ModalService = require("services/ModalService");
-var APIService = require("services/APIService");
-var NotificationService = require("services/NotificationService");
-
-Vue.component("account-settings", {
-
-    props: ["userData", "template"],
-
-    data: function data() {
-        return {
-            newPassword: "",
-            confirmPassword: "",
-            accountSettingsClass: "",
-            accountSettingsModal: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Initialise the account settings modal
-     */
-    ready: function ready() {
-        this.accountSettingsModal = ModalService.findModal(this.$els.accountSettingsModal);
-    },
-
-    computed: {
-        /**
-         * Check whether the passwords match
-         * @returns {boolean}
-         */
-        matchPassword: function matchPassword() {
-            if (this.confirmPassword !== "") {
-                return this.newPassword === this.confirmPassword;
-            }
-            return true;
-        }
-    },
-
-    methods: {
-
-        /**
-         * Open the account settings modal
-         */
-        showChangeAccountSettings: function showChangeAccountSettings() {
-            this.accountSettingsModal.show();
-        },
-
-        /**
-         * Save the new password
-         */
-        saveAccountSettings: function saveAccountSettings() {
-            var self = this;
-
-            if (this.newPassword !== "" && this.newPassword === this.confirmPassword) {
-                APIService.post("/rest/io/customer/password", { password: this.newPassword }).done(function (response) {
-                    self.clearFieldsAndClose();
-                    NotificationService.success(Translations.Template.accChangePasswordSuccessful).closeAfter(3000);
-                }).fail(function (response) {
-                    self.clearFieldsAndClose();
-                    NotificationService.error(Translations.Template.accChangePasswordFailed).closeAfter(5000);
-                });
-            }
-        },
-
-        /**
-         * Clear the password fields in the modal
-         */
-        clearFields: function clearFields() {
-            this.newPassword = "";
-            this.confirmPassword = "";
-        },
-
-        /**
-         * Clear the fields and close the modal
-         */
-        clearFieldsAndClose: function clearFieldsAndClose() {
-            this.accountSettingsModal.hide();
-            this.clearFields();
-        },
-
-        /**
-         * Get the current email address of the user
-         * @returns {*}
-         */
-        getEmail: function getEmail() {
-            return this.userData.options[0].value;
-        }
-    }
-
-});
-
-},{"services/APIService":70,"services/ModalService":77,"services/NotificationService":78}],44:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var NotificationService = require("services/NotificationService");
-var ModalService = require("services/ModalService");
-var ValidationService = require("services/ValidationService");
-
-Vue.component("bank-data-select", {
-
-    props: ["userBankData", "contactId", "template"],
-
-    data: function data() {
-        return {
-            bankInfoModal: {},
-            bankDeleteModal: {},
-            updateBankData: {},
-            selectedBankData: null,
-            updateBankIndex: 0,
-            doUpdate: null,
-            headline: ""
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    /**
-     * Select the modals
-     */
-    ready: function ready() {
-        this.bankInfoModal = ModalService.findModal(this.$els.bankInfoModal);
-        this.bankDeleteModal = ModalService.findModal(this.$els.bankDeleteModal);
-    },
-
-    methods: {
-
-        /**
-         * Set the selected bank-data
-         */
-        changeSelecting: function changeSelecting(bankData) {
-            this.selectedBankData = bankData;
-        },
-
-        /**
-         * Open the modal to add new bank-data
-         */
-        openAddBank: function openAddBank() {
-            this.headline = Translations.Template.bankAddDataTitle;
-            this.openModal(false);
-        },
-
-        /**
-         * Set data to update and open the modal
-         * @param index
-         * @param bankdata
-         */
-        openUpdateBank: function openUpdateBank(index, bankData) {
-            this.headline = Translations.Template.bankUpdateDataTitle;
-
-            this.setUpdateData(index, bankData);
-            this.openModal(true);
-        },
-
-        /**
-         * Set data to remove and open the modal
-         * @param index
-         * @param bankdata
-         */
-        openDeleteBank: function openDeleteBank(index, bankData) {
-            this.setUpdateData(index, bankData);
-
-            this.doUpdate = false;
-            this.bankDeleteModal.show();
-        },
-
-        /**
-         * Open the modal
-         * @param doUpdate
-         */
-        openModal: function openModal(doUpdate) {
-            this.doUpdate = doUpdate;
-            this.bankInfoModal.show();
-        },
-
-        /**
-         * Set data to change
-         * @param index
-         * @param bankdata
-         */
-        setUpdateData: function setUpdateData(index, bankData) {
-            this.updateBankData = JSON.parse(JSON.stringify(bankData));
-            this.updateBankIndex = index;
-        },
-
-        /**
-         * Validate the input-fields-data
-         */
-        validateInput: function validateInput() {
-            var _self = this;
-
-            ValidationService.validate($("#my-bankForm")).done(function () {
-                if (_self.doUpdate) {
-                    _self.updateBankInfo();
-                } else {
-                    _self.addBankInfo();
-                }
-            }).fail(function (invalidFields) {
-                ValidationService.markInvalidFields(invalidFields, "error");
-            });
-        },
-
-        /**
-         * Update bank-data
-         */
-        updateBankInfo: function updateBankInfo() {
-            var _self = this;
-
-            this.updateBankData.lastUpdateBy = "customer";
-
-            ApiService.put("/rest/io/customer/bank_data/" + this.updateBankData.id, this.updateBankData).done(function (response) {
-                _self.userBankData.splice(_self.updateBankIndex, 1, response);
-                _self.checkBankDataSelection();
-                _self.closeModal();
-
-                NotificationService.success(Translations.Template.bankDataUpdated).closeAfter(3000);
-            }).fail(function () {
-                _self.closeModal();
-
-                NotificationService.error(Translations.Template.bankDataNotUpdated).closeAfter(5000);
-            });
-        },
-
-        /**
-         * Add new bank-data
-         */
-        addBankInfo: function addBankInfo() {
-            var _self = this;
-
-            this.updateBankData.lastUpdateBy = "customer";
-            this.updateBankData.contactId = this.contactId;
-
-            ApiService.post("/rest/io/customer/bank_data", this.updateBankData).done(function (response) {
-                _self.userBankData.push(response);
-                _self.checkBankDataSelection(true);
-                _self.closeModal();
-
-                NotificationService.success(Translations.Template.bankDataAdded).closeAfter(3000);
-            }).fail(function () {
-                _self.closeModal();
-
-                NotificationService.error(Translations.Template.bankDataNotAdded).closeAfter(5000);
-            });
-        },
-
-        /**
-         * Delete bank-data
-         */
-        removeBankInfo: function removeBankInfo() {
-            var _self = this;
-
-            ApiService.delete("/rest/io/customer/bank_data/" + this.updateBankData.id).done(function (response) {
-                _self.checkBankDataSelection(false);
-                _self.closeDeleteModal();
-                _self.userBankData.splice(_self.updateBankIndex, 1);
-
-                NotificationService.success(Translations.Template.bankDataDeleted).closeAfter(3000);
-            }).fail(function () {
-                _self.closeDeleteModal();
-
-                NotificationService.error(Translations.Template.bankDataNotDeleted).closeAfter(5000);
-            });
-        },
-
-        /**
-         * Check selection on delete and on add bank-data
-         */
-        checkBankDataSelection: function checkBankDataSelection(addData) {
-            if (addData && !this.doUpdate && this.userBankData.length < 1) {
-                this.selectedBankData = this.userBankData[0];
-            }
-
-            if (!addData && this.selectedBankData && this.selectedBankData.id == this.updateBankData.id) {
-                if (!this.doUpdate) {
-                    this.selectedBankData = null;
-                } else {
-                    this.selectedBankData = this.userBankData[this.updateBankIndex];
-                }
-            }
-        },
-
-        /**
-         * Reset the updateBankData and updateBankIndex
-         */
-        resetData: function resetData() {
-            this.updateBankData = {};
-            this.updateBankIndex = 0;
-            this.doUpdate = false;
-        },
-
-        /**
-         * Close the current bank-modal
-         */
-        closeModal: function closeModal() {
-            this.bankInfoModal.hide();
-            this.resetData();
-        },
-
-        /**
-         * Close the current bank-delete-modal
-         */
-        closeDeleteModal: function closeDeleteModal() {
-            this.bankDeleteModal.hide();
-            this.resetData();
-        }
-    }
-});
-
-},{"services/ApiService":72,"services/ModalService":77,"services/NotificationService":78,"services/ValidationService":81}],45:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-
-(function ($) {
-    Vue.component("order-history", {
-
-        props: ["orderList", "itemsPerPage", "showFirstPage", "showLastPage", "template"],
-
-        data: function data() {
-            return {
-                page: 1,
-                pageMax: 1,
-                countStart: 0,
-                countEnd: 0,
-                currentOrder: null,
-                isLoading: true
-            };
-        },
-
-        created: function created() {
-            this.$options.template = this.template;
-        },
-
-        ready: function ready() {
-            this.itemsPerPage = this.itemsPerPage || 10;
-            this.pageMax = Math.ceil(this.orderList.totalsCount / this.itemsPerPage);
-            this.setOrders(this.orderList);
-        },
-
-        methods: {
-
-            setOrders: function setOrders(orderList) {
-                this.$set("orderList", orderList);
-                this.page = this.orderList.page;
-                this.countStart = (this.orderList.page - 1) * this.itemsPerPage + 1;
-                this.countEnd = this.orderList.page * this.itemsPerPage;
-
-                if (this.countEnd > this.orderList.totalsCount) {
-                    this.countEnd = this.orderList.totalsCount;
-                }
-            },
-
-            setCurrentOrder: function setCurrentOrder(order) {
-                $("#dynamic-twig-content").html("");
-                this.isLoading = true;
-
-                this.currentOrder = order;
-                var self = this;
-
-                Vue.nextTick(function () {
-                    $(self.$els.orderDetails).modal("show");
-                });
-
-                var jsonEncodedOrder = JSON.stringify(order);
-
-                ApiService.get("/rest/io/template?template=Ceres::Checkout.OrderDetails&params[orderData]=" + jsonEncodedOrder).done(function (response) {
-                    this.isLoading = false;
-                    $("#dynamic-twig-content").html(response);
-                }.bind(this));
-            },
-
-            showPage: function showPage(page) {
-                var self = this;
-
-                if (page <= 0 || page > this.pageMax) {
-                    return;
-                }
-
-                ApiService.get("rest/io/order?page=" + page + "&items=" + this.itemsPerPage).done(function (response) {
-                    self.setOrders(response);
-                });
-            }
-        }
-    });
-})(jQuery);
-
-},{"services/ApiService":72}],46:[function(require,module,exports){
-"use strict";
-
-var NotificationService = require("services/NotificationService");
-
-Vue.component("notifications", {
-
-    props: ["initialNotifications", "template"],
-
-    data: function data() {
-        return {
-            notifications: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    ready: function ready() {
-        var self = this;
-
-        NotificationService.listen(function (notifications) {
-            self.$set("notifications", notifications);
-        });
-
-        self.showInitialNotifications();
-    },
-
-    methods: {
-        /**
-         * Dissmiss the notification
-         * @param notification
-         */
-        dismiss: function dismiss(notification) {
-            NotificationService.getNotifications().remove(notification);
-        },
-
-        /**
-         * show initial notifications from server
-         */
-        showInitialNotifications: function showInitialNotifications() {
-            for (var key in this.initialNotifications) {
-                // set default type top 'log'
-                var type = this.initialNotifications[key].type || "log";
-                var message = this.initialNotifications[key].message;
-
-                // type cannot be undefined
-                if (message) {
-                    if (NotificationService[type] && typeof NotificationService[type] === "function") {
-                        NotificationService[type](message);
-                    } else {
-                        // unkown type
-                        NotificationService.log(message);
-                    }
-                }
-            }
-        }
-    }
-});
-
-},{"services/NotificationService":78}],47:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("shipping-country-select", {
-
-    props: ["countryFlagPrefix", "template"],
-
-    data: function data() {
-        return {
-            localization: {}
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("localization", this);
-
-        for (var i in this.localization.activeShippingCountries) {
-            var country = this.localization.activeShippingCountries[i];
-
-            country.countryFlagClass = this.countryFlagPrefix + country.isoCode2.toLowerCase();
-        }
-    }
-});
-
-},{"services/ResourceService":79}],48:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.component("shop-language-select", {
-
-    props: ["countryFlagPrefix", "template"],
-
-    data: function data() {
-        return {
-            localization: {},
-            languageList: []
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-
-        ResourceService.bind("localization", this);
-
-        for (var i in this.localization.activeShopLanguageList) {
-            var languageKey = this.localization.activeShopLanguageList[i];
-            var languageName = Translations.Template[languageKey];
-            var language = {
-                key: languageKey,
-                name: languageName,
-                flagClass: this.countryFlagPrefix + languageKey
-            };
-
-            this.languageList.push(language);
-        }
-    }
-});
-
-},{"services/ResourceService":79}],49:[function(require,module,exports){
-"use strict";
-
-var WaitScreenService = require("services/WaitScreenService");
-
-/**
-*
-* CURRENTLY NOT IN USE
-* MAY BE USEFUL LATER
-*
-*/
-
-Vue.component("wait-screen", {
-
-    // template: "#vue-wait-screen", NEED TO IMPLEMENT TEMPLATE IN COMPONENT
-
-    props: ["template"],
-
-    data: function data() {
-        return {
-            overlay: WaitScreenService.getOverlay()
-        };
-    },
-
-    created: function created() {
-        this.$options.template = this.template;
-    },
-
-    computed: {
-        /**
-         * Show an overlay over the page
-         * @returns {boolean}
-         */
-        visible: function visible() {
-            return this.overlay.count > 0;
-        }
-    }
-});
-
-},{"services/WaitScreenService":82}],50:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-
-Vue.directive("logout", function () {
-    /**
-     * Logout the current user
-     */
-    $(this.el).click(function (event) {
-        $(this.el).addClass("disabled");
-
-        ApiService.post("/rest/io/customer/logout").done(function () {
-            window.location.assign(window.location.origin);
-        }).fail(function () {
-            $(this.el).removeClass("disabled");
-        }.bind(this));
-
-        event.preventDefault();
-    }.bind(this));
-});
-
-},{"services/ApiService":72}],51:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("is-loading-watcher", {
-    bind: function bind() {
-        var firstRendering = true;
-
-        ResourceService.watch("isLoading", function (newValue) {
-            if (!firstRendering && document.getElementById("twig-rendered-item-list") !== null) {
-                if (!newValue) {
-                    $("#twig-rendered-item-list").remove();
-
-                    document.getElementById("vue-rendered-item-list").style.removeProperty("display");
-                } else {
-                    $("#twig-rendered-item-list").addClass("loading");
-                }
-            } else {
-                firstRendering = false;
-            }
-        });
-    }
-});
-
-},{"services/ResourceService":79}],52:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("check-active", {
-    params: ["category"],
-
-    bind: function bind() {
-        var categoryObject = JSON.parse(this.params.category);
-
-        ResourceService.watch("breadcrumbs", function (values) {
-            for (var index in values) {
-                if (values[index].id == categoryObject.id) {
-                    this.el.classList.add("active");
-                    break;
-                } else {
-                    this.el.classList.remove("active");
-                }
-            }
-        }.bind(this));
-    }
-});
-
-},{"services/ResourceService":79}],53:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("is-loading-breadcrumbs-watcher", {
-    bind: function bind() {
-        var firstRendering = true;
-
-        ResourceService.watch("isLoadingBreadcrumbs", function () {
-            if (!firstRendering && document.getElementById("twig-rendered-breadcrumbs") !== null) {
-                $("#twig-rendered-breadcrumbs").remove();
-
-                document.getElementById("vue-rendered-breadcrumbs").style.removeProperty("display");
-            } else {
-                firstRendering = false;
-            }
-        });
-    }
-});
-
-},{"services/ResourceService":79}],54:[function(require,module,exports){
-"use strict";
-
-var CategoryRendererService = require("services/CategoryRendererService");
-
-Vue.directive("render-category", function (value) {
-    $(this.el).click(function (event) {
-        event.preventDefault();
-
-        CategoryRendererService.renderItems(value);
-    });
-});
-
-},{"services/CategoryRendererService":73}],55:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.elementDirective("resource", {
-    priority: 10000,
-    params: ["name", "route", "data", "events", "responseTemplate"],
-    bind: function bind() {
-        var resource = ResourceService.registerResource(this.params.name, this.params.route, this.params.data, this.params.responseTemplate);
-        var events = this.params.events || [];
-
-        for (var i = 0; i < events.length; i++) {
-            var event = events[i].split("!");
-            var usePayload;
-
-            if (event.length > 1) {
-                usePayload = event[1];
-            }
-
-            resource.listen(event[0], usePayload);
-        }
-    }
-
-});
-
-Vue.elementDirective("resource-list", {
-    priority: 10000,
-    params: ["name", "route", "data", "events", "responseTemplate"],
-    bind: function bind() {
-        var resource = ResourceService.registerResourceList(this.params.name, this.params.route, this.params.data, this.params.responseTemplate);
-        var events = this.params.events || [];
-
-        for (var i = 0; i < events.length; i++) {
-            var event = events[i].split("!");
-            var usePayload;
-
-            if (event.length > 1) {
-                usePayload = event[1];
-            }
-
-            resource.listen(event[0], usePayload);
-        }
-    }
-});
-
-},{"services/ResourceService":79}],56:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("resource-bind", {
-
-    params: ["filters"],
-
-    bind: function bind() {
-        var self = this;
-
-        ResourceService.watch(this.arg, function (value) {
-            var paths = self.expression.split(".");
-
-            for (var i = 0; i < paths.length; i++) {
-                var path = paths[i];
-
-                value = value[path];
-            }
-
-            var filters = self.params.filters || [];
-
-            for (var j = 0; j < filters.length; j++) {
-                var filter = Vue.filter(self.params.filters[j]);
-
-                value = filter.apply(Object, [value]);
-            }
-
-            self.el.innerHTML = value;
-        });
-    }
-
-});
-
-},{"services/ResourceService":79}],57:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("resource-if", {
-
-    bind: function bind() {
-        var self = this;
-        var display = window.getComputedStyle(this.el, null).getPropertyValue("display");
-
-        ResourceService.watch(this.arg, function (value) {
-
-            var keys = Object.keys(value);
-            var values = keys.map(function (key) {
-                return value[key];
-            });
-
-            // eslint-disable-next-line
-            var condition = new Function(keys, "return " + self.expression);
-
-            if (condition.apply(null, values)) {
-                self.el.style.display = display;
-            } else {
-                self.el.style.display = "none";
-            }
-        });
-    }
-
-});
-
-},{"services/ResourceService":79}],58:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-
-Vue.directive("resource-push", {
-
-    params: ["dataAccessor", "resource"],
-
-    bind: function bind() {
-        var self = this;
-
-        ResourceService.watch(this.params.resource, function (newValue, oldValue) {
-            if (self.params.dataAccessor) {
-                self.el.__vue__[self.arg] = newValue.documents[0].data;
-            } else {
-                self.el.__vue__[self.arg] = newValue;
-            }
-        });
-    }
-
-});
-
-},{"services/ResourceService":79}],59:[function(require,module,exports){
-"use strict";
-
-Vue.directive("change-lang", function (value) {
-    $(this.el).click(function (event) {
-        var subPath = window.location.pathname.split("/");
-
-        subPath = subPath[1] == value.currLang ? window.location.pathname.substring(3) : window.location.pathname;
-
-        window.location.assign(window.location.origin + "/" + value.lang + "" + subPath);
-    });
-});
-
-},{}],60:[function(require,module,exports){
-"use strict";
-
-var CheckoutService = require("services/CheckoutService");
-
-Vue.directive("shipping-country", function (value) {
-    $(this.el).click(function (event) {
-        event.preventDefault();
-        CheckoutService.setShippingCountryId(value);
-    });
-});
-
-},{"services/CheckoutService":74}],61:[function(require,module,exports){
-"use strict";
-
-Vue.directive("tooltip", {
-
-    bind: function bind() {
-        setTimeout(function () {
-            $(this.el).tooltip();
-        }.bind(this), 1);
-    }
-});
-
-},{}],62:[function(require,module,exports){
-"use strict";
-
-Vue.filter("arrayFirst", function (array) {
-    return array[0];
-});
-
-},{}],63:[function(require,module,exports){
-"use strict";
-
-Vue.filter("attachText", function (item, text) {
-    return text + item;
-});
-
-},{}],64:[function(require,module,exports){
-"use strict";
-
-var ResourceService = require("services/ResourceService");
-var currencySymbolMap = require("currency-symbol-map");
-var accounting = require("accounting");
-
-Vue.filter("currency", function (price, customCurrency) {
-    var basket = ResourceService.getResource("basket").val();
-
-    var currency = customCurrency || basket.currency;
-
-    if (currency) {
-        var currencySymbol = currencySymbolMap.getSymbolFromCurrency(currency);
-
-        if (currencySymbol) {
-            currency = currencySymbol;
-        }
-    }
-
-    // (%v = value, %s = symbol)
-    var options = {
-        symbol: currency,
-        decimal: ",",
-        thousand: ".",
-        precision: 2,
-        format: "%v %s"
-    };
-
-    return accounting.formatMoney(price, options);
-});
-
-},{"accounting":1,"currency-symbol-map":2,"services/ResourceService":79}],65:[function(require,module,exports){
-"use strict";
-
-// for docs see https://github.com/brockpetrie/vue-moment
-
-var dateFilter = function dateFilter() {
-    var args = Array.prototype.slice.call(arguments);
-    var input = args.shift();
-    var date;
-
-    if (isNaN(new Date(input).getTime())) {
-        return input;
-    }
-
-    if (Array.isArray(input) && typeof input[0] === "string") {
-        // If input is array, assume we're being passed a format pattern to parse against.
-        // Format pattern will accept an array of potential formats to parse against.
-        // Date string should be at [0], format pattern(s) should be at [1]
-        date = moment(string = input[0], formats = input[1], true);
-    } else {
-        // Otherwise, throw the input at moment and see what happens...
-        date = moment(input);
-    }
-
-    if (!date.isValid()) {
-        // Log a warning if moment couldn't reconcile the input. Better than throwing an error?
-        console.warn("Could not build a valid `moment` object from input.");
-        return input;
-    }
-
-    function parse() {
-        var args = Array.prototype.slice.call(arguments);
-        var method = args.shift();
-
-        switch (method) {
-            case "add":
-
-                // Mutates the original moment by adding time.
-                // http://momentjs.com/docs/#/manipulating/add/
-
-                var addends = args.shift().split(",").map(Function.prototype.call, String.prototype.trim);
-
-                obj = {};
-                for (var aId = 0; aId < addends.length; aId++) {
-                    var addend = addends[aId].split(" ");
-
-                    obj[addend[1]] = addend[0];
-                }
-                date = date.add(obj);
-                break;
-
-            case "subtract":
-
-                // Mutates the original moment by subtracting time.
-                // http://momentjs.com/docs/#/manipulating/subtract/
-
-                var subtrahends = args.shift().split(",").map(Function.prototype.call, String.prototype.trim);
-
-                obj = {};
-                for (var sId = 0; sId < subtrahends.length; sId++) {
-                    var subtrahend = subtrahends[sId].split(" ");
-
-                    obj[subtrahend[1]] = subtrahend[0];
-                }
-                date = date.subtract(obj);
-                break;
-
-            case "from":
-
-                // Display a moment in relative time, either from now or from a specified date.
-                // http://momentjs.com/docs/#/displaying/fromnow/
-
-                var from = "now";
-
-                if (args[0] === "now") args.shift();
-
-                if (moment(args[0]).isValid()) {
-                    // If valid, assume it is a date we want the output computed against.
-                    from = moment(args.shift());
-                }
-
-                var removeSuffix = false;
-
-                if (args[0] === true) {
-                    args.shift();
-                    removeSuffix = true;
-                }
-
-                if (from != "now") {
-                    date = date.from(from, removeSuffix);
-                    break;
-                }
-
-                date = date.fromNow(removeSuffix);
-                break;
-
-            case "calendar":
-
-                // Formats a date with different strings depending on how close to a certain date (today by default) the date is.
-                // http://momentjs.com/docs/#/displaying/calendar-time/
-
-                var referenceTime = moment();
-
-                if (moment(args[0]).isValid()) {
-                    // If valid, assume it is a date we want the output computed against.
-                    referenceTime = moment(args.shift());
-                }
-
-                date = date.calendar(referenceTime);
-                break;
-
-            default:
-                // Format
-                // Formats a date by taking a string of tokens and replacing them with their corresponding values.
-                // http://momentjs.com/docs/#/displaying/format/
-
-                var format = method;
-
-                date = date.format(format);
-        }
-
-        if (args.length) parse.apply(parse, args);
-    }
-
-    parse.apply(parse, args);
-
-    return date;
-};
-
-Vue.filter("moment", dateFilter);
-Vue.filter("date", dateFilter);
-
-},{}],66:[function(require,module,exports){
-"use strict";
-
-Vue.filter("itemImage", function (item, baseUrl) {
-    var imageList = item.variationImageList;
-
-    baseUrl = baseUrl || "/";
-
-    if (baseUrl.charAt(baseUrl.length - 1) !== "/") {
-        baseUrl += "/";
-    }
-
-    if (!!imageList && imageList.length > 0) {
-        for (var i = 0; i < imageList.length; i++) {
-            var image = imageList[i];
-
-            if (!!image.path && image.path.length > 0) {
-                return baseUrl + image.path;
-            }
-        }
-    }
-
-    return "";
-});
-
-},{}],67:[function(require,module,exports){
-"use strict";
-
-Vue.filter("itemImages", function (images, accessor) {
-    var imageUrls = [];
-    var imagesAccessor = "all";
-
-    if (images.variation.length) {
-        imagesAccessor = "variation";
-    }
-
-    for (var i in images[imagesAccessor]) {
-        var imageUrl = images[imagesAccessor][i][accessor];
-
-        imageUrls.push(imageUrl);
-    }
-
-    return imageUrls;
-});
-
-},{}],68:[function(require,module,exports){
-"use strict";
-
-Vue.filter("itemName", function (item, selectedName) {
-    if (selectedName == 0 && item.name1 !== "") {
-        return item.name1;
-    } else if (selectedName == 1 && item.name2 !== "") {
-        return item.name2;
-    } else if (selectedName == 2 && item.name3 !== "") {
-        return item.name3;
-    }
-
-    return item.name1;
-});
-
-},{}],69:[function(require,module,exports){
-"use strict";
-
-Vue.filter("itemURL", function (item) {
-    var urlPath = item.texts.urlPath;
-
-    if (urlPath && urlPath.length > 0) {
-        return "/" + urlPath + "_" + item.item.id + "_" + item.variation.id;
-    }
-
-    return "/" + item.item.id + "_" + item.variation.id;
-});
-
-},{}],70:[function(require,module,exports){
-"use strict";
-
-var NotificationService = require("services/NotificationService");
-var WaitScreenService = require("services/WaitScreenService");
-
-module.exports = function ($) {
-
-    var _eventListeners = {};
-
-    return {
-        get: _get,
-        put: _put,
-        post: _post,
-        delete: _delete,
-        send: _send,
-        setToken: _setToken,
-        getToken: _getToken,
-        listen: _listen
-    };
-
-    function _listen(event, handler) {
-        _eventListeners[event] = _eventListeners[event] || [];
-        _eventListeners[event].push(handler);
-    }
-
-    function _triggerEvent(event, payload) {
-        if (_eventListeners[event]) {
-            for (var i = 0; i < _eventListeners[event].length; i++) {
-                var listener = _eventListeners[event][i];
-
-                if (typeof listener !== "function") {
-                    continue;
-                }
-                listener.call(Object, payload);
-            }
-        }
-    }
-
-    function _get(url, data, config) {
-        config = config || {};
-        config.method = "GET";
-        return _send(url, data, config);
-    }
-
-    function _put(url, data, config) {
-        config = config || {};
-        config.method = "PUT";
-        return _send(url, data, config);
-    }
-
-    function _post(url, data, config) {
-        config = config || {};
-        config.method = "POST";
-        return _send(url, data, config);
-    }
-
-    function _delete(url, data, config) {
-        config = config || {};
-        config.method = "DELETE";
-        return _send(url, data, config);
-    }
-
-    function _send(url, data, config) {
-        var deferred = $.Deferred();
-
-        config = config || {};
-        config.data = data || null;
-        config.dataType = config.dataType || "json";
-        config.contentType = config.contentType || "application/x-www-form-urlencoded; charset=UTF-8";
-        config.doInBackground = !!config.doInBackground;
-        config.supressNotifications = !!config.supressNotifications;
-
-        if (!config.doInBackground) {
-            WaitScreenService.showWaitScreen();
-        }
-        $.ajax(url, config).done(function (response) {
-            if (!config.supressNotifications) {
-                printMessages(response);
-            }
-            for (var event in response.events) {
-                _triggerEvent(event, response.events[event]);
-            }
-            deferred.resolve(response.data || response);
-        }).fail(function (jqXHR) {
-            var response = jqXHR.responseText ? $.parseJSON(jqXHR.responseText) : {};
-
-            if (!config.supressNotifications) {
-                printMessages(response);
-            }
-            deferred.reject(response.error);
-        }).always(function () {
-            if (!config.doInBackground) {
-                WaitScreenService.hideWaitScreen();
-            }
-        });
-
-        return deferred;
-    }
-
-    function printMessages(response) {
-        var notification;
-
-        if (response.error && response.error.message.length > 0) {
-            notification = NotificationService.error(response.error);
-        }
-
-        if (response.success && response.success.message.length > 0) {
-            notification = NotificationService.success(response.success);
-        }
-
-        if (response.warning && response.warning.message.length > 0) {
-            notification = NotificationService.warning(response.warning);
-        }
-
-        if (response.info && response.info.message.length > 0) {
-            notification = NotificationService.info(response.info);
-        }
-
-        if (response.debug && response.debug.class.length > 0) {
-            notification.trace(response.debug.file + "(" + response.debug.line + "): " + response.debug.class);
-            for (var i = 0; i < response.debug.trace.length; i++) {
-                notification.trace(response.debug.trace[i]);
-            }
-        }
-    }
-
-    function _setToken(token) {
-        this._token = token;
-    }
-
-    function _getToken() {
-        return this._token;
-    }
-}(jQuery);
-
-},{"services/NotificationService":78,"services/WaitScreenService":82}],71:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-var CheckoutService = require("services/CheckoutService");
-
-module.exports = function ($) {
-
-    return {
-        createAddress: createAddress,
-        updateAddress: updateAddress,
-        deleteAddress: deleteAddress
-    };
-
-    /**
-     * Create a new address
-     * @param address
-     * @param addressType
-     * @param setActive
-     * @returns {*}
-     */
-    function createAddress(address, addressType, setActive) {
-        return ApiService.post("rest/io/customer/address?typeId=" + addressType, address).done(function (response) {
-            if (setActive) {
-                if (addressType === 1) {
-                    CheckoutService.setBillingAddressId(response.id);
-                } else if (addressType === 2) {
-                    CheckoutService.setDeliveryAddressId(response.id);
-                }
-            }
-        });
-    }
-
-    /**
-     * Update an existing address
-     * @param newData
-     * @param addressType
-     * @returns {*|Entry|undefined}
-     */
-    function updateAddress(newData, addressType) {
-        addressType = addressType || newData.pivot.typeId;
-        return ApiService.put("rest/io/customer/address/" + newData.id + "?typeId=" + addressType, newData);
-    }
-
-    /**
-     * Delete an existing address
-     * @param addressId
-     * @param addressType
-     * @returns {*}
-     */
-    function deleteAddress(addressId, addressType) {
-        return ApiService.delete("rest/io/customer/address/" + addressId + "?typeId=" + addressType);
-    }
-}(jQuery);
-
-},{"services/ApiService":72,"services/CheckoutService":74}],72:[function(require,module,exports){
-"use strict";
-
-var NotificationService = require("services/NotificationService");
-var WaitScreenService = require("services/WaitScreenService");
-
-module.exports = function ($) {
-
-    var _eventListeners = {};
-
-    return {
-        get: _get,
-        put: _put,
-        post: _post,
-        delete: _delete,
-        send: _send,
-        setToken: _setToken,
-        getToken: _getToken,
-        listen: _listen
-    };
-
-    function _listen(event, handler) {
-        _eventListeners[event] = _eventListeners[event] || [];
-        _eventListeners[event].push(handler);
-    }
-
-    function _triggerEvent(event, payload) {
-        if (_eventListeners[event]) {
-            for (var i = 0; i < _eventListeners[event].length; i++) {
-                var listener = _eventListeners[event][i];
-
-                if (typeof listener !== "function") {
-                    continue;
-                }
-                listener.call(Object, payload);
-            }
-        }
-    }
-
-    function _get(url, data, config) {
-        config = config || {};
-        config.method = "GET";
-        return _send(url, data, config);
-    }
-
-    function _put(url, data, config) {
-        config = config || {};
-        config.method = "PUT";
-        return _send(url, data, config);
-    }
-
-    function _post(url, data, config) {
-        config = config || {};
-        config.method = "POST";
-        return _send(url, data, config);
-    }
-
-    function _delete(url, data, config) {
-        config = config || {};
-        config.method = "DELETE";
-        return _send(url, data, config);
-    }
-
-    function _send(url, data, config) {
-        var deferred = $.Deferred();
-
-        config = config || {};
-        config.data = data || null;
-        config.dataType = config.dataType || "json";
-        config.contentType = config.contentType || "application/x-www-form-urlencoded; charset=UTF-8";
-        config.doInBackground = !!config.doInBackground;
-        config.supressNotifications = !!config.supressNotifications;
-
-        if (!config.doInBackground) {
-            WaitScreenService.showWaitScreen();
-        }
-        $.ajax(url, config).done(function (response) {
-            if (!config.supressNotifications) {
-                printMessages(response);
-            }
-            for (var event in response.events) {
-                _triggerEvent(event, response.events[event]);
-            }
-            deferred.resolve(response.data || response);
-        }).fail(function (jqXHR) {
-            var response = jqXHR.responseText ? $.parseJSON(jqXHR.responseText) : {};
-
-            if (!config.supressNotifications) {
-                printMessages(response);
-            }
-            deferred.reject(response.error);
-        }).always(function () {
-            if (!config.doInBackground) {
-                WaitScreenService.hideWaitScreen();
-            }
-        });
-
-        return deferred;
-    }
-
-    function printMessages(response) {
-        var notification;
-
-        if (response.error && response.error.message.length > 0) {
-            notification = NotificationService.error(response.error);
-        }
-
-        if (response.success && response.success.message.length > 0) {
-            notification = NotificationService.success(response.success);
-        }
-
-        if (response.warning && response.warning.message.length > 0) {
-            notification = NotificationService.warning(response.warning);
-        }
-
-        if (response.info && response.info.message.length > 0) {
-            notification = NotificationService.info(response.info);
-        }
-
-        if (response.debug && response.debug.class.length > 0) {
-            notification.trace(response.debug.file + "(" + response.debug.line + "): " + response.debug.class);
-            for (var i = 0; i < response.debug.trace.length; i++) {
-                notification.trace(response.debug.trace[i]);
-            }
-        }
-    }
-
-    function _setToken(token) {
-        this._token = token;
-    }
-
-    function _getToken() {
-        return this._token;
-    }
-}(jQuery);
-
-},{"services/NotificationService":78,"services/WaitScreenService":82}],73:[function(require,module,exports){
-"use strict";
-
-var ItemListService = require("services/ItemListService");
-var ResourceService = require("services/ResourceService");
-
-module.exports = function ($) {
-    var _categoryTree = {};
-    var _categoryBreadcrumbs = [];
-
-    return {
-        getScopeUrl: _getScopeUrl,
-        renderItems: _renderItems
-    };
-
-    /**
-     * check if current view is category
-     * @param categories - default
-     * @param paths - the url paths to parse
-     */
-    function _isCategoryView(paths, categories) {
-        categories = categories || _categoryTree;
-
-        for (var currentCategory in categories) {
-            if (paths[paths.length - 1].indexOf(categories[currentCategory].details[0].nameUrl) > -1) {
-                return true;
-            }
-
-            if (categories[currentCategory].children) {
-                var isCategory = _isCategoryView(paths, categories[currentCategory].children);
-
-                if (isCategory) {
-                    return isCategory;
-                }
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * render items in relation to location
-     * @param currentCategory
-     */
-    function _renderItems(currentCategory) {
-        ResourceService.getResource("isLoadingBreadcrumbs").set(true);
-
-        if ($.isEmptyObject(_categoryTree)) {
-            _categoryTree = ResourceService.getResource("navigationTree").val();
-        }
-
-        if (!_isCategoryView(window.location.pathname.split("/"))) {
-            window.open(_getScopeUrl(currentCategory), "_self");
-        } else {
-            _handleCurrentCategory(currentCategory);
-        }
-    }
-
-    /**
-     * bundle functions
-     * @param currentCategory
-     */
-    function _handleCurrentCategory(currentCategory) {
-        _updateItemList(currentCategory);
-        _updateHistory(currentCategory);
-        _updateBreadcrumbs();
-    }
-
-    function _updateBreadcrumbs() {
-        ResourceService.getResource("breadcrumbs").set(_categoryBreadcrumbs.reverse());
-    }
-
-    /**
-     * update the current item list without reloading
-     * @param currentCategory
-     */
-    function _updateItemList(currentCategory) {
-        ItemListService.setCategoryId(currentCategory.id);
-
-        ItemListService.setPage(1);
-        ItemListService.setFacets("");
-        ItemListService.getItemList();
-    }
-
-    /**
-     * update page informations
-     * @param currentCategory
-     */
-    function _updateHistory(currentCategory) {
-        var title = document.getElementsByTagName("title")[0].innerHTML;
-
-        window.history.replaceState({}, title, _getScopeUrl(currentCategory) + window.location.search);
-
-        document.getElementsByTagName("h1")[0].innerHTML = currentCategory.details[0].name;
-    }
-
-    /**
-     * get the current scope url
-     * @param currentCategory
-     * @param scopeUrl - default
-     * @param categories - default
-     */
-    function _getScopeUrl(currentCategory, scopeUrl, categories) {
-        scopeUrl = scopeUrl || "";
-        categories = categories || _categoryTree;
-
-        if (scopeUrl.length == 0) {
-            _categoryBreadcrumbs = [];
-        }
-
-        for (var category in categories) {
-            if (categories[category].id == currentCategory.id) {
-                scopeUrl += "/" + categories[category].details[0].nameUrl;
-
-                _categoryBreadcrumbs.push(categories[category]);
-
-                return scopeUrl;
-            }
-
-            if (categories[category].children) {
-                var tempScopeUrl = scopeUrl + "/" + categories[category].details[0].nameUrl;
-
-                var urlScope = _getScopeUrl(currentCategory, tempScopeUrl, categories[category].children);
-
-                if (urlScope.length > 0) {
-                    _categoryBreadcrumbs.push(categories[category]);
-
-                    return urlScope;
-                }
-            }
-        }
-
-        return "";
-    }
-}(jQuery);
-
-},{"services/ItemListService":76,"services/ResourceService":79}],74:[function(require,module,exports){
-"use strict";
-
-var ApiService = require("services/ApiService");
-
-module.exports = function ($) {
-
-    var checkout = {};
-    var initPromise;
-
-    return {
-        init: init,
-        setCheckout: setCheckout,
-        setDeliveryAddressId: setDeliveryAddressId,
-        setBillingAddressId: setBillingAddressId,
-        setMethodOfPaymentId: setMethodOfPaymentId,
-        setShippingCountryId: setShippingCountryId,
-        setShippingProfileId: setShippingProfileId
-    };
-
-    function init(checkoutData) {
-        if (!initPromise) {
-            if (checkoutData) {
-                initPromise = $.Deferred();
-                checkout = checkoutData;
-                initPromise.resolve();
-            } else {
-                initPromise = ApiService.get("/rest/io/checkout").done(function (response) {
-                    checkout = response;
-                });
-            }
-        }
-        return initPromise;
-    }
-
-    function _set(property, value) {
-        checkout[property] = value;
-        return ApiService.post("/rest/io/checkout/", checkout).done(function (response) {
-            checkout = response;
-        });
-    }
-
-    function setCheckout(checkoutData) {
-        var properties = Object.keys(checkoutData);
-
-        for (var i = 0; i < properties.length; i++) {
-            checkout[properties[i]] = checkoutData[properties[i]];
-        }
-
-        return ApiService.post("/rest/io/checkout/", checkout).done(function (response) {
-            checkout = response;
-        });
-    }
-
-    function setDeliveryAddressId(deliveryAddressId) {
-        return _set("deliveryAddressId", deliveryAddressId);
-    }
-
-    function setBillingAddressId(billingAddressId) {
-        return _set("billingAddressId", billingAddressId);
-    }
-
-    function setMethodOfPaymentId(methodOfPaymentId) {
-        return _set("methodOfPaymentId", methodOfPaymentId);
-    }
-
-    function setShippingCountryId(shippingCountryId) {
-        return _set("shippingCountryId", shippingCountryId);
-    }
-
-    function setShippingProfileId(shippingProfileId) {
-        return _set("shippingProfileId", shippingProfileId);
-    }
-}(jQuery);
-
-},{"services/ApiService":72}],75:[function(require,module,exports){
-"use strict";
-
-module.exports = function ($) {
-
-    return {
-        parseShippingCountries: parseShippingCountries,
-        parseShippingStates: parseShippingStates,
-        translateCountryNames: translateCountryNames,
-        sortCountries: sortCountries
-    };
-
-    function parseShippingCountries(countryList, id) {
-        var deliveryCountries = [];
-
-        if (countryList === null) {
-            return deliveryCountries;
-        }
-
-        for (var key in countryList) {
-            var country = countryList[key];
-            var option = { id: country.id, name: country.name, locale: country.isoCode2, selected: false };
-
-            option.selected = id === country.id;
-            deliveryCountries.push(option);
-        }
-
-        return deliveryCountries;
-    }
-
-    function translateCountryNames(countryNameMap, countryList) {
-        if (countryNameMap === null) {
-            return;
-        }
-        for (var countryId in countryNameMap) {
-            var countryName = countryNameMap[countryId];
-
-            for (var index in countryList) {
-                var country = countryList[index];
-
-                if (country.id === parseInt(countryId)) {
-                    country.name = countryName;
-                    break;
-                }
-            }
-        }
-    }
-
-    function sortCountries(countries) {
-        countries.sort(function (first, second) {
-            if (first.name < second.name) {
-                return -1;
-            }
-            if (first.name > second.name) {
-                return 1;
-            }
-            return 0;
-        });
-    }
-
-    function parseShippingStates(countryList, countryID) {
-        var states = [];
-
-        for (var key in countryList) {
-            var country = countryList[key];
-
-            if (country.id === countryID) {
-                states = country.states;
-                break;
-            }
-        }
-
-        return states;
-    }
-}(jQuery);
-
-},{}],76:[function(require,module,exports){
-"use strict";
-
-var _UrlService = require("services/UrlService");
-
-var _UrlService2 = _interopRequireDefault(_UrlService);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ApiService = require("services/ApiService");
-var NotificationService = require("services/NotificationService");
-var ResourceService = require("services/ResourceService");
-
-module.exports = function ($) {
-    var searchParams = {
-        query: "",
-        items: App.config.defaultItemsPerPage,
-        sorting: App.config.defaultSorting,
-        page: 1,
-        facets: "",
-        categoryId: null,
-        template: "",
-        variationShowType: App.config.variationShowType
-    };
-
-    return {
-        getItemList: getItemList,
-        updateSearchString: updateSearchString,
-        setSearchString: setSearchString,
-        setItemsPerPage: setItemsPerPage,
-        setOrderBy: setOrderBy,
-        setPage: setPage,
-        setSearchParams: setSearchParams,
-        setFacets: setFacets,
-        setCategoryId: setCategoryId
-    };
-
-    function getItemList() {
-        if (searchParams.categoryId || searchParams.query.length >= 3) {
-            if (ResourceService.getResource("itemList").val()) {
-                ResourceService.getResource("itemList").val().total = 0;
-            }
-
-            var url = searchParams.categoryId ? "/rest/io/category" : "/rest/io/item/search";
-
-            searchParams.template = "Ceres::ItemList.ItemListView";
-
-            _setIsLoading(true);
-
-            ApiService.get(url, searchParams).done(function (response) {
-                _setIsLoading(false);
-
-                ResourceService.getResource("itemList").set(response);
-                ResourceService.getResource("facets").set(response.facets);
-            }).fail(function (response) {
-                _setIsLoading(false);
-
-                NotificationService.error("Error while searching").closeAfter(5000);
-            });
-        }
-    }
-
-    function _setIsLoading(isLoading) {
-        ResourceService.getResource("itemSearch").set(searchParams);
-        ResourceService.getResource("isLoading").set(isLoading);
-    }
-
-    /**
-     * ?searchString=searchString&itemsPerPage=itemsPerPage&orderBy=orderBy&orderByKey=orderByKey&page=page
-     * @param urlParams
-     */
-    function setSearchParams(urlParams) {
-        var queryParams = _UrlService2.default.getUrlParams(urlParams);
-
-        for (var key in queryParams) {
-            searchParams[key] = queryParams[key];
-        }
-    }
-
-    function updateSearchString(query) {
-        searchParams.query = query;
-
-        query = query.length > 0 ? query : null;
-        _UrlService2.default.setUrlParam("query", query);
-    }
-
-    function setSearchString(query) {
-        searchParams.query = query;
-        searchParams.page = 1;
-
-        setPage(1);
-        setFacets("");
-
-        ResourceService.getResource("facets").set({});
-        ResourceService.getResource("facetParams").set([]);
-
-        query = query.length > 0 ? query : null;
-        _UrlService2.default.setUrlParam("query", query);
-    }
-
-    function setItemsPerPage(items) {
-        searchParams.items = items;
-
-        items = items != App.config.defaultItemsPerPage ? items : null;
-        _UrlService2.default.setUrlParam("items", items);
-    }
-
-    function setOrderBy(sorting) {
-        searchParams.sorting = sorting;
-
-        sorting = sorting !== App.config.defaultSorting ? sorting : null;
-        _UrlService2.default.setUrlParam("sorting", sorting);
-    }
-
-    function setPage(page) {
-        searchParams.page = page;
-
-        page = page > 1 ? page : null;
-        _UrlService2.default.setUrlParam("page", page);
-    }
-
-    function setFacets(facets) {
-        searchParams.facets = facets.toString();
-
-        facets = facets.toString().length > 0 ? facets.toString() : null;
-
-        setPage(1);
-
-        _UrlService2.default.setUrlParam("facets", facets);
-    }
-
-    function setCategoryId(categoryId) {
-        searchParams.categoryId = categoryId;
-    }
-}(jQuery);
-
-},{"services/ApiService":72,"services/NotificationService":78,"services/ResourceService":79,"services/UrlService":80}],77:[function(require,module,exports){
-"use strict";
-
-module.exports = function ($) {
-
-    var paused = false;
-    var timeout = -1;
-    var interval;
-    var timeRemaining;
-    var timeStart;
-
-    return {
-        findModal: findModal
-    };
-
-    function findModal(element) {
-        return new Modal(element);
-    }
-
-    function Modal(element) {
-        var self = this;
-        var $bsModal;
-
-        if ($(element).is(".modal")) {
-            $bsModal = $(element);
-        } else {
-            $bsModal = $(element).find(".modal").first();
-        }
-
-        return {
-            show: show,
-            hide: hide,
-            setTimeout: setTimeout,
-            startTimeout: startTimeout,
-            pauseTimeout: pauseTimeout,
-            continueTimeout: continueTimeout,
-            stopTimeout: stopTimeout,
-            getModalContainer: getModalContainer
-        };
-
-        function show() {
-            $bsModal.modal("show");
-
-            if ($bsModal.timeout > 0) {
-                startTimeout();
-            }
-
-            return self;
-        }
-
-        function hide() {
-            $bsModal.modal("hide");
-            return self;
-        }
-
-        function getModalContainer() {
-            return $bsModal;
-        }
-
-        function setTimeout(timeout) {
-            $bsModal.timeout = timeout;
-
-            $bsModal.find(".modal-content").mouseover(function () {
-                pauseTimeout();
-            });
-
-            $bsModal.find(".modal-content").mouseout(function () {
-                continueTimeout();
-            });
-
-            return this;
-        }
-
-        function startTimeout() {
-            timeRemaining = $bsModal.timeout;
-            timeStart = new Date().getTime();
-
-            timeout = window.setTimeout(function () {
-                window.clearInterval(interval);
-                hide();
-            }, $bsModal.timeout);
-
-            $bsModal.find(".timer").text(timeRemaining / 1000);
-            interval = window.setInterval(function () {
-                if (!paused) {
-                    var secondsRemaining = timeRemaining - new Date().getTime() + timeStart;
-
-                    secondsRemaining = Math.round(secondsRemaining / 1000);
-                    $bsModal.find(".timer").text(secondsRemaining);
-                }
-            }, 1000);
-        }
-
-        function pauseTimeout() {
-            paused = true;
-            timeRemaining -= new Date().getTime() - timeStart;
-            window.clearTimeout(timeout);
-        }
-
-        function continueTimeout() {
-            paused = false;
-            timeStart = new Date().getTime();
-            timeout = window.setTimeout(function () {
-                hide();
-                window.clearInterval(interval);
-            }, timeRemaining);
-        }
-
-        function stopTimeout() {
-            window.clearTimeout(timeout);
-            window.clearInterval(interval);
-        }
-    }
-}(jQuery);
-
-},{}],78:[function(require,module,exports){
-"use strict";
-
-module.exports = function ($) {
-
-    var notificationCount = 0;
-    var notifications = new NotificationList();
-
-    var handlerList = [];
-
-    return {
-        log: _log,
-        info: _info,
-        warn: _warn,
-        error: _error,
-        success: _success,
-        getNotifications: getNotifications,
-        listen: _listen
-    };
-
-    function _listen(handler) {
-        handlerList.push(handler);
-    }
-
-    function trigger() {
-        for (var i = 0; i < handlerList.length; i++) {
-            handlerList[i].call({}, notifications.all());
-        }
-    }
-
-    function _log(message, prefix) {
-        var notification = new Notification(message);
-
-        if (App.config.logMessages) {
-            console.log((prefix || "") + "[" + notification.code + "] " + notification.message);
-
-            for (var i = 0; i < notification.stackTrace.length; i++) {
-                _log(notification.stackTrace[i], " + ");
-            }
-        }
-
-        return notification;
-    }
-
-    function _info(message) {
-        var notification = new Notification(message, "info");
-
-        if (App.config.printInfos) {
-            _printNotification(notification);
-        }
-
-        return notification;
-    }
-
-    function _warn(message) {
-        var notification = new Notification(message, "warning");
-
-        if (App.config.printWarnings) {
-            _printNotification(notification);
-        }
-
-        return notification;
-    }
-
-    function _error(message) {
-        var notification = new Notification(message, "danger");
-
-        if (App.config.printErrors) {
-            _printNotification(notification);
-        }
-
-        return notification;
-    }
-
-    function _success(message) {
-        var notification = new Notification(message, "success");
-
-        if (App.config.printSuccess) {
-            _printNotification(notification);
-        }
-
-        return notification;
-    }
-
-    function getNotifications() {
-        return notifications;
-    }
-
-    function _printNotification(notification) {
-        notifications.add(notification);
-        _log(notification);
-
-        trigger();
-
-        return notification;
-    }
-
-    function Notification(data, context) {
-        if (!App.config.printStackTrace) {
-            data.stackTrace = [];
-        }
-        var id = notificationCount++;
-        var self = {
-            id: id,
-            code: data.code || 0,
-            message: data.message || data || "",
-            context: context || "info",
-            stackTrace: data.stackTrace || [],
-            close: close,
-            closeAfter: closeAfter,
-            trace: trace
-        };
-
-        return self;
-
-        function close() {
-            notifications.remove(self);
-            trigger();
-        }
-
-        function closeAfter(timeout) {
-            setTimeout(function () {
-                notifications.remove(self);
-                trigger();
-            }, timeout);
-        }
-
-        function trace(message, code) {
-            if (App.config.printStackTrace) {
-                self.stackTrace.push({
-                    code: code || 0,
-                    message: message
-                });
-            }
-        }
-    }
-
-    function NotificationList() {
-        var elements = [];
-
-        return {
-            all: all,
-            add: add,
-            remove: remove
-        };
-
-        function all() {
-            return elements;
-        }
-
-        function add(notification) {
-            elements.push(notification);
-        }
-
-        function remove(notification) {
-            for (var i = 0; i < elements.length; i++) {
-                if (elements[i].id === notification.id) {
-                    elements.splice(i, 1);
-                    break;
-                }
-            }
-        }
-    }
-}(jQuery);
-
-},{}],79:[function(require,module,exports){
-"use strict";
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var ApiService = require("services/ApiService");
-
-module.exports = function ($) {
-
-    var resources = {};
-
-    return {
-        registerResource: registerResource,
-        registerResourceList: registerResourceList,
-        getResource: getResource,
-        watch: watch,
-        bind: bind
-    };
-
-    /**
-     * Register a new resource
-     * @param {string}  name          The name of the resource. Must be a unique identifier
-     * @param {string}  route         The route to bind the resource to
-     * @param {*}       initialValue  The initial value to assign to the resource
-     *
-     * @returns {Resource} The created resource.
-     */
-    function registerResource(name, route, initialValue, responseTemplate) {
-        if (!name) {
-            throw new Error("Cannot register resource. Name is required.");
-        }
-
-        if (!route && typeof initialValue === "undefined") {
-            throw new Error("Cannot register resource. Route or initial value is required.");
-        }
-
-        if (resources[name]) {
-            throw new Error("Resource '" + name + "' already exists.");
-        }
-
-        var data;
-
-        try {
-            data = $.parseJSON(initialValue);
-        } catch (err) {
-            data = initialValue;
-        }
-
-        name = name.toLowerCase();
-        resources[name] = new Resource(route, data, responseTemplate);
-
-        return resources[name];
-    }
-
-    /**
-     * Register a new list resource
-     * @param {string}  name          The name of the resource. Must be a unique identifier
-     * @param {string}  route         The route to bind the resource to
-     * @param {*}       initialValue  The initial value to assign to the resource
-     *
-     * @returns {Resource}            The created resource.
-     */
-    function registerResourceList(name, route, initialValue, responseTemplate) {
-        if (!name) {
-            throw new Error("Cannot register resource. Name is required.");
-        }
-
-        if (!route && typeof initialValue === "undefined") {
-            throw new Error("Cannot register resource. Route or initial value is required.");
-        }
-
-        if (resources[name]) {
-            throw new Error("Resource '" + name + "' already exists.");
-        }
-
-        var data;
-
-        try {
-            data = $.parseJSON(initialValue);
-        } catch (err) {
-            data = initialValue;
-        }
-
-        name = name.toLowerCase();
-        resources[name] = new ResourceList(route, data, responseTemplate);
-
-        return resources[name];
-    }
-
-    /**
-     * Receive a registered resource by its name
-     * @param {string}  name    The name of the resource to receive
-     *
-     * @returns {Resource}      The resource
-     */
-    function getResource(name) {
-        name = name.toLowerCase();
-
-        if (!resources[name]) {
-            throw new Error("Unkown resource: " + name);
-        }
-
-        return resources[name];
-    }
-
-    /**
-     * Track changes of a given resource.
-     * @param {string}      name        The name of the resource to watch
-     * @param {function}    callback    The handler to call on each change
-     */
-    function watch(name, callback) {
-        getResource(name).watch(callback);
-    }
-
-    /**
-     * Bind a resource to a property of a vue instance.
-     * @param {string}  name        The name of the resource to bind
-     * @param {Vue}     vue         The vue instance
-     * @param {string}  property    The property of the vue instance. Optional if the property name is equal to the resource name.
-     */
-    function bind(name, vue, property) {
-        property = property || name;
-        getResource(name).bind(vue, property);
-    }
-
-    /**
-     * @class Observable
-     * Automatically notify all attached listeners on any changes.
-     */
-    function Observable() {
-        var _value;
-        var _watchers = [];
-
-        return {
-            get value() {
-                return _value;
-            },
-            set value(newValue) {
-                for (var i = 0; i < _watchers.length; i++) {
-                    var watcher = _watchers[i];
-
-                    watcher.apply({}, [newValue, _value]);
-                }
-                _value = newValue;
-            },
-            watch: function watch(cb) {
-                _watchers.push(cb);
-            }
-        };
-    }
-
-    /**
-     * @class Resource
-     * @param {string}  url              The url to bind the resource to
-     * @param {string}  initialValue     The initial value to assign to the resource
-     * @param {string}  responseTemplate The path to the response fields file
-     */
-    function Resource(url, initialValue, responseTemplate) {
-        var data = new Observable();
-        var ready = false;
-
-        // initialize resource
-        if (typeof initialValue !== "undefined") {
-            // Initial value that was given by constructor
-            data.value = initialValue;
-            ready = true;
-        } else if (url) {
-            // If no initial value was given, get the value from the URL
-            ApiService.get(url, { template: this.responseTemplate }).done(function (response) {
-                data.value = response;
-                ready = true;
-            });
-        } else {
-            throw new Error("Cannot initialize resource.");
-        }
-
-        return {
-            watch: watch,
-            bind: bind,
-            val: val,
-            set: set,
-            update: update,
-            listen: listen
-        };
-
-        /**
-         * Update this resource on a given event triggered by ApiService.
-         * @param {string} event        The event to listen on
-         * @param {string} usePayload   A property of the payload to assign to this resource.
-         *                              The resource will be updated by GET request if not set.
-         */
-        function listen(event, usePayload) {
-            ApiService.listen(event, function (payload) {
-                if (usePayload) {
-                    update(payload[usePayload]);
-                } else {
-                    update();
-                }
-            });
-        }
-
-        /**
-         * Add handler to track changes on this resource
-         * @param {function} cb     The callback to call on each change
-         */
-        function watch(cb) {
-            if (typeof cb !== "function") {
-                throw new Error("Callback expected but got '" + (typeof cb === "undefined" ? "undefined" : _typeof(cb)) + "'.");
-            }
-            data.watch(cb);
-            if (ready) {
-                cb.apply({}, [data.value, null]);
-            }
-        }
-
-        /**
-         * Bind a property of a vue instance to this resource
-         * @param {Vue}     vue         The vue instance
-         * @param {string}   property    The property of the vue instance
-         */
-        function bind(vue, property) {
-            if (!vue) {
-                throw new Error("Vue instance not set.");
-            }
-
-            if (!property) {
-                throw new Error("Cannot bind undefined property.");
-            }
-
-            watch(function (newValue) {
-                vue.$set(property, newValue);
-            });
-        }
-
-        /**
-         * Receive the current value of this resource
-         * @returns {*}
-         */
-        function val() {
-            return data.value;
-        }
-
-        /**
-         * Set the value of the resource.
-         * @param {*}   value   The value to set.
-         * @returns {Deferred}  The PUT request to the url of the resource
-         */
-        function set(value) {
-            if (url) {
-                value.template = responseTemplate;
-                return ApiService.put(url, value).done(function (response) {
-                    data.value = response;
-                });
-            }
-
-            var deferred = $.Deferred();
-
-            data.value = value;
-            deferred.resolve();
-            return deferred;
-        }
-
-        /**
-         * Update the value of the resource.
-         * @param {*}           value   The new value to assign to this resource. Will receive current value from url if not set
-         * @returns {Deferred}          The GET request to the url of the resource
-         */
-        function update(value) {
-            if (value) {
-                var deferred = $.Deferred();
-
-                data.value = value;
-                deferred.resolve();
-                return deferred;
-            } else if (url) {
-                return ApiService.get(url, { template: responseTemplate }).done(function (response) {
-                    data.value = response;
-                });
-            }
-
-            throw new Error("Cannot update resource. Neither an URL nor a value is prodivded.");
-        }
-    }
-
-    /**
-     * @class ResourceList
-     * @param {string}  url              The url to bind the resource to
-     * @param {string}  initialValue     The initial value to assign to the resource
-     * @param {string}  responseTemplate The path to the response fields file
-     */
-    function ResourceList(url, initialValue, responseTemplate) {
-        var data = new Observable();
-        var ready = false;
-
-        if (url.charAt(url.length - 1) !== "/") {
-            url += "/";
-        }
-
-        if (typeof initialValue !== "undefined") {
-            data.value = initialValue;
-            ready = true;
-        } else if (url) {
-            ApiService.get(url, { template: responseTemplate }).done(function (response) {
-                data.value = response;
-                ready = true;
-            });
-        } else {
-            throw new Error("Cannot initialize resource.");
-        }
-
-        return {
-            watch: watch,
-            bind: bind,
-            val: val,
-            set: set,
-            push: push,
-            remove: remove,
-            update: update,
-            listen: listen
-        };
-
-        /**
-         * Update this resource on a given event triggered by ApiService.
-         * @param {string} event        The event to listen on
-         * @param {string} usePayload   A property of the payload to assign to this resource.
-         *                              The resource will be updated by GET request if not set.
-         */
-        function listen(event, usePayload) {
-            ApiService.listen(event, function (payload) {
-                if (usePayload) {
-                    update(payload[usePayload]);
-                } else {
-                    update();
-                }
-            });
-        }
-
-        /**
-         * Add handler to track changes on this resource
-         * @param {function} cb     The callback to call on each change
-         */
-        function watch(cb) {
-            if (typeof cb !== "function") {
-                throw new Error("Callback expected but got '" + (typeof cb === "undefined" ? "undefined" : _typeof(cb)) + "'.");
-            }
-            data.watch(cb);
-
-            if (ready) {
-                cb.apply({}, [data.value, null]);
-            }
-        }
-
-        /**
-         * Bind a property of a vue instance to this resource
-         * @param {Vue}     vue         The vue instance
-         * @param {sting}   property    The property of the vue instance
-         */
-        function bind(vue, property) {
-            if (!vue) {
-                throw new Error("Vue instance not set.");
-            }
-
-            if (!property) {
-                throw new Error("Cannot bind undefined property.");
-            }
-
-            watch(function (newValue) {
-                vue.$set(property, newValue);
-            });
-        }
-
-        /**
-         * Receive the current value of this resource
-         * @returns {*}
-         */
-        function val() {
-            return data.value;
-        }
-
-        /**
-         * Set the value of a single element of this resource.
-         * @param {string|number}   key     The key of the element
-         * @param {*}               value   The value to set.
-         * @returns {Deferred}      The PUT request to the url of the resource
-         */
-        function set(key, value) {
-            if (url) {
-                value.template = responseTemplate;
-                return ApiService.put(url + key, value).done(function (response) {
-                    data.value = response;
-                });
-            }
-            var deferred = $.Deferred();
-
-            data.value = value;
-            deferred.resolve();
-            return deferred;
-        }
-
-        /**
-         * Add a new element to this resource
-         * @param {*}   value   The element to add
-         * @returns {Deferred}  The POST request to the url of the resource
-         */
-        function push(value) {
-            if (url) {
-                value.template = responseTemplate;
-                return ApiService.post(url, value).done(function (response) {
-                    data.value = response;
-                });
-            }
-
-            var deferred = $.Deferred();
-            var list = data.value;
-
-            list.push(value);
-            data.value = list;
-
-            deferred.resolve();
-            return deferred;
-        }
-
-        /**
-         * Remove an element from this resource
-         * @param {string|number}   key     The key of the element
-         * @returns {Deferred}              The DELETE request to the url of the resource
-         */
-        function remove(key) {
-            if (url) {
-                return ApiService.delete(url + key, { template: responseTemplate }).done(function (response) {
-                    data.value = response;
-                });
-            }
-
-            var deferred = $.Deferred();
-            var list = data.value;
-
-            list.splice(key, 1);
-            data.value = list;
-
-            deferred.resolve();
-            return deferred;
-        }
-
-        /**
-         * Update the value of the resource.
-         * @param {*}           value   The new value to assign to this resource. Will receive current value from url if not set
-         * @returns {Deferred}          The GET request to the url of the resource
-         */
-        function update(value) {
-            if (value) {
-                var deferred = $.Deferred();
-
-                data.value = value;
-                deferred.resolve();
-                return deferred;
-            }
-
-            return ApiService.get(url, { template: responseTemplate }).done(function (response) {
-                data.value = response;
-            });
-        }
-    }
-}(jQuery);
-
-},{"services/ApiService":72}],80:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var $ = require("jquery");
-
-var getUrlParams = function getUrlParams(urlParams) {
-    if (urlParams) {
-        var tokens;
-        var params = {};
-        var regex = /[?&]?([^=]+)=([^&]*)/g;
-
-        urlParams = urlParams.split("+").join(" ");
-
-        // eslint-disable-next-line
-        while (tokens = regex.exec(urlParams)) {
-            params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
-        }
-
-        return params;
-    }
-
-    return {};
-};
-
-var setUrlParams = function setUrlParams(urlParams) {
-    var pathName = window.location.pathname;
-    var params = $.isEmptyObject(urlParams) ? "" : "?" + $.param(urlParams);
-    var title = document.getElementsByTagName("title")[0].innerHTML;
-
-    window.history.replaceState({}, title, pathName + params);
-};
-
-var setUrlParam = function setUrlParam(key, value) {
-    var urlParams = getUrlParams(document.location.search);
-
-    if (value !== null) {
-        urlParams[key] = value;
-    } else {
-        delete urlParams[key];
-    }
-
-    setUrlParams(urlParams);
-};
-
-exports.default = { setUrlParam: setUrlParam, setUrlParams: setUrlParams, getUrlParams: getUrlParams };
-
-},{"jquery":4}],81:[function(require,module,exports){
-"use strict";
-
-module.exports = function ($) {
-    var $form;
-
-    return {
-        validate: _validate,
-        getInvalidFields: _getInvalidFields,
-        markInvalidFields: _markInvalidFields
-    };
-
-    function _validate(form) {
-        var deferred = $.Deferred();
-        var invalidFields = _getInvalidFields(form);
-
-        if (invalidFields.length > 0) {
-            deferred.rejectWith(form, [invalidFields]);
-        } else {
-            deferred.resolveWith(form);
-        }
-
-        return deferred;
-    }
-
-    function _getInvalidFields(form) {
-        $form = $(form);
-        var invalidFormControls = [];
-
-        $form.find("[data-validate]").each(function (i, elem) {
-
-            if (!_validateElement($(elem))) {
-                invalidFormControls.push(elem);
-            }
-        });
-
-        return invalidFormControls;
-    }
-
-    function _markInvalidFields(fields, errorClass) {
-        errorClass = errorClass || "has-error";
-
-        $(fields).each(function (i, elem) {
-            var $elem = $(elem);
-
-            $elem.addClass(errorClass);
-            _findFormControls($elem).on("click.removeErrorClass keyup.removeErrorClass change.removeErrorClass", function () {
-                if (_validateElement($elem)) {
-                    $elem.removeClass(errorClass);
-                    if ($elem.is("[type=\"radio\"], [type=\"checkbox\"]")) {
-                        var groupName = $elem.attr("name");
-
-                        $("." + errorClass + "[name=\"" + groupName + "\"]").removeClass(errorClass);
-                    }
-                    _findFormControls($elem).off("click.removeErrorClass keyup.removeErrorClass change.removeErrorClass");
-                }
-            });
-        });
-    }
-
-    function _validateElement(elem) {
-        var $elem = $(elem);
-        var validationKeys = $elem.attr("data-validate").split("|").map(function (i) {
-            return i.trim();
-        }) || ["text"];
-        var hasError = false;
-
-        _findFormControls($elem).each(function (i, formControl) {
-            var $formControl = $(formControl);
-            var validationKey = validationKeys[i] || validationKeys[0];
-
-            if (!_isActive($formControl)) {
-                // continue loop
-                return true;
-            }
-
-            if ($formControl.is("[type=\"checkbox\"], [type=\"radio\"]")) {
-
-                if (!_validateGroup($formControl, validationKey)) {
-                    hasError = true;
-                }
-
-                return true;
-            }
-
-            if ($formControl.is("select")) {
-                if (!_validateSelect($formControl, validationKey)) {
-                    hasError = true;
-                }
-
-                return true;
-            }
-
-            if (!_validateInput($formControl, validationKey)) {
-                hasError = true;
-            }
-
-            return false;
-        });
-
-        return !hasError;
-    }
-
-    function _validateGroup($formControl, validationKey) {
-        var groupName = $formControl.attr("name");
-        var $group = $form.find("[name=\"" + groupName + "\"]");
-        var range = _eval(validationKey) || { min: 1, max: 1 };
-        var checked = $group.filter(":checked").length;
-
-        return checked >= range.min && checked <= range.max;
-    }
-
-    function _validateSelect($formControl, validationKey) {
-        return $.trim($formControl.val()) !== validationKey;
-    }
-
-    function _validateInput($formControl, validationKey) {
-        switch (validationKey) {
-            case "text":
-                return _hasValue($formControl);
-            case "number":
-                return _hasValue($formControl) && $.isNumeric($.trim($formControl.val()));
-            case "ref":
-                return _compareRef($.trim($formControl.val()), $.trim($formControl.attr("data-validate-ref")));
-            case "regex":
-                var ref = $formControl.attr("data-validate-ref");
-                var regex = ref.startsWith("/") ? _eval(ref) : new RegExp(ref);
-
-                return _hasValue($formControl) && regex.test($.trim($formControl.val()));
-            default:
-                console.error("Form validation error: unknown validation property: \"" + validationKey + "\"");
-                return true;
-        }
-    }
-
-    function _hasValue($formControl) {
-        return $.trim($formControl.val()).length > 0;
-    }
-
-    function _compareRef(value, ref) {
-        if ($(ref).length > 0) {
-            ref = $.trim($(ref).val());
-        }
-
-        return value === ref;
-    }
-
-    function _findFormControls($elem) {
-        if ($elem.is("input, select, textarea")) {
-            return $elem;
-        }
-
-        return $elem.find("input, select, textarea");
-    }
-
-    function _isActive($elem) {
-        return $elem.is(":visible") && $elem.is(":enabled");
-    }
-
-    function _eval(input) {
-        // eslint-disable-next-line
-        return new Function("return " + input)();
-    }
-}(jQuery);
-
-},{}],82:[function(require,module,exports){
-"use strict";
-
-module.exports = function ($) {
-
-    var overlay = {
-        count: 0,
-        isVisible: false
-    };
-
-    return {
-        getOverlay: getOverlay,
-        showWaitScreen: showWaitScreen,
-        hideWaitScreen: hideWaitScreen
-    };
-
-    function getOverlay() {
-        return overlay;
-    }
-
-    function showWaitScreen() {
-        overlay.count = overlay.count || 0;
-        overlay.count++;
-        overlay.isVisible = true;
-    }
-
-    function hideWaitScreen(force) {
-        overlay.count = overlay.count || 0;
-        if (overlay.count > 0) {
-            overlay.count--;
-        }
-
-        if (force) {
-            overlay.count = 0;
-        }
-
-        if (overlay.count <= 0) {
-            overlay.count = 0;
-            overlay.visible = false;
-        }
-    }
-}(jQuery);
-
-},{}]},{},[5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,23,28,29,30,31,32,40,41,42,33,34,35,36,38,37,39,43,44,45,46,47,48,49,50,51,52,53,54,59,60,55,56,57,58,61,62,63,64,65,66,67,68,69])
+},{}]},{},[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,21,22,23,24,19,20,25,26,27,28,29,37,38,39,30,31,32,33,35,34,36,40,41,42,43,44,45,46,47,48,49,50,51,56,57,52,53,54,55,58,59,60,61,62,63,64,65,66])
 
 
 // Frontend end scripts
@@ -16902,14 +16497,25 @@ var init = (function($, window, document)
                 if ($(this).scrollTop() > offset)
                 {
                     $(".back-to-top").fadeIn(duration);
+                    $(".back-to-top-center").fadeIn(duration);
                 }
                 else
                 {
                     $(".back-to-top").fadeOut(duration);
+                    $(".back-to-top-center").fadeOut(duration);
                 }
             });
 
             $(".back-to-top").click(function(event)
+            {
+                event.preventDefault();
+
+                $("html, body").animate({scrollTop: 0}, duration);
+
+                return false;
+            });
+
+            $(".back-to-top-center").click(function(event)
             {
                 event.preventDefault();
 

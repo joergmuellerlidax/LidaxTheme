@@ -39,6 +39,8 @@
             performanceLevel: "{{ performanceLevel }}",
             itemName: {{ itemName }},
             variationShowType: "{{ config("Ceres.item.variation_show_type") }}"
-        }
+        },
+        isCategoryView: {% if services.template.isCategory() == "1" %}true{% else %}false{% endif %},
+        isCheckoutView : {% if services.template.isCheckout() == "1" %}true{% else %}false{% endif %}
     };
 </script>
