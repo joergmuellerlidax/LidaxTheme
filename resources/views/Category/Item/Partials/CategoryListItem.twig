@@ -88,11 +88,6 @@
 
                 <div class="prices">
 
-                    <a href="{{ itemUrl }}">
-                        <div class="price">
-                            {{ item.data.calculatedPrices.default.price | formatMonetary(item.data.calculatedPrices.default.currency) }}<sup>*</sup>
-                        </div>
-                    </a>
                     {% if item.data.calculatedPrices.rrp.price != '0' %}
                         <a href="{{ itemUrl }}">
                             <del class="crossprice">
