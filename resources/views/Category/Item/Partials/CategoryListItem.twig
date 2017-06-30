@@ -6,6 +6,14 @@
 {% set configItemName = config("Ceres.item.name") %}
 {% set itemUrl =  item.data | itemURL %}
 
+{% if enableCarousel is not defined %}
+    {% if config("Ceres.item.enable_image_carousel") == "true" %}
+        {% set enableCarousel = "true" %}
+    {% else %}
+        {% set enableCarousel = "false" %}
+    {% endif %}
+{% endif %}
+
 <article class="cmp cmp-product-thumb cmp-product-thumb--grid">
     <div class="thumb-inner">
         <div class="thumb-background"></div>
@@ -20,7 +28,8 @@
                                              item-url="{{ itemUrl }}"
                                              :show-dots="{{ config("Ceres.item.category_show_dots") | json_encode() }}"
                                              :show-nav="{{ config("Ceres.item.category_show_nav") | json_encode() }}"
-                                             :disable-lazy-load="true">
+                                             :disable-lazy-load="true"
+                                             :enable-carousel="{{ enableCarousel }}">
                     </category-image-carousel>
 
                     <noscript>
@@ -91,6 +100,16 @@
                             </del>
                         </a>
                     {% endif %}
+
+                    <a href="{{ itemUrl }}">
+                        <div class="price">
+                            {{ item.data.calculatedPrices.default.price | formatMonetary(item.data.calculatedPrices.default.currency) }} *
+                        </div>
+                    </a>
+                    <span class="vat small text-muted">
+                        * {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
+                        <a {% if shippingCat is not empty %} data-toggle="modal" href="#shippingscosts"{% endif %} title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
+                    </span>
                 </div>
 
                 {{ LayoutContainer.show("Ceres::CategoryItem.AfterPrices", item.data) }}

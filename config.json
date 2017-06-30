@@ -1,5 +1,11 @@
 [
     {
+        "tab"       : "Global",
+        "key"       : "global.shippingCostsCategoryId",
+        "label"     : "ID of the category to display the shipping costs",
+        "type"      : "category_select"
+    },
+    {
         "tab"       : "Homepage",
         "key"       : "homepage.homepageImageFirstSlide",
         "label"     : "Bildpfad für den ersten Slide",
@@ -89,5 +95,492 @@
         "label"     : "Kategorie ID für zweite Featured-Kategorie unter den Topsellern",
         "type"      : "text",
         "default"   : "92"
+    },
+    {
+        "tab"           : "Item view",
+        "key"           : "item.name",
+        "label"         : "Item name",
+        "type"          : "dropdown",
+        "possibleValues":
+        {
+            "0"         : "Name 1",
+            "1"         : "Name 2",
+            "2"         : "Name 3"
+        },
+        "default"       : "0"
+    },
+    {
+        "tab"                           : "Item view",
+        "key"                           : "item.data",
+        "label"                         : "Show item information",
+        "type"                          : "multi_select",
+        "possibleValues"                :
+        {
+            "item.condition"            : "Condition",
+            "item.manufacturer"         : "Manufacturer",
+            "item.producerCountry"      : "Manufacturing country",
+            "item.age_rating"           : "Age rating",
+            "item.id"                   : "Item ID",
+            "item.technical_data"       : "Technical data",
+            "item.description"          : "Description",
+            "item.shortDescription"     : "Preview text",
+            "item.recommendedPrice"     : "Strikethrough price",
+            "item.variation_name"       : "Variation name",
+            "item.external_id"          : "External variation ID",
+            "item.variation_model"      : "Model",
+            "item.variation_dimensions" : "Dimensions",
+            "item.customs_tariff_number": "Customs tariff number",
+            "item.weightNetG"           : "Net weight",
+            "item.weightG"              : "Gross weight",
+            "item.variationBase_content": "Content"
+        },
+        "default"                       : "all"
+    },
+    {
+        "tab"           : "Item view",
+        "key"           : "item.storeSpecial",
+        "label"         : "Store specials: Number of decimal places for discounts",
+        "type"          : "dropdown",
+        "possibleValues":
+        {
+            "0"         : "0",
+            "1"         : "1",
+            "2"         : "2"
+        },
+        "default"       : "0"
+    },
+    {
+        "tab"                           : "Item view",
+        "key"                           : "item.variation_show_type",
+        "label"                         : "Show variations by type",
+        "type"                          : "dropdown",
+        "possibleValues"                :
+        {
+            "all"                       : "All",
+            "main"                      : "Only main variations",
+            "child"                     : "Only child variations"
+        },
+        "default"                       : "all"
+    },
+    {
+        "tab"       : "Item view",
+        "key"       : "item.enable_image_carousel",
+        "label"     : "Enable image carousel for category item list",
+        "type"      : "checkbox",
+        "default"   : "true"
+    },
+    {
+        "tab"       : "Item view",
+        "key"       : "item.category_show_dots",
+        "label"     : "Show image carousel dots in category item list",
+        "type"      : "checkbox",
+        "default"   : "true"
+    },
+    {
+        "tab"       : "Item view",
+        "key"       : "item.category_show_nav",
+        "label"     : "Show image carousel navigation in category item list",
+        "type"      : "checkbox",
+        "default"   : "false"
+    },
+    {
+        "tab"               : "Item view",
+        "key"               : "item.loading_animation_type",
+        "label"             : "Loading animation",
+        "type"              : "dropdown",
+        "possibleValues"    :
+        {
+            "blur"          : "Blur",
+            "bars"          : "Bars",
+            "spinner"       : "Spinner"
+        },
+        "default"           : "blur"
+    },
+    {
+        "tab"               : "Item lists",
+        "key"               : "item.lists.last_seen",
+        "label"             : "Number of last seen items",
+        "type"              : "dropdown",
+        "possibleValues"    :
+        {
+            "4"          : 4,
+            "8"          : 8,
+            "12"         : 12
+        },
+        "default"           : "4"
+    },
+    {
+        "tab"                           : "Shopping cart",
+        "key"                           : "basket.item_data",
+        "label"                         : "Show item information",
+        "type"                          : "multi_select",
+        "possibleValues"                :
+        {
+          "basket.item.item_id"          : "Item ID",
+          "basket.item.description_short": "Preview text",
+          "basket.item.description_long" : "Item text",
+          "basket.item.availability"     : "Availability",
+          "basket.item.customNumber"     : "Variation number"
+        },
+        "default"                       : "basket.item.item_id, basket.item.description_short, basket.item.availability, basket.item.customNumber"
+    },
+    {
+        "tab"                               : "Shopping cart",
+        "key"                               : "basket.data",
+        "label"                             : "Show price information",
+        "type"                              : "multi_select",
+        "possibleValues"                    :
+        {
+            "basket.value_of_items_gross"   : "Value of items (Gross)",
+            "basket.value_of_items_net"     : "Value of items (Net)",
+            "basket.shipping_costs_gross"   : "Shipping (Gross)",
+            "basket.shipping_costs_net"     : "Shipping (Net)",
+            "basket.vat"                    : "VAT",
+            "basket.order_total_gross"      : "Total (Gross)",
+            "basket.order_total_net"        : "Total (Net)"
+        },
+        "default"                           : "basket.value_of_items_gross, basket.value_of_items_net, basket.shipping_costs_gross, basket.shipping_costs_net, basket.vat, basket.order_total_gross, basket.order_total_net"
+    },
+    {
+        "tab"                               : "Shopping cart",
+        "key"                               : "basket.preview_data",
+        "label"                             : "Show basket preview information",
+        "type"                              : "multi_select",
+        "possibleValues"                    :
+        {
+            "basket.value_of_items_gross"   : "Value of items (Gross)",
+            "basket.value_of_items_net"     : "Value of items (Net)",
+            "basket.shipping_costs_gross"   : "Shipping (Gross)",
+            "basket.shipping_costs_net"     : "Shipping (Net)",
+            "basket.vat"                    : "VAT",
+            "basket.order_total_gross"      : "Total (Gross)",
+            "basket.order_total_net"        : "Total (Net)"
+        },
+        "default"                           : "basket.value_of_items_gross, basket.shipping_costs_gross, basket.order_total_gross"
+    },
+    {
+        "tab"       : "Shopping cart",
+        "key"       : "basket.variations",
+        "label"     : "Show Change variation button",
+        "type"      : "checkbox",
+        "default"   : "false"
+    },
+    {
+        "tab"               : "Shopping cart",
+        "key"               : "basket.add_item_to_basket_confirm",
+        "label"             : "Add to shopping cart: Show information",
+        "type"              : "dropdown",
+        "possibleValues"    :
+        {
+            "overlay"       : "Show overlay",
+            "preview"       : "Toggle shopping cart preview",
+            "no_information": "No information"
+        },
+        "default"           : "overlay"
+    },
+    {
+        "tab"               : "Pagination and sorting",
+        "key"               : "pagination.position",
+        "label"             : "Pagination position",
+        "type"              : "dropdown",
+        "possibleValues"    :
+        {
+            "top"             : "Top",
+            "bottom"          : "Bottom",
+            "top_bottom"      : "Top and bottom"
+        },
+        "default"           : "top"
+    },
+    {
+        "tab"               : "Pagination and sorting",
+        "key"               : "pagination.showFirstPage",
+        "label"             : "Always show first page",
+        "type"              : "checkbox",
+        "default"           : "false"
+    },
+    {
+        "tab"               : "Pagination and sorting",
+        "key"               : "pagination.showLastPage",
+        "label"             : "Always show last page",
+        "type"              : "checkbox",
+        "default"           : "false"
+    },
+    {
+        "tab"           : "Pagination and sorting",
+        "key"           : "pagination.columnsPerPage",
+        "label"         : "Columns per page",
+        "type"          : "dropdown",
+        "possibleValues":
+        {
+            "3"          : 3,
+            "4"          : 4,
+            "5"          : 5
+        },
+        "default"       : "4"
+    },
+    {
+        "tab"           : "Pagination and sorting",
+        "key"           : "pagination.rowsPerPage",
+        "label"         : "Rows per page",
+        "type"          : "multi_select",
+        "possibleValues":
+        {
+            "5"          : 5,
+            "10"         : 10,
+            "15"         : 15,
+            "20"         : 20,
+            "25"         : 25
+        },
+        "default"       : "5, 10, 25"
+    },
+    {
+        "tab"                       : "Pagination and sorting",
+        "key"                       : "sort.data",
+        "label"                     : "Enable item sorting by",
+        "type"                      : "multi_select",
+        "possibleValues"            :
+        {
+            "texts.name1_asc"                           : "Item name A-Z",
+            "texts.name1_desc"                          : "Item name Z-A",
+            "item.salesPrices.price_asc"                : "Price ⬆",
+            "item.salesPrices.price_desc"               : "Price ⬇",
+            "variation.createdAt_asc"                   : "Newest variation",
+            "variation.createdAt_desc"                  : "Oldest variation",
+            "variation.availability.averageDays_asc"    : "Availability ⬆",
+            "variation.availability.averageDays_desc"   : "Availability ⬇",
+            "variation.number_asc"                      : "Variation number ⬆",
+            "variation.number_desc"                     : "Variation number ⬇",
+            "variation.updatedAt_asc"                   : "Last update",
+            "variation.updatedAt_desc"                  : "First update",
+            "item.manufacturer.externalName_asc"        : "Manufacturer A-Z",
+            "item.manufacturer.externalName_desc"       : "Manufacturer Z-A"
+        },
+        "default"                   : "texts.name1_asc, texts.name1_desc, item.salesPrices.price_asc, item.salesPrices.price_desc"
+    },
+    {
+        "tab"                       : "Pagination and sorting",
+        "key"                       : "sort.defaultSorting",
+        "label"                     : "Default item sorting by",
+        "type"                      : "dropdown",
+        "possibleValues"            :
+        {
+            "texts.name1_asc"                           : "Item name A-Z",
+            "texts.name1_desc"                          : "Item name Z-A",
+            "item.salesPrices.price_asc"                : "Price ⬆",
+            "item.salesPrices.price_desc"               : "Price ⬇",
+            "variation.createdAt_asc"                   : "Newest variation",
+            "variation.createdAt_desc"                  : "Oldest variation",
+            "variation.availability.averageDays_asc"    : "Availability ⬆",
+            "variation.availability.averageDays_desc"   : "Availability ⬇",
+            "variation.number_asc"                      : "Variation number ⬆",
+            "variation.number_desc"                     : "Variation number ⬇",
+            "variation.updatedAt_asc"                   : "Last update",
+            "variation.updatedAt_desc"                  : "First update",
+            "item.manufacturer.externalName_asc"        : "Manufacturer A-Z",
+            "item.manufacturer.externalName_desc"       : "Manufacturer Z-A"
+        },
+        "default"                   : "texts.name1_asc"
+    },
+    {
+        "tab"               : "Checkout and My account",
+        "key"               : "my_account.orders_per_page",
+        "label"             : "Number of orders to show per page in order history",
+        "type"              : "text",
+        "default"           : "5"
+    },
+    {
+        "tab"                       : "Checkout and My account",
+        "key"                       : "billing_address.show",
+        "label"                     : "Show invoice address fields in address form (DE)",
+        "type"                      : "multi_select",
+        "possibleValues"            :
+        {
+            "billing_address.name1"     : "Company",
+            "billing_address.vatNumber" : "VAT number",
+            "billing_address.birthday"  : "Date of birth",
+            "billing_address.name4"     : "Name affix",
+            "billing_address.address3"  : "Additional address 1",
+            "billing_address.address4"  : "Additional address 2",
+            "billing_address.stateId"   : "State",
+            "billing_address.salutation": "Form of address",
+            "billing_address.title"     :"Title"
+
+        },
+        "default"                   : "billing_address.name1, billing_address.salutation"
+    },
+    {
+        "tab"                       : "Checkout and My account",
+        "key"                       : "billing_address.require",
+        "label"                     : "Enable invoice address field validation (DE)",
+        "type"                      : "multi_select",
+        "possibleValues"            :
+        {
+            "billing_address.name1"     : "Company",
+            "billing_address.vatNumber" : "VAT number",
+            "billing_address.birthday"  : "Date of birth",
+            "billing_address.name4"     : "Name affix",
+            "billing_address.address3"  : "Additional address 1",
+            "billing_address.address4"  : "Additional address 2",
+            "billing_address.stateId"   : "State",
+            "billing_address.salutation": "Form of address",
+            "billing_address.title"     : "Title"
+
+        },
+        "default"                   : ""
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "delivery_address.show",
+      "label"                     : "Show delivery address fields in address form (DE)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "delivery_address.name1"      : "Company",
+        "delivery_address.name4"      : "Name affix",
+        "delivery_address.address3"   : "Additional address 1",
+        "delivery_address.address4"   : "Additional address 2",
+        "delivery_address.stateId"    : "State",
+        "delivery_address.salutation" : "Form of address",
+        "delivery_address.title"      : "Title"
+
+      },
+      "default"                   : "delivery_address.name1, delivery_address.salutation"
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "delivery_address.require",
+      "label"                     : "Enable delivery address field validation (DE)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "delivery_address.name1"      : "Company",
+        "delivery_address.name4"      : "Name affix",
+        "delivery_address.address3"   : "Additional address 1",
+        "delivery_address.address4"   : "Additional address 2",
+        "delivery_address.stateId"    : "State",
+        "delivery_address.salutation" : "Form of address",
+        "delivery_address.title"      : "Title"
+
+      },
+      "default"                   : ""
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "billing_address.en.show",
+      "label"                     : "Show invoice address fields in address form (UK)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "billing_address.name1"     : "Company",
+        "billing_address.vatNumber" : "VAT number",
+        "billing_address.birthday"  : "Date of birth",
+        "billing_address.name4"     : "Name affix",
+        "billing_address.address2"  : "Address 2",
+        "billing_address.address3"  : "Address 3",
+        "billing_address.address4"  : "Address 4",
+        "billing_address.salutation": "Form of address",
+        "billing_address.title"     : "Title"
+
+      },
+      "default"                   : "billing_address.name1, billing_address.salutation"
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "billing_address.en.require",
+      "label"                     : "Enable invoice address field validation (UK)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "billing_address.name1"     : "Company",
+        "billing_address.vatNumber" : "VAT number",
+        "billing_address.birthday"  : "Date of birth",
+        "billing_address.name4"     : "Name affix",
+        "billing_address.address2"  : "Address 2",
+        "billing_address.address3"  : "Address 3",
+        "billing_address.address4"  : "Address 4",
+        "billing_address.salutation": "Form of address",
+        "billing_address.title"     : "Title"
+
+      },
+      "default"                   : ""
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "delivery_address.en.show",
+      "label"                     : "Show delivery address fields in address form (UK)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "delivery_address.name1"     : "Company",
+        "delivery_address.name4"     : "Name affix",
+        "delivery_address.address2"  : "Address 2",
+        "delivery_address.address3"  : "Address 3",
+        "delivery_address.address4"  : "Address 4",
+        "delivery_address.salutation": "Form of address",
+        "delivery_address.title"     : "Title"
+
+      },
+      "default"                   : "delivery_address.name1, delivery_address.salutation"
+    },
+    {
+      "tab"                       : "Checkout and My account",
+      "key"                       : "delivery_address.en.require",
+      "label"                     : "Enable delivery address field validation (UK)",
+      "type"                      : "multi_select",
+      "possibleValues"            :
+      {
+        "delivery_address.name1"     : "Company",
+        "delivery_address.name4"     : "Name affix",
+        "delivery_address.address2"  : "Address 2",
+        "delivery_address.address3"  : "Address 3",
+        "delivery_address.address4"  : "Address 4",
+        "delivery_address.salutation": "Form of address",
+        "delivery_address.title"     : "Title"
+
+      },
+      "default"                   : ""
+    },
+    {
+        "tab"               : "Registration",
+        "key"               : "register.email_regex",
+        "label"             : "The RegEx used for the email",
+        "type"              : "text",
+        "default"           : "[a-zA-Z0-9!#$%&'*+\\/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+\\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
+    },
+    {
+        "tab"               : "Registration",
+        "key"               : "register.password_regex",
+        "label"             : "The RegEx used for the password",
+        "type"              : "text",
+        "default"           : "^(?!\\s*$).+"
+    },
+    {
+        "tab"               : "Logging and performance",
+        "key"               : "log.data",
+        "label"             : "Enable logging options",
+        "type"              : "multi_select",
+        "possibleValues"    :
+        {
+            "print_errors"      : "Print errors",
+            "print_success"     : "Print success",
+            "print_warnings"    : "Print warnings",
+            "print_infos"       : "Print information",
+            "print_stack_trace" : "Print stack trace",
+            "log_messages"      : "Log messages",
+            "show_error_code"   : "Show error codes"
+        },
+        "default"           : "print_errors, print_success"
+    },
+    {
+        "tab"               : "Logging and performance",
+        "key"               : "log.performance.level",
+        "label"             : "Performance level",
+        "type"              : "dropdown",
+        "possibleValues"    :
+        {
+            "development": "Development",
+            "live": "Live"
+        },
+        "default"           : "live"
     }
 ]

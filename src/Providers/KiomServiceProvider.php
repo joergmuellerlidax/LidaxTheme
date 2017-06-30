@@ -2,11 +2,14 @@
 
 namespace Kiom\Providers;
 
-
+use Ceres\Caching\HomepageCacheSettings;
+use Ceres\Caching\NavigationCacheSettings;
+use Ceres\Caching\SideNavigationCacheSettings;
 use IO\Extensions\Functions\Partial;
 use IO\Helper\CategoryKey;
 use IO\Helper\CategoryMap;
 use IO\Helper\TemplateContainer;
+use IO\Services\ContentCaching\Services\Container;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Events\Dispatcher;

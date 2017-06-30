@@ -16,6 +16,10 @@
     }
 
 
+    #single-carousel {
+        background: $white;
+    }
+
     .main-image{
         img{
             width: 100%;
@@ -216,9 +220,9 @@
 }
 @include media-breakpoint-only(md) {
     .single {
-         .price {
-                float: right;
-            }
+        .price {
+            float: right;
+        }
     }
 }
 
