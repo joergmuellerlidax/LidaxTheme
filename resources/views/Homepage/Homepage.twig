@@ -33,9 +33,7 @@
 
 {% set itemListTop          = paginatedResultTop.documents %}
 {% set itemListNew          = paginatedResultNew.documents %}
-<script type="application/ld+json">
-    {"@context": "http://schema.org","@type": "WebSite","url": "{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}","potentialAction":{"@type": "SearchAction","target": "{{ services.webstoreConfig.getWebstoreConfig().domainSsl }}/search?query={search_term}","query-input": "required name=search_term"}}
-</script>
+
 {% block ThemeHomepage %}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
     {{ component( "Ceres::ItemList.Components.CategoryImageCarousel") }}
