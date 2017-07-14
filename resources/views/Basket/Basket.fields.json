@@ -1,0 +1,19 @@
+[
+  "itemId",
+  "texts.name*",
+  "texts.description",
+  "texts.shortDescription",
+  "texts.urlPath",
+  "texts.lang",
+  "variation.number",
+  "variation.availability.names.*",
+  "variation.itemId",
+  "variation.id",
+  "variation.data.orderProperties.*",
+  "item.id",
+  "images.all.url*",
+  "images.all.position",
+  "images.variation.position",
+  "images.variation.urlPreview",
+  "properties.*"
+]

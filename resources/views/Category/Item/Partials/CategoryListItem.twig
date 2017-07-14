@@ -1,4 +1,4 @@
-{{ component( "Kiom::Basket.Components.AddToBasket" ) }}
+{{ component( "Ceres::Basket.Components.AddToBasket" ) }}
 
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 
@@ -18,6 +18,9 @@
     <div class="thumb-inner">
         <div class="thumb-background"></div>
 
+        <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false"
+                       item-url="{{ itemUrl }}" :salable="{{ services.item.getVariationIsSalable(item.data.variation.id) | json_encode() }}"></add-to-basket>
+
         <div class="thumb-image">
             <div class="square-container">
                 <div class="square-inner main-image">
@@ -28,7 +31,6 @@
                                              item-url="{{ itemUrl }}"
                                              :show-dots="{{ config("Ceres.item.category_show_dots") | json_encode() }}"
                                              :show-nav="{{ config("Ceres.item.category_show_nav") | json_encode() }}"
-                                             :disable-lazy-load="true"
                                              :enable-carousel="{{ enableCarousel }}">
                     </category-image-carousel>
 
@@ -37,7 +39,6 @@
                             <img class="img-fluid" src="{{ image.urlMiddle }}">
                         </a>
                     </noscript>
-                    
                 </div>
             </div>
         </div>
@@ -77,19 +78,18 @@
             </div>
         {% endif %}
         <!-- ./STORE SPECIALS -->
-        
+
         <!-- ITEM DETAILS -->
         <div class="thumb-content">
-            <a href="{{ itemUrl }}" class="thumb-title">
+            <a href="{{ itemUrl }}" class="thumb-title small">
                 {{ item.data.texts | itemName(configItemName) }}
             </a>
             <div class="thumb-meta">
                 {{ LayoutContainer.show("Ceres::CategoryItem.BeforePrices", item.data) }}
 
                 <div class="prices">
-
                     {% if item.data.calculatedPrices.rrp.price != '0' %}
-                        <a href="{{ itemUrl }}" class="price-view-port">
+                        <a href="{{ itemUrl }}">
                             <del class="crossprice">
                                 {{ item.data.calculatedPrices.rrp.price | formatMonetary(item.data.calculatedPrices.rrp.currency) }}
                             </del>
@@ -101,13 +101,13 @@
                             {{ item.data.calculatedPrices.default.price | formatMonetary(item.data.calculatedPrices.default.currency) }} *
                         </div>
                     </a>
+                    <span class="vat-porto-info small text-muted">
+                        * {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
+                        <a {% if shippingCat is not empty %} data-toggle="modal" href="#shippingscosts"{% endif %} title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
+                    </span>
                 </div>
 
                 {{ LayoutContainer.show("Ceres::CategoryItem.AfterPrices", item.data) }}
-            </div>
-            <div class="AddToBasket">
-                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false" :use-large-scale="false"
-                       item-url="{{ itemUrl }}" :salable="{{ services.item.getVariationIsSalable(item.data.variation.id) | json_encode() }}"></add-to-basket>
             </div>
         </div>
         <!-- ./ITEM DETAILS  -->

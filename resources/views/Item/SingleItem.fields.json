@@ -1,0 +1,45 @@
+[
+  "itemId",
+  "id",
+
+  "item.id",
+  "item.manufacturer.externalName",
+  "item.documents.data",
+  "item.ageRestriction",
+  "item.customsTariffNumber",
+  "item.producingCountryId",
+
+  "variation.id",
+  "variation.name",
+  "variation.number",
+  "variation.externalId",
+  "variation.model",
+  "variation.weightG",
+  "variation.weightNetG",
+  "variation.lengthMM",
+  "variation.widthMM",
+  "variation.heightMM",
+  "variation.availability.names.*",
+  "variation.availability.id",
+  "variation.releasedAt",
+
+  "texts.*",
+
+  "salesPrices.price",
+  "salesPrices.type",
+
+  "unit.content",
+  "unit.names.name",
+  "unit.names.lang",
+
+  "images.all.url",
+  "images.all.urlPreview",
+  "images.all.position",
+  "images.variation.url",
+  "images.variation.urlPreview",
+  "images.variation.position",
+
+  "properties.*",
+
+  "defaultCategories"
+]

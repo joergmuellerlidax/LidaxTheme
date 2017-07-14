@@ -1,5 +1,4 @@
 .cmp-basket-item{
-
 	position: relative;
 	display: flex;
 	flex-flow: row wrap;
@@ -21,16 +20,18 @@
 		}
 	}
 	
-	.eek-sign {
-		span {
-			font-size: 1rem;
-		}
-		&:after {
-			border-width: 1rem 0 1rem 1rem;
+	.item-details{
+		margin-top: 1em;
+
+		&>div[class^="item-"]{
+			display: block;
+			margin-bottom: .5rem;
+
+			&:last-of-type{
+				margin-bottom: 0;
+			}
 		}
 	}
-
-
 
 	.item-name{
 		position: relative;
@@ -223,10 +224,19 @@
 	}
 
 	@include media-breakpoint-up(md){
-		
+		.item-quantity{
+			.input-group.vert{
+				left:5%;
+			}
+		}
 	}
+
 	@include media-breakpoint-up(lg){
-		
+		.item-quantity{
+			.input-group.vert{
+				left:20%;
+			}
+		}
 	}
 }
 

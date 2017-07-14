@@ -2,7 +2,7 @@
 	display: block;
 	height: 100%;
 	overflow: hidden;
-	color: $gray-dark;
+	color: $white;
 	font-family: $font-family-heading;
 
 	@include img-cover();
@@ -40,7 +40,7 @@
 	    background: transparent;
 	    font-size: 1.5rem;
     	text-transform: uppercase;
-    	color: $gray-darker;
+    	color: $white;
 	}
 
 	.featured-category-cta{

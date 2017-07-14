@@ -14,17 +14,13 @@
 {% set performanceLevel = config('Ceres.log.performance.level') %}
 {% set itemName = config('Ceres.item.name') %}
 
-<title>Lampen & Leuchten online: Kiom24 Designlamps</title>
-<meta name="author" content="Frontend Studios GmbH"/>
-<meta name="keywords" content="kiom24 design lampen leuchten, design leuchten, led lampen, innenleuchten, innenlampen, außenleuchten, außenlampen"/>
-<meta name="description" content="Design Leuchten und LED Lampen günstig online kaufen. Bei kiom24.de finden Sie stilvolle Innen- und Außenleuchten. Top Qualität bis zu 70% günstiger!"/>
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-<link rel="shortcut icon" href="{{ plugin_path('Kiom') }}/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="{{ plugin_path('Kiom') }}/images/favicon.ico" type="image/x-icon">
+{% if LayoutContainer.show("Ceres::Template.StyleOverwrite") | trim is empty %}
+    <link rel="stylesheet" href="{{ plugin_path('Ceres') }}/css/ceres.css">
+{% endif %}
 
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
-<link rel="stylesheet" href="{{ plugin_path('Ceres') }}/css/ceres.css">
+{{ LayoutContainer.show("Ceres::Template.StyleOverwrite") }}
 
 <!-- Extend the existing style with a template -->
 {{ LayoutContainer.show("Ceres::Template.Style") }}
@@ -48,8 +44,7 @@
             enabledBillingAddressFields: "{{ config("Ceres.billing_address.show") }}",
             enabledBillingAddressFieldsUK: "{{ config("Ceres.billing_address.en.show") }}",
             enabledDeliveryAddressFields: "{{ config("Ceres.delivery_address.show") }}",
-            enabledDeliveryAddressFieldsUK: "{{ config("Ceres.delivery_address.en.show") }}",
-            enableOldUrlPattern: "{{ config("Ceres.global.enableOldUrlPattern") }}"
+            enabledDeliveryAddressFieldsUK: "{{ config("Ceres.delivery_address.en.show") }}"
         },
         isCategoryView: {% if services.template.isCategory() == "1" %}true{% else %}false{% endif %},
         isCheckoutView : {% if services.template.isCheckout() == "1" %}true{% else %}false{% endif %},

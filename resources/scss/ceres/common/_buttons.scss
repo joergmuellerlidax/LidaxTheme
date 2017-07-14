@@ -1,107 +1,134 @@
-button:focus {
-	outline:none !important;
-}
+.input-group{
 
-.btn-link:focus, .btn-link:hover {
-    color: $brand-primary;
-    text-decoration: none;
-    background-color: transparent;
-    outline: none;
-}
-
-.eek-sign {
-	position:relative;
-	max-width: 5rem;
-	span {
-		background: $green;
-		color: $white;
-	    padding: .25rem 1rem .25rem .75rem;
-	    font-size: 1.5rem;
-		display: block;
-		min-width: 4.5rem;
-	}
-	&:after {
-		display: block;
-	    position: absolute;
-	    left: 100%;
-	    top: 0;
-	    height: 100%;
-	    background: transparent;
-	    content: "";
-	    border-style: solid;
-	    border-width: 1.25rem 0 1.25rem 1.25rem;
-	    border-color: transparent transparent transparent $green;
-	}
-	&.eek-aa span {background: $eek-aa;}
-	&.eek-a span {background: $eek-a;}
-	&.eek-b span {background: $eek-b;}
-	&.eek-c span {background: $eek-c;}
-	&.eek-d span {background: $eek-d;}
-	&.eek-e span {background: $eek-e;}
-
-	&.eek-aa:after {border-color: transparent transparent transparent $eek-aa;}
-	&.eek-a:after {border-color: transparent transparent transparent $eek-a;}
-	&.eek-b:after {border-color: transparent transparent transparent $eek-b;}
-	&.eek-c:after {border-color: transparent transparent transparent $eek-c;}
-	&.eek-d:after {border-color: transparent transparent transparent $eek-d;}
-	&.eek-e:after {border-color: transparent transparent transparent $eek-e;}
-
-	&:hover {
-		cursor: pointer;
-		span {
-			background:darken($green, 10%);
-		}
-		&:after {
-		    border-color: transparent transparent transparent darken($green, 10%);
-		}
-	}
-}
-
-
-
-.AddToBasket {
-	margin-top:.5rem;
-	.AddToBasket-inner {
-		position: relative;
-		.eek-sign {
-			position:absolute;
-			max-width: 100%;
-		}
-		.btn-buy {
+	&.vert{
+		.input-group-btn{
 			display: block;
-			padding: .55rem 1rem .55rem 2.5rem;
-    		line-height: 1.5;
-    		width: 100%;
-    		background:$white;
-    		@include media-breakpoint-up(sm){
-				padding: .55rem 1rem .55rem 3rem;
-		    }
-		    &:hover {
-				cursor: pointer;
-				background:darken($white, 10%);
+			width: 100%;
+
+			.btn{
+				width: 100%;
+				margin: 0;
 			}
 		}
-		.availability-preview {
-			position: absolute;
-		    right: 0;
-		    top: 0;
-		    color: white;
-		    background: $green;
-		    padding: .3rem 1rem;
-		    font-size: 1.5rem;
-		    @include media-breakpoint-up(sm){
-				padding: .275rem 1rem;
-		    }
-		    &:hover {
-				cursor: pointer;
-				background:darken($green, 10%);
-			}
-			&.availability-1 {background:$availability_1;}
-			&.availability-2 {background:$availability_2;}
-			&.availability-3 {background:$availability_3;}
-			&.availability-4 {background:$availability_4;}
-			&.availability-5 {background:$availability_5;}
-			&.availability-releasedat {background: $gray;}
+
+		//.form-control:not(:last-child),
+		.input-group-addon:not(:last-child),
+		.input-group-btn:not(:last-child) > .btn,
+		.input-group-btn:not(:last-child) > .btn-group > .btn,
+		.input-group-btn:not(:last-child) > .dropdown-toggle,
+		.input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+		.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn {
+		  	@include border-bottom-radius(0);
+		  	@include border-top-radius($border-radius);
+		  	border-bottom: none;
+		}
+		.input-group-addon:not(:last-child) {
+		  	border-bottom: 0;
+		}
+		.input-group .form-control:not(:first-child),
+		.input-group-addon:not(:first-child),
+		.input-group-btn:not(:first-child) > .btn,
+		.input-group-btn:not(:first-child) > .btn-group > .btn,
+		.input-group-btn:not(:first-child) > .dropdown-toggle,
+		.input-group-btn:not(:last-child) > .btn:not(:first-child),
+		.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn {
+		  	@include border-bottom-radius($border-radius);
+		  	@include border-top-radius(0);
+		  	border-top: none;
+		}
+		.form-control + .input-group-addon:not(:first-child) {
+		  	border-top: 0;
+		}
+
+		.form-control{
+			display: block;
+			float: none;
+			border-radius: 0!important;
+		}
+	}
+}
+
+
+
+button:focus {
+	outline:none;
+}
+
+
+
+// button combinations 
+.btn-group.extended,
+.input-group.extended{
+    display: flex;
+
+    .extended{
+        flex: 1;
+
+        .btn{
+            width: 100%;
+        }
+    }
+
+    .input-group-btn{
+        width: auto;
+    }
+}
+
+.btn.btn-nohover{
+
+}
+
+// create gray outline button 
+.btn-outline-default{
+	@include button-outline-variant($btn-default-color);
+}
+
+
+// <button type="button" class="btn btn-labeled btn-success">
+//     <span class="btn-label">
+//         <i class="glyphicon glyphicon-ok"></i>
+//     </span>
+//     Success
+// </button>
+
+
+.btn-remove{
+
+}
+
+.btn-labeled {
+	padding-top: 0;
+    padding-bottom: 0;
+	
+	@extend .small;
+
+	transition: all 200ms;
+
+	.btn-label {
+		position: relative;
+		right: -#{$btn-padding-x-sm};
+		display: inline-block;
+		padding: $btn-padding-y-sm $btn-padding-x-sm;
+		background-color: rgba(0,0,0,0.15);
+		border-top-right-radius: $border-radius-sm;
+		border-bottom-right-radius: $border-radius-sm;
+	}
+
+	&.label-right{
+		.btn-label {
+			right: auto;
+			left: -#{$btn-padding-x-sm};
+		}
+	}
+
+
+	&.btn-link{
+		padding-left: 0;
+		padding-right: 0;
+
+		.btn-label{
+			background-color: rgba(0,0,0,0);
+			padding: $btn-padding-y-sm 0;
 		}
 	}
 }

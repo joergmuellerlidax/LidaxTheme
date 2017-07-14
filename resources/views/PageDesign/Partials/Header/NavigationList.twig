@@ -1,19 +1,10 @@
-{% import "Kiom::Category.Macros.CategoryTree" as Tree %}
+{% import "Ceres::Category.Macros.CategoryTree" as Tree %}
 
 {% set lang = services.sessionStorage.getLang() %}
 {% set categories = services.category.getNavigationTree("item", lang) %}
 
 <resource name="navigationTree" :data="{{ categories | json_encode() }}"></resource>
 
-<ul class="mainmenu">
-    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+<ul class="mainmenu pull-lg-right">
     {{ Tree.get_nav_bar(categories, "") }}
-    <li class="pull-lg-right isSearch">
-        <a class="nav-link" data-toggle="collapse" href="#searchBox"
-           aria-expanded="false"
-           aria-controls="searchBox"
-           data-parent="#controlsList">
-            <i class="fa fa-search"></i>
-        </a>
-    </li>
 </ul>

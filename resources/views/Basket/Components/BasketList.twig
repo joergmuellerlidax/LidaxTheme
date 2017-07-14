@@ -1,4 +1,4 @@
-{{ component( "Kiom::Basket.Components.BasketListItem" ) }}
+{{ component( "Ceres::Basket.Components.BasketListItem" ) }}
 
 <script type="x/template" id="vue-basket-list">
     <basket-list-item template="#vue-basket-list-item" v-for="basketItem in basketItems" :basket-item="basketItem" :size="size" language="{{ services.sessionStorage.getLang() }}"></basket-list-item>
