@@ -52,7 +52,7 @@
                 {% if  item.data.item.storeSpecial.id == 1 %}
 
                     {% set storeSpecialColor = 'danger' %}
-                    {% set percent = 100-(item.data.calculatedPrices.rrp.price/item.data.calculatedPrices.default.price*100) %}
+                    {% set percent = (1 - item.data.calculatedPrices.default.price / item.data.calculatedPrices.rrp.price) * -100 %}
 
                     {% if percent <= 0 %}
                         {% set dezimalcount = config('Ceres.item.storeSpecial') %}
@@ -89,7 +89,7 @@
                 <div class="prices">
 
                     {% if item.data.calculatedPrices.rrp.price != '0' %}
-                        <a href="{{ itemUrl }}">
+                        <a href="{{ itemUrl }}" class="price-view-port">
                             <del class="crossprice">
                                 {{ item.data.calculatedPrices.rrp.price | formatMonetary(item.data.calculatedPrices.rrp.currency) }}
                             </del>
@@ -106,8 +106,8 @@
                 {{ LayoutContainer.show("Ceres::CategoryItem.AfterPrices", item.data) }}
             </div>
             <div class="AddToBasket">
-                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false"
-                       item-url="{{ itemUrl }}"></add-to-basket>
+                <add-to-basket template="#vue-add-to-basket" :item="{{ item.data | json_encode() }}" :show-quantity="false" :use-large-scale="false"
+                       item-url="{{ itemUrl }}" :salable="{{ services.item.getVariationIsSalable(item.data.variation.id) | json_encode() }}"></add-to-basket>
             </div>
         </div>
         <!-- ./ITEM DETAILS  -->

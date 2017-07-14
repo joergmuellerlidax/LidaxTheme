@@ -106,6 +106,7 @@ body.menu-is-visible { overflow-y : hidden; }
 		li 	{ 
 			width : 100%; 
 			cursor: pointer;
+<<<<<<< HEAD
 			float: none;
 
 			a 	{ 
@@ -116,15 +117,20 @@ body.menu-is-visible { overflow-y : hidden; }
 				text-align 	: left;
 			}
 
+			.nav-direction{
+				padding: 1rem;
+				flex: 1 0 20%;
+				text-align: center;
+			}
+
 			ul {
 				background 	: $menu-bg-sm;
-				display 	: none;
 				left 		: 0;
 				list-style 	: none;
 				margin 		: 0; 
 				min-height 	: 100%;
 				padding 	: 0;
-				position 	: absolute;
+				position 	: relative;
 				top 		: 0;
 				width 		: 100%;
 			}
@@ -140,6 +146,39 @@ body.menu-is-visible { overflow-y : hidden; }
 			    height 			: auto; 
 			    padding 		: 0 .5em 0 1em;
 			    width 			: auto;
+			&.ddown {
+				.nav-direction {
+					i {
+						transition: transform 300ms ease-out;
+						transform: rotateX(0deg);
+					}
+				}
+				.nav-direction[aria-expanded="true"] {
+					i {
+						transform: rotateX(180deg);
+					}
+				}
+			}
+			/*&.ddown>a:after {
+				border 			: none;
+				content			: "\f0da";
+				float 			: right;
+				font-family 	: FontAwesome;
+				font-size 		: 1.5rem;
+				height 			: auto;
+				padding 		: 0 .5em 0 1em;
+				width 			: auto;
+			}*/
+		}
+	}
+
+	@include media-breakpoint-up(sm){
+
+		ul.mainmenu {
+			li 	{
+				.nav-direction{
+					padding-right: calc(4px + .5em);
+				}
 			}
 		}
 	}
@@ -210,6 +249,10 @@ body.menu-is-visible { overflow-y : hidden; }
 							color 			: $menu-big-menu-li-color;
 							text-decoration : none;
 						}
+
+						>a {
+							width:100%;
+						}
 					}
 				}
 
@@ -262,7 +305,17 @@ body.menu-is-visible { overflow-y : hidden; }
 						}
 					}
 				}
-				&.ddown>a:after { content : '\f0d7'; font-size: inherit; padding-left:.5em;}
+				&.ddown>a { transition: all 0s; }
+				&.ddown>a:after {
+					content : '\f0d7';
+					font-size: inherit;
+					padding-left:.5em;
+					border 			: none;
+					float 			: right;
+					font-family 	: FontAwesome;
+					height 			: auto;
+					width 			: auto;
+				}
 				&.ddown .ddown a:after { display : none; }
 			}
 		}

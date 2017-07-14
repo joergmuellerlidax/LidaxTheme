@@ -16,6 +16,16 @@
     }
 
 
+    
+    .list-item-carousel {
+        .list-control-special{
+            width: 5%;
+            height: 5%;
+            position: absolute;
+            top: 40%;
+        }
+    }
+
     #single-carousel {
         background: $white;
     }

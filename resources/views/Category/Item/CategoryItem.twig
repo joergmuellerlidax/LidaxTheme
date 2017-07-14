@@ -25,7 +25,7 @@
 {% set paginationType       = config("Ceres.pagination.position") %}
 
 {% set lang         = services.sessionStorage.getLang() %}
-{% set categories = services.category.getNavigationTree("item", lang) %}
+{% set categories = services.category.getNavigationTree("item", lang, 6) %}
 
 {% set showHeaderNavBar = config("Ceres.header.show_navbars") %}
 
@@ -60,9 +60,9 @@
                         <div class="category-title">{{ trans("Ceres::Template.generalCategories") }}</div>
                         {{ includeCached('Ceres::PageDesign.Partials.Header.SideNavigation.twig') }}
                     </div>
-                </div>
 
-                {{ LayoutContainer.show("Ceres::CategoryItem.SideNavBarBottom") }}
+                    {{ LayoutContainer.show("Ceres::CategoryItem.SideNavBarBottom") }}
+                </div>
 
             {% endif %}
         

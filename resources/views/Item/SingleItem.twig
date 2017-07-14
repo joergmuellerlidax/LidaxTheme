@@ -7,9 +7,6 @@
 {% set configItemName = config("Ceres.item.name") %}
 {% set variations = services.item.getVariationAttributeMap( item.documents[0].data.item.id  ) %}
 {% set basePriceList = getBasePriceList( services.item.getVariationList( item.documents[0].data.item.id  ) ) %}
-{# set crossSellingList = services.item.getItemCrossSellingList( item.documents[0].data.item.id  ) #}
-{% set crossSellingItemsAccessory = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Accessory") %}
-{% set crossSellingItemsSimilar = services.item.getItemCrossSellingList(item.documents[0].data.item.id, "Similar") %}
 
 {% block PartialHead %}
     <meta property="og:title" content="{{ item.documents[0].data.texts | itemName(configItemName) }}" />
@@ -29,8 +26,6 @@
 
 {% set paginatedResultSimilar      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':21, 'page':1, 'items':2, 'facets': facetParams, 'sorting': itemSort}) %}
 
-{% set itemList          = paginatedResult.documents %}
-{% set itemListSimilar   = paginatedResultSimilar.documents %}
 
 {% set hersteller = item.documents[0].data.item.manufacturer.name %}
 {% if hersteller == "AEG" %}
@@ -47,7 +42,7 @@
 
 
 {% block PageBody %}
-    {{ services.lastSeen.setLastSeenMaxCount(config("Ceres.item.lists.last_seen")) }}
+    {{ services.lastSeen.setLastSeenMaxCount(config("Ceres.item.lists.last_seen_number")) }}
 
     {{ component( "Ceres::Item.Components.VariationSelect" ) }}
     {{ component( "Ceres::Item.Components.ItemImageCarousel" ) }}
@@ -83,6 +78,7 @@
                             </div>
                         </div>
                     </div>
+
 
 
                     <!-- ITEM DETAIL -->
@@ -149,11 +145,11 @@
                                         </span>
                                         
                                         <div class="availability-wrapper">
-                                        {% for availability in services.availability.getAvailabilities() %}
-                                            <span class="availability tag availability_{{ availability.id }}" v-resource-if:currentVariation="documents[0].data.variation.availability.id == {{ availability.id }}">
-                                                <span v-resource-bind:currentVariation="documents.0.data.variation.availability.names.name">{{ item.documents[0].data.variation.availability.names.name }}</span>
+                                            <span class="availability tag availability_{{ item.documents[0].data.variation.availability.id }}" v-availability-class:currentVariation>
+                                                <span v-resource-bind:currentVariation="documents.0.data.variation.availability.names.name">
+                                                    {{ item.documents[0].data.variation.availability.names.name }}
+                                                </span>
                                             </span>
-                                        {% endfor %}
 
                                         </div>
                                         
@@ -162,19 +158,34 @@
                                         <h6 class="producertag hidden-md-up">
                                             <a href="{{ herstellerURL }}" class="producer text-muted">{{ hersteller }}</a>
                                         </h6>
+
                                         {% if ('item.recommendedPrice' in itemData or 'all' in itemData) %}
                                             <div class="crossprice" v-resource-if:currentVariation="documents[0].data.calculatedPrices.rrp.price > 0">
-                                                <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.rrp.price" :filters="['currency']">
-                                                    {{ item.documents[0].data.calculatedPrices.rrp.price | formatMonetary(item.documents[0].data.calculatedPrices.rrp.currency) }}
+                                                <del class="text-muted small" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.formatted.rrpPrice">
+                                                    {{ item.documents[0].data.calculatedPrices.formatted.rrpPrice }}
                                                 </del>
                                             </div>
                                         {% endif %}
 
-                                        <span class="price h1">
-
-                                            <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.default.price" :filters="['currency']">{{ item.documents[0].data.calculatedPrices.default.price | formatMonetary(item.documents[0].data.calculatedPrices.default.currency) }}</span>
+                                        <span class="price h1" >
+                                            <span v-resource-bind:currentVariation="documents.0.data.calculatedPrices.formatted.defaultPrice"
+                                                  content="{{ item.documents[0].data.calculatedPrices.default.price }}">
+                                                {{ item.documents[0].data.calculatedPrices.formatted.defaultPrice }}
+                                            </span>
                                             <sup>*</sup>
+                                            <span content="{{ item.documents[0].data.calculatedPrices.default.currency }}"></span>
                                         </span>
+
+                                        <div class="base-price text-muted m-y-1">
+                                            {{ trans("Ceres::Template.itemUnitPrice") }}
+                                            <span class="base-price-value" v-resource-bind:currentVariation="documents.0.data.calculatedPrices.formatted.defaultUnitPrice">{{ item.documents[0].data.calculatedPrices.formatted.defaultUnitPrice }}</span> /
+                                                
+                                            <span v-if="true" class="base-price-amount" v-resource-bind:currentVariation="documents.0.data.unit.content" v-resource-if:currentVariation="documents[0].data.unit.content > 1">{{ item.documents[0].data.unit.content }}</span>
+
+                                            <span class="base-price-amount" v-resource-bind:currentVariation="documents.0.data.unit.names.name">{{ item.documents[0].data.unit.names.name }}</span>
+                                        </div>
+
+                                        
                                         <span class="vat small text-muted">
                                             {{ trans("Ceres::Template.itemInclVAT") }} {{ trans("Ceres::Template.itemExclusive") }}
                                             <a href="/webshop/versand/" title="{{ trans("Ceres::Template.itemShippingCosts") }}">{{ trans("Ceres::Template.itemShippingCosts") }}</a>
@@ -358,8 +369,18 @@
                 </div>
             </div>
         </div>
-        
-        
+
+        <!-- ./ITEM DESCRIPTION -->
+
+        {{ LayoutContainer.show("Ceres::SingleItem.ItemListContainer", item) }}
+
+        {#<hr>#}
+
+        {#<h3 class="m-t-3 m-b-1">{{ trans("Ceres::Template.itemCustomerFeedback") }}</h3>#}
+        {#<div class="row m-b-3">#}
+            {#{% include "Ceres::Item.Partials.ItemRating" %}#}
+        {#</div>#}
+
 
     </div>
 

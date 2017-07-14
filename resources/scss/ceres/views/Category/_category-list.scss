@@ -54,8 +54,36 @@
     }
 }
 
+
 .cat-teaser {
     display: none;
+}
+.item-confirm-special-case-close {
+  float: right;
+}
+
+.item-confirm-special-case-blue {
+  float: left;
+  width: initial;
+  position: absolute;
+}
+
+.product-list{
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 0;
+
+	display: flex;
+	flex-flow: row wrap;
+
+//	li{
+//        @include make-col-ready(12);
+//        @include make-col(12);
+//	}
+}
+
+.lazy{
+    display:none;
 }
 @include media-breakpoint-up(lg){
     .cat-teaser {

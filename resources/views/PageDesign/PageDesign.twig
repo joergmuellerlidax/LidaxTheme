@@ -14,10 +14,11 @@
 {% set basketAddInformation = config("Ceres.basket.add_item_to_basket_confirm") %}
 
 
-{% set shippingCat = services.category.get(config("Ceres.global.shippingCostsCategoryId"), lang) %}
+{% set shippingCat = config("Ceres.global.shippingCostsCategoryId") %}
 
 {% if services.template.isCategory() or services.template.isItem() %}
-     {% set categoryBreadcrumbs = services.category.getHierarchy() %}
+    {% set categoryBreadcrumbs = services.category.getHierarchy() %}
+    {{ services.crossSelling.setType(config("Ceres.item.lists.cross_selling_type")) }}
 {% endif %}
 
 <html lang="{{ lang }}" data-framework="vue" prefix="og: http://ogp.me/ns#">
@@ -34,9 +35,8 @@
         <resource name="basket" route="/rest/io/basket/" data="{{ services.basket.getBasket() | json_encode() }}" :events="['AfterBasketChanged!basket']"></resource>
         <resource name="itemSearch" :data="{}"></resource>
         <resource name="basketItem" :data="{ currentBasketItem: { }, quantity: 1 }"></resource>
-        <resource name="localization" :data="{{ services.localization.getLocalizationData() | json_encode() }}"></resource>
+        <resource name="localization" :data="{{ services.localization.getLocalizationData() | json_encode() }}" :events="['LocalizationChanged!localization']"></resource>
         <resource-list name="basketItems" route="/rest/io/basket/items/" response-template="Kiom::Basket.Basket" data="{{ services.basket.getBasketItemsForTemplate('Ceres::Basket.Basket') | json_encode() }}"></resource-list>
-        <resource name="navigationTree" :data="{{ categories | json_encode() }}"></resource>
         <resource name="isLoadingBreadcrumbs" :data="false"></resource>
         
         <div class="wrapper wrapper-top">
@@ -121,7 +121,7 @@
                                 <h3 class="modal-title">{{ trans('Ceres::Template.itemShippingCosts') }}</h3>
                             </div>
                             <div class="modal-body">
-                                {{ shippingCat.details[0].description | raw }}
+                                {% include category_template(shippingCat, lang, services.webstoreConfig.getWebstoreConfig().webstoreId) ignore missing %}
                             </div>
                         </div>
                     </div>
