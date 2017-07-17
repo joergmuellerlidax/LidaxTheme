@@ -13,7 +13,9 @@
     <div class="container-max">
         <div class="row">
             {{ LayoutContainer.show("Ceres::Header.LeftSide") }}
-
+             <a class="navbar-brand pull-lg-left hidden-md-down" href="/">
+                 <img src="/images/gallery/logo/logo.png" class="img-fluid" alt="Kiom24 - Lampen und Leuchten online" />
+             </a>
             <ul id="controlsList" class="controls-list list-inline">
 
                 <li class="list-inline-item control-user">
@@ -21,17 +23,9 @@
                             :user-data="{{ services.customer.getContact() | json_encode() }}"></user-login-handler>
                 </li>
 
-                <li class="list-inline-item dropdown control-languages">
-                    <a class="" data-toggle="collapse" href="#countrySettings" aria-expanded="false"
-                       aria-controls="countrySettings"
-                       data-parent="#controlsList">
-                        <i class="flag-icon flag-icon-{{ lang }}"></i>
-                    </a>
-                </li>
-
-                <li class="list-inline-item control-search">
+                <li class="list-inline-item control-search hidden-lg-up">
                     <a class="" data-toggle="collapse" href="#searchBox"
-                       aria-expanded="{% if services.template.isSearch() %}true{% else %}false{% endif %}"
+                       aria-expanded="false"
                        aria-controls="searchBox"
                        data-parent="#controlsList">
                         <i class="fa fa-search"></i>
@@ -49,19 +43,19 @@
             </ul>
         </div>
     </div>
-    {% include "Ceres::PageDesign.Partials.Header.Navigation" %}
+    {% include "Kiom::PageDesign.Partials.Header.Navigation" %}
 
 </header>
 
 
 <!-- breadcrumb -->
 {% if not services.template.isHome() and not services.template.isMyAccount() and not services.template.isCheckout() %}
-    {% include "Ceres::PageDesign.Partials.Header.Breadcrumb" %}
+    {% include "Kiom::PageDesign.Partials.Header.Breadcrumb" %}
 {% endif %}
 
 <div class="container-max page-header">
     <div class="row">
-        <div id="searchBox" class="cmp cmp-search-box collapse {% if services.template.isSearch() %} in {% endif %}">
+        <div id="searchBox" class="cmp cmp-search-box collapse">
             <item-search template="#vue-item-search"></item-search>
         </div>
 
@@ -81,7 +75,7 @@
                         <strong>{{ trans("Ceres::Template.generalSelectShippingCountry") }}</strong>
                         <hr>
                     </div>
-                    <shipping-country-select template="#vue-shipping-country-select" country-flag-prefix="flag-icon-"/>
+                    <shipping-country-select template="#vue-shipping-country-select" country-flag-prefix="flag-icon-" :selectable="{{ services.template.isCheckout() | json_encode() }}"/>
                 </div>
             </div>
         </div>

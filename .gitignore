@@ -1,5 +1,5 @@
-.idea/
-*.iml
 node_modules
-home.html
+meta
 sftp-config.json
+.idea/*
+*.iml

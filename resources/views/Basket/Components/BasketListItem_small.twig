@@ -23,18 +23,36 @@
         <a class="clearfix" :href="basketItem.variation.data | itemURL">
             <div class="item-name">
                 ${ basketItems | json }
-                ${ basketItem.variation.data.texts | itemName {{ configItemName }} } {# ${ basketItem.variation.variationBase.variationName } #}
+                ${ basketItem.variation.data.texts | itemName {{ configItemName }} } {# ${ basketItem.variation.variationBase.variationName } #}
             </div>
         </a>
         <div class="item-unit-price">
-            ${ basketItem.variation.data.calculatedPrices.default.unitPrice | currency basketItem.variation.data.calculatedPrices.default.currency } / {{ trans("Ceres::Template.itemEach") }}
+            ${ basketItem.variation.data.calculatedPrices.default.unitPrice | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup> / {{ trans("Ceres::Template.itemEach") }}
         </div>
         <div class="item-total-price">
-            ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }
+            ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup>
         </div>
-        <div class="item-order-param" v-for="property in basketItem.basketItemOrderParams">
-            <strong>${property.name}</strong>:
-            <span>${property.value}</span>
+        
+        <!-- <div class="eek-sign clearfix">
+            <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.variation.id"><span>A++</span></a>
+        </div> -->
+        <div>
+            <div v-for="prop in basketItem.variation.data.properties">
+                <div v-bind:class="{
+                    'eek-aaa': prop.property.names[0].name === 'A++',
+                    'eek-aa' : prop.property.names[0].name === 'A+',
+                    'eek-a' : prop.property.names[0].name === 'A',
+                    'eek-b' : prop.property.names[0].name === 'B',
+                    'eek-c' : prop.property.names[0].name === 'C',
+                    'eek-d' : prop.property.names[0].name === 'D',
+                    'eek-e' : prop.property.names[0].name === 'E',
+                    'hidden-xs-up' : prop.property.names[0].name === 'EEK Skala'
+                    }"
+                    class="eek-sign clearfix" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
+                    <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.id"><span>${ prop.property.names[0].name }</span>
+                    </a>
+                </div>
+            </div>
         </div>
         <button type="button" class="item-remove btn btn-labeled btn-link btn-sm" @click="deleteItem" :disabled="waiting" :class="{ 'btn-link' : !deleteConfirmed, 'btn-danger' : deleteConfirmed }">
             <span class="message" v-if="!deleteConfirmed">
@@ -49,4 +67,5 @@
         </button>
     </div>
     <!-- ./ITEM DETAILS -->
+
 </article>

@@ -3,7 +3,7 @@
 
 {% block PageBody %}
 
-    {{ component( "Ceres::Basket.Components.BasketList" ) }}
+    {{ component( "Kiom::Basket.Components.BasketList" ) }}
     {{ component( "Ceres::Basket.Components.Coupon" ) }}
     {{ component( "Ceres::Basket.Components.BasketTotals" ) }}
 
@@ -24,7 +24,6 @@
         </div>
 
         {% set beforeCouponContainer = LayoutContainer.show("Ceres::Basket.BeforeCoupon") %}
-
         {% if beforeCouponContainer|trim is not empty %}
             {{ beforeCouponContainer }}
             <hr class="m-y-2">

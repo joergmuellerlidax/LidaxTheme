@@ -1,7 +1,7 @@
 {% import "Ceres::PageDesign.Macros.IncludeComponents" as Loader %}
 {% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
 {{ component( "Ceres::PageDesign.Components.Notifications" ) }}
-{{ component( "Ceres::Basket.Components.BasketPreview" ) }}
+{{ component( "Kiom::Basket.Components.BasketPreview" ) }}
 {{ component( "Ceres::Customer.Components.Login" ) }}
 {{ component( "Ceres::Customer.Components.Registration" ) }}
 {{ component( "Ceres::Basket.Components.AddItemToBasketOverlay" ) }}
@@ -18,13 +18,14 @@
 
 {% if services.template.isCategory() or services.template.isItem() %}
     {% set categoryBreadcrumbs = services.category.getHierarchy() %}
+    {{ services.crossSelling.setType(config("Ceres.item.lists.cross_selling_type")) }}
 {% endif %}
 
 <html lang="{{ lang }}" data-framework="vue" prefix="og: http://ogp.me/ns#">
 
     <head>
         {% include getPartial('head') %}
-
+        
         {% block PartialHead %}
         {% endblock %}
     </head>
@@ -34,11 +35,10 @@
         <resource name="basket" route="/rest/io/basket/" data="{{ services.basket.getBasket() | json_encode() }}" :events="['AfterBasketChanged!basket']"></resource>
         <resource name="itemSearch" :data="{}"></resource>
         <resource name="basketItem" :data="{ currentBasketItem: { }, quantity: 1 }"></resource>
-        <resource name="localization" :data="{{ services.localization.getLocalizationData() | json_encode() }}"></resource>
-        <resource-list name="basketItems" route="/rest/io/basket/items/" response-template="Ceres::Basket.Basket" data="{{ services.basket.getBasketItemsForTemplate('Ceres::Basket.Basket') | json_encode() }}"></resource-list>
-
+        <resource name="localization" :data="{{ services.localization.getLocalizationData() | json_encode() }}" :events="['LocalizationChanged!localization']"></resource>
+        <resource-list name="basketItems" route="/rest/io/basket/items/" response-template="Kiom::Basket.Basket" data="{{ services.basket.getBasketItemsForTemplate('Ceres::Basket.Basket') | json_encode() }}"></resource-list>
         <resource name="isLoadingBreadcrumbs" :data="false"></resource>
-
+        
         <div class="wrapper wrapper-top">
             <!-- messages -->
             <notifications template="#vue-notifications"
@@ -150,6 +150,47 @@
 
             <script src="{{ plugin_path('Ceres') }}/js/dist/ceres.min.js"></script>
         {% endif %}
+        
+            <!--<script src="/layout/owl.carousel.min.js"></script>-->
+        {% if services.template.isSearch() %}
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $.urlParam = function (name) {
+                        var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                                          .exec(window.location.href);
+
+                        return results[1] || 0;
+                    }
+                    
+                    $(".search-result").html($.urlParam('query'));
+                    console.log($.urlParam('query'));
+
+                });
+        </script>
+        {% endif %}
+
+        <script type="text/javascript">
+          (function () { 
+            var _tsid = 'X8D11FBFA8294F98663446F6A28C07545'; 
+            _tsConfig = { 
+              'yOffset': '0', /* offset from page bottom */
+              'variant': 'reviews', /* default, reviews, custom, custom_reviews */
+              'customElementId': '', /* required for variants custom and custom_reviews */
+              'trustcardDirection': '', /* for custom variants: topRight, topLeft, bottomRight, bottomLeft */
+              'customBadgeWidth': '', /* for custom variants: 40 - 90 (in pixels) */
+              'customBadgeHeight': '', /* for custom variants: 40 - 90 (in pixels) */
+              'disableResponsive': 'false', /* deactivate responsive behaviour */
+              'disableTrustbadge': 'false' /* deactivate trustbadge */
+            };
+            var _ts = document.createElement('script');
+            _ts.type = 'text/javascript'; 
+            _ts.charset = 'utf-8'; 
+            _ts.async = true; 
+            _ts.src = '//widgets.trustedshops.com/js/' + _tsid + '.js'; 
+            var __ts = document.getElementsByTagName('script')[0];
+            __ts.parentNode.insertBefore(_ts, __ts);
+          })();
+        </script>
 
         <script>
             vueApp = new Vue({

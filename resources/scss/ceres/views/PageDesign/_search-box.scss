@@ -4,7 +4,7 @@
 
   z-index: 1070;
   position: fixed;
-  top: 30px;
+  top: 52px;
   right: 0;
   left: 0;
   width: 100%;
@@ -69,4 +69,15 @@
 
 .autocomplete-selected {
   background: $gray-lighter;
+}
+
+@include media-breakpoint-up(sm){
+  .cmp-search-box {
+    top: 47px;
+  }
+}
+@include media-breakpoint-up(lg){
+  .cmp-search-box {
+    top: 104px;
+  }
 }
