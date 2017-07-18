@@ -1,51 +1,23 @@
 .cmp-basket-preview-item{
-	display:table;
-	padding: .5em 0;
-	margin-bottom: 5px;
-
-	&:first-child{
-		padding-top: 0;
-	}
-
-	&:last-child{
-		padding-bottom: 0;
-	}
-
-	[class^="basket-item-"]{
-		display: table-cell;
-		vertical-align: top;
-		padding-right: .5em;
-
-		&:last-child{
-			padding-right: 0;
+	.item-remove {
+		left: auto;
+		right:0;
+		&.btn-danger:hover {
+			color: $white;
 		}
 	}
-	
-	.basket-item-image{
-		width:30%;
-
-		@include img-contain();
-
-		img{
-			
+	.eek-sign {
+		max-width: 4rem;
+		clear: both;
+		span {
+			font-size: 1.5em;
+			min-width: auto;
+			padding:0rem 1rem 0rem .75rem;
 		}
-	}
-	
-
-	.item-quantity,
-	.basket-item-quantity{
-		width: 3em;	
-
-		.btn{
-			padding-top: .25rem;
-			padding-bottom: .25rem;
+		&:after {
+			border-width: .8rem 0 .8rem .8rem;
 		}
 
-		.form-control{
-			padding-left: .25rem;
-		    padding-right: .25rem;
-		    text-align: center;
-		}
 	}
 
 	.basket-item-infos{
@@ -100,7 +72,7 @@
 	.item-remove{
 		position: absolute;
 	    bottom: 0;
-	    left:0;
+	    left:auto;
 	    line-height: 1;
 	    cursor: pointer;					
 		color: $gray-lighter;

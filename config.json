@@ -14,248 +14,94 @@
     },
     {
         "tab"       : "Homepage",
-        "key"       : "default.homepage",
-        "label"     : "Show default homepage",
-        "type"      : "checkbox",
-        "default"   : "true"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderItemId1",
-        "label"     : "ID of the item variation to display in the first slide of the image slider",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderImageUrl1",
-        "label"     : "URL to the image of the first slide",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderItemId2",
-        "label"     : "ID of the item variation to display in the second slide of the image slider",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderImageUrl2",
-        "label"     : "URL to the image of the second slide",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderItemId3",
-        "label"     : "ID of the item variation to display in the third slide of the image slider",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.sliderImageUrl3",
-        "label"     : "URL to the image of the third slide",
-        "type"      : "text"
-    },
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.heroExtraItemId1",
-        "label"     : "ID of the item variation to display in the upper item preview",
+        "key"       : "homepage.homepageImageFirstSlide",
+        "label"     : "Bildpfad für den ersten Slide",
         "type"      : "text",
-        "default"   : ""
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.heroExtraImageUrl1",
-        "label"     : "URL to the image of the upper item preview",
-        "type"      : "text"
+        "key"       : "homepage.homepageProductLinkFirstSlide",
+        "label"     : "Produkt-URL für den ersten Slide",
+        "type"      : "text",
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.heroExtraItemId2",
-        "label"     : "ID of the item variation to display in the lower item preview",
+        "key"       : "homepage.homepageProductNameFirstSlide",
+        "label"     : "Produkt-Name für den ersten Slide",
         "type"      : "text",
-        "default"   : ""
+        "default"   : "Produktname"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.heroExtraImageUrl2",
-        "label"     : "URL to the image of the lower item preview",
-        "type"      : "text"
-    },
-
-
-    {
-        "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory1",
-        "label"     : "Category to display in the first category preview",
-        "type"      : "category_select"
+        "key"       : "homepage.homepageImageSecondSlide",
+        "label"     : "Bildpfad für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory2",
-        "label"     : "Category to display in the second category preview",
-        "type"      : "category_select"
+        "key"       : "homepage.homepageProductLinkSecondSlide",
+        "label"     : "Produkt-URL für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory3",
-        "label"     : "Category to display in the first list of items",
-        "type"      : "category_select"
+        "key"       : "homepage.homepageProductNameSecondSlide",
+        "label"     : "Produkt-Name für den zweiten Slide",
+        "type"      : "text",
+        "default"   : "Produktname"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory4",
-        "label"     : "Category to display in the third category preview",
-        "type"      : "category_select"
+        "key"       : "homepage.homepageImageThirdSlide",
+        "label"     : "Bildpfad für den dritten Slide",
+        "type"      : "text",
+        "default"   : "https://placeholdit.imgix.net/~text?txtsize=66&txt=700%C3%97400&w=700&h=400"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory5",
-        "label"     : "Category to display in the fourth category preview",
-        "type"      : "category_select"
+        "key"       : "homepage.homepageProductLinkThirdSlide",
+        "label"     : "Produkt-URL für den dritten Slide",
+        "type"      : "text",
+        "default"   : "/"
     },
     {
         "tab"       : "Homepage",
-        "key"       : "homepage.homepageCategory6",
-        "label"     : "Category to display in the second list of items",
-        "type"      : "category_select"
-    },
-
-
-    {
-        "tab"       : "Header",
-        "key"       : "header.company_logo",
-        "label"     : "URL to your company logo",
+        "key"       : "homepage.homepageProductNameThirdSlide",
+        "label"     : "Produkt-Name für den dritten Slide",
         "type"      : "text",
-        "default"   : "images/ceres-logo.svg"
+        "default"   : "Produktname"
     },
     {
-        "tab"       : "Header",
-        "key"       : "header.company_name",
-        "label"     : "Name of your store",
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageTopCategoryId",
+        "label"     : "Kategorie ID für erste Top-Kategorie neben dem Slider",
         "type"      : "text",
-        "default"   : "Ceres Webshop"
+        "default"   : "16"
     },
     {
-        "tab"       : "Header",
-        "key"       : "header.show_navbars",
-        "label"     : "Position of the navigation bar",
-        "type"      : "dropdown",
-        "possibleValues":
-        {
-            "top"         : "At the top",
-            "side"         : "On the left",
-            "both"         : "At the top and on the left"
-        },
-        "default"   : "top"
-    },
-    {
-        "tab"       : "Header",
-        "key"       : "header.fixed_navbar",
-        "label"     : "Fix the navigation bar at the top of the page",
-        "type"      : "checkbox",
-        "default"   : "true"
-    },
-    {
-        "tab"           : "Footer",
-        "key"           : "footer.to_top_button",
-        "label"         : "Position of the Back-to-top button",
-        "type"          : "dropdown",
-        "possibleValues":
-        {
-            "right"          : "On the right at the bottom",
-            "bottom"         : "In the middle at the bottom"
-        },
-        "default"       : "right"
-    },
-    {
-        "tab"           : "Footer",
-        "key"           : "footer.number_of_features",
-        "label"         : "Number of store features",
-        "type"          : "dropdown",
-        "possibleValues":
-        {
-            "0"         : "0",
-            "1"         : "1",
-            "2"         : "2",
-            "3"         : "3"
-        },
-        "default"       : "3"
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.store_feature_1",
-        "label"     : "Text of first store feature",
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageTopCategory2Id",
+        "label"     : "Kategorie ID für zweite Top-Kategorie neben dem Slider",
         "type"      : "text",
-        "default"   : "Delivery period approx. 1 to 3 business days "
+        "default"   : "41"
     },
     {
-        "tab"       : "Footer",
-        "key"       : "footer.store_feature_2",
-        "label"     : "Text of second store feature",
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageFeatureCategoryId",
+        "label"     : "Kategorie ID für erste Featured-Kategorie unter den Topsellern",
         "type"      : "text",
-        "default"   : "Free shipping & return "
+        "default"   : "101"
     },
     {
-        "tab"       : "Footer",
-        "key"       : "footer.store_feature_3",
-        "label"     : "Text of third store feature",
+        "tab"       : "Homepage",
+        "key"       : "homepage.homepageFeatureCategory2Id",
+        "label"     : "Kategorie ID für zweite Featured-Kategorie unter den Topsellern",
         "type"      : "text",
-        "default"   : "100-day return policy"
-    },
-    {
-        "tab"           : "Footer",
-        "key"           : "footer.number_of_cols",
-        "label"         : "Number of columns",
-        "type"          : "dropdown",
-        "possibleValues":
-        {
-            "1"         : "1",
-            "2"         : "2",
-            "3"         : "3"
-        },
-        "default"       : "3"
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_1_title",
-        "label"     : "Title of first column",
-        "type"      : "text",
-        "default"   : "Shop"
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_1_categories",
-        "label"     : "List of IDs of categories to display in first column",
-        "type"      : "text",
-        "default"   : ""
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_2_title",
-        "label"     : "Title of second column",
-        "type"      : "text",
-        "default"   : "My account"
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_2_categories",
-        "label"     : "List of IDs of categories to display in second column",
-        "type"      : "text",
-        "default"   : ""
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_3_title",
-        "label"     : "Title of third column",
-        "type"      : "text",
-        "default"   : "Service"
-    },
-    {
-        "tab"       : "Footer",
-        "key"       : "footer.col_3_categories",
-        "label"     : "List of IDs of categories to display in third column",
-        "type"      : "text",
-        "default"   : ""
+        "default"   : "92"
     },
     {
         "tab"           : "Item view",

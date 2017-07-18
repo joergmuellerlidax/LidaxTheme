@@ -11,7 +11,7 @@
             {% if category.children %}
 
                 <li class="ddown">
-                    <a href="{{ currentScopeUrl }}" v-render-category="{{ category }}">{{ category.details[0].name }}</a>
+                    <a href="{{ currentScopeUrl }}" v-render-category="{{ category }}" data-img="/documents/{{ category.details[0].image2Path }}">{{ category.details[0].name }}</a>
 
                     <span class="hidden-lg-up nav-direction" data-toggle="collapse" href="#navDropdown{{ counter }}" aria-expanded="false">
                         <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -24,18 +24,22 @@
                         {% for child in category.children %}
                             {% if child.details | length > 0 %}
                                 <li>
-                                    <a href="{{ currentScopeUrl }}/{{ child.details[0].nameUrl }}" v-render-category="{{ child }}">{{ child.details[0].name }}</a>
+                                    <a href="{{ currentScopeUrl }}/{{ child.details[0].nameUrl }}" v-render-category="{{ child }}" data-img="/documents/{{ child.details[0].image2Path }}">{{ child.details[0].name }}</a>
                                 </li>
                             {% endif %}
                         {% endfor %}
-
+                        <li class="menu-cat-img">
+                            <a href="{{ currentScopeUrl }}">
+                                <img class="img-fluid" src="/documents/{{ category.details[0].image2Path }}">
+                            </a>
+                        </li>
                     </ul>
                 </li>
 
             {% else %}
 
                 <li>
-                    <a href="{{ currentScopeUrl }}" v-render-category="{{ category }}">{{ category.details[0].name }}</a>
+                    <a href="{{ currentScopeUrl }}" v-render-category="{{ category }}" >{{ category.details[0].name }}</a>
                 </li>
 
             {% endif %}

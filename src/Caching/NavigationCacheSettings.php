@@ -1,5 +1,5 @@
 <?php
-namespace Ceres\Caching;
+namespace Kiom\Caching;
 
 use IO\Services\ContentCaching\Contracts\CachingSettings;
 

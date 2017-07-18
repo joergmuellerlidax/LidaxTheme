@@ -16,7 +16,7 @@
 
 {% set page = request.get("page") | default(1) %}
 
-{% set paginatedResult      = services.itemLoader.loadForTemplate('Ceres::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'items':itemsPerPage, 'facets': facetParams, 'sorting': itemSort, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
+{% set paginatedResult      = services.itemLoader.loadForTemplate('Kiom::ItemList.ItemListView', itemLoaderPresets.categoryList, {'categoryId':category.id, 'page':page, 'items':itemsPerPage, 'facets': facetParams, 'sorting': itemSort, 'variationShowType': config("Ceres.item.variation_show_type")}) %}
 
 {% set pageMax = (paginatedResult.total / itemsPerPage) | round %}
 {% set query  = { 'items' : itemsPerPage, 'sorting' : itemSort } %}
@@ -25,17 +25,13 @@
 {% set paginationType       = config("Ceres.pagination.position") %}
 
 {% set lang         = services.sessionStorage.getLang() %}
-
-{% if showHeaderNavBar == "side" or showHeaderNavBar == "both" %}
-    {% set categories = services.category.getNavigationTree("item", lang, 6) %}
-{% endif %}
+{% set categories = services.category.getNavigationTree("item", lang, 6) %}
 
 {% set showHeaderNavBar = config("Ceres.header.show_navbars") %}
 
 {% set loadingAnimationType = config("Ceres.item.loading_animation_type") %}
 
 {% block PageBody %}
-
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterTagList") }}
     {{ component( "Ceres::ItemList.Components.ItemList") }}
@@ -49,34 +45,15 @@
     <resource name="itemList" :data="{ total: {{  paginatedResult.total | json_encode() }} }"></resource>
 
     <div class="categoriegrid page-content container-max">
-        <div class="row m-t-1">
+        <div class="cat-teaser row">
             <div class="col-xs-12">
-                <h1 class="h4">{{ category.details.first.name }}</h1>
+
+                <img class="img-fluid" src="/documents/category/{{ category.id }}/header.jpg">
+
             </div>
         </div>
 
-        <div class="list-controls m-b-3">
-            <div class="list-controls-inner">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="list-wrapper">
-                            <item-list-sorting template="#vue-item-list-sorting" :sort-data="{{ config("Ceres.sort.data") | split(', ') | json_encode() }}"></item-list-sorting>
-                            <items-per-page
-                                template="#vue-items-per-page"
-                                :columns-per-page="{{ config("Ceres.pagination.columnsPerPage") | json_encode() }}"
-                                :rows-per-page="{{ config("Ceres.pagination.rowsPerPage") | split(', ') | json_encode() }}"></items-per-page>
-                            <item-filter-list :facets="{{ paginatedResult.facets | json_encode }}"></item-filter-list>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {# TAGS #}
-            <item-filter-tag-list></item-filter-tag-list>
-        </div>
-
-        <div class="row">
-
+        <div class="row is-flex">
             {% if showHeaderNavBar == "side" or showHeaderNavBar == "both" %}
                 <div class="col-xs-3 hidden-md-down">
                     <div class="sidebar-categories">
@@ -88,29 +65,54 @@
                 </div>
 
             {% endif %}
+        
+            <div class="col-lg-9">
+                <div class="list-controls m-b-3">
+                    <div class="list-controls-inner">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="list-wrapper">
+                                    <item-list-sorting template="#vue-item-list-sorting" :sort-data="{{ config("Ceres.sort.data") | split(', ') | json_encode() }}"></item-list-sorting>
+                                    <items-per-page
+                                        template="#vue-items-per-page"
+                                        :columns-per-page="{{ config("Ceres.pagination.columnsPerPage") | json_encode() }}"
+                                        :rows-per-page="{{ config("Ceres.pagination.rowsPerPage") | split(', ') | json_encode() }}"></items-per-page>
+                                    <item-filter-list :facets="{{ paginatedResult.facets | json_encode }}"></item-filter-list>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col-xs-12 col-lg-{% if showHeaderNavBar == "side" or showHeaderNavBar == "both" %}9{% else %}12{% endif %}">
-
-                <div id="twig-rendered-item-list" class="item-list-frame{% if loadingAnimationType == "blur" %} blur-effect{% endif %}">
-
-                    {% if loadingAnimationType != "blur" %}
-                        {% include "Ceres::ItemList.Partials.LoadingAnimation" %}
-                    {% endif %}
-
-                    <ul class="product-list row grid" v-is-loading-watcher>
-                        {% for item in itemList %}
-                            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-{% if showHeaderNavBar == "side" or showHeaderNavBar == "both" %}4{% else %}3{% endif %}">
-                                {% include "Ceres::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    {# TAGS #}
+                    <item-filter-tag-list></item-filter-tag-list>
                 </div>
 
-                <div id="vue-rendered-item-list" style="display:none">
-                    <item-list template="#vue-item-list" :category-id="{{ category.id }}"></item-list>
-                </div>
+                <div class="row">
+                    <div class="col-xs-12">
 
+                        <div id="twig-rendered-item-list" class="item-list-frame{% if loadingAnimationType == "blur" %} blur-effect{% endif %}">
+
+                            {% if loadingAnimationType != "blur" %}
+                                {% include "Ceres::ItemList.Partials.LoadingAnimation" %}
+                            {% endif %}
+
+                            <ul class="product-list row grid" v-is-loading-watcher>
+                                {% for item in itemList %}
+                               <li class="col-xs-12 col-sm-6 col-md-4">
+                                    {% include "Kiom::Category.Item.Partials.CategoryListItem" with { 'item': item } %}
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+
+                        <div id="vue-rendered-item-list" style="display:none">
+                            <item-list template="#vue-item-list" :category-id="{{ category.id }}"></item-list>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+
         </div>
         <div class="list-controls m-b-3 row">
             <div class="col-xs-12">

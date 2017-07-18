@@ -1,16 +1,63 @@
-.categories-list{}
 
-.page-infos{
-	display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+.sidebar-categories {
+    background:$white;
+    font-family: $font-family-heading;
+    height: 100%;
+    .category-title {
+        background: $brand-primary;
+        padding: 1.2rem 2rem;
+        text-transform: uppercase;
+    }
+    ul {
+        @include reset-list();
+        li {
+            &.first-level {display:none;}
+            &.first-level.active {display:list-item;}
+            a {
+                display: block;
+                color: $gray-dark;
+                padding: .75rem 15px;
+                font-size: 1rem;
+                &:hover {
+                    color: $gray-darker;
+                    background: $gray-lightest;
+                }
+            }
+            ul {display:none;}
+            &.active {
+                & > ul {
+                    display: block;
+                }
+                ul {
+                    li {
+                        a {
+                            padding-left:1.5rem;
+                        }
+                        ul li {
+                            a {
+                                padding-left: 3.5rem;
+                            }
+                            ul li a {
+                                padding-left: 5.5rem;
+                            }
+                        }
 
-    .product-count{
-    	flex: 1;
+                    }
+                }
+            }
+            &.active {
+                &>a {
+                    background: $brand-secondary;
+                }
+            }
+        }
     }
 }
 
 
+.cat-teaser {
+    display: none;
+}
 .item-confirm-special-case-close {
   float: right;
 }
@@ -38,43 +85,20 @@
 .lazy{
     display:none;
 }
-
-@include media-breakpoint-up(sm){
-    .product-list{
-        li{
-            display: flex;
-        }
-    }
-
-    .product-list.grid{
-
-    	li{
-            box-shadow: none;
-            //@include make-col(6);
-            display: flex;
-    	}
-
-    }
-}
-
-@include media-breakpoint-up(md){
-    .product-list.grid{
-
-        li{
-            //@include make-col(4);
-            display: flex;
-        }
-    }
-}
-
 @include media-breakpoint-up(lg){
-      .product-list.grid{
+    .cat-teaser {
+        margin-top:-72px;
+        display: block;
+    }
 
-            li{
-                //@include make-col(3);
-                display: flex;
-            }
-      }
+
+    .product-list.grid{
+
+        li{
+            //@include make-col(3);
+            display: flex;
+        }
+    }
 
 }
 

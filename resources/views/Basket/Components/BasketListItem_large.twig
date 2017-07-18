@@ -16,11 +16,11 @@
         <quantity-input template="#vue-quantity-input" @quantity-change="updateQuantity" :value="basketItem.quantity" :vertical="true" :waiting="waiting"></quantity-input>
 
         <div class="item-unit-price">
-            ${ basketItem.variation.data.calculatedPrices.default.unitPrice | currency basketItem.variation.data.calculatedPrices.default.currency } / {{ trans("Ceres::Template.itemEach") }}
+            ${ basketItem.variation.data.calculatedPrices.default.unitPrice | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup> / {{ trans("Ceres::Template.itemEach") }}
         </div>
 
         <div class="item-total-price">
-            ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }
+            ${ basketItem.quantity * basketItem.variation.data.calculatedPrices.default.price | currency basketItem.variation.data.calculatedPrices.default.currency }<sup>*</sup>
         </div>
 
         <button type="button" class="item-remove btn btn-labeled btn-link btn-sm" @click="deleteItem" :disabled="waiting" :class="{ 'btn-link' : !deleteConfirmed, 'btn-danger' : deleteConfirmed }">
@@ -42,15 +42,35 @@
         <input type="checkbox" class="toggle-description" id="itemid-${ basketItem.variationId }" value="">
         <a class="clearfix" :href="basketItem.variation.data | itemURL">
             <div class="item-name">
-                ${ basketItem.variation.data.texts | itemName {{configItemName}} }
+                ${ basketItem.variation.data.texts | itemName {{configItemName}} }
             </div>
         </a>
 
-        {% if "basket.item.item_id" in basketDetailsData %}
-            <p class="id">
-                <strong>{{ trans("Ceres::Template.itemId") }}</strong> ${ basketItem.itemId }
-            </p>
-        {% endif %}
+        <p class="id">
+            <strong>{{ trans("Ceres::Template.itemNumber") }}:</strong> ${ basketItem.variation.data.variation.number}
+        </p>
+        <!-- <div class="eek-sign clearfix">
+            <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.variation.id"><span>A++</span></a>
+        </div> -->
+
+        <div>
+            <div v-for="prop in basketItem.variation.data.properties">
+                <div v-bind:class="{
+                    'eek-aaa': prop.property.names[0].name === 'A++',
+                    'eek-aa' : prop.property.names[0].name === 'A+',
+                    'eek-a' : prop.property.names[0].name === 'A',
+                    'eek-b' : prop.property.names[0].name === 'B',
+                    'eek-c' : prop.property.names[0].name === 'C',
+                    'eek-d' : prop.property.names[0].name === 'D',
+                    'eek-e' : prop.property.names[0].name === 'E',
+                    'hidden-xs-up' : prop.property.names[0].name === 'EEK Skala'
+                    }"
+                    class="eek-sign clearfix" v-if="prop.group.backendName === 'Energieeffizienzklasse'">
+                    <a :href="basketItem.variation.data.images.all[basketItem.variation.data.images.all.length - 1].url | json" :data-lightbox="basketItem.id"><span>${ prop.property.names[0].name }</span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <div class="item-description">
             {% if "basket.item.customNumber" in basketDetailsData %}
